@@ -3,10 +3,6 @@
     "Server": {
       "protocol": "https",
       "hostname": "ENTERPRISE_APP_HOSTNAME",
-      "port": {
-        "__name": "BRANCHOFF_PORT",
-        "__format": "json"
-      }
     }
   },
   "Server": {
@@ -26,9 +22,5 @@
     "__name": "IS_RUNNING_TEST",
     "__format": "json"
   },
-  "DeveloperNumber": "DEVELOPER_NUMBER",
   "NodeEnv": "NODE_ENV",
-  "Mode": "BRANCHOFF_MODE",
-  "AppId": "BRANCHOFF_VPID",
-  "AppBranch": "BRANCHOFF_BRANCH"
 }
