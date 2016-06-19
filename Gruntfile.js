@@ -24,7 +24,7 @@ module.exports = grunt => {
           ext: '.compiled.js'
         }]
       }
-    },
+    }
   };
 
   grunt.initConfig(gruntConfig);
