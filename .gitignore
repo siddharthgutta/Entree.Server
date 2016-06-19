@@ -3,6 +3,7 @@ logs
 *.log
 npm-debug.log*
 .idea/
+# Files produced from grunt compile
 *.compiled.js
 *.compiled.js.map
 # Dependency directory

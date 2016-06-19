@@ -12,6 +12,7 @@
     "config": "1.19.0",
     "cookie-parser": "1.4.0",
     "compression": "1.6.1",
+    "convert-source-map": "1.1.3",
     "expect.js": "0.3.1",
     "express": "4.13.3",
     "express-session": "1.13.0",
@@ -51,6 +52,10 @@
     "url": "https://github.com/siddharthgutta/Entree.Server/issues"
   },
   "homepage": "https://github.com/siddharthgutta/Entree.Server#readme",
+  "//": [
+    "Difference between dependencies and devDependencies",
+    "http://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies"
+  ],
   "devDependencies": {
     "babel-eslint": "4.1.8",
     "cordova": "6.0.0",
