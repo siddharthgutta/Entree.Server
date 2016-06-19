@@ -52,7 +52,7 @@
     "urijs": "1.17.1"
   },
   "scripts": {
-    "test": "set -e; mocha --timeout 15000 --no-exit -R dot",
+    "test": "set -e; mocha --recursive --timeout 15000 --no-exit -R dot",
     "tests": "set -e; for f in ./tests/*-test.compiled.js ; do npm run test $f; done",
     "start": "node index.compiled.js",
     "lint": "eslint --ext js,.es6,.jsx ./",
