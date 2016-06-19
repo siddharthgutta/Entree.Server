@@ -17,8 +17,6 @@ describe('FB Message Data', () => {
 
   describe('#ImageMessageData', () => {
     it('should create an image message correctly', () => {
-      console.log('WTF WHY IS THIS NOT WORKING\n');
-      console.log(__dirname);
       const url = `http://www.reactionface.info/sites/default/files/imagecache/` +
         `Node_Page/images/1287666826226.png`;
       const msgData = new ImageMessageData(url);
