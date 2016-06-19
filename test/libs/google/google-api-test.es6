@@ -2,7 +2,7 @@
  * Created by kfu on 4/28/16.
  */
 
-import {GooglePlacesAPI, GoogleMapsGeocodingAPI, GoogleURLShortenerAPI} from '../api/controllers/google.es6';
+import {GooglePlacesAPI, GoogleMapsGeocodingAPI, GoogleURLShortenerAPI} from '../../../api/controllers/google.es6';
 import assert from 'assert';
 
 describe('Google API', () => {
