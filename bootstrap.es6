@@ -3,9 +3,6 @@
  */
 
 import config from 'config';
-import Promise from 'bluebird';
-import fs from 'fs';
-import https from 'https';
 
 export function initServer() {
   const port = config.get('Server.port');
