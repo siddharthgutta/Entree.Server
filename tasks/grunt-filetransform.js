@@ -15,8 +15,6 @@ module.exports = function fileTransform(grunt) {
       this.files.forEach(file => {
         const input = file.src[0];
         const output = file.dest;
-
-        grunt.log.writeln(`Transforming...${input} --> ${output}`);
         const data = transformer.transform(input, output, options);
 
         for (const f in data) {

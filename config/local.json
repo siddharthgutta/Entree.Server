@@ -1,0 +1,11 @@
+{
+  "Client": {
+    "Server": {
+      "protocol": "http"
+    }
+  },
+  "Server": {
+    "protocol": "http",
+    "port": 3000
+  }
+}
