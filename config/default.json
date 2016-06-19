@@ -5,7 +5,6 @@
     },
     "Server": {
       "protocol": "https",
-      "port": 3000,
       "hostname": "localhost"
     }
   },
@@ -47,6 +46,13 @@
   "AppId": "local",
   "AppBranch": "local",
   "NodeEnv": "development",
+  "Slack": {
+    "Braintree": {
+      "apiToken": "xoxb-24692177427-lmcy1B4DFJ1VbCg4BQm9w2ce",
+      "channelId": "C0QLEKSV8",
+      "username": "braintreebot"
+    }
+  },
   "Braintree": {
     "production": {
       "merchantId": "v6zb835f45syvv22",
