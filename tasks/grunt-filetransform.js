@@ -9,11 +9,11 @@
 const fs = require('fs');
 const util = require('util');
 
-/**
+/*
  * Create JS file from es6 file
  */
 function createJSFromES6(grunt, transformer, input, output, options) {
-  console.log('Transforming: ' + input + '...' + output);
+  console.log(`Transforming: ${input} ... ${output}`);
   const data = transformer.transform(input, output, options);
 
   for (const f in data) {
@@ -24,8 +24,8 @@ function createJSFromES6(grunt, transformer, input, output, options) {
 }
 
 /**
- * Gets the last modified timestamp of a file 
- * 
+ * Gets the last modified timestamp of a file
+ *
  * @param {String} filePath: string path to the file
  * @returns {Number} timestamp of when the file was last modified
  */
@@ -64,12 +64,12 @@ module.exports = function fileTransform(grunt) {
               createJSFromES6(grunt, transformer, input, output, options);
               compiledCount += 1;
             } else {
-              console.log(output + ' is already up to date. | No Transform needed');
+              console.log(`${output} is already up to date. | No Transform needed`);
               alreadyCompiledCount += 1;
             }
           } catch (err) {
             // Error should not occur since input file should be exist, transforming anyways
-            console.log('Could not get stats for ' + input);
+            console.log(`Could not get stats for ${input}`);
             createJSFromES6(grunt, transformer, input, output, options);
             compiledCount += 1;
           }
@@ -80,7 +80,6 @@ module.exports = function fileTransform(grunt) {
         }
       });
     }
-    
-    console.log('Total Transformed: ' + compiledCount + '/' + (alreadyCompiledCount + compiledCount));
+    console.log(`Total Transformed: ${compiledCount}/${(alreadyCompiledCount + compiledCount)}`);
   });
 };
