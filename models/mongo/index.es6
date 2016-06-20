@@ -25,23 +25,4 @@ fs.readdirSync(__dirname)
 
 db.mongoose = mongoose;
 
-export async function close() {
-  mongoose.connection.close();
-}
-
-export async function clear() {
-  const collections = mongoose.connection.collections;
-  for (const col in collections) { //eslint-disable-line
-    if (collections.hasOwnProperty(col)) {
-      collections[col].remove();
-    }
-  }
-}
-
-export async function init(clearAll = false) {
-  if (clearAll) {
-    await clear();
-  }
-}
-
 export default db;
