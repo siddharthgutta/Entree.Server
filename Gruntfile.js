@@ -33,4 +33,12 @@ module.exports = grunt => {
     'clean:compiled',
     'filetransform:babel'
   ]);
+
+  grunt.registerTask('clear', [
+    'clean:compiled'
+  ]);
+
+  grunt.registerTask('lazy-compile', [
+    'filetransform:babel'
+  ]);
 };
