@@ -13,7 +13,7 @@ const googleUrlShortener = new GoogleURLShortener(googleApiKey);
 
 /**
  * Get location coordinates from zipcode
- *
+ * 
  * @param {String} zipcode: zipcode
  * @returns {Object} location object containing keys: lat, lng
  */

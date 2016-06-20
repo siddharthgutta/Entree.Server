@@ -4,7 +4,7 @@
 
 import assert from 'assert';
 import {ImageMessageData, GenericMessageData, TextMessageData,
-  ButtonMessageData, ReceiptMessageData} from '../libs/msg/facebook/message-data.es6';
+  ButtonMessageData, ReceiptMessageData} from '../../../libs/msg/facebook/message-data.es6';
 
 describe('FB Message Data', () => {
   const title1 = 'Title1';
