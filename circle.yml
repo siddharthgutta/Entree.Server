@@ -11,8 +11,8 @@ deployment:
   production:
     branch: production
     commands:
-      - ssh ubuntu@ec2-52-38-63-13.us-west-2.compute.amazonaws.com -i keys/entree.pem 'bash -s' < ./scripts/deploy_prod.sh
+      - ssh ubuntu@ec2-52-38-63-13.us-west-2.compute.amazonaws.com -i ./keys/entree.pem 'sh -s' < ./scripts/deploy_prod.sh
   staging:
     branch: staging
     commands:
-      - ssh ubuntu@ec2-52-41-69-134.us-west-2.compute.amazonaws.com -i keys/entree.pem 'bash -s' < ./scripts/deploy_staging.sh
+      - ssh ubuntu@ec2-52-41-69-134.us-west-2.compute.amazonaws.com -i ./keys/entree.pem 'sh -s' < ./scripts/deploy_staging.sh
