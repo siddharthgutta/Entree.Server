@@ -5,7 +5,7 @@ machine:
 test:
   pre:
     - npm run lint
-    - grunt compile
+    - grunt lazy-compile
 
 deployment:
   production:
