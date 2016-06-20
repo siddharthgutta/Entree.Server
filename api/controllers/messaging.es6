@@ -17,12 +17,10 @@ if (Runtime.isLocal()) {
   facebookCreds = config.get(`Facebook.${Runtime.getEnv()}`);
 }
 
-console.log(`Using Facebook ${Runtime.getEnv()} Credentials`);
-
 msgPlatform = new FBMessenger(facebookCreds.pageAccessToken, facebookCreds.verificationToken,
   facebookCreds.pageId, productionOrStaging);
 
-console.info('Initialized FB Messenger');
+console.info(`Initialized FB Messenger using ${Runtime.getEnv()} Credentials`);
 
 msgPlatform.on(FBMessenger.RECEIVED, async event => {
   Emitter.emit(Events.MSG_RECEIVED, event);
