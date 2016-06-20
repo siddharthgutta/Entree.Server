@@ -6,3 +6,13 @@ test:
   pre:
     - npm run lint
     - grunt compile
+
+deployment:
+  production:
+    branch: production
+    commands:
+      - ./scripts/deploy_prod.sh
+  staging:
+    branch: staging
+    commands:
+      - ./scripts/deploy_staging.sh
