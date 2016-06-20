@@ -36,6 +36,7 @@
     "grunt-contrib-clean": "0.7.0",
     "grunt-contrib-watch": "0.6.1",
     "jade": "1.11.0",
+    "keymirror": "0.1.1",
     "load-grunt-tasks": "3.4.0",
     "lodash": "4.13.1",
     "moment": "2.12.0",
@@ -57,6 +58,7 @@
     "test": "set -e; mocha --recursive --timeout 15000 --no-exit -R dot",
     "tests": "set -e; for f in ./tests/*-test.compiled.js ; do npm run test $f; done",
     "start": "node index.compiled.js",
+    "local": "NODE_ENV=local node index.compiled.js",
     "lint": "eslint --ext js,.es6,.jsx ./",
     "compile": "grunt compile"
   },
