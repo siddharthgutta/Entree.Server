@@ -30,15 +30,11 @@ module.exports = grunt => {
   grunt.initConfig(gruntConfig);
 
   grunt.registerTask('compile', [
+    'clean:compiled',
     'filetransform:babel'
   ]);
 
   grunt.registerTask('clear', [
     'clean:compiled'
-  ]);
-
-  grunt.registerTask('refresh', [
-    'clean:compiled',
-    'filetransform:babel'
   ]);
 };
