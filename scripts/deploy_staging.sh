@@ -1,7 +1,7 @@
 # We don't source .bashrc when using a non-interactive shell so we have to fix the PATH
 PATH=$PATH:/home/ubuntu/.nvm/versions/node/v4.4.5/bin
 
-cd /srv/
+cd /home/ubuntu/.pm2/repos
 
 # Check if the folder/branch folder already exists
 if cd $1; then
