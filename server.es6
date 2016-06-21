@@ -11,6 +11,7 @@ import http from 'http';
 import config from 'config';
 import compression from 'compression';
 import * as fs from 'fs';
+import FBMessengerRouter from './routes/fb-messenger.es6';
 
 const app = express();
 const ssl = {
@@ -32,5 +33,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // points app to public directory for static files
+
+// Sets up specific routes
+app.use('/fbmessenger', FBMessengerRouter);
 
 export default server;
