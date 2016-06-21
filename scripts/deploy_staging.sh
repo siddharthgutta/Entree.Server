@@ -43,7 +43,10 @@ appname=$(pm2 jlist | jq '.[] .name')
 for nameWithQuotes in $appname
 do
     # Delete any branches
+    echo $nameWithQuotes
     name=$(echo "$nameWithQuotes" | tr -d '"')
+    echo $name
+
     if [[ $name =~ ^$APP_BRANCH-[0-9]{4}$ ]]; then
         pm2 delete $name
     fi
