@@ -6,7 +6,6 @@ cd /home/ubuntu/.pm2/repos/master/Entree.Server
 # Setting environment variables
 export NODE_ENV="production"
 
-git pull
 git checkout master
 git pull
 npm install
