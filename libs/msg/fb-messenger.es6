@@ -35,7 +35,6 @@ export default class FBMessenger extends MsgPlatform {
    */
   constructor(pageAccessToken, verificationToken, pageId, productionOrSandbox) {
     super();
-    console.tag('libs', 'msg', 'fb-messenger').log(`Initialized FB Messenger`);
     this.pageAccessToken = pageAccessToken;
     this.verificationToken = verificationToken;
     this.pageId = pageId;
@@ -66,13 +65,13 @@ export default class FBMessenger extends MsgPlatform {
         }
       }, (error, response, body) => {
         if (error) {
-          console.tag('libs', 'msg', 'fb-messenger', 'welcome').log('Error sending message: ', error);
+          console.log('Error sending message: ', error);
           reject(error);
         } else if (response.body.error) {
-          console.tag('libs', 'msg', 'fb-messenger', 'welcome').log('Error: ', response.body.error);
+          console.log('Error: ', response.body.error);
           reject(response.body.error);
         } else {
-          console.tag('libs', 'msg', 'fb-messenger', 'welcome').log(`Response Body:`, body);
+          console.log(`Response Body:`, body);
           resolve(body);
         }
       });
@@ -97,13 +96,13 @@ export default class FBMessenger extends MsgPlatform {
         json: true
       }, (error, response, body) => {
         if (error) {
-          console.tag('libs', 'msg', 'fb-messenger').log('Error retrieving facebook profile info: ', error);
+          console.log('Error retrieving facebook profile info: ', error);
           reject(error);
         } else if (response.body.error) {
-          console.tag('libs', 'msg', 'fb-messenger').log('Error: ', response.body.error);
+          console.log('Error: ', response.body.error);
           reject(response.body.error);
         } else {
-          console.tag('libs', 'msg', 'fb-messenger').log(`Profile Info Body:`, body);
+          console.log(`Profile Info Body:`, body);
           resolve(body);
         }
       });
@@ -159,15 +158,15 @@ export default class FBMessenger extends MsgPlatform {
         }
       }, (error, response, body) => {
         if (error) {
-          console.tag('libs', 'msg', 'fb-messenger').log('Error sending message: ', error);
+          console.log('Error sending message: ', error);
           reject(error);
         } else if (response.body.error) {
-          console.tag('libs', 'msg', 'fb-messenger').log('Error: ', response.body.error);
+          console.log('Error: ', response.body.error);
           reject(response.body.error);
         } else {
-          console.tag('libs', 'msg', 'fb-messenger').log(`Response Body:`, body);
-          console.tag('libs', 'msg', 'fb-messenger').log(`Recipient Id:`, body.recipient_id);
-          console.tag('libs', 'msg', 'fb-messenger').log(`Message Id:`, body.message_id);
+          console.log(`Response Body:`, body);
+          console.log(`Recipient Id:`, body.recipient_id);
+          console.log(`Message Id:`, body.message_id);
           resolve(body);
         }
       });
@@ -187,13 +186,13 @@ export default class FBMessenger extends MsgPlatform {
      * Verification for setting up initial webhook
      */
     route.get('/webhook', (req, res) => {
-      console.tag('libs', 'msg', 'fb-messenger').log(`Received GET Verification Request:`, req.query);
+      console.log(`Received GET Verification Request:`, req.query);
       if (req.query['hub.verify_token'] === this.verificationToken) {
-        console.tag('libs', 'msg', 'fb-messenger').log('Verification: SUCCEEDED');
+        console.log('Verification: SUCCEEDED');
         res.send(req.query['hub.challenge']);
         return;
       }
-      console.tag('libs', 'msg', 'fb-messenger').log('Verification: FAILED');
+      console.log('Verification: FAILED');
       res.send('Error, wrong validation token');
     });
 
@@ -202,7 +201,7 @@ export default class FBMessenger extends MsgPlatform {
      */
     route.post('/webhook', async (req, res) => {
       const entries = req.body.entry;
-      console.tag('libs', 'msg', 'fb-messenger', 'WEBHOOK RECEIVED').log(req.body.entry);
+      console.log(req.body.entry);
       // Loop through each of the entries
       for (let i = 0; i < entries.length; i++) {
         const messagingEvents = entries[i].messaging;
