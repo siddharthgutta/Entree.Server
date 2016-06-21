@@ -6,6 +6,8 @@ test:
   pre:
     - npm run lint
     - grunt lazy-compile
+  override:
+    - npm run tests
 
 deployment:
   production:
