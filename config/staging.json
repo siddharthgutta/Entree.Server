@@ -24,6 +24,8 @@
   },
   "Server": {
     "protocol": "http",
-    "port": 443
+    "branch": {
+      "staging": 443
+    }
   }
 }

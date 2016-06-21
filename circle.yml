@@ -17,5 +17,4 @@ deployment:
     branch: /^(?!master$).*/
     commands:
       - chmod 400 ./keys/entree.pem
-      - echo $CIRCLE_BRANCH
       - ssh ubuntu@ec2-52-41-69-134.us-west-2.compute.amazonaws.com -i ./keys/entree.pem 'sh -s' < ./scripts/deploy_staging.sh $CIRCLE_BRANCH

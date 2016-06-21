@@ -6,6 +6,21 @@ import config from 'config';
 
 const env = config.get('NodeEnv');
 
+function setPort() {
+  if (isProduction() || isLocal()) {
+    return config.get('Server.port');
+  } else {
+    try {
+      const branchName = config.get('AppBranch');
+      return config.get(`Server.branch.${branchName}`);
+    } catch (err) {
+      return config.get('NodePort');
+    }
+  }
+}
+
+const port = setPort();
+
 /**
  * @returns {boolean} true if system is running locally
  */
@@ -32,4 +47,11 @@ export function isProduction() {
  */
 export function getEnv() {
   return env;
+}
+
+/**
+ * @returns {String} app port
+ */
+export function getPort() {
+  return port;
 }

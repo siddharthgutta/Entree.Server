@@ -2,6 +2,11 @@
 PATH=$PATH:/home/ubuntu/.nvm/versions/node/v4.4.5/bin
 
 cd /srv/Entree.Server
+
+# Setting environment variables
+export NODE_ENV="production"
+
+git pull
 git checkout master
 git pull
 npm install
