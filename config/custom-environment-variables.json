@@ -13,5 +13,7 @@
     "__name": "IS_RUNNING_TEST",
     "__format": "json"
   },
+  "AppBranch": "APP_BRANCH",
+  "NodePort": "NODE_PORT",
   "NodeEnv": "NODE_ENV"
 }
