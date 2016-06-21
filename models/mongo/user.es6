@@ -9,12 +9,11 @@ const userSchema = new mongoose.Schema({
     type: String,
     unique: true,
     validate: {
-      validator: id => id.length > 0 && id.legnth <= 36
+      validator: id => id.length > 0 && id.length <= 36
     }
   },
   receiptCount: {
     type: Number,
-    required: true,
     default: 1
   }
 });
