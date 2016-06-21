@@ -42,11 +42,8 @@ appname=$(pm2 jlist | jq '.[] .name')
 # Iterate through the apps in pm2
 for nameWithQuotes in $appname
 do
-    # Delete any branches
-    echo $nameWithQuotes
+    # Delete any deployed servers with the same branch name
     name=$(echo "$nameWithQuotes" | tr -d '"')
-    echo $name
-
     if [[ $name =~ ^$APP_BRANCH-[0-9]{4}$ ]]; then
         pm2 delete $name
     fi
