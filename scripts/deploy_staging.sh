@@ -35,4 +35,19 @@ echo "Free Port Chosen: $NODE_PORT"
 git checkout $APP_BRANCH
 npm install
 grunt compile
-pm2 restart index.compiled.js --name "$APP_BRANCH-$NODE_PORT" -f
+
+# Get a list of appnames from pm2
+appname=$(pm2 jlist | jq '.[] .name')
+
+# Iterate through the apps in pm2
+for nameWithQuotes in $appname
+do
+    # Delete any branches
+    name=$(echo "$nameWithQuotes" | tr -d '"')
+    if [[ $name =~ ^$APP_BRANCH-[0-9]{4}$ ]]; then
+        pm2 delete $name
+    fi
+done
+
+# Deploy the branch on the unused port
+pm2 start index.compiled.js --name "$APP_BRANCH-$NODE_PORT"
