@@ -10,5 +10,5 @@ git pull
 git checkout master
 git pull
 npm install
-grunt lazy-compile
+grunt compile
 pm2 restart index.compiled.js --name "master"
