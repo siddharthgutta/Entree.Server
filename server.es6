@@ -22,6 +22,7 @@ const ssl = {
   rejectUnauthorized: config.get('Server.httpsRejectUnauthorized')
 };
 
+console.log(config.get('Server.protocol'));
 const server = config.get('Server.protocol') === 'https' ? https.createServer(ssl, app) : http.createServer(app);
 
 app.set('views', path.join(__dirname, 'views'));  // points app to location of the views
