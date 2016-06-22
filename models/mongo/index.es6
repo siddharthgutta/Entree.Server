@@ -23,14 +23,14 @@ fs.readdirSync(__dirname)
     exports[model.modelName] = model;
   });
 
-/**
+/*
  * Closes the connection to mongodb
  */
 export async function close() {
   mongoose.connection.close();
 }
 
-/**
+/*
  * Clears all collections in mongodb. Used for testing purposes
  */
 export async function clear() {
