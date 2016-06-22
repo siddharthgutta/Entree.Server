@@ -23,9 +23,9 @@
     }
   },
   "Server": {
-    "protocol": "http",
+    "protocol": "https",
     "branch": {
-      "staging": 2999
+      "staging": 443
     }
   }
 }
