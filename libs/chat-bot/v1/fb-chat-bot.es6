@@ -2,9 +2,7 @@
 /* eslint-disable babel/generator-star-spacing,one-var,valid-jsdoc */
 
 import _ from 'underscore';
-import * as User from '../../../api/controllers/consumer.es6';
-import * as Goog from '../../../api/controllers/google.es6';
-import {PlaceTypes} from '../../google/placeType.es6';
+import * as Consumer from '../../../api/controllers/consumer.es6';
 import {GenericMessageData, TextMessageData, ReceiptMessageData, ButtonMessageData}
   from '../../msg/facebook/message-data.es6';
 
@@ -245,106 +243,6 @@ export default class FbChatBot {
   }
 
   /**
-   * Executed when user presses the ViewMenu button of a restaurant
-   *
-   * @param {Object} payload: Restaurant whose menu we are displaying
-   * @returns {Object}: GenericMessageData containing the menu items
-   * @private
-   */
-  async _handleMenu(payload) {
-    /* Get the actual restaurant menu */
-    let text, response;
-    try {
-      text = new TextMessageData('Once you select a restaurant, we\'ll show you menu items that you can order. ' +
-        'Here are two menu items. Click \'Add to Cart\' to see how your receipt will look like.');
-
-      response = new GenericMessageData();
-      const restaurant = this._getData(payload).restaurant; // eslint-disable-line
-      const restaurantMenuItems = menus[restaurant.title];
-
-      _.each(restaurantMenuItems, item => {
-        response.pushElement(item.title, item.subtitle, item.imageUrl);
-        response.pushPostbackButton('Add to Cart', this._genPayload(actions.addItem, {item, restaurant}));
-      });
-    } catch (err) {
-      throw new TraceError('Failed to generate menu items', err);
-    }
-    return [text, response];
-  }
-
-  /**
-   * Executed when user presses AddItem of a single menu item
-   *
-   * @param {Object} payload: Contains the item object the user added
-   * @param {Object} user: The user who added the item
-   * @returns {Object}: ReceiptMessageData of what the receipt looks like and a show me more button
-   * @private
-   */
-  async _handleAddItem(payload, user) {
-    let response, button;
-    try {
-      const item = this._getData(payload).item;
-      const restaurant = this._getData(payload).restaurant;
-
-      response = new ReceiptMessageData(`${user.firstName} ${user.lastName}`,
-        user.receiptCount.toString(), 'USD', 'Visa 2345');
-
-      response.pushElement(`${item.title} from ${restaurant.title}`, 1, item.price, 'USD', item.imageUrl,
-        item.subtitle);
-      response.addSummary(item.price);
-
-      button = new ButtonMessageData('This is what your receipt might look like. Now let\'s show you what else ' +
-        'you can do with Entrée.');
-      button.pushPostbackButton('Show Me More', this._genPayload(actions.orderAgain, {item, restaurant}));
-    } catch (err) {
-      throw new TraceError('Failed to generate receipt', err);
-    }
-
-    try {
-      /* Increment receipt count */
-      await User.UserModel.update(user.id, {receiptCount: user.receiptCount + 1});
-    } catch (err) {
-      throw new TraceError(`Failed to increment receipt count for user ${user.id}`, err);
-    }
-
-    return [response, button];
-  }
-
-  /**
-   * Executed when user presses the Show Me More button
-   *
-   * @param {Object} payload: the item the user previously ordered
-   * @returns {Object}: TextMessageData and Button allow user to press OrderAgain
-   * @private
-   */
-  async _handleOrderAgain(payload) {
-    let text, response;
-    try {
-      text = new TextMessageData('Entrée\'s coolest feature is that we let you save your previous orders and let' +
-        ' you re-order in a few clicks. For example, here are my last few orders. I can reorder these' +
-        ' with a touch of a button. Click \'Order Again\' for any of these.');
-
-      const item = this._getData(payload).item;
-      const restaurant = this._getData(payload).restaurant;
-
-      /* Need to format order again better */
-      response = new GenericMessageData();
-      response.pushElement(restaurant.title, item.title, restaurant.imageUrl);
-      response.pushPostbackButton('Order Again', this._genPayload(actions.confirmation));
-      for (const idx in restaurants) {
-        if (restaurants[idx].title !== restaurant.title) {
-          response.pushElement(restaurants[idx].title, menus[restaurants[idx].title][0].title,
-            restaurants[idx].imageUrl);
-          response.pushPostbackButton('Order Again', this._genPayload(actions.confirmation));
-        }
-      }
-    } catch (err) {
-      throw new TraceError('Failed to generate order again message', err);
-    }
-    return [text, response];
-  }
-
-  /**
    * Executed after the user presses the Order Again button
    *
    * @returns {Object}: Button containing instructions on what to do next
@@ -385,55 +283,6 @@ export default class FbChatBot {
   }
 
   /**
-   * Executed after user enters in Location
-   *
-   * @returns {Object}: Instructions on how to search
-   * @private
-   */
-  async _handleSearch() {
-    let text;
-    try {
-      text = new TextMessageData('Thanks! For now, I can search for restaurants near you. Type any keyword to ' +
-        'start (Ex: chipotle, thai food, etc.). Feel free to add more restaurants to your wishlist so I can tell ' +
-        'you when you can order ahead and get great deals.');
-    } catch (err) {
-      throw new TraceError('Failed to generate search message', err);
-    }
-
-    return [text];
-  }
-
-  /**
-   * Execute when user taps AddToWishlist button for a specific item
-   *
-   * @param {Object} payload: Item that user wants to add to wishlist
-   * @param {Object} user: User object who added the item
-   * @returns {Object}: Returns instructions on next steps
-   * @private
-   */
-  async _handleAddToWishList(payload, user) {
-    let button;
-    try {
-      const placeId = this._getData(payload).placeId;
-      if (await User.UserModel.hasWishListPlace(user.fbId, placeId)) {
-        return [new TextMessageData('You already have that place on your wishlist!')];
-      }
-
-      const details = await Goog.getPlaceDetailsFromPlaceId(placeId);
-      await User.UserModel.addToWishList(user.fbId, placeId);
-
-      button = new ButtonMessageData(`${details.name} has been added to your wishlist. I’ll let you know when ` +
-        'you can order food or get a great deal. If you want to add any more restaurants, ' +
-        'type to search again (Ex: torchy’s tacos, sandwiches, etc.) or you can go through the walkthrough again');
-      button.pushPostbackButton('Re-Do Walkthrough', this._genPayload(actions.restaurant));
-    } catch (err) {
-      throw new TraceError('Failed to add place to wish list', err);
-    }
-
-    return [button];
-  }
-
-  /**
    * Executed when user presses the MoreInfo button on a specific restaurautn searched
    *
    * @param {Object} payload: Restaurant tht was searched
@@ -444,7 +293,6 @@ export default class FbChatBot {
     let button;
     try {
       const placeId = this._getData(payload).placeId;
-      const details = await Goog.getPlaceDetailsFromPlaceId(placeId);
 
       button = new ButtonMessageData(`${details.name} has an average rating of ${details.rating}/5 and you ` +
         `can call them at ${details.formatted_phone_number}`);
@@ -459,100 +307,6 @@ export default class FbChatBot {
   }
 
   /**
-   * Does the actual searching when user types in text to search
-   *
-   * @param {Object} event: The event associated with the user input
-   * @param {Object} user: User who searched
-   * @returns {Object}: Generic message data containing results of the search
-   * @private
-   */
-  async _search(event, user) {
-    if (!(await this._hasWishlist(user.fbId))) {
-      return await this._handleInitialWishList(event, user);
-    }
-
-    let response;
-    try {
-      const location = await User.UserModel.getDefaultLocation(user.fbId);
-
-      const inputText = event.message.text.trim();
-      const searchResults = await Goog.searchPlacesByName(inputText, location.latitude, location.longitude, placeTypes);
-      if (searchResults.length === 0) {
-        const text = new TextMessageData(`Sorry we could not find anything for ${inputText}. ` +
-          `Please try something else`);
-        return [text];
-      }
-
-      response = new GenericMessageData();
-      for (let idx = 0; idx < 10 && idx < searchResults.length; idx++) {
-        const place = searchResults[idx];
-        const photoUrl =
-          place.photos ? await Goog.getShortUrlFromPhotoReference(place.photos[0].photo_reference) : null;
-        const details = await Goog.getPlaceDetailsFromPlaceId(place.place_id);
-        response.pushElement(place.name,
-          `${details.formatted_address} - Price Range: ${'$'.repeat(place.price_level)}`, photoUrl);
-        response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {placeId: place.place_id}));
-        response.pushPostbackButton('Add to Wish list',
-          this._genPayload(actions.addToWishList, {placeId: place.place_id}));
-      }
-    } catch (err) {
-      throw new TraceError('Failed during search', err);
-    }
-
-    return [response];
-  }
-
-  /**
-   * When the user types in his or her favorite 3 restaurants
-   *
-   * @param {Object} event: input event from messenger
-   * @returns {Object}: messengerPlace output
-   */
-  async _handleInitialWishList(event, user) {
-    const inputText = event.message.text;
-    const places = inputText.split(',');
-
-    /* Sanitize user input */
-    _.each(places, place => place.trim());
-
-    let response, button;
-    try {
-      const location = await User.UserModel.getDefaultLocation(user.fbId);
-      response = new GenericMessageData();
-
-      const notFound = [];
-      for (let idx = 0; idx < places.length; idx++) { // eslint-disable-line
-        const result = await Goog.searchPlacesByName(places[idx], location.latitude, location.longitude);
-        if (result.length === 0) {
-          notFound.push(places[idx]);
-        } else {
-          const place = result[0];
-          const details = await Goog.getPlaceDetailsFromPlaceId(place.place_id);
-          await User.UserModel.addToWishList(user.fbId, place.place_id);
-          const photoUrl =
-            place.photos ? await Goog.getShortUrlFromPhotoReference(place.photos[0].photo_reference) : null;
-          response.pushElement(place.name,
-            `${details.formatted_address} - Price Range: ${'$'.repeat(place.price_level)}`, photoUrl);
-          response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {placeId: place.place_id}));
-        }
-      }
-
-      if (notFound.length === 0) {
-        button = new ButtonMessageData('We have added the above restaurants to your wish list');
-      } else {
-        button = new ButtonMessageData(`Sorry we could not find anything for ${notFound.join(', ')}, but we have ` +
-          `added the above restaurants to your wish list`);
-      }
-
-      button.pushPostbackButton('Continue', this._genPayload(actions.search));
-    } catch (err) {
-      throw new TraceError('Could not create initial wish list response', err);
-    }
-
-    return [response, button];
-  }
-
-  /**
    * Updates a user's location
    *
    * @param {Object} event: input event from messenger
@@ -562,25 +316,27 @@ export default class FbChatBot {
     const inputText = event.message.text;
     if (inputText) { /* In this case the input is a zip code */
       try {
-        const location = await Goog.getLocationCoordinatesFromZipcode(inputText);
-        await User.UserModel.addLocation(user.fbId, location.lat, location.lng);
+        // TODO Insert Consumer.AddLocation call here
       } catch (err) {
-        throw new TraceError('Failed to update user location with zipcode', err);
+        // TODO Catch error for Consumer.AddLocation
       }
     } else { /* In this case the input is a location attachment sent from mobile */
       try {
         const attachment = event.message.attachments[0];
-        await User.UserModel.addLocation(user.fbId, attachment.payload.coordinates.lat,
-          attachment.payload.coordinates.long);
+        // TODO Insert Consumer.addLocation call here
+        // await User.UserModel.addLocation(user.fbId, attachment.payload.coordinates.lat,
+        //   attachment.payload.coordinates.long);
       } catch (err) {
-        throw new TraceError('Failed to update user location with attachment', err);
+        // TODO Catch error for Consumer.AddLocation
       }
     }
 
-    const text = new TextMessageData('Thanks! Now tell me your three favorite restaurants where you want to ' +
-      'order from.  I will notify you when you can order food or get a great deal from there. Please separate ' +
-      'them with a comma (Ex: Chick-fil-a, In-n-out, Chipotle)');
-    return [text];
+    // TODO Insert response message data here
+    // const text = new TextMessageData('Thanks! Now tell me your three favorite restaurants where you want to ' +
+    //   'order from.  I will notify you when you can order food or get a great deal from there. Please separate ' +
+    //   'them with a comma (Ex: Chick-fil-a, In-n-out, Chipotle)');
+    // return [text];
+    return [];
   }
 
   /**
@@ -592,32 +348,15 @@ export default class FbChatBot {
    */
   async _findOrCreateUser(event) {
     const sender = event.sender.id;
-    const user = await User.UserModel.findOneByFbId(sender);
+    const user = await Consumer.findOneByFbId(sender);
 
     if (user) {
       return user;
     }
 
     const profile = await this.msgPlatform.getFacebookProfileInfo(sender);
-    const newUser = await User.UserModel.createFbUser(sender, profile.first_name, profile.last_name);
+    const newUser = await Consumer.createFbUser(sender, profile.first_name, profile.last_name);
     return newUser;
-  }
-
-  /**
-   * Checks if a user has a wish list
-   *
-   * @param {String} fbId: FB ID of the user
-   *
-   * @private
-   * @returns {Boolean}: true if wishlist exists and false otherwise
-   */
-  async _hasWishlist(fbId) {
-    const wishList = await User.UserModel.findWishList(fbId);
-    if (wishList && wishList.length > 0) {
-      return true;
-    }
-
-    return false;
   }
 
   /**
