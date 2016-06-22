@@ -1,6 +1,6 @@
 import models from '../../models/mongo/index.es6';
 
-const User = models.User;
+const Consumer = models.Consumer;
 /**
  * IMPORTANT: Must return promises!
  */
@@ -12,7 +12,7 @@ const User = models.User;
  * @returns {Promise}: returns a User object
  */
 export async function create(attributes) {
-  return await (new User(attributes)).save();
+  return await (new Consumer(attributes)).save();
 }
 
 /**
@@ -22,5 +22,5 @@ export async function create(attributes) {
  * @returns {Promise}: returns a SocketToken object
  */
 export async function findOne(attributes) {
-  return await User.findOne(attributes).exec();
+  return await Consumer.findOne(attributes).exec();
 }

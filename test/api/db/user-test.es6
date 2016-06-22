@@ -1,8 +1,8 @@
-import * as User from '../../../api/db/user.es6';
+import * as Consumer from '../../../api/db/consumer.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 
-describe('User DB API', () => {
+describe('Consumer DB API', () => {
   const attributes = {
     fbId: 'The Id',
     customerId: '123',
@@ -14,17 +14,17 @@ describe('User DB API', () => {
   });
 
   describe('#create()', () => {
-    it('should create a User object successfully', async () => {
-      const user = await User.create(attributes);
+    it('should create a Consumer object successfully', async () => {
+      const consumer = await Consumer.create(attributes);
 
-      assert.equal(user.fbId, attributes.fbId);
-      assert.equal(user.customerId, attributes.customerId);
-      assert.equal(user.receiptCount, attributes.receiptCount);
+      assert.equal(consumer.fbId, attributes.fbId);
+      assert.equal(consumer.customerId, attributes.customerId);
+      assert.equal(consumer.receiptCount, attributes.receiptCount);
     });
 
-    it('should fail to create a User with no fbId', async () => {
+    it('should fail to create a Consumer with no fbId', async () => {
       try {
-        await User.create({
+        await Consumer.create({
           customerId: '123',
           receiptCount: 1
         });
@@ -38,23 +38,23 @@ describe('User DB API', () => {
 
   describe('#findOne()', () => {
     it('should find a producer correctly', async () => {
-      await User.create(attributes);
-      await User.create({
+      await Consumer.create(attributes);
+      await Consumer.create({
         fbId: 'Someone Else',
         customerId: 'Another Id',
         receiptCount: 1
       });
 
-      const user = await User.findOne({fbId: attributes.fbId});
+      const consumer = await Consumer.findOne({fbId: attributes.fbId});
 
-      assert.equal(user.fbId, attributes.fbId);
-      assert.equal(user.customerId, attributes.customerId);
-      assert.equal(user.receiptCount, attributes.receiptCount);
+      assert.equal(consumer.fbId, attributes.fbId);
+      assert.equal(consumer.customerId, attributes.customerId);
+      assert.equal(consumer.receiptCount, attributes.receiptCount);
     });
 
     it('should return null if nothing is found', async () => {
-      const user = await User.findOne({fbId: attributes.fbId});
-      assert.equal(user, null);
+      const consumer = await Consumer.findOne({fbId: attributes.fbId});
+      assert.equal(consumer, null);
     });
   });
 });

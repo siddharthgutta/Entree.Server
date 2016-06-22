@@ -2,7 +2,7 @@
 /* eslint-disable babel/generator-star-spacing,one-var,valid-jsdoc */
 
 import _ from 'underscore';
-import * as User from '../../../api/controllers/user.es6';
+import * as User from '../../../api/controllers/consumer.es6';
 import * as Goog from '../../../api/controllers/google.es6';
 import {PlaceTypes} from '../../google/placeType.es6';
 import {GenericMessageData, TextMessageData, ReceiptMessageData, ButtonMessageData}
