@@ -25,7 +25,13 @@ get_unused_port() {
 
 # Setting environment variables
 export NODE_ENV="staging"
-export NODE_PORT="$(get_unused_port)"
+
+if [[ "$1" == "staging" ]]; then
+    export NODE_PORT=2999
+else
+    export NODE_PORT="$(get_unused_port)"
+fi
+
 export APP_BRANCH="$1"
 
 echo "Branch Pushed: $APP_BRANCH"
