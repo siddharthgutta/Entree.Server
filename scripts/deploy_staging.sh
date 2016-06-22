@@ -35,9 +35,9 @@ fi
 export APP_BRANCH="$1"
 
 # Sets up the SSL keys
-export HTTPS_SSL_KEY=$(cat ./keys/staging.textentree.com.key)
-export HTTPS_SSL_CERTIFICATE=$(cat ./keys/staging.textentree.com.crt)
-export HTTPS_SSL_CA=$(cat ./keys/staging.textentree.com.chain.crt)
+export HTTPS_SSL_KEY="./keys/staging.textentree.com.key"
+export HTTPS_SSL_CERTIFICATE="./keys/staging.textentree.com.crt"
+export HTTPS_SSL_CA="keys/staging.textentree.com.chain.crt"
 
 echo "Branch Pushed: $APP_BRANCH"
 echo "Free Port Chosen: $NODE_PORT"
