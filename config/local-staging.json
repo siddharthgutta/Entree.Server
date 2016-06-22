@@ -3,23 +3,18 @@
     "username": "root",
     "password": "123456",
     "database": "entree",
+    "clearOnStart": true,
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "logging": false,
+    "revision": "test"
   },
   "MongoDb": {
+    "clearOnStart": true,
     "username": "root",
     "password": "123456",
-    "database": "entree",
+    "database": "entree_test",
     "host": "127.0.0.1",
     "port": "27017"
-  },
-  "Client": {
-    "Server": {
-      "protocol": "http"
-    }
-  },
-  "Server": {
-    "protocol": "https",
-    "port": 443
   }
 }

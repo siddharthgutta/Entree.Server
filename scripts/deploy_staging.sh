@@ -47,7 +47,7 @@ get_unused_port() {
 export NODE_ENV="staging"
 
 if [[ "$1" == "staging" ]]; then
-    export NODE_PORT=2999
+    export NODE_PORT=443
 else
     export NODE_PORT="$(get_unused_port)"
 fi

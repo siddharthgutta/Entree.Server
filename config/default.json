@@ -10,7 +10,8 @@
   },
   "Mode": "manual",
   "Server": {
-    "protocol": "https",
+    "protocol": "http",
+    "port": 3000,
     "httpsRejectUnauthorized": false,
     "sslKey": "./keys/textentree.com.key",
     "sslCert": "./keys/textentree.com.crt",
