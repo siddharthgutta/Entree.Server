@@ -7,15 +7,11 @@ import {GenericMessageData, TextMessageData, ReceiptMessageData, ButtonMessageDa
   from '../../msg/facebook/message-data.es6';
 
 export const actions = {
-  restaurant: 'Restaurant',
-  menu: 'Menu',
-  addItem: 'AddItem',
-  orderAgain: 'OrderAgain',
-  requestLocation: 'RequestLocation',
-  search: 'Search',
-  moreInfo: 'MoreInfo',
+  seeTrucks: 'See Trucks',
+  orderFood: 'Order Food',
+  moreInfo: 'More Info',
   confirmation: 'Confirmation',
-  addToWishList: 'AddToWishList'
+  otherTrucks: 'Other Trucks'
 };
 
 export const events = {
@@ -28,72 +24,20 @@ export const events = {
 export const restaurants = [
   {
     title: 'Panera Bread',
-    subtitle: 'Fast-casual bakery chain that serves artisanal sandwiches, soups, and more. ' +
-      '\nHours: 6AM-9PM \nRating: 4.5',
+    subtitle: 'Fast-casual bakery chain that serves artisanal sandwiches, soups, and more. ',
     imageUrl: 'https://i.imgur.com/iEwGMjv.jpg'
   },
   {
     title: 'Chipotle',
-    subtitle: 'Mexican fast-casual chain serving custom-made burritos and bowls. ' +
-      '\nHours: 11AM-10PM\nRating: 4.4',
+    subtitle: 'Mexican fast-casual chain serving custom-made burritos and bowls. ',
     imageUrl: 'https://i.imgur.com/AC2PjhS.jpg'
   },
   {
     title: 'Chi\'lantro',
-    subtitle: 'Austin, Texas based Korean-Mexican fusion with multiple food trucks and restaurants. ' +
-      '\nHours: 10:30AM - 10PM\nRating: 4.8',
+    subtitle: 'Austin, Texas based Korean-Mexican fusion with multiple food trucks and restaurants. ',
     imageUrl: 'https://i.imgur.com/j0W2jbo.jpg'
   }
 ];
-
-export const menus = {
-  'Panera Bread': [
-    {
-      title: 'Italian Combo On Ciabatta',
-      subtitle: 'roast beef, smoked turkey, ham, salami, swiss, peperoncini, lettuce, tomatoes, ' +
-        'onions & our special spread',
-      imageUrl: 'https://i.imgur.com/QdQTJu9.jpg',
-      price: 8.59
-    },
-    {
-      title: 'Roasted Turkey Fuji Apple Salad',
-      subtitle: 'mixed field greens, romaine, tomatoes, onions, pecans, gorgonzola, apple chips & white ' +
-        'balsamic fuji apple vinaigrette',
-      imageUrl: 'https://i.imgur.com/GCUzQNX.jpg',
-      price: 8.99
-    }
-  ],
-  'Chipotle': [ // eslint-disable-line quote-props
-    {
-      title: 'Chicken Burrito',
-      subtitle: 'with brown rice, shredded cheese, pico de gallo, and guacamole',
-      imageUrl: 'https://i.imgur.com/LEuvROh.jpg',
-      price: 8.30
-    },
-    {
-      title: 'Vegetarian Bowl',
-      subtitle: 'with brown rice, vegetable fajitas, pico de gallo, sour cream, lettuce, and hot sauce',
-      imageUrl: 'https://i.imgur.com/4lhY42l.jpg',
-      price: 6.50
-    }
-  ],
-  'Chi\'lantro': [
-    {
-      title: 'The Original Kimchi Fries',
-      subtitle: 'choice of protein, caramelized kimchi, cheddar + monterey jack, onions, cilantro, ' +
-        'magic sauce, sesame seeds, sriracha',
-      imageUrl: 'https://i.imgur.com/XDda2St.jpg',
-      price: 7.49
-    },
-    {
-      title: 'Rice Bowl',
-      subtitle: 'lime buttered rice or brown rice, black beans, grilled corn, garden veggies, kimchi, ' +
-        'fried egg, house made salsa',
-      imageUrl: 'https://i.imgur.com/KGjmUB0.jpg',
-      price: 7.49
-    }
-  ]
-};
 
 const placeTypes = [PlaceTypes.restaurant, PlaceTypes.cafe, PlaceTypes.bakery];
 
@@ -105,9 +49,10 @@ export default class FbChatBot {
     // Then, search for the bot you are trying to have a conversation with
     // Then, the welcome message should be shown
     /* Setup welcome message */
-    const welcomeMessage = new ButtonMessageData('Hi I\'m Entrée! I help you order food, get great deals, and find ' +
-      'new places to eat. We\'re currently in Beta, but press start to see what you can do with Entrée!');
-    welcomeMessage.pushPostbackButton('Start', this._genPayload(actions.restaurant));
+    const welcomeMessage = new ButtonMessageData('Hi I\'m Entrée! I help you order food in advance and find ' +
+      'new places to eat. We try to make ordering as fast and easy as possible. Press \"Trucks\" to see what ' +
+      'food trucks we work at!');
+    welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeTrucks));
     msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
   }
 
@@ -160,8 +105,8 @@ export default class FbChatBot {
     }
 
     switch (action) {
-      case actions.restaurant:
-        return this._handleRestaurant();
+      case actions.seeTrucks:
+        return this._handleSeeTrucks();
       case actions.menu:
         return await this._handleMenu(payload);
       case actions.addItem:
@@ -224,16 +169,18 @@ export default class FbChatBot {
    * @returns {Object}: GenericMessageData containing restaurants
    * @private
    */
-  async _handleRestaurant() {
+  async _handleSeeTrucks() {
     let text, response;
     try {
-      text = new TextMessageData('Entrée\'s lets you order ahead at your favorite restaurants. Here are some ' +
-        'of my usual restaurants. Click \'View Menu\' to see items from a restaurant.');
+      text = new TextMessageData('Here are the food trucks we currently support. ' +
+        'Click any of the buttons at any time to place an order, see the menu, or get more information.');
 
       response = new GenericMessageData();
       _.each(restaurants, restaurant => {
         response.pushElement(restaurant.title, restaurant.subtitle, restaurant.imageUrl);
         response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {restaurant}));
+        response.pushPostbackButton('More Info', this._genPayload(actions.menu, {restaurant}));
+        response.pushPostbackButton('Order Food', this._genPayload(actions.menu, {restaurant}));
       });
     } catch (err) {
       throw new TraceError('Failed to generate restaurants', err);
