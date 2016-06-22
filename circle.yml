@@ -2,10 +2,16 @@ machine:
   node:
     version: 5.5.0
 
+dependencies:
+  pre:
+    - npm install -g npm
+
 test:
   pre:
     - npm run lint
     - grunt lazy-compile
+  override:
+    - npm run tests
 
 deployment:
   production:

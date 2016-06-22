@@ -4,7 +4,7 @@ const merchantSchema = new mongoose.Schema({
   merchantId: {
     type: String,
     validate: {
-      validator: id => id.length > 0 && id.legnth <= 32
+      validator: id => id.length > 0 && id.length <= 32
     }
   },
   merchantApproved: {
