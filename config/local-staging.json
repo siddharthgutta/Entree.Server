@@ -16,14 +16,5 @@
     "database": "entree_test",
     "host": "127.0.0.1",
     "port": "27017"
-  },
-  "Client": {
-    "Server": {
-      "protocol": "http"
-    }
-  },
-  "Server": {
-    "protocol": "http",
-    "port": 3000
   }
 }
