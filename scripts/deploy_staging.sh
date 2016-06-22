@@ -1,6 +1,9 @@
 # We don't source .bashrc when using a non-interactive shell so we have to fix the PATH
 PATH=$PATH:/home/ubuntu/.nvm/versions/node/v5.5.0/bin
 
+# Remove Caches
+rm -rf /tmp/npm-*
+
 cd /home/ubuntu/.pm2/repos
 
 # Check if the folder/branch folder already exists
@@ -12,6 +15,23 @@ else
     git clone git@github.com:siddharthgutta/Entree.Server.git $1"Entree.Server"
     cd $1"Entree.Server"
 fi
+
+# Create Shared node_modules
+mkdir -p ../node_modules
+
+# remove node_modules
+# https://www.gnu.org/software/bash/manual/bash.html#Interactive-Shell-Behavior
+# Search for '-d file'
+# Checks if the node_modules is linked and whether or not the folder exists and is a directory
+if [[ -L "./node_modules" && -d "./node_modules" ]]
+then
+    unlink ./node_modules || true
+else
+    rm -rf ./node_modules || true
+fi
+
+# Create symbolic link
+ln -s ../node_modules ./node_modules
 
 # Function to get a free port
 get_unused_port() {
