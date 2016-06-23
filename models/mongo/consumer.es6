@@ -1,4 +1,6 @@
 import mongoose from 'mongoose';
+import context from './context.es6';
+import order from './order.es6';
 
 const consumerSchema = new mongoose.Schema({
   firstName: {
@@ -21,7 +23,9 @@ const consumerSchema = new mongoose.Schema({
   receiptCount: {
     type: Number,
     default: 1
-  }
+  },
+  context: context, // eslint-disable-line
+  orders: order
 });
 
 export default mongoose.model('Consumer', consumerSchema);
