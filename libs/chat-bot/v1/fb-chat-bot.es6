@@ -36,7 +36,6 @@ export const producers = [
 export default class FbChatBot {
   constructor(msgPlatform) {
     // TODO Implement a base class that handles versioning
-    this.botVersion = 1;
     this.msgPlatform = msgPlatform;
 
     // Delete a current conversation of Messenger (only on Desktop Messenger)
