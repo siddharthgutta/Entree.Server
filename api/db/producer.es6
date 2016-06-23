@@ -1,5 +1,5 @@
 import models from '../../models/mongo/index.es6';
-import Utils from '../../libs/utils.es6';
+import * as Utils from '../../libs/utils.es6';
 
 const Producer = models.Producer;
 
