@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const userSchema = new mongoose.Schema({
+const consumerSchema = new mongoose.Schema({
   fbId: {
     type: String,
     required: true
@@ -9,14 +9,13 @@ const userSchema = new mongoose.Schema({
     type: String,
     unique: true,
     validate: {
-      validator: id => id.length > 0 && id.legnth <= 36
+      validator: id => id.length > 0 && id.length <= 36
     }
   },
   receiptCount: {
     type: Number,
-    required: true,
     default: 1
   }
 });
 
-export default mongoose.model('User', userSchema);
+export default mongoose.model('Consumer', consumerSchema);

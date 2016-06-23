@@ -8,27 +8,9 @@
       "hostname": "localhost"
     }
   },
-  "Admins": [
-    {
-      "phone": "+12149664948",
-      "name": "Kevin Fu"
-    },
-    {
-      "phone": "+17135011837",
-      "name": "Mathew Kurian"
-    },
-    {
-      "phone": "+17138591560",
-      "name": "Jesse Mao"
-    },
-    {
-      "phone": "+18179751584",
-      "name": "Sid Gutta"
-    }
-  ],
   "Mode": "manual",
   "Server": {
-    "protocol": "https",
+    "protocol": "http",
     "port": 3000,
     "httpsRejectUnauthorized": false,
     "sslKey": "./keys/textentree.com.key",
@@ -77,7 +59,7 @@
       "pageId": "906336609427619",
       "appId": "1702274500052830"
     },
-    "dev": {
+    "staging": {
       "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
       "pageAccessToken": "CAADuxdXeTuIBABEE6q6pZBqEOHSYIWK6aIZAEZBOGfYfl0gDfPbKXdpeI2ZBQZBZBqw5o8ZAurg8lEyLb0a6GxQcbRnwH5zAUjWZAlaA4GMCIT5ecMwGdZCr2F81AmWZBULjSSBvnPheZCryterDMgDvEdFwR8WjSOHJdYGJMFZB1H0pW196sTVJclR1Dp5iKa0E0A3CCDvIHf3mCgZDZD",
       "pageId": "1031674843586566",

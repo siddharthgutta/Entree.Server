@@ -1,6 +1,7 @@
 /**
  * Created by jadesym on 6/20/16.
  */
+import {close} from '../models/mongo/index.es6';
 
 // Setup for testing environment
 before(() => {
@@ -8,6 +9,7 @@ before(() => {
 });
 
 // Teardown for testing environment
-after(() => {
+after(async () => {
+  await close();
   console.log('\nAfter Tests Run');
 });
