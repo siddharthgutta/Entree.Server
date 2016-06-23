@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import context from './context.es6';
 import order from './order.es6';
 
 const consumerSchema = new mongoose.Schema({
