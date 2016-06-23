@@ -73,7 +73,7 @@ for nameWithQuotes in $appname
 do
     # Delete any deployed servers with the same branch name
     name=$(echo "$nameWithQuotes" | tr -d '"')
-    if [[ $name =~ ^$APP_BRANCH-[0-9]{4}$ ]]; then
+    if [[ $name =~ ^$APP_BRANCH-[0-9]{2,4}$ ]]; then
         pm2 delete $name
     fi
 done
