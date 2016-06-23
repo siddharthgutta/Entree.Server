@@ -187,8 +187,8 @@ export default class FbChatBot {
   /**
    * Handles and invalid text input
    *
-   * @param text
-   * @returns {*[]}
+   * @param {String} text: the input text
+   * @returns {[ButtonMessageData]}: button message data for invalid text
    * @private
    */
   _handleInvalidText(text) {
@@ -200,6 +200,7 @@ export default class FbChatBot {
   }
 
   /**
+   * Handles the order prompting
    *
    * @returns {Object}: MessageData object
    * @private
