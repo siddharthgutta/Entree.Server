@@ -10,4 +10,5 @@ git checkout master
 git pull
 npm install
 grunt compile
-pm2 restart index.compiled.js --name "master"
+pm2 delete "master"
+pm2 start index.compiled.js --name "master"
