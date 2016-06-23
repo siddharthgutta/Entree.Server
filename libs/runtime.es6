@@ -45,14 +45,14 @@ export function getEnv() {
 function setPort() {
   if (isStaging()) {
     try {
-      const branchName = config.get('AppBranch');
-      return config.get(`Server.branch.${branchName}`);
+      try {
+        const branchName = config.get('AppBranch');
+        return config.get(`Server.branch.${branchName}`);
+      } catch (err) {
+        return config.get('NodePort');
+      }
     } catch (err) {
-    }
-    try {
-      return config.get('NodePort');
-    } catch (err) {
-
+      console.log('Could not find specific port from configs or environment variables');
     }
   }
   return config.get('Server.port');

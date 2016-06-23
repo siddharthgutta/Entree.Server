@@ -23,7 +23,7 @@ const ssl = {
   rejectUnauthorized: config.get('Server.httpsRejectUnauthorized')
 };
 
-const isHTTPS = config.get('Server.protocol') === 'https'
+const isHTTPS = config.get('Server.protocol') === 'https';
 const server = isHTTPS ? https.createServer(ssl, app) : http.createServer(app);
 console.log(`SSL: ${isHTTPS}`);
 
