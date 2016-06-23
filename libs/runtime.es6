@@ -3,6 +3,7 @@
  */
 
 import config from 'config';
+import * as Utils from './utils.es6';
 
 const env = config.get('NodeEnv');
 
@@ -61,4 +62,13 @@ const port = setPort();
  */
 export function getPort() {
   return port;
+}
+
+const branch = config.get('AppBranch');
+
+/**
+ * @returns {String} branch name
+ */
+export function getBranch() {
+  return branch;
 }

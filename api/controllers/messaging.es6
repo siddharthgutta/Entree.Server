@@ -11,10 +11,16 @@ let msgPlatform;
 const productionOrStaging = Runtime.isProduction();
 
 let facebookCreds;
-if (Runtime.isLocal()) {
+if (Runtime.isLocal() || Runtime.isProduction()) {
   facebookCreds = config.get(`Facebook.production`);
 } else {
-  facebookCreds = config.get(`Facebook.${Runtime.getEnv()}`);
+  const allFacebookCreds = config.get(`Facebook`);
+  const branchName = Runtime.getBranch();
+  if (branchName in allFacebookCreds) {
+    facebookCreds = allFacebookCreds[branchName];
+  } else {
+    facebookCreds = allFacebookCreds.production;
+  }
 }
 
 msgPlatform = new FBMessenger(facebookCreds.pageAccessToken, facebookCreds.verificationToken,
