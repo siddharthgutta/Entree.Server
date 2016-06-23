@@ -11,7 +11,8 @@ const consumerSchema = new mongoose.Schema({
   },
   fbId: {
     type: String,
-    unique: true
+    unique: true,
+    required: true
   },
   customerId: {
     type: String,
@@ -24,8 +25,11 @@ const consumerSchema = new mongoose.Schema({
     type: Number,
     default: 1
   },
-  context: context, // eslint-disable-line
-  orders: order
+  context: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Context'
+  },
+  orders: [order]  // eslint-disable-line
 });
 
 export default mongoose.model('Consumer', consumerSchema);

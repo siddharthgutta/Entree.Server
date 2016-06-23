@@ -74,29 +74,13 @@ describe('Producer DB API', () => {
       assert(false);
     });
 
-    it('should fail to create a Producer with no phoneNumber', async () => {
-      try {
-        await Producer.create({
-          name: 'Pizza Hut',
-          password: 'password',
-          description: 'some description',
-          profileImage: 'www.image.com',
-          enabled: true
-        });
-      } catch (e) {
-        return;
-      }
-
-      assert(false);
-    });
-
     it('should fail to create a Producer with non 10 digit phone number', async () => {
       try {
         await Producer.create({
           name: 'Pizza Hut',
           password: 'password',
           description: 'some description',
-          phoneNumbre: '123456789',
+          phoneNumber: '123456789',
           profileImage: 'www.image.com',
           enabled: true
         });

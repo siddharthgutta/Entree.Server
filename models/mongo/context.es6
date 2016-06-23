@@ -12,7 +12,8 @@ const contextSchema = new mongoose.Schema({
     type: String
   },
   producer: {
-    type: mongoose.Schema.Types.ObjectId
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Producer'
   }
 });
 
