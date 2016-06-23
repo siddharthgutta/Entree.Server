@@ -29,6 +29,7 @@ msgPlatform = new FBMessenger(facebookCreds.pageAccessToken, facebookCreds.verif
 console.info(`Initialized FB Messenger using ${Runtime.getEnv()} Credentials`);
 
 msgPlatform.on(FBMessenger.RECEIVED, async event => {
+  console.log('Received FBMessenger message in messaging.es6');
   Emitter.emit(Events.MSG_RECEIVED, event);
 });
 
