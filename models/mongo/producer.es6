@@ -4,16 +4,18 @@ import merchant from './merchant.es6';
 const producerSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   password: {
     type: String,
     required: true
   },
+  description: {
+    type: String,
+    required: true
+  },
   phoneNumber: {
     type: String,
-    required: true,
     validate: {
       validator: num => num.length === 10
     }

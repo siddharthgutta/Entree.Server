@@ -1,4 +1,5 @@
 import models from '../../models/mongo/index.es6';
+import Utils from '../../libs/utils.es6';
 
 const Producer = models.Producer;
 
@@ -23,5 +24,9 @@ export async function create(attributes) {
  * @returns {Promise}: returns a Producer object
  */
 export async function findOne(attributes) {
-  return await Producer.findOne(attributes).exec();
+  const producer = await Producer.findOne(attributes).exec();
+  if (Utils.isEmpty(producer)) {
+    throw new Error(`Could not find producer with attributes:${attributes}`);
+  }
+  return producer;
 }

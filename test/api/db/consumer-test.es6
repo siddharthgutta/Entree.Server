@@ -53,8 +53,12 @@ describe('Consumer DB API', () => {
     });
 
     it('should return null if nothing is found', async () => {
-      const consumer = await Consumer.findOne({fbId: attributes.fbId});
-      assert.equal(consumer, null);
+      try {
+        await Consumer.findOne({fbId: attributes.fbId});
+      } catch (err) {
+        return;
+      }
+      assert(false);
     });
   });
 });
