@@ -3,7 +3,6 @@
  */
 
 import config from 'config';
-import * as Utils from './utils.es6';
 
 const env = config.get('NodeEnv');
 
