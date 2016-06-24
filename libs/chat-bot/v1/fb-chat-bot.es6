@@ -1,11 +1,10 @@
 /* Disabling lint rule since it doesn't make sense. */
 /* eslint-disable babel/generator-star-spacing,one-var,valid-jsdoc */
 
-import _ from 'underscore';
+import _ from 'lodash';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 // import * as Producer from '../../../api/controllers/producer.es6';
-import {GenericMessageData, TextMessageData, ButtonMessageData}
-  from '../../msg/facebook/message-data.es6';
+import {GenericMessageData, TextMessageData, ButtonMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 
 export const events = {
