@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import merchant from './merchant.es6';
 
 const producerSchema = new mongoose.Schema({
   name: {
@@ -26,7 +25,10 @@ const producerSchema = new mongoose.Schema({
   enabled: {
     type: Boolean
   },
-  merchant: [merchant] // eslint-disable-line
+  merchant: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Merchant'
+  }
 });
 
 export default mongoose.model('Producer', producerSchema);
