@@ -1,19 +1,20 @@
 import mongoose from 'mongoose';
-import merchant from './merchant.es6';
 
 const producerSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
-    unique: true
+    required: true
   },
   password: {
     type: String,
     required: true
   },
+  description: {
+    type: String,
+    required: true
+  },
   phoneNumber: {
     type: String,
-    required: true,
     validate: {
       validator: num => num.length === 10
     }
@@ -22,9 +23,13 @@ const producerSchema = new mongoose.Schema({
     type: String
   },
   enabled: {
-    type: Boolean
+    type: Boolean,
+    default: false
   },
-  merchant: [merchant] // eslint-disable-line
+  merchant: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Merchant'
+  }
 });
 
 export default mongoose.model('Producer', producerSchema);
