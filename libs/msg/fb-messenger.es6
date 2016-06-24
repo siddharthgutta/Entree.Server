@@ -65,13 +65,13 @@ export default class FBMessenger extends MsgPlatform {
         }
       }, (error, response, body) => {
         if (error) {
-          console.log('Error sending message: ', error);
+          console.log('Error setting welcome message: ', error);
           reject(error);
         } else if (response.body.error) {
-          console.log('Error: ', response.body.error);
+          console.log('Error setting welcome message: ', response.body.error);
           reject(response.body.error);
         } else {
-          console.log(`Response Body:`, body);
+          console.log(`Successfully set welcome message:`, body);
           resolve(body);
         }
       });

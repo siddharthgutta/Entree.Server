@@ -7,6 +7,7 @@ import Promise from 'bluebird';
 const mongoConfig = config.get('MongoDb');
 mongoose.Promise = Promise;
 mongoose.connect(`mongodb://${mongoConfig.host}:${mongoConfig.port}/${mongoConfig.database}`);
+console.log(`Mongo DB [host|port|database]: [${mongoConfig.host}|${mongoConfig.port}|${mongoConfig.database}]`);
 
 const basename = path.basename(module.filename);
 const db = Object.create(null);

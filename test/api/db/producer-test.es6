@@ -6,6 +6,7 @@ describe('Producer DB API', () => {
   const attributes = {
     name: 'Pizza Hut',
     password: 'password',
+    description: 'some description',
     phoneNumber: '1234567890',
     profileImage: 'www.image.com',
     enabled: true
@@ -20,6 +21,7 @@ describe('Producer DB API', () => {
       const producer = await Producer.create(attributes);
       assert.equal(producer.name, attributes.name);
       assert.equal(producer.password, attributes.password);
+      assert.equal(producer.description, attributes.description);
       assert.equal(producer.phoneNumber, attributes.phoneNumber);
       assert.equal(producer.enabled, attributes.enabled);
     });
@@ -28,6 +30,7 @@ describe('Producer DB API', () => {
       try {
         await Producer.create({
           password: 'password',
+          description: 'some description',
           phoneNumber: '1234567890',
           profileImage: 'www.image.com',
           enabled: true
@@ -43,6 +46,7 @@ describe('Producer DB API', () => {
       try {
         await Producer.create({
           name: 'Pizza Hut',
+          description: 'some description',
           phoneNumber: '1234567890',
           profileImage: 'www.image.com',
           enabled: true
@@ -54,11 +58,12 @@ describe('Producer DB API', () => {
       assert(false);
     });
 
-    it('should fail to create a Producer with no phoneNumber', async () => {
+    it('should fail to create a Producer with no description', async () => {
       try {
         await Producer.create({
           name: 'Pizza Hut',
           password: 'password',
+          phoneNumber: '1234567890',
           profileImage: 'www.image.com',
           enabled: true
         });
@@ -74,7 +79,8 @@ describe('Producer DB API', () => {
         await Producer.create({
           name: 'Pizza Hut',
           password: 'password',
-          phoneNumbre: '123456789',
+          description: 'some description',
+          phoneNumber: '123456789',
           profileImage: 'www.image.com',
           enabled: true
         });
@@ -92,6 +98,7 @@ describe('Producer DB API', () => {
       await Producer.create({
         name: 'Another One',
         password: 'password',
+        description: 'some description',
         phoneNumber: '1234567890',
         profileImage: 'www.image.com',
         enabled: true
@@ -101,13 +108,18 @@ describe('Producer DB API', () => {
 
       assert.equal(producer.name, attributes.name);
       assert.equal(producer.password, attributes.password);
+      assert.equal(producer.description, attributes.description);
       assert.equal(producer.phoneNumber, attributes.phoneNumber);
       assert.equal(producer.enabled, attributes.enabled);
     });
 
     it('should return null if nothing is found', async () => {
-      const producer = await Producer.findOne({name: 'Pizza Hut'});
-      assert.equal(producer, null);
+      try {
+        await Producer.findOne({name: 'Pizza Hut'});
+      } catch (err) {
+        return;
+      }
+      assert(false);
     });
   });
 });

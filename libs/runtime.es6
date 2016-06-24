@@ -43,15 +43,19 @@ export function getEnv() {
  * @returns {Number} port number chosen
  */
 function setPort() {
-  if (isProduction() || isLocal()) {
-    return config.get('Server.port');
+  if (isStaging()) {
+    try {
+      try {
+        const branchName = config.get('AppBranch');
+        return config.get(`Server.branch.${branchName}`);
+      } catch (err) {
+        return config.get('NodePort');
+      }
+    } catch (err) {
+      console.log('Could not find specific port from configs or environment variables');
+    }
   }
-  try {
-    const branchName = config.get('AppBranch');
-    return config.get(`Server.branch.${branchName}`);
-  } catch (err) {
-    return config.get('NodePort');
-  }
+  return config.get('Server.port');
 }
 
 const port = setPort();
@@ -61,4 +65,13 @@ const port = setPort();
  */
 export function getPort() {
   return port;
+}
+
+const branch = config.get('AppBranch');
+
+/**
+ * @returns {String} branch name
+ */
+export function getBranch() {
+  return branch;
 }
