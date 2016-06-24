@@ -24,7 +24,7 @@ export async function create(attributes) {
  * @returns {Promise}: returns a Producer object
  */
 export async function findOne(attributes) {
-  const producer = await Producer.findOne(attributes).exec();
+  const producer = await Producer.findOne(attributes).populate('merchant').exec();
   if (Utils.isEmpty(producer)) {
     throw new Error(`Could not find producer with attributes:${attributes}`);
   }
