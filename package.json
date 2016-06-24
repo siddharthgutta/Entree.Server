@@ -58,8 +58,8 @@
     "urijs": "1.17.1"
   },
   "scripts": {
-    "test": "set -e; mocha --timeout 15000 -R dot",
-    "tests": "set -e; for f in $(find ./test -name '*-test.compiled.js'); do npm run test $f; done",
+    "test": "set -e; export NODE_ENV=test; mocha --timeout 15000 -R dot",
+    "tests": "set -e; export NODE_ENV=test; for f in $(find ./test -name '*-test.compiled.js'); do npm run test $f; done",
     "start": "node index.compiled.js",
     "local": "NODE_ENV=local node index.compiled.js",
     "staging": "NODE_ENV=staging node index.compiled.js",
