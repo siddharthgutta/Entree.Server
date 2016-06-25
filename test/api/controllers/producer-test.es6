@@ -25,6 +25,15 @@ describe('Producer DB API', () => {
       assert.equal(producer.enabled, enabled);
     });
 
+    it('should create a default disabled Producer object successfully', async () => {
+      const producer = await Producer._create(name, password, description, {phoneNumber, profileImage});
+      assert.equal(producer.name, name);
+      assert.equal(producer.password, password);
+      assert.equal(producer.description, description);
+      assert.equal(producer.phoneNumber, phoneNumber);
+      assert.equal(producer.enabled, false);
+    });
+
     it('should fail to create a Producer with no name', async () => {
       try {
         await Producer._create(null, password, description, {
