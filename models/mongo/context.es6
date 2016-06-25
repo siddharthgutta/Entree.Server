@@ -4,10 +4,8 @@
 
 import mongoose from 'mongoose';
 
+// TODO Implement enum for lastAction/state
 const contextSchema = new mongoose.Schema({
-  botVersion: {
-    type: Number
-  },
   lastAction: {
     type: String
   },
