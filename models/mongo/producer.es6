@@ -16,7 +16,8 @@ const producerSchema = new mongoose.Schema({
   phoneNumber: {
     type: String,
     validate: {
-      validator: num => num.length === 10
+      validator: num => /^([0-9]{10})$/.test(num),
+      message: 'Phone number must be 10 digits'
     }
   },
   profileImage: {
@@ -24,7 +25,8 @@ const producerSchema = new mongoose.Schema({
   },
   enabled: {
     type: Boolean,
-    default: false
+    default: false,
+    required: true
   },
   merchant: {
     type: mongoose.Schema.Types.ObjectId,
