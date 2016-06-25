@@ -13,6 +13,8 @@ const contextSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Producer'
   }
+}, {
+  timestamps: true
 });
 
 export default mongoose.model('Context', contextSchema);
