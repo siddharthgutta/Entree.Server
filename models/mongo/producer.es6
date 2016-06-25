@@ -23,7 +23,8 @@ const producerSchema = new mongoose.Schema({
     type: String
   },
   enabled: {
-    type: Boolean
+    type: Boolean,
+    default: false
   },
   merchant: {
     type: mongoose.Schema.Types.ObjectId,

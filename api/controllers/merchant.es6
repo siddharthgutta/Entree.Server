@@ -42,6 +42,6 @@ export async function setMerchantId(_id, merchantId) {
  * @param {Number} transactionFee: merchant's transaction fee (integer) integer cents
  * @returns {Promise} returns the merchant from the database
  */
-export async function create(percentageFee, transactionFee) {
-  return await Merchant.create({percentageFee, transactionFee});
+export async function create(percentageFee, transactionFee, optional = {}) {
+  return await Merchant.create({percentageFee, transactionFee, ...optional});
 }

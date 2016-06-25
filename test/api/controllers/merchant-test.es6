@@ -12,6 +12,7 @@ describe('Merchant DB API', () => {
     percentageFee: 12.5,
     transactionFee: 30
   };
+  const merchantId = 'abcdef';
 
   beforeEach(async () => {
     await clear();
@@ -22,6 +23,14 @@ describe('Merchant DB API', () => {
       const merchant = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
       assert.equal(merchant.percentageFee, attributes.percentageFee);
       assert.equal(merchant.transactionFee, attributes.transactionFee);
+      assert.equal(merchant.approved, false);
+    });
+
+    it('should create a Merchant object with merchantId successfully', async () => {
+      const merchant = await Merchant.create(attributes.percentageFee, attributes.transactionFee, {merchantId});
+      assert.equal(merchant.percentageFee, attributes.percentageFee);
+      assert.equal(merchant.transactionFee, attributes.transactionFee);
+      assert.equal(merchant.merchantId, merchantId);
       assert.equal(merchant.approved, false);
     });
 
@@ -91,7 +100,6 @@ describe('Merchant DB API', () => {
   });
 
   describe('#setMerchantId()', () => {
-    const merchantId = 'abcdefgh';
     it('should set a merchantId correctly', async () => {
       const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
       await Merchant.setMerchantId(_id, merchantId);

@@ -22,7 +22,10 @@ const consumerSchema = new mongoose.Schema({
   },
   receiptCount: {
     type: Number,
-    default: 1
+    default: 1,
+    validate: {
+      validator: count => Number.isInteger(count)
+    }
   },
   context: {
     type: mongoose.Schema.Types.ObjectId,
