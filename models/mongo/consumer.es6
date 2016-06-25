@@ -10,8 +10,7 @@ const consumerSchema = new mongoose.Schema({
   },
   fbId: {
     type: String,
-    unique: true,
-    required: true
+    unique: true
   },
   customerId: {
     type: String,
@@ -29,7 +28,8 @@ const consumerSchema = new mongoose.Schema({
   },
   context: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Context'
+    ref: 'Context',
+    required: true
   },
   orders: [order]  // eslint-disable-line
 });
