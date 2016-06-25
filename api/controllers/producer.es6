@@ -44,3 +44,14 @@ export async function create(name, password, description, percentageFee, transac
   producer.merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   return await producer.save();
 }
+
+/**
+ * Find and update a producer from their facebook id with specified fields
+ *
+ * @param {String} _id: producer's _id
+ * @param {Object} fields: key/value pairs with updated fields
+ * @returns {Promise} returns the producer without updates from the database
+ */
+export async function updateByObjectId(_id, fields) {
+  return await Producer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true});
+}

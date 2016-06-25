@@ -30,3 +30,19 @@ export async function findOne(attributes) {
   }
   return producer;
 }
+
+/**
+ * Find one merchant and update it
+ *
+ * @param {Object} conditions: conditions to query on
+ * @param {Object} updates: updates to apply to the merchant
+ * @param {Object} options: options to modify the query
+ * @returns {Promise}: returns the Merchant object
+ */
+export async function findOneAndUpdate(conditions, updates, options = null) {
+  const producer = await Producer.findOneAndUpdate(conditions, updates, options).exec();
+  if (Utils.isEmpty(producer)) {
+    throw new Error(`Could not find and update merchant with attributes: ${conditions} with updates ${updates}`);
+  }
+  return producer;
+}
