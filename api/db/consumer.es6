@@ -20,10 +20,10 @@ export async function create(attributes) {
  * Returns a single consumer given a query
  *
  * @param {Object} attributes: key value pairs of the attributes we want to query by
- * @returns {Consumer}: returns the Consumer found
+ * @returns {Promise}: returns the Consumer found
  */
 export async function findOne(attributes) {
-  const consumer = await Consumer.findOne(attributes).exec();
+  const consumer = await Consumer.findOne(attributes).populate('context').exec();
   if (Utils.isEmpty(consumer)) {
     throw new Error(`Could not find consumer with attributes:${attributes}`);
   }
@@ -34,10 +34,14 @@ export async function findOne(attributes) {
  * Updates a consumer with specific conditions
  *
  * @param {Object} conditions: conditions to find the consumer by
- * @param {Object} update: update actions to apply to the consumer object
+ * @param {Object} updates: update actions to apply to the consumer object
  * @param {Object} options: options to apply to the query
- * @returns {Consumer}: returns the Consumer object
+ * @returns {Promise}: returns the Consumer object
  */
-export async function findOneAndUpdate(conditions, update, options) {
-  return await Consumer.findOneAndUpdate(conditions, update, options);
+export async function findOneAndUpdate(conditions, updates, options) {
+  const consumer = await Consumer.findOneAndUpdate(conditions, updates, options).exec();
+  if (Utils.isEmpty(consumer)) {
+    throw new Error(`Could not find and update merchant with attributes: ${conditions} with updates ${updates}`);
+  }
+  return consumer;
 }

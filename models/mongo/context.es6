@@ -9,7 +9,7 @@ const contextSchema = new mongoose.Schema({
   lastAction: {
     type: String
   },
-  producerId: {
+  producer: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Producer'
   }
