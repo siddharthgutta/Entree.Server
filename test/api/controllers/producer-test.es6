@@ -128,4 +128,37 @@ describe('Producer DB API', () => {
       assert(false);
     });
   });
+
+  describe('#updateByObjectId', () => {
+    const fields = {
+      name: 'Updated Name',
+      password: 'Updated Password',
+      description: 'Updated Description',
+      phoneNumber: '9876543210',
+      profileImage: 'www.updated.com',
+      enabled: true
+    };
+
+    it('should update a producer correctly', async () => {
+      const {_id} = await Producer._create(name, password, description);
+      await Producer.updateByObjectId(_id, fields);
+      const producer = await Producer.findOneByObjectId(_id);
+      assert.equal(producer.name, fields.name);
+      assert.equal(producer.password, fields.password);
+      assert.equal(producer.description, fields.description);
+      assert.equal(producer.phoneNumber, fields.phoneNumber);
+      assert.equal(producer.profileImage, fields.profileImage);
+      assert.equal(producer.enabled, fields.enabled);
+    });
+
+    it('should not update a producer if phoneNumber is invalid', async () => {
+      const {_id} = await Producer._create(name, password, description);
+      try {
+        await Producer.updateByObjectId(_id, {phoneNumber: '123456789'});
+      } catch (err) {
+        return;
+      }
+      assert(false);
+    });
+  });
 });
