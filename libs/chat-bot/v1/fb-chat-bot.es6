@@ -3,7 +3,7 @@
 
 import _ from 'lodash';
 import * as Consumer from '../../../api/controllers/consumer.es6';
-// import * as Producer from '../../../api/controllers/producer.es6';
+import * as Producer from '../../../api/controllers/producer.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 
@@ -357,7 +357,13 @@ export default class FbChatBot {
       consumer = await Consumer.findOneByFbId(sender);
     } catch (err) {
       const profile = await this.msgPlatform.getFacebookProfileInfo(sender);
-      consumer = await Consumer.createFbConsumer(sender, profile.first_name, profile.last_name);
+      const optionalConsumerFields = {
+        consumer: {
+          firstName: profile.first_name,
+          lastName: profile.last_name
+        }
+      };
+      consumer = await Consumer.createFbConsumer(sender, optionalConsumerFields);
     }
     return consumer;
   }
