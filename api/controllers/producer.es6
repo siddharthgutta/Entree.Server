@@ -32,11 +32,12 @@ export async function findEnabled(sampleSize) {
  * @param {String} name: name of the producer
  * @param {String} password: password for the producer
  * @param {String} description: description of the producer
+ * @param {String} profileImage: profileImage of the producer
  * @param {Object} optional: optional fields for the producer
  * @returns {Promise<Producer>}: the producer that was just created
  */
-export async function _create(name, password, description, optional = {}) {
-  return await Producer.create({name, password, description, ...optional});
+export async function _create(name, password, description, profileImage, optional = {}) {
+  return await Producer.create({name, password, description, profileImage, ...optional});
 }
 
 /**
@@ -45,13 +46,14 @@ export async function _create(name, password, description, optional = {}) {
  * @param {String} name: name of the producer
  * @param {String} password: password of the producer
  * @param {String} description: description of the producer
+ * @param {String} profileImage: profileImage of the producer
  * @param {Number} percentageFee: percentageFee of the producer
  * @param {Number} transactionFee: transactionFee of the producer
  * @param {Object} optional: optional fields for both the producer/merchant under respective keys
  * @returns {Promise} resulting producer object
  */
-export async function create(name, password, description, percentageFee, transactionFee, optional = {}) {
-  const producer = await _create(name, password, description, optional.producer);
+export async function create(name, password, description, profileImage, percentageFee, transactionFee, optional = {}) {
+  const producer = await _create(name, password, description, profileImage, optional.producer);
   producer.merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   return await producer.save();
 }
