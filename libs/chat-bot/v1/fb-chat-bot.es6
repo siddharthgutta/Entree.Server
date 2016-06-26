@@ -293,7 +293,7 @@ export default class FbChatBot {
     let button;
     try {
       const {producer} = this._getData(payload);
-      button = new ButtonMessageData(`${producer}`);
+      button = new ButtonMessageData(`Here is what you can do with ${producer.name}. ${producer.subtitle}`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
