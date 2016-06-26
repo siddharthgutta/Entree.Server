@@ -3,7 +3,6 @@
 
 import _ from 'lodash';
 import * as Consumer from '../../../api/controllers/consumer.es6';
-import * as Producer from '../../../api/controllers/producer.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 
