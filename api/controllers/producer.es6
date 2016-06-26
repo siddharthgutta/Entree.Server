@@ -16,6 +16,17 @@ export async function findOneByObjectId(_id) {
 }
 
 /**
+ * Find enabled producers
+ *
+ * @param {Number} sampleSize: size of random sample of producers to find
+ * @returns {Promise}: returns the producers found
+ */
+export async function findEnabled(sampleSize) {
+  const producersQuery = (await Producer.find({enabled: true}));
+  return await producersQuery.sample(sampleSize).exec();
+}
+
+/**
  * Create a producer in the database
  *
  * @param {String} name: name of the producer
