@@ -18,12 +18,11 @@ export async function findOneByObjectId(_id) {
 /**
  * Find enabled producers
  *
- * @param {Object} conditions: conditions to query on
  * @param {Number} sampleSize: size of random sample of producers to find
  * @returns {Promise}: returns the producers found
  */
-export async function findEnabled(conditions, sampleSize) {
-  const producersQuery = (await Producer.find(conditions));
+export async function findEnabled(sampleSize) {
+  const producersQuery = (await Producer.find({enabled: true}));
   return await producersQuery.sample(sampleSize).exec();
 }
 
