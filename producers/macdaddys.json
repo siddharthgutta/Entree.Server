@@ -1,0 +1,14 @@
+{
+  "name": "Mac Daddy's",
+  "username": "macdaddys",
+  "password": "cheese",
+  "description": "Food Truck near UT Austin serving delicious mac and cheese creations.",
+  "percentageFee": 3.5,
+  "transactionFee": 30,
+  "profileImage": "http://i.imgur.com/MV1XYLg.png",
+  "optional": {
+    "consumer": {
+      "menuLink": "http://i.imgur.com/RSWM20n.jpg"
+    }
+  }
+}
