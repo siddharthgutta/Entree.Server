@@ -212,6 +212,7 @@ export default class FbChatBot {
       text = new TextMessageData('Here are the food trucks we currently support. ' +
         'Click any of the buttons at any time to place an order, see the menu, or get more information.');
       const producers = await Producer.findFbEnabled();
+      console.log(producers);
       response = new GenericMessageData();
       _.each(producers, producer => {
         response.pushElement(producer.name, producer.description, producer.profileImage);
