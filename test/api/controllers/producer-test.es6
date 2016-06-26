@@ -178,6 +178,66 @@ describe('Producer DB API', () => {
     });
   });
 
+  describe('#findFbEnabled', async () => {
+    const name2 = 'Dominos';
+    const username2 = 'dominos';
+    const password2 = 'password';
+    const description2 = 'some dominos description';
+    const phoneNumber2 = '2345678901';
+    const profileImage2 = 'www.anothaimage.com';
+    const enabled2 = false;
+    const menuLink2 = 'www.somemenulink.com';
+
+    const name3 = 'mcdonalds';
+    const username3 = 'mcdonalds';
+    const password3 = 'bigmac';
+    const description3 = 'some mcdonalds description';
+    const profileImage3 = 'www.anothaoneimage.com';
+    const enabled3 = true;
+
+    it('should find a singular enabled producer', async () => {
+      const {_id: id1} = await Producer._create(name, username, password, description,
+        profileImage, {phoneNumber, enabled, menuLink});
+      const {_id: id2} = await Producer._create(name2, username2, password2, description2,
+        profileImage2, {phoneNumber2, enabled2, menuLink2});
+      assert.notDeepEqual(id1, id2);
+      const producers = await Producer.findFbEnabled();
+      assert.equal(producers.length, 1);
+      assert.deepEqual(producers[0]._id, id1);
+    });
+
+    it('should find multiple enabled producers', async () => {
+      const {_id: id1} = await Producer._create(name, username, password, description,
+        profileImage, {phoneNumber, enabled, menuLink});
+      const {_id: id2} = await Producer._create(name2, username2, password2, description2,
+        profileImage2, {phoneNumber: phoneNumber2, enabled: enabled2, menuLink: menuLink2});
+      const {_id: id3} = await Producer._create(name3, username3, password3, description3,
+        profileImage3, {enabled: enabled3});
+      assert.notDeepEqual(id1, id2);
+      assert.notDeepEqual(id2, id3);
+      assert.notDeepEqual(id1, id3);
+      const producers = await Producer.findFbEnabled();
+      assert.equal(producers.length, 2);
+      assert.deepEqual(producers[0]._id, id1);
+      assert.deepEqual(producers[1]._id, id3);
+    });
+
+    it('should limit the sample size of producers found', async() => {
+      const {_id: id1} = await Producer._create(name, username, password, description,
+        profileImage, {phoneNumber, enabled, menuLink});
+      const {_id: id2} = await Producer._create(name2, username2, password2, description2,
+        profileImage2, {phoneNumber: phoneNumber2, enabled: enabled2, menuLink: menuLink2});
+      const {_id: id3} = await Producer._create(name3, username3, password3, description3,
+        profileImage3, {enabled: enabled3});
+      assert.notDeepEqual(id1, id2);
+      assert.notDeepEqual(id2, id3);
+      assert.notDeepEqual(id1, id3);
+      const producers = await Producer._find({}, 1, ['merchant']);
+      assert.equal(producers.length, 1);
+      assert.deepEqual(producers[0]._id, id1);
+    });
+  });
+
   describe('#updateByObjectId', () => {
     const fields = {
       name: 'Updated Name',
