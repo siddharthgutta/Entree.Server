@@ -143,7 +143,7 @@ export default class FBMessenger extends MsgPlatform {
    * @return {Promise} Promise result with response or error
    */
   _sendMessage(recipient, messageData, notificationType = NotificationType.SILENT_PUSH) {
-    console.tag('libs', 'msg', 'fb-messenger', 'MESSAGE_SEND').log(`Sending message to ${recipient.toString()}`,
+    console.log(`Sending message to ${recipient.toString()}`,
       messageData);
 
     return new Promise((resolve, reject) => {
