@@ -30,20 +30,22 @@ export async function findEnabled(sampleSize) {
  * Create a producer in the database
  *
  * @param {String} name: name of the producer
+ * @param {String} username: username for the producer
  * @param {String} password: password for the producer
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
  * @param {Object} optional: optional fields for the producer
  * @returns {Promise<Producer>}: the producer that was just created
  */
-export async function _create(name, password, description, profileImage, optional = {}) {
-  return await Producer.create({name, password, description, profileImage, ...optional});
+export async function _create(name, username, password, description, profileImage, optional = {}) {
+  return await Producer.create({name, username, password, description, profileImage, ...optional});
 }
 
 /**
  * Creates a producer as a merchant
  *
  * @param {String} name: name of the producer
+ * @param {String} username: username for the producer
  * @param {String} password: password of the producer
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
@@ -52,8 +54,9 @@ export async function _create(name, password, description, profileImage, optiona
  * @param {Object} optional: optional fields for both the producer/merchant under respective keys
  * @returns {Promise} resulting producer object
  */
-export async function create(name, password, description, profileImage, percentageFee, transactionFee, optional = {}) {
-  const producer = await _create(name, password, description, profileImage, optional.producer);
+export async function create(name, username, password, description,
+                             profileImage, percentageFee, transactionFee, optional = {}) {
+  const producer = await _create(name, username, password, description, profileImage, optional.producer);
   producer.merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   return await producer.save();
 }
