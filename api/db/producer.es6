@@ -32,6 +32,17 @@ export async function findOne(attributes) {
 }
 
 /**
+ * Returns a Query object for finding producers
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @returns {Query}: returns a Producer query
+ */
+export async function find(conditions) {
+  return await Producer.find(conditions).populate('merchant');
+}
+
+
+/**
  * Find one merchant and update it
  *
  * @param {Object} conditions: conditions to query on

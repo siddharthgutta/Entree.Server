@@ -15,6 +15,7 @@ const consumerSchema = new mongoose.Schema({
   customerId: {
     type: String,
     unique: true,
+    sparse: true,
     validate: {
       validator: id => id.length > 0 && id.length <= 36,
       message: 'Customer Id must be less than 37 characters and non-empty.'

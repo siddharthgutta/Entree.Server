@@ -4,6 +4,7 @@ const merchantSchema = new mongoose.Schema({
   merchantId: {
     type: String,
     unique: true,
+    sparse: true,
     validate: {
       validator: id => id.length > 0 && id.length <= 32,
       message: 'Merchant id must be between 1 and 32 characters'
