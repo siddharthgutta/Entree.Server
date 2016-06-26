@@ -37,6 +37,9 @@ const producerSchema = new mongoose.Schema({
   merchant: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Merchant'
+  },
+  menuLink: {
+    type: String
   }
 });
 
