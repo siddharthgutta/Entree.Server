@@ -21,7 +21,8 @@ const producerSchema = new mongoose.Schema({
     }
   },
   profileImage: {
-    type: String
+    type: String,
+    required: true
   },
   enabled: {
     type: Boolean,
