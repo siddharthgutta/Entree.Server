@@ -10,7 +10,7 @@ describe('Producer DB API', () => {
   const description = 'some description';
   const phoneNumber = '1234567890';
   const profileImage = 'www.image.com';
-  const enabled = true
+  const enabled = true;
   const menuLink = 'www.menulink.com';
 
   beforeEach(async () => {
