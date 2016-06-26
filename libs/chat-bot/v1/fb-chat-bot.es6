@@ -232,7 +232,6 @@ export default class FbChatBot {
       response = new GenericMessageData();
       _.each(producers, producer => {
         response.pushElement(producer.title, producer.subtitle, producer.imageUrl);
-        response.pushLinkButton('View Menu', 'https://www.yelp.com/austin');
         response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
         response.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
       });
