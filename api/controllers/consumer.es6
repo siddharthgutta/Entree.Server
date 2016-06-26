@@ -44,7 +44,7 @@ export async function createFbConsumer(fbId, optional = {}) {
  *
  * @param {String} fbId: consumer's fbId
  * @param {Object} fields: key/value pairs with updated fields
- * @returns {Consumer} returns the consumer from the database
+ * @returns {Consumer} returns the consumer without updates from the database
  */
 export async function setFieldsByFbId(fbId, fields) {
   return await Consumer.findOneAndUpdate({fbId}, {$set: fields}, {runValidators: true});
