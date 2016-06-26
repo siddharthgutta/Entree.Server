@@ -10,7 +10,8 @@ describe('Producer DB API', () => {
   const description = 'some description';
   const phoneNumber = '1234567890';
   const profileImage = 'www.image.com';
-  const enabled = true;
+  const enabled = true
+  const menuLink = 'www.menulink.com';
 
   beforeEach(async () => {
     await clear();
@@ -19,7 +20,7 @@ describe('Producer DB API', () => {
   describe('#_create()', () => {
     it('should create a Producer object successfully', async () => {
       const producer = await Producer._create(name, username, password, description,
-                                              profileImage, {phoneNumber, enabled});
+                                              profileImage, {phoneNumber, enabled, menuLink});
       assert.equal(producer.name, name);
       assert.equal(producer.username, username);
       assert.equal(producer.password, password);
@@ -27,11 +28,12 @@ describe('Producer DB API', () => {
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, enabled);
+      assert.equal(producer.menuLink, menuLink);
     });
 
     it('should create a default disabled Producer object successfully', async () => {
       const producer = await Producer._create(name, username, password, description,
-                                              profileImage, {phoneNumber, profileImage});
+                                              profileImage, {phoneNumber, profileImage, menuLink});
       assert.equal(producer.name, name);
       assert.equal(producer.username, username);
       assert.equal(producer.password, password);
@@ -39,12 +41,13 @@ describe('Producer DB API', () => {
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, false);
+      assert.equal(producer.menuLink, menuLink);
     });
 
     it('should fail to create a Producer with no name', async () => {
       try {
         await Producer._create(null, username, password, description, profileImage, {
-          phoneNumber: '1234567890', enabled: true
+          phoneNumber: '1234567890', enabled: true, menuLink
         });
       } catch (e) {
         return;
@@ -55,7 +58,7 @@ describe('Producer DB API', () => {
     it('should fail to create a Producer with no username', async () => {
       try {
         await Producer._create(name, null, password, description, profileImage, {
-          phoneNumber: '1234567890', enabled: true
+          phoneNumber: '1234567890', enabled: true, menuLink
         });
       } catch (e) {
         return;
@@ -67,7 +70,8 @@ describe('Producer DB API', () => {
       try {
         await Producer._create('Pizza Hut', username, null, 'password', 'www.image.com', {
           phoneNumber: '1234567890',
-          enabled: true
+          enabled: true,
+          menuLink
         });
       } catch (e) {
         return;
@@ -79,7 +83,8 @@ describe('Producer DB API', () => {
       try {
         await Producer._create('Pizza Hut', username, 'some description', null, 'www.image.com', {
           phoneNumber: '1234567890',
-          enabled: true
+          enabled: true,
+          menuLink
         });
       } catch (e) {
         return;
@@ -91,7 +96,8 @@ describe('Producer DB API', () => {
       try {
         await Producer._create('Pizza Hut', username, 'some description', 'password', null, {
           phoneNumber: '1234567890',
-          enabled: true
+          enabled: true,
+          menuLink
         });
       } catch (e) {
         return;
@@ -103,7 +109,8 @@ describe('Producer DB API', () => {
       try {
         await Producer._create('Pizza Hut', username, 'password', 'some description', 'www.image.com', {
           phoneNumber: '123456789',
-          enabled: true
+          enabled: true,
+          menuLink
         });
       } catch (e) {
         return;
@@ -120,7 +127,8 @@ describe('Producer DB API', () => {
       const optional = {
         producer: {
           phoneNumber,
-          enabled
+          enabled,
+          menuLink
         },
         merchant: {
           merchantId
@@ -136,6 +144,7 @@ describe('Producer DB API', () => {
       assert.equal(producer.phoneNumber, optional.producer.phoneNumber);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.enabled, optional.producer.enabled);
+      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
       assert.equal(producer.merchant.merchantId, merchantId);
@@ -144,7 +153,8 @@ describe('Producer DB API', () => {
 
   describe('#findOneByObjectId()', () => {
     it('should find a producer correctly', async () => {
-      const {_id} = await Producer._create(name, username, password, description, profileImage, {phoneNumber, enabled});
+      const {_id} = await Producer._create(name, username, password, description,
+                                           profileImage, {phoneNumber, enabled, menuLink});
 
       const producer = await Producer.findOneByObjectId(_id);
 
@@ -155,6 +165,7 @@ describe('Producer DB API', () => {
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.enabled, enabled);
+      assert.equal(producer.menuLink, menuLink);
     });
 
     it('should return null if nothing is found', async () => {
@@ -175,7 +186,8 @@ describe('Producer DB API', () => {
       description: 'Updated Description',
       phoneNumber: '9876543210',
       profileImage: 'www.updated.com',
-      enabled: true
+      enabled: true,
+      menuLink: 'www.menulink.com'
     };
 
     it('should update a producer correctly', async () => {
@@ -189,6 +201,7 @@ describe('Producer DB API', () => {
       assert.equal(producer.phoneNumber, fields.phoneNumber);
       assert.equal(producer.profileImage, fields.profileImage);
       assert.equal(producer.enabled, fields.enabled);
+      assert.equal(producer.menuLink, fields.menuLink);
     });
 
     it('should not update a producer if phoneNumber is invalid', async () => {
