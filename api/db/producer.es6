@@ -1,19 +1,18 @@
 import models from '../../models/mongo/index.es6';
 import * as Utils from '../../libs/utils.es6';
 import _ from 'lodash';
-
 const Producer = models.Producer;
 
 /**
- * IMPORTANT: Must return promises!
- */
+* IMPORTANT: Must return promises!
+*/
 
 /**
- * Creates a producer
- *
- * @param {Object} attributes: key value pairs of the attributes we want to populate the Producer with
- * @returns {Promise}: returns a Producer object
- */
+* Creates a producer
+*
+* @param {Object} attributes: key value pairs of the attributes we want to populate the Producer with
+*@returns {Promise}: returns a Producer object
+*/
 export async function create(attributes) {
   return await (new Producer(attributes)).save();
 }

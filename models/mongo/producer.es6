@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import hours from './hour.es6';
 
 const producerSchema = new mongoose.Schema({
   name: {
@@ -50,7 +51,10 @@ const producerSchema = new mongoose.Schema({
     ref: 'Order'
   }]
 }, {
-  timestamps: true
+  timestamps: true,
+  hours: {
+    type: [hours.schema]
+  }
 });
 
 export default mongoose.model('Producer', producerSchema);
