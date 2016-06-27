@@ -21,7 +21,7 @@ describe('Order DB API', () => {
   beforeEach(async () => {
     await clear();
     producer = await Producer.create('Bob Restaurant', chance.string(), 'bobpass', 'bobdescription', 'www.bob.com',
-      'example order', 12, 12);
+      'example order', '5601 W Parker Rd', 12, 12, 'www.menulink.com');
     consumer = await Consumer.createFbConsumer('Bob Fb Id');
   });
 

@@ -23,7 +23,7 @@ export async function create(attributes) {
  * @returns {Promise}: returns the Consumer found
  */
 export async function findOne(attributes) {
-  const consumer = await Consumer.findOne(attributes).populate('context').exec();
+  const consumer = await Consumer.findOne(attributes).populate('context').populate('defaultLocation').exec();
   if (Utils.isEmpty(consumer)) {
     throw new Error(`Could not find consumer with attributes:${attributes}`);
   }
