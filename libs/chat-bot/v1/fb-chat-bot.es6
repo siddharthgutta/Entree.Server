@@ -149,15 +149,19 @@ export default class FbChatBot {
    * @returns {[ImageMessageData]}: image of the menu
    */
   _handleMenu(payload) {
-    let button;
+    let image, button;
     try {
       const {producer} = this._getData(payload);
-      button = new ImageMessageData(producer.menuLink);
+      image = new ImageMessageData(producer.menuLink);
+      button = new ButtonMessageData(`Here is the menu for ${producer.name}. Here are some other options:`);
+      button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
+      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
+      button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get menu Link image', err);
     }
 
-    return [button];
+    return [image];
   }
 
   /**
