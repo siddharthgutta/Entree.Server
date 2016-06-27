@@ -175,19 +175,18 @@ export default class FbChatBot {
    */
   async _handleOrder(text, consumer) {
     let response;
-    const {_id: contextId, producer: {_id: producerId}} = consumer.context;
+    const {_id: consumerId, context: {_id: contextId, producer: {_id: producerId}}} = consumer;
     try {
       // const producer = await Producer.findOneByObjectId(_id);
       // TODO Fire producer event here
-      
       await Context.emptyFields(contextId, ['producer', 'lastAction']);
       response = new ButtonMessageData('Your order has been sent to the food truck. We will send you a message with ' +
         'an estimated time when your food will be ready. In the meantime, feel free to browse the other businesses ' +
         'we support by pressing \"See Other Trucks\"');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
-      throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumer._id}| ` +
-        `for producer |${_id}|.`);
+      throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
+        `for producer |${producerId}|.`);
     }
     return [response];
   }
