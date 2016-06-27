@@ -2,8 +2,8 @@
 /* eslint-disable babel/generator-star-spacing,one-var,valid-jsdoc */
 
 import _ from 'lodash';
+import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
-// import * as Producer from '../../../api/controllers/producer.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 
@@ -13,24 +13,6 @@ export const events = {
   attachment: 'Attachment',
   delivery: 'Delivery'
 };
-
-export const producers = [
-  {
-    title: 'Panera Bread',
-    subtitle: 'Fast-casual bakery chain that serves artisanal sandwiches, soups, and more. ',
-    imageUrl: 'https://i.imgur.com/iEwGMjv.jpg'
-  },
-  {
-    title: 'Chipotle',
-    subtitle: 'Mexican fast-casual chain serving custom-made burritos and bowls. ',
-    imageUrl: 'https://i.imgur.com/AC2PjhS.jpg'
-  },
-  {
-    title: 'Chi\'lantro',
-    subtitle: 'Austin, Texas based Korean-Mexican fusion with multiple food trucks and producers. ',
-    imageUrl: 'https://i.imgur.com/j0W2jbo.jpg'
-  }
-];
 
 export default class FbChatBot {
   constructor(msgPlatform) {
@@ -229,11 +211,12 @@ export default class FbChatBot {
     try {
       text = new TextMessageData('Here are the food trucks we currently support. ' +
         'Click any of the buttons at any time to place an order, see the menu, or get more information.');
-
+      const producers = await Producer.findFbEnabled();
+      console.log(producers);
       response = new GenericMessageData();
       _.each(producers, producer => {
-        response.pushElement(producer.title, producer.subtitle, producer.imageUrl);
-        response.pushLinkButton('View Menu', 'https://www.yelp.com/austin');
+        response.pushElement(producer.name, producer.description, producer.profileImage);
+        response.pushLinkButton('View Menu', producer.menuLink);
         response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
         response.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
       });
@@ -294,7 +277,7 @@ export default class FbChatBot {
     let button;
     try {
       const {producer} = this._getData(payload);
-      button = new ButtonMessageData(`${producer}`);
+      button = new ButtonMessageData(`Here is what you can do with ${producer.name}. ${producer.description}`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
@@ -357,7 +340,13 @@ export default class FbChatBot {
       consumer = await Consumer.findOneByFbId(sender);
     } catch (err) {
       const profile = await this.msgPlatform.getFacebookProfileInfo(sender);
-      consumer = await Consumer.createFbConsumer(sender, profile.first_name, profile.last_name);
+      const optionalConsumerFields = {
+        consumer: {
+          firstName: profile.first_name,
+          lastName: profile.last_name
+        }
+      };
+      consumer = await Consumer.createFbConsumer(sender, optionalConsumerFields);
     }
     return consumer;
   }

@@ -5,6 +5,11 @@ const producerSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  username: {
+    type: String,
+    required: true,
+    unique: true
+  },
   password: {
     type: String,
     required: true
@@ -21,7 +26,8 @@ const producerSchema = new mongoose.Schema({
     }
   },
   profileImage: {
-    type: String
+    type: String,
+    required: true
   },
   enabled: {
     type: Boolean,
@@ -31,6 +37,9 @@ const producerSchema = new mongoose.Schema({
   merchant: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Merchant'
+  },
+  menuLink: {
+    type: String
   }
 });
 
