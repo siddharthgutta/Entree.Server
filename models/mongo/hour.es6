@@ -3,11 +3,19 @@
  */
 import Moment from 'moment';
 import mongoose from 'mongoose';
+
 const hourSchema = new mongoose.Schema({
   day: {
     type: String,
     required: true,
     enum: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    validate: {
+      validator: day => day === 'Monday' || day === 'Tuesday'
+      || day === 'Wednesday' || day === 'Thursday' ||
+      day === 'Friday' || day === 'Saturday' ||
+      day === 'Sunday'
+    }
+>>>>>>> added hours to the producers and functions to access and change them
   },
   openTime: {
     type: String,
@@ -29,4 +37,4 @@ hourSchema.pre('validate', function (next) {
     next();
   }
 });
-export default mongoose.model('Hour', hourSchema);
+export default mongoose.model('hours', hourSchema);

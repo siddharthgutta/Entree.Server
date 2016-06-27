@@ -5,6 +5,12 @@ const Hours = models.Hour;
  * IMPORTANT: Must return promises!
  * @param {*} attributes: the attributes to add to the hour of the producers
  * @returns {Promise} the created object
+=======
+const Hours = models.hours;
+
+/**
+ * IMPORTANT: Must return promises!
+>>>>>>> added hours to the producers and functions to access and change them
  */
 
 export async function create(attributes) {
