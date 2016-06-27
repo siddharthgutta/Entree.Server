@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import location from './location.es6';
 
 const consumerSchema = new mongoose.Schema({
   firstName: {
@@ -36,7 +37,12 @@ const consumerSchema = new mongoose.Schema({
   orders: [{
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Order'
-  }]
+  }],
+  location: [location.schema],
+  defaultLocation: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Location'
+  }
 });
 
 export default mongoose.model('Consumer', consumerSchema);

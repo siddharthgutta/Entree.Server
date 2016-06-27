@@ -40,10 +40,17 @@ const producerSchema = new mongoose.Schema({
   },
   merchant: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Merchant'
+    ref: 'Merchant',
+    required: true
+  },
+  location: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Location',
+    required: true
   },
   menuLink: {
-    type: String
+    type: String,
+    required: true
   },
   orders: [{
     type: mongoose.Schema.Types.ObjectId,

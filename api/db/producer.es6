@@ -22,6 +22,7 @@ export async function create(attributes) {
  * Returns a single producer given a query
  *
  * @param {Object} attributes: key value pairs of the attributes we want to query by
+ * @param {Array<String>} populateFields: fields to populate query with
  * @returns {Promise}: returns a Producer object
  */
 export async function findOne(attributes, populateFields = []) {
@@ -31,7 +32,7 @@ export async function findOne(attributes, populateFields = []) {
     findQuery);
   const producer = await findQuery.exec();
   if (Utils.isEmpty(producer)) {
-    throw new Error(`Could not find producer with attributes:${attributes}`);
+    throw new Error(`Could not find producer with attributes: ${attributes}`);
   }
   return producer;
 }
