@@ -84,7 +84,7 @@ export default class FbChatBot {
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
       case actions.menu:
-        return await this._handleMenu(payload);
+        return this._handleMenu(payload);
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload);
       default:
