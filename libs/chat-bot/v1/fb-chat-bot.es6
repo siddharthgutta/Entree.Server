@@ -4,7 +4,8 @@
 import _ from 'lodash';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
-import {GenericMessageData, TextMessageData, ButtonMessageData} from '../../msg/facebook/message-data.es6';
+import {GenericMessageData, TextMessageData, ButtonMessageData,
+  ImageMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 
 export const events = {
@@ -82,6 +83,8 @@ export default class FbChatBot {
         return this._handleSeeProducers();
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
+      case actions.menu:
+        return await this._handleMenu(payload);
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload);
       default:
@@ -138,6 +141,24 @@ export default class FbChatBot {
     }
   }
   */
+
+  /**
+   * Handle the menu actions by sending menu link image
+   *
+   * @param {Object} payload: payload passed from postback button
+   * @returns {[ImageMessageData]}: image of the menu
+   */
+  _handleMenu(payload) {
+    let button;
+    try {
+      const {producer} = this._getData(payload);
+      button = new ImageMessageData(producer.menuLink);
+    } catch (err) {
+      throw new Error('Could not get menu Link image', err);
+    }
+
+    return [button];
+  }
 
   /**
    * Handle the order text sent by the consumer
@@ -212,13 +233,12 @@ export default class FbChatBot {
       text = new TextMessageData('Here are the food trucks we currently support. ' +
         'Click any of the buttons at any time to place an order, see the menu, or get more information.');
       const producers = await Producer.findFbEnabled();
-      console.log(producers);
       response = new GenericMessageData();
       _.each(producers, producer => {
         response.pushElement(producer.name, producer.description, producer.profileImage);
-        response.pushLinkButton('View Menu', producer.menuLink);
+        response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producer}));
         response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
-        response.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
+        response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
       });
     } catch (err) {
       throw new Error('Failed to generate producers', err);
@@ -277,7 +297,7 @@ export default class FbChatBot {
     let button;
     try {
       const {producer} = this._getData(payload);
-      button = new ButtonMessageData(`Here is what you can do with ${producer.name}. ${producer.description}`);
+      button = new ButtonMessageData(`Here is what you can do with ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
@@ -335,9 +355,11 @@ export default class FbChatBot {
    */
   async _findOrCreateConsumer(event) {
     const sender = event.sender.id;
+    console.log(`Sender Id: ${sender}`);
     let consumer;
     try {
       consumer = await Consumer.findOneByFbId(sender);
+      console.log(`Found Consumer: ${consumer}`);
     } catch (err) {
       const profile = await this.msgPlatform.getFacebookProfileInfo(sender);
       const optionalConsumerFields = {
