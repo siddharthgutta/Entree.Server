@@ -217,7 +217,7 @@ export default class FbChatBot {
       const producer = this._getData(payload).producer;
       response = new ButtonMessageData(`You can place your order for ${producer.name} by typing what you would like` +
         ` to order (Ex: \"Medium pizza with pepperoni and pineapples\". If you want to go back, you can press the ` +
-        `\"See Trucks\" button.`);
+        `\"See Trucks\" button.)`);
       response.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Failed to create handle order message');
