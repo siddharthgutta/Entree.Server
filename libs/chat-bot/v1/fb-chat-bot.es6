@@ -4,6 +4,7 @@
 import _ from 'lodash';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
+import * as Context from '../../../api/controllers/context.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
@@ -69,7 +70,7 @@ export default class FbChatBot {
    * @param {Object} event: input event from messenger
    * @returns {Object}: messenger output
    */
-  async _handlePostback(event) {
+  async _handlePostback(event, consumer) {
     let payload, action;
     try {
       payload = JSON.parse(event.postback.payload);
@@ -86,7 +87,7 @@ export default class FbChatBot {
       case actions.menu:
         return this._handleMenu(payload);
       case actions.orderPrompt:
-        return await this._handleOrderPrompt(payload);
+        return await this._handleOrderPrompt(payload, consumer);
       default:
         throw Error('Invalid payload action');
     }
@@ -96,7 +97,7 @@ export default class FbChatBot {
    * Handles attachment events
    *
    * @param {Object} event: input event from messenger
-   * @param {Object} producer: producer object that sent attachment
+   * @param {Object} consumer: consumer object that sent attachment
    * @returns {Object}: messenger output
    */
   async _handleAttachment(event, consumer) {
@@ -161,7 +162,7 @@ export default class FbChatBot {
       throw new Error('Could not get menu Link image', err);
     }
 
-    return [image];
+    return [image, button];
   }
 
   /**
@@ -169,19 +170,20 @@ export default class FbChatBot {
    *
    * @param {String} text: text of the order sent by the consumer
    * @param {Consumer} consumer: consumer object of the consumer in the database
-   * @returns {[MessageData]}: message data objects for the bot to respond with
+   * @returns {[ButtonMessageData]}: message data objects for the bot to respond with
    * @private
    */
   async _handleOrder(text, consumer) {
     let response;
-    const {_id} = consumer.context.producer;
+    const {_id: contextId, producer: {_id: producerId}} = consumer.context;
     try {
       // const producer = await Producer.findOneByObjectId(_id);
       // TODO Fire producer event here
-      response = new ButtonMessageData('Your order has been sent to the food truck. The truck will send back a quote ' +
-        'for the cost of your order. After that, you can confirm your order, so the food truck can start preparing ' +
-        'your food. In the meantime, feel free to browse the other businesses we support by pressing' +
-        '\"See Other Trucks\"');
+      
+      await Context.emptyFields(contextId, ['producer', 'lastAction']);
+      response = new ButtonMessageData('Your order has been sent to the food truck. We will send you a message with ' +
+        'an estimated time when your food will be ready. In the meantime, feel free to browse the other businesses ' +
+        'we support by pressing \"See Other Trucks\"');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumer._id}| ` +
@@ -211,13 +213,18 @@ export default class FbChatBot {
    * @returns {Object}: MessageData object
    * @private
    */
-  async _handleOrderPrompt(payload) {
+  async _handleOrderPrompt(payload, consumer) {
     let response;
     try {
       const producer = this._getData(payload).producer;
+      console.log(consumer);
+      const {context: {_id: contextId}, fbId} = consumer;
+      const {_id: producerId} = producer;
+      await Context.updateFields(contextId, {producer: producerId});
+      console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
       response = new ButtonMessageData(`You can place your order for ${producer.name} by typing what you would like` +
-        ` to order (Ex: \"Medium pizza with pepperoni and pineapples\". If you want to go back, you can press the ` +
-        `\"See Trucks\" button.`);
+        ` to order in a single message (Ex: \"Medium pizza with pepperoni and pineapples\"). If you want to go back, ` +
+        `you can press the \"See Trucks\" button.`);
       response.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Failed to create handle order message');

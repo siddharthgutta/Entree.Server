@@ -34,7 +34,7 @@ const consumerSchema = new mongoose.Schema({
     ref: 'Context',
     required: true
   },
-  orders: [order]  // eslint-disable-line
+  orders: [order.schema]
 });
 
 export default mongoose.model('Consumer', consumerSchema);
