@@ -16,10 +16,10 @@ describe('Hours DB API', () => {
   });
   describe('#create', () => {
     it('should create an hour object successfully', async () => {
-      const temp = await hour.create(attributes.days, attributes.open, attributes.close);
-      assert.equal(temp.day, attributes.days);
-      assert.equal(temp.openTime, attributes.open);
-      assert.equal(temp.closeTime, attributes.close);
+      const checkHour = await hour.create(attributes.days, attributes.open, attributes.close);
+      assert.equal(checkHour.day, attributes.days);
+      assert.equal(checkHour.openTime, attributes.open);
+      assert.equal(checkHour.closeTime, attributes.close);
     });
     it('should fail', async () => {
       try {
@@ -121,7 +121,7 @@ describe('Hours DB API', () => {
         closeTime: '20:00'
       }
     };
-    it('should work tests addHours', async () => {
+    it('should work tests addHours with several days', async () => {
       const hours = {
         day: 'Wednesday',
         openTime: '07:00',

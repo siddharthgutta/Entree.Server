@@ -100,6 +100,7 @@ export async function updateByObjectId(_id, fields) {
 
 /**
  * Adds hours to the producer object and stores in a subdoc
+ *
  * @param {String} day: the day to add
  * @param {String} open: the opening time should be 'hh:mm a'
  * @param {String} close: the closing time should be 'hh:mm a'
@@ -114,6 +115,7 @@ export async function addHour(day, open, close, id) {
 }
 
 /**
+ * Adds multiple times with an array of hours to a specific producer
  *
  * @param {String} id: unique identifier to find the producer
  * @param {Array} array: array of hour objects
