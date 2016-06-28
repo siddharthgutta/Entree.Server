@@ -4,7 +4,6 @@ import Moment from 'moment';
 import _ from 'lodash';
 import * as Hour from '../../api/controllers/hour.es6';
 import * as Util from '../../libs/utils.es6';
-import hours from './hour.es6';
 
 function hourDict(hours) {
   const innerObj = {};
@@ -106,7 +105,7 @@ const producerSchema = new mongoose.Schema({
 }, {
   timestamps: true,
   hours: {
-    type: [hours.schema]
+    type: [hour.schema]
   }
 });
 

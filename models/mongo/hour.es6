@@ -9,13 +9,6 @@ const hourSchema = new mongoose.Schema({
     type: String,
     required: true,
     enum: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    validate: {
-      validator: day => day === 'Monday' || day === 'Tuesday'
-      || day === 'Wednesday' || day === 'Thursday' ||
-      day === 'Friday' || day === 'Saturday' ||
-      day === 'Sunday'
-    }
->>>>>>> added hours to the producers and functions to access and change them
   },
   openTime: {
     type: String,

@@ -1,20 +1,36 @@
+<<<<<<< cc31fc0532d0172d21d00de9e0d9adafbab57240
 import * as Hour from '../db/hours.es6';
 import Moment from 'moment';
 /**
  * Creates a new operating time for a specific producer
  *
  * @param  {String} day: the day of the week to look for
+=======
+import * as models from '../../models/mongo/index.es6';
+const hour = models.hours;
+/**
+ * Creates a new operating time for a specific producer
+ *
+ * @param  {String} day1: the day of the week to look for
+>>>>>>> fixed the pull request comments
  * @param  {String} open: the time the producer opens
  * @param {String} close: the time the producer closes
  * @returns {Promise} the hour object created
  */
+<<<<<<< cc31fc0532d0172d21d00de9e0d9adafbab57240
 export async function create(day, open, close) {
   return await Hour.create({
     day,
+=======
+export async function create(day1, open, close) {
+  return await hour.create({
+    day: day1,
+>>>>>>> fixed the pull request comments
     openTime: open,
     closeTime: close
   });
 }
+<<<<<<< cc31fc0532d0172d21d00de9e0d9adafbab57240
 
 /**
  * Converts the time into a number
@@ -41,3 +57,5 @@ export function hourComp(first, second) {
   if (firstTime.isSame(secondTime)) ret = 0;
   return ret;
 }
+=======
+>>>>>>> fixed the pull request comments
