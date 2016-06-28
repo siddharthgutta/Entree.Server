@@ -154,7 +154,7 @@ export default class FbChatBot {
   _handleMenu(payload) {
     let image, button;
     try {
-      const {producer} = this._getData(payload);
+      const {producer} = this._getData(payload).producer;
       image = new ImageMessageData(producer.menuLink);
       button = new ButtonMessageData(`Here is the menu for ${producer.name}. Here are some other options:`);
       button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
