@@ -1,4 +1,5 @@
 import models from '../../models/mongo/index.es6';
+import _ from 'lodash';
 import * as Utils from '../../libs/utils.es6';
 
 const Consumer = models.Consumer;
@@ -22,8 +23,12 @@ export async function create(attributes) {
  * @param {Object} attributes: key value pairs of the attributes we want to query by
  * @returns {Promise}: returns the Consumer found
  */
-export async function findOne(attributes) {
-  const consumer = await Consumer.findOne(attributes).populate('context').populate('defaultLocation').exec();
+export async function findOne(attributes, populateFields = []) {
+  let findQuery = Consumer.findOne(attributes);
+  findQuery = _.reduce(populateFields, (query, field) =>
+      findQuery.populate(field),
+    findQuery);
+  const consumer = await findQuery.exec();
   if (Utils.isEmpty(consumer)) {
     throw new Error(`Could not find consumer with attributes:${attributes}`);
   }

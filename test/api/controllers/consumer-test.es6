@@ -171,7 +171,19 @@ describe('Consumer DB API', () => {
       try {
         await Consumer.createFbConsumer(fbId, optionalAttributes);
 
-        await Consumer.addLocation(-1000, longitude);
+        await Consumer.addLocation(fbId, -91, longitude);
+      } catch (e) {
+        return;
+      }
+
+      assert(false);
+    });
+
+    it('should fail to add an invalid location', async () => {
+      try {
+        await Consumer.createFbConsumer(fbId, optionalAttributes);
+
+        await Consumer.addLocation(fbId, latitude, 181);
       } catch (e) {
         return;
       }
@@ -180,50 +192,69 @@ describe('Consumer DB API', () => {
     });
   });
 
-  describe('#findDistanceFromLocation()', async () => {
+  describe('#findDistanceFromLocations()', async () => {
     const latitude = 33.044165;
     const longitude = -96.815312;
 
-    it('should successfully find the distance between consumer\'s location and another location', async () => {
-      let consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+    it('should successfully find the distance between consumer\'s location and producer\'s location', async () => {
+      const {_id: id1} = await Producer.create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com',
+        'example', '5967 W Parker Rd, Plano, TX 75093', 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+          merchant: {merchantId: '123456'}});
+      const {_id: id2} = await Producer.create('El Queso', 'bowl', 'burrito', 'another description', 'profileImage.com',
+        'example', 'Windhaven Plaza, 3309 Dallas Pkwy #451,75093', 12.5, 30,
+        'quesomenu.com', {producer: {enabled: true}});
 
+      const producer1 = await Producer.findOneByObjectId(id1);
+      const producer2 = await Producer.findOneByObjectId(id2);
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, latitude, longitude);
-      consumer = await Consumer.findOneByFbId(consumer.fbId);
-      const dist = await Consumer.findDistanceFromLocation(consumer.fbId, 24.319821, 120.966393);
+      const dists = await Consumer.findDistanceFromLocations(consumer.fbId, [producer1, producer2]);
 
-      assert.equal(dist, 7770.4);
-    });
-
-    it('should fail to find the distance from an invalid location', async () => {
-      let consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
-
-      await Consumer.addLocation(consumer.fbId, latitude, longitude);
-      consumer = await Consumer.findOneByFbId(consumer.fbId);
-      try {
-        await Consumer.findDistanceFromLocation(consumer.fbId, 1000, 120.966393);
-      } catch (e) {
-        return;
-      }
-
-      assert(false);
+      assert.equal(dists[producer1.location], 0.7);
+      assert.equal(dists[producer2.location], 3);
     });
   });
 
   describe('#getClosestProducers()', async () => {
-    it('should get the closest producers to the consumer', async () => {
-      const name = 'Pizza Hut';
-      const password = 'password';
-      const username = 'pizzahut';
-      const description = 'some description';
-      const profileImage = 'pizzahut.com/profileImage';
-      const exampleOrder = 'this is an example order';
-      const address = '1811 Guadalupe St, 78705';
-      const menuLink = 'menulink.com';
-      const percentageFee = 12.5;
-      const transactionFee = 30;
-      const latitude = 33.044165;
-      const longitude = -96.815312;
+    const name = 'Pizza Hut';
+    const password = 'password';
+    const username = 'pizzahut';
+    const description = 'some description';
+    const profileImage = 'pizzahut.com/profileImage';
+    const address = '1811 Guadalupe St, 78705';
+    const exampleOrder = 'example order';
+    const menuLink = 'menulink.com';
+    const percentageFee = 12.5;
+    const transactionFee = 30;
+    const latitude = 33.044165;
+    const longitude = -96.815312;
 
+    it('should get the closest producers to the consumer', async () => {
+      await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
+        percentageFee, transactionFee, menuLink, {
+          merchant: {
+            merchantId: '987654'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      await Producer.create('El Queso', 'bowl', 'burrito', 'another description', profileImage, exampleOrder,
+        'Windhaven Plaza, 3309 Dallas Pkwy #451,75093', 12.5, 30, menuLink, {producer: {enabled: true}});
+
+      await Producer.create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
+          '5967 W Parker Rd, Plano, TX 75093', 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+          merchant: {merchantId: '123456'}});
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+
+      const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 4);
+      assert.equal(results.length, 2);
+      assert.equal(results[0].name, 'Eatzis');
+      assert.equal(results[1].name, 'El Queso');
+    });
+
+    it('should limit the producers', async () => {
       await Producer.create(name, username, password, description, profileImage, exampleOrder,
         address, percentageFee, transactionFee, menuLink, {
           merchant: {
@@ -234,15 +265,17 @@ describe('Consumer DB API', () => {
           }
         });
       await Producer.create('El Queso', 'bowl', 'burrito', 'another description', profileImage, exampleOrder,
-        'Windhaven Plaza, 3309 Dallas Pkwy #451, 75093', 12.5, 30, menuLink, {producer: {enabled: true}});
-      let consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.addLocation(consumer.fbId, latitude, longitude);
-      consumer = await Consumer.findOneByFbId(consumer.fbId);
+        'Windhaven Plaza, 3309 Dallas Pkwy #451,75093', 12.5, 30, menuLink, {producer: {enabled: true}});
+      await Producer.create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
+        '5967 W Parker Rd, Plano, TX 75093', 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+          merchant: {merchantId: '123456'}});
 
-      const results = await Consumer.getClosestProducers(consumer.fbId, 20, 4);
-      assert.equal(results[0].location.coordinates.latitude, 33.0077697);
-      assert.equal(results[0].location.coordinates.longitude, -96.8433764);
-      assert.equal(results[0].name, 'El Queso');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+
+      const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
+      assert.equal(results.length, 1);
+      assert.equal(results[0].name, 'Eatzis');
     });
   });
 });

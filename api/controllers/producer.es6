@@ -43,7 +43,7 @@ export async function _find(conditions, limit, sortFields = {}, populateFields =
 /**
  * Find enabled producers with given conditions
  *
- * @param {Number} conditions: key value pairs of the conditions we want to query by
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
  * @returns {Promise}: returns the producers found
  */
 
