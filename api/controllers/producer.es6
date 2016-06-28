@@ -160,20 +160,6 @@ export async function deleteDay(id, day) {
 }
 
 /**
- * Updates the operating times for a single day for a specific producer
- *
- * @param {String} id: unique identifier to find the producer
- * @param {String} hourId: the id of the hour to replace
- * @param {String} day: the day of the week to update
- * @param {String} newOpen: the new open time formatted 'HH:mm'
- * @param {String} newClose: the new close time formatted 'HH:mm'
- * @returns {Promise} modified hours object
- */
-export async function updateHours(id, hourId, day, newOpen, newClose) {
-  await deleteHour(id, hourId);
-  return await addHour(day, newOpen, newClose, id);
-}
-/**
  * Gets the hours for a specific producer
  *
  * @param {number} id: finds the producer
