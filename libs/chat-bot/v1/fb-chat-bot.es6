@@ -177,7 +177,7 @@ export default class FbChatBot {
    */
   async _handleOrder(text, consumer) {
     let response;
-    const {_id: consumerId, context: {_id: contextId, producer: {_id: producerId}}} = consumer;
+    const {_id: consumerId, context: {_id: contextId, producer: producerId}} = consumer;
     console.log(`Handle Order ${JSON.stringify(consumer)}`);
     try {
       const {_id: orderId} = await Order.create(text, producerId, consumerId);
