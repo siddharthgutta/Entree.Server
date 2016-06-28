@@ -26,7 +26,6 @@ export default class FbChatBot {
     // Then, search for the bot you are trying to have a conversation with
     // Then, the welcome message should be shown
     /* Setup welcome message */
-    // Commenting it out temporarily since Facebook has a bug
     /*
     const welcomeMessage = new ButtonMessageData('Hi, I’m Entrée. I help you order ahead from and find the best food ' +
       'trucks around you. Press “Trucks” to see where we work! (We are currently only in Austin, TX)');
@@ -179,6 +178,7 @@ export default class FbChatBot {
   async _handleOrder(text, consumer) {
     let response;
     const {_id: consumerId, context: {_id: contextId, producer: {_id: producerId}}} = consumer;
+    console.log(`Handle Order ${JSON.stringify(consumer)}`);
     try {
       const {_id: orderId} = await Order.create(text, producerId, consumerId);
       const producer = await Producer.findOneByObjectId(producerId);
@@ -219,7 +219,8 @@ export default class FbChatBot {
     let response;
     try {
       const producer = this._getData(payload).producer;
-      console.log(consumer);
+      console.log(`Handle Order Prompt Consumer: ${consumer}`);
+      console.log(`Handle Order Prompt Consumer: ${producer}`);
       const {context: {_id: contextId}, fbId} = consumer;
       const {_id: producerId} = producer;
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producerId});
