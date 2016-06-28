@@ -26,10 +26,13 @@ export default class FbChatBot {
     // Then, search for the bot you are trying to have a conversation with
     // Then, the welcome message should be shown
     /* Setup welcome message */
+    // Commenting it out temporarily since Facebook has a bug
+    /*
     const welcomeMessage = new ButtonMessageData('Hi, I’m Entrée. I help you order ahead from and find the best food ' +
       'trucks around you. Press “Trucks” to see where we work! (We are currently only in Austin, TX)');
     welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
+    */
   }
 
   /**
