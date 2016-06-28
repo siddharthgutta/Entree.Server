@@ -5,7 +5,7 @@
 import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
-import * as hours from '../controllers/hours.es6';
+import * as Hour from './hour.es6';
 
 /**
  * Find the producer from its object id
@@ -95,83 +95,100 @@ export async function create(name, username, password, description,
  * @returns {Promise} returns the producer without updates from the database
  */
 export async function updateByObjectId(_id, fields) {
-  const temp = await Producer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true});
-  return temp;
+  return await Producer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true});
 }
 
 /**
- *
- * @param {String} days: the day to add
+ * Adds hours to the producer object and stores in a subdoc
+ * @param {String} day: the day to add
  * @param {String} open: the opening time should be 'hh:mm a'
  * @param {String} close: the closing time should be 'hh:mm a'
- * @param {String} id: unique identifier to find the restaurant
+ * @param {String} id: unique identifier to find the producer
  * @returns {Promise} the result of the update
  */
-// proudcer.hours.push(hours)
-export async function setHours(days, open, close, id) {
-  const hour = await hours.createHours(days, open, close);
+export async function addHour(day, open, close, id) {
+  const hour = await Hour.create(day, open, close);
   const prod = await findOneByObjectId(id);
-  console.log(prod);
   prod.hours.push(hour);
-  return prod.save();
+  return await prod.save();
 }
 
-
-// add new times delete times
 /**
- * Deletes the hours for a certain day for a specific restaurant
- * @param {String} id: unique identifier to find the restaurant
- * @param {String} day: day of the week to delete
- * @param {String} open: the opening time for that restaurant
- * @param {String} close: the closing time for the restaurant
+ *
+ * @param {String} id: unique identifier to find the producer
+ * @param {Array} array: array of hour objects
+ * @return {Promise} returns the updated producer
+ */
+export async function addHours(id, array) {
+  const prod = await Producer.findOne(id);
+  _.forEach(array, async function(key) {
+    prod.hours.push(key);
+  });
+  return await prod.save();
+}
+/**
+ * Deletes a specific hour object for a specific producer
+ * @param {String} id: unique identifier to find the producer
+ * @param {String} hourId: the id of the hour to delete
  * @returns {Promise} removed object
  */
-export async function deleteHours(id, day, open, close) {
+export async function deleteHour(id, hourId) {
   const prod = await Producer.findOne(id);
-  for (let k = 0; k < prod.hours.length; k++) {
-    if (prod.hours[k].day === day && prod.hours[k].openTime === open && prod.hours[k].closeTime === close) {
-      prod.hours[k].remove();
-      break;
+  _.forEachRight(prod.hours, key => {
+    if (key._id.equals(hourId)) {
+      key.remove();
     }
-  }
-  prod.save(err => {
-    if (err) return err;
   });
-  return prod;
+  return await prod.save();
 }
 
 /**
- * Updates the operating times for a single day for a specific restaurant
+ * Deletes all hours for a day for a specific producer
  *
- * @param {String} id:unique identifier to find the restaurant
+ * @param {String} id: unique identifier to find the producer
+ * @param {String} day: the day to delete from the producers
+ * @returns {Promise} : return the new producer after the hours are deleted
+ */
+export async function deleteDay(id, day) {
+  const prod = await Producer.findOne(id);
+  _.forEachRight(prod.hours, key => {
+    if (key.day === day) {
+      key.remove();
+    }
+  });
+  return await prod.save();
+}
+
+/**
+ * Updates the operating times for a single day for a specific producer
+ *
+ * @param {String} id: unique identifier to find the producer
+ * @param {String} hourId: the id of the hour to replace
  * @param {String} day: the day of the week to update
- * @param {String} oldOpen: the old open time formatted 'HH:mm'
- * @param {String} oldClose: the old close time formatted 'HH:mm'
  * @param {String} newOpen: the new open time formatted 'HH:mm'
  * @param {String} newClose: the new close time formatted 'HH:mm'
  * @returns {Promise} modified hours object
  */
-export async function updateHours(id, day, oldOpen, oldClose, newOpen, newClose) {
-  await deleteHours(id, day, oldOpen, oldClose);
-  return await setHours(day, newOpen, newClose, id);
+export async function updateHours(id, hourId, day, newOpen, newClose) {
+  await deleteHour(id, hourId);
+  return await addHour(day, newOpen, newClose, id);
 }
 /**
- * Gets the hours for a specific restaurant
+ * Gets the hours for a specific producer
  *
- * @param {number} id: finds the restaurant
+ * @param {number} id: finds the producer
  * @returns {Promise} the array of hour objects of the restaurant's hours
  */
 export async function getHours(id) {
-  const temp = (await Producer.findOne(id)).hours;
-  return temp;
+  return (await Producer.findOne(id)).hours;
 }
 
 /**
  * Gets the servers current time
  *
- * @returns {number} the current time in 'HHmm'
+ * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  const d = new Date();
-  return d.getHours() * 100 + d.getMinutes();
+  const date = new Date();
+  return `${date.getHours()}:${date.getMinutes()}`;
 }

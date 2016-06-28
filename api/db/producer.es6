@@ -4,10 +4,6 @@ import _ from 'lodash';
 const Producer = models.Producer;
 
 /**
-* IMPORTANT: Must return promises!
-*/
-
-/**
 * Creates a producer
 *
 * @param {Object} attributes: key value pairs of the attributes we want to populate the Producer with
