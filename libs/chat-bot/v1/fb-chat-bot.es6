@@ -309,7 +309,7 @@ export default class FbChatBot {
   async _handleMoreInfo(payload) {
     let button;
     try {
-      const {producer} = this._getData(payload);
+      const {producer} = this._getData(payload).producer;
       button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
