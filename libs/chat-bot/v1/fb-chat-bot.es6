@@ -5,6 +5,7 @@ import _ from 'lodash';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
+import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
@@ -113,7 +114,7 @@ export default class FbChatBot {
    * Handles text events
    *
    * @param {Object} event: input event from messenger
-   * @param {Object} consumer: consumer that sent the event
+   * @param {Promise<Consumer>} consumer: consumer that sent the event
    * @returns {Object}: messenger output
    */
   async _handleText(event, consumer) {
@@ -168,7 +169,7 @@ export default class FbChatBot {
    * Handle the order text sent by the consumer
    *
    * @param {String} text: text of the order sent by the consumer
-   * @param {Consumer} consumer: consumer object of the consumer in the database
+   * @param {Promise<Consumer>} consumer: consumer object of the consumer in the database
    * @returns {[ButtonMessageData]}: message data objects for the bot to respond with
    * @private
    */
@@ -176,11 +177,13 @@ export default class FbChatBot {
     let response;
     const {_id: consumerId, context: {_id: contextId, producer: {_id: producerId}}} = consumer;
     try {
-      // const producer = await Producer.findOneByObjectId(_id);
-      // TODO Fire producer event here
+      const {_id: orderId} = await Order.create(text, producerId, consumerId);
+      const producer = await Producer.findOneByObjectId(producerId);
+      await Order.pushOrderByObjectId([consumer, producer], orderId);
       await Context.emptyFields(contextId, ['producer', 'lastAction']);
       response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
+      await Context.emptyFields(contextId, ['lastAction']);
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
         `for producer |${producerId}|.`);
@@ -216,7 +219,7 @@ export default class FbChatBot {
       console.log(consumer);
       const {context: {_id: contextId}, fbId} = consumer;
       const {_id: producerId} = producer;
-      await Context.updateFields(contextId, {producer: producerId});
+      await Context.updateFields(contextId, {lastAction: actions.order, producer: producerId});
       console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
       response = new ButtonMessageData(`Just tell us what you want from ${producer.name}! We’ll send it to the truck,` +
         `and they will confirm the price. (Ex: \"Medium pizza with pepperoni and pineapples\").`);
