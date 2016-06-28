@@ -154,7 +154,7 @@ export default class FbChatBot {
   _handleMenu(payload) {
     let image, button;
     try {
-      const {producer} = this._getData(payload).producer;
+      const {producer} = this._getData(payload);
       image = new ImageMessageData(producer.menuLink);
       button = new ButtonMessageData(`Here is the menu for ${producer.name}. Here are some other options:`);
       button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
@@ -218,12 +218,11 @@ export default class FbChatBot {
   async _handleOrderPrompt(payload, consumer) {
     let response;
     try {
-      const producer = this._getData(payload).producer;
+      const {producer} = this._getData(payload);
       console.log(`Handle Order Prompt Consumer: ${consumer}`);
       console.log(`Handle Order Prompt Consumer: ${producer}`);
       const {context: {_id: contextId}, fbId} = consumer;
-      const {_id: producerId} = producer;
-      await Context.updateFields(contextId, {lastAction: actions.order, producer: producerId});
+      await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
       console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
       response = new ButtonMessageData(`Just tell us what you want from ${producer.name}! We’ll send it to the truck,` +
         `and they will confirm the price. (Ex: \"Medium pizza with pepperoni and pineapples\").`);
@@ -309,7 +308,7 @@ export default class FbChatBot {
   async _handleMoreInfo(payload) {
     let button;
     try {
-      const {producer} = this._getData(payload).producer;
+      const {producer} = this._getData(payload);
       button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
