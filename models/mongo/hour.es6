@@ -8,12 +8,7 @@ const hourSchema = new mongoose.Schema({
   day: {
     type: String,
     required: true,
-    validate: {
-      validator: day => day === 'Monday' || day === 'Tuesday'
-      || day === 'Wednesday' || day === 'Thursday' ||
-      day === 'Friday' || day === 'Saturday' ||
-      day === 'Sunday'
-    }
+    enum: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
   },
   openTime: {
     type: String,
@@ -27,6 +22,4 @@ const hourSchema = new mongoose.Schema({
   }
 
 });
-// map for days of the week and map to true or false
 export default mongoose.model('hours', hourSchema);
-// HH:mm
