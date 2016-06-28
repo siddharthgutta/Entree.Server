@@ -3,6 +3,7 @@
  */
 
 import GoogleAPIStrategy from './strategy.es6';
+import * as Utils from '../utils.es6';
 
 export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
   /**
@@ -42,27 +43,8 @@ export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
       'https://maps.googleapis.com/maps/api/geocode/json',
       'GET', {address: addr, key: this.apiKey}
     );
-    if (!responseBody.results[0]) throw new Error('Invalid Input');
+    if (Utils.isEmpty(responseBody.results[0])) throw new Error('Cannot find a valid location from this address');
     else return responseBody.results[0].geometry.location;
   }
 
-	/**
-   * Gets the distance in miles from a coordinates object
-   * Ex: { "lat": 33.0787152, "lng": -96.8083063 }
-   *
-   * @param {Number} startLat: latitude of the starting location
-   * @param {Number} startLong: longitude of the starting location
-   * @param {Number} endLat: latitude of the starting location
-   * @param {Number} endLong: longitude of the starting location
-   * @returns {Number} Number in miles describing the distance
-   */
-  async getDistanceInMiles(startLat, startLong, endLat, endLong) {
-    const origin = `${startLat},${startLong}`;
-    const destination = `${endLat},${endLong}`;
-    const responseBody = await this.apiCall(
-      'https://maps.googleapis.com/maps/api/distancematrix/json',
-      'GET', {units: 'imperial', origins: origin, destinations: destination, key: this.apiKey}
-    );
-    return parseInt(responseBody.rows[0].elements[0].distance.text, 10);
-  }
 }

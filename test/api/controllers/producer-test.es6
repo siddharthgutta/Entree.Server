@@ -185,6 +185,26 @@ describe('Producer DB API', () => {
       assert(false);
     });
 
+    it('should fail to create a Producer with no transaction fee', async () => {
+      try {
+        await Producer.create('Pizza Hut', username, password, 'some description', profileImage, address,
+          percentageFee, null, menuLink, {producer: {phoneNumber: '1234567890', enabled: true}});
+      } catch (e) {
+        return;
+      }
+      assert(false);
+    });
+
+    it('should fail to create a Producer with no menu link', async () => {
+      try {
+        await Producer.create('Pizza Hut', username, password, 'some description', profileImage, address,
+          percentageFee, transactionFee, null, {producer: {phoneNumber: '1234567890', enabled: true}});
+      } catch (e) {
+        return;
+      }
+      assert(false);
+    });
+
     it('should fail to create a Producer with non 10 digit phone number', async() => {
       try {
         await Producer.create('Pizza Hut', username, 'password', 'some description', profileImage, exampleOrder,

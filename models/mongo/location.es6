@@ -6,7 +6,7 @@ const locationSchema = new mongoose.Schema({
       type: Number,
       required: true,
       validate: {
-        validator: lat => lat > -90 && lat < 90,
+        validator: lat => lat >= -90 && lat <= 90,
         message: 'invalid latitude'
       }
     },
@@ -14,7 +14,7 @@ const locationSchema = new mongoose.Schema({
       type: Number,
       required: true,
       validate: {
-        validator: long => long > -180 && long < 180,
+        validator: long => long >= -180 && long <= 180,
         message: 'invalid longitude'
       }
     }
