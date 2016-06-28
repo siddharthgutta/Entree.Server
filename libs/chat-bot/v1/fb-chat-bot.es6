@@ -25,9 +25,8 @@ export default class FbChatBot {
     // Then, search for the bot you are trying to have a conversation with
     // Then, the welcome message should be shown
     /* Setup welcome message */
-    const welcomeMessage = new ButtonMessageData('Hi I\'m Entrée! I help you order food in advance and find ' +
-      'new places to eat. We try to make ordering as fast and easy as possible. Press \"Trucks\" to see what ' +
-      'food trucks we work at!');
+    const welcomeMessage = new ButtonMessageData('Hi, I’m Entrée. I help you order ahead from and find the best food ' +
+      'trucks around you. Press “Trucks” to see where we work! (We are currently only in Austin, TX)');
     welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
   }
@@ -180,9 +179,7 @@ export default class FbChatBot {
       // const producer = await Producer.findOneByObjectId(_id);
       // TODO Fire producer event here
       await Context.emptyFields(contextId, ['producer', 'lastAction']);
-      response = new ButtonMessageData('Your order has been sent to the food truck. We will send you a message with ' +
-        'an estimated time when your food will be ready. In the meantime, feel free to browse the other businesses ' +
-        'we support by pressing \"See Other Trucks\"');
+      response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
@@ -221,9 +218,8 @@ export default class FbChatBot {
       const {_id: producerId} = producer;
       await Context.updateFields(contextId, {producer: producerId});
       console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
-      response = new ButtonMessageData(`You can place your order for ${producer.name} by typing what you would like` +
-        ` to order in a single message (Ex: \"Medium pizza with pepperoni and pineapples\"). If you want to go back, ` +
-        `you can press the \"See Trucks\" button.`);
+      response = new ButtonMessageData(`Just tell us what you want from ${producer.name}! We’ll send it to the truck,` +
+        `and they will confirm the price. (Ex: \"Medium pizza with pepperoni and pineapples\").`);
       response.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Failed to create handle order message');
@@ -307,7 +303,7 @@ export default class FbChatBot {
     let button;
     try {
       const {producer} = this._getData(payload);
-      button = new ButtonMessageData(`Here is what you can do with ${producer.name}.`);
+      button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
