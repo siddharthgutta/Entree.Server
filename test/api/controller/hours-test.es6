@@ -245,43 +245,4 @@ describe('Hours DB API', () => {
       assert.equal('0', checkProd.hours.length);
     });
   });
-  describe('#UpdateHours', () => {
-    const fields = {
-      name: 'Updated Name',
-      username: 'Updated Username',
-      password: 'Updated Password',
-      description: 'Updated Description',
-      phoneNumber: '9876543210',
-      profileImage: 'www.updated.com',
-      enabled: true,
-      menuLink: 'www.menulink.com',
-      hour: {
-        day: 'Tuesday',
-        openTime: '07:00',
-        closeTime: '20:00'
-      }
-    };
-    console.log('out');
-    it('should work tests updateHours', async () => {
-      const hours = {
-        day: 'Wednesday',
-        openTime: '07:00',
-        newOpen: '08:00',
-        closeTime: '20:00',
-        newClose: '19:00'
-      };
-      const {_id} = await Producer._create('Food truck', 'dominoesss',
-        password, description, fields.profileImage, 1, 1, {
-          merchant: {
-            merchantId: '987655'
-          }});
-      const hour1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
-      const hourId = hour1._id;
-      const hourArray = [];
-      hourArray[0] = hour1;
-      await Producer.addHours(_id, hourArray);
-      const prodCheck = await Producer.updateHours(_id, hourId, hours.day, hours.newOpen, hours.newClose);
-      assert.equal(prodCheck.hours[prodCheck.hours.length - 1].openTime, hours.newOpen);
-    });
-  });
 });
