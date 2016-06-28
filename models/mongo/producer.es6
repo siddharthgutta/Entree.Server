@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import order from './order.es6';
 
 const producerSchema = new mongoose.Schema({
   name: {
@@ -42,7 +41,10 @@ const producerSchema = new mongoose.Schema({
   menuLink: {
     type: String
   },
-  orders: [order.schema]
+  orders: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Order'
+  }]
 });
 
 export default mongoose.model('Producer', producerSchema);

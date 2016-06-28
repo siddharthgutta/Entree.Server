@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import order from './order.es6';
 
 const consumerSchema = new mongoose.Schema({
   firstName: {
@@ -34,7 +33,10 @@ const consumerSchema = new mongoose.Schema({
     ref: 'Context',
     required: true
   },
-  orders: [order.schema]
+  orders: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Order'
+  }]
 });
 
 export default mongoose.model('Consumer', consumerSchema);
