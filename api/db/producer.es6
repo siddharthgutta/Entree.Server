@@ -41,15 +41,16 @@ export async function findOne(attributes, populateFields = []) {
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
  * @param {Number} limit: number of objects to limit the query to find
+ * @param {Object} sortFields: key value pairs of the fields to sort on Ex: {createdAt: 'descending'}
  * @param {Array<String>} populateFields: fields to populate query with
  * @returns {Promise}: returns the producers found
  */
-export async function find(conditions, limit, populateFields) {
+export async function find(conditions, limit, sortFields, populateFields) {
   let findQuery = Producer.find(conditions);
   findQuery = _.reduce(populateFields, (query, field) =>
     findQuery.populate(field),
   findQuery);
-  return await findQuery.limit(limit).exec();
+  return await findQuery.limit(limit).sort(sortFields).exec();
 }
 
 
