@@ -203,7 +203,6 @@ describe('Consumer DB API', () => {
       const {_id: id2} = await Producer.create('El Queso', 'bowl', 'burrito', 'another description', 'profileImage.com',
         'example', 'Windhaven Plaza, 3309 Dallas Pkwy #451,75093', 12.5, 30,
         'quesomenu.com', {producer: {enabled: true}});
-
       const producer1 = await Producer.findOneByObjectId(id1);
       const producer2 = await Producer.findOneByObjectId(id2);
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
@@ -269,7 +268,6 @@ describe('Consumer DB API', () => {
       await Producer.create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
         '5967 W Parker Rd, Plano, TX 75093', 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
           merchant: {merchantId: '123456'}});
-
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, latitude, longitude);
 
