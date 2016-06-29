@@ -101,11 +101,29 @@ export async function findDistanceFromLocations(fbId, producers) {
   const consumerLat = consumer.defaultLocation.coordinates.latitude;
   const consumerLong = consumer.defaultLocation.coordinates.longitude;
   const distances = {};
+  const obj = {'577400cc4bdae444d5f87923': {longitude: -96.82748079999999, latitude: 33.0454641},
+    '577400cc4bdae444d5f87926': {longitude: -96.8433764, latitude: 33.0077697}};
   const obj2 = {};
 
   _(producers).forEach(producer => {
     obj2[producer._id.toString()] = producer.location.coordinates;
   });
+
+  console.log();
+  console.log('obj');
+  console.log(obj);
+  console.log();
+  console.log('obj2');
+  console.log(obj2);
+
+  const answer = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
+  console.log();
+  console.log('answer with obj');
+  console.log(answer);
+  const answer2 = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj2);
+  console.log();
+  console.log('answer with obj2');
+  console.log(answer2);
 
   _(producers).forEach(producer => {
     if (Utils.isEmpty(producer.location)) throw new Error('Invalid Location');
