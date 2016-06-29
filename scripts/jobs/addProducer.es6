@@ -34,9 +34,9 @@ async function handleJSONFile(promises) {
   try {
     const results = await Promise.all(promises);
     _.forEach(results, async value => {
-      const {name, username, password, description, profileImage,
+      const {name, username, password, description, profileImage, exampleOrder,
         percentageFee, transactionFee, optional} = value;
-      const {_id} = await Producer.create(name, username, password, description, profileImage,
+      const {_id} = await Producer.create(name, username, password, description, profileImage, exampleOrder,
         percentageFee, transactionFee, optional);
       const producer = await Producer.findOneByObjectId(_id);
       console.log(producer);

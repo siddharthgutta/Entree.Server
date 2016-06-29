@@ -228,7 +228,7 @@ export default class FbChatBot {
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
       console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-        `${producer.name} menu and we'll start preparing your order.`);
+        `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
       response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Failed to create handle order message');
