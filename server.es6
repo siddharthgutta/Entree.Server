@@ -14,7 +14,6 @@ import compression from 'compression';
 import * as fs from 'fs';
 import FBMessengerRouter from './routes/fb-messenger.es6';
 import DeployRouter from './routes/deploy.es6';
-import SSLRouter from './routes/ssl.es6';
 
 const app = express();
 const ssl = {
@@ -40,7 +39,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // points app to public directory for static files
 
 // Sets up specific routes
-app.use('/', SSLRouter);
+app.use('/', express.static('public'));
 app.use('/deploy', DeployRouter);
 app.use('/fbmessenger', FBMessengerRouter);
 
