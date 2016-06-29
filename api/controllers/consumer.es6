@@ -80,13 +80,7 @@ export async function incrementReceiptCounterByFbId(fbId) {
  */
 export async function addLocation(fbId, lat, long) {
   const consumer = await findOneByFbId(fbId);
-  let location;
-  try {
-    location = await Location.createWithCoord(lat, long);
-  } catch (e) {
-    console.log(e);
-    throw e;
-  }
+  const location = await Location.createWithCoord(lat, long);
   if (!Utils.isEmpty(consumer.defaultLocation)) {
     consumer.location.push(consumer.defaultLocation);
   }
@@ -107,6 +101,11 @@ export async function findDistanceFromLocations(fbId, producers) {
   const consumerLat = consumer.defaultLocation.coordinates.latitude;
   const consumerLong = consumer.defaultLocation.coordinates.longitude;
   const distances = {};
+  const obj2 = {};
+
+  _(producers).forEach(producer => {
+    obj2[producer._id.toString()] = producer.location.coordinates;
+  });
 
   _(producers).forEach(producer => {
     if (Utils.isEmpty(producer.location)) throw new Error('Invalid Location');
@@ -114,7 +113,6 @@ export async function findDistanceFromLocations(fbId, producers) {
     const producerLong = producer.location.coordinates.longitude;
     distances[producer.location] = Distance.calcDistanceInMiles(consumerLat, consumerLong, producerLat, producerLong);
   });
-
   return distances;
 }
 

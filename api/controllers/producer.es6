@@ -72,6 +72,33 @@ export async function _create(name, username, password, description, profileImag
 
 /**
  * Creates a producer as a merchant
+ * This method is for testing purposes only as to avoid Google API calls with the normal create method
+ *
+ * @param {String} name: name of the producer
+ * @param {String} username: username for the producer
+ * @param {String} password: password of the producer
+ * @param {String} description: description of the producer
+ * @param {String} profileImage: profileImage of the producer
+ * @param {Number} latitude: latitude of the producer's location
+ * @param {Number} longitude: longitude of the producer's location
+ * @param {Number} percentageFee: percentageFee of the producer
+ * @param {Number} transactionFee: transactionFee of the producer
+ * @param {String} menuLink: the link to the menu of the producer
+ * @param {Object} optional: optional fields for both the producer/merchant under respective keys
+ * @returns {Promise} resulting producer object
+ * @private
+ */
+export async function _createTest(name, username, password, description, profileImage,
+                                  latitude, longitude, percentageFee, transactionFee, menuLink, optional = {}) {
+  const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
+  const location = await Location.createWithCoord(latitude, longitude);
+  const producer = await _create(name, username, password, description, profileImage,
+    location, merchant, menuLink, optional.producer);
+  return await producer.save();
+}
+
+/**
+ * Creates a producer as a merchant
  *
  * @param {String} name: name of the producer
  * @param {String} username: username for the producer

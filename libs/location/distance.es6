@@ -17,3 +17,18 @@ export function calcDistanceInMiles(startLat, startLong, endLat, endLong) {
   const distanceInMiles = geolib.convertUnit('mi', distanceInMeters, 1);
   return distanceInMiles;
 }
+
+/**
+ * Given a starting location and an array of coordinates, returns an array sorted
+ * in order of closest to furthest
+ *
+ * @param {Object} startCoord: an object containing the latitude and longitude of the starting location
+ * @param {Array} endCoords: an array containing the latitude and longitude of the destinations
+ * @returns {Array}: an array sorted by increasing distance [{latitude: x, longitude: y}]
+ */
+export function orderByDistance(startCoord, endCoords) {
+  const sortedDistances = geolib.orderByDistance(
+	{latitude: startCoord.latitude, longitude: startCoord.longitude}, endCoords
+	);
+  return sortedDistances;
+}

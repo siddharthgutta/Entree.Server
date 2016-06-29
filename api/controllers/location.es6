@@ -2,8 +2,12 @@ import * as Location from '../db/location.es6';
 import * as Utils from '../../libs/utils.es6';
 import * as Google from './google.es6';
 
-export async function _create(coordinates, optional = '') {
-  return await Location.create({coordinates, address: optional});
+export async function _create(lat, long, optional = {}) {
+  const coordinates = {
+    latitude: lat,
+    longitude: long
+  };
+  return await Location.create({coordinates, ...optional});
 }
 
 /**
@@ -15,11 +19,7 @@ export async function _create(coordinates, optional = '') {
  */
 export async function createWithAddress(address) {
   const googleCoordinates = await Google.getLocationCoordinatesFromAddress(address);
-  const coordinates = {
-    latitude: parseFloat(googleCoordinates.lat),
-    longitude: parseFloat(googleCoordinates.lng)
-  };
-  return await _create(coordinates, address);
+  return await _create(parseFloat(googleCoordinates.lat), parseFloat(googleCoordinates.lng), {address});
 }
 
 /**
@@ -30,11 +30,7 @@ export async function createWithAddress(address) {
  * @returns {Object} the created database object specifying the location
  */
 export async function createWithCoord(lat, long) {
-  const coordinates = {
-    latitude: lat,
-    longitude: long
-  };
-  const location = await _create(coordinates);
+  const location = await _create(lat, long);
   if (Utils.isEmpty(location)) throw new Error('Failed to create a valid location');
   return location;
 }
