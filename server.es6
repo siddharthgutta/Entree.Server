@@ -19,8 +19,7 @@ const app = express();
 const ssl = {
   key: fs.readFileSync(config.get('Server.sslKey')),
   cert: fs.readFileSync(config.get('Server.sslCert')),
-  ca: fs.readFileSync(config.get('Server.sslCa')),
-  passphrase: 'TextEntree1234',
+  // ca: fs.readFileSync(config.get('Server.sslCa')),
   rejectUnauthorized: config.get('Server.httpsRejectUnauthorized')
 };
 
