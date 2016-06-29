@@ -36,7 +36,7 @@ export async function _find(conditions, limit, sortFields = {}, populateFields =
  * @returns {Promise}: returns the producers found
  */
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'ascending'}, ['merchant']);
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant']);
 }
 
 /**
