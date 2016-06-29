@@ -6,9 +6,9 @@
   "percentageFee": 3.5,
   "transactionFee": 30,
   "profileImage": "http://i.imgur.com/MV1XYLg.png",
-  "enabled": true,
   "optional": {
     "producer": {
+      "enabled": true,
       "menuLink": "http://i.imgur.com/WZxjG9u.png?1"
     }
   }
