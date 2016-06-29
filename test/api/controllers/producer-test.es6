@@ -232,7 +232,7 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id2);
       assert.notDeepEqual(id2, id3);
       assert.notDeepEqual(id1, id3);
-      const producers = await Producer._find({}, 1, ['merchant']);
+      const producers = await Producer._find({}, 1, {createdAt: 'descending'}, ['merchant']);
       assert.equal(producers.length, 1);
       assert.deepEqual(producers[0]._id, id1);
     });

@@ -21,11 +21,12 @@ export async function findOneByObjectId(_id) {
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
  * @param {Number} limit: number of objects to limit the query to find
+ * @param {Object} sortFields: key value pairs of the fields to sort on Ex: {createdAt: 'descending'}
  * @param {Array<String>} populateFields: fields to populate query with
  * @returns {Promise}: returns the producers found
  */
-export async function _find(conditions, limit, populateFields = []) {
-  return await Producer.find(conditions, limit, populateFields);
+export async function _find(conditions, limit, sortFields = {}, populateFields = []) {
+  return await Producer.find(conditions, limit, sortFields, populateFields);
 }
 
 /**
@@ -35,7 +36,7 @@ export async function _find(conditions, limit, populateFields = []) {
  * @returns {Promise}: returns the producers found
  */
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, ['merchant']);
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'ascending'}, ['merchant']);
 }
 
 /**
