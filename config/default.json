@@ -13,9 +13,9 @@
     "protocol": "http",
     "port": 3000,
     "httpsRejectUnauthorized": false,
-    "sslKey": "./keys/textentree.com.key",
-    "sslCert": "./keys/textentree.com.crt",
-    "sslCa": "./keys/textentree.com.chain.crt",
+    "sslKey": "./keys/entreebot.com.key",
+    "sslCert": "./keys/entreebot.com.crt",
+    "sslCa": "./keys/entreebot.com.chain.crt",
     "hostnames": [
       "textentree.com",
       "www.textentree.com",
