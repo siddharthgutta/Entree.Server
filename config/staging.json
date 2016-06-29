@@ -24,10 +24,6 @@
   },
   "Server": {
     "protocol": "https",
-    "sslKey": "./keys/staging.entreebot.com.key",
-    "sslCert": "./keys/staging.entreebot.com.crt",
-    "sslCa": "./keys/staging.entreebot.com.chain.crt",
-    "sslPassphrase": "TextEntree1234",
     "branch": {
       "staging": 443
     }
