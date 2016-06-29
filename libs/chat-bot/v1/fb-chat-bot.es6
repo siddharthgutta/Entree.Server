@@ -26,13 +26,14 @@ export default class FbChatBot {
     // Then, search for the bot you are trying to have a conversation with
     // Then, the welcome message should be shown
     /* Setup welcome message */
-
+    /*
     const welcomeMessage = new ButtonMessageData(`Hello! I'm Entrée, a personal assistant designed to help you order ` +
       `food ahead for pick-up at food trucks. With just a few taps, clicks, or messages you can order food faster ` +
       `and easier than ever! Tap the "Show Trucks" button below to see a selection of food trucks you can order ` +
       `ahead from.`);
     welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
+    */
   }
 
   /**
