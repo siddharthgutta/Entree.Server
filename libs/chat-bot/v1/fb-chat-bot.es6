@@ -224,8 +224,8 @@ export default class FbChatBot {
       const {context: {_id: contextId}, fbId} = consumer;
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
       console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
-      response = new ButtonMessageData(`Just tell us what you want from ${producer.name}! We’ll send it to the truck,` +
-        `and they will confirm the price. (Ex: \"Medium pizza with pepperoni and pineapples\").`);
+      response = new ButtonMessageData(`Just type in what you want from ${producer.name}! We will send it to the ` +
+        `truck and they will confirm the price. (Ex. Chicken Tacos)`);
       response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Failed to create handle order message');
