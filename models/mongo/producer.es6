@@ -45,6 +45,8 @@ const producerSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Order'
   }]
+}, {
+  timestamps: true
 });
 
 export default mongoose.model('Producer', producerSchema);
