@@ -1,8 +1,11 @@
 import mongoose from 'mongoose';
-import merchant from './merchant.es6';
 
 const producerSchema = new mongoose.Schema({
   name: {
+    type: String,
+    required: true
+  },
+  username: {
     type: String,
     required: true,
     unique: true
@@ -11,20 +14,37 @@ const producerSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  description: {
+    type: String,
+    required: true
+  },
   phoneNumber: {
     type: String,
-    required: true,
     validate: {
-      validator: num => num.length === 10
+      validator: num => /^([0-9]{10})$/.test(num),
+      message: 'Phone number must be 10 digits'
     }
   },
   profileImage: {
-    type: String
+    type: String,
+    required: true
   },
   enabled: {
-    type: Boolean
+    type: Boolean,
+    default: false,
+    required: true
   },
-  merchant: [merchant] // eslint-disable-line
+  merchant: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Merchant'
+  },
+  menuLink: {
+    type: String
+  },
+  orders: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Order'
+  }]
 });
 
 export default mongoose.model('Producer', producerSchema);

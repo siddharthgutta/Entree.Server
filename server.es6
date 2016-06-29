@@ -2,6 +2,7 @@
  * Created by kfu on 6/18/16.
  */
 
+import './api/controllers/dispatcher.es6';
 import express from 'express';
 import path from 'path';
 import cookieParser from 'cookie-parser';
@@ -22,8 +23,9 @@ const ssl = {
   rejectUnauthorized: config.get('Server.httpsRejectUnauthorized')
 };
 
-console.log(config.get('Server.protocol'));
-const server = config.get('Server.protocol') === 'https' ? https.createServer(ssl, app) : http.createServer(app);
+const isHTTPS = config.get('Server.protocol') === 'https';
+const server = isHTTPS ? https.createServer(ssl, app) : http.createServer(app);
+console.log(`SSL: ${isHTTPS}`);
 
 app.set('views', path.join(__dirname, 'views'));  // points app to location of the views
 app.set('view engine', 'jade');                   // sets the view engine to jade
@@ -37,6 +39,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // points app to public directory for static files
 
 // Sets up specific routes
+app.use('/', express.static('public'));
 app.use('/deploy', DeployRouter);
 app.use('/fbmessenger', FBMessengerRouter);
 

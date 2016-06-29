@@ -1,0 +1,14 @@
+{
+  "name": "Austin's Habibi",
+  "username": "austinshabibi",
+  "password": "greeksalad",
+  "description": "Fresh Mediterranean and Middle-Eastern Cuisine",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "profileImage": "http://i.imgur.com/D6KHU0z.jpg",
+  "optional": {
+    "producer": {
+      "menuLink": "http://www.austinshabibi.com/austins-habibi-menu"
+    }
+  }
+}

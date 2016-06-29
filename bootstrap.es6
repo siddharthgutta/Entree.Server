@@ -8,5 +8,5 @@ export function initServer() {
   const port = Runtime.getPort();
 
   require('./server.es6').default.listen(port,
-    () => console.log(`Server deployed on port:${port}`));
+    () => console.log(`Deployed on port:${port}`));
 }

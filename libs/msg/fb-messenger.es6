@@ -65,13 +65,13 @@ export default class FBMessenger extends MsgPlatform {
         }
       }, (error, response, body) => {
         if (error) {
-          console.log('Error sending message: ', error);
+          console.log('Error setting welcome message: ', error);
           reject(error);
         } else if (response.body.error) {
-          console.log('Error: ', response.body.error);
+          console.log('Error setting welcome message: ', response.body.error);
           reject(response.body.error);
         } else {
-          console.log(`Response Body:`, body);
+          console.log(`Successfully set welcome message:`, body);
           resolve(body);
         }
       });
@@ -143,7 +143,7 @@ export default class FBMessenger extends MsgPlatform {
    * @return {Promise} Promise result with response or error
    */
   _sendMessage(recipient, messageData, notificationType = NotificationType.SILENT_PUSH) {
-    console.tag('libs', 'msg', 'fb-messenger', 'MESSAGE_SEND').log(`Sending message to ${recipient.toString()}`,
+    console.log(`Sending message to ${recipient.toString()}`,
       messageData);
 
     return new Promise((resolve, reject) => {

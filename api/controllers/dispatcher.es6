@@ -11,7 +11,7 @@ const fbChatBot = new FbChatBot(MsgPlatform);
 
 Emitter.on(Events.MSG_RECEIVED, async event => {
   try {
-    console.tag('api', 'controllers', 'dispatcher', 'MSG_RECEIVED').log(event);
+    console.log(event);
 
     const responses = await fbChatBot.handleInput(event);
     const sender = event.sender.id;
@@ -21,8 +21,8 @@ Emitter.on(Events.MSG_RECEIVED, async event => {
       await MsgPlatform.sendMessageToId(sender, message);
     }
   } catch (err) {
-    console.tag('api', 'controllers', 'dispatcher', 'MSG_RECEIVED', 'ERROR').error(err);
-    console.tag('api', 'controllers', 'dispatcher', 'MSG_RECEIVED', 'EVENT').error(event);
+    console.error(err);
+    console.error(event);
   }
 });
 
