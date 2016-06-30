@@ -196,6 +196,34 @@ describe('Producer DB API', () => {
     });
   });
 
+  describe('#findOneByUsername()', () => {
+    it('should find a producer correctly', async () => {
+      await Producer._create(name, username, password, description,
+        profileImage, exampleOrder, {phoneNumber, enabled, menuLink});
+
+      const producer = await Producer.findOneByUsername(username);
+
+      assert.equal(producer.name, name);
+      assert.equal(producer.username, username);
+      assert.equal(producer.password, password);
+      assert.equal(producer.description, description);
+      assert.equal(producer.phoneNumber, phoneNumber);
+      assert.equal(producer.profileImage, profileImage);
+      assert.equal(producer.exampleOrder, exampleOrder);
+      assert.equal(producer.enabled, enabled);
+      assert.equal(producer.menuLink, menuLink);
+    });
+
+    it('should return null if nothing is found', async () => {
+      try {
+        await Producer.findOneByUsername(username); // eslint-disable-line
+      } catch (err) {
+        return;
+      }
+      assert(false);
+    });
+  });
+
   describe('#findFbEnabled', async () => {
     const name2 = 'Dominos';
     const username2 = 'dominos';

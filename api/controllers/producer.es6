@@ -17,6 +17,16 @@ export async function findOneByObjectId(_id) {
 }
 
 /**
+ * Find the producer from its username
+ *
+ * @param {String} username: username of the producer object
+ * @returns {Promise<Producer>}: the producer with the specific username
+ */
+export async function findOneByUsername(username) {
+  return await Producer.findOne({username}, ['merchant']);
+}
+
+/**
  * Returns a Query object for finding producers
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
