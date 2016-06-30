@@ -1,6 +1,6 @@
-import models from '../../models/mongo/index.es6';
 import * as Utils from '../../libs/utils.es6';
 import _ from 'lodash';
+import models from '../../models/mongo/index.es6';
 const Producer = models.Producer;
 
 /**
@@ -44,9 +44,8 @@ export async function findOne(attributes, populateFields = []) {
 export async function find(conditions, limit, sortFields, populateFields) {
   let findQuery = Producer.find(conditions);
   findQuery = _.reduce(populateFields, (query, field) =>
-    findQuery.populate(field),
-  findQuery);
-  if (limit <= 0) return await findQuery.sort(sortFields).exec();
+    findQuery.populate(field), findQuery);
+  if (limit <= 0) return await findQuery.exec();
   return await findQuery.limit(limit).sort(sortFields).exec();
 }
 
