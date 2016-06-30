@@ -5,6 +5,9 @@ import {OrderStatuses} from '../../../models/constants/order-status.es6';
 import _ from 'lodash';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
+import Chance from 'chance';
+
+const chance = new Chance();
 
 describe('Order DB API', () => {
   const body = 'Text Body of the Order';
@@ -17,7 +20,7 @@ describe('Order DB API', () => {
 
   beforeEach(async () => {
     await clear();
-    producer = await Producer.create('Bob Restaurant', 'bob', 'bobpass', 'bobdescription', 'www.bob.com',
+    producer = await Producer.create('Bob Restaurant', chance.word(), 'bobpass', 'bobdescription', 'www.bob.com',
       'example order', 12, 12);
     consumer = await Consumer.createFbConsumer('Bob Fb Id');
   });
