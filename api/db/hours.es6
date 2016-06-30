@@ -1,7 +1,6 @@
 import models from '../../models/mongo/index.es6';
 const Hours = models.Hour;
 
-
 /**
  * @param {*} attributes: the attributes to add to the hour of the producers
  * @returns {Promise} the created object

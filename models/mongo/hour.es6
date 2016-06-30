@@ -29,4 +29,4 @@ hourSchema.pre('validate', function (next) {
     next();
   }
 });
-export default mongoose.model('hours', hourSchema);
+export default mongoose.model('Hour', hourSchema);

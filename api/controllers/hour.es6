@@ -1,7 +1,5 @@
-
 import * as Hour from '../db/hours.es6';
 import Moment from 'moment';
-
 /**
  * Creates a new operating time for a specific producer
  *
@@ -12,7 +10,7 @@ import Moment from 'moment';
  */
 
 export async function create(day, open, close) {
-  return await hour.create({
+  return await Hour.create({
     day,
     openTime: open,
     closeTime: close
