@@ -222,11 +222,8 @@ export default class FbChatBot {
     let response;
     try {
       const {producer} = this._getData(payload);
-      console.log(`Handle Order Prompt Consumer: ${consumer}`);
-      console.log(`Handle Order Prompt Consumer: ${producer}`);
-      const {context: {_id: contextId}, fbId} = consumer;
+      const {context: {_id: contextId}} = consumer;
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
-      console.log(`Updated context ${ await Consumer.findOneByFbId(fbId)}`);
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
         `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
       response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
@@ -315,7 +312,7 @@ export default class FbChatBot {
       button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
-      button.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
+      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get detailed information for place', err);
