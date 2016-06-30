@@ -2,11 +2,13 @@ import mongoose from 'mongoose';
 import hour from './hour.es6';
 import Moment from 'moment';
 import _ from 'lodash';
+import * as Hour from '../../api/controllers/hour.es6';
+import * as Util from '../../libs/utils.es6';
 
 function hourDict(hours) {
   const innerObj = {};
   _.forEach(hours, time => {
-    if (innerObj[time.day] === undefined) {
+    if (Util.isEmpty(innerObj[time.day])) {
       innerObj[time.day] = [];
     }
     innerObj[time.day].push(time);
@@ -15,50 +17,21 @@ function hourDict(hours) {
 }
 
 /**
- * Converts the time in the Producer schema to a number
- * @param {String} time:  the 'HH:mm' formatted string to cast to an integer
- * @returns {number} the time in integer form
- */
-function convertHour(time) {
-  return Number(new Moment(time, 'HH:mm').format('HHmm'));
-}
-
-/**
- * Compares the hour objects in the Schema, used in the sort method
- * @param {moment} first: the first object to compare to by openTime then closeTime
- * @param {moment} second: the second object to compare to by openTime then closeTime
- * @returns {number}: returns 1 if the first is greater, -1 if the second is greater, 0  if equal
- */
-function hourComp(first, second) {
-  let firstNum = convertHour(first.openTime);
-  let secondNum = convertHour(second.openTime);
-  if (firstNum - secondNum > 0) return 1;
-  else if (firstNum - secondNum < 0) return -1;
-  else if (firstNum === secondNum) {
-    firstNum = convertHour(first.closeTime);
-    secondNum = convertHour(second.closeTime);
-    if (firstNum - secondNum > 0) return 1;
-    if (firstNum - secondNum < 0) return -1;
-    return 0;
-  }
-}
-
-/**
  * Sorts the hours in buckets then sorts the buckets using the hourComp function
  *  then checks to see if the times overlap
- * @param {hour} hours: the producers hours to check with
+ * @param {Array} hours: the producers hours to check with
  * @returns {boolean}: returns if there is a conflict or not to the validator
  */
 function hourCheck(hours) {
   let ret = true;
-  const hourKV = hourDict(hours);
-  _.forIn(hourKV, value => {
-    const valArr = value.sort(hourComp);
+  const daysHours = hourDict(hours);
+  _.forIn(daysHours, value => {
+    const valArr = value.sort(Hour.hourComp);
     for (let k = 0; k < valArr.length - 1; k++) {
-      const firstOpen = convertHour(valArr[k].openTime);
-      const firstClose = convertHour(valArr[k].closeTime);
-      const second = convertHour(valArr[k + 1].openTime);
-      if (second > firstOpen && second < firstClose) {
+      const firstOpen = new Moment((valArr[k].openTime), 'HH:mm');
+      const firstClose = new Moment((valArr[k].closeTime), 'HH:mm');
+      const second = new Moment((valArr[k + 1].openTime), 'HH:mm');
+      if (second.isAfter(firstOpen) && second.isBefore(firstClose)) {
         ret = false;
         return false;
       }

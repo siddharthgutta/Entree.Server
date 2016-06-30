@@ -21,13 +21,12 @@ const hourSchema = new mongoose.Schema({
   }
 });
 hourSchema.pre('validate', function (next) {
-  if (this.openTime !== this.openTime || this.closeTime !== this.closeTime) next(Error('NaN'));
-  const open = Number(new Moment(this.openTime, 'HH:mm').format('HHmm'));
-  const close = Number(new Moment(this.closeTime, 'HH:mm').format('HHmm'));
-  if (open > close) {
+  const open = new Moment(this.openTime, 'HH:mm');
+  const close = new Moment(this.closeTime, 'HH:mm');
+  if (open.isAfter(close)) {
     next(Error('End Time must be greater than Start Time'));
   } else {
     next();
   }
 });
-export default mongoose.model('hours', hourSchema);
+export default mongoose.model('Hour', hourSchema);

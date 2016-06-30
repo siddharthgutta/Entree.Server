@@ -1,5 +1,5 @@
 import models from '../../models/mongo/index.es6';
-const Hours = models.hours;
+const Hours = models.Hour;
 
 /**
  * IMPORTANT: Must return promises!
@@ -16,5 +16,5 @@ export async function create(attributes) {
 *@returns {Promise}: returns a SocketToken object
 */
 export async function findOne(attributes) {
-  return await models.Hours.findOne(attributes).exec();
+  return await Hours.findOne(attributes).exec();
 }
