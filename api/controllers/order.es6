@@ -11,8 +11,8 @@ import * as Producer from './producer.es6';
  * @param {ObjectId} _id: object id of the order object
  * @returns {Promise<Order>}: the order with the specific id
  */
-export async function findOneByObjectId(_id) {
-  return await Order.findOne({_id});
+export async function findOneByObjectId(_id, populateFields = []) {
+  return await Order.findOne({_id}, populateFields);
 }
 
 /**
@@ -32,13 +32,14 @@ export async function _find(conditions, limit, sortFields = {}, populateFields =
  * Find by order objects by producer, status, and limit
  *
  * @param {ObjectId} producerId: producer id for the order
- * @param {String} status: status for the order
+ * @param {Array<String>} statuses: statuses for the order
  * @param {Number} limit: number of objects to limit the query to find
  * @returns {Promise}: returns the orders found
  */
-export async function findByStatusForProducer(producerId, status, limit) {
+export async function findByStatusForProducer(producerId, statuses, limit) {
   const {orders} = await Producer.findOneByObjectId(producerId);
-  return await _find({_id: {$in: orders}, status}, limit, {createdAt: 'ascending'});
+  return await _find({_id: {$in: orders}, status: {$in: statuses}}, limit, {createdAt: 'ascending'},
+    ['consumer', 'producer']);
 }
 
 /**

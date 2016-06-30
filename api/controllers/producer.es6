@@ -7,6 +7,17 @@ import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
 import moment from 'moment';
+import * as Context from '../controllers/context.es6';
+
+/**
+ * Finds a producer by the FbId
+ *
+ * @param {String} fbId: facebook messenger id of the producer
+ * @returns {Promise<Producer>}: the producer with the specific fbId
+ */
+export async function findOneByFbId(fbId) {
+  return await Producer.findOne({fbId}, ['context', 'merchant', 'location']);
+}
 
 /**
  * Find the producer from its object id
@@ -108,8 +119,9 @@ export async function findRandomEnabled(conditions = {}, limit = 10) {
 export async function _create(name, username, password, description, profileImage, exampleOrder,
                               location, percentageFee, transactionFee, menuLink, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
+  const context = await Context.create({...(optional.context)});
   return await Producer.create({name, username, password, description, profileImage, exampleOrder,
-    location: location._id, merchant: merchant._id, menuLink, ...optional.producer});
+    location: location._id, merchant: merchant._id, menuLink, context, ...optional.producer});
 }
 
 
