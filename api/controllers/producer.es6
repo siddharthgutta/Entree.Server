@@ -8,6 +8,7 @@ import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
 import Moment from 'moment';
 import * as Hour from './hour.es6';
+import Moment from 'moment';
 
 /**
  * Find the producer from its object id
@@ -129,22 +130,6 @@ export async function updateByObjectId(_id, fields) {
 }
 
 /**
- * Adds hours to the producer object and stores in a subdoc
- *
- * @param {String} day: the day to add
- * @param {String} open: the opening time should be 'hh:mm a'
- * @param {String} close: the closing time should be 'hh:mm a'
- * @param {String} id: unique identifier to find the producer
- * @returns {Promise} the result of the update
- */
-export async function addHour(day, open, close, id) {
-  const hour = await Hour.create(day, open, close);
-  const prod = await findOneByObjectId(id);
-  prod.hours.push(hour);
-  return await prod.save();
-}
-
-/**
  * Adds multiple times with an array of hours to a specific producer
  *
  * @param {String} id: unique identifier to find the producer
@@ -153,23 +138,26 @@ export async function addHour(day, open, close, id) {
  */
 export async function addHours(id, array) {
   const prod = await Producer.findOne(id);
-  _.forEach(array, async function(key) {
+  _.forEach(array, async key => {
     prod.hours.push(key);
   });
   return await prod.save();
 }
 /**
- * Deletes a specific hour object for a specific producer
+ * Deletes specific hour objects for a specific producer
+ *
  * @param {String} id: unique identifier to find the producer
- * @param {String} hourId: the id of the hour to delete
+ * @param {Array} hourId: the id of the hour to delete
  * @returns {Promise} removed object
  */
 export async function deleteHour(id, hourId) {
   const prod = await Producer.findOne(id);
-  _.forEachRight(prod.hours, key => {
-    if (key._id.equals(hourId)) {
-      key.remove();
-    }
+  _.forEachRight(prod.hours, time => {
+    _.forEach(hourId, hourIds => {
+      if (time._id.equals(hourIds)) {
+        time.remove();
+      }
+    });
   });
   return await prod.save();
 }
@@ -183,9 +171,9 @@ export async function deleteHour(id, hourId) {
  */
 export async function deleteDay(id, day) {
   const prod = await Producer.findOne(id);
-  _.forEachRight(prod.hours, key => {
-    if (key.day === day) {
-      key.remove();
+  _.forEachRight(prod.hours, time => {
+    if (time.day === day) {
+      time.remove();
     }
   });
   return await prod.save();
@@ -207,8 +195,48 @@ export async function getHours(id) {
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  const date = new Date();
-  return `${date.getHours()}:${date.getMinutes()}`;
+  return new Moment().format('HH:mm');
+}
+
+function convertHour(hour) {
+  return Number(new Moment(hour, 'HH:mm').format('HHmm'));
+}
+
+export function dayOfWeek() {
+  return new Moment().format('dddd');
+}
+
+export async function findOpen() {
+  let time = getCurrentTime();
+  time = convertHour(time);
+  const dayWeek = dayOfWeek();
+  const prodArr = [];
+  const prodEnabled = await findAllEnabled();
+  _.forEach(prodEnabled, prod => {
+    _.forEach(prod.hours, hour => {
+      if (hour.day === dayWeek &&
+        (time > convertHour(hour.openTime) && time < convertHour(hour.closeTime))) {
+        prodArr.push(prod);
+      }
+    });
+  });
+  return prodArr;
+}
+
+export async function findOpenTest() {
+  const time = 1300;
+  const dayWeek = 'Wednesday';
+  const prodArr = [];
+  const prodEnabled = await findAllEnabled();
+  _.forEach(prodEnabled, prod => {
+    _.forEach(prod.hours, hour => {
+      if (hour.day === dayWeek &&
+        (time > convertHour(hour.openTime) && time < convertHour(hour.closeTime))) {
+        prodArr.push(prod);
+      }
+    });
+  });
+  return prodArr;
 }
 
 /**

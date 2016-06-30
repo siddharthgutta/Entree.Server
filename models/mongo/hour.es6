@@ -3,7 +3,6 @@
  */
 import Moment from 'moment';
 import mongoose from 'mongoose';
-
 const hourSchema = new mongoose.Schema({
   day: {
     type: String,
