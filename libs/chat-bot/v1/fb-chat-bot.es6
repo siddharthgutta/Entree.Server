@@ -222,7 +222,7 @@ export default class FbChatBot {
     let response;
     try {
       const {producer} = this._getData(payload);
-      const {context: {_id: contextId}, fbId} = consumer;
+      const {context: {_id: contextId}} = consumer;
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
         `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
