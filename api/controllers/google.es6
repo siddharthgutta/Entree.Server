@@ -22,6 +22,16 @@ export async function getLocationCoordinatesFromZipcode(zipcode) {
 }
 
 /**
+ * Get location coordinates from address
+ *
+ * @param {String} address: address
+ * @returns {Object} location object containing keys: lat, lng
+ */
+export async function getLocationCoordinatesFromAddress(address) {
+  return await googleMapsGeocoding.getLocationFromAddress(address);
+}
+
+/**
  * Get search results of Google places by keyword
  *
  * @param {String} keyword: keyword to search by

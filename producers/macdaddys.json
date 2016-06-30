@@ -3,14 +3,15 @@
   "username": "macdaddys",
   "password": "cheese",
   "description": "Food Truck near UT Austin serving delicious mac and cheese creations.",
+  "profileImage": "http://i.imgur.com/MV1XYLg.png",
+  "address": "709 W 26th St, Austin, TX 78705",
   "percentageFee": 3.5,
   "transactionFee": 30,
-  "profileImage": "http://i.imgur.com/MV1XYLg.png",
   "exampleOrder": "1 small meltdown and 1 topo chico",
+  "menuLink": "http://i.imgur.com/JTPZaWa.png?1",
   "optional": {
     "producer": {
-      "enabled": true,
-      "menuLink": "http://i.imgur.com/JTPZaWa.png?1"
+      "enabled": true
     }
   }
 }

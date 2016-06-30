@@ -1,4 +1,6 @@
 import * as Consumer from '../../../api/controllers/consumer.es6';
+import * as Producer from '../../../api/controllers/producer.es6';
+import * as Location from '../../../api/controllers/location.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 
@@ -126,6 +128,157 @@ describe('Consumer DB API', () => {
       await Consumer.incrementReceiptCounterByFbId(fbId);
       const consumer = await Consumer.findOneByFbId(fbId);
       assert.equal(consumer.receiptCount, optionalAttributes.consumer.receiptCount + 1);
+    });
+  });
+
+  describe('#addLocation()', async() => {
+    const latitude = 33.044165;
+    const longitude = -96.815312;
+
+    it('should add a default location', async () => {
+      let consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+      consumer = await Consumer.findOneByFbId(consumer.fbId);
+
+      assert.equal(consumer.fbId, fbId);
+      assert.equal(consumer.firstName, optionalAttributes.consumer.firstName);
+      assert.equal(consumer.lastName, optionalAttributes.consumer.lastName);
+      assert.equal(consumer.customerId, optionalAttributes.consumer.customerId);
+      assert.equal(consumer.receiptCount, optionalAttributes.consumer.receiptCount);
+      assert.equal(consumer.defaultLocation.coordinates.latitude, latitude);
+      assert.equal(consumer.defaultLocation.coordinates.longitude, longitude);
+      assert.ok(consumer.context);
+    });
+
+    it('should change the default location and add to the location array', async () => {
+      let consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+      await Consumer.addLocation(consumer.fbId, 24.319821, 120.966393);
+      consumer = await Consumer.findOneByFbId(consumer.fbId);
+
+      assert.equal(consumer.fbId, fbId);
+      assert.equal(consumer.firstName, optionalAttributes.consumer.firstName);
+      assert.equal(consumer.lastName, optionalAttributes.consumer.lastName);
+      assert.equal(consumer.customerId, optionalAttributes.consumer.customerId);
+      assert.equal(consumer.receiptCount, optionalAttributes.consumer.receiptCount);
+      assert.equal(consumer.defaultLocation.coordinates.latitude, 24.319821);
+      assert.equal(consumer.defaultLocation.coordinates.longitude, 120.966393);
+      assert.equal(consumer.location[0].coordinates.latitude, latitude);
+      assert.equal(consumer.location[0].coordinates.longitude, longitude);
+    });
+
+    it('should fail to add an invalid location', async () => {
+      try {
+        await Consumer.createFbConsumer(fbId, optionalAttributes);
+
+        await Consumer.addLocation(fbId, -91, longitude);
+      } catch (e) {
+        return;
+      }
+
+      assert(false);
+    });
+
+    it('should fail to add an invalid location', async () => {
+      try {
+        await Consumer.createFbConsumer(fbId, optionalAttributes);
+
+        await Consumer.addLocation(fbId, latitude, 181);
+      } catch (e) {
+        return;
+      }
+
+      assert(false);
+    });
+  });
+
+  describe('#findDistanceFromProducerCoordinates()', async () => {
+    const latitude = 33.044165;
+    const longitude = -96.815312;
+
+    it('should successfully find the distance between consumer\'s location and producer\'s location', async () => {
+      const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
+      const {_id: id1} = await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com',
+        'example', eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+          merchant: {merchantId: '123456'}});
+      const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
+      const {_id: id2} = await Producer._create('El Queso', 'bowl', 'burrito', 'another description',
+        'profileImage.com', 'example', quesoLocation, 12.5, 30, 'quesomenu.com', {producer: {enabled: true}});
+
+      const producer1 = await Producer.findOneByObjectId(id1);
+      const producer2 = await Producer.findOneByObjectId(id2);
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+      const dists = await Consumer.findDistanceFromProducerCoordinates(consumer.fbId, [producer1, producer2]);
+      assert.equal(dists[0].distance, 0.7);
+      assert.equal(dists[1].distance, 0.9);
+    });
+  });
+
+  describe('#getClosestEnabledProducers()', async () => {
+    const name = 'Pizza Hut';
+    const password = 'password';
+    const username = 'pizzahut';
+    const description = 'some description';
+    const profileImage = 'pizzahut.com/profileImage';
+    const address = '1811 Guadalupe St, 78705';
+    const exampleOrder = 'example order';
+    const menuLink = 'menulink.com';
+    const percentageFee = 12.5;
+    const transactionFee = 30;
+    const latitude = 33.044165;
+    const longitude = -96.815312;
+
+    it('should get the closest producers to the consumer', async () => {
+      await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
+        percentageFee, transactionFee, menuLink, {
+          merchant: {
+            merchantId: '987654'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
+      await Producer._create('El Queso', 'bowl', 'burrito', 'another description', profileImage, exampleOrder,
+        quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+      const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
+      await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
+          eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+          merchant: {merchantId: '123456'}});
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+
+      const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 4);
+      assert.equal(results.length, 2);
+      assert.equal(results[0].producer.name, 'Eatzis');
+      assert.equal(results[1].producer.name, 'El Queso');
+    });
+
+    it('should limit the producers', async () => {
+      await Producer.create(name, username, password, description, profileImage, exampleOrder,
+        address, percentageFee, transactionFee, menuLink, {
+          merchant: {
+            merchantId: '987654'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
+      await Producer._create('El Queso', 'bowl', 'burrito', 'another description', profileImage, exampleOrder,
+        quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+      const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
+      await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
+        eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+          merchant: {merchantId: '123456'}});
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, latitude, longitude);
+
+      const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
+      assert.equal(results.length, 1);
+      assert.equal(results[0].producer.name, 'Eatzis');
     });
   });
 });

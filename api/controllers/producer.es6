@@ -5,6 +5,7 @@
 import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
+import * as Location from '../controllers/location.es6';
 
 /**
  * Find the producer from its object id
@@ -13,7 +14,7 @@ import _ from 'lodash';
  * @returns {Promise<Producer>}: the producer with the specific id
  */
 export async function findOneByObjectId(_id) {
-  return await Producer.findOne({_id}, ['merchant']);
+  return await Producer.findOne({_id}, ['merchant', 'location']);
 }
 
 /**
@@ -40,13 +41,24 @@ export async function _find(conditions, limit, sortFields = {}, populateFields =
 }
 
 /**
- * Find enabled producers
+ * Find enabled producers with given conditions
  *
- * @param {Number} conditions: size of random sample of producers to find
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
  * @returns {Promise}: returns the producers found
  */
+
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant']);
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
+}
+
+/**
+ * Finds all enabled producers with the given conditions
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @returns {Promise}: returns the producers found
+ */
+export async function findAllEnabled(conditions = {}) {
+  return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
 }
 
 /**
@@ -58,12 +70,21 @@ export async function findFbEnabled(conditions = {}) {
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
  * @param {String} exampleOrder: exampleOrder of the producer
+ * @param {Location} location: the location object specifying the location of the producer
+ * @param {Number} percentageFee: percentage fee of the merchant
+ * @param {Number} transactionFee: transaction fee of the merchant
+ * @param {String} menuLink: link to the producer's menu
  * @param {Object} optional: optional fields for the producer
- * @returns {Promise<Producer>}: the producer that was just created
+ * @returns {Promise<Producer>}: resulting producer object
  */
-export async function _create(name, username, password, description, profileImage, exampleOrder, optional = {}) {
-  return await Producer.create({name, username, password, description, profileImage, exampleOrder, ...optional});
+
+export async function _create(name, username, password, description, profileImage, exampleOrder,
+                              location, percentageFee, transactionFee, menuLink, optional = {}) {
+  const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
+  return await Producer.create({name, username, password, description, profileImage, exampleOrder,
+    location: location._id, merchant: merchant._id, menuLink, ...optional.producer});
 }
+
 
 /**
  * Creates a producer as a merchant
@@ -74,15 +95,19 @@ export async function _create(name, username, password, description, profileImag
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
  * @param {String} exampleOrder: exampleOrder of the producer
+ * @param {String} address: address of the producer's location
  * @param {Number} percentageFee: percentageFee of the producer
  * @param {Number} transactionFee: transactionFee of the producer
+ * @param {String} menuLink: the link to the menu of the producer
  * @param {Object} optional: optional fields for both the producer/merchant under respective keys
  * @returns {Promise} resulting producer object
  */
-export async function create(name, username, password, description,
-                             profileImage, exampleOrder, percentageFee, transactionFee, optional = {}) {
-  const producer = await _create(name, username, password, description, profileImage, exampleOrder, optional.producer);
-  producer.merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
+
+export async function create(name, username, password, description, profileImage, exampleOrder, address,
+                             percentageFee, transactionFee, menuLink, optional = {}) {
+  const location = await Location.createWithAddress(address);
+  const producer = await _create(name, username, password, description, profileImage,
+    exampleOrder, location, percentageFee, transactionFee, menuLink, optional);
   return await producer.save();
 }
 
