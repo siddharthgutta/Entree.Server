@@ -315,7 +315,7 @@ export default class FbChatBot {
       button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://www.google.com/maps`);
-      button.pushPostbackButton('Order Food', this._genPayload(actions.order, {producer}));
+      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get detailed information for place', err);
