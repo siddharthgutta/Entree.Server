@@ -96,24 +96,24 @@ export async function addLocation(fbId, lat, long) {
  * @param {Array<Producer>} producers: the producers whose location we are comparing with
  * @returns {Array<Object>} an array of objects of the format {producer: p, distance: d}
  */
-export async function findDistanceFromLocations(fbId, producers) {
+export async function findDistanceFromProducerCoordinates(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
   if (Utils.isEmpty(consumer.defaultLocation)) throw new Error('Invalid Location');
   const distances = [];
   const obj = {};
-  const temp = {};
+  const idsToProducers = {};
   _(producers).forEach(producer => {
     obj[producer._id] = producer.location.coordinates;
   });
 
   _(producers).forEach(producer => {
-    temp[producer._id] = producer;
+    idsToProducers[producer._id] = producer;
   });
 
   const results = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
   _(results).forEach(value => {
     const innerObj = {};
-    innerObj.producer = temp[value.key];
+    innerObj.producer = idsToProducers[value.key];
     innerObj.distance = value.distance;
     distances.push(innerObj);
   });
@@ -131,11 +131,10 @@ export async function findDistanceFromLocations(fbId, producers) {
  * @returns {Array<Object>} closest producers within the specified radius with each object
  * of the format {producer: p, distance: d}
  */
-export async function getClosestEnabledProducers(fbId, radius, limit = 10) {
-  if (limit > 10) limit = 10;
+export async function getClosestEnabledProducers(fbId, radius, limit) {
   const enabled = await Producer.findAllEnabled();
   const closest = [];
-  const producerDists = await findDistanceFromLocations(fbId, enabled);
+  const producerDists = await findDistanceFromProducerCoordinates(fbId, enabled);
 
   _(producerDists).forEach(obj => {
     if (obj.distance < radius) {

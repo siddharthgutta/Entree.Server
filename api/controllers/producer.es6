@@ -51,6 +51,12 @@ export async function findFbEnabled(conditions = {}) {
   return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
 }
 
+/**
+ * Finds all enabled producers with the given conditions
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @returns {Promise}: returns the producers found
+ */
 export async function findAllEnabled(conditions = {}) {
   return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
 }
@@ -64,41 +70,19 @@ export async function findAllEnabled(conditions = {}) {
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
  * @param {String} exampleOrder: exampleOrder of the producer
+ * @param {Location} location: the location object specifying the location of the producer
+ * @param {Number} percentageFee: percentage fee of the merchant
+ * @param {Number} transactionFee: transaction fee of the merchant
+ * @param {String} menuLink: link to the producer's menu
  * @param {Object} optional: optional fields for the producer
- * @returns {Promise<Producer>}: the producer that was just created
+ * @returns {Promise<Producer>}: resulting producer object
  */
 
-export async function _create(name, username, password, description, profileImage, exampleOrder, location, merchant,
-                              menuLink, optional = {}) {
-  return await Producer.create({name, username, password, description, profileImage, exampleOrder,
-    location: location._id, merchant: merchant._id, menuLink, ...optional});
-}
-
-/**
- * Creates a producer as a merchant
- * This method is for testing purposes only as to avoid Google API calls with the normal create method
- *
- * @param {String} name: name of the producer
- * @param {String} username: username for the producer
- * @param {String} password: password of the producer
- * @param {String} description: description of the producer
- * @param {String} profileImage: profileImage of the producer
- * @param {Number} latitude: latitude of the producer's location
- * @param {Number} longitude: longitude of the producer's location
- * @param {Number} percentageFee: percentageFee of the producer
- * @param {Number} transactionFee: transactionFee of the producer
- * @param {String} menuLink: the link to the menu of the producer
- * @param {Object} optional: optional fields for both the producer/merchant under respective keys
- * @returns {Promise} resulting producer object
- * @private
- */
-export async function _createTest(name, username, password, description, profileImage,
-                                  latitude, longitude, percentageFee, transactionFee, menuLink, optional = {}) {
+export async function _create(name, username, password, description, profileImage, exampleOrder,
+                              location, percentageFee, transactionFee, menuLink, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
-  const location = await Location.createWithCoord(latitude, longitude);
-  const producer = await _create(name, username, password, description, profileImage,
-    location, merchant, menuLink, optional.producer);
-  return await producer.save();
+  return await Producer.create({name, username, password, description, profileImage, exampleOrder,
+    location: location._id, merchant: merchant._id, menuLink, ...optional.producer});
 }
 
 /**
@@ -120,10 +104,9 @@ export async function _createTest(name, username, password, description, profile
 
 export async function create(name, username, password, description, profileImage, exampleOrder, address,
                              percentageFee, transactionFee, menuLink, optional = {}) {
-  const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   const location = await Location.createWithAddress(address);
   const producer = await _create(name, username, password, description, profileImage,
-    exampleOrder, location, merchant, menuLink, optional.producer);
+    exampleOrder, location, percentageFee, transactionFee, menuLink, optional);
   return await producer.save();
 }
 

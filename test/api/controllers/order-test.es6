@@ -1,6 +1,7 @@
 import * as Order from '../../../api/controllers/order.es6';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
+import * as Location from '../../../api/controllers/location.es6';
 import {OrderStatuses} from '../../../models/constants/order-status.es6';
 import _ from 'lodash';
 import {clear} from '../../../models/mongo/index.es6';
@@ -11,6 +12,7 @@ describe('Order DB API', () => {
   const body = 'Text Body of the Order';
   let producer;
   let consumer;
+  let location;
   const optionalAttributes = {
     price: 1200,
     eta: 60000
@@ -18,8 +20,9 @@ describe('Order DB API', () => {
 
   beforeEach(async () => {
     await clear();
-    producer = await Producer.create('Bob Restaurant', shortid.generate(), 'bobpass', 'bobdescription', 'www.bob.com',
-      'example order', 12, 12);
+    location = await Location.createWithCoord(30, 40);
+    producer = await Producer._create('Bob Restaurant', shortid.generate(), 'bobpass', 'bobdescription', 'www.bob.com',
+      'example order', location, 12, 12, 'menu');
     consumer = await Consumer.createFbConsumer('Bob Fb Id');
   });
 
