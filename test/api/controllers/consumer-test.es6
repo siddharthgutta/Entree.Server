@@ -208,9 +208,8 @@ describe('Consumer DB API', () => {
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, latitude, longitude);
       const dists = await Consumer.findDistanceFromLocations(consumer.fbId, [producer1, producer2]);
-
-      assert.equal(dists[producer1.location], 0.7);
-      assert.equal(dists[producer2.location], 3);
+      assert.equal(dists[0].distance, 0.7);
+      assert.equal(dists[1].distance, 3);
     });
   });
 
@@ -249,8 +248,8 @@ describe('Consumer DB API', () => {
 
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 4);
       assert.equal(results.length, 2);
-      assert.equal(results[0].name, 'Eatzis');
-      assert.equal(results[1].name, 'El Queso');
+      assert.equal(results[0].producer.name, 'Eatzis');
+      assert.equal(results[1].producer.name, 'El Queso');
     });
 
     it('should limit the producers', async () => {
@@ -273,7 +272,7 @@ describe('Consumer DB API', () => {
 
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
       assert.equal(results.length, 1);
-      assert.equal(results[0].name, 'Eatzis');
+      assert.equal(results[0].producer.name, 'Eatzis');
     });
   });
 });

@@ -90,85 +90,58 @@ export async function addLocation(fbId, lat, long) {
 
 /**
  * Finds the distance from a given location of a consumer using fbId and default location
+ * and returns an array specifying the distance from each given producer
  *
  * @param {String} fbId: facebook id of the consumer
- * @param {[Producer]} producers: the producers whose location we are comparing with
- * @returns {Object} the distances in miles with key-value pairs with the locations as keys and distances as values
+ * @param {Array<Producer>} producers: the producers whose location we are comparing with
+ * @returns {Array<Object>} an array of objects of the format {producer: p, distance: d}
  */
 export async function findDistanceFromLocations(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
   if (Utils.isEmpty(consumer.defaultLocation)) throw new Error('Invalid Location');
-  const consumerLat = consumer.defaultLocation.coordinates.latitude;
-  const consumerLong = consumer.defaultLocation.coordinates.longitude;
-  const distances = {};
-  const obj = {'577400cc4bdae444d5f87923': {longitude: -96.82748079999999, latitude: 33.0454641},
-    '577400cc4bdae444d5f87926': {longitude: -96.8433764, latitude: 33.0077697}};
-  const obj2 = {};
-
+  const distances = [];
+  const obj = {};
+  const temp = {};
   _(producers).forEach(producer => {
-    obj2[producer._id.toString()] = producer.location.coordinates;
+    obj[producer._id] = producer.location.coordinates;
   });
 
-  console.log();
-  console.log('obj');
-  console.log(obj);
-  console.log();
-  console.log('obj2');
-  console.log(obj2);
-
-  const answer = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
-  console.log();
-  console.log('answer with obj');
-  console.log(answer);
-  const answer2 = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj2);
-  console.log();
-  console.log('answer with obj2');
-  console.log(answer2);
-
   _(producers).forEach(producer => {
-    if (Utils.isEmpty(producer.location)) throw new Error('Invalid Location');
-    const producerLat = producer.location.coordinates.latitude;
-    const producerLong = producer.location.coordinates.longitude;
-    distances[producer.location] = Distance.calcDistanceInMiles(consumerLat, consumerLong, producerLat, producerLong);
+    temp[producer._id] = producer;
   });
+
+  const results = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
+  _(results).forEach(value => {
+    const innerObj = {};
+    innerObj.producer = temp[value.key];
+    innerObj.distance = value.distance;
+    distances.push(innerObj);
+  });
+
   return distances;
 }
 
 /**
- * Helper function to the JavaScript sort function to sort array by distances
- *
- * @param {Object} a: Producer object with a distance field
- * @param {Object} b: Producer object with a distance field
- * @returns {number} the distance element of "a" relative to "b"
- * @private
- */
-function _compare(a, b) {
-  if (a.distance < b.distance) return -1;
-  if (a.distance > b.distance) return 1;
-  return 0;
-}
-
-/**
  * Gets the closest producers to the consumer within a given radius and limit of producers
- * and sorts them by distance from the consumer
+ * and sorts them by distance from the consumer (using the geolib orderByDistance method)
  *
  * @param {String} fbId: facebook id of the consumer
  * @param {number} radius: the radius in miles to search for producers across
  * @param {number} limit: number of results desired
- * @returns {Array<Location>} closest producers within the specified radius
+ * @returns {Array<Object>} closest producers within the specified radius with each object
+ * of the format {producer: p, distance: d}
  */
-export async function getClosestEnabledProducers(fbId, radius, limit) {
-  const enabled = await Producer.findFbEnabled();
+export async function getClosestEnabledProducers(fbId, radius, limit = 10) {
+  if (limit > 10) limit = 10;
+  const enabled = await Producer.findAllEnabled();
   const closest = [];
-  let k = 0;
-  const locationDists = await findDistanceFromLocations(fbId, enabled);
-  _(locationDists).forEach(dist => {
-    if (dist < radius) {
-      enabled[k].distance = dist;
-      closest.push(enabled[k]);
+  const producerDists = await findDistanceFromLocations(fbId, enabled);
+
+  _(producerDists).forEach(obj => {
+    if (obj.distance < radius) {
+      closest.push(obj);
     }
-    k++;
   });
-  closest.sort(_compare);
+
   return closest.slice(0, limit);
 }

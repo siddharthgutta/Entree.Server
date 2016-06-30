@@ -51,6 +51,10 @@ export async function findFbEnabled(conditions = {}) {
   return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
 }
 
+export async function findAllEnabled(conditions = {}) {
+  return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
+}
+
 /**
  * Create a producer in the database
  *

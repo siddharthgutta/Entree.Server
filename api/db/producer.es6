@@ -51,9 +51,9 @@ export async function find(conditions, limit, sortFields, populateFields) {
   findQuery = _.reduce(populateFields, (query, field) =>
     findQuery.populate(field),
   findQuery);
+  if (limit <= 0) return await findQuery.sort(sortFields).exec();
   return await findQuery.limit(limit).sort(sortFields).exec();
 }
-
 
 /**
  * Find one merchant and update it
