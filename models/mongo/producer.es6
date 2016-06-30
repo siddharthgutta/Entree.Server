@@ -34,6 +34,10 @@ const producerSchema = new mongoose.Schema({
     default: false,
     required: true
   },
+  exampleOrder: {
+    type: String,
+    required: true
+  },
   merchant: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Merchant'

@@ -17,6 +17,16 @@ export async function findOneByObjectId(_id) {
 }
 
 /**
+ * Find the producer from its username
+ *
+ * @param {String} username: username of the producer object
+ * @returns {Promise<Producer>}: the producer with the specific username
+ */
+export async function findOneByUsername(username) {
+  return await Producer.findOne({username}, ['merchant']);
+}
+
+/**
  * Returns a Query object for finding producers
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
@@ -47,11 +57,12 @@ export async function findFbEnabled(conditions = {}) {
  * @param {String} password: password for the producer
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
+ * @param {String} exampleOrder: exampleOrder of the producer
  * @param {Object} optional: optional fields for the producer
  * @returns {Promise<Producer>}: the producer that was just created
  */
-export async function _create(name, username, password, description, profileImage, optional = {}) {
-  return await Producer.create({name, username, password, description, profileImage, ...optional});
+export async function _create(name, username, password, description, profileImage, exampleOrder, optional = {}) {
+  return await Producer.create({name, username, password, description, profileImage, exampleOrder, ...optional});
 }
 
 /**
@@ -62,14 +73,15 @@ export async function _create(name, username, password, description, profileImag
  * @param {String} password: password of the producer
  * @param {String} description: description of the producer
  * @param {String} profileImage: profileImage of the producer
+ * @param {String} exampleOrder: exampleOrder of the producer
  * @param {Number} percentageFee: percentageFee of the producer
  * @param {Number} transactionFee: transactionFee of the producer
  * @param {Object} optional: optional fields for both the producer/merchant under respective keys
  * @returns {Promise} resulting producer object
  */
 export async function create(name, username, password, description,
-                             profileImage, percentageFee, transactionFee, optional = {}) {
-  const producer = await _create(name, username, password, description, profileImage, optional.producer);
+                             profileImage, exampleOrder, percentageFee, transactionFee, optional = {}) {
+  const producer = await _create(name, username, password, description, profileImage, exampleOrder, optional.producer);
   producer.merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   return await producer.save();
 }
