@@ -1,0 +1,50 @@
+.unrounded {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.navbar {
+    background: #333;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border: 0;
+}
+
+.navbar-brand {
+    margin: 5px;
+    padding: 5px;
+}
+
+.navbar-brand img {
+    max-height: 100%;
+}
+
+.button {
+    font-family: system, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", "Lucida Grande";
+}
+
+
+a.button {
+    background-color: #015292;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    float: left;
+    display: block;
+    color: #597390;
+    font-size: 15px;
+    color: white !important;
+}
+
+a.button.icon {
+    padding-left: 11px;
+}
+
+a.button.icon span{
+    padding-left: 36px;
+    background: url(images/icons.png) no-repeat 0 -4px;
+}
