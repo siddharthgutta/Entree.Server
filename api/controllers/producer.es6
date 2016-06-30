@@ -6,6 +6,7 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import Moment from 'moment';
+import * as Hour from '../controllers/hour.es6';
 
 /**
  * Find the producer from its object id
@@ -120,14 +121,14 @@ export async function addHours(id, array) {
  * Deletes specific hour objects for a specific producer
  *
  * @param {String} id: unique identifier to find the producer
- * @param {Array} hourId: the id of the hour to delete
+ * @param {Array} hourIds: the id of the hour to delete
  * @returns {Promise} removed object
  */
-export async function deleteHour(id, hourId) {
+export async function deleteHours(id, hourIds) {
   const prod = await Producer.findOne(id);
   _.forEachRight(prod.hours, time => {
-    _.forEach(hourId, hourIds => {
-      if (time._id.equals(hourIds)) {
+    _.forEach(hourIds, hourId => {
+      if (time._id.equals(hourId)) {
         time.remove();
       }
     });
@@ -171,24 +172,28 @@ export function getCurrentTime() {
   return new Moment().format('HH:mm');
 }
 
-function convertHour(hour) {
-  return Number(new Moment(hour, 'HH:mm').format('HHmm'));
-}
-
+/**
+ * Gives the user the day of the week it is
+ *
+ * @returns {String} the day of the week it is (ie 'Monday')
+ */
 export function dayOfWeek() {
   return new Moment().format('dddd');
 }
 
-export async function findOpen() {
-  let time = getCurrentTime();
-  time = convertHour(time);
-  const dayWeek = dayOfWeek();
+/**
+ *
+ * @param {number} time: the time to check as a number
+ * @param {String} dayWeek: the day of the week to check
+ * @returns {Array} an array of producers that are open based on the parameters
+ */
+export async function findOpenHelper(time, dayWeek) {
   const prodArr = [];
   const prodEnabled = await findAllEnabled();
   _.forEach(prodEnabled, prod => {
     _.forEach(prod.hours, hour => {
       if (hour.day === dayWeek &&
-        (time > convertHour(hour.openTime) && time < convertHour(hour.closeTime))) {
+        (time > Hour.convertHour(hour.openTime) && time < Hour.convertHour(hour.closeTime))) {
         prodArr.push(prod);
       }
     });
@@ -196,18 +201,14 @@ export async function findOpen() {
   return prodArr;
 }
 
-export async function findOpenTest() {
-  const time = 1300;
-  const dayWeek = 'Wednesday';
-  const prodArr = [];
-  const prodEnabled = await findAllEnabled();
-  _.forEach(prodEnabled, prod => {
-    _.forEach(prod.hours, hour => {
-      if (hour.day === dayWeek &&
-        (time > convertHour(hour.openTime) && time < convertHour(hour.closeTime))) {
-        prodArr.push(prod);
-      }
-    });
-  });
-  return prodArr;
+/**
+ * Gives the user the producers that are currently open
+ *
+ * @returns {Array} an array of producers that are open
+ */
+export async function findOpen() {
+  let time = getCurrentTime();
+  time = Hour.convertHour(time);
+  const dayWeek = dayOfWeek();
+  return findOpenHelper(time, dayWeek);
 }

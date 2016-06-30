@@ -50,14 +50,9 @@ describe('Hours DB API', () => {
   });
   describe('#getHours', () => {
     const fields = {
-      name: 'Updated Name',
-      username: 'Updated Username',
       password: 'Updated Password',
       description: 'Updated Description',
-      phoneNumber: '9876543210',
       profileImage: 'www.updated.com',
-      enabled: true,
-      menuLink: 'www.menulink.com',
       hour: {
         day: 'Tuesday',
         openTime: '07:00',
@@ -65,7 +60,7 @@ describe('Hours DB API', () => {
         newClose: '23:00'
       }
     };
-    it('should work, tests getting all of the hour objects from a producer', async () => {
+    it('should work, tests using getHours for a specific producer', async () => {
       const {_id} = await Producer._create('Food truck', 'DoMinos', password, description, fields.profileImage, 1, 1, {
         merchant: {
           merchantId: '987654'
@@ -81,16 +76,11 @@ describe('Hours DB API', () => {
   });
   describe('#addHours', () => {
     const fields = {
-      name: 'Updated Name',
-      username: 'Updated Username',
       password: 'Updated Password',
       description: 'Updated Description',
-      phoneNumber: '9876543210',
-      profileImage: 'www.updated.com',
-      enabled: true,
-      menuLink: 'www.menulink.com'
+      profileImage: 'www.updated.com'
     };
-    it('should work tests adding several hours', async () => {
+    it('should work tests using addHours for adding several hours', async () => {
       const hours = {
         day: 'Wednesday',
         day2: 'Saturday',
@@ -108,17 +98,27 @@ describe('Hours DB API', () => {
       assert.equal(checkProd.hours[0].day, hours.day);
       assert.equal(checkProd.hours[1].day, hours.day2);
     });
+    it('should work using addHours to add a single hour', async () => {
+      const hours = {
+        day: 'Wednesday',
+        openTime: '01:00',
+        closeTime: '20:00'
+      };
+      const {_id} = await Producer._create('Food truck', 'D-2ominos',
+        password, description, fields.profileImage, 1, 1, {
+          merchant: {
+            merchantId: '927655'
+          }});
+      const hours1 = await hour.create('Sunday', hours.openTime, hours.closeTime);
+      const checkProd = await Producer.addHours(_id, [hours1]);
+      assert.equal(checkProd.hours[0].day, 'Sunday');
+    });
   });
-  describe('#deleteHour', () => {
+  describe('#deleteHours', () => {
     const fields = {
-      name: 'Updated Name',
-      username: 'Updated Username',
       password: 'Updated Password',
       description: 'Updated Description',
-      phoneNumber: '9876543210',
-      profileImage: 'www.updated.com',
-      enabled: true,
-      menuLink: 'www.menulink.com'
+      profileImage: 'www.updated.com'
     };
     it('should work tests deleting a single hour object from producer', async () => {
       const hours = {
@@ -132,7 +132,7 @@ describe('Hours DB API', () => {
         }});
       const hours1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
       await Producer.addHours(_id, [hours1]);
-      const prodCheck = await Producer.deleteHour(_id, [hours1._id]);
+      const prodCheck = await Producer.deleteHours(_id, [hours1._id]);
       assert.equal(0, prodCheck.hours.length);
     });
     it('should work tests deleting several hours from a producer object', async () => {
@@ -151,25 +151,16 @@ describe('Hours DB API', () => {
       const hours1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
       const hours2 = await hour.create(hours.day2, hours.openTime, hours.newClose);
       await Producer.addHours(_id, [hours1, hours2]);
-      const checkProd = await Producer.deleteHour(_id, [hours1._id, hours2._id]);
+      const checkProd = await Producer.deleteHours(_id, [hours1._id, hours2._id]);
       assert.equal(0, checkProd.hours.length);
     });
   });
   describe('#deleteDay', async () => {
     const fields = {
-      name: 'Updated Name',
-      username: 'Updated Username',
       password: 'Updated Password',
       description: 'Updated Description',
-      phoneNumber: '9876543210',
       profileImage: 'www.updated.com',
-      enabled: true,
-      menuLink: 'www.menulink.com',
-      hour: {
-        day: 'Tuesday',
-        openTime: '07:00',
-        closeTime: '20:00'
-      }
+      menuLink: 'www.menulink.com'
     };
     const hours = {
       day: 'Wednesday',
@@ -246,7 +237,7 @@ describe('Hours DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour3, hour4]);
       await Producer.addHours(id3, [hour5]);
-      const openProds = await Producer.findOpenTest();
+      const openProds = await Producer.findOpenHelper(1200, 'Wednesday');
       assert.equal(openProds[0].hours[0].day, 'Wednesday');
       assert.equal(openProds[1].hours[1].day, 'Monday');
     });
