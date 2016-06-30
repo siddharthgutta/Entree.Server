@@ -85,6 +85,7 @@ export async function _create(name, username, password, description, profileImag
     location: location._id, merchant: merchant._id, menuLink, ...optional.producer});
 }
 
+
 /**
  * Creates a producer as a merchant
  *

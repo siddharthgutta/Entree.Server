@@ -117,7 +117,6 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
     innerObj.distance = value.distance;
     distances.push(innerObj);
   });
-
   return distances;
 }
 
