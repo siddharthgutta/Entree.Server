@@ -20,7 +20,7 @@ describe('Order DB API', () => {
 
   beforeEach(async () => {
     await clear();
-    producer = await Producer.create('Bob Restaurant', chance.word(), 'bobpass', 'bobdescription', 'www.bob.com',
+    producer = await Producer.create('Bob Restaurant', chance.string(), 'bobpass', 'bobdescription', 'www.bob.com',
       'example order', 12, 12);
     consumer = await Consumer.createFbConsumer('Bob Fb Id');
   });
