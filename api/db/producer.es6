@@ -1,19 +1,14 @@
-import models from '../../models/mongo/index.es6';
 import * as Utils from '../../libs/utils.es6';
 import _ from 'lodash';
-
+import models from '../../models/mongo/index.es6';
 const Producer = models.Producer;
 
 /**
- * IMPORTANT: Must return promises!
- */
-
-/**
- * Creates a producer
- *
- * @param {Object} attributes: key value pairs of the attributes we want to populate the Producer with
- * @returns {Promise}: returns a Producer object
- */
+* Creates a producer
+*
+* @param {Object} attributes: key value pairs of the attributes we want to populate the Producer with
+*@returns {Promise}: returns a Producer object
+*/
 export async function create(attributes) {
   return await (new Producer(attributes)).save();
 }
@@ -49,8 +44,7 @@ export async function findOne(attributes, populateFields = []) {
 export async function find(conditions, limit, sortFields, populateFields) {
   let findQuery = Producer.find(conditions);
   findQuery = _.reduce(populateFields, (query, field) =>
-    findQuery.populate(field),
-  findQuery);
+  findQuery.populate(field), findQuery);
   if (limit <= 0) return await findQuery.sort(sortFields).exec();
   return await findQuery.limit(limit).sort(sortFields).exec();
 }
