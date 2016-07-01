@@ -3,9 +3,24 @@ import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 import * as Producer from '../../../api/controllers/producer.es6';
 import Moment from 'moment';
+import * as Location from '../../../api/controllers/location.es6';
+
 describe('Hours DB API', () => {
+  const name = 'Pizza Hut';
+  const username = 'pizzahut';
   const password = 'password';
   const description = 'some description';
+  const lat = 30.2811459;
+  const long = -97.74176779999999;
+  const phoneNumber = '1234567890';
+  const profileImage = 'www.image.com';
+  const exampleOrder = 'This is an example order';
+  const enabled = true;
+  const menuLink = 'www.menulink.com';
+  const percentageFee = 12.5;
+  const transactionFee = 30;
+
+
   beforeEach(async () => {
     await clear();
   });
@@ -51,9 +66,6 @@ describe('Hours DB API', () => {
   });
   describe('#getHours', () => {
     const fields = {
-      password: 'Updated Password',
-      description: 'Updated Description',
-      profileImage: 'www.updated.com',
       hour: {
         day: 'Tuesday',
         openTime: '07:00',
@@ -62,10 +74,9 @@ describe('Hours DB API', () => {
       }
     };
     it('should work, tests using getHours for a specific producer', async () => {
-      const {_id} = await Producer._create('Food truck', 'DoMinos', password, description, fields.profileImage, 1, 1, {
-        merchant: {
-          merchantId: '987654'
-        }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
       const hours1 = await hour.create(fields.hour.day, fields.hour.openTime, fields.hour.closeTime);
       const hours2 = await hour.create(fields.hour.day, '20:30', fields.hour.newClose);
       const hourArray = [hours1, hours2];
@@ -76,11 +87,6 @@ describe('Hours DB API', () => {
     });
   });
   describe('#addHours', () => {
-    const fields = {
-      password: 'Updated Password',
-      description: 'Updated Description',
-      profileImage: 'www.updated.com'
-    };
     it('should work tests using addHours for adding several hours', async () => {
       const hours = {
         day: 'Wednesday',
@@ -89,10 +95,9 @@ describe('Hours DB API', () => {
         closeTime: '20:00',
         newClose: '19:00'
       };
-      const {_id} = await Producer._create('Food truck', 'D-ominos', password, description, fields.profileImage, 1, 1, {
-        merchant: {
-          merchantId: '987655'
-        }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
       const hours1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
       const hour2 = await hour.create(hours.day2, hours.openTime, hours.newClose);
       const checkProd = await Producer.addHours(_id, [hours1, hour2]);
@@ -105,32 +110,24 @@ describe('Hours DB API', () => {
         openTime: '01:00',
         closeTime: '20:00'
       };
-      const {_id} = await Producer._create('Food truck', 'D-2ominos',
-        password, description, fields.profileImage, 1, 1, {
-          merchant: {
-            merchantId: '927655'
-          }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
       const hours1 = await hour.create('Sunday', hours.openTime, hours.closeTime);
       const checkProd = await Producer.addHours(_id, [hours1]);
       assert.equal(checkProd.hours[0].day, 'Sunday');
     });
   });
   describe('#deleteHours', () => {
-    const fields = {
-      password: 'Updated Password',
-      description: 'Updated Description',
-      profileImage: 'www.updated.com'
-    };
     it('should work tests deleting a single hour object from producer', async () => {
       const hours = {
         day: 'Monday',
         openTime: '07:00',
         closeTime: '20:00'
       };
-      const {_id} = await Producer._create('Food truck', 'domino', password, description, fields.profileImage, 1, 1, {
-        merchant: {
-          merchantId: '987655'
-        }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
       const hours1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
       await Producer.addHours(_id, [hours1]);
       const prodCheck = await Producer.deleteHours(_id, [hours1._id]);
@@ -144,11 +141,9 @@ describe('Hours DB API', () => {
         closeTime: '20:00',
         newClose: '19:00'
       };
-      const {_id} = await Producer._create('Food truck', 'dominotoss', password,
-        description, fields.profileImage, 1, 1, {
-          merchant: {
-            merchantId: '987655'
-          }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
       const hours1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
       const hours2 = await hour.create(hours.day2, hours.openTime, hours.newClose);
       await Producer.addHours(_id, [hours1, hours2]);
@@ -157,12 +152,6 @@ describe('Hours DB API', () => {
     });
   });
   describe('#deleteDay', async () => {
-    const fields = {
-      password: 'Updated Password',
-      description: 'Updated Description',
-      profileImage: 'www.updated.com',
-      menuLink: 'www.menulink.com'
-    };
     const hours = {
       day: 'Wednesday',
       openTime: '07:00',
@@ -171,10 +160,9 @@ describe('Hours DB API', () => {
       newClose: '22:00'
     };
     it('should work, tests deleting a specific day of hours from a  producer', async () => {
-      const {_id} = await Producer._create('Food truck', 'dominoss', password, description, fields.profileImage, 1, 1, {
-        merchant: {
-          merchantId: '987675'
-        }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
       const hour1 = await hour.create(hours.day, hours.openTime, hours.closeTime);
       const hour2 = await hour.create(hours.day, hours.newOpen, hours.newClose);
       await Producer.addHours(_id, [hour1, hour2]);
@@ -192,11 +180,8 @@ describe('Hours DB API', () => {
           close1: '20:00',
           close2: '22:00'
         };
-        const {_id} = await Producer._create('Food truck', 'dominoss', password,
-          description, 'www.updated.com', 1, 1, {
-            merchant: {
-              merchantId: '987685'
-            }});
+        const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
         const hour1 = await hour.create(hours.day, hours.open1, hours.close1);
         const hour2 = await hour.create(hours.day, hours.open2, hours.close2);
         await Producer.addHours(_id, [hour1, hour2]);
@@ -215,21 +200,16 @@ describe('Hours DB API', () => {
         close1: '20:00',
         close2: '22:00'
       };
-      const {_id: id1} = await Producer._create('Food truck', 'do6minoss', password,
-        description, 'www.updated.com', 'food', {enabled: true}, {
-          merchant: {
-            merchantId: '986685'
-          }});
-      const {_id: id2} = await Producer._create('Food truck 2', 'do2minoss', password,
-        description, 'www.updated.com', 'food', {enabled: true}, {
-          merchant: {
-            merchantId: '986682'
-          }});
-      const {_id: id3} = await Producer._create('Food truck 3', 'do3minoss', password,
-        description, 'www.updated.com', 'food', {enabled: true}, {
-          merchant: {
-            merchantId: '986442'
-          }});
+      const location = await Location.createWithCoord(lat, long);
+      const {_id: id1} = await Producer._create(name, 'nav', password, description,
+        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '123abc'}});
+      const {_id: id2} = await Producer._create(name, 'navs2', password, description,
+        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '123ab'}});
+      const {_id: id3} = await Producer._create(name, 'navs', password, description,
+        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '123a'}});
       const hour1 = await hour.create(hours.day, hours.open1, hours.close1);
       const hour2 = await hour.create('Thursday', hours.open2, hours.close2);
       const hour3 = await hour.create(hours.day, '10:00', '14:00');
