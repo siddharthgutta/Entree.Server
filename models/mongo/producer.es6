@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 import hour from './hour.es6';
 import Moment from 'moment';
 import _ from 'lodash';
-import * as Hour from '../../api/controllers/hour.es6';
 import * as Util from '../../libs/utils.es6';
+import * as Hour from '../../libs/hour.es6';
 
 function hourDict(hours) {
   const innerObj = {};
@@ -22,6 +22,7 @@ function hourDict(hours) {
  * @param {Array} hours: the producers hours to check with
  * @returns {boolean}: returns if there is a conflict or not to the validator
  */
+
 function hourCheck(hours) {
   let ret = true;
   const daysHours = hourDict(hours);

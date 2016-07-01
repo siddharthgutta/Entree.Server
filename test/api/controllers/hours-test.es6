@@ -2,6 +2,7 @@ import * as hour from '../../../api/controllers/hour.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 import * as Producer from '../../../api/controllers/producer.es6';
+import Moment from 'moment';
 describe('Hours DB API', () => {
   const password = 'password';
   const description = 'some description';
@@ -237,7 +238,7 @@ describe('Hours DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour3, hour4]);
       await Producer.addHours(id3, [hour5]);
-      const openProds = await Producer.findOpenHelper(1200, 'Wednesday');
+      const openProds = await Producer.findOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday');
       assert.equal(openProds[0].hours[0].day, 'Wednesday');
       assert.equal(openProds[1].hours[1].day, 'Monday');
     });
