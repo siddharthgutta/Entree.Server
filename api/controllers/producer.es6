@@ -185,13 +185,11 @@ export async function getHours(id) {
 
 /**
  * Gets the servers current time
- *
  * @returns {Moment} the current time in a Moment object 'HHmm'
  */
 export function getCurrentTime() {
   return new Moment('HH:mm');
 }
-
 /**
  * Gives the user the day of the week it is
  *

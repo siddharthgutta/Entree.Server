@@ -1,4 +1,5 @@
 import * as Hour from '../db/hours.es6';
+import Moment from 'moment';
 /**
  * Creates a new operating time for a specific producer
  *
@@ -13,4 +14,14 @@ export async function create(day, open, close) {
     openTime: open,
     closeTime: close
   });
+}
+
+/**
+ * Converts the time into a number
+ *
+ * @param {String} hour: formatted String ('HH:mm')
+ * @returns {number} the time formatted as a Number
+ */
+export function convertHour(hour) {
+  return Number(new Moment(hour, 'HH:mm').format('HHmm'));
 }

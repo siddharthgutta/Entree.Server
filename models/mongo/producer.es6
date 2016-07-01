@@ -20,7 +20,8 @@ function hourDict(hours) {
 /**
  * Sorts the hours in buckets then sorts the buckets using the hourComp function
  *  then checks to see if the times overlap
- * @param {hour} hours: the producers hours to check with
+ * @param {Array} hours: the producers hours to check with
+>>>>>>> a1cca64b6c3fe7befe99c3c906f0f7a9e0fc3aee
  * @returns {boolean}: returns if there is a conflict or not to the validator
  */
 function hourCheck(hours) {
