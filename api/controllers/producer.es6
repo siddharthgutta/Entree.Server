@@ -121,7 +121,12 @@ export async function create(name, username, password, description, profileImage
  * @returns {Promise} returns the producer without updates from the database
  */
 export async function updateByObjectId(_id, fields) {
-  return await Producer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true});
+  let updatedFields = fields;
+  if ('address' in updatedFields) {
+    const location = await Location.createWithAddress(updatedFields.address);
+    updatedFields = _.merge(_.omit('address'), {location});
+  }
+  return await Producer.findOneAndUpdate({_id}, {$set: updatedFields}, {runValidators: true});
 }
 
 /**
