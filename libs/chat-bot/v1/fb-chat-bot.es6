@@ -9,7 +9,7 @@ import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData, QuickReplyMessageData,
-  ImageMessageData} from '../../msg/facebook/message-data.es6';
+  ImageMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import Constants from './constants.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
@@ -33,7 +33,6 @@ export default class FbChatBot {
   constructor(msgPlatform) {
     // TODO Implement a base class that handles versioning
     this.msgPlatform = msgPlatform;
-
     // Sets the payload for the get started message
     this.msgPlatform.setGetStartedButton(this._genPayload(actions.getStarted));
 
@@ -46,7 +45,6 @@ export default class FbChatBot {
     // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
     callToActions.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     this.msgPlatform.setPersistentMenu(callToActions.toJSON());
-
     // Sets the Greeting text
     this.msgPlatform.setGreetingText('Entrée helps you find and order ahead from the best food trucks around you.');
   }
