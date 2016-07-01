@@ -12,3 +12,5 @@ export {default as VideoAttachmentMessageData} from './video-attachment-message-
 export {default as FileAttachmentMessageData} from './file-attachment-message-data.es6';
 export {default as QuickReplyMessageData} from './quick-reply-message-data.es6';
 export {default as CallToAction} from './call-to-action.es6';
+export {default as ImageMessageData} from './image-message-data.es6';
+export {default as QuickReplyMessageData} from './quick-reply-message-data.es6';
