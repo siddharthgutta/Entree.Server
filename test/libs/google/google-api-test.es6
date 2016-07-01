@@ -40,6 +40,13 @@ describe('Google API', () => {
       lat = location.lat;
       lng = location.lng;
     });
+
+    it('should get latitude and longitude from address', async () => {
+      const address = '5601 W Parker Road, 75093';
+      const location = await GoogleMapsGeocodingAPI.getLocationFromAddress(address);
+      assert.ok(location.lat);
+      assert.ok(location.lng);
+    });
   });
 
   describe('#GooglePlacesAPI', () => {

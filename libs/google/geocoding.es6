@@ -3,6 +3,7 @@
  */
 
 import GoogleAPIStrategy from './strategy.es6';
+import * as Utils from '../utils.es6';
 
 export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
   /**
@@ -16,7 +17,7 @@ export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
   }
 
   /**
-   * Gets a location object from a zipcode containing longitude and latitude of a zip code
+   * Gets a coordinates object from a zipcode containing longitude and latitude of a zip code
    * Ex: { "lat": 33.0787152, "lng": -96.8083063 }
    *
    * @param {String} zipcode: zipcode to get location coordinates for
@@ -29,4 +30,21 @@ export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
     );
     return responseBody.results[0].geometry.location;
   }
+
+  /**
+   * Gets a coordinates object from a address containing longitude and latitude of an address
+   * Ex: { "lat": 33.0787152, "lng": -96.8083063 }
+   *
+   * @param {String} addr: address to get location coordinates for
+   * @returns {*}: location object with lat and lng as keys
+   */
+  async getLocationFromAddress(addr) {
+    const responseBody = await this.apiCall(
+      'https://maps.googleapis.com/maps/api/geocode/json',
+      'GET', {address: addr, key: this.apiKey}
+    );
+    if (Utils.isEmpty(responseBody.results[0])) throw new Error('Cannot find a valid location from this address');
+    else return responseBody.results[0].geometry.location;
+  }
+
 }

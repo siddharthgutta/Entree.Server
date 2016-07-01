@@ -10,6 +10,7 @@ cd /home/ubuntu/.pm2/repos
 if cd $1"Entree.Server"; then
     # Pull if folder exists
     git pull
+    git reset --hard origin/$1
 else
     # If folder doesn't exist, create a new folder and clone into it
     git clone git@github.com:siddharthgutta/Entree.Server.git $1"Entree.Server"

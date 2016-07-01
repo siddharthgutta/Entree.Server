@@ -1,0 +1,79 @@
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: #015292;
+    position: fixed;
+}
+
+.left
+{
+    float:left;
+    width: 100px;
+}
+.central
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.right
+{
+    float:right;
+    width: 100px;
+}
+
+.front {
+    z-index: -1;
+    position: relative;
+}
+
+.white {
+    color: white;
+    font-size: 28px;
+}
+
+.vertical-center {
+    height: 100px;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+.white:hover {
+    color: orange;
+}
+
+.absolute-center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.parent-height {
+    height: 100px;
+}
+
+.horizontal-center {
+    text-align: center;
+}
+
+.right-border {
+    border-right: 1px solid;
+    padding-right: 30px;
+}
+
+.left-border {
+    padding-left: 20px;
+}
+
+.social-pad-right {
+    padding-right: 30px;
+}
+
+.social-align {
+    line-height: 100px;
+}
+
+.social-height {
+    height: 50px;
+}
