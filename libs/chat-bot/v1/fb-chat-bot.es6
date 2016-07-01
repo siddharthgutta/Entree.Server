@@ -247,7 +247,8 @@ export default class FbChatBot {
       const producers = await Producer.findFbEnabled();
       response = new GenericMessageData();
       _.each(producers, producer => {
-        response.pushElement(`${producer.name} (${producer.location.address})`, producer.description, producer.profileImage);
+        response.pushElement(`${producer.name} (${producer.location.address})`,
+          producer.description, producer.profileImage);
         response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producer}));
         response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
         response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
