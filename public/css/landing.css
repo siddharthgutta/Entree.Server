@@ -1,9 +1,28 @@
 #tagline {
     color: white;
-    font-size: 70px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    padding-top: 30px;
-    margin-bottom: -60px;
+    padding-top: 1%;
+    margin-bottom: -3%;
+}
+
+@media (max-width: 300px) {
+    #tagline { font-size: 1em; }
+}
+
+@media (min-width: 500px) {
+    #tagline { font-size: 2em; }
+}
+
+@media (min-width: 700px) {
+    #tagline { font-size: 3em; }
+}
+
+@media (min-width: 1200px) {
+    #tagline { font-size: 4em; }
+}
+
+@media (min-width: 1800px) {
+    #tagline { font-size: 5em; }
 }
 
 .front {
@@ -17,4 +36,13 @@
 
 .center-block {
     display: inline-block;
+    width: 100%;
+}
+
+#phone-img {
+    width: 34vw; /* The width of this element is 100% of the viewports width */
+    height: 102vh; /* The height of this element is 100% of the viewport height */
+
+    font-size: 1vmax; /* You can fiddle with this to mame sure the font gets
+    // the size you want  */
 }
