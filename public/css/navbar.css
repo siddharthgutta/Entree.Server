@@ -10,15 +10,21 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     border: 0;
+    height: 100px;
 }
 
-.navbar-brand {
-    margin: 5px;
-    padding: 5px;
+.vertical-center {
+    height: 100px;
+    line-height: 100px;
+    white-space: nowrap;
 }
 
 .navbar-brand img {
     max-height: 100%;
+}
+
+.nav-buttons {
+    padding: 5px 5px 5px 5px;
 }
 
 .button {

@@ -3,9 +3,12 @@ extend ./layouts/index.jade
 block title
   title= title
   link(href='/css/background-img.css' rel='stylesheet' type='text/css')
-
+  link(href='/css/landing.css' rel='stylesheet' type='text/css')
 
 block content
   .background-img
     include includes/navbar
-
+    div.center
+      div.center-block
+        h1#tagline.front Stop Waiting. Start Eating.
+        img#phone-img(src='/images/iphone-banner-overlay.png')
