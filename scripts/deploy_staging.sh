@@ -9,6 +9,7 @@ cd /home/ubuntu/.pm2/repos
 # Check if the folder/branch folder already exists
 if cd $1"Entree.Server"; then
     # Pull if folder exists
+    git pull
     git reset --hard origin/$1
 else
     # If folder doesn't exist, create a new folder and clone into it
