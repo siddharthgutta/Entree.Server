@@ -8,9 +8,7 @@ import Moment from 'moment';
 export function hourComp(first, second) {
   const firstTime = new Moment(first, 'HH:mm');
   const secondTime = new Moment(second, 'HH:mm');
-  let ret = 0;
-  if (firstTime.isBefore(secondTime)) ret = 1;
-  else if (firstTime.isAfter(secondTime)) ret = -1;
-  if (firstTime.isSame(secondTime)) ret = 0;
-  return ret;
+  if (firstTime.isBefore(secondTime)) return  1;
+  else if (firstTime.isAfter(secondTime)) return -1;
+  else return 0;
 }

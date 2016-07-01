@@ -216,6 +216,7 @@ export async function findOpenHelper(time, dayWeek) {
       if (hour.day === dayWeek &&
         (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
+        return false;
       }
     });
   });

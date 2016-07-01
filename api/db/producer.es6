@@ -45,7 +45,7 @@ export async function find(conditions, limit, sortFields, populateFields) {
   let findQuery = Producer.find(conditions);
   findQuery = _.reduce(populateFields, (query, field) =>
   findQuery.populate(field), findQuery);
-  if (limit <= 0) return await findQuery.exec();
+  if (limit <= 0) return await findQuery.sort(sortFields).exec();
   return await findQuery.limit(limit).sort(sortFields).exec();
 }
 
