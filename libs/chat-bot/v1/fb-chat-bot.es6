@@ -245,6 +245,7 @@ export default class FbChatBot {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
       const producers = _.shuffle(await Producer.findFbEnabled());
+      console.log(producers);
       response = new GenericMessageData();
       _.each(producers, producer => {
         response.pushElement(`${producer.name} (${producer.location.address})`,
