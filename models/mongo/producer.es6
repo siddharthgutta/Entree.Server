@@ -16,6 +16,7 @@ function hourDict(hours) {
   return innerObj;
 }
 
+
 /**
  * the time in the Producer schema to a number
  * @param {String} time:  the 'HH:mm' formatted string to cast to an integer
@@ -48,19 +49,18 @@ function hourComp(first, second) {
 /**
  * Sorts the hours in buckets then sorts the buckets using the hourComp function
  *  then checks to see if the times overlap
- * @param {Array} hours: the producers hours to check with
+ * @param {hour} hours: the producers hours to check with
  * @returns {boolean}: returns if there is a conflict or not to the validator
  */
-
 function hourCheck(hours) {
   let ret = true;
-  const daysHours = hourDict(hours);
-  _.forIn(daysHours, value => {
+  const hourKV = hourDict(hours);
+  _.forIn(hourKV, value => {
     const valArr = value.sort(Hour.hourComp);
     for (let k = 0; k < valArr.length - 1; k++) {
-      const firstOpen = new Moment((valArr[k].openTime), 'HH:mm');
-      const firstClose = new Moment((valArr[k].closeTime), 'HH:mm');
-      const second = new Moment((valArr[k + 1].openTime), 'HH:mm');
+      const firstOpen = new Moment(valArr[k].openTime, 'HH:mm');
+      const firstClose = new Moment(valArr[k].closeTime, 'HH:mm');
+      const second = new Moment(valArr[k + 1].openTime, 'HH:mm');
       if (second.isAfter(firstOpen) && second.isBefore(firstClose)) {
         ret = false;
         return false;

@@ -6,7 +6,6 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
-import Moment from 'moment';
 import * as Hour from './hour.es6';
 import Moment from 'moment';
 
@@ -27,7 +26,7 @@ export async function findOneByObjectId(_id) {
  * @returns {Promise<Producer>}: the producer with the specific username
  */
 export async function findOneByUsername(username) {
-  return await Producer.findOne({username}, ['merchant']);
+  return await Producer.findOne({username}, ['merchant', 'location']);
 }
 
 /**
@@ -65,9 +64,6 @@ export async function findAllEnabled(conditions = {}) {
 }
 
 
-export async function findAllEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 0, ['merchant']);
-}
 /**
  * Create a producer in the database
  *
@@ -145,7 +141,6 @@ export async function addHours(id, array) {
 }
 /**
  * Deletes specific hour objects for a specific producer
- *
  * @param {String} id: unique identifier to find the producer
  * @param {Array} hourIds: the id of the hour to delete
  * @returns {Promise} removed object
@@ -203,6 +198,7 @@ export function getCurrentTime() {
  *
  * @returns {String} the day of the week it is (ie 'Monday')
  */
+
 export function dayOfWeek() {
   return new Moment().format('dddd');
 }
