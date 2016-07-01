@@ -75,8 +75,9 @@ describe('Hours DB API', () => {
     };
     it('should work, tests using getHours for a specific producer', async () => {
       const location = await Location.createWithCoord(lat, long);
-      const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+      const {_id} = await Producer._create(name, 'nav', password, description,
+        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '1223ab4'}});
       const hours1 = await hour.create(fields.hour.day, fields.hour.openTime, fields.hour.closeTime);
       const hours2 = await hour.create(fields.hour.day, '20:30', fields.hour.newClose);
       const hourArray = [hours1, hours2];
@@ -180,8 +181,10 @@ describe('Hours DB API', () => {
           close1: '20:00',
           close2: '22:00'
         };
-        const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+
+        const {_id} = await Producer._create(name, 'nav', password, description,
+          profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+          {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '123ab4'}});
         const hour1 = await hour.create(hours.day, hours.open1, hours.close1);
         const hour2 = await hour.create(hours.day, hours.open2, hours.close2);
         await Producer.addHours(_id, [hour1, hour2]);

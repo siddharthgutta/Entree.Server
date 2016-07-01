@@ -19,7 +19,7 @@ function hourDict(hours) {
 /**
  * Sorts the hours in buckets then sorts the buckets using the hourComp function
  *  then checks to see if the times overlap
- * @param {hour} hours: the producers hours to check with
+ * @param {Array} hours: the producers hours to check with
  * @returns {boolean}: returns if there is a conflict or not to the validator
  */
 function hourCheck(hours) {
@@ -102,9 +102,8 @@ const producerSchema = new mongoose.Schema({
       validator: hours => hourCheck(hours)
     }
   }
-},
-  {
-    timestamps: true
-  });
 
+}, {
+  timestamps: true
+});
 export default mongoose.model('Producer', producerSchema);

@@ -6,7 +6,6 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
-import * as Hour from './hour.es6';
 import Moment from 'moment';
 
 /**
@@ -141,7 +140,6 @@ export async function addHours(id, array) {
 }
 /**
  * Deletes specific hour objects for a specific producer
- *
  * @param {String} id: unique identifier to find the producer
  * @param {Array} hourIds: the id of the hour to delete
  * @returns {Promise} removed object
@@ -191,9 +189,8 @@ export async function getHours(id) {
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  return new Moment().format('HH:mm');
+  return new Moment('HH:mm');
 }
-
 /**
  * Gives the user the day of the week it is
  *
@@ -231,8 +228,7 @@ export async function findOpenHelper(time, dayWeek) {
  * @returns {Array} an array of producers that are open
  */
 export async function findOpen() {
-  let time = getCurrentTime();
-  time = Hour.convertHour(time);
+  const time = getCurrentTime();
   const dayWeek = dayOfWeek();
   return findOpenHelper(time, dayWeek);
 }
