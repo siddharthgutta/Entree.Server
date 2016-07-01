@@ -79,6 +79,39 @@ export default class FBMessenger extends MsgPlatform {
   }
 
   /**
+   * Sets the welcome message
+   * Note: To delete the welcome message, pass in no parameter
+   *
+   * @param {Object} callToActions: REQUIRED message data, contents of the message
+   * @return {Promise} Promise result with response or error
+   */
+  setPersistentMenu(callToActions) {
+    return new Promise((resolve, reject) => {
+      request({
+        url: `https://graph.facebook.com/v2.6/${this.pageId}/thread_settings`,
+        qs: {access_token: this.pageAccessToken},
+        method: 'POST',
+        json: {
+          setting_type: 'call_to_actions',
+          thread_state: 'existing_thread',
+          call_to_actions: callToActions
+        }
+      }, (error, response, body) => {
+        if (error) {
+          console.log('Error setting welcome message: ', error);
+          reject(error);
+        } else if (response.body.error) {
+          console.log('Error setting welcome message: ', response.body.error);
+          reject(response.body.error);
+        } else {
+          console.log(`Successfully set welcome message:`, body);
+          resolve(body);
+        }
+      });
+    });
+  }
+
+  /**
    * Gets Facebook Profile Info
    *
    * @param {String} userId: facebook user id

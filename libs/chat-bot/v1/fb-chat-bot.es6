@@ -7,7 +7,7 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData, QuickReplyMessageData,
-  ImageMessageData} from '../../msg/facebook/message-data.es6';
+  ImageMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -41,6 +41,14 @@ export default class FbChatBot {
     welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
     */
+
+    const callToActions = new CallToAction();
+    callToActions.pushLink('Entrée Website', `https://entreebot.com`);
+    // callToActions.pushLink('Help', `https://entreebot.com`);
+    // callToActions.pushLink('Request a Truck ', `https://entreebot.com`);
+    // callToActions.pushLink('Contact', `https://entreebot.com`);
+    callToActions.pushPostback('See All Trucks', this._genPayload(actions.seeProducers));
+    this.msgPlatform.setPersistentMenu(callToActions.toJSON());
   }
 
   /**
