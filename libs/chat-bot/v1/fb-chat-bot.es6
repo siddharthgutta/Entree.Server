@@ -234,7 +234,7 @@ export default class FbChatBot {
       throw new Error('Could not get menu Link image', err);
     }
 
-    return [image, quickReply];
+    return [image, button];
   }
 
   /**
