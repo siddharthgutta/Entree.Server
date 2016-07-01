@@ -141,117 +141,6 @@ export async function addHours(id, array) {
 }
 /**
  * Deletes specific hour objects for a specific producer
- * @param {String} id: unique identifier to find the producer
- * @param {Array} hourIds: the id of the hour to delete
- * @returns {Promise} removed object
- */
-export async function deleteHours(id, hourIds) {
-  const prod = await Producer.findOne(id);
-  _.forEachRight(prod.hours, time => {
-    _.forEach(hourIds, hourId => {
-      if (time._id.equals(hourId)) {
-        time.remove();
-      }
-    });
-  });
-  return await prod.save();
-}
-
-/**
- * Deletes all hours for a day for a specific producer
- *
- * @param {String} id: unique identifier to find the producer
- * @param {String} day: the day to delete from the producers
- * @returns {Promise} : return the new producer after the hours are deleted
- */
-export async function deleteDay(id, day) {
-  const prod = await Producer.findOne(id);
-  _.forEachRight(prod.hours, time => {
-    if (time.day === day) {
-      time.remove();
-    }
-  });
-  return await prod.save();
-}
-
-/**
- * Gets the hours for a specific producer
- *
- * @param {number} id: finds the producer
- * @returns {Promise} the array of hour objects of the restaurant's hours
- */
-export async function getHours(id) {
-  return (await Producer.findOne(id)).hours;
-}
-
-/**
- * Gets the servers current time
- *
- * @returns {Moment} the current time in a Moment object 'HHmm'
- */
-export function getCurrentTime() {
-  return new Moment('HH:mm');
-}
-
-/**
- * Gives the user the day of the week it is
- *
- * @returns {String} the day of the week it is (ie 'Monday')
- */
-
-export function dayOfWeek() {
-  return new Moment().format('dddd');
-}
-
-/**
- *
- * @param {Moment} time: the time to check as a number
- * @param {String} dayWeek: the day of the week to check
- * @returns {Array} an array of producers that are open based on the parameters
- */
-export async function findOpenHelper(time, dayWeek) {
-  const prodArr = [];
-  const prodEnabled = await findAllEnabled();
-  _.forEach(prodEnabled, prod => {
-    _.forEach(prod.hours, hour => {
-      const open = new Moment(hour.openTime, 'HH:mm');
-      const close = new Moment(hour.closeTime, 'HH:mm');
-      if (hour.day === dayWeek &&
-        (time.isAfter(open) && time.isBefore(close))) {
-        prodArr.push(prod);
-      }
-    });
-  });
-  return prodArr;
-}
-
-/**
- * Gives the user the producers that are currently open
- *
- * @returns {Array} an array of producers that are open
- */
-export async function findOpen() {
-  const time = getCurrentTime();
-  const dayWeek = dayOfWeek();
-  return findOpenHelper(time, dayWeek);
-}
-
-/**
- * Adds multiple times with an array of hours to a specific producer
- *
- * @param {String} id: unique identifier to find the producer
- * @param {Array} array: array of hour objects
- * @return {Promise} returns the updated producer
- */
-export async function addHours(id, array) {
-  const prod = await Producer.findOne(id);
-  _.forEach(array, async key => {
-    prod.hours.push(key);
-  });
-  return await prod.save();
-}
-/**
- * Deletes specific hour objects for a specific producer
  *
  * @param {String} id: unique identifier to find the producer
  * @param {Array} hourIds: the id of the hour to delete
@@ -316,7 +205,7 @@ export function dayOfWeek() {
 
 /**
  *
- * @param {number} time: the time to check as a number
+ * @param {Moment} time: the time to check as a number
  * @param {String} dayWeek: the day of the week to check
  * @returns {Array} an array of producers that are open based on the parameters
  */
@@ -325,8 +214,10 @@ export async function findOpenHelper(time, dayWeek) {
   const prodEnabled = await findAllEnabled();
   _.forEach(prodEnabled, prod => {
     _.forEach(prod.hours, hour => {
+      const open = new Moment(hour.openTime, 'HH:mm');
+      const close = new Moment(hour.closeTime, 'HH:mm');
       if (hour.day === dayWeek &&
-        (time > Hour.convertHour(hour.openTime) && time < Hour.convertHour(hour.closeTime))) {
+        (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
       }
     });
