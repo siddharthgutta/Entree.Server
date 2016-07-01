@@ -9,7 +9,6 @@ import * as Location from '../controllers/location.es6';
 import Moment from 'moment';
 import * as Hour from './hour.es6';
 import Moment from 'moment';
-import * as Hour from '../controllers/hour.es6';
 
 /**
  * Find the producer from its object id
@@ -193,10 +192,10 @@ export async function getHours(id) {
 /**
  * Gets the servers current time
  *
- * @returns {String} the current time in 'HHmm'
+ * @returns {Moment} the current time in a Moment object 'HHmm'
  */
 export function getCurrentTime() {
-  return new Moment().format('HH:mm');
+  return new Moment('HH:mm');
 }
 
 /**
@@ -210,7 +209,7 @@ export function dayOfWeek() {
 
 /**
  *
- * @param {number} time: the time to check as a number
+ * @param {Moment} time: the time to check as a number
  * @param {String} dayWeek: the day of the week to check
  * @returns {Array} an array of producers that are open based on the parameters
  */
@@ -219,8 +218,10 @@ export async function findOpenHelper(time, dayWeek) {
   const prodEnabled = await findAllEnabled();
   _.forEach(prodEnabled, prod => {
     _.forEach(prod.hours, hour => {
+      const open = new Moment(hour.openTime, 'HH:mm');
+      const close = new Moment(hour.closeTime, 'HH:mm');
       if (hour.day === dayWeek &&
-        (time > Hour.convertHour(hour.openTime) && time < Hour.convertHour(hour.closeTime))) {
+        (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
       }
     });
@@ -234,8 +235,7 @@ export async function findOpenHelper(time, dayWeek) {
  * @returns {Array} an array of producers that are open
  */
 export async function findOpen() {
-  let time = getCurrentTime();
-  time = Hour.convertHour(time);
+  const time = getCurrentTime();
   const dayWeek = dayOfWeek();
   return findOpenHelper(time, dayWeek);
 }
