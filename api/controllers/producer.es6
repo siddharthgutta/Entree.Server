@@ -6,6 +6,7 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
+import Moment from 'moment';
 
 /**
  * Find the producer from its object id
@@ -24,7 +25,7 @@ export async function findOneByObjectId(_id) {
  * @returns {Promise<Producer>}: the producer with the specific username
  */
 export async function findOneByUsername(username) {
-  return await Producer.findOne({username}, ['merchant']);
+  return await Producer.findOne({username}, ['merchant', 'location']);
 }
 
 /**
@@ -60,6 +61,7 @@ export async function findFbEnabled(conditions = {}) {
 export async function findAllEnabled(conditions = {}) {
   return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
 }
+
 
 /**
  * Create a producer in the database
@@ -120,4 +122,114 @@ export async function create(name, username, password, description, profileImage
  */
 export async function updateByObjectId(_id, fields) {
   return await Producer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true});
+}
+
+/**
+ * Adds multiple times with an array of hours to a specific producer
+ *
+ * @param {String} id: unique identifier to find the producer
+ * @param {Array} array: array of hour objects
+ * @return {Promise} returns the updated producer
+ */
+export async function addHours(id, array) {
+  const prod = await Producer.findOne(id);
+  _.forEach(array, async key => {
+    prod.hours.push(key);
+  });
+  return await prod.save();
+}
+/**
+ * Deletes specific hour objects for a specific producer
+ * @param {String} id: unique identifier to find the producer
+ * @param {Array} hourIds: the id of the hour to delete
+ * @returns {Promise} removed object
+ */
+export async function deleteHours(id, hourIds) {
+  const prod = await Producer.findOne(id);
+  _.forEachRight(prod.hours, time => {
+    _.forEach(hourIds, hourId => {
+      if (time._id.equals(hourId)) {
+        time.remove();
+      }
+    });
+  });
+  return await prod.save();
+}
+
+/**
+ * Deletes all hours for a day for a specific producer
+ *
+ * @param {String} id: unique identifier to find the producer
+ * @param {String} day: the day to delete from the producers
+ * @returns {Promise} : return the new producer after the hours are deleted
+ */
+export async function deleteDay(id, day) {
+  const prod = await Producer.findOne(id);
+  _.forEachRight(prod.hours, time => {
+    if (time.day === day) {
+      time.remove();
+    }
+  });
+  return await prod.save();
+}
+
+/**
+ * Gets the hours for a specific producer
+ *
+ * @param {number} id: finds the producer
+ * @returns {Promise} the array of hour objects of the restaurant's hours
+ */
+export async function getHours(id) {
+  return (await Producer.findOne(id)).hours;
+}
+
+/**
+ * Gets the servers current time
+ *
+ * @returns {String} the current time in 'HHmm'
+ */
+export function getCurrentTime() {
+  return new Moment('HH:mm');
+}
+/**
+ * Gives the user the day of the week it is
+ *
+ * @returns {String} the day of the week it is (ie 'Monday')
+ */
+export function dayOfWeek() {
+  return new Moment().format('dddd');
+}
+
+/**
+ *
+ * @param {Moment} time: the time to check as a number
+ * @param {String} dayWeek: the day of the week to check
+ * @returns {Array} an array of producers that are open based on the parameters
+ */
+export async function findOpenHelper(time, dayWeek) {
+  const prodArr = [];
+  const prodEnabled = await findAllEnabled();
+  _.forEach(prodEnabled, prod => {
+    _.forEach(prod.hours, hour => {
+      const open = new Moment(hour.openTime, 'HH:mm');
+      const close = new Moment(hour.closeTime, 'HH:mm');
+      if (hour.day === dayWeek &&
+        (time.isAfter(open) && time.isBefore(close))) {
+        prodArr.push(prod);
+        return false;
+      }
+    });
+  });
+  return prodArr;
+}
+
+/**
+ * Gives the user the producers that are currently open
+ *
+ * @returns {Array} an array of producers that are open
+ */
+export async function findOpen() {
+  const time = getCurrentTime();
+  const dayWeek = dayOfWeek();
+  return findOpenHelper(time, dayWeek);
 }

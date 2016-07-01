@@ -430,7 +430,12 @@ describe('Producer DB API', () => {
       profileImage: 'www.updated.com',
       exampleOrder: 'This is an updated example order',
       enabled: true,
-      menuLink: 'www.menulink.com'
+      menuLink: 'www.menulink.com',
+      hour: {
+        day: 'Tuesday',
+        openTime: '07:00',
+        closeTime: '20:00'
+      }
     };
 
     it('should update a producer correctly', async() => {
