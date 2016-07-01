@@ -6,7 +6,7 @@ import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
-import {GenericMessageData, TextMessageData, ButtonMessageData,
+import {GenericMessageData, TextMessageData, ButtonMessageData, QuickReplyMessageData,
   ImageMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
@@ -20,7 +20,8 @@ export const events = {
   postback: 'Postback',
   text: 'Text',
   attachment: 'Attachment',
-  delivery: 'Delivery'
+  delivery: 'Delivery',
+  quickReply: 'Quick Reply'
 };
 
 export default class FbChatBot {
@@ -56,6 +57,9 @@ export default class FbChatBot {
       case events.postback:
         output = await this._handlePostback(event, consumer);
         break;
+      case events.quickReply:
+        output = await this._handleQuickReply(event, consumer);
+        break;
       case events.text:
         output = await this._handleText(event, consumer);
         break;
@@ -72,6 +76,35 @@ export default class FbChatBot {
         throw Error(`Error handing event input for event`);
     }
     return output;
+  }
+
+  /**
+   * Handles quick reply events
+   *
+   * @param {Object} event: input event from messenger
+   * @param {Consumer} consumer: consumer object from database
+   * @returns {Object}: messenger output
+   */
+  async _handleQuickReply(event, consumer) {
+    let payload, action;
+    try {
+      payload = JSON.parse(event.message.quick_reply.payload);
+      action = this._getAction(payload);
+    } catch (err) {
+      throw new Error('Could not get payload or action for quick reply event', err);
+    }
+    switch (action) {
+      case actions.seeProducers:
+        return this._handleSeeProducers();
+      case actions.moreInfo:
+        return await this._handleMoreInfo(payload);
+      case actions.menu:
+        return this._handleMenu(payload);
+      case actions.orderPrompt:
+        return await this._handleOrderPrompt(payload, consumer);
+      default:
+        throw Error('Invalid quick reply payload action');
+    }
   }
 
   /**
@@ -99,7 +132,7 @@ export default class FbChatBot {
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload, consumer);
       default:
-        throw Error('Invalid payload action');
+        throw Error('Invalid postback payload action');
     }
   }
 
@@ -160,16 +193,16 @@ export default class FbChatBot {
    * @returns {[ImageMessageData]}: image of the menu
    */
   async _handleMenu(payload) {
-    let image, button;
+    let image, quickReply;
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
       image = new ImageMessageData(producer.menuLink);
-      button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen or ` +
-        `choose one of the options below.`);
-      button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
-      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
-      button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
+      quickReply = new QuickReplyMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
+        `or choose one of the following options.`);
+      quickReply.pushQuickReply('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+      quickReply.pushQuickReply('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
+      quickReply.pushQuickReply('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get menu Link image', err);
     }
@@ -431,6 +464,10 @@ export default class FbChatBot {
   _getEventType(event) {
     if (event.postback) {
       return events.postback;
+    }
+
+    if (event.message && event.message.quick_reply) {
+      return events.quickReply;
     }
 
     if (event.message && event.message.text) {
