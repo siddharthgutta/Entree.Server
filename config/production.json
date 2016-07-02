@@ -1,25 +1,8 @@
 {
-  "MySQL": {
-    "username": "root",
-    "password": "123456",
-    "database": "entree",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "MongoDb": {
-    "username": "root",
-    "password": "123456",
-    "database": "entree",
-    "host": "127.0.0.1",
-    "port": "27017"
-  },
-  "Client": {
-    "Server": {
-      "protocol": "http"
-    }
-  },
   "Server": {
     "protocol": "https",
-    "port": 443
+    "sslKey": "./keys/entreebot.com.key",
+    "sslCert": "./keys/entreebot.com.crt",
+    "sslCa": "./keys/entreebot.com.chain.crt",
   }
 }

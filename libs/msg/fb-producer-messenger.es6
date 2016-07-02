@@ -23,7 +23,7 @@ export const NotificationType = {
   NO_PUSH: 'NO_PUSH'
 };
 
-export default class FBMessenger extends MsgPlatform {
+export default class FBProducerMessenger extends MsgPlatform {
   /**
    * FB Messenger constructor with the page specific access token
    *
@@ -86,7 +86,7 @@ export default class FBMessenger extends MsgPlatform {
     /**
      * Verification for setting up initial webhook
      */
-    route.get('/webhook', (req, res) => {
+    route.get('/producer/webhook', (req, res) => {
       console.log(`Received GET Verification Request:`, req.query);
       if (req.query['hub.verify_token'] === this.verificationToken) {
         console.log('Verification: SUCCEEDED');
@@ -100,7 +100,7 @@ export default class FBMessenger extends MsgPlatform {
     /**
      * Webhook for accepting incoming messages/postbacks
      */
-    route.post('/webhook', async (req, res) => {
+    route.post('/producer/webhook', async (req, res) => {
       const entries = req.body.entry;
       console.log(req.body.entry);
       // Loop through each of the entries
