@@ -6,29 +6,35 @@ import config from 'config';
 import * as Runtime from '../../libs/runtime.es6';
 import Emitter, {Events} from '../events/index.es6';
 
-let msgPlatform;
+let consumerMsgPlatform, producerMsgPlatform;
 
 const productionOrStaging = Runtime.isProduction();
+const allFacebookCreds = config.get(`Facebook`);
+const branchName = Runtime.getBranch();
 
-let facebookCreds;
-if (Runtime.isLocal() || Runtime.isProduction()) {
-  facebookCreds = config.get(`Facebook.production`);
+let consumerCreds, producerCreds;
+
+if (Runtime.isStaging() && branchName in allFacebookCreds) {
+    consumerCreds = allFacebookCreds[branchName].consumer;
+    producerCreds = allFacebookCreds[branchName].merchant;
 } else {
-  const allFacebookCreds = config.get(`Facebook`);
-  const branchName = Runtime.getBranch();
-  if (branchName in allFacebookCreds) {
-    facebookCreds = allFacebookCreds[branchName];
-  } else {
-    facebookCreds = allFacebookCreds.production;
-  }
+  consumerCreds = config.get('Facebook.consumer');
+  producerCreds = config.get('Facebook.merchant');
 }
 
-msgPlatform = new FBMessenger(facebookCreds.pageAccessToken, facebookCreds.verificationToken,
-  facebookCreds.pageId, productionOrStaging);
+consumerMsgPlatform = new FBMessenger(consumerCreds.pageAccessToken, consumerCreds.verificationToken,
+  consumerCreds.pageId, productionOrStaging);
+producerMsgPlatform = new FBMessenger(producerCreds.pageAccessToken, producerCreds.verificationToken,
+  producerCreds.pageId, productionOrStaging);
 
 console.info(`Initialized FB Messenger using ${Runtime.getEnv()} Credentials`);
 
-msgPlatform.on(FBMessenger.RECEIVED, async event => {
+consumerMsgPlatform.on(FBMessenger.RECEIVED, async event => {
+  console.log('Received FBMessenger message in messaging.es6');
+  Emitter.emit(Events.MSG_RECEIVED, event);
+});
+
+producerMsgPlatform.on(FBMessenger.RECEIVED, async event => {
   console.log('Received FBMessenger message in messaging.es6');
   Emitter.emit(Events.MSG_RECEIVED, event);
 });
@@ -38,4 +44,4 @@ msgPlatform.on(FBMessenger.RECEIVED, async event => {
  * MsgPlatform strategy
  * @type {MsgPlatform}
  */
-export const MsgPlatform = msgPlatform;
+export const ConsumerMsgPlatform = consumerMsgPlatform;
