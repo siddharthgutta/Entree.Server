@@ -1,25 +1,22 @@
 {
-  "MySQL": {
-    "username": "root",
-    "password": "123456",
-    "database": "entree",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "MongoDb": {
-    "username": "root",
-    "password": "123456",
-    "database": "entree",
-    "host": "127.0.0.1",
-    "port": "27017"
-  },
-  "Client": {
-    "Server": {
-      "protocol": "http"
-    }
-  },
   "Server": {
     "protocol": "https",
-    "port": 443
+    "sslKey": "./keys/entreebot.com.key",
+    "sslCert": "./keys/entreebot.com.crt",
+    "sslCa": "./keys/entreebot.com.chain.crt",
+  },
+  "Facebook": {
+    "producer": {
+      "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
+      "pageAccessToken": "EAAD1umWQMYMBAPCNChWCU5e8NcJ4VweWnJ7dhTMeZC06yZBaVFLmUgugbxMudC6HdfJQJUHQHWvRU2vkMUox0wcnX5SVTsES5UsX9C1P2SeUoJ9FzZC60xfdMJEuvWbYJE32PZBmCV6iNPXKvfnErThuSZBt39xxNUnAmcZB7okgZDZD",
+      "pageId": "615481525292908",
+      "appId": "270180916670851"
+    },
+    "consumer": {
+      "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
+      "pageAccessToken": "CAAYMNarix14BAF8lQF5ZCA8ft0DL0WT2j1CLdspLdexSqdxKyRFwrjPfpx5ed8kZBHZAZA19R5yqntULDXCobFg8c4KYD5NVZAgpi92g5RG5jE1qxRF0GhVYdkLZAq0wgph7eD3WcyTozTgW5ghP1SDQNxEabuFmdNjDZC4uqvrpHti7Xurkr8dBUlRT8BQjl8BZBNMbGvbHGAZDZD",
+      "pageId": "906336609427619",
+      "appId": "1702274500052830"
+    }
   }
 }

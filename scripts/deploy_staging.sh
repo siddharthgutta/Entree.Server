@@ -57,11 +57,6 @@ fi
 
 export APP_BRANCH="$1"
 
-# Sets up the SSL keys
-export HTTPS_SSL_KEY="./keys/staging.entreebot.com.key"
-export HTTPS_SSL_CERTIFICATE="./keys/staging.entreebot.com.crt"
-export HTTPS_SSL_CA="./keys/staging.entreebot.com.chain.crt"
-
 echo "Branch Pushed: $APP_BRANCH"
 echo "Free Port Chosen: $NODE_PORT"
 git checkout $APP_BRANCH
