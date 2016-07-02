@@ -1,0 +1,17 @@
+{
+  "name": "Torchy’s",
+  "username": "torchysfoodtruck",
+  "password": "thedemocrat",
+  "description": "Damn Good Tacos",
+  "profileImage": "http://i.imgur.com/BjJjDg0.jpg",
+  "address": "1311 South First St. Austin, TX 78704",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Democrat with Chipotle Salsa",
+  "menuLink": "http://i.imgur.com/XFb92JH.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}
