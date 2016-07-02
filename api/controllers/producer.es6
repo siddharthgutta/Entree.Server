@@ -124,9 +124,9 @@ export async function updateByObjectId(_id, fields) {
   let updatedFields = fields;
   if ('address' in updatedFields) {
     const location = await Location.createWithAddress(updatedFields.address);
-    updatedFields = _.merge(_.omit('address'), {location});
+    updatedFields = _.merge(_.omit(updatedFields, 'address'), {location});
   }
-  return await Producer.findOneAndUpdate({_id}, {$set: updatedFields}, {runValidators: true});
+  return await Producer.findOneAndUpdate({_id}, {$set: updatedFields}, {runValidators: true, new: true});
 }
 
 /**
