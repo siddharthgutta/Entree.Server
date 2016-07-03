@@ -31,9 +31,14 @@
   "NodeEnv": "development",
   "Slack": {
     "Braintree": {
-      "apiToken": "xoxb-24692177427-lmcy1B4DFJ1VbCg4BQm9w2ce",
+      "apiToken": "xoxb-24692177427-kZ9LND3GzTmvrhfUoTkoXRKt",
       "channelId": "C0QLEKSV8",
-      "username": "braintreebot"
+      "username": "entreebot"
+    },
+    "orders": {
+      "apiToken": "xoxb-24692177427-wbHorlPeY7idnEcSA5QbYMHL",
+      "channelId": "C1NF2MJAV",
+      "username": "entreebot"
     }
   },
   "Braintree": {
