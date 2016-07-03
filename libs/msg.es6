@@ -3,6 +3,8 @@
  */
 
 import EventEmitter from 'events';
+import request from 'request';
+import Promise from 'bluebird';
 
 export default class MsgPlatform extends EventEmitter {
   static RECEIVED = 'msg-received';
@@ -58,6 +60,7 @@ export default class MsgPlatform extends EventEmitter {
    * Gets Facebook Profile Info
    *
    * @param {String} userId: facebook user id
+   * @param {String} pageAccessToken: REQUIRED access token of the FB page
    * @return {Object} Facebook user information
    */
   _getFacebookProfileInfo(userId, pageAccessToken) {
@@ -90,10 +93,11 @@ export default class MsgPlatform extends EventEmitter {
    *
    * @param {Object} recipient: REQUIRED phone number or id of fb user - Phone# Format: +1(212)555-2368
    * @param {Object} messageData: REQUIRED message data, contents of the message
+   * @param {String} pageAccessToken: REQUIRED access token of the FB page
    * @param {String} notificationType: OPTIONAL notification type
    * @return {Promise} Promise result with response or error
    */
-  _sendMessage(recipient, messageData, pageAccessToken, notificationType = NotificationType.SILENT_PUSH) {
+  _sendMessage(recipient, messageData, pageAccessToken, notificationType) {
     console.log(`Sending message to ${recipient.toString()}`,
       messageData);
 

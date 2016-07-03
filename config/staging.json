@@ -4,11 +4,16 @@
     "sslKey": "./keys/staging.entreebot.com.key",
     "sslCert": "./keys/staging.entreebot.com.crt",
     "sslCa": "./keys/staging.entreebot.com.chain.crt",
+    "httpsRejectUnauthorized": false,
+    "sslPassphrase": "TextEntree1234"
   },
   "Facebook": {
     "staging": {
       "merchant": {
-
+        "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
+        "pageAccessToken": "EAAD1umWQMYMBAPCNChWCU5e8NcJ4VweWnJ7dhTMeZC06yZBaVFLmUgugbxMudC6HdfJQJUHQHWvRU2vkMUox0wcnX5SVTsES5UsX9C1P2SeUoJ9FzZC60xfdMJEuvWbYJE32PZBmCV6iNPXKvfnErThuSZBt39xxNUnAmcZB7okgZDZD",
+        "pageId": "615481525292908",
+        "appId": "270180916670851"
       },
       "consumer": {
         "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",

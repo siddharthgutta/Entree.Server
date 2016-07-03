@@ -5,8 +5,6 @@
 import MsgPlatform from '../msg.es6';
 import {Router} from 'express';
 import bodyParser from 'body-parser';
-import request from 'request';
-import Promise from 'bluebird';
 
 /**
  * Notification types for sending messages

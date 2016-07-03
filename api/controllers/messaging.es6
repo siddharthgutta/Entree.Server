@@ -6,17 +6,19 @@ import config from 'config';
 import * as Runtime from '../../libs/runtime.es6';
 import Emitter, {Events} from '../events/index.es6';
 
-let consumerMsgPlatform, producerMsgPlatform;
+let consumerMsgPlatform;
+let producerMsgPlatform;
 
 const productionOrStaging = Runtime.isProduction();
 const allFacebookCreds = config.get(`Facebook`);
 const branchName = Runtime.getBranch();
 
-let consumerCreds, producerCreds;
+let consumerCreds;
+let producerCreds;
 
 if (Runtime.isStaging() && branchName in allFacebookCreds) {
-    consumerCreds = allFacebookCreds[branchName].consumer;
-    producerCreds = allFacebookCreds[branchName].merchant;
+  consumerCreds = allFacebookCreds[branchName].consumer;
+  producerCreds = allFacebookCreds[branchName].merchant;
 } else {
   consumerCreds = config.get('Facebook.consumer');
   producerCreds = config.get('Facebook.merchant');
