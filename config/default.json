@@ -6,9 +6,7 @@
   },
   "Server": {
     "protocol": "http",
-    "port": 3000,
-    "httpsRejectUnauthorized": false,
-    "sslPassphrase": "TextEntree1234"
+    "port": 3000
   },
   "Slack": {
     "apiToken": "xoxb-24692177427-wbHorlPeY7idnEcSA5QbYMHL",

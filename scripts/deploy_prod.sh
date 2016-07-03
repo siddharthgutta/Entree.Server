@@ -5,6 +5,8 @@ cd /home/ubuntu/.pm2/repos/master/Entree.Server
 
 # Setting environment variables
 export NODE_ENV="production"
+export NODE_PORT=443
+export APP_BRANCH="master"
 
 git checkout master
 git pull

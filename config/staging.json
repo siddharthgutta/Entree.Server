@@ -4,6 +4,8 @@
     "sslKey": "./keys/staging.entreebot.com.key",
     "sslCert": "./keys/staging.entreebot.com.crt",
     "sslCa": "./keys/staging.entreebot.com.chain.crt",
+    "httpsRejectUnauthorized": false,
+    "sslPassphrase": "TextEntree1234"
   },
   "Facebook": {
     "producer": {

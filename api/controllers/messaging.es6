@@ -6,7 +6,8 @@ import config from 'config';
 import * as Runtime from '../../libs/runtime.es6';
 import Emitter, {Events} from '../events/index.es6';
 
-let consumerMsgPlatform, producerMsgPlatform;
+let consumerMsgPlatform;
+let producerMsgPlatform;
 
 const productionOrStaging = Runtime.isProduction();
 
