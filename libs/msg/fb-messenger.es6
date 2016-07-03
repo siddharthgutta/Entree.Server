@@ -47,7 +47,7 @@ export default class FBMessenger extends MsgPlatform {
    * @return {Promise} Promise result with response or error
    */
   async setWelcomeMessage(messageData = null) {
-    await this._setWelcomeMessage(this.pageId, this.pageAccessToken, messageData);
+    return await this._setWelcomeMessage(this.pageId, this.pageAccessToken, messageData);
   }
 
   /**
@@ -57,7 +57,7 @@ export default class FBMessenger extends MsgPlatform {
    * @return {Object} Facebook user information
    */
   async getFacebookProfileInfo(userId) {
-    await this._getFacebookProfileInfo(userId, this.pageAccessToken);
+    return await this._getFacebookProfileInfo(userId, this.pageAccessToken);
   }
 
   /**

@@ -2,6 +2,7 @@
  * Created by kfu on 4/13/16.
  */
 import {FBMessenger} from '../../libs/msg/messenger.es6';
+import {FBProducerMessenger} from '../../libs/msg/messenger.es6';
 import config from 'config';
 import * as Runtime from '../../libs/runtime.es6';
 import Emitter, {Events} from '../events/index.es6';
@@ -16,7 +17,7 @@ const producerCreds = config.get('Facebook.producer');
 
 consumerMsgPlatform = new FBMessenger(consumerCreds.pageAccessToken, consumerCreds.verificationToken,
   consumerCreds.pageId, productionOrStaging);
-producerMsgPlatform = new FBMessenger(producerCreds.pageAccessToken, producerCreds.verificationToken,
+producerMsgPlatform = new FBProducerMessenger(producerCreds.pageAccessToken, producerCreds.verificationToken,
   producerCreds.pageId, productionOrStaging);
 
 console.info(`Initialized FB Messenger using ${Runtime.getEnv()} Credentials`);
