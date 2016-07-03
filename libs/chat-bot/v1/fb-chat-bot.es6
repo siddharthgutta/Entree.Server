@@ -313,7 +313,7 @@ export default class FbChatBot {
       const {producer} = this._getData(payload);
       button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
-      button.pushLinkButton('Location', `https://www.google.com/maps`);
+      button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
