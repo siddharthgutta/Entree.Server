@@ -2,33 +2,12 @@
   "Client": {
     "BrainTree": {
       "testClientToken": "eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJkNTRlNzczNWM0MmM2ZjNmNDA3MGE2OTE0MzJiMjE4MDA4MGQwZDA1MWMzY2FiZGQzYjk1ODkxZGU4NGJlMDcxfGNyZWF0ZWRfYXQ9MjAxNi0wMy0wNVQwMToyNTowMC4xNDg1NTM4NjgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTM0OHBrOWNnZjNiZ3l3MmJcdTAwMjZwdWJsaWNfa2V5PTJuMjQ3ZHY4OWJxOXZtcHIiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvMzQ4cGs5Y2dmM2JneXcyYi9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzM0OHBrOWNnZjNiZ3l3MmIvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIn0sInRocmVlRFNlY3VyZUVuYWJsZWQiOnRydWUsInRocmVlRFNlY3VyZSI6eyJsb29rdXBVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvMzQ4cGs5Y2dmM2JneXcyYi90aHJlZV9kX3NlY3VyZS9sb29rdXAifSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiQWNtZSBXaWRnZXRzLCBMdGQuIChTYW5kYm94KSIsImNsaWVudElkIjpudWxsLCJwcml2YWN5VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3BwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHA6Ly9leGFtcGxlLmNvbS90b3MiLCJiYXNlVXJsIjoiaHR0cHM6Ly9hc3NldHMuYnJhaW50cmVlZ2F0ZXdheS5jb20iLCJhc3NldHNVcmwiOiJodHRwczovL2NoZWNrb3V0LnBheXBhbC5jb20iLCJkaXJlY3RCYXNlVXJsIjpudWxsLCJhbGxvd0h0dHAiOnRydWUsImVudmlyb25tZW50Tm9OZXR3b3JrIjp0cnVlLCJlbnZpcm9ubWVudCI6Im9mZmxpbmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwiYnJhaW50cmVlQ2xpZW50SWQiOiJtYXN0ZXJjbGllbnQzIiwiYmlsbGluZ0FncmVlbWVudHNFbmFibGVkIjp0cnVlLCJtZXJjaGFudEFjY291bnRJZCI6ImFjbWV3aWRnZXRzbHRkc2FuZGJveCIsImN1cnJlbmN5SXNvQ29kZSI6IlVTRCJ9LCJjb2luYmFzZUVuYWJsZWQiOmZhbHNlLCJtZXJjaGFudElkIjoiMzQ4cGs5Y2dmM2JneXcyYiIsInZlbm1vIjoib2ZmIn0="
-    },
-    "Server": {
-      "protocol": "https",
-      "hostname": "localhost"
     }
   },
-  "Mode": "manual",
   "Server": {
     "protocol": "http",
-    "port": 3000,
-    "httpsRejectUnauthorized": false,
-    "sslKey": "./keys/entreebot.com.key",
-    "sslCert": "./keys/entreebot.com.crt",
-    "sslCa": "./keys/entreebot.com.chain.crt",
-    "sslPassphrase": "TextEntree1234",
-    "hostnames": [
-      "textentree.com",
-      "www.textentree.com",
-      "staging.textentree.com",
-      "127.0.0.1",
-      "0.0.0.0"
-    ]
+    "port": 3000
   },
-  "IsTest": false,
-  "AppId": "local",
-  "AppBranch": "local",
-  "NodeEnv": "development",
   "Slack": {
     "apiToken": "xoxb-24692177427-wbHorlPeY7idnEcSA5QbYMHL",
     "username": "entreebot",
@@ -57,24 +36,10 @@
     "apiKey": "AIzaSyCTRuUGZgHw8hR8Wbegrs0WwJqDJBaMRDU"
   },
   "Facebook": {
-    "production": {
-      "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
-      "pageAccessToken": "CAAYMNarix14BAF8lQF5ZCA8ft0DL0WT2j1CLdspLdexSqdxKyRFwrjPfpx5ed8kZBHZAZA19R5yqntULDXCobFg8c4KYD5NVZAgpi92g5RG5jE1qxRF0GhVYdkLZAq0wgph7eD3WcyTozTgW5ghP1SDQNxEabuFmdNjDZC4uqvrpHti7Xurkr8dBUlRT8BQjl8BZBNMbGvbHGAZDZD",
-      "pageId": "906336609427619",
-      "appId": "1702274500052830"
+    "producer": {
+      "No local producer bot yet": 0
     },
-    "staging": {
-      "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
-      "pageAccessToken": "CAADuxdXeTuIBABEE6q6pZBqEOHSYIWK6aIZAEZBOGfYfl0gDfPbKXdpeI2ZBQZBZBqw5o8ZAurg8lEyLb0a6GxQcbRnwH5zAUjWZAlaA4GMCIT5ecMwGdZCr2F81AmWZBULjSSBvnPheZCryterDMgDvEdFwR8WjSOHJdYGJMFZB1H0pW196sTVJclR1Dp5iKa0E0A3CCDvIHf3mCgZDZD",
-      "pageId": "1031674843586566",
-      "appId": "262533464084194"
-    },
-    "facebook": {
-      "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
-      "pageAccessToken": "CAAWr87vbYZBIBAHiq4MS5dkrTzZAOs7Cou3MsAMhsyEECkuWkZAINW5JWSpAxZAotJSeAwzCIKtfFFsZCmqqdZAP4f6ZA6joup9jRusADCE19nOUkSS31spaBrwJdJMsvdVjrslGg5fFY2E9qontnKeIVOV3rbDCb1CCKxzJGXtytpBZByuAPbJDtT5d8hap6BeCgRR2tvhZAfgZDZD",
-      "pageId": "993289687425169"
-    },
-    "local": {
+    "consumer": {
       "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
       "pageAccessToken": "EAAQGTHYswsgBALSliegt9fiAUzHIly2lD1ZAsgFoGwSNYkcVMSC6evTPfEvPBAXeWKLDDmwsyjxbff9ELSJHG9l6GQju7afW6XbkVhw81jD6SsSC5WBxx8wGtZA1XeK5k275KSYNmBmoDm8LZC4puZBoakCeZAvknZBYtY4onpaQZDZD",
       "pageId": "213297705716380"
@@ -85,17 +50,16 @@
     "password": "123456",
     "database": "entree",
     "host": "127.0.0.1",
-    "clearOnStart": false,
     "dialect": "mysql",
-    "logging": true,
-    "revision": "r14"
+    "logging": true
   },
   "MongoDb": {
-    "clearOnStart": false,
     "username": "root",
     "password": "123456",
     "database": "entree",
     "host": "127.0.0.1",
     "port": "27017"
-  }
+  },
+  "NodeEnv": "development",
+  "AppBranch": "local"
 }

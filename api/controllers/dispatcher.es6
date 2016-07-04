@@ -1,15 +1,15 @@
 /* eslint-disable */
 import Emitter, {Events} from '../events/index.es6';
 import {FbChatBot} from '../../libs/chat-bot/index.es6';
-import {MsgPlatform} from './messaging.es6';
+import {ConsumerMsgPlatform} from './messaging.es6';
 
-const fbChatBot = new FbChatBot(MsgPlatform);
+const fbChatBot = new FbChatBot(ConsumerMsgPlatform);
 
 /**
  * Dispatcher to handle system events
  */
 
-Emitter.on(Events.MSG_RECEIVED, async event => {
+Emitter.on(Events.CONSUMER_MSG_RECEIVED, async event => {
   try {
     console.log(event);
 
@@ -18,7 +18,7 @@ Emitter.on(Events.MSG_RECEIVED, async event => {
 
     for (let index in responses) {
       const message = responses[index].toJSON();
-      await MsgPlatform.sendMessageToId(sender, message);
+      await ConsumerMsgPlatform.sendMessageToId(sender, message);
     }
   } catch (err) {
     console.error(err);
