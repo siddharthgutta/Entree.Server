@@ -9,6 +9,12 @@ import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageMessageData} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
+import SlackData from '../../../libs/notifier/slack-data.es6';
+import * as Slack from '../../../api/controllers/slack.es6';
+import config from 'config';
+import * as Runtime from '../../runtime.es6';
+
+const slackChannelId = config.get('Slack.orders.channelId');
 
 export const events = {
   postback: 'Postback',
@@ -183,10 +189,14 @@ export default class FbChatBot {
     const {_id: consumerId, context: {_id: contextId, producer: producerId}} = consumer;
     console.log(`Handle Order ${JSON.stringify(consumer)}`);
     try {
-      const {_id: orderId} = await Order.create(text, producerId, consumerId);
+      const order = await Order.create(text, producerId, consumerId);
       const producer = await Producer.findOneByObjectId(producerId);
-      await Order.pushOrderByObjectId([consumer, producer], orderId);
+      await Order.pushOrderByObjectId([consumer, producer], order._id);
       await Context.emptyFields(contextId, ['producer', 'lastAction']);
+
+      // Send order message to slack
+      await this._sendOrderMessage(consumer, producer, order);
+
       response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
       await Context.emptyFields(contextId, ['lastAction']);
@@ -195,6 +205,27 @@ export default class FbChatBot {
         `for producer |${producerId}|.`);
     }
     return [response];
+  }
+
+  /**
+   * Sends the order to the #orders slack channel
+   *
+   * @param {Consumer} consumer: consumer object of the individual who ordered
+   * @param {Producer} producer: producer object of the producer the individual ordered from
+   * @param {Order} order: the order created by the consumer
+   * @private
+   */
+  async _sendOrderMessage(consumer, producer, order) {
+    const pretext = 'Incoming Order';
+    const consumerName = `${consumer.firstName} ${consumer.lastName}`;
+    const slackData = new SlackData(`${pretext}: ${consumerName} from ${producer.name} of ` +
+      `[${order.body}] for $${order.price}`, Runtime.isProduction() ? 'good' : 'danger', pretext);
+    slackData.addFields('Text Body', order.body, false);
+    slackData.addFields('Consumer', consumerName);
+    slackData.addFields('Producer', producer.name);
+    slackData.addFields('Price', `${order.price}`);
+    const response = await Slack.sendMessage(slackChannelId, slackData);
+    console.log(response);
   }
 
   /**
