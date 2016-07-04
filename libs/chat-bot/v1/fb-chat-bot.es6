@@ -220,10 +220,10 @@ export default class FbChatBot {
     const consumerName = `${consumer.firstName} ${consumer.lastName}`;
     const slackData = new SlackData(`${pretext}: ${consumerName} from ${producer.name} of ` +
       `[${order.body}] for $${order.price}`, Runtime.isProduction() ? 'good' : 'danger', pretext);
+    slackData.addFields('Text Body', order.body, false);
     slackData.addFields('Consumer', consumerName);
     slackData.addFields('Producer', producer.name);
     slackData.addFields('Price', `${order.price}`);
-    slackData.addFields('Text Body', order.body);
     const response = await Slack.sendMessage(slackChannelId, slackData);
     console.log(response);
   }
