@@ -10,7 +10,7 @@
   "Facebook": {
     "staging": {
       "producer": {
-        "no staging producer bot yet": 0
+        "no staging branch producer bot yet": 0
       },
       "consumer": {
         "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
@@ -18,6 +18,16 @@
         "pageId": "1031674843586566",
         "appId": "262533464084194"
       }
-    }
+    },
+    "facebook": {
+      "producer": {
+        "no facebook branch producer bot yet": 0
+      },
+      "consumer": {
+        "verificationToken": "cd99a72486b8b63f3e81ec121534f7df43d15553330a900744a3ff243413df69",
+        "pageAccessToken": "CAAWr87vbYZBIBAHiq4MS5dkrTzZAOs7Cou3MsAMhsyEECkuWkZAINW5JWSpAxZAotJSeAwzCIKtfFFsZCmqqdZAP4f6ZA6joup9jRusADCE19nOUkSS31spaBrwJdJMsvdVjrslGg5fFY2E9qontnKeIVOV3rbDCb1CCKxzJGXtytpBZByuAPbJDtT5d8hap6BeCgRR2tvhZAfgZDZD",
+        "pageId": "993289687425169"
+      }
+    },
   }
 }
