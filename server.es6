@@ -16,17 +16,23 @@ import FBMessengerRouter from './routes/fb-messenger.es6';
 import DeployRouter from './routes/deploy.es6';
 import BasicRouter from './routes/basic.es6';
 
+let server;
 const app = express();
-const ssl = {
-  key: fs.readFileSync(config.get('Server.sslKey')),
-  cert: fs.readFileSync(config.get('Server.sslCert')),
-  ca: fs.readFileSync(config.get('Server.sslCa')),
-  passphrase: config.get('Server.sslPassphrase'),
-  rejectUnauthorized: config.get('Server.httpsRejectUnauthorized')
-};
-
 const isHTTPS = config.get('Server.protocol') === 'https';
-const server = isHTTPS ? https.createServer(ssl, app) : http.createServer(app);
+
+if (isHTTPS) {
+  const ssl = {
+    key: fs.readFileSync(config.get('Server.sslKey')),
+    cert: fs.readFileSync(config.get('Server.sslCert')),
+    ca: fs.readFileSync(config.get('Server.sslCa')),
+    passphrase: config.get('Server.sslPassphrase'),
+    rejectUnauthorized: config.get('Server.httpsRejectUnauthorized')
+  };
+  server = https.createServer(ssl, app);
+} else {
+  server = http.createServer(app);
+}
+
 console.log(`SSL: ${isHTTPS}`);
 
 app.set('views', path.join(__dirname, 'views'));  // points app to location of the views

@@ -65,7 +65,7 @@
     "test": "set -e; export NODE_ENV=test; mocha --timeout 15000 -R dot",
     "tests": "set -e; export NODE_ENV=test; for f in $(find ./test -name '*-test.compiled.js'); do npm run test $f; done",
     "start": "node index.compiled.js",
-    "local": "NODE_ENV=local node index.compiled.js",
+    "local": "NODE_ENV=development node index.compiled.js",
     "staging": "NODE_ENV=staging node index.compiled.js",
     "lint": "eslint --ext js,.es6,.jsx ./",
     "compile": "grunt compile"

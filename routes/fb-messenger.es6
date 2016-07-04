@@ -3,13 +3,13 @@
  */
 
 import {Router} from 'express';
-import {MsgPlatform} from '../api/controllers/messaging.es6';
+import {ConsumerMsgPlatform} from '../api/controllers/messaging.es6';
 import {FBMessenger} from '../libs/msg/messenger.es6';
 
 const route = new Router();
 
-if (MsgPlatform instanceof FBMessenger) {
-  route.use(MsgPlatform.router());
+if (ConsumerMsgPlatform instanceof FBMessenger) {
+  route.use(ConsumerMsgPlatform.router());
 }
 
 export default route;

@@ -10,6 +10,7 @@ import keyMirror from 'keymirror';
 
 // @formatter:off
 export default keyMirror({
-  MSG_RECEIVED: null
+  CONSUMER_MSG_RECEIVED: null,
+  PRODUCER_MSG_RECEIVED: null
 });
 // @formatter:on

@@ -42,26 +42,12 @@ export function getEnv() {
 }
 
 /**
- * Gets the port number from environment variables for the server
- * If production/local environment, gets port from configs
- * If staging environment and predefined branch in configs, gets port from config
- * Otherwise, gets port from the NODE_PORT environment variable
+ * Gets the port number from environment variables from the config.
+ * Since we are doing branch deploy, the port is overriden by custom-environment-variables.json on staging
  *
  * @returns {Number} port number chosen
  */
 function setPort() {
-  if (isStaging()) {
-    try {
-      try {
-        const branchName = config.get('AppBranch');
-        return config.get(`Server.branch.${branchName}`);
-      } catch (err) {
-        return config.get('NodePort');
-      }
-    } catch (err) {
-      console.log('Could not find specific port from configs or environment variables');
-    }
-  }
   return config.get('Server.port');
 }
 

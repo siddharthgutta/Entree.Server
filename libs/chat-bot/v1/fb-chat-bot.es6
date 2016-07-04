@@ -95,7 +95,7 @@ export default class FbChatBot {
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
       case actions.menu:
-        return this._handleMenu(payload);
+        return await this._handleMenu(payload);
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload, consumer);
       default:
@@ -159,15 +159,16 @@ export default class FbChatBot {
    * @param {Object} payload: payload passed from postback button
    * @returns {[ImageMessageData]}: image of the menu
    */
-  _handleMenu(payload) {
+  async _handleMenu(payload) {
     let image, button;
     try {
-      const {producer} = this._getData(payload);
+      const {producerId} = this._getData(payload);
+      const producer = await Producer.findOneByObjectId(producerId);
       image = new ImageMessageData(producer.menuLink);
       button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen or ` +
         `choose one of the options below.`);
-      button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
-      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
+      button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get menu Link image', err);
@@ -252,7 +253,8 @@ export default class FbChatBot {
   async _handleOrderPrompt(payload, consumer) {
     let response;
     try {
-      const {producer} = this._getData(payload);
+      const {producerId} = this._getData(payload);
+      const producer = await Producer.findOneByObjectId(producerId);
       const {context: {_id: contextId}} = consumer;
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
@@ -281,9 +283,9 @@ export default class FbChatBot {
       _.each(producers, producer => {
         response.pushElement(`${producer.name} (${producer.location.address})`,
           producer.description, producer.profileImage);
-        response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producer}));
-        response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producer}));
-        response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
+        response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
+        response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+        response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       });
     } catch (err) {
       throw new Error('Failed to generate producers', err);
@@ -341,11 +343,12 @@ export default class FbChatBot {
   async _handleMoreInfo(payload) {
     let button;
     try {
-      const {producer} = this._getData(payload);
+      const {producerId} = this._getData(payload);
+      const producer = await Producer.findOneByObjectId(producerId);
       button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
-      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producer}));
+      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get detailed information for place', err);

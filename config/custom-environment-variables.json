@@ -1,19 +1,7 @@
 {
-  "Client": {
-    "Server": {
-      "protocol": "https"
-    }
-  },
   "Server": {
-    "sslKey": "HTTPS_SSL_KEY",
-    "sslCert": "HTTPS_SSL_CERTIFICATE",
-    "sslCa": "HTTPS_SSL_CA"
+    "port": "NODE_PORT"
   },
-  "IsTest": {
-    "__name": "IS_RUNNING_TEST",
-    "__format": "json"
-  },
-  "AppBranch": "APP_BRANCH",
-  "NodePort": "NODE_PORT",
-  "NodeEnv": "NODE_ENV"
+  "NodeEnv": "NODE_ENV",
+  "AppBranch": "APP_BRANCH"
 }
