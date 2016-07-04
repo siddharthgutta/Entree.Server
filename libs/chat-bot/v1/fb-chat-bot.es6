@@ -153,7 +153,6 @@ export default class FbChatBot {
     if (attachment.type === 'location') {
       return await this._updateConsumerLocation(event, consumer);
     }
-
     throw Error(`Attachment did not contain location`);
   }
 
