@@ -1,0 +1,17 @@
+}
+  "name": "Art of Tacos",
+  "username": "artistictacos",
+  "password": "tacos",
+  "description": "Fresh, Traditional Mexican Tacos",
+  "profileImage": "http://i.imgur.com/bzuvGk6.jpg",
+  "address": "75 Rainey St, Austin, TX 78701",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Burrito with Fajita Beef, Onions, Cilantro, and Lettuce",
+  "menuLink": "http://i.imgur.com/Ryy5U7O.png",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}

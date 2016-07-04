@@ -1,0 +1,17 @@
+{
+  "name": "Via313",
+  "username": "pizza",
+  "password": "pizzapizza",
+  "description": "Detroit-Style Pizza Food Truck",
+  "profileImage": "http://i.imgur.com/LP9gjTk.jpg",
+  "address": "61 Rainey St, Austin, TX 78701",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Detroiter",
+  "menuLink": "http://i.imgur.com/R9k5U8h.png",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}
