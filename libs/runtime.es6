@@ -14,13 +14,6 @@ export function isLocal() {
 }
 
 /**
- * @returns {boolean} true if system is running locally
- */
-export function isTest() {
-  return env === 'test';
-}
-
-/**
  * @returns {boolean} true if system is being staged
  */
 export function isStaging() {
