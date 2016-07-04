@@ -4,6 +4,7 @@ import * as Runtime from '../../libs/runtime.es6';
 export default class SlackData extends NotifierDataStrategy {
   /**
    * Constructor for creating and initializing a slack data object
+   *
    * @param {String} fallback: fallback text to use if message fails
    * @param {String} color: color of the sidebar for the slack attachment
    * @param {String} pretext: text to place at the before the attachment
@@ -22,6 +23,7 @@ export default class SlackData extends NotifierDataStrategy {
 
   /**
    * Adds a field and its value to the SlackData object
+   *
    * @param {String} title: title of the field
    * @param {String} value: contents under the field
    * @param {Boolean} short: style of the field added
@@ -33,6 +35,7 @@ export default class SlackData extends NotifierDataStrategy {
 
   /**
    * Returns the SlackData object to be sent with the Slack module
+   *
    * @returns {{attachments}}: SlackData object
    */
   getData() {

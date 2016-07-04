@@ -3,11 +3,14 @@
  */
 
 import SlackData from '../../../libs/notifier/slack-data.es6';
-import Slack from '../../../libs/notifier/slack.es6';
 import assert from 'assert';
-import config from 'config';
 
+// Commented out since this will spam the #orders channel
+/*
+import * as Slack from '../../../api/controllers/slack.es6';
+import config from 'config';
 const slackOrdersCredentials = config.get('Slack.orders');
+*/
 
 describe('Slack Data', () => {
   it('should create a basic slack data object successfully', async () => {
@@ -47,11 +50,13 @@ describe('Slack Data', () => {
     assert.deepEqual(finalData, correctSlackData);
   });
 
+  // Commented out since this will spam the #orders channel
+  /*
   it('should successfully send a slack message', async () => {
-    const slackbot = new Slack(slackOrdersCredentials.apiToken, slackOrdersCredentials.username);
     const slackData = new SlackData('fallback text', 'good', 'pretext');
     slackData.addFields('Test Field 1', 'Test Value 1');
     slackData.addFields('Test Field 2', 'Test Value 2');
-    await slackbot.send(slackOrdersCredentials.channelId, slackData.getData());
+    await Slack.sendMessage(slackOrdersCredentials.channelId, slackData);
   });
+  */
 });

@@ -30,15 +30,13 @@
   "AppBranch": "local",
   "NodeEnv": "development",
   "Slack": {
-    "Braintree": {
-      "apiToken": "xoxb-24692177427-kZ9LND3GzTmvrhfUoTkoXRKt",
-      "channelId": "C0QLEKSV8",
-      "username": "entreebot"
+    "apiToken": "xoxb-24692177427-kZ9LND3GzTmvrhfUoTkoXRKt",
+    "username": "entreebot",
+    "braintree": {
+      "channelId": "C0QLEKSV8"
     },
     "orders": {
-      "apiToken": "xoxb-24692177427-wbHorlPeY7idnEcSA5QbYMHL",
-      "channelId": "C1NF2MJAV",
-      "username": "entreebot"
+      "channelId": "C1NF2MJAV"
     }
   },
   "Braintree": {
