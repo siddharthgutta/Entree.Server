@@ -1,0 +1,17 @@
+{
+  "name": "Veracruz All Natural Tacos",
+  "username": "tacos",
+  "password": "trucks",
+  "description": "Authentic Mexican Food with Fresh Ingredients",
+  "profileImage": "http://i.imgur.com/JDMdtN2.jpg",
+  "address": "1704 E Cesar Chavez, Austin, TX 78702",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Steak Quesadilla and Chips and Guac",
+  "menuLink": "http://i.imgur.com/vyJMQka.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}
