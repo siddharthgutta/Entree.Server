@@ -5,6 +5,8 @@
 import MsgPlatform from '../msg.es6';
 import {Router} from 'express';
 import bodyParser from 'body-parser';
+import request from 'request';
+import Promise from 'bluebird';
 
 /**
  * Notification types for sending messages
@@ -46,8 +48,34 @@ export default class FBMessenger extends MsgPlatform {
    * @param {Object} messageData: REQUIRED message data, contents of the message
    * @return {Promise} Promise result with response or error
    */
-  async setWelcomeMessage(messageData = null) {
-    return await this._setWelcomeMessage(this.pageId, this.pageAccessToken, messageData);
+  setWelcomeMessage(messageData = null) {
+    return new Promise((resolve, reject) => {
+      request({
+        url: `https://graph.facebook.com/v2.6/${this.pageId}/thread_settings`,
+        qs: {access_token: this.pageAccessToken},
+        method: 'POST',
+        json: {
+          setting_type: 'call_to_actions',
+          thread_state: 'new_thread',
+          call_to_actions: [
+            {
+              message: messageData
+            }
+          ]
+        }
+      }, (error, response, body) => {
+        if (error) {
+          console.log('Error setting welcome message: ', error);
+          reject(error);
+        } else if (response.body.error) {
+          console.log('Error setting welcome message: ', response.body.error);
+          reject(response.body.error);
+        } else {
+          console.log(`Successfully set welcome message:`, body);
+          resolve(body);
+        }
+      });
+    });
   }
 
   /**
@@ -56,8 +84,41 @@ export default class FBMessenger extends MsgPlatform {
    * @param {String} userId: facebook user id
    * @return {Object} Facebook user information
    */
-  async getFacebookProfileInfo(userId) {
-    return await this._getFacebookProfileInfo(userId, this.pageAccessToken);
+  getFacebookProfileInfo(userId) {
+    return new Promise((resolve, reject) => {
+      request({
+        url: `https://graph.facebook.com/v2.6/${userId}`,
+        qs: {
+          fields: 'first_name,last_name,profile_pic',
+          access_token: this.pageAccessToken
+        },
+        method: 'GET',
+        json: true
+      }, (error, response, body) => {
+        if (error) {
+          console.log('Error retrieving facebook profile info: ', error);
+          reject(error);
+        } else if (response.body.error) {
+          console.log('Error: ', response.body.error);
+          reject(response.body.error);
+        } else {
+          console.log(`Profile Info Body:`, body);
+          resolve(body);
+        }
+      });
+    });
+  }
+
+  /**
+   * Sending a message to a specific Facebook phone number
+   *
+   * @param {String} recipientPhoneNumber: REQUIRED phone number of fb user - Format: +1(212)555-2368
+   * @param {Object} messageData: REQUIRED message data, contents of the message
+   * @param {String} notificationType: OPTIONAL notification type
+   * @return {Null} unused return statement
+   */
+  async sendMessageToPhoneNumber(recipientPhoneNumber, messageData, notificationType = NotificationType.SILENT_PUSH) {
+    await this._sendMessage({phone_number: recipientPhoneNumber}, messageData, notificationType);
   }
 
   /**
@@ -69,7 +130,47 @@ export default class FBMessenger extends MsgPlatform {
    * @return {Null} unused return statement
    */
   async sendMessageToId(recipientId, messageData, notificationType = NotificationType.SILENT_PUSH) {
-    await this._sendMessage({id: recipientId}, messageData, this.pageAccessToken, notificationType);
+    await this._sendMessage({id: recipientId}, messageData, notificationType);
+  }
+
+  /**
+   * Sending a messsage to a specific Facebook recipient
+   *
+   * @param {Object} recipient: REQUIRED phone number or id of fb user - Phone# Format: +1(212)555-2368
+   * @param {Object} messageData: REQUIRED message data, contents of the message
+   * @param {String} notificationType: OPTIONAL notification type
+   * @private
+   * @return {Promise} Promise result with response or error
+   */
+  _sendMessage(recipient, messageData, notificationType = NotificationType.SILENT_PUSH) {
+    console.log(`Sending message to ${recipient.toString()}`,
+      messageData);
+
+    return new Promise((resolve, reject) => {
+      request({
+        url: 'https://graph.facebook.com/v2.6/me/messages',
+        qs: {access_token: this.pageAccessToken},
+        method: 'POST',
+        json: {
+          recipient,
+          message: messageData,
+          notification_type: notificationType
+        }
+      }, (error, response, body) => {
+        if (error) {
+          console.log('Error sending message: ', error);
+          reject(error);
+        } else if (response.body.error) {
+          console.log('Error: ', response.body.error);
+          reject(response.body.error);
+        } else {
+          console.log(`Response Body:`, body);
+          console.log(`Recipient Id:`, body.recipient_id);
+          console.log(`Message Id:`, body.message_id);
+          resolve(body);
+        }
+      });
+    });
   }
 
   /**

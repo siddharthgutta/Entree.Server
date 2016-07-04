@@ -9,7 +9,7 @@ const fbChatBot = new FbChatBot(ConsumerMsgPlatform);
  * Dispatcher to handle system events
  */
 
-Emitter.on(Events.MSG_RECEIVED, async event => {
+Emitter.on(Events.CONSUMER_MSG_RECEIVED, async event => {
   try {
     console.log(event);
 

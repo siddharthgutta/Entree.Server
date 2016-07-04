@@ -3,4 +3,3 @@
  */
 
 export {default as FBMessenger} from './fb-messenger.es6';
-export {default as FBProducerMessenger} from './fb-producer-messenger.es6';
