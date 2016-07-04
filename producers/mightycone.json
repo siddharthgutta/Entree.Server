@@ -1,0 +1,17 @@
+{
+  "name": "Mighty Cone",
+  "username": "mightycone",
+  "password": "foodtruck",
+  "description": "Spicy, fried meats & veggies in tortilla cones",
+  "profileImage": "http://i.imgur.com/xk6U3iA.jpg",
+  "address": "1720 Barton Springs Rd, Austin, TX 78704",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Chicken-Avocado Cone",
+  "menuLink": "http://i.imgur.com/MoaugoL.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Burro Cheese Kitchen",
+  "username": "grilledcheese",
+  "password": "provologne",
+  "description": "Artisan Grilled Cheese Sandwiches",
+  "profileImage": "http://i.imgur.com/HOsiG6P.jpg",
+  "address": "1221 S Congress Ave, Austin, TX 78704",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Little Kahuna with Barbecue Chips",
+  "menuLink": "http://i.imgur.com/yahLzLG.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}

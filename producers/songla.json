@@ -1,0 +1,17 @@
+{
+  "name": "Song La",
+  "username": "kimchi",
+  "password": "foodtruck",
+  "description": "Authentic, Taiwanese Food",
+  "profileImage": "http://i.imgur.com/bwepRCX.jpg",
+  "address": "411 W 23rd St, Austin, TX 78705",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Chicken Bites with Tofu Fries",
+  "menuLink": "http://i.imgur.com/iabFfid.png",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  }
+}
