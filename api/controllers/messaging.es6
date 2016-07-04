@@ -11,8 +11,10 @@ let msgPlatform;
 const productionOrStaging = Runtime.isProduction();
 
 let facebookCreds;
-if (Runtime.isLocal() || Runtime.isProduction()) {
+if (Runtime.isProduction()) {
   facebookCreds = config.get(`Facebook.production`);
+} else if (Runtime.isLocal()) {
+  facebookCreds = config.get(`Facebook.local`);
 } else {
   const allFacebookCreds = config.get(`Facebook`);
   const branchName = Runtime.getBranch();
