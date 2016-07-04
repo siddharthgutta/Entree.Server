@@ -8,6 +8,8 @@ import config from 'config';
 const slackOrdersCredentials = config.get('Slack');
 
 const slackbot = new Slack(slackOrdersCredentials.apiToken, slackOrdersCredentials.username);
+console.log(`Initializing SlackBot with ApiToken|Username: [${slackOrdersCredentials.apiToken}|` +
+  `${slackOrdersCredentials.username}]`);
 
 /**
  * Sends a SlackData Object to the slack channel

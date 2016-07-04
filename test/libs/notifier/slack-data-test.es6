@@ -16,7 +16,7 @@ describe('Slack Data', () => {
   it('should create a basic slack data object successfully', async () => {
     const correctAttachments = [
       {
-        fallback: 'fallback text',
+        fallback: 'FAKE | fallback text',
         color: 'good',
         fields: [
           {

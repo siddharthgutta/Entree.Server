@@ -15,7 +15,9 @@ export default class SlackData extends NotifierDataStrategy {
     this.fields = [];
     this.dataType = Runtime.isProduction() ? 'REAL' : 'FAKE';
     this.attachments = [{
-      fallback, color, fields: this.fields,
+      fallback: `${this.dataType} | ${fallback}`,
+      color,
+      fields: this.fields,
       mrkdwn_in: ['pretext'],
       pretext: `${this.dataType} | ${pretext}`
     }];
