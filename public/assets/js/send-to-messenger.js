@@ -2,13 +2,21 @@
  * Created by kfu on 7/4/16.
  */
 
+console.log(config);
+console.log(appId);
+console.log(pageId);
+
+document.getElementById('send-to-messenger-button')
+  .setAttribute('messenger_app_id', appId);
+document.getElementById('send-to-messenger-button')
+  .setAttribute('page_id', appId);
+
 window.fbAsyncInit = function() {
   FB.init({
-    appId: "APP_ID",
+    appId: appId,
     xfbml: true,
     version: "v2.6"
   });
-
 };
 
 (function(d, s, id){

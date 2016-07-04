@@ -1,4 +1,10 @@
 {
+  "Client": {
+    "Facebook": {
+      "appId": "1702274500052830",
+      "pageId": "213297705716380"
+    }
+  },
   "Server": {
     "protocol": "https",
     "sslKey": "./keys/entreebot.com.key",
