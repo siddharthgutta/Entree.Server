@@ -1,16 +1,4 @@
 {
-  "Client": {
-    "Facebook": {
-      "staging": {
-        "appId": "262533464084194",
-        "pageId": "1031674843586566"
-      },
-      "facebook": {
-        "appId": "1596438200673250",
-        "pageId": "993289687425169"
-      }
-    }
-  },
   "Server": {
     "protocol": "https",
     "sslKey": "./keys/staging.entreebot.com.key",
