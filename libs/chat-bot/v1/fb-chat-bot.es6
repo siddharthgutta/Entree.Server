@@ -128,7 +128,8 @@ export default class FbChatBot {
       case actions.getStarted:
         return this._handleGetStarted();
       case actions.seeProducers:
-        return this._handleSeeProducers();
+        return this._handleRequestLocation();
+        // return this._handleSeeProducers();
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
       case actions.menu:
@@ -151,7 +152,8 @@ export default class FbChatBot {
     /* The only attachment we are handling right now is location */
     const attachment = event.message.attachments[0];
     if (attachment.type === 'location') {
-      return await this._updateConsumerLocation(event, consumer);
+      await this._updateConsumerLocation(event, consumer);
+      return await this._handleSeeProducers(consumer);
     }
     throw Error(`Attachment did not contain location`);
   }
@@ -331,12 +333,12 @@ export default class FbChatBot {
    * @returns {Object}: GenericMessageData containing producers
    * @private
    */
-  async _handleSeeProducers() {
+  async _handleSeeProducers(consumer) {
     let text, response;
     try {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
-      const producers = _.shuffle(await Producer.findFbEnabled());
+      const producers = _.shuffle(await Consumer.getClosestEnabledProducers(consumer.fbId, 5, 5));
       console.log(producers);
       response = new GenericMessageData();
       _.each(producers, producer => {
@@ -381,10 +383,15 @@ export default class FbChatBot {
   async _handleRequestLocation() {
     let text;
     try {
-      text = new TextMessageData('Now, you can search for producers near you. First, send us your location:' +
-        '.\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
+      text = new TextMessageData('Send us your location to find the producers closest to you. ' +
+        '\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
         '2. For iOS, tap the location button\n3. If you\'re on desktop, ' +
         'just type in your zip code (Ex: 78705)');
+
+      // text = new TextMessageData('Now, you can search for producers near you. First, send us your location:' +
+      //   '.\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
+      //   '2. For iOS, tap the location button\n3. If you\'re on desktop, ' +
+      //   'just type in your zip code (Ex: 78705)');
     } catch (err) {
       throw new Error('Failed to generate search message', err);
     }
@@ -422,7 +429,7 @@ export default class FbChatBot {
    * @param {Object} event: input event from messenger
    * @returns {Object}: messenger output
    */
-  async _updateConsumerLocation(event) {
+  async _updateConsumerLocation(event, consumer) {
     const inputText = event.message.text;
     let lat, long;
     if (inputText) { /* In this case the input is a zip code */
@@ -437,20 +444,20 @@ export default class FbChatBot {
         lat = attachment.payload.coordinates.lat;
         long = attachment.payload.coordinates.long;
         console.log(attachment);
-        // TODO Insert Consumer.addLocation call here
+        await Consumer.addLocation(consumer.fbId, lat, long);
         // await Consumer.ConsumerModel.addLocation(producer.fbId, attachment.payload.coordinates.lat,
         //   attachment.payload.coordinates.long);
       } catch (err) {
-        // TODO Catch error for Consumer.AddLocation
+        throw new Error('Could not generate location from those coordinates');
       }
     }
 
-    // TODO Insert response message data here
-    const button = new ButtonMessageData(`Thanks for sharing your location: ${lat}, ` +
-      `${long}. We\'ll use your location to find food near ` +
-      `you. For now, you can see the trucks that we currently support.`);
-    button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
-    return [button];
+    // // TODO Insert response message data here
+    // const button = new ButtonMessageData(`Thanks for sharing your location: ${lat}, ` +
+    //   `${long}. We\'ll use your location to find food near ` +
+    //   `you. For now, you can see the trucks that we currently support.`);
+    // button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
+    // return [button];
   }
 
   /**
