@@ -1,4 +1,12 @@
 {
+  "Client": {
+    "Facebook": {
+      "staging": {
+        "appId": "262533464084194",
+        "pageId": "1031674843586566"
+      }
+    }
+  },
   "Server": {
     "protocol": "https",
     "sslKey": "./keys/staging.entreebot.com.key",
