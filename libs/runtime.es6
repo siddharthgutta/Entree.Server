@@ -10,7 +10,7 @@ const env = config.get('NodeEnv');
  * @returns {boolean} true if system is running locally
  */
 export function isLocal() {
-  return env === 'local';
+  return env === 'development';
 }
 
 /**

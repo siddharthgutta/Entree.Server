@@ -15,12 +15,20 @@ import * as fs from 'fs';
 import FBMessengerRouter from './routes/fb-messenger.es6';
 import DeployRouter from './routes/deploy.es6';
 import BasicRouter from './routes/basic.es6';
+import * as Runtime from './libs/runtime.es6';
+import forceSSL from 'express-force-ssl';
 
 let server;
 const app = express();
 const isHTTPS = config.get('Server.protocol') === 'https';
 
 if (isHTTPS) {
+  // If production, redirect http port 80 to https port 443
+  if (Runtime.isProduction()) {
+    const httpServer = http.createServer(app);
+    app.use(forceSSL);
+    httpServer.listen(80);
+  }
   const ssl = {
     key: fs.readFileSync(config.get('Server.sslKey')),
     cert: fs.readFileSync(config.get('Server.sslCert')),
