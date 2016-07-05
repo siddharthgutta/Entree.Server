@@ -31,6 +31,21 @@ export default class Braintree extends PaymentStrategy {
     });
   }
 
+  /**
+   * Gives the Braintree Sandbox Gateway for testing
+   *
+   * @returns {Braintree.gateway} braintree gateway Promise
+   */
+  async getGateway() {
+    return new Promise((resolve, reject) => {
+      if (this.production) {
+        reject(new Error('Cannot get gateway in Production Mode. Gateway is used only for testing.'));
+      } else {
+        resolve(this.gateway);
+      }
+    });
+  }
+
   // Unsure if necessary yet
   /**
    * Normalizing phone number for insertion into braintree calls
