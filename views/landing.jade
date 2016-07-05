@@ -34,6 +34,7 @@ html
         ul.actions
           li
             script(type='text/javascript').
+              var branch = #{branch};
               var config = !{config};
               var appId = #{isStaging} ? config.Facebook[branch].appId : config.Facebook.appId;
               var pageId = #{isStaging} ? config.Facebook[branch].pageId : config.Facebook.pageId;
