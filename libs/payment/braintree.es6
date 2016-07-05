@@ -5,7 +5,8 @@
 import PaymentStrategy from './strategy.es6';
 import braintree from 'braintree';
 import Promise from 'bluebird';
-import _ from 'underscore';
+import _ from 'lodash';
+import * as Utils from '../utils.es6';
 
 export default class Braintree extends PaymentStrategy {
   /**
@@ -202,9 +203,9 @@ export default class Braintree extends PaymentStrategy {
    */
   getDefaultPayment(customer) {
     return new Promise((resolve, reject) => {
-      const defaultPaymentMethod = _.findWhere(customer.paymentMethods, {default: true});
+      const defaultPaymentMethod = _.find(customer.paymentMethods, {default: true});
       const filteredPaymentMethod = _.pick(defaultPaymentMethod, ['cardType', 'last4', 'token']);
-      if (_.isEmpty(filteredPaymentMethod)) reject('Could not find a default payment method');
+      if (Utils.isEmpty(filteredPaymentMethod)) reject('Could not find a default payment method');
       resolve(filteredPaymentMethod);
     });
   }

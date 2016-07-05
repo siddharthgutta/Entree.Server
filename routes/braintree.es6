@@ -3,7 +3,7 @@
  */
 
 import {Router} from 'express';
-import * as Braintree from '../api/payment.es6';
+import * as Braintree from '../api/controllers/payment.es6';
 
 const route = new Router();
 
