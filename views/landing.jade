@@ -35,8 +35,8 @@ html
           li
             script(type='text/javascript').
               var config = !{config};
-              var appId = #{isStaging} ? config.Facebook[branch].appId : config.Facebook.appId;
-              var pageId = #{isStaging} ? config.Facebook[branch].pageId : config.Facebook.pageId;
+              var appId = #{isStaging} ? config.Facebook['#{branch}'].appId : config.Facebook.appId;
+              var pageId = #{isStaging} ? config.Facebook['#{branch}'].pageId : config.Facebook.pageId;
             #send-to-messenger-button.fb-messengermessageus(color='white', size='xlarge')
             script(type='text/javascript' src='assets/js/send-to-messenger.js')
       .image.phone
