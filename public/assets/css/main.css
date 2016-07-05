@@ -2407,6 +2407,7 @@
 
 			.image.phone:before, .image.phone:after {
 				content: '';
+				background-color: #001a33;
 			}
 
 			.image.phone:before {
@@ -3988,7 +3989,6 @@
 			}
 
 				#header .image {
-					font-size: 0.6em;
 					max-width: 60vw;
 				}
 
