@@ -2361,8 +2361,8 @@
 		.image.phone {
 			box-shadow: none;
 			border-radius: 0;
-			margin: 0 0 3em 0;
-			width: 13em;
+			margin: 1em 0 3em 0;
+			width: 14.5em;
 		}
 
 			.image.phone img {
@@ -2375,10 +2375,12 @@
 			.image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
 				border: solid 2px rgba(255, 255, 255, 0.25);
+				background-color: #001a33;
 			}
 
 			.image.phone .inner {
 				position: relative;
+				padding: 0 0.25em 0 0.25em;
 			}
 
 				.image.phone .inner:before, .image.phone .inner:after {
@@ -2407,7 +2409,6 @@
 
 			.image.phone:before, .image.phone:after {
 				content: '';
-				background-color: #001a33;
 			}
 
 			.image.phone:before {
@@ -3628,8 +3629,8 @@
 /* Header */
 
 	#header {
-		background-color: #005090;
-		color: #d0e4f8;
+		background-color: #015292;
+		color: #ffffff;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3643,7 +3644,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		background-image: url("images/overlay.png");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3902,7 +3903,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				background-image: url("images/overlay.png");
 			}
 
 		}
@@ -3946,7 +3947,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				background-image: url("images/overlay.png");
 			}
 
 				#header h1 {
@@ -3954,7 +3955,7 @@
 				}
 
 				#header p {
-					font-size: 1em;
+					font-size: 1.5em;
 					line-height: inherit;
 				}
 
@@ -3989,6 +3990,7 @@
 			}
 
 				#header .image {
+					font-size: 0.8em;
 					max-width: 60vw;
 				}
 
