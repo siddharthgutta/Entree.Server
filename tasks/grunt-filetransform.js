@@ -13,7 +13,6 @@ const util = require('util');
  * Create JS file from es6 file
  */
 function createJSFromES6(grunt, transformer, input, output, options) {
-  console.log(`Transforming: ${input} ... ${output}`);
   const data = transformer.transform(input, output, options);
 
   for (const f in data) {
