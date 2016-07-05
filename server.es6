@@ -28,6 +28,7 @@ if (isHTTPS) {
     const httpServer = http.createServer(app);
     app.use(forceSSL);
     httpServer.listen(80);
+    console.log('Forcing HTTP to HTTPS Redirect...');
   }
   const ssl = {
     key: fs.readFileSync(config.get('Server.sslKey')),
