@@ -240,10 +240,22 @@ describe('Hours DB API', () => {
       const hourOpen1 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour1]);
       assert.equal(true, hourOpen1);
     });
-    it('should tell us it is open', async () => {
-      const hour2 = await hour.create('Thursday', hours.open2, hours.close2);
-      const hourOpen2 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour2]);
-      assert.equal(false, hourOpen2);
+    it('should tell us they are open', async () => {
+      const hour2 = await hour.create(hours.day, hours.open1, hours.close1);
+      const hour3 = await hour.create('Thursday', '06:00', '17:00');
+      const hourOpen2 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour2, hour3]);
+      assert.equal(true, hourOpen2);
+    });
+    it('should tell us it is closed', async () => {
+      const hour4 = await hour.create('Thursday', hours.open2, hours.close2);
+      const hourOpen4 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour4]);
+      assert.equal(false, hourOpen4);
+    });
+    it('should tell us they are closed', async () => {
+      const hour5 = await hour.create('Wednesday', hours.open1, hours.close1);
+      const hour6 = await hour.create('Saturday', hours.open2, hours.close2);
+      const hourOpen5 = await Producer.isOpenHelper(new Moment('06:00', 'HH:mm'), 'Wednesday', [hour5, hour6]);
+      assert.equal(false, hourOpen5);
     });
   });
 });
