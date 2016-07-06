@@ -264,7 +264,7 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      image = new ImageMessageData(producer.menuLink);
+      image = new ImageAttachmentMessageData(producer.menuLink);
       button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
         `or choose one of the following options.`);
       button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
