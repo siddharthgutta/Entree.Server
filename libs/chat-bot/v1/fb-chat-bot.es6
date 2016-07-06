@@ -34,12 +34,12 @@ export default class FbChatBot {
 
     // Sets up the persistent menu
     const callToActions = new CallToAction();
-    callToActions.pushLink('Entrée Website', `https://entreebot.com`);
-    // callToActions.pushLink('Help', `https://entreebot.com`);
-    // callToActions.pushLink('Request a Truck ', `https://entreebot.com`);
-    // callToActions.pushLink('Contact', `https://entreebot.com`);
-    // callToActions.pushLink('Update My Location', `https://entreebot.com`);
-    callToActions.pushPostback('See Trucks', this._genPayload(actions.seeProducers));
+    callToActions.pushLinkButton('Entrée Website', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Help', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Request a Truck ', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Contact', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
+    callToActions.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     this.msgPlatform.setPersistentMenu(callToActions.toJSON());
 
     // Sets the Greeting text
