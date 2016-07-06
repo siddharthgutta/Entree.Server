@@ -255,8 +255,13 @@ export async function findOpenHelper(time, dayOfTheWeek) {
   const prodEnabled = await findAllEnabled();
   _.forEach(prodEnabled, prod => {
     _.forEach(prod.hours, hour => {
+<<<<<<< 61ff055269fb2ee6e139a49f866da4a59a93fa67
       const open = moment(hour.openTime, 'HH:mm');
       const close = moment(hour.closeTime, 'HH:mm');
+=======
+      const open = new Moment(hour.openTime, 'HH:mm');
+      const close = new Moment(hour.closeTime, 'HH:mm');
+>>>>>>> added isopen method (#79)
       if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
         return false;
@@ -283,10 +288,17 @@ export async function findOpen() {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
+<<<<<<< 61ff055269fb2ee6e139a49f866da4a59a93fa67
 export function isOpenHelper(time, dayOfTheWeek, hours) {
   for (const hour of hours) {
     const open = moment(hour.openTime, 'HH:mm');
     const close = moment(hour.closeTime, 'HH:mm');
+=======
+export async function isOpenHelper(time, dayOfTheWeek, hours) {
+  for (const hour of hours) {
+    const open = new Moment(hour.openTime, 'HH:mm');
+    const close = new Moment(hour.closeTime, 'HH:mm');
+>>>>>>> added isopen method (#79)
     if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
       return true;
     }
@@ -300,6 +312,10 @@ export function isOpenHelper(time, dayOfTheWeek, hours) {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
+<<<<<<< 61ff055269fb2ee6e139a49f866da4a59a93fa67
 export function isOpen(hours) {
+=======
+export async function isOpen(hours) {
+>>>>>>> added isopen method (#79)
   return isOpenHelper(getCurrentTime(), dayOfWeek(), hours);
 }
