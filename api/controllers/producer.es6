@@ -249,8 +249,7 @@ export async function isOpenHelper(time, dayOfTheWeek, hours) {
   for (const hour of hours) {
     const open = new Moment(hour.openTime, 'HH:mm');
     const close = new Moment(hour.closeTime, 'HH:mm');
-    if (hour.day === dayOfTheWeek &&
-      (time.isAfter(open) && time.isBefore(close))) {
+    if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
       return true;
     }
   }
