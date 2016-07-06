@@ -7,12 +7,14 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageAttachmentMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
+import * as Utils from '../../utils.es6';
+import * as Google from '../../../api/controllers/google.es6';
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -72,7 +74,6 @@ export default class FbChatBot {
       case events.delivery:
         // This is an event that just tells us our delivery succeeded
         // We already get this in the response of the message sent
-
         break;
       default:
         console.log(event);
@@ -97,14 +98,10 @@ export default class FbChatBot {
       throw new Error('Could not get payload or action for quick reply event', err);
     }
     switch (action) {
-      case actions.seeProducers:
-        return this._handleSeeProducers();
-      case actions.moreInfo:
-        return await this._handleMoreInfo(payload);
-      case actions.menu:
-        return this._handleMenu(payload);
-      case actions.orderPrompt:
-        return await this._handleOrderPrompt(payload, consumer);
+      case actions.existingLocation:
+        return this._handleSeeProducers(consumer);
+      case actions.newLocation:
+        return this._handleRequestLocation(consumer);
       default:
         throw Error('Invalid quick reply payload action');
     }
@@ -128,8 +125,7 @@ export default class FbChatBot {
       case actions.getStarted:
         return this._handleGetStarted();
       case actions.seeProducers:
-        return this._handleRequestLocation();
-        // return this._handleSeeProducers();
+        return this._handleUseExistingLocation();
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
       case actions.menu:
@@ -181,7 +177,8 @@ export default class FbChatBot {
         case actions.order:
           return this._handleOrder(text, consumer);
         case actions.location:
-          return this._handleRequestLocation(text, consumer);
+          await this._updateConsumerLocation(event, consumer);
+          return await this._handleSeeProducers(consumer);
         default:
           return this._handleInvalidText(text);
       }
@@ -190,14 +187,14 @@ export default class FbChatBot {
     }
   }
 
-  /*
-  async _handleLocationText(text, consumer) {
-    if (/^\d{5}$/.test(text)) {
-      // Assuming 5 digit number producer entered is a US zip code
-      // return await this._updateConsumerLocation(event, consumer);
-    }
-  }
-  */
+
+  // async _handleLocationText(text, consumer) {
+  //   if (/^\d{5}$/.test(text)) {
+  //     // Assuming 5 digit number producer entered is a US zip code
+  //     // return await this._updateConsumerLocation(event, consumer);
+  //   }
+  // }
+
 
   /**
    * Handles the get started button being pressed
@@ -338,15 +335,25 @@ export default class FbChatBot {
     try {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
-      const producers = _.shuffle(await Consumer.getClosestEnabledProducers(consumer.fbId, 5, 5));
-      console.log(producers);
+      let producers = await Consumer.getClosestEnabledProducers(consumer.fbId, 1.5, 10);
       response = new GenericMessageData();
+
+      const emptyProducers = Utils.isEmpty(producers[0]);
+      if (emptyProducers) {
+        text = new TextMessageData(`Sorry, we could not find any trucks near you!` +
+          ` Here are some trucks you might enjoy, though.`);
+        producers = _.shuffle(await Producer.findFbEnabled());
+      }
+
       _.each(producers, producer => {
-        response.pushElement(`${producer.name} (${producer.location.address})`,
-          producer.description, producer.profileImage);
-        response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
-        response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
-        response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
+        if (Producer.isOpen(producer.hours)) {
+          const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
+          `${producer.name} (${producer.location.address}) - ${producer.distance} mi`;
+          response.pushElement(title, producer.description, producer.profileImage);
+          response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
+          response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+          response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
+        }
       });
     } catch (err) {
       throw new Error('Failed to generate producers', err);
@@ -374,24 +381,35 @@ export default class FbChatBot {
     return [button];
   }
 
+  async _handleUseExistingLocation() {
+    let response;
+    try {
+      response = new QuickReplyMessageData('Do you want us to use the last location you gave us to ' +
+        'find trucks near you?');
+      response.pushQuickReply('Yes', this._genPayload(actions.existingLocation));
+      response.pushQuickReply('No', this._genPayload(actions.newLocation));
+    } catch (err) {
+      throw new Error('Failed to generate existing location button');
+    }
+
+    return [response];
+  }
+
   /**
    * Executed after producer presses Continue
    *
    * @returns {Object}: Instructions on how to submit location
    * @private
    */
-  async _handleRequestLocation() {
+  async _handleRequestLocation(consumer) {
     let text;
     try {
-      text = new TextMessageData('Send us your location to find the producers closest to you. ' +
+      text = new TextMessageData('Send us your location so we can find the food trucks closest to you. ' +
         '\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
         '2. For iOS, tap the location button\n3. If you\'re on desktop, ' +
-        'just type in your zip code (Ex: 78705)');
-
-      // text = new TextMessageData('Now, you can search for producers near you. First, send us your location:' +
-      //   '.\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
-      //   '2. For iOS, tap the location button\n3. If you\'re on desktop, ' +
-      //   'just type in your zip code (Ex: 78705)');
+        'just type in your address or zip code (Ex: 78705)');
+      const {context: {_id: contextId}} = consumer;
+      await Context.updateFields(contextId, {lastAction: actions.location});
     } catch (err) {
       throw new Error('Failed to generate search message', err);
     }
@@ -431,33 +449,23 @@ export default class FbChatBot {
    */
   async _updateConsumerLocation(event, consumer) {
     const inputText = event.message.text;
-    let lat, long;
     if (inputText) { /* In this case the input is a zip code */
       try {
-        // TODO Insert Consumer.AddLocation call here
+        const {lat, lng} = await Google.getLocationCoordinatesFromAddress(inputText);
+        await Consumer.addLocation(consumer.fbId, lat, lng);
       } catch (err) {
-        // TODO Catch error for Consumer.AddLocation
+        throw new Error('Could not generate location from that address');
       }
     } else { /* In this case the input is a location attachment sent from mobile */
       try {
-        const attachment = event.message.attachments[0];
-        lat = attachment.payload.coordinates.lat;
-        long = attachment.payload.coordinates.long;
-        console.log(attachment);
+        const {payload: {coordinates: {lat, long}}} = event.message.attachments[0];
         await Consumer.addLocation(consumer.fbId, lat, long);
-        // await Consumer.ConsumerModel.addLocation(producer.fbId, attachment.payload.coordinates.lat,
-        //   attachment.payload.coordinates.long);
       } catch (err) {
         throw new Error('Could not generate location from those coordinates');
       }
     }
-
-    // // TODO Insert response message data here
-    // const button = new ButtonMessageData(`Thanks for sharing your location: ${lat}, ` +
-    //   `${long}. We\'ll use your location to find food near ` +
-    //   `you. For now, you can see the trucks that we currently support.`);
-    // button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
-    // return [button];
+    const {context: {_id: contextId}} = consumer;
+    await Context.emptyFields(contextId, ['lastAction']);
   }
 
   /**

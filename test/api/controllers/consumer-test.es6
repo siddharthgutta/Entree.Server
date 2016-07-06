@@ -252,8 +252,8 @@ describe('Consumer DB API', () => {
 
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 4);
       assert.equal(results.length, 2);
-      assert.equal(results[0].producer.name, 'Eatzis');
-      assert.equal(results[1].producer.name, 'El Queso');
+      assert.equal(results[0].name, 'Eatzis');
+      assert.equal(results[1].name, 'El Queso');
     });
 
     it('should limit the producers', async () => {
@@ -278,7 +278,7 @@ describe('Consumer DB API', () => {
 
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
       assert.equal(results.length, 1);
-      assert.equal(results[0].producer.name, 'Eatzis');
+      assert.equal(results[0].name, 'Eatzis');
     });
   });
 });

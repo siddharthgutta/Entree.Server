@@ -94,7 +94,7 @@ export async function addLocation(fbId, lat, long) {
  *
  * @param {String} fbId: facebook id of the consumer
  * @param {Array<Producer>} producers: the producers whose location we are comparing with
- * @returns {Array<Object>} an array of objects of the format {producer: p, distance: d}
+ * @returns {Array<Producer>} an array of objects of the format {producer: p, distance: d}
  */
 export async function findDistanceFromProducerCoordinates(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
@@ -112,8 +112,7 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
 
   const results = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
   _(results).forEach(value => {
-    const innerObj = {};
-    innerObj.producer = idsToProducers[value.key];
+    const innerObj = idsToProducers[value.key];
     innerObj.distance = value.distance;
     distances.push(innerObj);
   });
@@ -127,8 +126,8 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
  * @param {String} fbId: facebook id of the consumer
  * @param {number} radius: the radius in miles to search for producers across
  * @param {number} limit: number of results desired
- * @returns {Array<Object>} closest producers within the specified radius with each object
- * of the format {producer: p, distance: d}
+ * @returns {Array<Producer>} closest producers within the specified radius with each producer along with a distance
+ * field
  */
 export async function getClosestEnabledProducers(fbId, radius, limit) {
   const enabled = await Producer.findAllEnabled();
