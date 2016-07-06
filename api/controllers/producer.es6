@@ -238,3 +238,23 @@ export async function findOpen() {
   const dayWeek = dayOfWeek();
   return findOpenHelper(time, dayWeek);
 }
+
+export async function isOpenHelper(time, dayWeek, hours) {
+  let bool = false;
+  _.forEach(hours, hour => {
+    const open = new Moment(hour.openTime, 'HH:mm');
+    const close = new Moment(hour.closeTime, 'HH:mm');
+    if (hour.day === dayWeek &&
+      (time.isAfter(open) && time.isBefore(close))) {
+      bool = true;
+      return false;
+    }
+  });
+  return bool;
+}
+
+export async function isOpen(hours) {
+  const time = getCurrentTime();
+  const dayWeek = dayOfWeek();
+  return isOpenHelper(time, dayWeek, hours);
+}
