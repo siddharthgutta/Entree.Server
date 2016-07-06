@@ -6,7 +6,7 @@ import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
-import {GenericMessageData, TextMessageData, ButtonMessageData, QuickReplyMessageData,
+import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
