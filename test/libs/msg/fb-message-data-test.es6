@@ -3,8 +3,10 @@
  */
 
 import assert from 'assert';
-import {ImageMessageData, GenericMessageData, TextMessageData, CallToAction,
-  ButtonMessageData, ReceiptMessageData, QuickReplyMessageData} from '../../../libs/msg/facebook/message-data.es6';
+import {ImageAttachmentMessageData, GenericMessageData, TextMessageData, CallToAction,
+  ButtonMessageData, ReceiptMessageData, QuickReplyMessageData,
+  AudioAttachmentMessageData, VideoAttachmentMessageData, FileAttachmentMessageData}
+  from '../../../libs/msg/facebook/message-data.es6';
 
 describe('FB Message Data', () => {
   const title1 = 'Title1';
@@ -15,13 +17,43 @@ describe('FB Message Data', () => {
   const payload2 = 'Payload2';
   const url2 = 'https://www.url2.com';
 
-  describe('#ImageMessageData', () => {
-    it('should create an image message correctly', () => {
+  describe('#ImageAttachmentMessageData', () => {
+    it('should create an image attachment message correctly', () => {
       const url = `http://www.reactionface.info/sites/default/files/imagecache/` +
         `Node_Page/images/1287666826226.png`;
-      const msgData = new ImageMessageData(url);
+      const msgData = new ImageAttachmentMessageData(url);
       const msgDataJSON = msgData.toJSON();
       assert.deepEqual(msgDataJSON.attachment.type, 'image');
+      assert.deepEqual(msgDataJSON.attachment.payload.url, url);
+    });
+  });
+
+  describe('#AudioAttachmentMessageData', () => {
+    it('should create an audio attachment message correctly', () => {
+      const url = `https://www.someaudiolink.com`;
+      const msgData = new AudioAttachmentMessageData(url);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.attachment.type, 'audio');
+      assert.deepEqual(msgDataJSON.attachment.payload.url, url);
+    });
+  });
+
+  describe('#VideoAttachmentMessageData', () => {
+    it('should create a video attachment message correctly', () => {
+      const url = `https://somevideolink.com`;
+      const msgData = new VideoAttachmentMessageData(url);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.attachment.type, 'video');
+      assert.deepEqual(msgDataJSON.attachment.payload.url, url);
+    });
+  });
+
+  describe('#FileAttachmentMessageData', () => {
+    it('should create a file attachment message correctly', () => {
+      const url = `https://somefilelink.com`;
+      const msgData = new FileAttachmentMessageData(url);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.attachment.type, 'file');
       assert.deepEqual(msgDataJSON.attachment.payload.url, url);
     });
   });
