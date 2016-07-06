@@ -253,7 +253,6 @@ export default class FBMessenger extends MsgPlatform {
       }
       res.sendStatus(200);
     });
-
     return route;
   }
 }
