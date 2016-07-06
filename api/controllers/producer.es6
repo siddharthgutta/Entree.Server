@@ -218,8 +218,7 @@ export async function findOpenHelper(time, dayOfTheWeek) {
     _.forEach(prod.hours, hour => {
       const open = new Moment(hour.openTime, 'HH:mm');
       const close = new Moment(hour.closeTime, 'HH:mm');
-      if (hour.day === dayOfTheWeek &&
-        (time.isAfter(open) && time.isBefore(close))) {
+      if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
         return false;
       }
