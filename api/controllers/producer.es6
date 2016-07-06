@@ -143,6 +143,19 @@ export async function addHours(id, array) {
   });
   return await prod.save();
 }
+
+/**
+ * Removes all hours for a producer
+ * @param {String} id: unique identifier for a specefic producer
+ * @returns {Promise} removed object
+ */
+export async function deleteAllHours(id) {
+  const prod = await Producer.findOne(id);
+  _.forEachRight(prod.hours, hour => {
+    hour.remove();
+  });
+  return await prod.save();
+}
 /**
  * Deletes specific hour objects for a specific producer
  * @param {String} id: unique identifier to find the producer

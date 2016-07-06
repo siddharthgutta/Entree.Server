@@ -35,18 +35,22 @@ async function handleJSONFile(promises) {
     const results = await Promise.all(promises);
     _.forEach(results, async value => {
       const {name, username, password, description, profileImage, exampleOrder, address,
-        percentageFee, transactionFee, menuLink, optional} = value;
+        percentageFee, transactionFee, menuLink, optional, hours} = value;
       try {
         const {_id} = await Producer.findOneByUsername(username);
         console.log(`Found existing producer by username: |${username}|. Updating producer...`);
         await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
           transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
           menuLink});
+        await Producer.deleteAllHours(_id);
+        await Producer.addHours(_id, hours);
       } catch (err) {
         console.log(err);
         console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
         await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
           percentageFee, transactionFee, menuLink, optional);
+        const producer = await Producer.findOneByUsername(username);
+        await Producer.addHours(producer._id, hours);
       }
       const producer = await Producer.findOneByUsername(username);
       console.log(producer);

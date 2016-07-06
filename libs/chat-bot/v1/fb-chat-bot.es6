@@ -13,6 +13,8 @@ import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
+import Moment from 'moment';
+
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -386,6 +388,39 @@ export default class FbChatBot {
   }
 
   /**
+   * Formats a producers hours to show in more info
+   * @param {Object} hours: the hours from the producer to format
+   * @returns {string} the formatted hours to display
+   * @private
+   */
+   _formatHours(hours) {
+     let str = '';
+     _.forEach(hours, hour => {
+       let open = new Moment(hour.openTime, 'HH:mm');
+       let close = new Moment(hour.closeTime, 'HH:mm');
+       if (open.minutes() === 0) {
+         open = new Moment(hour.openTime, 'HH:mm').format('h A');
+       } else {
+         open = new Moment(hour.openTime, 'HH:mm').format('h:mm A');
+       }
+       if (close.minutes() === 0) {
+         close = new Moment(hour.closeTime, 'HH:mm').format('h A');
+       } else {
+         close = new Moment(hour.closeTime, 'HH:mm').format('h:mm A');
+       }
+       const day = new Moment(hour.day, 'dddd').format('ddd');
+       str += `${day}: ${open}-${close}\n`;
+     });
+     return str;
+   }
+
+  _checkOpen(hours) {
+    let str = '';
+    if (Producer.isOpen(hours)) str = ' is currently open! :D';
+    else str = ' is currently closed. :(';
+    return str;
+  }
+  /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
    *
    * @param {Object} payload: Producer tht was searched
@@ -397,8 +432,10 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
-      // TODO Google Maps Insert Location Information Here
+      const hours = this._formatHours(producer.hours);
+      const open = this._checkOpen(producer.hours);
+      button = new ButtonMessageData(`Here is more information about ${producer.name}.\n${producer.name}` +
+            `\n${producer.name}${open}\nHours:\n${hours}`);
       button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
