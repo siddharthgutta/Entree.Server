@@ -7,7 +7,7 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -34,12 +34,12 @@ export default class FbChatBot {
 
     // Sets up the persistent menu
     const callToActions = new CallToAction();
-    callToActions.pushLink('Entrée Website', `https://entreebot.com`);
-    // callToActions.pushLink('Help', `https://entreebot.com`);
-    // callToActions.pushLink('Request a Truck ', `https://entreebot.com`);
-    // callToActions.pushLink('Contact', `https://entreebot.com`);
-    // callToActions.pushLink('Update My Location', `https://entreebot.com`);
-    callToActions.pushPostback('See Trucks', this._genPayload(actions.seeProducers));
+    callToActions.pushLinkButton('Entrée Website', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Help', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Request a Truck ', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Contact', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
+    callToActions.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     this.msgPlatform.setPersistentMenu(callToActions.toJSON());
 
     // Sets the Greeting text
@@ -216,7 +216,7 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      image = new ImageMessageData(producer.menuLink);
+      image = new ImageAttachmentMessageData(producer.menuLink);
       button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
         `or choose one of the following options.`);
       button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));

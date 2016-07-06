@@ -30,7 +30,7 @@ export default class CallToAction {
    * @param {String} payload: REQUIRED data that will be sent back to us via webhook, when clicked
    * @return {Null} unused return statement
    */
-  pushPostback(title, payload) {
+  pushPostbackButton(title, payload) {
     this._pushCallToAction({
       type: 'postback',
       title,
@@ -45,7 +45,7 @@ export default class CallToAction {
    * @param {String} url: REQUIRED url is opened in a mobile browser when the call to action is tapped
    * @return {Null} unused return statement
    */
-  pushLink(title, url) {
+  pushLinkButton(title, url) {
     this._pushCallToAction({
       type: 'web_url',
       title,

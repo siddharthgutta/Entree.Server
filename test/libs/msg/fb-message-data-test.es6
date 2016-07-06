@@ -3,8 +3,10 @@
  */
 
 import assert from 'assert';
-import {ImageMessageData, GenericMessageData, TextMessageData,
-  ButtonMessageData, ReceiptMessageData} from '../../../libs/msg/facebook/message-data.es6';
+import {ImageAttachmentMessageData, GenericMessageData, TextMessageData, CallToAction,
+  ButtonMessageData, ReceiptMessageData, QuickReplyMessageData,
+  AudioAttachmentMessageData, VideoAttachmentMessageData, FileAttachmentMessageData}
+  from '../../../libs/msg/facebook/message-data.es6';
 
 describe('FB Message Data', () => {
   const title1 = 'Title1';
@@ -15,13 +17,43 @@ describe('FB Message Data', () => {
   const payload2 = 'Payload2';
   const url2 = 'https://www.url2.com';
 
-  describe('#ImageMessageData', () => {
-    it('should create an image message correctly', () => {
+  describe('#ImageAttachmentMessageData', () => {
+    it('should create an image attachment message correctly', () => {
       const url = `http://www.reactionface.info/sites/default/files/imagecache/` +
         `Node_Page/images/1287666826226.png`;
-      const msgData = new ImageMessageData(url);
+      const msgData = new ImageAttachmentMessageData(url);
       const msgDataJSON = msgData.toJSON();
       assert.deepEqual(msgDataJSON.attachment.type, 'image');
+      assert.deepEqual(msgDataJSON.attachment.payload.url, url);
+    });
+  });
+
+  describe('#AudioAttachmentMessageData', () => {
+    it('should create an audio attachment message correctly', () => {
+      const url = `https://www.someaudiolink.com`;
+      const msgData = new AudioAttachmentMessageData(url);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.attachment.type, 'audio');
+      assert.deepEqual(msgDataJSON.attachment.payload.url, url);
+    });
+  });
+
+  describe('#VideoAttachmentMessageData', () => {
+    it('should create a video attachment message correctly', () => {
+      const url = `https://somevideolink.com`;
+      const msgData = new VideoAttachmentMessageData(url);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.attachment.type, 'video');
+      assert.deepEqual(msgDataJSON.attachment.payload.url, url);
+    });
+  });
+
+  describe('#FileAttachmentMessageData', () => {
+    it('should create a file attachment message correctly', () => {
+      const url = `https://somefilelink.com`;
+      const msgData = new FileAttachmentMessageData(url);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.attachment.type, 'file');
       assert.deepEqual(msgDataJSON.attachment.payload.url, url);
     });
   });
@@ -256,6 +288,46 @@ describe('FB Message Data', () => {
       const text = 'Yolo';
       const msgData = new TextMessageData(text);
       assert.deepEqual(msgData.toJSON(), {text});
+    });
+  });
+
+  describe('#QuickReplyMessageData', () => {
+    const text = 'Quick Reply Message Data Text';
+    it('should create the correct quick reply message data structure correctly', () => {
+      const msgData = new QuickReplyMessageData(text);
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON.text, text);
+      assert.deepEqual(msgDataJSON.quick_replies, []);
+    });
+
+    describe('pushQuickReply', () => {
+      it('should add a quick reply button correctly', () => {
+        const msgData = new QuickReplyMessageData(text);
+        msgData.pushQuickReply(title1, payload1);
+        const msgDataJSON = msgData.toJSON();
+        assert.deepEqual(msgDataJSON.text, text);
+        const msgDataQuickReplies = msgDataJSON.quick_replies;
+        assert(msgDataQuickReplies.length, 1);
+        assert.deepEqual(msgDataQuickReplies[0].content_type, 'text');
+        assert.deepEqual(msgDataQuickReplies[0].title, title1);
+        assert.deepEqual(msgDataQuickReplies[0].payload, payload1);
+      });
+
+      it('should add multiple quick reply buttons correctly', () => {
+        const msgData = new QuickReplyMessageData(text);
+        msgData.pushQuickReply(title1, payload1);
+        msgData.pushQuickReply(title2, payload2);
+        const msgDataJSON = msgData.toJSON();
+        assert.deepEqual(msgDataJSON.text, text);
+        const msgDataQuickReplies = msgDataJSON.quick_replies;
+        assert(msgDataQuickReplies.length, 2);
+        assert.deepEqual(msgDataQuickReplies[0].content_type, 'text');
+        assert.deepEqual(msgDataQuickReplies[0].title, title1);
+        assert.deepEqual(msgDataQuickReplies[0].payload, payload1);
+        assert.deepEqual(msgDataQuickReplies[1].content_type, 'text');
+        assert.deepEqual(msgDataQuickReplies[1].title, title2);
+        assert.deepEqual(msgDataQuickReplies[1].payload, payload2);
+      });
     });
   });
 
@@ -609,6 +681,101 @@ describe('FB Message Data', () => {
         assert.deepEqual(msgDataSummary.state, state2);
         assert.deepEqual(msgDataSummary.country, country2);
       });
+    });
+  });
+
+  describe('#CallToAction', () => {
+    it('should create the correct a call to action structure correctly', () => {
+      const msgData = new CallToAction();
+      const msgDataJSON = msgData.toJSON();
+      assert.deepEqual(msgDataJSON, []);
+    });
+
+    describe('pushPostbackButton', () => {
+      it('should add a postback button correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushPostbackButton(title1, payload1);
+        const msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'postback');
+        assert.deepEqual(msgDataButtons[0].title, title1);
+        assert.deepEqual(msgDataButtons[0].payload, payload1);
+      });
+
+      it('should add multiple postback buttons correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushPostbackButton(title1, payload1);
+        let msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+
+        msgData.pushPostbackButton(title2, payload2);
+        msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 2);
+
+        const firstButton = msgDataButtons[0];
+        assert.deepEqual(firstButton.type, 'postback');
+        assert.deepEqual(firstButton.title, title1);
+        assert.deepEqual(firstButton.payload, payload1);
+
+        const secondButton = msgDataButtons[1];
+        assert.deepEqual(secondButton.type, 'postback');
+        assert.deepEqual(secondButton.title, title2);
+        assert.deepEqual(secondButton.payload, payload2);
+      });
+    });
+
+    describe('pushLinkButton', () => {
+      it('should add a link button correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushLinkButton(title1, url1);
+        const msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'web_url');
+        assert.deepEqual(msgDataButtons[0].title, title1);
+        assert.deepEqual(msgDataButtons[0].url, url1);
+      });
+
+      it('should add multiple link buttons correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushLinkButton(title1, url1);
+        let msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+
+        msgData.pushLinkButton(title2, url2);
+        msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 2);
+
+        const firstButton = msgDataButtons[0];
+        assert.deepEqual(firstButton.type, 'web_url');
+        assert.deepEqual(firstButton.title, title1);
+        assert.deepEqual(firstButton.url, url1);
+
+        const secondButton = msgDataButtons[1];
+        assert.deepEqual(secondButton.type, 'web_url');
+        assert.deepEqual(secondButton.title, title2);
+        assert.deepEqual(secondButton.url, url2);
+      });
+    });
+
+    it('should add buttons of different types in the correct order', () => {
+      const msgData = new CallToAction();
+      msgData.pushPostbackButton(title1, payload1);
+      let msgDataButtons = msgData.toJSON();
+      assert.equal(msgDataButtons.length, 1);
+
+      msgData.pushLinkButton(title2, url2);
+      msgDataButtons = msgData.toJSON();
+      assert.equal(msgDataButtons.length, 2);
+
+      const firstButton = msgDataButtons[0];
+      assert.deepEqual(firstButton.type, 'postback');
+      assert.deepEqual(firstButton.title, title1);
+      assert.deepEqual(firstButton.payload, payload1);
+
+      const secondButton = msgDataButtons[1];
+      assert.deepEqual(secondButton.type, 'web_url');
+      assert.deepEqual(secondButton.title, title2);
+      assert.deepEqual(secondButton.url, url2);
     });
   });
 });
