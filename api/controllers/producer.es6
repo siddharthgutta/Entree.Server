@@ -146,6 +146,7 @@ export async function addHours(id, array) {
 
 /**
  * Removes all hours for a producer
+<<<<<<< 3561de7e6713f9eb1f29dee97f5a4384d0b7b1db
  * @param {String} id: unique identifier for a specific producer
  * @returns {Promise} the updated producer object
  */
