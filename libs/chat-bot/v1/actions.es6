@@ -10,4 +10,5 @@ export const actions = {
   location: 'Location',
   existingLocation: 'Existing Location',
   newLocation: 'New Location'
+  hour: 'Hours'
 };
