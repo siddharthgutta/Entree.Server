@@ -29,26 +29,21 @@ export default class FbChatBot {
     // TODO Implement a base class that handles versioning
     this.msgPlatform = msgPlatform;
 
-    // Delete a current conversation of Messenger (only on Desktop Messenger)
-    // Then, search for the bot you are trying to have a conversation with
-    // Then, the welcome message should be shown
-    /* Setup welcome message */
-    /*
-    const welcomeMessage = new ButtonMessageData(`Hello! I'm Entrée, a personal assistant designed to help you order ` +
-      `food ahead for pick-up at food trucks. With just a few taps, clicks, or messages you can order food faster ` +
-      `and easier than ever! Tap the "Show Trucks" button below to see a selection of food trucks you can order ` +
-      `ahead from.`);
-    welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
-    msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
-    */
+    // Sets the payload for the get started message
+    this.msgPlatform.setGetStartedButton(this._genPayload(actions.getStarted));
 
+    // Sets up the persistent menu
     const callToActions = new CallToAction();
     callToActions.pushLink('Entrée Website', `https://entreebot.com`);
     // callToActions.pushLink('Help', `https://entreebot.com`);
     // callToActions.pushLink('Request a Truck ', `https://entreebot.com`);
     // callToActions.pushLink('Contact', `https://entreebot.com`);
-    callToActions.pushPostback('See All Trucks', this._genPayload(actions.seeProducers));
+    // callToActions.pushLink('Update My Location', `https://entreebot.com`);
+    callToActions.pushPostback('See Trucks', this._genPayload(actions.seeProducers));
     this.msgPlatform.setPersistentMenu(callToActions.toJSON());
+
+    // Sets the Greeting text
+    this.msgPlatform.setGreetingText('Entrée helps you find and order ahead from the best food trucks around you.');
   }
 
   /**
@@ -129,8 +124,9 @@ export default class FbChatBot {
     } catch (err) {
       throw new Error('Could not get payload or action for event', err);
     }
-
     switch (action) {
+      case actions.getStarted:
+        return this._handleGetStarted();
       case actions.seeProducers:
         return this._handleSeeProducers();
       case actions.moreInfo:
@@ -195,27 +191,42 @@ export default class FbChatBot {
   */
 
   /**
+   * Handles the get started button being pressed
+   *
+   * @returns {[ButtonMessageData]}: returns the button message data for the welcome message
+   * @private
+   */
+  _handleGetStarted() {
+    const button = new ButtonMessageData(`Hello! I'm Entrée, a personal assistant designed to help you order ` +
+      `food ahead for pick-up at food trucks. With just a few taps, clicks, or messages you can order food faster ` +
+      `and easier than ever! Tap the "Show Trucks" button below to see a selection of food trucks you can order ` +
+      `ahead from.`);
+    button.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
+    return [button];
+  }
+
+  /**
    * Handle the menu actions by sending menu link image
    *
    * @param {Object} payload: payload passed from postback button
    * @returns {[ImageMessageData]}: image of the menu
    */
   async _handleMenu(payload) {
-    let image, quickReply;
+    let image, button;
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
       image = new ImageMessageData(producer.menuLink);
-      quickReply = new QuickReplyMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
+      button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
         `or choose one of the following options.`);
-      quickReply.pushQuickReply('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
-      quickReply.pushQuickReply('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
-      quickReply.pushQuickReply('See Trucks', this._genPayload(actions.seeProducers));
+      button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+      button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
+      button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Could not get menu Link image', err);
     }
 
-    return [image, quickReply];
+    return [image, button];
   }
 
   /**
