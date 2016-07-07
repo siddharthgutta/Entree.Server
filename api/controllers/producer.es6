@@ -143,11 +143,24 @@ export async function addHours(id, array) {
   });
   return await prod.save();
 }
+
+/**
+ * Removes all hours for a producer
+ * @param {String} id: unique identifier for a specific producer
+ * @returns {Promise} the updated producer object
+ */
+export async function deleteAllHours(id) {
+  const prod = await Producer.findOne(id);
+  _.forEachRight(prod.hours, hour => {
+    hour.remove();
+  });
+  return await prod.save();
+}
 /**
  * Deletes specific hour objects for a specific producer
  * @param {String} id: unique identifier to find the producer
  * @param {Array} hourIds: the id of the hour to delete
- * @returns {Promise} removed object
+ * @returns {Promise} the new producer without hours
  */
 export async function deleteHours(id, hourIds) {
   const prod = await Producer.findOne(id);
@@ -162,7 +175,7 @@ export async function deleteHours(id, hourIds) {
 }
 
 /**
- * Deletes all hours for a day for a specific producer
+ * Deletes all hours for a day for a producer
  *
  * @param {String} id: unique identifier to find the producer
  * @param {String} day: the day to delete from the producers
