@@ -31,7 +31,7 @@ function hourCheck(hours) {
       const firstOpen = moment(valArr[k].openTime, 'HH:mm');
       const firstClose = moment(valArr[k].closeTime, 'HH:mm');
       const second = moment(valArr[k + 1].openTime, 'HH:mm');
-      (second.isAfter(firstOpen) && second.isBefore(firstClose))) {
+      if (second.isAfter(firstOpen) && second.isBefore(firstClose)) {
         ret = false;
         return false;
       }

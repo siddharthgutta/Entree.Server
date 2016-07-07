@@ -13,15 +13,10 @@ import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
-<<<<<<< 29fe6aa9a4b51f0217b07a42b06301e14c5d5e9a
 import * as Google from '../../../api/controllers/google.es6';
 import * as Utils from '../../utils.es6';
 import moment from 'moment';
 import _ from 'lodash';
-=======
-import Moment from 'moment';
->>>>>>> added the text for the fb messenger
-
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -541,9 +536,6 @@ export default class FbChatBot {
 
     return [text];
   }
-
-    /**
-=======
   /**
    * Formats a producers hours to show in more info
    * @param {Object} hours: the hours from the producer to format
@@ -570,6 +562,7 @@ export default class FbChatBot {
      });
      return str;
    }
+
 
   /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
