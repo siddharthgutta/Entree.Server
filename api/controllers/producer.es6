@@ -175,7 +175,7 @@ export async function deleteHours(id, hourIds) {
 }
 
 /**
- * Deletes all hours for a day for a specific producer
+ * Deletes all hours for a day for a producer
  *
  * @param {String} id: unique identifier to find the producer
  * @param {String} day: the day to delete from the producers
