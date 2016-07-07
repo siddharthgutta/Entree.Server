@@ -305,6 +305,27 @@ export default class FbChatBot {
     return [response];
   }
 
+  _getHoursForADay(hours, day)
+  {
+    let str = '';
+    _.forEach(hours, hour => {
+      if(hour.day === day) {
+        const openMoment = new Moment(hour.openTime, 'HH:mm');
+        let open  = '';
+        const closeMoment = new Moment(hour.closeTime, 'HH:mm');
+        let close  = '';
+        if(openMoment.minute() == 0) open = openMoment.format('h a');
+        else open = openMoment.format('h:mm a');
+        if(closeMoment.minutes() === 0) close = closeMoment.format('h a');
+        else close = closeMoment.format('h:mm a');
+        console.log(open);
+        console.log(close);
+        str+= `${open}-${close}\n`;
+      }
+    });
+    return str;
+  }
+
   /**
    * Handles the order prompting
    *
@@ -316,11 +337,25 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      const {context: {_id: contextId}} = consumer;
-      await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
-      response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-        `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
+      if (Producer.isOpen(producer.hours)) {
+        const {context: {_id: contextId}} = consumer;
+        await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
+        response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
+          `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
+        response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+      }
+      else {
+        const day  = new Moment();
+        const tmrw = day.add(1, 'day').format('dddd');
+        let today = this._getHoursForADay(producer.hours, new Moment().format('dddd'));
+        let tomorrow =  this._getHoursForADay(producer.hours, tmrw);
+        if(tomorrow.length === 0) tomorrow = 'Closed';
+        response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
+        `Today's Hours: ${today}Tomorrow's Hours: ${tomorrow}`);
       response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+        
+      }
+
     } catch (err) {
       throw new Error('Failed to create handle order message');
     }
@@ -411,7 +446,6 @@ export default class FbChatBot {
   }
 
   _checkOpen(hours) {
-    console.log('\n\n\n\n' + Producer.isOpen(hours));
     if(Producer.isOpen(hours)) return ` is currently open! :D`;
     else return ` is currently closed. :(`
   }
@@ -431,7 +465,7 @@ export default class FbChatBot {
       const hours = this._formatHours(producer.hours);
       const open = this._checkOpen(producer.hours);
       button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
-            `\n${producer.name}${open}\nHours:\n${hours}`);
+            `\n${producer.name}${open}\n\nHours:\n${hours}`);
       // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
