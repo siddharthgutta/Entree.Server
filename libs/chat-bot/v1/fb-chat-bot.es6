@@ -9,7 +9,7 @@ import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import Constants from './constants.es6';
-import SlackData from '../../../libs/notifier/slack-data.es6';
+import OrderSlackData from '../../../libs/notifier/order-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
@@ -317,12 +317,14 @@ export default class FbChatBot {
   async _sendOrderMessage(consumer, producer, order) {
     const pretext = 'Incoming Order';
     const consumerName = `${consumer.firstName} ${consumer.lastName}`;
-    const slackData = new SlackData(`${pretext}: ${consumerName} from ${producer.name} of ` +
-      `[${order.body}] for $${order.price}`, Runtime.isProduction() ? 'good' : 'danger', pretext);
-    slackData.addFields('Text Body', order.body, false);
-    slackData.addFields('Consumer', consumerName);
-    slackData.addFields('Producer', producer.name);
-    slackData.addFields('Price', `${order.price}`);
+    const slackData = new OrderSlackData();
+    slackData.pushAttachment(Runtime.isProduction() ? 'good' : 'danger', pretext);
+    slackData.setFallback(`${pretext}: ${consumerName} from ${producer.name} of ` +
+      `[${order.body}] for $${order.price}`);
+    slackData.pushField('Text Body', order.body, false);
+    slackData.pushField('Consumer', consumerName);
+    slackData.pushField('Producer', producer.name);
+    slackData.pushField('Price', `${order.price}`);
     const response = await Slack.sendMessage(slackChannelId, slackData);
     console.log(response);
   }
