@@ -382,7 +382,7 @@ describe('Producer DB API', () => {
     });
   });
 
-  describe('#findAllFbEnabled()', async () => {
+  describe('#findAllEnabled()', async () => {
     const name2 = 'Dominos';
     const password2 = 'password';
     const description2 = 'some dominos description';
@@ -414,6 +414,44 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id2, id3);
       assert.notDeepEqual(id1, id3);
       const producers = await Producer.findAllEnabled();
+      assert.equal(producers.length, 2);
+      assert.deepEqual(producers[0]._id, id1);
+      assert.deepEqual(producers[1]._id, id3);
+    });
+  });
+
+  describe('#findRandomEnabled()', async () => {
+    const name2 = 'Dominos';
+    const password2 = 'password';
+    const description2 = 'some dominos description';
+    const phoneNumber2 = '2345678901';
+    const profileImage2 = 'www.anothaimage.com';
+    const enabled2 = false;
+    const menuLink2 = 'www.somemenulink.com';
+
+    const name3 = 'mcdonalds';
+    const password3 = 'bigmac';
+    const description3 = 'some mcdonalds description';
+    const profileImage3 = 'www.anothaoneimage.com';
+    const enabled3 = true;
+    const menuLink3 = 'pizzahutmenu.com';
+
+    it('should find multiple enabled producers', async () => {
+      const location = await Location.createWithCoord(lat, long);
+      const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+          merchant: {merchantId: shortid.generate()}});
+      const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
+      const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
+        profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
+
+      assert.notDeepEqual(id1, id2);
+      assert.notDeepEqual(id2, id3);
+      assert.notDeepEqual(id1, id3);
+      const producers = await Producer.findRandomEnabled();
       assert.equal(producers.length, 2);
       assert.deepEqual(producers[0]._id, id1);
       assert.deepEqual(producers[1]._id, id3);

@@ -36,9 +36,23 @@ export async function findOneByUsername(username) {
  * @param {Object} sortFields: key value pairs of the fields to sort on Ex: {createdAt: 'descending'}
  * @param {Array<String>} populateFields: fields to populate query with
  * @returns {Promise}: returns the producers found
+ * @private
  */
 export async function _find(conditions, limit, sortFields = {}, populateFields = []) {
   return await Producer.find(conditions, limit, sortFields, populateFields);
+}
+
+/**
+ * Returns producers using the mongoose aggregate function
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @param {Number} limit: number of objects to limit the query to find
+ * @param {Object} sortFields: key value pairs of the fields to sort on Ex: {createdAt: 'descending'}
+ * @returns {Promise}: returns the producers found
+ * @private
+ */
+export async function _findWithAggregate(conditions, limit, sortFields = {}) {
+  return await Producer.findWithAggregate(conditions, limit, sortFields);
 }
 
 /**
@@ -49,7 +63,7 @@ export async function _find(conditions, limit, sortFields = {}, populateFields =
  */
 
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location'])
 }
 
 /**
@@ -62,6 +76,16 @@ export async function findAllEnabled(conditions = {}) {
   return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
 }
 
+
+/**
+ * Finds random enabled producers with the given conditions
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @returns {Promise}: returns the producers found
+ */
+export async function findRandomEnabled(conditions = {}) {
+  return await _findWithAggregate(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'});
+}
 
 /**
  * Create a producer in the database
@@ -207,8 +231,9 @@ export async function getHours(id) {
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  return new Moment('HH:mm');
+  return new Moment(new Moment().format('HH:mm'), 'HH:mm');
 }
+
 /**
  * Gives the user the day of the week it is
  *
@@ -257,7 +282,7 @@ export async function findOpen() {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpenHelper(time, dayOfTheWeek, hours) {
+export function isOpenHelper(time, dayOfTheWeek, hours) {
   for (const hour of hours) {
     const open = new Moment(hour.openTime, 'HH:mm');
     const close = new Moment(hour.closeTime, 'HH:mm');
@@ -274,6 +299,6 @@ export async function isOpenHelper(time, dayOfTheWeek, hours) {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpen(hours) {
+export function isOpen(hours) {
   return isOpenHelper(getCurrentTime(), dayOfWeek(), hours);
 }

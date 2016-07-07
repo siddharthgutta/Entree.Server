@@ -50,6 +50,18 @@ export async function find(conditions, limit, sortFields, populateFields) {
 }
 
 /**
+ * Uses an aggregate to find producers with the given conditions and uses sample to get random producers
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @param {Number} limit: number of objects to limit the query to find
+ * @param {Object} sortFields: key value pairs of the fields to sort on Ex: {createdAt: 'descending'}
+ * @returns {Promise}: returns the producers found
+ */
+export async function findWithAggregate(conditions, limit, sortFields) {
+  return await Producer.aggregate().match(conditions).sample(limit).sort(sortFields).exec();
+}
+
+/**
  * Find one merchant and update it
  *
  * @param {Object} conditions: conditions to query on

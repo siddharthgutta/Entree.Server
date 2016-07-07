@@ -22,6 +22,14 @@ export async function _create(contextId, optional = {}) {
   return await Consumer.create({context: contextId, ...optional});
 }
 
+/**
+ * Finds a user and populates the fields specified
+ *
+ * @param {String} fbId: the facebook id of the consumer
+ * @param {Array<String>} populateFields: the fields to populate
+ * @returns {Promise} returns the populated consumer from the database
+ * @private
+ */
 export async function _findOne(fbId, populateFields = []) {
   return await Consumer.findOne(fbId, populateFields);
 }
@@ -93,8 +101,8 @@ export async function addLocation(fbId, lat, long) {
  * and returns an array specifying the distance from each given producer
  *
  * @param {String} fbId: facebook id of the consumer
- * @param {Array<Producer>} producers: the producers whose location we are comparing with
- * @returns {Array<Producer>} an array of objects of the format {producer: p, distance: d}
+ * @param {Array<Producer>} producers: the producers whose location we are comparing with; can also be an object
+ * @returns {Array<Producer>} an array of producers with an additional field specifying distance
  */
 export async function findDistanceFromProducerCoordinates(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
