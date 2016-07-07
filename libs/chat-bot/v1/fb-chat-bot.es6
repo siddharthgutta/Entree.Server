@@ -168,8 +168,8 @@ export default class FbChatBot {
     const text = event.message.text;
 
     // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
-    if (/^(yes)|(cancel)$/.test(text)) {
-      console.log(`Consumer |${consumer._id}| typed in ${text}`);
+    if (/^(yes)|(cancel)$/.test(text.toLowerCase())) {
+      console.log(`Consumer |${consumer._id}| typed in [${text}]`);
       return [];
     }
     // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
