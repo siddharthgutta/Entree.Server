@@ -166,6 +166,14 @@ export default class FbChatBot {
    */
   async _handleText(event, consumer) {
     const text = event.message.text;
+
+    // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
+    if (/^(yes)|(cancel)$/.test(text)) {
+      console.log(`Consumer |${consumer._id}| typed in ${text}`);
+      return [];
+    }
+    // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
+
     try {
       const {context} = consumer;
       switch (context.lastAction) {
