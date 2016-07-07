@@ -63,7 +63,7 @@ export async function _findWithAggregate(conditions, limit, sortFields = {}) {
  */
 
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location'])
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
 }
 
 /**
