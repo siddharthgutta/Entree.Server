@@ -14,6 +14,7 @@ import config from 'config';
 import * as Runtime from '../../runtime.es6';
 import Moment from 'moment';
 import _ from 'lodash';
+import * as Hour from '../../../libs/hour.es6';
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -249,7 +250,6 @@ export default class FbChatBot {
   async _handleOrder(text, consumer) {
     let response;
     const {_id: consumerId, context: {_id: contextId, producer: producerId}} = consumer;
-    console.log(`Handle Order ${JSON.stringify(consumer)}`);
     try {
       const order = await Order.create(text, producerId, consumerId);
       const producer = await Producer.findOneByObjectId(producerId);
@@ -269,7 +269,7 @@ export default class FbChatBot {
         if (tomorrow.length === 0) tomorrow = 'Closed';
         if (today.length === 0) today = 'Closed\n';
         response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
-          `Today's Hours: ${today}Tomorrow's Hours: ${tomorrow}`);
+          `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
         response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
       }
     } catch (err) {
@@ -324,19 +324,22 @@ export default class FbChatBot {
    */
   _getHoursForADay(hours, day) {
     let openHours = '';
+    let comma = 0;
     _.forEach(hours, hour => {
       if (hour.day === day) {
+        if (comma !== 0) openHours += `, `;
+        comma = 1;
         const openMoment = new Moment(hour.openTime, 'HH:mm');
         let open = '';
         const closeMoment = new Moment(hour.closeTime, 'HH:mm');
         let close = '';
-        if (openMoment.minute() === 0) open = openMoment.format('h a');
-        else open = openMoment.format('h:mm a');
-        if (closeMoment.minutes() === 0) close = closeMoment.format('h a');
-        else close = closeMoment.format('h:mm a');
+        if (openMoment.minute() === 0) open = openMoment.format('h A');
+        else open = openMoment.format('h:mm A');
+        if (closeMoment.minutes() === 0) close = closeMoment.format('h A');
+        else close = closeMoment.format('h:mm A');
         console.log(open);
         console.log(close);
-        openHours += `${open}-${close}\n`;
+        openHours += `${open}-${close}`;
       }
     });
     return openHours;
@@ -366,7 +369,7 @@ export default class FbChatBot {
         let tomorrow = this._getHoursForADay(producer.hours, tmrw);
         if (tomorrow.length === 0) tomorrow = 'Closed';
         response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
-        `Today's Hours: ${today}Tomorrow's Hours: ${tomorrow}`);
+        `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
         response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
       }
     } catch (err) {
@@ -411,17 +414,26 @@ export default class FbChatBot {
    */
   _formatHours(hours) {
     let openHours = '';
-    _.forEach(hours, hour => {
-      const openMoment = new Moment(hour.openTime, 'HH:mm');
-      let open = '';
-      let close = '';
-      if (openMoment.minute() === 0) open = openMoment.format('h a');
-      else open = openMoment.format('h:mm a');
-      const closeMoment = new Moment(hour.closeTime, 'HH:mm');
-      if (closeMoment.minute() === 0) close = closeMoment.format('h a');
-      else close = closeMoment.format('h:mm a');
-      const day = new Moment(hour.day, 'dddd').format('ddd');
-      openHours += `${day}: ${open}-${close}\n`;
+    const arr = Hour.hourDict(hours);
+    _.forEach(arr, bucket => {
+      const day = new Moment(bucket[0].day, 'dddd').format('ddd');
+      openHours += `${day}: `;
+      let comma = 0;
+      const valArr = bucket.sort(Hour.hourComp);
+      _.forEach(valArr, hour => {
+        if (comma !== 0) openHours += `, `;
+        comma = 1;
+        const openMoment = new Moment(hour.openTime, 'HH:mm');
+        let open = '';
+        let close = '';
+        if (openMoment.minute() === 0) open = openMoment.format('h A');
+        else open = openMoment.format('h:mm A');
+        const closeMoment = new Moment(hour.closeTime, 'HH:mm');
+        if (closeMoment.minute() === 0) close = closeMoment.format('h A');
+        else close = closeMoment.format('h:mm A');
+        openHours += `${open}-${close}`;
+      });
+      openHours += `\n`;
     });
     return openHours;
   }
@@ -476,7 +488,7 @@ export default class FbChatBot {
     return [text];
   }
 
-    /**
+  /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
    *
    * @param {Object} payload: Producer tht was searched
@@ -490,9 +502,9 @@ export default class FbChatBot {
       const producer = await Producer.findOneByObjectId(producerId);
       const hours = this._formatHours(producer.hours);
       const open = this._checkOpen(producer.hours);
+      // TODO Google Maps Insert Location Information Here
       button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
             `\n${producer.name}${open}\n\nHours:\n${hours}`);
-      // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));

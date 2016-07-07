@@ -13,5 +13,36 @@
     "producer": {
       "enabled": true
     }
-  }
+  },
+  "hours":
+  [{
+      "day": "Tuesday",
+      "openTime": "11:30",
+      "closeTime": "20:30"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:30",
+      "closeTime": "20:30"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:30",
+      "closeTime": "20:30"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:30",
+      "closeTime": "20:30"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:30",
+      "closeTime": "20:30"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "11:30",
+      "closeTime": "16:30"
+    }]
 }

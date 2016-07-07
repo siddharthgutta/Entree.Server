@@ -146,9 +146,9 @@ export async function addHours(id, array) {
 
 /**
  * Removes all hours for a producer
-<<<<<<< 31e7029a6227e3b9f457e5098bcad6b1fbe319af
  * @param {String} id: unique identifier for a specific producer
  * @returns {Promise} the updated producer object
+
  */
 export async function deleteAllHours(id) {
   const prod = await Producer.findOne(id);
