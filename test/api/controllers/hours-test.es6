@@ -32,10 +32,9 @@ describe('Hours DB API', () => {
       assert.equal(checkHour.closeTime, '24:00');
     });
     it('should fail to create an hour object', async () => {
-      try{
-         await hour.create('Monday', '07:00', '24:01');
-      }
-      catch (e) {
+      try {
+        await hour.create('Monday', '07:00', '24:01');
+      } catch (e) {
         return;
       }
       assert(false);
