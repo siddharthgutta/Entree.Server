@@ -14,4 +14,35 @@
       "enabled": true
     }
   }
+  "hours":
+  [{
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "11:00",
+      "closeTime": "21:00"
+    }]
 }
