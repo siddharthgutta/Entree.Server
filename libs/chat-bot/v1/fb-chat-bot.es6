@@ -302,6 +302,7 @@ export default class FbChatBot {
       response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
       await Context.emptyFields(contextId, ['producer', 'lastAction']);
+
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
         `for producer |${producerId}|.`);
@@ -345,9 +346,16 @@ export default class FbChatBot {
     return [response];
   }
 
+  /**
+   * Gets the hours a producer is open on for a certain day
+   * @param {Array} hours: an array of hours for a producer
+   * @param {string} day: the day of the week to check the hours for
+   * @returns {string} the formatted hours that the producer is open for for a certain day
+   * @private
+   */
   _getHoursForADay(hours, day)
   {
-    let str = '';
+    let openHours = '';
     _.forEach(hours, hour => {
       if(hour.day === day) {
         const openMoment = new Moment(hour.openTime, 'HH:mm');
@@ -360,10 +368,10 @@ export default class FbChatBot {
         else close = closeMoment.format('h:mm a');
         console.log(open);
         console.log(close);
-        str+= `${open}-${close}\n`;
+        openHours += `${open}-${close}\n`;
       }
     });
-    return str;
+    return openHours;
   }
 
   /**
@@ -494,7 +502,8 @@ export default class FbChatBot {
       openHours += `${hourArr.join(', ')}\n`;
     });
     return openHours;
-  }
+ }
+
 
   /**
    * Executed after the producer presses the Order Again button
@@ -557,33 +566,6 @@ export default class FbChatBot {
 
     return [text];
   }
-  /**
-   * Formats a producers hours to show in more info
-   * @param {Object} hours: the hours from the producer to format
-   * @returns {string} the formatted hours to display
-   * @private
-   */
-   _formatHours(hours) {
-     let str = '';
-     _.forEach(hours, hour => {
-       let open = new Moment(hour.openTime, 'HH:mm');
-       let close = new Moment(hour.closeTime, 'HH:mm');
-       if (open.minutes() === 0) {
-         open = new Moment(hour.openTime, 'HH:mm').format('h A');
-       } else {
-         open = new Moment(hour.openTime, 'HH:mm').format('h:mm A');
-       }
-       if (close.minutes() === 0) {
-         close = new Moment(hour.closeTime, 'HH:mm').format('h A');
-       } else {
-         close = new Moment(hour.closeTime, 'HH:mm').format('h:mm A');
-       }
-       const day = new Moment(hour.day, 'dddd').format('ddd');
-       str += `${day}: ${open}-${close}\n`;
-     });
-     return str;
-   }
-
 
   /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
