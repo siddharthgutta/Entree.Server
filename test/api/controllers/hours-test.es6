@@ -258,4 +258,25 @@ describe('Hours DB API', () => {
       assert.equal(false, hourOpen5);
     });
   });
+  describe('#deleteAllHours', async () => {
+    it('should delete all hours', async () => {
+      const hours = {
+        day: 'Wednesday',
+        open1: '07:00',
+        open2: '08:00',
+        close1: '20:00',
+        close2: '22:00'
+      };
+      const hour1 = await hour.create(hours.day, hours.open1, hours.close1);
+      const hour2 = await hour.create('Sunday', hours.open2, hours.close2);
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, 'nav!', password, description,
+        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '1232abc'}});
+      await Producer.addHours(_id, [hour1, hour2]);
+      await Producer.deleteAllHours(_id);
+      const prod = await Producer.findOneByObjectId(_id);
+      assert.equal(0, prod.hours.length);
+    });
+  });
 });
