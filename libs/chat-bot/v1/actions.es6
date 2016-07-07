@@ -7,6 +7,5 @@ export const actions = {
   order: 'Order',
   orderConfirmation: 'Order Confirmation',
   otherTrucks: 'Other Trucks',
-  location: 'Location',
-  hour: 'Hours'
+  location: 'Location'
 };

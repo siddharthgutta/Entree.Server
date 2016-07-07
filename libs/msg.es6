@@ -14,4 +14,5 @@ export default class MsgPlatform extends EventEmitter {
   _handleEvent(event) {
     this.emit(MsgPlatform.RECEIVED, event);
   }
+
 }

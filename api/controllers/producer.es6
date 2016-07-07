@@ -258,7 +258,8 @@ export async function findOpen() {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpenHelper(time, dayOfTheWeek, hours) {
+export function isOpenHelper(time, dayOfTheWeek, hours) {
+  console.log(time + '\n\n' + dayOfTheWeek);
   for (const hour of hours) {
     const open = new Moment(hour.openTime, 'HH:mm');
     const close = new Moment(hour.closeTime, 'HH:mm');
@@ -275,6 +276,6 @@ export async function isOpenHelper(time, dayOfTheWeek, hours) {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpen(hours) {
+export function isOpen(hours) {
   return isOpenHelper(getCurrentTime(), dayOfWeek(), hours);
 }
