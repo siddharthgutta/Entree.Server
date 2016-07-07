@@ -1,7 +1,6 @@
 /* Disabling lint rule since it doesn't make sense. */
 /* eslint-disable babel/generator-star-spacing,one-var,valid-jsdoc */
 
-import _ from 'lodash';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
@@ -13,6 +12,9 @@ import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
+import Moment from 'moment';
+import _ from 'lodash';
+import * as Hour from '../../../libs/hour.es6';
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -248,19 +250,28 @@ export default class FbChatBot {
   async _handleOrder(text, consumer) {
     let response;
     const {_id: consumerId, context: {_id: contextId, producer: producerId}} = consumer;
-    console.log(`Handle Order ${JSON.stringify(consumer)}`);
     try {
       const order = await Order.create(text, producerId, consumerId);
       const producer = await Producer.findOneByObjectId(producerId);
-      await Order.pushOrderByObjectId([consumer, producer], order._id);
-      await Context.emptyFields(contextId, ['producer', 'lastAction']);
-
-      // Send order message to slack
-      await this._sendOrderMessage(consumer, producer, order);
-
-      response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
-      response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
-      await Context.emptyFields(contextId, ['lastAction']);
+      if (Producer.isOpen(producer.hours)) {
+        await Order.pushOrderByObjectId([consumer, producer], order._id);
+        await Context.emptyFields(contextId, ['producer', 'lastAction']);
+        // Send order message to slack
+        await this._sendOrderMessage(consumer, producer, order);
+        response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
+        response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
+        await Context.emptyFields(contextId, ['lastAction']);
+      } else {
+        const day = new Moment();
+        const tmrw = day.add(1, 'day').format('dddd');
+        let today = this._getHoursForADay(producer.hours, new Moment().format('dddd'));
+        let tomorrow = this._getHoursForADay(producer.hours, tmrw);
+        if (tomorrow.length === 0) tomorrow = 'Closed';
+        if (today.length === 0) today = 'Closed\n';
+        response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
+          `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
+        response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+      }
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
         `for producer |${producerId}|.`);
@@ -305,6 +316,36 @@ export default class FbChatBot {
   }
 
   /**
+   * Gets the hours a producer is open on for a certain day
+   * @param {Array} hours: an array of hours for a producer
+   * @param {string} day: the day of the week to check the hours for
+   * @returns {string} the formatted hours that the producer is open for for a certain day
+   * @private
+   */
+  _getHoursForADay(hours, day) {
+    let openHours = '';
+    let comma = 0;
+    _.forEach(hours, hour => {
+      if (hour.day === day) {
+        if (comma !== 0) openHours += `, `;
+        comma = 1;
+        const openMoment = new Moment(hour.openTime, 'HH:mm');
+        let open = '';
+        const closeMoment = new Moment(hour.closeTime, 'HH:mm');
+        let close = '';
+        if (openMoment.minute() === 0) open = openMoment.format('h A');
+        else open = openMoment.format('h:mm A');
+        if (closeMoment.minutes() === 0) close = closeMoment.format('h A');
+        else close = closeMoment.format('h:mm A');
+        console.log(open);
+        console.log(close);
+        openHours += `${open}-${close}`;
+      }
+    });
+    return openHours;
+  }
+
+  /**
    * Handles the order prompting
    *
    * @returns {Object}: MessageData object
@@ -315,11 +356,22 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      const {context: {_id: contextId}} = consumer;
-      await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
-      response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-        `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
-      response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+      if (Producer.isOpen(producer.hours)) {
+        const {context: {_id: contextId}} = consumer;
+        await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
+        response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
+          `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
+        response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+      } else {
+        const day = new Moment();
+        const tmrw = day.add(1, 'day').format('dddd');
+        const today = this._getHoursForADay(producer.hours, new Moment().format('dddd'));
+        let tomorrow = this._getHoursForADay(producer.hours, tmrw);
+        if (tomorrow.length === 0) tomorrow = 'Closed';
+        response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
+        `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
+        response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+      }
     } catch (err) {
       throw new Error('Failed to create handle order message');
     }
@@ -352,6 +404,49 @@ export default class FbChatBot {
     }
 
     return [text, response];
+  }
+
+  /**
+   * Formats the hours to display for a propducer
+   * @param {Array} hours: an array of hours to traverse and format
+   * @returns {string} the formatted hours for the producer
+   * @private
+   */
+  _formatHours(hours) {
+    let openHours = '';
+    const arr = Hour.hourDict(hours);
+    _.forEach(arr, bucket => {
+      const day = new Moment(bucket[0].day, 'dddd').format('ddd');
+      openHours += `${day}: `;
+      let comma = 0;
+      const valArr = bucket.sort(Hour.hourComp);
+      _.forEach(valArr, hour => {
+        if (comma !== 0) openHours += `, `;
+        comma = 1;
+        const openMoment = new Moment(hour.openTime, 'HH:mm');
+        let open = '';
+        let close = '';
+        if (openMoment.minute() === 0) open = openMoment.format('h A');
+        else open = openMoment.format('h:mm A');
+        const closeMoment = new Moment(hour.closeTime, 'HH:mm');
+        if (closeMoment.minute() === 0) close = closeMoment.format('h A');
+        else close = closeMoment.format('h:mm A');
+        openHours += `${open}-${close}`;
+      });
+      openHours += `\n`;
+    });
+    return openHours;
+  }
+
+  /**
+   *
+   * @param {Array} hours: an array of hours to traverse and check if are in the current time
+   * @returns {string} a message if the producer is open or not
+   * @private
+   */
+  _checkOpen(hours) {
+    if (Producer.isOpen(hours)) return ` is currently open! :D`;
+    return ` is currently closed. :(`;
   }
 
   /**
@@ -405,8 +500,11 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      button = new ButtonMessageData(`Here is more information about ${producer.name}.`);
+      const hours = this._formatHours(producer.hours);
+      const open = this._checkOpen(producer.hours);
       // TODO Google Maps Insert Location Information Here
+      button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
+            `\n${producer.name}${open}\n\nHours:\n${hours}`);
       button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));

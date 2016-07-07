@@ -148,6 +148,7 @@ export async function addHours(id, array) {
  * Removes all hours for a producer
  * @param {String} id: unique identifier for a specific producer
  * @returns {Promise} the updated producer object
+
  */
 export async function deleteAllHours(id) {
   const prod = await Producer.findOne(id);
@@ -156,6 +157,7 @@ export async function deleteAllHours(id) {
   });
   return await prod.save();
 }
+
 /**
  * Deletes specific hour objects for a specific producer
  * @param {String} id: unique identifier to find the producer
@@ -201,13 +203,14 @@ export async function getHours(id) {
   return (await Producer.findOne(id)).hours;
 }
 
+
 /**
  * Gets the servers current time
  *
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  return new Moment('HH:mm');
+  return new Moment(new Moment().format('HH:mm'), 'HH:mm');
 }
 /**
  * Gives the user the day of the week it is
@@ -257,7 +260,7 @@ export async function findOpen() {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpenHelper(time, dayOfTheWeek, hours) {
+export function isOpenHelper(time, dayOfTheWeek, hours) {
   for (const hour of hours) {
     const open = new Moment(hour.openTime, 'HH:mm');
     const close = new Moment(hour.closeTime, 'HH:mm');
@@ -274,6 +277,6 @@ export async function isOpenHelper(time, dayOfTheWeek, hours) {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpen(hours) {
+export function isOpen(hours) {
   return isOpenHelper(getCurrentTime(), dayOfWeek(), hours);
 }
