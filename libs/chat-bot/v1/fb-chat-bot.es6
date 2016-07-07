@@ -302,7 +302,6 @@ export default class FbChatBot {
       response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
       response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
       await Context.emptyFields(contextId, ['producer', 'lastAction']);
-
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
         `for producer |${producerId}|.`);
@@ -353,18 +352,17 @@ export default class FbChatBot {
    * @returns {string} the formatted hours that the producer is open for for a certain day
    * @private
    */
-  _getHoursForADay(hours, day)
-  {
+  _getHoursForADay(hours, day) {
     let openHours = '';
     _.forEach(hours, hour => {
-      if(hour.day === day) {
+      if (hour.day === day) {
         const openMoment = new Moment(hour.openTime, 'HH:mm');
-        let open  = '';
+        let open = '';
         const closeMoment = new Moment(hour.closeTime, 'HH:mm');
-        let close  = '';
-        if(openMoment.minute() == 0) open = openMoment.format('h a');
+        let close = '';
+        if (openMoment.minute() === 0) open = openMoment.format('h a');
         else open = openMoment.format('h:mm a');
-        if(closeMoment.minutes() === 0) close = closeMoment.format('h a');
+        if (closeMoment.minutes() === 0) close = closeMoment.format('h a');
         else close = closeMoment.format('h:mm a');
         console.log(open);
         console.log(close);
@@ -500,10 +498,10 @@ export default class FbChatBot {
         hourArr.push(Hour.format(hour));
       });
       openHours += `${hourArr.join(', ')}\n`;
+
     });
     return openHours;
  }
-
 
   /**
    * Executed after the producer presses the Order Again button
