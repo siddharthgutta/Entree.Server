@@ -202,13 +202,14 @@ export async function getHours(id) {
   return (await Producer.findOne(id)).hours;
 }
 
+
 /**
  * Gets the servers current time
  *
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  return new Moment('HH:mm');
+  return new Moment(new Moment().format('HH:mm'), 'HH:mm');
 }
 /**
  * Gives the user the day of the week it is
@@ -259,7 +260,7 @@ export async function findOpen() {
  * @returns {boolean} whether or not the hours correspond to being open
  */
 export function isOpenHelper(time, dayOfTheWeek, hours) {
-  console.log(time + '\n\n' + dayOfTheWeek);
+  console.log(time.format('h a') + '\n\n' + dayOfTheWeek);
   for (const hour of hours) {
     const open = new Moment(hour.openTime, 'HH:mm');
     const close = new Moment(hour.closeTime, 'HH:mm');
