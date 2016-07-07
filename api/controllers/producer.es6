@@ -208,18 +208,17 @@ export function dayOfWeek() {
 /**
  *
  * @param {Moment} time: the time to check as a number
- * @param {String} dayWeek: the day of the week to check
+ * @param {String} dayOfTheWeek: the day of the week to check
  * @returns {Array} an array of producers that are open based on the parameters
  */
-export async function findOpenHelper(time, dayWeek) {
+export async function findOpenHelper(time, dayOfTheWeek) {
   const prodArr = [];
   const prodEnabled = await findAllEnabled();
   _.forEach(prodEnabled, prod => {
     _.forEach(prod.hours, hour => {
       const open = new Moment(hour.openTime, 'HH:mm');
       const close = new Moment(hour.closeTime, 'HH:mm');
-      if (hour.day === dayWeek &&
-        (time.isAfter(open) && time.isBefore(close))) {
+      if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
         return false;
       }
@@ -234,7 +233,34 @@ export async function findOpenHelper(time, dayWeek) {
  * @returns {Array} an array of producers that are open
  */
 export async function findOpen() {
-  const time = getCurrentTime();
-  const dayWeek = dayOfWeek();
-  return findOpenHelper(time, dayWeek);
+  return findOpenHelper(getCurrentTime(), dayOfWeek());
+}
+
+/**
+ * Helper function for the isOpen function
+ *
+ * @param {Moment} time: the time to check as a number
+ * @param {String} dayOfTheWeek: the day of the week to check
+ * @param {Array<hour>} hours: the hours to check
+ * @returns {boolean} whether or not the hours correspond to being open
+ */
+export async function isOpenHelper(time, dayOfTheWeek, hours) {
+  for (const hour of hours) {
+    const open = new Moment(hour.openTime, 'HH:mm');
+    const close = new Moment(hour.closeTime, 'HH:mm');
+    if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/**
+ * Checks if the given hours correspond to being open or not
+ *
+ * @param {Array<hour>} hours: the hours to check
+ * @returns {boolean} whether or not the hours correspond to being open
+ */
+export async function isOpen(hours) {
+  return isOpenHelper(getCurrentTime(), dayOfWeek(), hours);
 }

@@ -7,7 +7,7 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageMessageData} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -20,7 +20,8 @@ export const events = {
   postback: 'Postback',
   text: 'Text',
   attachment: 'Attachment',
-  delivery: 'Delivery'
+  delivery: 'Delivery',
+  quickReply: 'Quick Reply'
 };
 
 export default class FbChatBot {
@@ -28,18 +29,21 @@ export default class FbChatBot {
     // TODO Implement a base class that handles versioning
     this.msgPlatform = msgPlatform;
 
-    // Delete a current conversation of Messenger (only on Desktop Messenger)
-    // Then, search for the bot you are trying to have a conversation with
-    // Then, the welcome message should be shown
-    /* Setup welcome message */
-    /*
-    const welcomeMessage = new ButtonMessageData(`Hello! I'm Entrée, a personal assistant designed to help you order ` +
-      `food ahead for pick-up at food trucks. With just a few taps, clicks, or messages you can order food faster ` +
-      `and easier than ever! Tap the "Show Trucks" button below to see a selection of food trucks you can order ` +
-      `ahead from.`);
-    welcomeMessage.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
-    msgPlatform.setWelcomeMessage(welcomeMessage.toJSON());
-    */
+    // Sets the payload for the get started message
+    this.msgPlatform.setGetStartedButton(this._genPayload(actions.getStarted));
+
+    // Sets up the persistent menu
+    const callToActions = new CallToAction();
+    callToActions.pushLinkButton('Entrée Website', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Help', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Request a Truck ', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Contact', `https://entreebot.com`);
+    // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
+    callToActions.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
+    this.msgPlatform.setPersistentMenu(callToActions.toJSON());
+
+    // Sets the Greeting text
+    this.msgPlatform.setGreetingText('Entrée helps you find and order ahead from the best food trucks around you.');
   }
 
   /**
@@ -55,6 +59,9 @@ export default class FbChatBot {
     switch (this._getEventType(event)) {
       case events.postback:
         output = await this._handlePostback(event, consumer);
+        break;
+      case events.quickReply:
+        output = await this._handleQuickReply(event, consumer);
         break;
       case events.text:
         output = await this._handleText(event, consumer);
@@ -75,6 +82,35 @@ export default class FbChatBot {
   }
 
   /**
+   * Handles quick reply events
+   *
+   * @param {Object} event: input event from messenger
+   * @param {Consumer} consumer: consumer object from database
+   * @returns {Object}: messenger output
+   */
+  async _handleQuickReply(event, consumer) {
+    let payload, action;
+    try {
+      payload = JSON.parse(event.message.quick_reply.payload);
+      action = this._getAction(payload);
+    } catch (err) {
+      throw new Error('Could not get payload or action for quick reply event', err);
+    }
+    switch (action) {
+      case actions.seeProducers:
+        return this._handleSeeProducers();
+      case actions.moreInfo:
+        return await this._handleMoreInfo(payload);
+      case actions.menu:
+        return this._handleMenu(payload);
+      case actions.orderPrompt:
+        return await this._handleOrderPrompt(payload, consumer);
+      default:
+        throw Error('Invalid quick reply payload action');
+    }
+  }
+
+  /**
    * Handles postback events
    *
    * @param {Object} event: input event from messenger
@@ -88,8 +124,9 @@ export default class FbChatBot {
     } catch (err) {
       throw new Error('Could not get payload or action for event', err);
     }
-
     switch (action) {
+      case actions.getStarted:
+        return this._handleGetStarted();
       case actions.seeProducers:
         return this._handleSeeProducers();
       case actions.moreInfo:
@@ -99,7 +136,7 @@ export default class FbChatBot {
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload, consumer);
       default:
-        throw Error('Invalid payload action');
+        throw Error('Invalid postback payload action');
     }
   }
 
@@ -129,6 +166,14 @@ export default class FbChatBot {
    */
   async _handleText(event, consumer) {
     const text = event.message.text;
+
+    // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
+    if (/^(yes)|(cancel)$/.test(text.toLowerCase())) {
+      console.log(`Consumer |${consumer._id}| typed in [${text}]`);
+      return [];
+    }
+    // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
+
     try {
       const {context} = consumer;
       switch (context.lastAction) {
@@ -154,6 +199,21 @@ export default class FbChatBot {
   */
 
   /**
+   * Handles the get started button being pressed
+   *
+   * @returns {[ButtonMessageData]}: returns the button message data for the welcome message
+   * @private
+   */
+  _handleGetStarted() {
+    const button = new ButtonMessageData(`Hello! I'm Entrée, a personal assistant designed to help you order ` +
+      `food ahead for pick-up at food trucks. With just a few taps, clicks, or messages you can order food faster ` +
+      `and easier than ever! Tap the "Show Trucks" button below to see a selection of food trucks you can order ` +
+      `ahead from.`);
+    button.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
+    return [button];
+  }
+
+  /**
    * Handle the menu actions by sending menu link image
    *
    * @param {Object} payload: payload passed from postback button
@@ -164,9 +224,9 @@ export default class FbChatBot {
     try {
       const {producerId} = this._getData(payload);
       const producer = await Producer.findOneByObjectId(producerId);
-      image = new ImageMessageData(producer.menuLink);
-      button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen or ` +
-        `choose one of the options below.`);
+      image = new ImageAttachmentMessageData(producer.menuLink);
+      button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
+        `or choose one of the following options.`);
       button.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
@@ -431,6 +491,10 @@ export default class FbChatBot {
   _getEventType(event) {
     if (event.postback) {
       return events.postback;
+    }
+
+    if (event.message && event.message.quick_reply) {
+      return events.quickReply;
     }
 
     if (event.message && event.message.text) {
