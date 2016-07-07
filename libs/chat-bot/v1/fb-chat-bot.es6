@@ -1,7 +1,6 @@
 /* Disabling lint rule since it doesn't make sense. */
 /* eslint-disable babel/generator-star-spacing,one-var,valid-jsdoc */
 
-import _ from 'lodash';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
@@ -14,7 +13,7 @@ import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
 import Moment from 'moment';
-
+import _ from 'lodash';
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -394,40 +393,29 @@ export default class FbChatBot {
 
     return [text];
   }
-
-  /**
-   * Formats a producers hours to show in more info
-   * @param {Object} hours: the hours from the producer to format
-   * @returns {string} the formatted hours to display
-   * @private
-   */
-   _formatHours(hours) {
-     let str = '';
-     _.forEach(hours, hour => {
-       let open = new Moment(hour.openTime, 'HH:mm');
-       let close = new Moment(hour.closeTime, 'HH:mm');
-       if (open.minutes() === 0) {
-         open = new Moment(hour.openTime, 'HH:mm').format('h A');
-       } else {
-         open = new Moment(hour.openTime, 'HH:mm').format('h:mm A');
-       }
-       if (close.minutes() === 0) {
-         close = new Moment(hour.closeTime, 'HH:mm').format('h A');
-       } else {
-         close = new Moment(hour.closeTime, 'HH:mm').format('h:mm A');
-       }
-       const day = new Moment(hour.day, 'dddd').format('ddd');
-       str += `${day}: ${open}-${close}\n`;
-     });
-     return str;
-   }
-
-  _checkOpen(hours) {
+  _formatHours(hours) {
     let str = '';
-    if (Producer.isOpen(hours)) str = ' is currently open! :D';
-    else str = ' is currently closed. :(';
+    _.forEach(hours, hour => {
+      let openTest = new Moment(hour.openTime, 'HH:mm');
+      let open = '';
+      let close = '';
+      if(openTest.minute() === 0) open = openTest.format('h a');
+      else open = openTest.format('h:mm a');
+      let closeTest = new Moment(hour.closeTime, 'HH:mm');
+      if(closeTest.minute() == 0) close = closeTest.format('h a');
+      else close = closeTest.format('h:mm a');
+      let day =  new Moment(hour.day, 'dddd').format('ddd');
+      str += `${day}: ${open}-${close}\n`;
+    });
     return str;
   }
+
+  _checkOpen(hours) {
+    console.log('\n\n\n\n' + Producer.isOpen(hours));
+    if(Producer.isOpen(hours)) return ` is currently open! :D`;
+    else return ` is currently closed. :(`
+  }
+
   /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
    *
@@ -442,8 +430,9 @@ export default class FbChatBot {
       const producer = await Producer.findOneByObjectId(producerId);
       const hours = this._formatHours(producer.hours);
       const open = this._checkOpen(producer.hours);
-      button = new ButtonMessageData(`Here is more information about ${producer.name}.\n${producer.name}` +
+      button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
             `\n${producer.name}${open}\nHours:\n${hours}`);
+      // TODO Google Maps Insert Location Information Here
       button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
       button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
