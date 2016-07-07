@@ -13,51 +13,5 @@
     "producer": {
       "enabled": true
     }
-  },
-  "hours":
-  [{
-    "day": "Monday",
-    "openTime": "17:00",
-    "closeTime": "22:00"
-  },
-    {
-      "day": "Tuesday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "17:00",
-      "closeTime": "24:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "00:00",
-      "closeTime": "03:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "17:00",
-      "closeTime": "24:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "00:00",
-      "closeTime": "03:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    }]
+  }
 }
