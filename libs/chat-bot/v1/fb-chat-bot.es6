@@ -485,8 +485,7 @@ export default class FbChatBot {
     return [text];
   }
 
-
-  /**
+    /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
    *
    * @param {Object} payload: Producer tht was searched
