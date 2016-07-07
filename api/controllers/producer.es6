@@ -156,6 +156,7 @@ export async function deleteAllHours(id) {
   });
   return await prod.save();
 }
+
 /**
  * Deletes specific hour objects for a specific producer
  * @param {String} id: unique identifier to find the producer
