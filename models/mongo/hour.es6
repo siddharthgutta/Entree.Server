@@ -12,12 +12,12 @@ const hourSchema = new mongoose.Schema({
   openTime: {
     type: String,
     required: true,
-    validate: /^(([2][0-4])|([0-1][0-9])):[0-5][0-9]$/
+    validate: /^((([2][0-3])|([0-1][0-9])):[0-5][0-9])|([2][4]:[0][0])$/
   },
   closeTime: {
     type: String,
     required: true,
-    validate: /^(([2][0-4])|([0-1][0-9])):[0-5][0-9]$/
+    validate: /^((([2][0-3])|([0-1][0-9])):[0-5][0-9])|([2][4]:[0][0])$/
   }
 });
 hourSchema.pre('validate', function (next) {

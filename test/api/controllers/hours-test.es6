@@ -26,14 +26,22 @@ describe('Hours DB API', () => {
   });
   describe('#create', () => {
     it('should create an hour object successfully', async () => {
-      const checkHour = await hour.create('Monday', '07:00', '21:00');
+      const checkHour = await hour.create('Monday', '07:00', '24:00');
       assert.equal(checkHour.day, 'Monday');
       assert.equal(checkHour.openTime, '07:00');
-      assert.equal(checkHour.closeTime, '21:00');
+      assert.equal(checkHour.closeTime, '24:00');
     });
-    it('should fail', async () => {
+    it('should fail if the hour is 24 and has any minutes', async () => {
       try {
-        await hour.create('Monday', '12:00', '25:00');
+        await hour.create('Monday', '12:00', '24:01');
+      } catch (e) {
+        return;
+      }
+      assert(false);
+    });
+    it('should fail if the hour is above 24', async () => {
+      try {
+        await hour.create('Monday', '12:00', '25:0');
       } catch (e) {
         return;
       }
