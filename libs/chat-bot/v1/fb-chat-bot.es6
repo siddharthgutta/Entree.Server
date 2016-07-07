@@ -345,6 +345,27 @@ export default class FbChatBot {
     return [response];
   }
 
+  _getHoursForADay(hours, day)
+  {
+    let str = '';
+    _.forEach(hours, hour => {
+      if(hour.day === day) {
+        const openMoment = new Moment(hour.openTime, 'HH:mm');
+        let open  = '';
+        const closeMoment = new Moment(hour.closeTime, 'HH:mm');
+        let close  = '';
+        if(openMoment.minute() == 0) open = openMoment.format('h a');
+        else open = openMoment.format('h:mm a');
+        if(closeMoment.minutes() === 0) close = closeMoment.format('h a');
+        else close = closeMoment.format('h:mm a');
+        console.log(open);
+        console.log(close);
+        str+= `${open}-${close}\n`;
+      }
+    });
+    return str;
+  }
+
   /**
    * Gets the hours a producer is open on for a certain day
    * @param {Array} hours: an array of hours for a producer
