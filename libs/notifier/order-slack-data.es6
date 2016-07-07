@@ -4,7 +4,6 @@
 
 import SlackData from './slack-data.es6';
 import * as Runtime from '../../libs/runtime.es6';
-import _ from 'lodash';
 
 const dataType = `${Runtime.isProduction() ? 'REAL' : 'FAKE'}`;
 
@@ -64,4 +63,3 @@ export default class OrderSlackData extends SlackData {
     return super.getData();
   }
 }
-
