@@ -260,7 +260,6 @@ export async function findOpen() {
  * @returns {boolean} whether or not the hours correspond to being open
  */
 export function isOpenHelper(time, dayOfTheWeek, hours) {
-  console.log(time.format('h a') + '\n\n' + dayOfTheWeek);
   for (const hour of hours) {
     const open = new Moment(hour.openTime, 'HH:mm');
     const close = new Moment(hour.closeTime, 'HH:mm');
