@@ -41,7 +41,7 @@ describe('Hours DB API', () => {
     });
     it('should fail if the hour is above 24', async () => {
       try {
-        await hour.create('Monday', '12:00', '25:0');
+        await hour.create('Monday', '12:00', '25:00');
       } catch (e) {
         return;
       }
