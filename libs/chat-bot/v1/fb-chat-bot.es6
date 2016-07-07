@@ -253,15 +253,30 @@ export default class FbChatBot {
     try {
       const order = await Order.create(text, producerId, consumerId);
       const producer = await Producer.findOneByObjectId(producerId);
-      await Order.pushOrderByObjectId([consumer, producer], order._id);
-      await Context.emptyFields(contextId, ['producer', 'lastAction']);
+      if (Producer.isOpen(producer.hours)) {
 
-      // Send order message to slack
-      await this._sendOrderMessage(consumer, producer, order);
+        await Order.pushOrderByObjectId([consumer, producer], order._id);
+        await Context.emptyFields(contextId, ['producer', 'lastAction']);
 
-      response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
-      response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
-      await Context.emptyFields(contextId, ['lastAction']);
+        // Send order message to slack
+        await this._sendOrderMessage(consumer, producer, order);
+
+        response = new ButtonMessageData('Your order has been sent. We will let you know when it has been accepted!');
+        response.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
+        await Context.emptyFields(contextId, ['lastAction']);
+      }
+      else {
+        const day  = new Moment();
+        const tmrw = day.add(1, 'day').format('dddd');
+        let today = this._getHoursForADay(producer.hours, new Moment().format('dddd'));
+        let tomorrow =  this._getHoursForADay(producer.hours, tmrw);
+        if(tomorrow.length === 0) tomorrow = 'Closed';
+        if(today.length === 0) today = 'Closed\n';
+        response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
+          `Today's Hours: ${today}Tomorrow's Hours: ${tomorrow}`);
+        response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+
+      }
     } catch (err) {
       throw new Error(`Could not handle incoming order \"${text}\" from consumer |${consumerId}| ` +
         `for producer |${producerId}|.`);
@@ -305,9 +320,16 @@ export default class FbChatBot {
     return [response];
   }
 
+  /**
+   * Gets the hours a producer is open on for a certain day
+   * @param {Array} hours: an array of hours for a producer
+   * @param {string} day: the day of the week to check the hours for
+   * @returns {string} the formatted hours that the producer is open for for a certain day
+   * @private
+   */
   _getHoursForADay(hours, day)
   {
-    let str = '';
+    let openHours = '';
     _.forEach(hours, hour => {
       if(hour.day === day) {
         const openMoment = new Moment(hour.openTime, 'HH:mm');
@@ -320,10 +342,10 @@ export default class FbChatBot {
         else close = closeMoment.format('h:mm a');
         console.log(open);
         console.log(close);
-        str+= `${open}-${close}\n`;
+        openHours += `${open}-${close}\n`;
       }
     });
-    return str;
+    return openHours;
   }
 
   /**
@@ -391,6 +413,40 @@ export default class FbChatBot {
   }
 
   /**
+   * Formats the hours to display for a propducer
+   * @param {Array} hours: an array of hours to traverse and format
+   * @returns {string} the formatted hours for the producer
+   * @private
+   */
+  _formatHours(hours) {
+    let openHours = '';
+    _.forEach(hours, hour => {
+      let openMoment = new Moment(hour.openTime, 'HH:mm');
+      let open = '';
+      let close = '';
+      if(openMoment.minute() === 0) open = openMoment.format('h a');
+      else open = openMoment.format('h:mm a');
+      let closeMoment = new Moment(hour.closeTime, 'HH:mm');
+      if(closeMoment.minute() == 0) close = closeMoment.format('h a');
+      else close = closeMoment.format('h:mm a');
+      let day =  new Moment(hour.day, 'dddd').format('ddd');
+      openHours += `${day}: ${open}-${close}\n`;
+    });
+    return openHours;
+  }
+
+  /**
+   *
+   * @param {Array} hours: an array of hours to traverse and check if are in the current time
+   * @returns {string} a message if the producer is open or not
+   * @private
+   */
+  _checkOpen(hours) {
+    if(Producer.isOpen(hours)) return ` is currently open! :D`;
+    else return ` is currently closed. :(`
+  }
+
+  /**
    * Executed after the producer presses the Order Again button
    *
    * @returns {Object}: Button containing instructions on what to do next
@@ -428,27 +484,7 @@ export default class FbChatBot {
 
     return [text];
   }
-  _formatHours(hours) {
-    let str = '';
-    _.forEach(hours, hour => {
-      let openTest = new Moment(hour.openTime, 'HH:mm');
-      let open = '';
-      let close = '';
-      if(openTest.minute() === 0) open = openTest.format('h a');
-      else open = openTest.format('h:mm a');
-      let closeTest = new Moment(hour.closeTime, 'HH:mm');
-      if(closeTest.minute() == 0) close = closeTest.format('h a');
-      else close = closeTest.format('h:mm a');
-      let day =  new Moment(hour.day, 'dddd').format('ddd');
-      str += `${day}: ${open}-${close}\n`;
-    });
-    return str;
-  }
 
-  _checkOpen(hours) {
-    if(Producer.isOpen(hours)) return ` is currently open! :D`;
-    else return ` is currently closed. :(`
-  }
 
   /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
