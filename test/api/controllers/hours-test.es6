@@ -26,12 +26,20 @@ describe('Hours DB API', () => {
   });
   describe('#create', () => {
     it('should create an hour object successfully', async () => {
-      const checkHour = await hour.create('Monday', '07:00', '21:00');
+      const checkHour = await hour.create('Monday', '07:00', '24:00');
       assert.equal(checkHour.day, 'Monday');
       assert.equal(checkHour.openTime, '07:00');
-      assert.equal(checkHour.closeTime, '21:00');
+      assert.equal(checkHour.closeTime, '24:00');
     });
-    it('should fail', async () => {
+    it('should fail if the hour is 24 and has any minutes', async () => {
+      try {
+        await hour.create('Monday', '12:00', '24:01');
+      } catch (e) {
+        return;
+      }
+      assert(false);
+    });
+    it('should fail if the hour is above 24', async () => {
       try {
         await hour.create('Monday', '12:00', '25:00');
       } catch (e) {
@@ -256,6 +264,27 @@ describe('Hours DB API', () => {
       const hour6 = await hour.create('Saturday', hours.open2, hours.close2);
       const hourOpen5 = await Producer.isOpenHelper(new Moment('06:00', 'HH:mm'), 'Wednesday', [hour5, hour6]);
       assert.equal(false, hourOpen5);
+    });
+  });
+  describe('#deleteAllHours', async () => {
+    it('should delete all hours', async () => {
+      const hours = {
+        day: 'Wednesday',
+        open1: '07:00',
+        open2: '08:00',
+        close1: '20:00',
+        close2: '22:00'
+      };
+      const hour1 = await hour.create(hours.day, hours.open1, hours.close1);
+      const hour2 = await hour.create('Sunday', hours.open2, hours.close2);
+      const location = await Location.createWithCoord(lat, long);
+      const {_id} = await Producer._create(name, 'nav!', password, description,
+        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: true}, merchant: {merchantId: '1232abc'}});
+      await Producer.addHours(_id, [hour1, hour2]);
+      await Producer.deleteAllHours(_id);
+      const prod = await Producer.findOneByObjectId(_id);
+      assert.equal(0, prod.hours.length);
     });
   });
 });
