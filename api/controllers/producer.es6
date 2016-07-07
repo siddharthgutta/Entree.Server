@@ -160,7 +160,7 @@ export async function deleteAllHours(id) {
  * Deletes specific hour objects for a specific producer
  * @param {String} id: unique identifier to find the producer
  * @param {Array} hourIds: the id of the hour to delete
- * @returns {Promise} removed object
+ * @returns {Promise} the new producer without hours
  */
 export async function deleteHours(id, hourIds) {
   const prod = await Producer.findOne(id);
