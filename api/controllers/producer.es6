@@ -232,6 +232,7 @@ export async function getHours(id) {
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
+  console.log(moment().format('HH:mm'));
   return moment();
 }
 
