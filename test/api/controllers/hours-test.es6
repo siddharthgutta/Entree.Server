@@ -2,7 +2,7 @@ import * as hour from '../../../api/controllers/hour.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 import * as Producer from '../../../api/controllers/producer.es6';
-import Moment from 'moment';
+import moment from 'moment';
 import * as Location from '../../../api/controllers/location.es6';
 
 describe('Hours DB API', () => {
@@ -229,7 +229,7 @@ describe('Hours DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour3, hour4]);
       await Producer.addHours(id3, [hour5]);
-      const openProds = await Producer.findOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday');
+      const openProds = await Producer.findOpenHelper(moment('12:00', 'HH:mm'), 'Wednesday');
       assert.equal(openProds[0].hours[0].day, 'Wednesday');
       assert.equal(openProds[1].hours[1].day, 'Monday');
     });
@@ -245,24 +245,24 @@ describe('Hours DB API', () => {
     };
     it('should work because the given current hour is within the open time (hour object)', async () => {
       const hour1 = await hour.create(hours.day, hours.open1, hours.close1);
-      const hourOpen1 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour1]);
+      const hourOpen1 = Producer.isOpenHelper(moment('12:00', 'HH:mm'), 'Wednesday', [hour1]);
       assert.equal(true, hourOpen1);
     });
     it('should work because the given current hour is within the multiple open times (hour objects)', async () => {
       const hour2 = await hour.create(hours.day, hours.open1, hours.close1);
       const hour3 = await hour.create('Thursday', '06:00', '17:00');
-      const hourOpen2 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour2, hour3]);
+      const hourOpen2 = Producer.isOpenHelper(moment('12:00', 'HH:mm'), 'Wednesday', [hour2, hour3]);
       assert.equal(true, hourOpen2);
     });
     it('should fail because the given current hour is not within the open time (hour object)', async () => {
       const hour4 = await hour.create('Thursday', hours.open2, hours.close2);
-      const hourOpen4 = await Producer.isOpenHelper(new Moment('12:00', 'HH:mm'), 'Wednesday', [hour4]);
+      const hourOpen4 = Producer.isOpenHelper(moment('12:00', 'HH:mm'), 'Wednesday', [hour4]);
       assert.equal(false, hourOpen4);
     });
     it('should fail because the given current hour is not within the multiple open times (hour objects)', async () => {
       const hour5 = await hour.create('Wednesday', hours.open1, hours.close1);
       const hour6 = await hour.create('Saturday', hours.open2, hours.close2);
-      const hourOpen5 = await Producer.isOpenHelper(new Moment('06:00', 'HH:mm'), 'Wednesday', [hour5, hour6]);
+      const hourOpen5 = Producer.isOpenHelper(moment('06:00', 'HH:mm'), 'Wednesday', [hour5, hour6]);
       assert.equal(false, hourOpen5);
     });
   });

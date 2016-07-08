@@ -1,8 +1,10 @@
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Location from '../../../api/controllers/location.es6';
+import * as hour from '../../../api/controllers/hour.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
+import _ from 'lodash';
 
 describe('Consumer DB API', () => {
   const fbId = 'The Id';
@@ -211,8 +213,8 @@ describe('Consumer DB API', () => {
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, latitude, longitude);
       const dists = await Consumer.findDistanceFromProducerCoordinates(consumer.fbId, [producer1, producer2]);
-      assert.equal(dists[0].distance, 0.7);
-      assert.equal(dists[1].distance, 0.9);
+      assert.equal(dists[0]._distance, 0.7);
+      assert.equal(dists[1]._distance, 0.9);
     });
   });
 
@@ -229,10 +231,17 @@ describe('Consumer DB API', () => {
     const transactionFee = 30;
     const latitude = 33.044165;
     const longitude = -96.815312;
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
     it('should get the closest producers to the consumer', async () => {
-      await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
-        percentageFee, transactionFee, menuLink, {
+      let hours = [];
+      _(days).forEach(async day => {
+        hours.push(hour.create(day, '00:00', '24:00'));
+      });
+      hours = await Promise.all(hours);
+
+      const {_id: id1} = await Producer.create(name, username, password, description, profileImage,
+        exampleOrder, address, percentageFee, transactionFee, menuLink, {
           merchant: {
             merchantId: '987654'
           },
@@ -240,24 +249,33 @@ describe('Consumer DB API', () => {
             enabled: true
           }
         });
+      await Producer.addHours(id1, hours);
       const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
-      await Producer._create('El Queso', 'bowl', 'burrito', 'another description', profileImage, exampleOrder,
-        quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+      const {_id: id2} = await Producer._create('El Queso', 'bowl', 'burrito', 'another description',
+        profileImage, exampleOrder, quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+      await Producer.addHours(id2, hours);
       const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
-      await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
-          eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+      const {_id: id3} = await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive',
+        'www.eatzi.com', exampleOrder, eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
           merchant: {merchantId: '123456'}});
+      await Producer.addHours(id3, hours);
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, latitude, longitude);
 
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 4);
       assert.equal(results.length, 2);
-      assert.equal(results[0].producer.name, 'Eatzis');
-      assert.equal(results[1].producer.name, 'El Queso');
+      assert.equal(results[0].name, 'Eatzis');
+      assert.equal(results[1].name, 'El Queso');
     });
 
     it('should limit the producers', async () => {
-      await Producer.create(name, username, password, description, profileImage, exampleOrder,
+      let hours = [];
+      _(days).forEach(async day => {
+        hours.push(hour.create(day, '00:00', '24:00'));
+      });
+      hours = await Promise.all(hours);
+
+      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, exampleOrder,
         address, percentageFee, transactionFee, menuLink, {
           merchant: {
             merchantId: '987654'
@@ -266,19 +284,22 @@ describe('Consumer DB API', () => {
             enabled: true
           }
         });
+      await Producer.addHours(id1, hours);
       const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
-      await Producer._create('El Queso', 'bowl', 'burrito', 'another description', profileImage, exampleOrder,
-        quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+      const {_id: id2} = await Producer._create('El Queso', 'bowl', 'burrito', 'another description',
+        profileImage, exampleOrder, quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+      await Producer.addHours(id2, hours);
       const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
-      await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com', exampleOrder,
-        eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+      const {_id: id3} = await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com',
+        exampleOrder, eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
           merchant: {merchantId: '123456'}});
+      await Producer.addHours(id3, hours);
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, latitude, longitude);
 
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
       assert.equal(results.length, 1);
-      assert.equal(results[0].producer.name, 'Eatzis');
+      assert.equal(results[0].name, 'Eatzis');
     });
   });
 });
