@@ -227,7 +227,6 @@ export async function getHours(id) {
   return (await Producer.findOne(id)).hours;
 }
 
-
 /**
  * Gets the servers current time
  *

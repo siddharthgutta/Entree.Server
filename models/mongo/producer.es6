@@ -2,19 +2,8 @@ import mongoose from 'mongoose';
 import hour from './hour.es6';
 import moment from 'moment';
 import _ from 'lodash';
-import * as Util from '../../libs/utils.es6';
 import * as Hour from '../../libs/hour.es6';
 
-function hourDict(hours) {
-  const innerObj = {};
-  _.forEach(hours, time => {
-    if (Util.isEmpty(innerObj[time.day])) {
-      innerObj[time.day] = [];
-    }
-    innerObj[time.day].push(time);
-  });
-  return innerObj;
-}
 
 /**
  * Sorts the hours in buckets then sorts the buckets using the hourComp function
@@ -24,14 +13,13 @@ function hourDict(hours) {
  */
 function hourCheck(hours) {
   let ret = true;
-
   const hourKV = Hour.hourDict(hours);
   _.forIn(hourKV, valArr => {
     for (let k = 0; k < valArr.length - 1; k++) {
       const firstOpen = moment(valArr[k].openTime, 'HH:mm');
       const firstClose = moment(valArr[k].closeTime, 'HH:mm');
       const second = moment(valArr[k + 1].openTime, 'HH:mm');
-      if (second.isAfter(firstOpen) && second.isBefore(firstClose)) {
+      if (second.isSame(firstOpen) || (second.isAfter(firstOpen) && second.isBefore(firstClose))) {
         ret = false;
         return false;
       }

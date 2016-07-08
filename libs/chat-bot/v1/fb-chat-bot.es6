@@ -354,25 +354,19 @@ export default class FbChatBot {
    */
   _getHoursForADay(hours, day) {
     let openHours = '';
+    const hourArr = [];
     _.forEach(hours, hour => {
       if (hour.day === day) {
-        const openMoment = new Moment(hour.openTime, 'HH:mm');
-        let open = '';
-        const closeMoment = new Moment(hour.closeTime, 'HH:mm');
-        let close = '';
-        if (openMoment.minute() === 0) open = openMoment.format('h a');
-        else open = openMoment.format('h:mm a');
-        if (closeMoment.minutes() === 0) close = closeMoment.format('h a');
-        else close = closeMoment.format('h:mm a');
-        console.log(open);
-        console.log(close);
-        openHours += `${open}-${close}\n`;
+        hourArr.push(Hour.format(hour));
       }
+      openHours = hourArr.join(', ');
     });
+    if (openHours.length === 0) openHours = 'Closed';
     return openHours;
   }
 
   /**
+<<<<<<< 9fae59763d3f1b5f725a4a36417c727199bcf6fb
    * Gets the hours a producer is open on for a certain day
    * @param {Array} hours: an array of hours for a producer
    * @param {string} day: the day of the week to check the hours for
@@ -393,6 +387,8 @@ export default class FbChatBot {
   }
 
   /**
+=======
+>>>>>>> fixed kevins comments
    * Finds the hours for the day its closed and the next day
    *
    * @param {Object} producer: the producer to find the closed hours for
@@ -498,10 +494,9 @@ export default class FbChatBot {
         hourArr.push(Hour.format(hour));
       });
       openHours += `${hourArr.join(', ')}\n`;
-
     });
     return openHours;
- }
+  }
 
   /**
    * Executed after the producer presses the Order Again button
