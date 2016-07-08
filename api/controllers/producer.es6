@@ -6,7 +6,7 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
-import Moment from 'moment';
+import moment from 'moment';
 
 /**
  * Find the producer from its object id
@@ -156,6 +156,7 @@ export async function deleteAllHours(id) {
   });
   return await prod.save();
 }
+
 /**
  * Deletes specific hour objects for a specific producer
  * @param {String} id: unique identifier to find the producer
@@ -207,7 +208,7 @@ export async function getHours(id) {
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  return new Moment('HH:mm');
+  return moment();
 }
 /**
  * Gives the user the day of the week it is
@@ -215,7 +216,7 @@ export function getCurrentTime() {
  * @returns {String} the day of the week it is (ie 'Monday')
  */
 export function dayOfWeek() {
-  return new Moment().format('dddd');
+  return moment().format('dddd');
 }
 
 /**
@@ -229,8 +230,8 @@ export async function findOpenHelper(time, dayOfTheWeek) {
   const prodEnabled = await findAllEnabled();
   _.forEach(prodEnabled, prod => {
     _.forEach(prod.hours, hour => {
-      const open = new Moment(hour.openTime, 'HH:mm');
-      const close = new Moment(hour.closeTime, 'HH:mm');
+      const open = moment(hour.openTime, 'HH:mm');
+      const close = moment(hour.closeTime, 'HH:mm');
       if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
         return false;
@@ -257,10 +258,10 @@ export async function findOpen() {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpenHelper(time, dayOfTheWeek, hours) {
+export function isOpenHelper(time, dayOfTheWeek, hours) {
   for (const hour of hours) {
-    const open = new Moment(hour.openTime, 'HH:mm');
-    const close = new Moment(hour.closeTime, 'HH:mm');
+    const open = moment(hour.openTime, 'HH:mm');
+    const close = moment(hour.closeTime, 'HH:mm');
     if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
       return true;
     }
@@ -274,6 +275,6 @@ export async function isOpenHelper(time, dayOfTheWeek, hours) {
  * @param {Array<hour>} hours: the hours to check
  * @returns {boolean} whether or not the hours correspond to being open
  */
-export async function isOpen(hours) {
+export function isOpen(hours) {
   return isOpenHelper(getCurrentTime(), dayOfWeek(), hours);
 }
