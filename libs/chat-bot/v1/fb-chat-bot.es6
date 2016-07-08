@@ -354,14 +354,14 @@ export default class FbChatBot {
    * @private
    */
   _getHoursForADay(hours, day) {
-    let openHours = '';
+    let openHours;
     const hourArr = [];
     _.forEach(hours, hour => {
       if (hour.day === day) {
         hourArr.push(Hour.format(hour));
       }
-      openHours = hourArr.join(', ');
     });
+    openHours = hourArr.join(', ');
     if (openHours.length === 0) openHours = 'Closed';
     return openHours;
   }
@@ -400,9 +400,8 @@ export default class FbChatBot {
     let response;
     const day = moment();
     const tmrw = day.add(1, 'day').format('dddd');
-    const today = this._getHoursForADay(producer.hours, moment().format('dddd'));
-    let tomorrow = this._getHoursForADay(producer.hours, tmrw);
-    if (tomorrow.length === 0) tomorrow = 'Closed';
+    const today = this._getHoursForADay(producer.hours, day.format('dddd'));
+    const tomorrow = this._getHoursForADay(producer.hours, tmrw);
     response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
       `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
     response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
@@ -426,7 +425,7 @@ export default class FbChatBot {
       const {context: {_id: contextId}} = consumer;
       await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-          `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
+        `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
       response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
     } catch (err) {
       throw new Error('Failed to create handle order message');
@@ -485,18 +484,17 @@ export default class FbChatBot {
    * @private
    */
   _formatHours(hours) {
-    let openHours = '';
+    const openHours = [];
     const arr = Hour.hourDict(hours);
     _.forEach(arr, bucket => {
       const hourArr = [];
       const day = moment(bucket[0].day, 'dddd').format('ddd');
-      openHours += `${day}: `;
       _.forEach(bucket, hour => {
         hourArr.push(Hour.format(hour));
       });
-      openHours += `${hourArr.join(', ')}\n`;
+      openHours.push(`${day}: ${hourArr.join(', ')}`);
     });
-    return openHours;
+    return `${openHours.join('\n')}`;
   }
 
   /**

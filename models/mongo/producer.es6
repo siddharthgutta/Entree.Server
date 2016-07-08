@@ -13,12 +13,12 @@ import * as Hour from '../../libs/hour.es6';
  */
 function hourCheck(hours) {
   let ret = true;
-  const hourKV = Hour.hourDict(hours);
-  _.forIn(hourKV, valArr => {
-    for (let k = 0; k < valArr.length - 1; k++) {
-      const firstOpen = moment(valArr[k].openTime, 'HH:mm');
-      const firstClose = moment(valArr[k].closeTime, 'HH:mm');
-      const second = moment(valArr[k + 1].openTime, 'HH:mm');
+  const prodHours = Hour.hourDict(hours);
+  _.forIn(prodHours, hoursArray => {
+    for (let k = 0; k < hoursArray.length - 1; k++) {
+      const firstOpen = moment(hoursArray[k].openTime, 'HH:mm');
+      const firstClose = moment(hoursArray[k].closeTime, 'HH:mm');
+      const second = moment(hoursArray[k + 1].openTime, 'HH:mm');
       if (second.isSame(firstOpen) || (second.isAfter(firstOpen) && second.isBefore(firstClose))) {
         ret = false;
         return false;

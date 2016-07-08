@@ -38,12 +38,8 @@ export function hourDict(hours) {
 
 export function format(hour) {
   const openMoment = moment(hour.openTime, 'HH:mm');
-  let open = '';
   const closeMoment = moment(hour.closeTime, 'HH:mm');
-  let close = '';
-  if (openMoment.minute() === 0) open = openMoment.format('h A');
-  else open = openMoment.format('h:mm A');
-  if (closeMoment.minute() === 0) close = closeMoment.format('h A');
-  else close = closeMoment.format('h:mm A');
+  const open = (openMoment.minute() === 0 ? openMoment.format('h A') : openMoment.format('h:mm A'));
+  const close = (closeMoment.minute() === 0 ? closeMoment.format('h A') : closeMoment.format('h:mm A'));
   return `${open}-${close}`;
 }
