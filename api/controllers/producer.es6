@@ -228,7 +228,6 @@ export async function getHours(id) {
   return (await Producer.findOne(id)).hours;
 }
 
-
 /**
  * Gets the servers current time
  *
@@ -260,7 +259,6 @@ export async function findOpenHelper(time, dayOfTheWeek) {
     _.forEach(prod.hours, hour => {
       const open = moment(hour.openTime, 'HH:mm');
       const close = moment(hour.closeTime, 'HH:mm');
-
       if (hour.day === dayOfTheWeek && (time.isAfter(open) && time.isBefore(close))) {
         prodArr.push(prod);
         return false;
