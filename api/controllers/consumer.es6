@@ -22,6 +22,14 @@ export async function _create(contextId, optional = {}) {
   return await Consumer.create({context: contextId, ...optional});
 }
 
+/**
+ * Finds a user and populates the fields specified
+ *
+ * @param {String} fbId: the facebook id of the consumer
+ * @param {Array<String>} populateFields: the fields to populate
+ * @returns {Promise} returns the populated consumer from the database
+ * @private
+ */
 export async function _findOne(fbId, populateFields = []) {
   return await Consumer.findOne(fbId, populateFields);
 }
@@ -93,8 +101,8 @@ export async function addLocation(fbId, lat, long) {
  * and returns an array specifying the distance from each given producer
  *
  * @param {String} fbId: facebook id of the consumer
- * @param {Array<Producer>} producers: the producers whose location we are comparing with
- * @returns {Array<Object>} an array of objects of the format {producer: p, distance: d}
+ * @param {Array<Producer>} producers: the producers whose location we are comparing with; can also be an object
+ * @returns {Array<Producer>} an array of producers with an additional field specifying distance
  */
 export async function findDistanceFromProducerCoordinates(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
@@ -112,10 +120,9 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
 
   const results = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
   _(results).forEach(value => {
-    const innerObj = {};
-    innerObj.producer = idsToProducers[value.key];
-    innerObj.distance = value.distance;
-    distances.push(innerObj);
+    const producerWithDistance = idsToProducers[value.key];
+    producerWithDistance._distance = value.distance;
+    distances.push(producerWithDistance);
   });
   return distances;
 }
@@ -127,19 +134,18 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
  * @param {String} fbId: facebook id of the consumer
  * @param {number} radius: the radius in miles to search for producers across
  * @param {number} limit: number of results desired
- * @returns {Array<Object>} closest producers within the specified radius with each object
- * of the format {producer: p, distance: d}
+ * @returns {Array<Producer>} closest producers within the specified radius with each producer along with a distance
+ * field
  */
 export async function getClosestEnabledProducers(fbId, radius, limit) {
   const enabled = await Producer.findAllEnabled();
   const closest = [];
   const producerDists = await findDistanceFromProducerCoordinates(fbId, enabled);
 
-  _(producerDists).forEach(obj => {
-    if (obj.distance < radius) {
-      closest.push(obj);
+  _(producerDists).forEach(producer => {
+    if (producer._distance < radius && Producer.isOpen(producer.hours)) {
+      closest.push(producer);
     }
   });
-
   return closest.slice(0, limit);
 }
