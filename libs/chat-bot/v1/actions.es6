@@ -9,6 +9,5 @@ export const actions = {
   otherTrucks: 'Other Trucks',
   location: 'Location',
   existingLocation: 'Existing Location',
-  newLocation: 'New Location',
-  hour: 'Hours'
+  newLocation: 'New Location'
 };

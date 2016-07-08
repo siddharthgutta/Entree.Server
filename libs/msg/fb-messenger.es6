@@ -70,7 +70,6 @@ export default class FBMessenger extends MsgPlatform {
   }
 
   /**
-
    * Sets the greeting text
    * Note: To delete the welcome message, pass in no parameter
    *

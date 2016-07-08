@@ -35,7 +35,11 @@ export function hourDict(hours) {
   return innerObj;
 }
 
-
+/**
+ * Formats the hours objects into strings
+ * @param {Object} hour: hour to traverse and make into a string
+ * @returns {string} a formatted string of the times the producer is open
+ */
 export function format(hour) {
   const openMoment = moment(hour.openTime, 'HH:mm');
   const closeMoment = moment(hour.closeTime, 'HH:mm');

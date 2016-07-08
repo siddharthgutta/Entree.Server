@@ -97,14 +97,10 @@ export default class FbChatBot {
       throw new Error('Could not get payload or action for quick reply event', err);
     }
     switch (action) {
-      case actions.seeProducers:
-        return this._handleSeeProducers();
-      case actions.moreInfo:
-        return await this._handleMoreInfo(payload);
-      case actions.menu:
-        return this._handleMenu(payload);
-      case actions.orderPrompt:
-        return await this._handleOrderPrompt(payload, consumer);
+      case actions.existingLocation:
+        return this._handleSeeProducers(consumer);
+      case actions.newLocation:
+        return this._handleNewLocationPrompt(consumer);
       default:
         throw Error('Invalid quick reply payload action');
     }
@@ -348,6 +344,7 @@ export default class FbChatBot {
 
   /**
    * Gets the hours a producer is open on for a certain day
+   *
    * @param {Array} hours: an array of hours for a producer
    * @param {string} day: the day of the week to check the hours for
    * @returns {string} the formatted hours that the producer is open for for a certain day
@@ -367,8 +364,8 @@ export default class FbChatBot {
   }
 
   /**
-<<<<<<< 9fae59763d3f1b5f725a4a36417c727199bcf6fb
    * Gets the hours a producer is open on for a certain day
+   *
    * @param {Array} hours: an array of hours for a producer
    * @param {string} day: the day of the week to check the hours for
    * @returns {string} the formatted hours that the producer is open for for a certain day
@@ -388,8 +385,6 @@ export default class FbChatBot {
   }
 
   /**
-=======
->>>>>>> fixed kevins comments
    * Finds the hours for the day its closed and the next day
    *
    * @param {Object} producer: the producer to find the closed hours for
