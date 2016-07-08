@@ -1,26 +1,50 @@
 machine:
   node:
+    # Use node version 5.5.0
     version: 5.5.0
+
+database:
+  pre:
+    # Stop MongoDB
+    - sudo service mongodb stop
+    # Download MongoDB 3.2.3
+    - curl -Ol https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1204-3.2.3.tgz
+    # Untar it
+    - tar -zxvf mongodb-linux-x86_64-ubuntu1204-3.2.3.tgz
+    # Create data directory
+    - mkdir -p ./data/db
+    # Fork MongoDB and log to './mongod.log'. Print the log file if it failed.
+    - ./mongodb-linux-x86_64-ubuntu1204-3.2.3/bin/mongod --dbpath ./data/db --logpath ./mongod.log --fork || cat ./mongod.log
 
 dependencies:
   pre:
+    # Install all dependencies
     - npm install -g npm
 
 test:
   pre:
+    # Run Lint
     - npm run lint
+    # Compile needed files
     - grunt lazy-compile
   override:
+    # Run tests
     - npm run tests
 
 deployment:
   production:
+    # Use master branch for production
     branch: master
     commands:
+      # Take away permissions from pem key
       - chmod 400 ./keys/entree.pem
+      # SSH into server and run deploy_prod script
       - ssh ubuntu@ec2-52-38-63-13.us-west-2.compute.amazonaws.com -i ./keys/entree.pem 'bash -s' < ./scripts/deploy_prod.sh
   staging:
+    # Use non-master branch for staging
     branch: /^(?!master$).*/
     commands:
+      # Take away permissions from pem key
       - chmod 400 ./keys/entree.pem
+      # SSH into server and run deploy_staging script passing it the name of the branch
       - ssh ubuntu@ec2-52-41-69-134.us-west-2.compute.amazonaws.com -i ./keys/entree.pem 'bash -s' < ./scripts/deploy_staging.sh $CIRCLE_BRANCH
