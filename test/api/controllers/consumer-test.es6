@@ -63,6 +63,16 @@ describe('Consumer DB API', () => {
     });
   });
 
+  describe('#findOneByFields()', () => {
+    it('should find a consumer correctly', async () => {
+      await Consumer.createFbConsumer(fbId, optionalAttributes);
+      const consumer = await Consumer.findOneByFields({fbId, firstName: optionalAttributes.consumer.firstName,
+        lastName: optionalAttributes.consumer.lastName, customerId: optionalAttributes.consumer.customerId,
+        receiptCount: optionalAttributes.consumer.receiptCount});
+      assert.ok(consumer.context);
+    });
+  });
+
   describe('#setFieldsByFbId', () => {
     const updatedFields = {
       firstName: 'Jill',

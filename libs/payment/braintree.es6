@@ -7,54 +7,101 @@ import braintree from 'braintree';
 import Promise from 'bluebird';
 import _ from 'lodash';
 import * as Utils from '../utils.es6';
+import Runtime from '../runtime.es6';
+import {Router} from 'express';
+import bodyParser from 'body-parser';
 
 export default class Braintree extends PaymentStrategy {
   /**
    * Constructs the gateway for braintree transactions/operations to occur
    *
-   * @param {Boolean} production: boolean switch for creating Sandbox or Production gateway
    * @param {String} merchantId: Braintree Account's merchant identification
    * @param {String} publicKey: Braintree Account's public key
    * @param {String} privateKey: Braintree Account's private key
    * @param {String} masterMerchantAccountId: Master Merchant Account Id set on Braintree Account
+   * @param {Function} parseCallback: callback to be fired when receiving an incoming request
    * @returns {Braintree}: Braintree object
    */
-  constructor(production = false, merchantId, publicKey, privateKey, masterMerchantAccountId) {
+  constructor(merchantId, publicKey, privateKey, masterMerchantAccountId, parseCallback) {
     super();
+    const isProduction = Runtime.isProduction();
     this.masterMerchantAccountId = masterMerchantAccountId;
-    const btEnv = production ? braintree.Environment.Production : braintree.Environment.Sandbox;
     this.gateway = braintree.connect({
-      environment: btEnv,
+      environment: isProduction ? braintree.Environment.Production : braintree.Environment.Sandbox,
       merchantId,
       publicKey,
       privateKey
     });
+    this.parseCallback = parseCallback;
   }
 
   /**
+   * Helper function to parse the incoming requests
+   *
+   * @param {String} btSignature: braintree signature
+   * @param {String} btPayload: braintree payload
+   * @returns {Promise}: webhooknotification or error
+   * @private
+   */
+  async _parseRequest(btSignature, btPayload) {
+    return new Promise((resolve, reject) => {
+      this.gateway.webhookNotification.parse(btSignature, btPayload, async (err, webhookNotification) => {
+        if (err) reject(new Error('Webhook Notification Parsing Error - [Probably Incorrect Gateway]'));
+        else {
+          await this.parseCallback(webhookNotification);
+          resolve(webhookNotification);
+        }
+      });
+    });
+  }
+
+  /**
+   * Webhook for Braintree Webhook Notifications
+   *
+   * @returns {null} return object not used
+   */
+  initRouter() {
+    /**
+     * Braintree Slack Bot
+     *
+     * @type {Slack}
+     */
+    const route = new Router();
+    route.use(bodyParser.urlencoded({extended: true}));
+
+    route.post(`/webhooks`, async (req, res) => {
+      const btSignature = req.body.bt_signature;
+      const btPayload = req.body.bt_payload;
+      try {
+        if (Utils.isEmpty(btSignature) || Utils.isEmpty(btPayload)) {
+          throw new Error('Empty Braintree Signature/Payload');
+        }
+
+        // Call Parse Callback
+        await this._parseRequest(btSignature, btPayload);
+        res.status(200).send('Webhook Success');
+      } catch (err) {
+        console.error(err);
+        res.status(500).send('Webhook Failed');
+      }
+    });
+    return route;
+  }
+
+  /**
+   * DISCLAIMER: FOR TESTING PURPOSES ONLY
    * Gives the Braintree Sandbox Gateway for testing
    *
-   * @returns {Braintree.gateway} braintree gateway Promise
+   * @returns {Promise} Promise contiaining braintree gateway
    */
   async getGateway() {
     return new Promise((resolve, reject) => {
-      if (this.production) {
-        reject(new Error('Cannot get gateway in Production Mode. Gateway is used only for testing.'));
+      if (!Runtime.isTest()) {
+        reject(new Error('Cannot get gateway in a non-testing Mode. Gateway is used only for testing.'));
       } else {
         resolve(this.gateway);
       }
     });
-  }
-
-  // Unsure if necessary yet
-  /**
-   * Normalizing phone number for insertion into braintree calls
-   *
-   * @param {String} phoneNumber: phone number to normalize in the following form: NNNNNNNNNN
-   * @returns {string} phoneNumber string in the following form: NNN.NNN.NNNN
-   */
-  normalizePhoneNumber(phoneNumber) {
-    return [phoneNumber.substr(0, 3), phoneNumber.substr(3, 3), phoneNumber.substr(6, 4)].join('.');
   }
 
   /**
@@ -193,15 +240,14 @@ export default class Braintree extends PaymentStrategy {
    *
    * @param {String} firstName: first name from client
    * @param {String} lastName: last name from client
-   * @param {String} phone: phone number of user from server
    * @param {String} paymentMethodNonce: nonce for payment from client
    * @returns {Promise}:  promise containing result of customer creation
    *
    */
-  createCustomer(firstName, lastName, phone, paymentMethodNonce) {
+  createCustomer(firstName, lastName, paymentMethodNonce) {
     return new Promise((resolve, reject) => {
       const creditCard = {options: {makeDefault: true, verifyCard: true}};
-      this.gateway.customer.create({firstName, lastName, phone, paymentMethodNonce, creditCard}, (err, result) => {
+      this.gateway.customer.create({firstName, lastName, paymentMethodNonce, creditCard}, (err, result) => {
         if (err) reject(err);
         else if (!result.success) reject(result);
         resolve(result);

@@ -3,7 +3,7 @@
  */
 
 import SlackData from '../../../libs/notifier/slack-data.es6';
-import OrderSlackData from '../../../libs/notifier/order-slack-data.es6';
+import TypedSlackData from '../../../libs/notifier/typed-slack-data.es6';
 import assert from 'assert';
 
 // Commented out since this will spam the #orders channel
@@ -302,7 +302,7 @@ describe('Slack Data', () => {
     });
   });
 
-  describe('#OrderSlackData', () => {
+  describe('#TypedSlackData', () => {
     it('should create a basic order slack data object successfully', async () => {
       const correctAttachments = [
         {
@@ -334,8 +334,10 @@ describe('Slack Data', () => {
       const correctSlackData = {
         attachments: JSON.stringify(correctAttachments)
       };
-      const slackData = new OrderSlackData();
-      slackData.pushAttachment('good', 'pretext');
+      const slackData = new TypedSlackData();
+      slackData.pushAttachment();
+      slackData.setColor('good');
+      slackData.setPretext('pretext');
       slackData.pushField('Test Field 1', 'Test Value 1');
       slackData.pushField('Test Field 2', 'Test Value 2');
       slackData.setFallback('fallback text');
@@ -346,8 +348,10 @@ describe('Slack Data', () => {
   // Commented out since this will spam the #orders channel
   /*
   it('should successfully send a slack message', async () => {
-    const slackData = new OrderSlackData();
-    slackData.pushAttachment('danger', 'pretext');
+    const slackData = new TypedSlackData();
+    slackData.pushAttachment();
+    slackData.setColor('danger');
+    slackData.setPretext('pretext');
     slackData.pushField('Test Field 1', 'Test Value 1');
     slackData.pushField('Test Field 2', 'Test Value 2');
     slackData.setFallback('fallback text');

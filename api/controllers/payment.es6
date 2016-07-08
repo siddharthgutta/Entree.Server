@@ -6,16 +6,14 @@ import Braintree from '../../libs/payment/braintree.es6';
 import * as Consumer from './consumer.es6';
 import * as Producer from './producer.es6';
 import config from 'config';
-import Slack from '../../libs/notifier/slack.es6';
-import Promise from 'bluebird';
+import TypedSlackData from '../../libs/notifier/typed-slack-data.es6';
 import braintree from 'braintree';
-import {Router} from 'express';
-import bodyParser from 'body-parser';
 import * as Runtime from '../../libs/runtime.es6';
 import selectn from 'selectn';
 import {isEmpty} from '../../libs/utils.es6';
+import * as Slack from './slack.es6';
 
-const slackConfigs = config.get('Slack.Braintree');
+const slackChannelId = config.get('Slack.braintree.channelId');
 
 // Braintree Config credentials for Production or Sandbox
 const productionOrSandbox = Runtime.isProduction();
@@ -23,133 +21,22 @@ const braintreeCreds = config.get(`Braintree.${productionOrSandbox ? 'production
 console.log(`Braintree Init: ${productionOrSandbox}`);
 
 /**
- * Payment strategy for Production or Sandbox
- * @type {Braintree}
- */
-const bt = new Braintree(productionOrSandbox, braintreeCreds.merchantId,
-  braintreeCreds.publicKey, braintreeCreds.privateKey, braintreeCreds.masterMerchantAccountId);
-
-/**
- * Parses braintree signature and payload to check if valid
- *
- * @param {Slack} slackbot: Slack Bot Object to emit
- * @param {String} btSignature: braintree signature
- * @param {String} btPayload: braintree payload
- * @returns {Promise} message promise or error
- */
-export function parse(slackbot, btSignature, btPayload, test = false) {
-  return new Promise((resolve, reject) => {
-    bt.getGateway().webhookNotification.parse(btSignature, btPayload, async (err, webhookNotification) => {
-      if (err) reject(new TraceError('Webhook Notification Parsing Error - [Probably Incorrect Gateway]'));
-      else {
-        let color = '#764FA5';
-        const fields = [];
-        let msg = `~~~~~THIS IS ${test ? '' : 'NOT'} A TEST~~~~~`;
-        msg += productionOrSandbox ? `Production\n` : `Sandbox\nTimeStamp: ${webhookNotification.timestamp}\n`;
-        fields.push(Slack.generateField('Environment', productionOrSandbox ? `Production` : `Sandbox`));
-
-        switch (webhookNotification.kind) {
-          case braintree.WebhookNotification.Kind.SubMerchantAccountApproved:
-            color = test ? color : 'good';
-            const dbaName = selectn('business.dbaName', webhookNotification.merchantAccount);
-            fields.push(Slack.generateField('Merchant Account', `Approved`));
-            fields.push(Slack.generateField('Merchant Status', `${webhookNotification.merchantAccount.status}`));
-            fields.push(Slack.generateField('Merchant ID', `${webhookNotification.merchantAccount.id}`));
-            fields.push(Slack.generateField('Merchant Name', isEmpty(dbaName) ? 'Unnamed' : dbaName));
-            msg += `Merchant Account: Approved\nStatus: ${webhookNotification.merchantAccount.status}\n`
-              + `Merchant Id: ${webhookNotification.merchantAccount.id}`;
-            resolve({kind: webhookNotification.kind, result: webhookNotification.merchantAccount});
-            break;
-          case braintree.WebhookNotification.Kind.SubMerchantAccountDeclined:
-            color = test ? color : 'danger';
-            fields.push(Slack.generateField('Merchant Account', `Declined`));
-            fields.push(Slack.generateField('Reason Declined', `${webhookNotification.message}`));
-            msg += `Merchant Account: Declined\nReason: ${webhookNotification.message}`;
-            resolve({message: webhookNotification.message, kind: webhookNotification.kind,
-              errors: webhookNotification.errors});
-            break;
-          case braintree.WebhookNotification.Kind.Disbursement:
-            color = test ? color : 'good';
-            fields.push(Slack.generateField('Disbursement Status', `SUCCESS`));
-            fields.push(Slack.generateField('Amount',
-              `${webhookNotification.disbursement.amount}`));
-            fields.push(Slack.generateField('Disbursement Id',
-              `${webhookNotification.disbursement.id}`));
-            fields.push(Slack.generateField('Date of Disbursement',
-              `${webhookNotification.disbursement.disbursementDate}`));
-            fields.push(Slack.generateField('Transaction Ids',
-              `${webhookNotification.disbursement.transactionIds}`));
-            fields.push(Slack.generateField('Merchant Account Id',
-              `${webhookNotification.disbursement.merchantAccount.id}`));
-            fields.push(Slack.generateField('First Disbursement Attempt?',
-              `${!webhookNotification.disbursement.retry}`));
-            resolve({kind: webhookNotification.kind, result: webhookNotification.disbursement.transactionIds});
-            break;
-          case braintree.WebhookNotification.Kind.DisbursementException:
-            color = test ? color : 'danger';
-            fields.push(Slack.generateField('Disbursement Status',
-              `${webhookNotification.disbursement.exceptionMessage}`));
-            fields.push(Slack.generateField('Amount',
-              `${webhookNotification.disbursement.amount}`));
-            fields.push(Slack.generateField('Disbursement Id',
-              `${webhookNotification.disbursement.id}`));
-            fields.push(Slack.generateField('Date of Disbursement',
-              `${webhookNotification.disbursement.disbursementDate}`));
-            fields.push(Slack.generateField('Transaction Ids',
-              `${webhookNotification.disbursement.transactionIds}`));
-            fields.push(Slack.generateField('Merchant Account Id',
-              `${webhookNotification.disbursement.merchantAccount.id}`));
-            fields.push(Slack.generateField('First Disbursement Attempt?',
-              `${!webhookNotification.disbursement.retry}`));
-            fields.push(Slack.generateField('Follow Up Action',
-              `${webhookNotification.disbursement.followUpAction}`));
-            fields.push(Slack.generateField('Reason for Failed Disbursement',
-              `${webhookNotification.disbursement.disbursementDate}`));
-            resolve({kind: webhookNotification.kind, result: webhookNotification.merchantAccount});
-            break;
-          case braintree.WebhookNotification.Kind.TransactionDisbursed:
-          // Deprecated by Braintree
-          default:
-            color = test ? color : '#3aa3e3';
-            msg += `Notification Type: ${webhookNotification.kind}`;
-            fields.push(Slack.generateField('Notification Type', `${webhookNotification.kind}`));
-            resolve({error: 'Not Implemented Error', kind: webhookNotification.kind,
-              result: webhookNotification});
-            break;
-        }
-
-        const data = Slack.generateData(msg, color, fields, test);
-
-        // Temporary fix to prevent merchant spam
-        // Making sandbox stop spamming #merchants completely
-        // NOTE: This means only production will fire slack notifications for webhooks
-        // When wanting to test webhooks for sandbox, remove '&& productionOrSandbox'
-        if (!test) {
-          slackbot.send(slackConfigs.channelId, data, '');
-        }
-      }
-    });
-  });
-}
-
-/**
  * Handles the parse results from webhook notifications via braintree
  *
- * @param {braintree.WebhookNotification.Kind} kind: type of braintree webhook notification
- * @param {Object} result: resulting braintree object, i.e. merchantAccount
+ * @param {braintree.WebhookNotification} webhookNotification: braintree webhook notification
  * @returns {Promise}: result of parsing the message
  */
-async function handleParseResult(kind, result) {
-  switch (kind) {
+async function handleParseResult(webhookNotification) {
+  switch (webhookNotification.kind) {
     case braintree.WebhookNotification.Kind.SubMerchantAccountApproved:
       // Requiring an existing producer for a merchantId if in production mode
       if (productionOrSandbox) {
         try {
-          const merchantId = result.id;
+          const merchantId = webhookNotification.merchantAccount.id;
           const producerId = (await Producer.findByMerchantId(merchantId)).get().id;
           await Producer.update(producerId, {merchantApproved: true});
         } catch (err) {
-          throw new TraceError('Could not update merchant to be approved by merchantId', err);
+          throw new Error('Could not update merchant to be approved by merchantId', err);
         }
       }
       break;
@@ -159,39 +46,105 @@ async function handleParseResult(kind, result) {
   }
 }
 
+const nonProductionColor = '#3366cc';
+
 /**
- * Webhook for Braintree Webhook Notifications
+ * Notifies information from the webhook Notification
  *
- * @returns {null} return object not used
+ * @param {braintree.WebhookNotification} webhookNotification: braintree webhook notification
+ * @returns {Null} Unused
+ */
+export async function notify(webhookNotification) {
+  const slackData = new TypedSlackData();
+  slackData.pushAttachment();
+  let fallback = productionOrSandbox ? `Production\n` : `Sandbox\nTimeStamp: ${webhookNotification.timestamp}\n`;
+  switch (webhookNotification.kind) {
+    case braintree.WebhookNotification.Kind.SubMerchantAccountApproved:
+      const dbaName = selectn('business.dbaName', webhookNotification.merchantAccount);
+      slackData.setColor(productionOrSandbox ? 'good' : nonProductionColor);
+      slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
+      slackData.pushField('Merchant Account', `Approved`);
+      slackData.pushField('Merchant Status', `${webhookNotification.merchantAccount.status}`);
+      slackData.pushField('Merchant ID', `${webhookNotification.merchantAccount.id}`);
+      slackData.pushField('Merchant Name', isEmpty(dbaName) ? 'Unnamed' : dbaName);
+      fallback += `INCOMING WEBHOOK NOTIFICATION\nMerchant Account: Approved\n` +
+        `Status: ${webhookNotification.merchantAccount.status}\n` +
+        `Merchant Id: ${webhookNotification.merchantAccount.id}`;
+      break;
+    case braintree.WebhookNotification.Kind.SubMerchantAccountDeclined:
+      slackData.setColor(productionOrSandbox ? 'danger' : nonProductionColor);
+      slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
+      slackData.pushField('Merchant Account', `Declined`);
+      slackData.pushField('Reason Declined', `${webhookNotification.message}`);
+      fallback += `INCOMING WEBHOOK NOTIFICATION\nMerchant Account: Declined\nReason: ${webhookNotification.message}`;
+      break;
+    case braintree.WebhookNotification.Kind.Disbursement:
+      slackData.setColor(productionOrSandbox ? 'good' : nonProductionColor);
+      slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
+      slackData.pushField('Disbursement Status', `SUCCESS`);
+      slackData.pushField('Amount', `${webhookNotification.disbursement.amount}`);
+      slackData.pushField('Disbursement Id', `${webhookNotification.disbursement.id}`);
+      slackData.pushField('Date of Disbursement', `${webhookNotification.disbursement.disbursementDate}`);
+      slackData.pushField('Transaction Ids', `${webhookNotification.disbursement.transactionIds}`);
+      slackData.pushField('Merchant Account Id', `${webhookNotification.disbursement.merchantAccount.id}`);
+      slackData.pushField('First Disbursement Attempt?', `${!webhookNotification.disbursement.retry}`);
+      fallback += `INCOMING WEBHOOK\nDisbursement Status: SUCCESS\n` +
+        `Disbursement Id: ${webhookNotification.disbursement.id}\nAmount:${webhookNotification.disbursement.amount}` +
+        `\n Merchant Id: ${webhookNotification.disbursement.merchantAccount.id}`;
+
+      break;
+    case braintree.WebhookNotification.Kind.DisbursementException:
+      slackData.setColor(productionOrSandbox ? 'danger' : nonProductionColor);
+      slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
+      slackData.pushField('Disbursement Status', `${webhookNotification.disbursement.exceptionMessage}`);
+      slackData.pushField('Amount', `${webhookNotification.disbursement.amount}`);
+      slackData.pushField('Disbursement Id', `${webhookNotification.disbursement.id}`);
+      slackData.pushField('Date of Disbursement', `${webhookNotification.disbursement.disbursementDate}`);
+      slackData.pushField('Transaction Ids', `${webhookNotification.disbursement.transactionIds}`, false);
+      slackData.pushField('Merchant Account Id', `${webhookNotification.disbursement.merchantAccount.id}`);
+      slackData.pushField('First Disbursement Attempt?', `${!webhookNotification.disbursement.retry}`);
+      slackData.pushField('Follow Up Action', `${webhookNotification.disbursement.followUpAction}`);
+      slackData.pushField('Reason for Failed Disbursement', `${webhookNotification.disbursement.disbursementDate}`);
+      fallback += `INCOMING WEBHOOK\nDisbursement Status: ${webhookNotification.disbursement.exceptionMessage}\n` +
+        `Disbursement Id: ${webhookNotification.disbursement.id}\nAmount:${webhookNotification.disbursement.amount}` +
+        `\n Merchant Id: ${webhookNotification.disbursement.merchantAccount.id}`;
+      break;
+    case braintree.WebhookNotification.Kind.TransactionDisbursed:
+    // Deprecated by Braintree
+    default:
+      slackData.setColor(productionOrSandbox ? 'warning' : nonProductionColor);
+      slackData.setPretext('UNSUPPORTED WEBHOOK NOTIFICATION');
+      slackData.pushField('Notification Type', `${webhookNotification.kind}`);
+      fallback += `UNSUPPORTED WEBHOOK NOTIFICATION\nNotification Type: ${webhookNotification.kind}`;
+      break;
+  }
+  slackData.setFallback(fallback);
+  await Slack.sendMessage(slackChannelId, slackData);
+}
+
+/**
+ * Callback to pass into payment system
+ * @param {braintree.WebhookNotification} webhookNotification: braintree webhook notification
+ * @returns {Null}: Unused
+ */
+async function handleRequest(webhookNotification) {
+  notify(webhookNotification);
+  await handleParseResult(webhookNotification);
+}
+
+/**
+ * Payment strategy for Production or Sandbox
+ * @type {Braintree}
+ */
+const bt = new Braintree(braintreeCreds.merchantId, braintreeCreds.publicKey,
+  braintreeCreds.privateKey, braintreeCreds.masterMerchantAccountId, handleRequest);
+
+/**
+ * Initializes router
+ * @returns {Router}: router to be set
  */
 export function initRouter() {
-  /**
-   * Braintree Slack Bot
-   *
-   * @type {Slack}
-   */
-  const braintreeSlackbot = new Slack(slackConfigs.apiToken, slackConfigs.consumername);
-  const route = new Router();
-  route.use(bodyParser.urlencoded({extended: true}));
-
-  route.post(`/webhooks`, async (req, res) => {
-    const btSignature = req.body.bt_signature;
-    const btPayload = req.body.bt_payload;
-    try {
-      if (!btSignature || !btPayload) {
-        throw new TraceError('Empty Braintree Signature/Payload');
-      }
-
-      // Parse webhook
-      const {kind, result} = await parse(braintreeSlackbot, btSignature, btPayload);
-      await handleParseResult(kind, result);
-      res.status(200).send('Webhook Success');
-    } catch (err) {
-      console.error(err);
-      res.status(500).send('Webhook Failed');
-    }
-  });
-  return route;
+  return bt.initRouter();
 }
 
 /**
@@ -203,7 +156,7 @@ export async function generateClientToken() {
   try {
     return await bt.generateClientToken();
   } catch (err) {
-    throw new TraceError('Client Generation Token Error for generateClientToken', err);
+    throw new Error('Client Generation Token Error for generateClientToken', err);
   }
 }
 
@@ -237,21 +190,19 @@ async function makePayment(amount, merchantId, name, paymentMethodToken, custome
  * Create customer with Braintree and execute initial transaction
  * OR add new payment for existing customer
  *
- * @param {String} consumerId: id of the consumer
+ * @param {String} fbId: fbId of the consumer
  * @param {String} paymentMethodNonce: nonce from client browser
  * @returns {Promise}: result of the transaction or error
  */
-export async function registerPaymentForConsumer(consumerId, paymentMethodNonce) {
+export async function registerPaymentForConsumer(fbId, paymentMethodNonce) {
   let customerResult;
   let consumer;
   try {
-    consumer = await Consumer.findOne(consumerId);
+    consumer = await Consumer.findOneByFbId(fbId);
   } catch (findConsumerErr) {
-    throw new TraceError('Failed to find Consumer by Id for registerPaymentForConsumer', findConsumerErr);
+    throw new Error('Failed to find Consumer by Id for registerPaymentForConsumer', findConsumerErr);
   }
-  const phone = consumer.phoneNumber;
   let customerId = consumer.customerId;
-  // @bluejamesbond use these log statements to debug the front end
   // Your payment method nonce should be different each time the submit button is hit
   // Or else you're not sending a new payment, also paymentMethodNonce should not
   // be an array of values or more than one (saw this bug when I tried another React approach)
@@ -261,22 +212,22 @@ export async function registerPaymentForConsumer(consumerId, paymentMethodNonce)
   console.log(`Customer Id: ${customerId}`);
   */
   // Check if consumer does already have a customerId - indicates that signup2 hasn't occurred
-  if (!customerId) {
+  if (isEmpty(customerId)) {
     try {
       const firstName = consumer.firstName;
       const lastName = consumer.lastName;
 
-      customerResult = await bt.createCustomer(firstName, lastName, phone, paymentMethodNonce);
+      customerResult = await bt.createCustomer(firstName, lastName, paymentMethodNonce);
       customerId = customerResult.customer.id;
       await Consumer.update(consumerId, {customerId});
     } catch (createCustomerErr) {
-      throw new TraceError('Failed to Create Customer for registerPaymentForConsumer', createCustomerErr);
+      throw new Error('Failed to Create Customer for registerPaymentForConsumer', createCustomerErr);
     }
   } else {
     try {
       customerResult = await bt.addNewPaymentMethod(customerId, paymentMethodNonce);
     } catch (addPaymentMethodError) {
-      throw new TraceError('Failed to Find/Update Customer for registerPaymentForConsumer', addPaymentMethodError);
+      throw new Error('Failed to Find/Update Customer for registerPaymentForConsumer', addPaymentMethodError);
     }
   }
   return customerResult;
@@ -294,21 +245,21 @@ export async function registerPaymentForConsumer(consumerId, paymentMethodNonce)
 export async function paymentWithToken(consumerId, producerId, paymentMethodToken, amount) {
   let consumer;
   try {
-    consumer = await Consumer.findOne(consumerId);
+    consumer = await Consumer.findOneByFields(consumerId);
   } catch (findConsumerErr) {
-    throw new TraceError('Failed to find Consumer by Id for paymentWithToken', findConsumerErr);
+    throw new Error('Failed to find Consumer by Id for paymentWithToken', findConsumerErr);
   }
   const customerId = consumer.customerId;
   // Check if consumer does already have a customerId - indicates that signup2 hasn't occurred
   if (!customerId) {
-    throw new TraceError('Customer Id not found for paymentWithToken');
+    throw new Error('Customer Id not found for paymentWithToken');
   }
 
   let producer;
   try {
     producer = await Producer.findOne(producerId);
   } catch (findProducerErr) {
-    throw new TraceError('Failed to find producer by Id for paymentWithToken', findProducerErr);
+    throw new Error('Failed to find producer by Id for paymentWithToken', findProducerErr);
   }
 
   try {
@@ -332,21 +283,21 @@ export async function paymentWithToken(consumerId, producerId, paymentMethodToke
 export async function getCustomerDefaultPayment(consumerId) {
   let customer;
   try {
-    customer = await Consumer.findOne(consumerId);
+    customer = await Consumer.findOneByFields(consumerId);
   } catch (findConsumerErr) {
-    throw new TraceError('Failed to Find Consumer in getCustomerDefaultPayment', findConsumerErr);
+    throw new Error('Failed to Find Consumer in getCustomerDefaultPayment', findConsumerErr);
   }
 
   try {
     customer = await bt.findCustomer(customer.customerId);
   } catch (findCustomerErr) {
-    throw new TraceError('Failed to Find Customer in getCustomerDefaultPayment', findCustomerErr);
+    throw new Error('Failed to Find Customer in getCustomerDefaultPayment', findCustomerErr);
   }
 
   try {
     return await bt.getDefaultPayment(customer);
   } catch (findingPaymentErr) {
-    throw new TraceError('Failed to Find Default Payment Method in getCustomerDefaultPayment', findingPaymentErr);
+    throw new Error('Failed to Find Default Payment Method in getCustomerDefaultPayment', findingPaymentErr);
   }
 }
 
@@ -373,14 +324,14 @@ export async function registerOrUpdateProducerWithPaymentSystem(producerId, indi
     try {
       merchantAccount = await bt.createMerchant(individual, business, funding);
     } catch (createMerchantErr) {
-      throw new TraceError('Failed to create merchant account for registerOrUpdateProducerWithPaymentSystem',
+      throw new Error('Failed to create merchant account for registerOrUpdateProducerWithPaymentSystem',
         createMerchantErr);
     }
 
     try {
       await Producer.update(producerId, {merchantId: merchantAccount.id});
     } catch (producerUpdateErr) {
-      throw new TraceError('Failed to update producer by merchant id for registerOrUpdateProducerWithPaymentSystem',
+      throw new Error('Failed to update producer by merchant id for registerOrUpdateProducerWithPaymentSystem',
         producerUpdateErr);
     }
   }

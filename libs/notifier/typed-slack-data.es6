@@ -7,11 +7,11 @@ import * as Runtime from '../../libs/runtime.es6';
 
 const dataType = `${Runtime.isProduction() ? 'REAL' : 'FAKE'}`;
 
-export default class OrderSlackData extends SlackData {
+export default class TypedSlackData extends SlackData {
   /**
    * Constructor for creating and initializing a slack data object
    *
-   * @returns {OrderSlackData}: returns the OrderSlackData object created
+   * @returns {TypedSlackData}: returns the TypedSlackData object created
    */
   constructor() {
     super();
@@ -20,16 +20,21 @@ export default class OrderSlackData extends SlackData {
   /**
    * Pushes an attachment with color and pretext
    *
-   * @param {String} color: color of the attachment
+   * @returns {null}: unused
+   */
+  pushAttachment() {
+    super.pushAttachment();
+    super.pushField('Environment', Runtime.getEnv());
+    super.pushField('Type', dataType);
+  }
+
+  /**
+   * Sets the pretext for the attachment
    * @param {String} pretext: pretext of the attachment
    * @returns {null}: unused
    */
-  pushAttachment(color, pretext) {
-    super.pushAttachment();
-    super.setColor(color);
+  setPretext(pretext) {
     super.setPretext(`${dataType} | ${pretext}`);
-    super.pushField('Environment', Runtime.getEnv());
-    super.pushField('Type', dataType);
   }
 
   /**
