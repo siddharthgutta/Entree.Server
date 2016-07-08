@@ -17,6 +17,7 @@ import * as Google from '../../../api/controllers/google.es6';
 import * as Utils from '../../utils.es6';
 import moment from 'moment';
 import _ from 'lodash';
+import * as Hour from '../../hour.es6';
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
