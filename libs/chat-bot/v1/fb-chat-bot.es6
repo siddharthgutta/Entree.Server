@@ -9,7 +9,7 @@ import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
-import {constants} from './constants.es6';
+import Constants from './constants.es6';
 import SlackData from '../../../libs/notifier/slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
@@ -102,7 +102,7 @@ export default class FbChatBot {
       case actions.existingLocation:
         return this._handleSeeProducers(consumer);
       case actions.newLocation:
-        return this._handleNewLocation(consumer);
+        return this._handleNewLocationPrompt(consumer);
       default:
         throw Error('Invalid quick reply payload action');
     }
@@ -126,7 +126,7 @@ export default class FbChatBot {
       case actions.getStarted:
         return this._handleGetStarted();
       case actions.seeProducers:
-        return this._handlePromptExistingLocation(consumer);
+        return this._handleExistingLocationPrompt(consumer);
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
       case actions.menu:
@@ -171,15 +171,15 @@ export default class FbChatBot {
     const attachment = event.message.attachments[0];
     try {
       switch (attachment.type) {
-        case constants.location:
+        case Constants.location:
           return await this._handleLocationAttachment(event, consumer);
-        case constants.audio:
+        case Constants.audio:
           return [new TextMessageData('Dank audio bro. Doesn\'t sound as good as ordering food, though.')];
-        case constants.image:
+        case Constants.image:
           return [new TextMessageData('You look lovely in that photo. How about ordering some food, though?')];
-        case constants.file:
+        case Constants.file:
           return [new TextMessageData('Better keep those secret files to yourself and order some food.')];
-        case constants.video:
+        case Constants.video:
           return [new TextMessageData('Whoa! That\'s a bit graphic! Let\'s get back to the food, though.')];
         default:
           throw Error('Invalid attachment sent');
@@ -363,29 +363,30 @@ export default class FbChatBot {
     try {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
-      let producers = await Consumer.getClosestEnabledProducers(consumer.fbId, constants.radius, constants.searchLimit);
+      let producersWithAddresses = await Consumer.getClosestEnabledProducers(consumer.fbId,
+        Constants.radius, Constants.searchLimit);
       response = new GenericMessageData();
 
-      const emptyProducers = producers.length === 0;
+      const emptyProducers = producersWithAddresses.length === 0;
       if (emptyProducers) {
-        text = new TextMessageData(`Sorry, we could not find any trucks near you!` +
-          ` Here are some trucks that are currently open that you might enjoy, though.`);
-        producers = _.shuffle(await Producer.findRandomEnabled());
+        text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
+          ` Here are some trucks that you might enjoy, though.`);
+        const producers = _.shuffle(await Producer.findRandomEnabled());
 
         // Populates the producers from findRandomEnabled() to get address
         for (let k = 0; k < producers.length; k++) {
-          producers[k] = await Producer.findOneByObjectId(producers[k]._id);
+          producers[k] = Producer.findOneByObjectId(producers[k]._id);
         }
+        producersWithAddresses = await Promise.all(producers);
       }
-      _.each(producers, producer => {
-        if (Producer.isOpen(producer.hours)) {
-          const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
-            `${producer.name} (${producer.location.address}) - ${producer.distance} mi`;
-          response.pushElement(title, producer.description, producer.profileImage);
-          response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
-          response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
-          response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
-        }
+
+      _.each(producersWithAddresses, producer => {
+        const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
+          `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
+        response.pushElement(title, producer.description, producer.profileImage);
+        response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
+        response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+        response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
       });
     } catch (err) {
       throw new Error('Failed to generate producers', err);
@@ -419,10 +420,10 @@ export default class FbChatBot {
    * @returns {Object}: Quick reply button containing options 'yes' and 'no'
    * @private
    */
-  async _handlePromptExistingLocation(consumer) {
+  async _handleExistingLocationPrompt(consumer) {
     let response;
     try {
-      if (Utils.isEmpty(consumer.defaultLocation)) return this._handleNewLocation(consumer);
+      if (Utils.isEmpty(consumer.defaultLocation)) return this._handleNewLocationPrompt(consumer);
       response = new QuickReplyMessageData('Do you want us to use the last location you gave us to ' +
         'find trucks near you?');
       response.pushQuickReply('Yes', this._genPayload(actions.existingLocation));
@@ -440,7 +441,7 @@ export default class FbChatBot {
    * @returns {Object}: Instructions on how to submit location
    * @private
    */
-  async _handleNewLocation(consumer) {
+  async _handleNewLocationPrompt(consumer) {
     let text;
     try {
       text = new TextMessageData('Send us your location so we can find the food trucks closest to you. ' +
@@ -488,7 +489,7 @@ export default class FbChatBot {
    */
   async _updateConsumerLocation(event, consumer) {
     const inputText = event.message.text;
-    if (inputText) { /* In this case the input is a zip code */
+    if (!Utils.isEmpty(inputText)) { /* In this case the input is an address */
       try {
         const {lat, lng} = await Google.getLocationCoordinatesFromAddress(inputText);
         await Consumer.addLocation(consumer.fbId, lat, lng);

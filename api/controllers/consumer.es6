@@ -120,9 +120,9 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
 
   const results = Distance.orderByDistance(consumer.defaultLocation.coordinates, obj);
   _(results).forEach(value => {
-    const innerObj = idsToProducers[value.key];
-    innerObj.distance = value.distance;
-    distances.push(innerObj);
+    const producerWithDistance = idsToProducers[value.key];
+    producerWithDistance._distance = value.distance;
+    distances.push(producerWithDistance);
   });
   return distances;
 }
@@ -142,11 +142,10 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
   const closest = [];
   const producerDists = await findDistanceFromProducerCoordinates(fbId, enabled);
 
-  _(producerDists).forEach(obj => {
-    if (obj.distance < radius) {
-      closest.push(obj);
+  _(producerDists).forEach(producer => {
+    if (producer._distance < radius && Producer.isOpen(producer.hours)) {
+      closest.push(producer);
     }
   });
-
   return closest.slice(0, limit);
 }

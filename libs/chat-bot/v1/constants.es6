@@ -1,4 +1,4 @@
-export const constants = {
+const constants = {
   radius: 2,
   searchLimit: 10,
   location: 'location',
@@ -7,3 +7,5 @@ export const constants = {
   file: 'file',
   image: 'image'
 };
+
+export default constants;

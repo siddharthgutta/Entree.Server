@@ -447,12 +447,21 @@ describe('Producer DB API', () => {
       const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
         profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
+      await Producer._create('nice place', shortid.generate(), 'password', 'nice',
+      'profileimage.com', 'example', location, percentageFee, transactionFee, menuLink,
+        {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
       assert.notDeepEqual(id2, id3);
       assert.notDeepEqual(id1, id3);
       const producers = await Producer.findRandomEnabled();
-      assert.equal(producers.length, 2);
+      assert.equal(producers.length, 3);
+      assert.equal(producers[0].enabled, true);
+      assert.equal(producers[1].enabled, true);
+      assert.equal(producers[2].enabled, true);
+      assert.notDeepEqual(producers[0]._id, producers[1]._id);
+      assert.notDeepEqual(producers[0]._id, producers[2]._id);
+      assert.notDeepEqual(producers[1]._id, producers[2]._id);
     });
   });
 
