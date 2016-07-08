@@ -4,7 +4,6 @@ import moment from 'moment';
 import _ from 'lodash';
 import * as Hour from '../../libs/hour.es6';
 
-
 /**
  * Sorts the hours in buckets then sorts the buckets using the hourComp function
  *  then checks to see if the times overlap
