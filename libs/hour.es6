@@ -11,8 +11,8 @@ import _ from 'lodash';
 export function hourComp(first, second) {
   const firstTime = moment(first, 'HH:mm');
   const secondTime = moment(second, 'HH:mm');
-  if (firstTime.isBefore(secondTime)) return 1;
-  else if (firstTime.isAfter(secondTime)) return -1;
+  if (firstTime.isBefore(secondTime)) return -1;
+  else if (firstTime.isAfter(secondTime)) return 1;
   return 0;
 }
 
