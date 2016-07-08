@@ -208,7 +208,7 @@ export async function getHours(id) {
  * @returns {String} the current time in 'HHmm'
  */
 export function getCurrentTime() {
-  return moment(moment().format('HH:mm'), 'HH:mm');
+  return moment();
 }
 /**
  * Gives the user the day of the week it is
