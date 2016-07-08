@@ -53,6 +53,8 @@ elif [[ "$1" == "facebook" ]]; then
     export NODE_PORT=2999
 elif [[ "$1" == "location-button" ]]; then
     export NODE_PORT=2997
+elif [[ "$1" == "hours-button" ]]; then
+    export NODE_PORT=2998
 else
     export NODE_PORT="$(get_unused_port)"
 fi
