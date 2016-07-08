@@ -81,10 +81,11 @@ export async function findAllEnabled(conditions = {}) {
  * Finds random enabled producers with the given conditions
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @param {Number} limit: number of things to find
  * @returns {Promise}: returns the producers found
  */
-export async function findRandomEnabled(conditions = {}) {
-  return await _findWithAggregate(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'});
+export async function findRandomEnabled(conditions = {}, limit = 10) {
+  return await _findWithAggregate(_.merge(conditions, {enabled: true}), limit, {createdAt: 'descending'});
 }
 
 /**

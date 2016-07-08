@@ -454,14 +454,11 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id2);
       assert.notDeepEqual(id2, id3);
       assert.notDeepEqual(id1, id3);
-      const producers = await Producer.findRandomEnabled();
-      assert.equal(producers.length, 3);
+      const producers = await Producer.findRandomEnabled({}, 2);
+      assert.equal(producers.length, 2);
       assert.equal(producers[0].enabled, true);
       assert.equal(producers[1].enabled, true);
-      assert.equal(producers[2].enabled, true);
       assert.notDeepEqual(producers[0]._id, producers[1]._id);
-      assert.notDeepEqual(producers[0]._id, producers[2]._id);
-      assert.notDeepEqual(producers[1]._id, producers[2]._id);
     });
   });
 
