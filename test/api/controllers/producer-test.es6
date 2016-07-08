@@ -453,8 +453,6 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id3);
       const producers = await Producer.findRandomEnabled();
       assert.equal(producers.length, 2);
-      assert.deepEqual(producers[0]._id, id1);
-      assert.deepEqual(producers[1]._id, id3);
     });
   });
 
