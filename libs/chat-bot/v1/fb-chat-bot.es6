@@ -220,7 +220,6 @@ export default class FbChatBot {
     }
   }
 
-
   /**
    * Handles the get started button being pressed
    *
@@ -235,6 +234,7 @@ export default class FbChatBot {
     button.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     return [button];
   }
+
 
   /**
    * Handles the get started button being pressed
