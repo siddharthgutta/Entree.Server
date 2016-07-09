@@ -1,5 +1,5 @@
 const constants = {
-  radius: 2,
+  radius: 4,
   searchLimit: 10,
   location: 'location',
   video: 'video',
