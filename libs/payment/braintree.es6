@@ -7,7 +7,7 @@ import braintree from 'braintree';
 import Promise from 'bluebird';
 import _ from 'lodash';
 import * as Utils from '../utils.es6';
-import Runtime from '../runtime.es6';
+import * as Runtime from '../runtime.es6';
 import {Router} from 'express';
 import bodyParser from 'body-parser';
 
