@@ -39,6 +39,7 @@ export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
    * @returns {*}: location object with lat and lng as keys
    */
   async getLocationFromAddress(addr) {
+    if (!addr.includes('Austin')) addr += 'Austin, TX';
     const responseBody = await this.apiCall(
       'https://maps.googleapis.com/maps/api/geocode/json',
       'GET', {address: addr, key: this.apiKey}
