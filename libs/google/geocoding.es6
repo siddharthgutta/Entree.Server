@@ -39,12 +39,13 @@ export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
    * @returns {*}: location object with lat and lng as keys
    */
   async getLocationFromAddress(addr) {
+    if (!addr.includes('Austin')) addr += 'Austin, TX';
     const responseBody = await this.apiCall(
       'https://maps.googleapis.com/maps/api/geocode/json',
       'GET', {address: addr, key: this.apiKey}
     );
     if (Utils.isEmpty(responseBody.results[0])) throw new Error('Cannot find a valid location from this address');
-    else return responseBody.results[0].geometry.location;
+    return responseBody.results[0].geometry.location;
   }
 
 }
