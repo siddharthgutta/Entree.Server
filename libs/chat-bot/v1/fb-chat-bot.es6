@@ -633,9 +633,10 @@ export default class FbChatBot {
    * @returns {Object}: messenger output
    */
   async _updateConsumerLocation(event, consumer) {
-    const inputText = event.message.text;
+    let inputText = event.message.text;
     if (!Utils.isEmpty(inputText)) { /* In this case the input is an address */
       try {
+        if (!inputText.includes('Austin')) inputText += 'Austin, TX';
         const {lat, lng} = await Google.getLocationCoordinatesFromAddress(inputText);
         await Consumer.addLocation(consumer.fbId, lat, lng);
       } catch (err) {
