@@ -8,7 +8,7 @@ import * as Payment from '../api/controllers/payment.es6';
 const route = new Router();
 
 /**
- * Braintree Router
+ * Payment Router
  * @type {Router}
  */
 route.use(Payment.initRouter());

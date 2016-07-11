@@ -34,14 +34,14 @@ export async function findOneByFields(fields, populateFields = []) {
 }
 
 /**
- * Find and update a producer from their facebook id with specified fields
+ * Find and update a consumer from their facebook id with specified fields
  *
- * @param {String} _id: producer's _id
+ * @param {String} _id: consumer's _id
  * @param {Object} fields: key/value pairs with updated fields
  * @returns {Promise} returns the producer without updates from the database
  */
 export async function updateByObjectId(_id, fields) {
-  return await Producer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true, new: true});
+  return await Consumer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true, new: true});
 }
 
 /**
@@ -52,6 +52,16 @@ export async function updateByObjectId(_id, fields) {
  */
 export async function findOneByFbId(fbId) {
   return await findOneByFields({fbId}, ['context', 'defaultLocation']);
+}
+
+/**
+ * Finds a user by their _id
+ *
+ * @param {String} _id: the facebook id of the consumer
+ * @returns {Query|Promise|*} return the consumer from the database
+ */
+export async function findOneByObjectId(_id) {
+  return await findOneByFields({_id}, ['context', 'defaultLocation']);
 }
 
 /**
@@ -73,7 +83,7 @@ export async function createFbConsumer(fbId, optional = {}) {
  * @param {Object} fields: key/value pairs with updated fields
  * @returns {Consumer} returns the consumer without updates from the database
  */
-export async function setFieldsByFbId(fbId, fields) {
+export async function updateFieldsByFbId(fbId, fields) {
   return await Consumer.findOneAndUpdate({fbId}, {$set: fields}, {runValidators: true});
 }
 

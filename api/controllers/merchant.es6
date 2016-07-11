@@ -45,3 +45,15 @@ export async function setMerchantId(_id, merchantId) {
 export async function create(percentageFee, transactionFee, optional = {}) {
   return await Merchant.create({percentageFee, transactionFee, ...optional});
 }
+
+/**
+ * Calculate service fee for a merchant
+ *
+ * @param {Number} orderTotal: total cost of the order in cents (integer)
+ * @param {Number} percentageFee: merchant's percentage fee (integer) integer %
+ * @param {Number} perTransactionFee: merchant's transaction fee (integer) integer cents
+ * @returns {number} returns the total service fee for an order
+ */
+export function calculateServiceFee(orderTotal, percentageFee, perTransactionFee) {
+  return Math.round(orderTotal * percentageFee / 100 + perTransactionFee);
+}

@@ -15,12 +15,12 @@ export default class Braintree extends PaymentStrategy {
   /**
    * Constructs the gateway for braintree transactions/operations to occur
    *
-   * @param {String} merchantId: Braintree Account's merchant identification
-   * @param {String} publicKey: Braintree Account's public key
-   * @param {String} privateKey: Braintree Account's private key
-   * @param {String} masterMerchantAccountId: Master Merchant Account Id set on Braintree Account
+   * @param {String} merchantId: Payment Account's merchant identification
+   * @param {String} publicKey: Payment Account's public key
+   * @param {String} privateKey: Payment Account's private key
+   * @param {String} masterMerchantAccountId: Master Merchant Account Id set on Payment Account
    * @param {Function} parseCallback: callback to be fired when receiving an incoming request
-   * @returns {Braintree}: Braintree object
+   * @returns {Braintree}: Payment object
    */
   constructor(merchantId, publicKey, privateKey, masterMerchantAccountId, parseCallback) {
     super();
@@ -56,13 +56,13 @@ export default class Braintree extends PaymentStrategy {
   }
 
   /**
-   * Webhook for Braintree Webhook Notifications
+   * Webhook for Payment Webhook Notifications
    *
    * @returns {null} return object not used
    */
   initRouter() {
     /**
-     * Braintree Slack Bot
+     * Payment Slack Bot
      *
      * @type {Slack}
      */
@@ -74,7 +74,7 @@ export default class Braintree extends PaymentStrategy {
       const btPayload = req.body.bt_payload;
       try {
         if (Utils.isEmpty(btSignature) || Utils.isEmpty(btPayload)) {
-          throw new Error('Empty Braintree Signature/Payload');
+          throw new Error('Empty Payment Signature/Payload');
         }
 
         // Call Parse Callback
@@ -90,18 +90,16 @@ export default class Braintree extends PaymentStrategy {
 
   /**
    * DISCLAIMER: FOR TESTING PURPOSES ONLY
-   * Gives the Braintree Sandbox Gateway for testing
+   * Gives the Payment Sandbox Gateway for testing
    *
    * @returns {Promise} Promise contiaining braintree gateway
    */
-  async getGateway() {
-    return new Promise((resolve, reject) => {
-      if (!Runtime.isTest()) {
-        reject(new Error('Cannot get gateway in a non-testing Mode. Gateway is used only for testing.'));
-      } else {
-        resolve(this.gateway);
-      }
-    });
+  getGateway() {
+    if (!Runtime.isTest()) {
+      throw new Error('Cannot get gateway in a non-testing Mode. Gateway is used only for testing.');
+    } else {
+      return this.gateway;
+    }
   }
 
   /**
@@ -201,7 +199,7 @@ export default class Braintree extends PaymentStrategy {
   /**
    * Set an existing transaction as settled from submitted_for_settlement
    * NOTE: THIS IS ONLY USED FOR TESTING PURPOSES AND NOTHING ELSE
-   * Braintree normally does this action on their end
+   * Payment normally does this action on their end
    *
    * @param {String} transactionId: transaction id for the specific transaction of the order
    * @returns {Promise}: promise containing transaction result object
@@ -259,7 +257,7 @@ export default class Braintree extends PaymentStrategy {
    * Retrieves the default payment card Type, last 4 digits,
    * and paymentMethodToken from a customer Object
    *
-   * @param {Customer} customer: Braintree customer object
+   * @param {Customer} customer: Payment customer object
    * @returns {Object}: containing cardType, last4 digits, and paymentMethodToken is they exist
    */
   getDefaultPayment(customer) {
@@ -311,7 +309,7 @@ export default class Braintree extends PaymentStrategy {
   }
 
   /**
-   * Creates a new Braintree merchant account with individual, business, and funding objects
+   * Creates a new Payment merchant account with individual, business, and funding objects
    * These accounts will be used to release funds to
    *
    * Details of what should be passed in to these calls are of the following:
@@ -341,7 +339,7 @@ export default class Braintree extends PaymentStrategy {
   }
 
   /**
-   * Updates an existing Braintree merchant account with individual, business, and funding objects
+   * Updates an existing Payment merchant account with individual, business, and funding objects
    * These accounts will be used to release funds to
    *
    * Details of what should be passed in to these calls are of the following:

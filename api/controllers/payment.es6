@@ -12,10 +12,11 @@ import * as Runtime from '../../libs/runtime.es6';
 import selectn from 'selectn';
 import {isEmpty} from '../../libs/utils.es6';
 import * as Slack from './slack.es6';
+import * as Merchant from './merchant.es6';
 
 const slackChannelId = config.get('Slack.braintree.channelId');
 
-// Braintree Config credentials for Production or Sandbox
+// Payment Config credentials for Production or Sandbox
 const productionOrSandbox = Runtime.isProduction();
 const braintreeCreds = config.get(`Braintree.${productionOrSandbox ? 'production' : 'sandbox'}`);
 console.log(`Braintree Init: ${productionOrSandbox}`);
@@ -110,7 +111,7 @@ export async function notify(webhookNotification) {
         `\n Merchant Id: ${webhookNotification.disbursement.merchantAccount.id}`;
       break;
     case braintree.WebhookNotification.Kind.TransactionDisbursed:
-    // Deprecated by Braintree
+    // Deprecated by Payment
     default:
       slackData.setColor(productionOrSandbox ? 'warning' : nonProductionColor);
       slackData.setPretext('UNSUPPORTED WEBHOOK NOTIFICATION');
@@ -145,6 +146,14 @@ const bt = new Braintree(braintreeCreds.merchantId, braintreeCreds.publicKey,
  */
 export function initRouter() {
   return bt.initRouter();
+}
+
+/**
+ * Gets the gateway for testing purposes
+ * @returns {Promise}: gateway or an error
+ */
+export function getGateway() {
+  return bt.getGateway();
 }
 
 /**
@@ -187,20 +196,20 @@ async function makePayment(amount, merchantId, name, paymentMethodToken, custome
 }
 
 /**
- * Create customer with Braintree and execute initial transaction
+ * Create customer with Payment and execute initial transaction
  * OR add new payment for existing customer
  *
- * @param {String} fbId: fbId of the consumer
+ * @param {String} consumerId: id of the consumer
  * @param {String} paymentMethodNonce: nonce from client browser
  * @returns {Promise}: result of the transaction or error
  */
-export async function registerPaymentForConsumer(fbId, paymentMethodNonce) {
+export async function registerPaymentForConsumer(consumerId, paymentMethodNonce) {
   let customerResult;
   let consumer;
   try {
-    consumer = await Consumer.findOneByFbId(fbId);
+    consumer = await Consumer.findOneByObjectId(consumerId);
   } catch (findConsumerErr) {
-    throw new Error('Failed to find Consumer by Id for registerPaymentForConsumer', findConsumerErr);
+    throw new Error('Failed to find Consumer by FbId for registerPaymentForConsumer', findConsumerErr);
   }
   let customerId = consumer.customerId;
   // Your payment method nonce should be different each time the submit button is hit
@@ -216,18 +225,20 @@ export async function registerPaymentForConsumer(fbId, paymentMethodNonce) {
     try {
       const firstName = consumer.firstName;
       const lastName = consumer.lastName;
-
       customerResult = await bt.createCustomer(firstName, lastName, paymentMethodNonce);
       customerId = customerResult.customer.id;
-      await Consumer.update(consumerId, {customerId});
+      await Consumer.updateByObjectId(consumerId, {customerId});
     } catch (createCustomerErr) {
-      throw new Error('Failed to Create Customer for registerPaymentForConsumer', createCustomerErr);
+      console.log('Failed to Create Customer for registerPaymentForConsumer');
+      console.log(createCustomerErr);
+      throw createCustomerErr;
     }
   } else {
     try {
       customerResult = await bt.addNewPaymentMethod(customerId, paymentMethodNonce);
     } catch (addPaymentMethodError) {
-      throw new Error('Failed to Find/Update Customer for registerPaymentForConsumer', addPaymentMethodError);
+      console.log('Failed to add new payment method to customer');
+      throw addPaymentMethodError;
     }
   }
   return customerResult;
@@ -238,14 +249,14 @@ export async function registerPaymentForConsumer(fbId, paymentMethodNonce) {
  *
  * @param {Number} consumerId: id of the consumer
  * @param {String} producerId: producer ID from db
- * @param {String} paymentMethodToken: payment method token from braintree after calling getDefaultPayment
+ * @param {String} paymentMethodToken: payment method token to purchase by
  * @param {Number} amount: total amount of order in cents $1.00 -> 100
  * @returns {Promise}: result of the transaction or error
  */
 export async function paymentWithToken(consumerId, producerId, paymentMethodToken, amount) {
   let consumer;
   try {
-    consumer = await Consumer.findOneByFields(consumerId);
+    consumer = await Consumer.findOneByObjectId(consumerId);
   } catch (findConsumerErr) {
     throw new Error('Failed to find Consumer by Id for paymentWithToken', findConsumerErr);
   }
@@ -257,18 +268,17 @@ export async function paymentWithToken(consumerId, producerId, paymentMethodToke
 
   let producer;
   try {
-    producer = await Producer.findOne(producerId);
+    producer = await Producer.findOneByObjectId(producerId);
   } catch (findProducerErr) {
     throw new Error('Failed to find producer by Id for paymentWithToken', findProducerErr);
   }
 
   try {
     const amountString = (amount / 100).toString();
-    const serviceFeeString = (bt.calculateServiceFee(amount, producer.percentageFee,
-                                                     producer.transactionFee) / 100).toString();
-    const result = await makePayment(amountString, producer.merchantId, producer.name,
-                                     paymentMethodToken, customerId, serviceFeeString);
-    return result;
+    const serviceFeeString = (Merchant.calculateServiceFee(amount, producer.merchant.percentageFee,
+                                                     producer.merchant.transactionFee) / 100).toString();
+    return await makePayment(amountString, producer.merchant.merchantId, producer.name,
+      paymentMethodToken, customerId, serviceFeeString);
   } catch (transactionError) {
     throw transactionError;
   }
@@ -283,7 +293,7 @@ export async function paymentWithToken(consumerId, producerId, paymentMethodToke
 export async function getCustomerDefaultPayment(consumerId) {
   let customer;
   try {
-    customer = await Consumer.findOneByFields(consumerId);
+    customer = await Consumer.findOneByObjectId(consumerId);
   } catch (findConsumerErr) {
     throw new Error('Failed to Find Consumer in getCustomerDefaultPayment', findConsumerErr);
   }
@@ -302,7 +312,7 @@ export async function getCustomerDefaultPayment(consumerId) {
 }
 
 /**
- * Creates a new Braintree merchant account with individual, business, and funding objects
+ * Creates a new Payment merchant account with individual, business, and funding objects
  * These accounts will be used to release funds to
  *
  * Details of what should be passed in to these calls are of the following:
@@ -316,7 +326,7 @@ export async function getCustomerDefaultPayment(consumerId) {
  * @returns {Promise}: promise containing resulting merchant account object
  */
 export async function registerOrUpdateProducerWithPaymentSystem(producerId, individual, business, funding) {
-  const {merchantId} = await Producer.findOne(producerId);
+  const {merchant: {merchantId}} = await Producer.findOneByObjectId(producerId);
   let merchantAccount;
   if (!isEmpty(merchantId)) {
     merchantAccount = await bt.updateMerchant(merchantId, individual, business, funding);
@@ -329,7 +339,7 @@ export async function registerOrUpdateProducerWithPaymentSystem(producerId, indi
     }
 
     try {
-      await Producer.update(producerId, {merchantId: merchantAccount.id});
+      await Merchant.setMerchantId(merchantId, merchantAccount.id);
     } catch (producerUpdateErr) {
       throw new Error('Failed to update producer by merchant id for registerOrUpdateProducerWithPaymentSystem',
         producerUpdateErr);
@@ -340,13 +350,13 @@ export async function registerOrUpdateProducerWithPaymentSystem(producerId, indi
 }
 
 /**
- * Gets Braintree MerchantAccount object from producer id
+ * Gets Payment MerchantAccount object from producer id
  *
  * @param {String} producerId: producer id
- * @returns {MerchantAccount}: merchant account that exists in Braintree
+ * @returns {MerchantAccount}: merchant account that exists in Payment
  */
 export async function findProducerPaymentSystemInfo(producerId) {
-  const {merchantId} = await Producer.findOne(producerId);
+  const {merchant: {merchantId}} = await Producer.findOneByObjectId(producerId);
   let merchantAccount;
   if (!isEmpty(merchantId)) {
     merchantAccount = await bt.findMerchant(merchantId);
@@ -397,12 +407,15 @@ export async function refundPayment(transactionId) {
 /**
  * Set an existing transaction as settled from submitted_for_settlement
  * NOTE: THIS IS ONLY USED FOR TESTING PURPOSES AND NOTHING ELSE
- * Braintree normally does this action on their end
+ * Payment normally does this action on their end
  *
  * @param {String} transactionId: transaction id for the specific transaction of the order
  * @returns {Promise}: promise containing transaction result object
  */
 export async function setTestTransactionAsSettled(transactionId) {
+  if (!Runtime.isTest()) {
+    throw new Error('setTestTransactionAsSettled is only used for testing purposes and should not be used elsewhere');
+  }
   const result = await bt.setTransactionAsSettled(transactionId);
   return result.transaction;
 }
@@ -416,7 +429,7 @@ export async function setTestTransactionAsSettled(transactionId) {
  * Releasing the correct transactions per merchant is necessary to be done with this function.
  *
  * @param {String} transactionId: id transactions to be released
- * @returns {Promise} Braintree transaction object from result
+ * @returns {Promise} Payment transaction object from result
  */
 export async function releasePaymentToProducer(transactionId) {
   const result = await bt.releaseTransactionsFromEscrow(transactionId);
