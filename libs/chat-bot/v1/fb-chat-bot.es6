@@ -43,6 +43,7 @@ export default class FbChatBot {
     // callToActions.pushLinkButton('Contact', `https://entreebot.com`);
     // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
     callToActions.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
+    callToActions.pushPostbackButton('Update My Location', this._genPayload(actions.updateLocation));
     this.msgPlatform.setPersistentMenu(callToActions.toJSON());
     // Sets the Greeting text
     this.msgPlatform.setGreetingText('Entrée helps you find and order ahead from the best food trucks around you.');
