@@ -99,10 +99,10 @@ describe('Merchant DB API', () => {
     });
   });
 
-  describe('#setMerchantId()', () => {
+  describe('#updateFieldsByObjectId()', () => {
     it('should set a merchantId correctly', async () => {
       const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
-      await Merchant.setMerchantId(_id, merchantId);
+      await Merchant.updateFieldsByObjectId(_id, {merchantId});
       const merchant = await Merchant.findOneByObjectId(_id);
       assert.equal(merchant.merchantId, merchantId);
     });
@@ -110,9 +110,9 @@ describe('Merchant DB API', () => {
     it('should not allow non-unique merchantIds', async () => {
       try {
         const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
-        await Merchant.setMerchantId(_id, merchantId);
+        await Merchant.updateFieldsByObjectId(_id, {merchantId});
         const {_id2} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
-        await Merchant.setMerchantId(_id2, merchantId);
+        await Merchant.updateFieldsByObjectId(_id2, {merchantId});
       } catch (err) {
         return;
       }
@@ -122,7 +122,7 @@ describe('Merchant DB API', () => {
     it('should not allow an empty string merchantId', async () => {
       try {
         const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
-        await Merchant.setMerchantId(_id, '');
+        await Merchant.updateFieldsByObjectId(_id, {merchantId: ''});
       } catch (err) {
         return;
       }
@@ -132,17 +132,30 @@ describe('Merchant DB API', () => {
     it('should not allow a string merchantId longer than 32 characters', async () => {
       try {
         const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
-        await Merchant.setMerchantId(_id, '123456789012345678901234567890123');
+        await Merchant.updateFieldsByObjectId(_id, {merchantId: '123456789012345678901234567890123'});
       } catch (err) {
         return;
       }
       assert(false);
     });
 
+    it('should update all fields or a merchant correctly', async () => {
+      const percentageFee = 17.5;
+      const transactionFee = 50;
+      const approved = true;
+      const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
+      const merchant = await Merchant.updateFieldsByObjectId(_id,
+        {merchantId, percentageFee, transactionFee, approved});
+      assert.equal(merchant.merchantId, merchantId);
+      assert.equal(merchant.approved, approved);
+      assert.equal(merchant.percentageFee, percentageFee);
+      assert.equal(merchant.transactionFee, transactionFee);
+    });
+
     describe('#findOneByMerchantId', () => {
       it('should successfully find the merchant by merchantId', async () => {
         const {_id} = await Merchant.create(attributes.percentageFee, attributes.transactionFee);
-        await Merchant.setMerchantId(_id, merchantId);
+        await Merchant.updateFieldsByObjectId(_id, {merchantId});
         const merchant = await Merchant.findOneByObjectId(_id);
         const merchant2 = await Merchant.findOneByMerchantId(merchantId);
         assert.equal(merchant.percentageFee, merchant2.percentageFee);

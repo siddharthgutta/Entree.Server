@@ -5,6 +5,7 @@
 import Braintree from '../../libs/payment/braintree.es6';
 import * as Consumer from './consumer.es6';
 import * as Producer from './producer.es6';
+import * as Merchant from './merchant.es6';
 import config from 'config';
 import TypedSlackData from '../../libs/notifier/typed-slack-data.es6';
 import braintree from 'braintree';
@@ -12,14 +13,13 @@ import * as Runtime from '../../libs/runtime.es6';
 import selectn from 'selectn';
 import {isEmpty} from '../../libs/utils.es6';
 import * as Slack from './slack.es6';
-import * as Merchant from './merchant.es6';
 
 const slackChannelId = config.get('Slack.braintree.channelId');
 
 // Payment Config credentials for Production or Sandbox
-const productionOrSandbox = Runtime.isProduction();
-const braintreeCreds = config.get(`Braintree.${productionOrSandbox ? 'production' : 'sandbox'}`);
-console.log(`Braintree Init: ${productionOrSandbox}`);
+const isProduction = Runtime.isProduction();
+const braintreeCreds = config.get(`Braintree.${isProduction ? 'production' : 'sandbox'}`);
+console.log(`Braintree Init: ${isProduction}`);
 
 /**
  * Handles the parse results from webhook notifications via braintree
@@ -31,11 +31,11 @@ async function handleParseResult(webhookNotification) {
   switch (webhookNotification.kind) {
     case braintree.WebhookNotification.Kind.SubMerchantAccountApproved:
       // Requiring an existing producer for a merchantId if in production mode
-      if (productionOrSandbox) {
+      if (isProduction) {
         try {
           const merchantId = webhookNotification.merchantAccount.id;
-          const producerId = (await Producer.findByMerchantId(merchantId)).get().id;
-          await Producer.update(producerId, {merchantApproved: true});
+          const merchantObjectId = (await Merchant.findOneByMerchantId(merchantId))._id;
+          await Merchant.updateFieldsByObjectId(merchantObjectId, {merchantApproved: true});
         } catch (err) {
           throw new Error('Could not update merchant to be approved by merchantId', err);
         }
@@ -58,11 +58,11 @@ const nonProductionColor = '#3366cc';
 export async function notify(webhookNotification) {
   const slackData = new TypedSlackData();
   slackData.pushAttachment();
-  let fallback = productionOrSandbox ? `Production\n` : `Sandbox\nTimeStamp: ${webhookNotification.timestamp}\n`;
+  let fallback = isProduction ? `Production\n` : `Sandbox\nTimeStamp: ${webhookNotification.timestamp}\n`;
   switch (webhookNotification.kind) {
     case braintree.WebhookNotification.Kind.SubMerchantAccountApproved:
       const dbaName = selectn('business.dbaName', webhookNotification.merchantAccount);
-      slackData.setColor(productionOrSandbox ? 'good' : nonProductionColor);
+      slackData.setColor(isProduction ? 'good' : nonProductionColor);
       slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
       slackData.pushField('Merchant Account', `Approved`);
       slackData.pushField('Merchant Status', `${webhookNotification.merchantAccount.status}`);
@@ -73,14 +73,14 @@ export async function notify(webhookNotification) {
         `Merchant Id: ${webhookNotification.merchantAccount.id}`;
       break;
     case braintree.WebhookNotification.Kind.SubMerchantAccountDeclined:
-      slackData.setColor(productionOrSandbox ? 'danger' : nonProductionColor);
+      slackData.setColor(isProduction ? 'danger' : nonProductionColor);
       slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
       slackData.pushField('Merchant Account', `Declined`);
       slackData.pushField('Reason Declined', `${webhookNotification.message}`);
       fallback += `INCOMING WEBHOOK NOTIFICATION\nMerchant Account: Declined\nReason: ${webhookNotification.message}`;
       break;
     case braintree.WebhookNotification.Kind.Disbursement:
-      slackData.setColor(productionOrSandbox ? 'good' : nonProductionColor);
+      slackData.setColor(isProduction ? 'good' : nonProductionColor);
       slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
       slackData.pushField('Disbursement Status', `SUCCESS`);
       slackData.pushField('Amount', `${webhookNotification.disbursement.amount}`);
@@ -95,7 +95,7 @@ export async function notify(webhookNotification) {
 
       break;
     case braintree.WebhookNotification.Kind.DisbursementException:
-      slackData.setColor(productionOrSandbox ? 'danger' : nonProductionColor);
+      slackData.setColor(isProduction ? 'danger' : nonProductionColor);
       slackData.setPretext('INCOMING WEBHOOK NOTIFICATION');
       slackData.pushField('Disbursement Status', `${webhookNotification.disbursement.exceptionMessage}`);
       slackData.pushField('Amount', `${webhookNotification.disbursement.amount}`);
@@ -113,7 +113,7 @@ export async function notify(webhookNotification) {
     case braintree.WebhookNotification.Kind.TransactionDisbursed:
     // Deprecated by Payment
     default:
-      slackData.setColor(productionOrSandbox ? 'warning' : nonProductionColor);
+      slackData.setColor(isProduction ? 'warning' : nonProductionColor);
       slackData.setPretext('UNSUPPORTED WEBHOOK NOTIFICATION');
       slackData.pushField('Notification Type', `${webhookNotification.kind}`);
       fallback += `UNSUPPORTED WEBHOOK NOTIFICATION\nNotification Type: ${webhookNotification.kind}`;
@@ -344,7 +344,7 @@ export async function registerOrUpdateProducerWithPaymentSystem(producerId, indi
     }
 
     try {
-      await Merchant.setMerchantId(merchantObjectId, merchantAccount.id);
+      await Merchant.updateFieldsByObjectId(merchantObjectId, {merchantId: merchantAccount.id});
     } catch (producerUpdateErr) {
       throw new Error('Failed to update producer by merchant id for registerOrUpdateProducerWithPaymentSystem',
         producerUpdateErr);
