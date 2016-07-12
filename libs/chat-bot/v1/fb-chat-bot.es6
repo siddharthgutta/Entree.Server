@@ -596,6 +596,8 @@ export default class FbChatBot {
     let inputText = event.message.text;
     if (!Utils.isEmpty(inputText)) { /* In this case the input is an address */
       try {
+        // hacky solution that should probably be fixed later
+        if (!inputText.includes('Austin')) inputText += 'Austin, TX';
         const {lat, lng} = await Google.getLocationCoordinatesFromAddress(inputText);
         await Consumer.addLocation(consumer.fbId, lat, lng);
       } catch (err) {
