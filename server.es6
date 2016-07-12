@@ -17,6 +17,7 @@ import DeployRouter from './routes/deploy.es6';
 import BasicRouter from './routes/basic.es6';
 import * as Runtime from './libs/runtime.es6';
 import forceSSL from 'express-force-ssl';
+import BraintreeRouter from './routes/braintree.es6';
 
 let server;
 const app = express();
@@ -59,5 +60,6 @@ app.use(express.static(path.join(__dirname, 'public'))); // points app to public
 app.use('/', BasicRouter);
 app.use('/deploy', DeployRouter);
 app.use('/fbmessenger', FBMessengerRouter);
+app.use('/braintree', BraintreeRouter);
 
 export default server;

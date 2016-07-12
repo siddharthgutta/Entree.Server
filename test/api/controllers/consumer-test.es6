@@ -63,7 +63,17 @@ describe('Consumer DB API', () => {
     });
   });
 
-  describe('#setFieldsByFbId', () => {
+  describe('#findOneByFields()', () => {
+    it('should find a consumer correctly', async () => {
+      await Consumer.createFbConsumer(fbId, optionalAttributes);
+      const consumer = await Consumer.findOneByFields({fbId, firstName: optionalAttributes.consumer.firstName,
+        lastName: optionalAttributes.consumer.lastName, customerId: optionalAttributes.consumer.customerId,
+        receiptCount: optionalAttributes.consumer.receiptCount});
+      assert.ok(consumer.context);
+    });
+  });
+
+  describe('#updateFieldsByFbId', () => {
     const updatedFields = {
       firstName: 'Jill',
       lastName: 'Jane',
@@ -73,7 +83,7 @@ describe('Consumer DB API', () => {
 
     it('should set singular field of a consumer correctly', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.setFieldsByFbId(fbId, {firstName: updatedFields.firstName});
+      await Consumer.updateFieldsByFbId(fbId, {firstName: updatedFields.firstName});
       const consumer = await Consumer.findOneByFbId(fbId);
       assert.equal(consumer.fbId, fbId);
       assert.equal(consumer.firstName, updatedFields.firstName);
@@ -86,7 +96,7 @@ describe('Consumer DB API', () => {
     it('should fail to set customerId of a consumer that is greater than 36 characters', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
       try {
-        await Consumer.setFieldsByFbId(fbId, {customerId: '1234567890123456789012345678901234567'});
+        await Consumer.updateFieldsByFbId(fbId, {customerId: '1234567890123456789012345678901234567'});
       } catch (err) {
         return;
       }
@@ -96,7 +106,7 @@ describe('Consumer DB API', () => {
     it('should fail to set customerId of a consumer that is an empty string', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
       try {
-        await Consumer.setFieldsByFbId(fbId, {customerId: ''});
+        await Consumer.updateFieldsByFbId(fbId, {customerId: ''});
       } catch (err) {
         return;
       }
@@ -105,7 +115,7 @@ describe('Consumer DB API', () => {
 
     it('should set multiple fields of a consumer correctly', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.setFieldsByFbId(fbId, updatedFields);
+      await Consumer.updateFieldsByFbId(fbId, updatedFields);
       const consumer = await Consumer.findOneByFbId(fbId);
       assert.equal(consumer.fbId, fbId);
       assert.equal(consumer.firstName, updatedFields.firstName);

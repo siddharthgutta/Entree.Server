@@ -25,14 +25,14 @@ export async function findOneByObjectId(_id) {
 }
 
 /**
- * Sets the merchantId of a merchant object
+ * Updates the fields of a merchant object by its object id
  *
  * @param {ObjectId} _id: object id of the merchant object
- * @param {String} merchantId: merchantId of the merchant object
- * @returns {Promise}: merchant object without the updates
+ * @param {Object} fields: key/value pairs of the fields
+ * @returns {Promise}: merchant object with the updates
  */
-export async function setMerchantId(_id, merchantId) {
-  return await Merchant.findOneAndUpdate({_id}, {$set: {merchantId}}, {runValidators: true});
+export async function updateFieldsByObjectId(_id, fields) {
+  return await Merchant.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true, new: true});
 }
 
 /**
@@ -44,4 +44,16 @@ export async function setMerchantId(_id, merchantId) {
  */
 export async function create(percentageFee, transactionFee, optional = {}) {
   return await Merchant.create({percentageFee, transactionFee, ...optional});
+}
+
+/**
+ * Calculate service fee for a merchant
+ *
+ * @param {Number} orderTotal: total cost of the order in cents (integer)
+ * @param {Number} percentageFee: merchant's percentage fee (integer) integer %
+ * @param {Number} perTransactionFee: merchant's transaction fee (integer) integer cents
+ * @returns {number} returns the total service fee for an order
+ */
+export function calculateServiceFee(orderTotal, percentageFee, perTransactionFee) {
+  return Math.round(orderTotal * percentageFee / 100 + perTransactionFee);
 }

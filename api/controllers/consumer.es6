@@ -23,15 +23,25 @@ export async function _create(contextId, optional = {}) {
 }
 
 /**
- * Finds a user and populates the fields specified
- *
- * @param {String} fbId: the facebook id of the consumer
- * @param {Array<String>} populateFields: the fields to populate
- * @returns {Promise} returns the populated consumer from the database
+ * Finds one consumer by fields
+ * @param {Object} fields: input fields/conditions to find a consumer by
+ * @param {Object} populateFields: list of fields to populate
+ * @returns {Promise}: Consumer object if found
  * @private
  */
-export async function _findOne(fbId, populateFields = []) {
-  return await Consumer.findOne(fbId, populateFields);
+export async function findOneByFields(fields, populateFields = []) {
+  return await Consumer.findOne(fields, populateFields);
+}
+
+/**
+ * Find and update a consumer from their facebook id with specified fields
+ *
+ * @param {String} _id: consumer's _id
+ * @param {Object} fields: key/value pairs with updated fields
+ * @returns {Promise} returns the producer without updates from the database
+ */
+export async function updateByObjectId(_id, fields) {
+  return await Consumer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true, new: true});
 }
 
 /**
@@ -41,7 +51,17 @@ export async function _findOne(fbId, populateFields = []) {
  * @returns {Query|Promise|*} return the consumer from the database
  */
 export async function findOneByFbId(fbId) {
-  return await _findOne({fbId}, ['context', 'defaultLocation']);
+  return await findOneByFields({fbId}, ['context', 'defaultLocation']);
+}
+
+/**
+ * Finds a user by their _id
+ *
+ * @param {String} _id: the facebook id of the consumer
+ * @returns {Query|Promise|*} return the consumer from the database
+ */
+export async function findOneByObjectId(_id) {
+  return await findOneByFields({_id}, ['context', 'defaultLocation']);
 }
 
 /**
@@ -63,7 +83,7 @@ export async function createFbConsumer(fbId, optional = {}) {
  * @param {Object} fields: key/value pairs with updated fields
  * @returns {Consumer} returns the consumer without updates from the database
  */
-export async function setFieldsByFbId(fbId, fields) {
+export async function updateFieldsByFbId(fbId, fields) {
   return await Consumer.findOneAndUpdate({fbId}, {$set: fields}, {runValidators: true});
 }
 
