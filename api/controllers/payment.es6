@@ -326,10 +326,15 @@ export async function getCustomerDefaultPayment(consumerId) {
  * @returns {Promise}: promise containing resulting merchant account object
  */
 export async function registerOrUpdateProducerWithPaymentSystem(producerId, individual, business, funding) {
-  const {merchant: {merchantId}} = await Producer.findOneByObjectId(producerId);
+  const {merchant: {merchantId, _id: merchantObjectId}} = await Producer.findOneByObjectId(producerId);
   let merchantAccount;
   if (!isEmpty(merchantId)) {
-    merchantAccount = await bt.updateMerchant(merchantId, individual, business, funding);
+    try {
+      merchantAccount = await bt.updateMerchant(merchantId, individual, business, funding);
+    } catch (updateMerchantErr) {
+      throw new Error('Failed to update merchant by merchant id for registerOrUpdateProducerWithPaymentSystem',
+        updateMerchantErr);
+    }
   } else {
     try {
       merchantAccount = await bt.createMerchant(individual, business, funding);
@@ -339,7 +344,7 @@ export async function registerOrUpdateProducerWithPaymentSystem(producerId, indi
     }
 
     try {
-      await Merchant.setMerchantId(merchantId, merchantAccount.id);
+      await Merchant.setMerchantId(merchantObjectId, merchantAccount.id);
     } catch (producerUpdateErr) {
       throw new Error('Failed to update producer by merchant id for registerOrUpdateProducerWithPaymentSystem',
         producerUpdateErr);

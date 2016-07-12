@@ -3,7 +3,7 @@
  */
 
 import * as Payment from '../../../api/controllers/payment.es6';
-import * as Braintree from '../../../libs/payment/braintree.es6';
+import Braintree from '../../../libs/payment/braintree.es6';
 import {isEmpty} from '../../../libs/utils.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Producer from '../../../api/controllers/producer.es6';
@@ -15,7 +15,6 @@ import braintree from 'braintree';
 import config from 'config';
 import * as Runtime from '../../../libs/runtime.es6';
 import shortid from 'shortid';
-
 
 describe('Braintree', () => {
   beforeEach(async () => {
@@ -201,7 +200,6 @@ describe('Braintree', () => {
               await Payment.registerPaymentForConsumer(consumerId, nonce);
               assert(false);
             } catch (transactionErr) {
-              console.log(transactionErr);
               const verification = transactionErr.verification;
               assert.deepEqual('processor_declined', verification.status);
               assert.deepEqual(verification.creditCard.cardType, cardType);
@@ -323,6 +321,7 @@ describe('Braintree', () => {
   });
 
   describe('#registerOrUpdateProducerWithPaymentSystem', () => {
+    const masterMerchantAccountId = config.get('Braintree.sandbox.masterMerchantAccountId');
     function createIndividual(approved) {
       return {
         firstName: approved ? braintree.Test.MerchantAccountTest.Approve :
@@ -362,31 +361,28 @@ describe('Braintree', () => {
     it('creating declined merchant account should fail', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: testProducerId} = (await Producer._create(name, username, password, description, profileImage,
-        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled},
-        merchant: {merchantId}}));
+        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}}));
       const individual = createIndividual(false);
-      try {
-        const merchantAccount = await Payment.registerOrUpdateProducerWithPaymentSystem(
-          testProducerId, individual, {}, funding);
-        assert.deepEqual(merchantAccount.status, 'suspended');
-        assert.deepEqual(merchantAccount.subMerchantAccount, true);
-      } catch (createMerchantErr) {
-        console.log(createMerchantErr);
-        assert(false, createMerchantErr);
-      }
+      const merchantAccount = await Payment.registerOrUpdateProducerWithPaymentSystem(
+        testProducerId, individual, {}, funding);
+      assert.deepEqual(merchantAccount.status, 'suspended');
+      assert.deepEqual(merchantAccount.subMerchantAccount, true);
+      assert.ok(merchantAccount.masterMerchantAccount);
+      assert.deepEqual(merchantAccount.masterMerchantAccount.id, masterMerchantAccountId);
     });
 
     it('creating approved merchant account should succeed', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: testProducerId} = (await Producer._create(name, username, password, description, profileImage,
-        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled},
-          merchant: {merchantId}}));
+        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}}));
       const individual = createIndividual(true);
       let merchantAccount = await Payment.registerOrUpdateProducerWithPaymentSystem(
         testProducerId, individual, {}, funding);
       assert.deepEqual(merchantAccount.status, 'pending');
       assert.deepEqual(merchantAccount.subMerchantAccount, true);
-      merchantAccount = await Payment.findProducerPaymentSystemInfo(producerId);
+      assert.ok(merchantAccount.masterMerchantAccount);
+      assert.deepEqual(merchantAccount.masterMerchantAccount.id, masterMerchantAccountId);
+      merchantAccount = await Payment.findProducerPaymentSystemInfo(testProducerId);
       const resultIndividual = _.pick(merchantAccount.individual, ...(_.keys(individual)));
       assert.deepEqual(resultIndividual, individual);
     });
@@ -408,17 +404,17 @@ describe('Braintree', () => {
   });
 
   describe('webhooks', () => {
-    let bt;
-    beforeEach(() => {
+    function createBraintree() {
       // Payment Config credentials for Production or Sandbox
       const productionOrSandbox = Runtime.isProduction();
       const braintreeCreds = config.get(`Braintree.${productionOrSandbox ? 'production' : 'sandbox'}`);
-      bt = new Braintree(braintreeCreds.merchantId, braintreeCreds.publicKey,
-        braintreeCreds.privateKey, braintreeCreds.masterMerchantAccountId, () => 0);
-    });
+      return new Braintree(braintreeCreds.merchantId, braintreeCreds.publicKey,
+          braintreeCreds.privateKey, braintreeCreds.masterMerchantAccountId, async () => 0);
+    }
 
     it('should fail with subscription since not implemented yet', async () => {
       try {
+        const bt = createBraintree();
         const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
           braintree.WebhookNotification.Kind.SubscriptionWentPastDue,
           'myId'
@@ -431,6 +427,7 @@ describe('Braintree', () => {
 
     it('should succeed with sample merchant account approved', async () => {
       try {
+        const bt = createBraintree();
         const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
           braintree.WebhookNotification.Kind.SubMerchantAccountApproved,
           'myId'
@@ -443,6 +440,7 @@ describe('Braintree', () => {
 
     it('should succeed with sample merchant account declined', async () => {
       try {
+        const bt = createBraintree();
         const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
           braintree.WebhookNotification.Kind.SubMerchantAccountDeclined,
           'myId'

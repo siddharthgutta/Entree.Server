@@ -44,11 +44,12 @@ export default class Braintree extends PaymentStrategy {
    * @private
    */
   async _parseRequest(btSignature, btPayload) {
+    const braintreeInstance = this;
     return new Promise((resolve, reject) => {
       this.gateway.webhookNotification.parse(btSignature, btPayload, async (err, webhookNotification) => {
         if (err) reject(new Error('Webhook Notification Parsing Error - [Probably Incorrect Gateway]'));
         else {
-          await this.parseCallback(webhookNotification);
+          await braintreeInstance.parseCallback(webhookNotification);
           resolve(webhookNotification);
         }
       });
