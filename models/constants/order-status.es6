@@ -1,11 +1,11 @@
 const OrderStatuses = {
-  requestQuote: 'RequestQuote',
+  requestQuote: 'requesting a quote',
   quoted: 'Quoted',
-  pending: 'Pending',
+  pending: 'pending',
   accepted: 'Accepted',
   consumerQuoteDeclined: 'Consumer Quote Declined',
   producerDeclined: 'Producer Declined',
-  cooking: 'Cooking',
+  inProgress: 'in progress',
   ready: 'Ready'
 };
 

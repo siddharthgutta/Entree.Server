@@ -327,7 +327,7 @@ describe('Order DB API', () => {
       const order2 = await Order.create('second body text', producer._id, consumer._id,
         {status: OrderStatuses.pending});
       const order3 = await Order.create('third body text', producer._id, consumer._id,
-        {status: OrderStatuses.cooking});
+        {status: OrderStatuses.inProgress});
 
       await Order.pushOrderByObjectId([consumer, producer], order1._id);
       await Order.pushOrderByObjectId([consumer, producer], order2._id);

@@ -56,8 +56,8 @@ export default class ProducerChatBot extends FbChatBot {
         break;
       case FbChatBot.events.delivery:
         // This is an event that just tells us our delivery succeeded
-        // We already get this in the response of the message sent
-        output = null;
+        // We already get this in the response of the message sent so generate empty response
+        output = this.genResponse();
         break;
       default:
         throw Error(`Invalid event sent to producer bot: ${event}`);
@@ -120,7 +120,7 @@ export default class ProducerChatBot extends FbChatBot {
    */
   async _handleInProgressOrders(fbId) {
     const producer = await Producer.findOneByFbId(fbId);
-    const taskList = await this.generateTaskList(producer._id, [OrderStatuses.cooking],
+    const taskList = await this.generateTaskList(producer._id, [OrderStatuses.inProgress],
       FbChatBot.taskListLimit);
     return this.genResponse({producerFbId: fbId, producerMsgs: [taskList]});
   }
@@ -150,7 +150,7 @@ export default class ProducerChatBot extends FbChatBot {
     const order = await Order.findOneByObjectId(orderId, ['producer', 'consumer']);
     const {producer} = order;
 
-    if (!this._validOrderStatus(order, OrderStatuses.requestQuote)) {
+    if (!this.validOrderStatus(order, [OrderStatuses.requestQuote])) {
       const text = this._invalidActionResponse('You have already given a quote for that order.' +
         ' Here is an updated list of your tasks.');
       const taskList = await this.generateTaskList(producer._id,
@@ -162,7 +162,7 @@ export default class ProducerChatBot extends FbChatBot {
     await Context.updateFields(contextId, {lastAction: ProducerActions.quote, order});
 
     const response = new TextMessageData(`Please type in the price of the order. For example, type \"15.42\" ` +
-        `without the quotes for an order that costs $15.42`);
+        `without the quotes for an order that costs $15.42 or \"15\" for an order that costs $15.00`);
 
     return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response]});
   }
@@ -179,7 +179,7 @@ export default class ProducerChatBot extends FbChatBot {
     const order = await Order.findOneByObjectId(orderId, ['producer', 'consumer']);
     const {producer} = order;
 
-    if (!this._validOrderStatus(order, OrderStatuses.pending)) {
+    if (!this.validOrderStatus(order, [OrderStatuses.pending])) {
       const text = this._invalidActionResponse('You have already accepted or declined that order.' +
         ' Here is an updated list of your tasks.');
       const taskList = await this.generateTaskList(producer._id,
@@ -207,8 +207,7 @@ export default class ProducerChatBot extends FbChatBot {
     const order = await Order.findOneByObjectId(orderId, ['producer', 'consumer']);
     const {producer} = order;
 
-    if (!(this._validOrderStatus(order, OrderStatuses.pending)
-        || this._validOrderStatus(order, OrderStatuses.requestQuote))) {
+    if (!this.validOrderStatus(order, [OrderStatuses.pending, OrderStatuses.requestQuote])) {
       const text = this._invalidActionResponse('You have already accepted or declined that order.' +
         ' Here is an updated list of your tasks.');
       const taskList = await this.generateTaskList(producer._id,
@@ -236,11 +235,11 @@ export default class ProducerChatBot extends FbChatBot {
     const order = await Order.findOneByObjectId(orderId, ['producer', 'consumer']);
     const {producer, consumer} = order;
 
-    if (!this._validOrderStatus(order, OrderStatuses.cooking)) {
+    if (!this.validOrderStatus(order, [OrderStatuses.inProgress])) {
       const text = this._invalidActionResponse('You have already completed that order.' +
         ' Here is an updated list of your in progess orders.');
       const taskList = await this.generateTaskList(producer._id,
-        [OrderStatuses.cooking], FbChatBot.taskListLimit);
+        [OrderStatuses.inProgress], FbChatBot.taskListLimit);
       return this.genResponse({producerFbId: producer.fbId, producerMsgs: [text, taskList]});
     }
 
@@ -287,15 +286,19 @@ export default class ProducerChatBot extends FbChatBot {
     const order = await Order.findOneByObjectId(context.order, ['producer', 'consumer']);
     const {producer, consumer} = order;
 
-    /* Must be a price with 2 decimal digits */
-    if (!/^\d+\.\d{2}$/.test(event.message.text)) {
-      const response = new TextMessageData('Please enter the correct price format (e.g. 15.42) for $15.42');
+    let price;
+    if (/^\d+\.\d{2}$/.test(event.message.text)) {
+      price = Math.round(parseFloat(event.message.text) * 100);
+    } else if (/^\d+$/.test(event.message.text)) {
+      price = parseInt(event.message.text, 10) * 100;
+    } else {
+      const response = new TextMessageData('Please enter the correct price format (e.g. 15.42) for $15.42' +
+        ' or 15 for $15.00');
       return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response]});
     }
 
     /* Convert price to cents. The Math.round is here since JS does weird stuff with floating point
     *   If event.message.text is 2.22 and you multiple by 100, it will end up being 222.00000000000003*/
-    const price = Math.round(parseFloat(event.message.text) * 100);
     await Order.updateByObjectId(order._id, {status: OrderStatuses.quoted, price});
 
     await Context.emptyFields(context._id, ['lastAction, order']);
@@ -340,11 +343,11 @@ export default class ProducerChatBot extends FbChatBot {
     }
 
     const eta = parseInt(event.message.text, 10);
-    await Order.updateByObjectId(order._id, {eta, status: OrderStatuses.cooking});
+    await Order.updateByObjectId(order._id, {eta, status: OrderStatuses.inProgress});
 
 
     await Context.emptyFields(context._id, ['lastAction, order']);
-    const taskList = await this.generateTaskList(producer._id, [OrderStatuses.cooking], FbChatBot.taskListLimit);
+    const taskList = await this.generateTaskList(producer._id, [OrderStatuses.inProgress], FbChatBot.taskListLimit);
     const text = new TextMessageData('Here are the current orders in progress');
 
     const consumerMsg = this._orderAcceptToUser(order, eta);
@@ -410,17 +413,5 @@ export default class ProducerChatBot extends FbChatBot {
    */
   _invalidActionResponse(text) {
     return new TextMessageData(`Sorry, that action is not available at this time. ${text}`);
-  }
-
-  /**
-   * Compares the status of the order to the input argument status
-   *
-   * @param {Order} order: order object we are comparing
-   * @param {String} status: status we are comparing the order status to
-   * @returns {boolean}: true if the status match and false oterwise
-   * @private
-   */
-  _validOrderStatus(order, status) {
-    return order.status === status;
   }
 }

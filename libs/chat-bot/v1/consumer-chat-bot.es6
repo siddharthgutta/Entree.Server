@@ -75,8 +75,8 @@ export default class ConsumerChatBot extends FbChatBot {
         break;
       case FbChatBot.events.delivery:
         // This is an event that just tells us our delivery succeeded
-        // We already get this in the response of the message sent
-        output = null;
+        // We already get this in the response of the message sent so generate empty response
+        output = this.genResponse();
         break;
       default:
         console.log(event);
@@ -204,15 +204,8 @@ export default class ConsumerChatBot extends FbChatBot {
    */
   async _handleText(event, consumer) {
     const text = event.message.text;
-
-    // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
-    if (/^(yes)|(cancel)$/.test(text.toLowerCase())) {
-      console.log(`Consumer |${consumer._id}| typed in [${text}]`);
-      return [];
-    }
-    // HACKY SHIT THAT SHOULD BE REMOVED AFTER WE HAVE PRODUCER BOTS
-
     const {context} = consumer;
+
     switch (context.lastAction) {
       case ConsumerActions.order:
         return this._handleOrder(text, consumer);
@@ -518,22 +511,6 @@ export default class ConsumerChatBot extends FbChatBot {
       openHours.push(`${day}: ${hourArr.join(', ')}`);
     });
     return `${openHours.join('\n')}`;
-  }
-
-  /**
-   * Executed after producer presses Continue
-   *
-   * @param {Consumer} consumer: consumer object of the individual to respond to
-   * @returns {Object}: FbMessage object containing response messages
-   * @private
-   */
-  async _handleRequestLocation(consumer) {
-    const text = new TextMessageData('Now, you can search for producers near you. First, send us your location:' +
-        '.\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
-        '2. For iOS, tap the location button\n3. If you\'re on desktop, ' +
-        'just type in your zip code (Ex: 78705)');
-
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
 
   /**

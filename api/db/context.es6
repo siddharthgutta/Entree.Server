@@ -37,7 +37,7 @@ export async function findOne(attributes, populateFields) {
 
   const context = await findQuery.exec();
   if (Utils.isEmpty(context)) {
-    throw new Error(`Could not find order with attributes:${attributes}`);
+    throw new Error(`Could not find context with attributes:${attributes}`);
   }
   return context;
 }

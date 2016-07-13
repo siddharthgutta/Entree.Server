@@ -16,9 +16,7 @@ Emitter.on(Events.CONSUMER_MSG_RECEIVED, async event => {
     console.log(event);
 
     const fbMessage = await consumerChatBot.handleInput(event);
-    if (fbMessage) {
-      await fbMessage.sendMessages(ConsumerMsgPlatform, ProducerMsgPlatform);
-    }
+    await fbMessage.sendMessages(ConsumerMsgPlatform, ProducerMsgPlatform);
 
   } catch (err) {
     // TODO - should notify slack of error so we can investigate
@@ -31,9 +29,7 @@ Emitter.on(Events.PRODUCER_MSG_RECEIVED, async event => {
     console.log(event);
 
     const fbMessage = await producerChatBot.handleInput(event);
-    if (fbMessage) {
-      await fbMessage.sendMessages(ConsumerMsgPlatform, ProducerMsgPlatform);
-    }
+    await fbMessage.sendMessages(ConsumerMsgPlatform, ProducerMsgPlatform);
 
   } catch (err) {
     // TODO - should notify slack of error so we can investigate
