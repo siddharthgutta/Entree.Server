@@ -5,6 +5,7 @@ import * as hour from '../../../api/controllers/hour.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 import _ from 'lodash';
+import moment from 'moment';
 
 describe('Consumer DB API', () => {
   const fbId = 'The Id';
@@ -190,7 +191,6 @@ describe('Consumer DB API', () => {
       } catch (e) {
         return;
       }
-
       assert(false);
     });
   });
@@ -300,6 +300,83 @@ describe('Consumer DB API', () => {
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
       assert.equal(results.length, 1);
       assert.equal(results[0].name, 'Eatzis');
+    });
+  });
+  describe('#concentricCircle()', async () => {
+    const name = 'Art of Tacos';
+    const username = 'tacotaco';
+    const password = 'yumyum';
+    const description = 'temp';
+    const profileImage = 'http://i.imgur.com/bzuvGk6.jpg';
+    const address = '75 Rainey St, Austin, TX 78701';
+    const percentageFee = 4;
+    const transactionFee = 30;
+    const menuLink = 'http://i.imgur.com/Ryy5U7O.png';
+    const lat = 30.285687;
+    const long = -97.748266;
+    it('should get the producers first open and closest then closed and progress', async () => {
+      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, 'none',
+        address, percentageFee, transactionFee, menuLink, {
+          merchant: {
+            merchantId: '927654'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      const {_id: id2} = await Producer.create('Via312', 'user2', password, description, profileImage, 'nothing',
+       '61 Rainey St, Austin, TX 78701', percentageFee, transactionFee, menuLink, {
+         merchant: {
+           merchantId: '927622'
+         },
+         producer: {
+           enabled: true
+         }
+       });
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1]);
+      const timeCheck = moment('12:00', 'HH:mm');
+      const prodCheck = await Consumer.concentricCircleHelper(consumer.fbId, 2, 2, timeCheck, 'Monday');
+      const prod1 = await Producer.findOneByObjectId(id1);
+      const prod2 = await Producer.findOneByObjectId(id2);
+      assert.equal(prodCheck[0].name, prod1.name);
+      assert.equal(prodCheck[1].name, prod2.name);
+    });
+    it('should get the producers in order of distance if all are closed', async () => {
+      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, 'none',
+        address, percentageFee, transactionFee, menuLink, {
+          merchant: {
+            merchantId: '927654'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      const {_id: id2} = await Producer.create('Don', 'dondaddy', password, description, profileImage,
+      'nothing', '817 W 5th St, Austin, TX', percentageFee, transactionFee, 'http:', {
+        merchant: {
+          merchantId: '923622'
+        },
+        producer: {
+          enabled: true
+        }
+      });
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1, hour2]);
+      const prodCheck = await Consumer.concentricCircleHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday');
+      const prod1 = await Producer.findOneByObjectId(id1);
+      const prod2 = await Producer.findOneByObjectId(id2);
+      assert.equal(prodCheck[1].name, prod1.name);
+      assert.equal(prodCheck[0].name, prod2.name);
     });
   });
 });

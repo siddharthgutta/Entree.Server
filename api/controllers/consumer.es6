@@ -102,7 +102,7 @@ export async function addLocation(fbId, lat, long) {
  *
  * @param {String} fbId: facebook id of the consumer
  * @param {Array<Producer>} producers: the producers whose location we are comparing with; can also be an object
- * @returns {Array<Producer>} an array of producers with an additional field specifying distance
+ * @returns {Array<Producer>} an array of sorted producers with an additional field specifying distance
  */
 export async function findDistanceFromProducerCoordinates(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
@@ -113,7 +113,6 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
   _(producers).forEach(producer => {
     obj[producer._id] = producer.location.coordinates;
   });
-
   _(producers).forEach(producer => {
     idsToProducers[producer._id] = producer;
   });
@@ -148,4 +147,69 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
     }
   });
   return closest.slice(0, limit);
+}
+/**
+ *  Returns 10 producers in a list
+ *
+ * @param {Array} prods: producers list to pull from
+ * @returns {Array} an array of ten producers
+ */
+function fillTenProducers(prods) {
+  const prodList = [];
+  let k = 0;
+  while (k < prods.length && prodList.length < 10) {
+    prodList.push(prods[k]);
+    k++;
+  }
+  return prodList;
+}
+
+/**
+ * Finds producers open for a consumer based off of distance and if they are open
+ *
+ * @param {String} fbId: facebook id of the consumer
+ * @param {number} dist: the base search radii
+ * @param {number} multiplier: the multiplier for the range
+ * @param {Moment} time: the time to check with
+ * @param {String} dayOfWeek: the day of the week to check with
+ * @returns {Array} an array of producers based on the distance and if they are open
+ */
+export async function concentricCircleHelper(fbId, dist, multiplier, time, dayOfWeek) {
+  const openArr = [];
+  const closeArr = [];
+  const prodList = [];
+  let range = dist;
+  const prods = await Producer.findAllEnabled();
+  for (const prod of prods) {
+    if (Producer.isOpenHelper(time, dayOfWeek, prod.hours)) openArr.push(prod);
+    else closeArr.push(prod);
+  }
+  const openProds = await findDistanceFromProducerCoordinates(fbId, openArr);
+  const closeProds = await findDistanceFromProducerCoordinates(fbId, closeArr);
+  if (openProds.length === 0) return fillTenProducers(closeProds);
+  if (closeProds.length === 0) return fillTenProducers(openProds);
+  let openIndex = 0;
+  let closeIndex = 0;
+  while (prodList.length < 10 && (openIndex < openProds.length || closeIndex < closeProds.length)) {
+    while (openIndex < openProds.length && openProds[openIndex]._distance < range && prodList.length < 10) {
+      prodList.push(openProds[openIndex++]);
+    }
+    while (closeIndex < closeProds.length && closeProds[closeIndex]._distance < range && prodList.length < 10) {
+      prodList.push(closeProds[closeIndex++]);
+    }
+    range *= multiplier;
+  }
+  return prodList;
+}
+/**
+ * Finds producers open for a consumer based off of distance and if they are open
+ *
+ * @param {String} fbId: facebook id of the consumer
+ * @param {number} dist: the base search radii
+ * @param {number} multiplier: the multiplier for the range
+ * @returns {Array} an array of producers based on the distance and if they are open
+ */
+export async function concentricCircle(fbId, dist, multiplier) {
+  return concentricCircleHelper(fbId, dist, multiplier, Producer.getCurrentTime(),
+  Producer.dayOfWeek());
 }

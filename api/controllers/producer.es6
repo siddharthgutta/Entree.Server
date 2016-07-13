@@ -8,6 +8,7 @@ import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
 import moment from 'moment';
 
+
 /**
  * Find the producer from its object id
  *
@@ -230,10 +231,9 @@ export async function getHours(id) {
 /**
  * Gets the servers current time
  *
- * @returns {String} the current time in 'HHmm'
+ * @returns {Moment} the current time
  */
 export function getCurrentTime() {
-  console.log(moment().format('HH:mm'));
   return moment();
 }
 
