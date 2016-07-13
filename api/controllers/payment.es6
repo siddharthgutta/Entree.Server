@@ -25,7 +25,7 @@ console.log(`Braintree Init: ${isProduction}`);
  * Handles the parse results from webhook notifications via braintree
  *
  * @param {braintree.WebhookNotification} webhookNotification: braintree webhook notification
- * @returns {Promise}: result of parsing the message
+ * @returns {Null}: Unused
  */
 async function handleParseResult(webhookNotification) {
   switch (webhookNotification.kind) {
@@ -203,13 +203,13 @@ async function makePayment(amount, merchantId, name, paymentMethodToken, custome
  * @param {String} paymentMethodNonce: nonce from client browser
  * @returns {Promise}: result of the transaction or error
  */
-export async function registerPaymentForConsumer(consumerId, paymentMethodNonce) {
+export async function updateDefaultConsumerPayment(consumerId, paymentMethodNonce) {
   let customerResult;
   let consumer;
   try {
     consumer = await Consumer.findOneByObjectId(consumerId);
   } catch (findConsumerErr) {
-    throw new Error('Failed to find Consumer by FbId for registerPaymentForConsumer', findConsumerErr);
+    throw new Error('Failed to find Consumer by FbId for updateDefaultConsumerPayment', findConsumerErr);
   }
   let customerId = consumer.customerId;
   // Your payment method nonce should be different each time the submit button is hit
@@ -229,7 +229,7 @@ export async function registerPaymentForConsumer(consumerId, paymentMethodNonce)
       customerId = customerResult.customer.id;
       await Consumer.updateByObjectId(consumerId, {customerId});
     } catch (createCustomerErr) {
-      console.log('Failed to Create Customer for registerPaymentForConsumer');
+      console.log('Failed to Create Customer for updateDefaultConsumerPayment');
       console.log(createCustomerErr);
       throw createCustomerErr;
     }
