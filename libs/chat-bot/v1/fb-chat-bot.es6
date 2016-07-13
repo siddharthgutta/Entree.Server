@@ -81,7 +81,13 @@ export default class FbChatBot {
       return FbChatBot.events.postback;
     }
 
-    if (event.message && event.message.text) {
+    if (event.message && event.message.quick_reply) {
+      return FbChatBot.events.quickReply;
+    }
+
+    /* Checking event.message.quick_reply here is redundant, but it's to make clear that
+    * both text and quick reply events have text */
+    if (event.message && event.message.text && !event.message.quick_reply) {
       return FbChatBot.events.text;
     }
 
