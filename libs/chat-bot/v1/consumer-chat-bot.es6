@@ -8,7 +8,7 @@ import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
-import {ConsumerActions} from './actions.es6';
+import {ConsumerActions} from './ConsumerActions.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
@@ -179,20 +179,20 @@ export default class ConsumerChatBot extends FbChatBot {
    */
   async _handleAttachment(event, consumer) {
     const attachment = event.message.attachments[0];
-      switch (attachment.type) {
-        case Constants.location:
-          return await this._handleLocationAttachment(event, consumer);
-        case Constants.audio:
-          return [new TextMessageData('Dank audio bro. Doesn\'t sound as good as ordering food, though.')];
-        case Constants.image:
-          return [new TextMessageData('You look lovely in that photo. How about ordering some food, though?')];
-        case Constants.file:
-          return [new TextMessageData('Better keep those secret files to yourself and order some food.')];
-        case Constants.video:
-          return [new TextMessageData('Whoa! That\'s a bit graphic! Let\'s get back to the food, though.')];
-        default:
-          throw Error('Invalid attachment sent');
-      }
+    switch (attachment.type) {
+      case Constants.location:
+        return await this._handleLocationAttachment(event, consumer);
+      case Constants.audio:
+        return [new TextMessageData('Dank audio bro. Doesn\'t sound as good as ordering food, though.')];
+      case Constants.image:
+        return [new TextMessageData('You look lovely in that photo. How about ordering some food, though?')];
+      case Constants.file:
+        return [new TextMessageData('Better keep those secret files to yourself and order some food.')];
+      case Constants.video:
+        return [new TextMessageData('Whoa! That\'s a bit graphic! Let\'s get back to the food, though.')];
+      default:
+        throw Error('Invalid attachment sent');
+    }
   }
   /**
    * Handles text events
@@ -367,11 +367,11 @@ export default class ConsumerChatBot extends FbChatBot {
    * @private
    */
   _handleInvalidText(text, consumer) {
-    const response = new ButtonMessageData(`Sorry, it looks like we don't know what do with your text \"${text}\" at this ` +
-      `time. Please start over by pressing the \"Trucks\" button. If you were trying to look up trucks ` +
+    const response = new ButtonMessageData(`Sorry, it looks like we don't know what do with your text \"${text}\" at ` +
+      `this time. Please start over by pressing the \"Trucks\" button. If you were trying to look up trucks ` +
       `in a different location, press "Update My Location" to update your location.`);
-    response.pushPostbackButton('Trucks', this.genPayload(actions.seeProducers));
-    response.pushPostbackButton('Update My Location', this.genPayload(actions.updateLocation));
+    response.pushPostbackButton('Trucks', this.genPayload(ConsumerActions.seeProducers));
+    response.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
@@ -433,7 +433,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const tomorrow = this._getHoursForADay(producer.hours, tmrw);
     response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
       `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
-    response.pushPostbackButton('Go Back', this.genPayload(actions.seeProducers));
+    response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
@@ -471,6 +471,7 @@ export default class ConsumerChatBot extends FbChatBot {
       Constants.miles, Constants.searchLimit);
    let response = new GenericMessageData();
 
+    const response = new GenericMessageData();
     const emptyProducers = producersWithAddresses.length === 0;
     if (emptyProducers) {
       text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
@@ -540,20 +541,20 @@ export default class ConsumerChatBot extends FbChatBot {
    * @private
    */
   async _handleExistingLocationPrompt(consumer) {
-    if (Utils.isEmpty(consumer.defaultLocation)) return this._handleWhichPlatform();
+    if (Utils.isEmpty(consumer.defaultLocation)) return this._handleWhichPlatform(consumer);
     const response = new QuickReplyMessageData('Do you want us to use the last location you gave us to ' +
       'find trucks near you?');
-    response.pushQuickReply('Yes', this.genPayload(actions.existingLocation));
-    response.pushQuickReply('No', this.genPayload(actions.newLocation));
+    response.pushQuickReply('Yes', this.genPayload(ConsumerActions.existingLocation));
+    response.pushQuickReply('No', this.genPayload(ConsumerActions.newLocation));
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
-  async _handleWhichPlatform() {
+  async _handleWhichPlatform(consumer) {
     const response = new QuickReplyMessageData(`Which platform are you using?`);
-    response.pushQuickReply('Android', this.genPayload(actions.android));
-    response.pushQuickReply('iOS', this.genPayload(actions.ios));
-    response.pushQuickReply('Desktop', this.genPayload(actions.desktop));
+    response.pushQuickReply('Android', this.genPayload(ConsumerActions.android));
+    response.pushQuickReply('iOS', this.genPayload(ConsumerActions.ios));
+    response.pushQuickReply('Desktop', this.genPayload(ConsumerActions.desktop));
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
@@ -562,7 +563,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'click the \'…\' button, press \'Location\', and then press the send button');
     const {context: {_id: contextId}} = consumer;
-    await Context.updateFields(contextId, {lastAction: actions.location});
+    await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
@@ -571,7 +572,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'Tap the location button to send us your location!');
     const {context: {_id: contextId}} = consumer;
-    await Context.updateFields(contextId, {lastAction: actions.location});
+    await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
@@ -581,7 +582,7 @@ export default class ConsumerChatBot extends FbChatBot {
       'Type in your address (Ex. 201 E 21st St, Austin, TX). Please be sure to include your city or ' +
       'your zipcode along with the street address.');
     const {context: {_id: contextId}} = consumer;
-    await Context.updateFields(contextId, {lastAction: actions.location});
+    await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
@@ -590,10 +591,11 @@ export default class ConsumerChatBot extends FbChatBot {
    * Executed when producer presses the MoreInfo button on a specific producer searched
    *
    * @param {Object} payload: Producer tht was searched
+   * @param {Consumer} consumer: Consumer that requested more info
    * @returns {Object}: Buttons and more text information on the producer
    * @private
    */
-  async _handleMoreInfo(payload) {
+  async _handleMoreInfo(payload, consumer) {
     const {producerId} = this._getData(payload);
     const producer = await Producer.findOneByObjectId(producerId);
     const hoursString = this._formatHours(producer.hours);
@@ -603,8 +605,8 @@ export default class ConsumerChatBot extends FbChatBot {
     const button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
       `\n${producer.name}${openString}\n\nHours:\n${hoursString}`);
     button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
-    button.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
-    button.pushPostbackButton('See Other Trucks', this._genPayload(actions.seeProducers));
+    button.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt, {producerId: producer._id}));
+    button.pushPostbackButton('See Other Trucks', this.genPayload(ConsumerActions.seeProducers));
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [button]});
   }
