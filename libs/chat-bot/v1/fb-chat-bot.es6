@@ -18,7 +18,6 @@ import * as Utils from '../../utils.es6';
 import moment from 'moment';
 import _ from 'lodash';
 import * as Hour from '../../hour.es6';
-
 const slackChannelId = config.get('Slack.orders.channelId');
 
 export const events = {
@@ -455,10 +454,8 @@ export default class FbChatBot {
     try {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
-      let producersWithAddresses = await Consumer.getClosestEnabledProducers(consumer.fbId,
-        Constants.radius, Constants.searchLimit);
+      let producersWithAddresses = await Consumer.concentricCircle(consumer.fbId, 2, 2);
       response = new GenericMessageData();
-
       const emptyProducers = producersWithAddresses.length === 0;
       if (emptyProducers) {
         text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
@@ -471,7 +468,6 @@ export default class FbChatBot {
         }
         producersWithAddresses = await Promise.all(producers);
       }
-
       _.each(producersWithAddresses, producer => {
         const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
           `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
