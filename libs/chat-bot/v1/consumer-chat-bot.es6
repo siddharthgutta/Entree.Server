@@ -8,7 +8,7 @@ import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
-import {ConsumerActions} from './ConsumerActions.es6';
+import {ConsumerActions} from './actions.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
@@ -41,7 +41,7 @@ export default class ConsumerChatBot extends FbChatBot {
     // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
     callToActions.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
     callToActions.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
-    this.msgPlatform.setPersistentMenu(callToActions.toJSON());
+    this.consumerMsgPlatform.setPersistentMenu(callToActions.toJSON());
 
 
     // Sets the Greeting text
@@ -105,7 +105,7 @@ export default class ConsumerChatBot extends FbChatBot {
       case ConsumerActions.existingLocation:
         return this._handleSeeProducers(consumer);
       case ConsumerActions.newLocation:
-        return this._handleWhichPlatform();
+        return this._handleWhichPlatform(consumer);
       default:
         throw Error('Invalid quick reply payload action');
     }
@@ -128,7 +128,7 @@ export default class ConsumerChatBot extends FbChatBot {
       case ConsumerActions.seeProducers:
         return this._handleExistingLocationPrompt(consumer);
       case ConsumerActions.updateLocation:
-        return this._handleWhichPlatform();
+        return this._handleWhichPlatform(consumer);
       case ConsumerActions.moreInfo:
         return await this._handleMoreInfo(payload, consumer);
       case ConsumerActions.menu:
@@ -650,11 +650,10 @@ export default class ConsumerChatBot extends FbChatBot {
    */
   async _findOrCreateConsumer(event) {
     const sender = event.sender.id;
-    console.log(`Sender Id: ${sender}`);
     let consumer;
     try {
       consumer = await Consumer.findOneByFbId(sender);
-      console.log(`Found Consumer: ${consumer}`);
+      console.log(`Found Consumer: ${consumer.toJSON()}`);
     } catch (err) {
       const profile = await this.consumerMsgPlatform.getFacebookProfileInfo(sender);
       const optionalConsumerFields = {

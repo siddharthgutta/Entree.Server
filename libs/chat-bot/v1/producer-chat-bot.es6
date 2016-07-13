@@ -302,13 +302,16 @@ export default class ProducerChatBot extends FbChatBot {
   async _handleQuoteOrder(event, context) {
     const order = await Order.findOneByObjectId(context.order, ['producer', 'consumer']);
     const {producer, consumer} = order;
-    if (!/\d+\.\d{2}/.test(event.message.text)) {
+
+    /* Must be a price with 2 decimal digits */
+    if (!/^\d+\.\d{2}$/.test(event.message.text)) {
       const response = new TextMessageData('Please enter the correct price format (e.g. 15.42) for $15.42');
       return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response]});
     }
 
-    /* Convert price to cents */
-    const price = parseFloat(event.message.text) * 100;
+    /* Convert price to cents. The Math.round is here since JS does weird stuff with floating point
+    *   If event.message.text is 2.22 and you multiple by 100, it will end up being 222.00000000000003*/
+    const price = Math.round(parseFloat(event.message.text) * 100);
     await Order.updateByObjectId(order._id, {status: OrderStatuses.quoted, price});
 
     await Context.emptyFields(context._id, ['lastAction, order']);
@@ -347,7 +350,7 @@ export default class ProducerChatBot extends FbChatBot {
     const order = await Order.findOneByObjectId(context.order, ['producer', 'consumer']);
 
     const {producer, consumer} = order;
-    if (!/\d+/.test(event.message.text)) {
+    if (!/^\d+$/.test(event.message.text)) {
       const response = new TextMessageData('Please enter the correct time format (e.g. 21 for 21 minutes)');
       return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response]});
     }
