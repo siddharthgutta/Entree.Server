@@ -7,7 +7,7 @@ import {GenericMessageData, TextMessageData} from '../../msg/facebook/message-da
 import {ProducerActions} from './actions.es6';
 import OrderStatuses from '../../../models/constants/order-status.es6';
 import FbMessage from './fb-message.es6';
-import moment from 'moment';
+import Moment from 'moment';
 
 export default class FbChatBot {
 
@@ -40,7 +40,7 @@ export default class FbChatBot {
     const message = new GenericMessageData();
     _.forEach(orders, order => {
       const {consumer} = order;
-      const date = new moment(order.createdAt);
+      const date = new Moment(order.createdAt);
       // TODO HERE!!! FORMAT THE DATE SO IT LOOKS NICE AND I"M JUst testing that the rest of the bot works
       if (order.status === OrderStatuses.requestQuote) {
         message.pushElement(`Quote Request from ${consumer.firstName} ${consumer.lastName} at` +
