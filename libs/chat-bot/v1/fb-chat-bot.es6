@@ -41,7 +41,6 @@ export default class FbChatBot {
     _.forEach(orders, order => {
       const {consumer} = order;
       const date = new Moment(order.createdAt);
-      // TODO HERE!!! FORMAT THE DATE SO IT LOOKS NICE AND I"M JUst testing that the rest of the bot works
       if (order.status === OrderStatuses.requestQuote) {
         message.pushElement(`Quote Request from ${consumer.firstName} ${consumer.lastName} at` +
           ` ${date.format(FbChatBot.formatString)}`, `Order: ${order.body}`);

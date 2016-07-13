@@ -21,6 +21,7 @@ Emitter.on(Events.CONSUMER_MSG_RECEIVED, async event => {
     }
 
   } catch (err) {
+    // TODO - should notify slack of error so we can investigate
     console.error(err.stack);
   }
 });
@@ -35,6 +36,7 @@ Emitter.on(Events.PRODUCER_MSG_RECEIVED, async event => {
     }
 
   } catch (err) {
+    // TODO - should notify slack of error so we can investigate
     console.error(err.stack);
   }
 });

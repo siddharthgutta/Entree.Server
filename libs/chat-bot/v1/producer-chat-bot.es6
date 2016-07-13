@@ -46,6 +46,7 @@ export default class ProducerChatBot extends FbChatBot {
     }
 
     let output;
+    // TODO - handle read receipt messages so it doens't clog up error logs
     switch (this.getEventType(event)) {
       case FbChatBot.events.postback:
         output = await this._handlePostback(event);
@@ -59,8 +60,7 @@ export default class ProducerChatBot extends FbChatBot {
         output = null;
         break;
       default:
-        console.log(event);
-        throw Error(`Error handing event input for event`);
+        throw Error(`Invalid event sent to producer bot: ${event}`);
     }
 
     return output;
@@ -77,34 +77,24 @@ export default class ProducerChatBot extends FbChatBot {
     const action = this.getAction(payload);
     const sender = event.sender.id;
 
-    let response;
     switch (action) {
       case ProducerActions.getStarted:
-        response = this._handleGetStarted(sender);
-        break;
+        return this._handleGetStarted(sender);
       case ProducerActions.quote:
-        response = await this._handleQuote(payload);
-        break;
+        return await this._handleQuote(payload);
       case ProducerActions.decline:
-        response = await this._handleDecline(payload);
-        break;
+        return await this._handleDecline(payload);
       case ProducerActions.accept:
-        response = await this._handleAccept(payload);
-        break;
+        return await this._handleAccept(payload);
       case ProducerActions.ready:
-        response = await this._handleReady(payload);
-        break;
+        return await this._handleReady(payload);
       case ProducerActions.pendingRequests:
-        response = await this._handlePendingRequests(sender);
-        break;
+        return await this._handlePendingRequests(sender);
       case ProducerActions.inProgressOrders:
-        response = await this._handleInProgressOrders(sender);
-        break;
+        return await this._handleInProgressOrders(sender);
       default:
         throw Error(`Invalid payload action: ${action}`);
     }
-
-    return response;
   }
 
   /**
@@ -273,22 +263,16 @@ export default class ProducerChatBot extends FbChatBot {
   async _handleText(event, producer) {
     const {context} = producer;
 
-    let response;
     switch (context.lastAction) {
       case ProducerActions.quote:
-        response = await this._handleQuoteOrder(event, context);
-        break;
+        return await this._handleQuoteOrder(event, context);
       case ProducerActions.accept:
-        response = await this._handleOrderEta(event, context);
-        break;
+        return await this._handleOrderEta(event, context);
       case ProducerActions.decline:
-        response = await this._handleDeclineMessage(event, context);
-        break;
+        return await this._handleDeclineMessage(event, context);
       default:
         return this._handleInvalidText(event.message.text, event.sender.id);
     }
-
-    return response;
   }
 
   /**

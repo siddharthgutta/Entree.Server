@@ -1,5 +1,5 @@
 export const ConsumerActions = {
-  getStarted: 'Producer Get Started',
+  getStarted: 'Consumer Get Started',
   seeProducers: 'See Producers',
   orderPrompt: 'Order Prompt',
   menu: 'Menu',
