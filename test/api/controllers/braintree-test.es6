@@ -72,22 +72,22 @@ describe('Braintree', () => {
       producerId = producer._id;
     });
 
-    describe('#registerPaymentForConsumer', () => {
-      const validNonce = 'fake-valid-nonce';
+    const validNonce = 'fake-valid-nonce';
 
-      function calculateServiceFee(orderTotal) {
-        return Math.round(orderTotal * percentageFee / 100 + transactionFee);
-      }
+    function calculateServiceFee(orderTotal) {
+      return Math.round(orderTotal * percentageFee / 100 + transactionFee);
+    }
 
-      const authorizedAmount = 100000; // $1000 or 100,000 cents
-      const processorDeclinedAmount = 300000; // $3000 or 300,000 cents
-      const gatewayRejectedAmount = 500100; // $5001.00 or 500,100 cents
+    const authorizedAmount = 100000; // $1000 or 100,000 cents
+    const processorDeclinedAmount = 300000; // $3000 or 300,000 cents
+    const gatewayRejectedAmount = 500100; // $5001.00 or 500,100 cents
 
+    describe('#paymentWithToken', () => {
       it('valid nonce should create transaction successfully', async () => {
-        await Payment.registerPaymentForConsumer(consumerId, validNonce);
+        await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
         const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
         const transaction = await Payment.paymentWithToken(consumerId, producerId,
-                                                             defaultPayment.token, authorizedAmount);
+          defaultPayment.token, authorizedAmount);
         assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
         assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
         assert.deepEqual('submitted_for_settlement', transaction.status);
@@ -95,36 +95,39 @@ describe('Braintree', () => {
 
       it('declined processor should fail with processor response code', async () => {
         try {
-          await Payment.registerPaymentForConsumer(consumerId, validNonce);
+          await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
           const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
           await Payment.paymentWithToken(consumerId, producerId,
-                                           defaultPayment.token, processorDeclinedAmount);
-          assert(false);
+            defaultPayment.token, processorDeclinedAmount);
         } catch (err) {
           const transaction = err;
           assert.deepEqual((processorDeclinedAmount / 100), parseFloat(transaction.amount));
           assert.deepEqual((calculateServiceFee(processorDeclinedAmount) / 100),
-                           parseFloat(transaction.serviceFeeAmount));
+            parseFloat(transaction.serviceFeeAmount));
           assert.deepEqual('failed', transaction.status);
           assert.deepEqual(processorDeclinedAmount / 100, parseFloat(transaction.processorResponseCode));
+          return;
         }
+        assert(false);
       });
 
       it('gateway rejected should fail', async () => {
         try {
-          await Payment.registerPaymentForConsumer(consumerId, validNonce);
+          await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
           const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
           await Payment.paymentWithToken(consumerId, producerId,
-                                           defaultPayment.token, gatewayRejectedAmount);
+            defaultPayment.token, gatewayRejectedAmount);
         } catch (err) {
           const transaction = err;
           assert.deepEqual((gatewayRejectedAmount / 100), parseFloat(transaction.amount));
           assert.deepEqual((calculateServiceFee(gatewayRejectedAmount) / 100),
-                           parseFloat(transaction.serviceFeeAmount));
+            parseFloat(transaction.serviceFeeAmount));
           assert.deepEqual('gateway_rejected', transaction.status);
         }
       });
+    });
 
+    describe('#updateDefaultConsumerPayment', () => {
       const gatewayRejectedNonces = [
         {
           nonce: 'fake-luhn-invalid-nonce',
@@ -143,139 +146,144 @@ describe('Braintree', () => {
       _.forEach(gatewayRejectedNonces, ({nonce, attribute, code, message}) => {
         it(`${nonce} should fail with gateway rejected`, async () => {
           try {
-            await Payment.registerPaymentForConsumer(consumerId, nonce);
-            assert(false);
+            await Payment.updateDefaultConsumerPayment(consumerId, nonce);
           } catch (transactionErr) {
             const deepErrors = transactionErr.errors.deepErrors();
             const matchingError = _.find(deepErrors, {attribute, code, message});
             // Check if matching error was found
             assert.ok(matchingError);
+            return;
           }
+          assert(false);
+        });
+      });
+    });
+
+    describe('#getCustomerDefaultPayment', () => {
+      const ccNonces = {
+        processorRejected: [
+          {
+            nonce: 'fake-processor-declined-visa-nonce',
+            cardType: 'Visa'
+          },
+          {
+            nonce: 'fake-processor-declined-amex-nonce',
+            cardType: 'American Express'
+          },
+          {
+            nonce: 'fake-processor-declined-mastercard-nonce',
+            cardType: 'MasterCard'
+          },
+          {
+            nonce: 'fake-processor-declined-discover-nonce',
+            cardType: 'Discover'
+          }
+        ],
+        valid: [
+          {
+            nonce: 'fake-valid-visa-nonce',
+            cardType: 'Visa'
+          },
+          {
+            nonce: 'fake-valid-amex-nonce',
+            cardType: 'American Express'
+          },
+          {
+            nonce: 'fake-valid-mastercard-nonce',
+            cardType: 'MasterCard'
+          },
+          {
+            nonce: 'fake-valid-discover-nonce',
+            cardType: 'Discover'
+          }
+        ]
+      };
+
+      _.forEach(ccNonces.processorRejected, ({nonce, cardType}) => {
+        it(`${nonce} should fail with processor declined`, async () => {
+          try {
+            await Payment.updateDefaultConsumerPayment(consumerId, nonce);
+          } catch (transactionErr) {
+            const verification = transactionErr.verification;
+            assert.deepEqual('processor_declined', verification.status);
+            assert.deepEqual(verification.creditCard.cardType, cardType);
+            try {
+              await Payment.getCustomerDefaultPayment(consumerId);
+            } catch (err) {
+              // Should not be able to find customer
+              return;
+            }
+          }
+          assert(false);
         });
       });
 
-      describe('#getCustomerDefaultPayment', () => {
-        const ccNonces = {
-          processorRejected: [
-            {
-              nonce: 'fake-processor-declined-visa-nonce',
-              cardType: 'Visa'
-            },
-            {
-              nonce: 'fake-processor-declined-amex-nonce',
-              cardType: 'American Express'
-            },
-            {
-              nonce: 'fake-processor-declined-mastercard-nonce',
-              cardType: 'MasterCard'
-            },
-            {
-              nonce: 'fake-processor-declined-discover-nonce',
-              cardType: 'Discover'
-            }
-          ],
-          valid: [
-            {
-              nonce: 'fake-valid-visa-nonce',
-              cardType: 'Visa'
-            },
-            {
-              nonce: 'fake-valid-amex-nonce',
-              cardType: 'American Express'
-            },
-            {
-              nonce: 'fake-valid-mastercard-nonce',
-              cardType: 'MasterCard'
-            },
-            {
-              nonce: 'fake-valid-discover-nonce',
-              cardType: 'Discover'
-            }
-          ]
-        };
-
-        _.forEach(ccNonces.processorRejected, ({nonce, cardType}) => {
-          it(`${nonce} should fail with processor declined`, async () => {
-            try {
-              await Payment.registerPaymentForConsumer(consumerId, nonce);
-              assert(false);
-            } catch (transactionErr) {
-              const verification = transactionErr.verification;
-              assert.deepEqual('processor_declined', verification.status);
-              assert.deepEqual(verification.creditCard.cardType, cardType);
-              try {
-                await Payment.getCustomerDefaultPayment(consumerId);
-                assert(false);
-              } catch (err) {
-                // Should not be able to find customer
-              }
-            }
-          });
-        });
-
-        _.forEach(ccNonces.valid, ({nonce, cardType}) => {
-          it(`${nonce} should succeed to create a default payment of ${cardType}`, async () => {
-            await Payment.registerPaymentForConsumer(consumerId, nonce);
-            const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
-            const transaction = await Payment.paymentWithToken(consumerId, producerId,
-                                                                 defaultPayment.token, authorizedAmount);
-            assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
-            assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
-            assert.deepEqual('submitted_for_settlement', transaction.status);
-            const defaultPayment2 = await Payment.getCustomerDefaultPayment(consumerId);
-            assert.deepEqual(defaultPayment2.cardType, cardType);
-          });
-        });
-
-        it('multiple payments added should reflect default payment methods', async done => {
-          // Customer Fields
-          const consumerId2 = (await Consumer.createFbConsumer(shortid.generate(), {firstName, lastName}))._id;
-          for (let i = 0; i < ccNonces.valid.length; i++) {
-            const {nonce, cardType} = ccNonces.valid[i];
-            await Payment.registerPaymentForConsumer(consumerId2, nonce);
-            const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId2);
-            const transaction = await Payment.paymentWithToken(consumerId2, producerId,
-                                                                 defaultPayment.token, authorizedAmount);
-            assert.deepEqual(transaction.creditCard.cardType, cardType, 'Transaction Card Type Incorrect');
-            assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
-            assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
-            assert.deepEqual('submitted_for_settlement', transaction.status);
-            const defaultPayment2 = await Payment.getCustomerDefaultPayment(consumerId2);
-            assert.deepEqual(defaultPayment2.cardType, cardType);
-            if (i === 3) {
-              done();
-            }
-          }
-        });
-
-        it(`should succeed with #paymentWithToken`, async () => {
-          await Payment.registerPaymentForConsumer(consumerId, ccNonces.valid[0].nonce);
-          const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
+      _.forEach(ccNonces.valid, ({nonce, cardType}) => {
+        it(`${nonce} should succeed to create a default payment of ${cardType}`, async () => {
+          await Payment.updateDefaultConsumerPayment(consumerId, nonce);
+          let defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
           const transaction = await Payment.paymentWithToken(consumerId, producerId,
-                                                               defaultPayment.token, authorizedAmount);
+            defaultPayment.token, authorizedAmount);
           assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
           assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
           assert.deepEqual('submitted_for_settlement', transaction.status);
-          const defaultPayment2 = await Payment.getCustomerDefaultPayment(consumerId);
-          assert.deepEqual(defaultPayment2.cardType, ccNonces.valid[0].cardType);
-          await Payment.paymentWithToken(consumerId, producerId, defaultPayment2.token, authorizedAmount);
+          defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
+          assert.deepEqual(defaultPayment.cardType, cardType);
         });
       });
 
-      it('#voidPayment should successfully void payment', async () => {
-        await Payment.registerPaymentForConsumer(consumerId, validNonce);
+      it('multiple payments added should reflect default payment methods', async done => {
+        // Customer Fields
+        const consumerId2 = (await Consumer.createFbConsumer(shortid.generate(), {firstName, lastName}))._id;
+        for (let i = 0; i < ccNonces.valid.length; i++) {
+          const {nonce, cardType} = ccNonces.valid[i];
+          await Payment.updateDefaultConsumerPayment(consumerId2, nonce);
+          const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId2);
+          const transaction = await Payment.paymentWithToken(consumerId2, producerId,
+            defaultPayment.token, authorizedAmount);
+          assert.deepEqual(transaction.creditCard.cardType, cardType, 'Transaction Card Type Incorrect');
+          assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
+          assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
+          assert.deepEqual('submitted_for_settlement', transaction.status);
+          const defaultPayment2 = await Payment.getCustomerDefaultPayment(consumerId2);
+          assert.deepEqual(defaultPayment2.cardType, cardType);
+          if (i === 3) {
+            done();
+          }
+        }
+      });
+
+      it(`should succeed with multiple times for multiple payments`, async () => {
+        await Payment.updateDefaultConsumerPayment(consumerId, ccNonces.valid[0].nonce);
         const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
         const transaction = await Payment.paymentWithToken(consumerId, producerId,
-                                                             defaultPayment.token, authorizedAmount);
+          defaultPayment.token, authorizedAmount);
+        assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
+        assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
+        assert.deepEqual('submitted_for_settlement', transaction.status);
+        const defaultPayment2 = await Payment.getCustomerDefaultPayment(consumerId);
+        assert.deepEqual(defaultPayment2.cardType, ccNonces.valid[0].cardType);
+        await Payment.paymentWithToken(consumerId, producerId, defaultPayment2.token, authorizedAmount);
+      });
+    });
+
+    describe('#voidPayment', () => {
+      it('#voidPayment should successfully void payment', async () => {
+        await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
+        const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
+        const transaction = await Payment.paymentWithToken(consumerId, producerId,
+          defaultPayment.token, authorizedAmount);
         assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
         assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
         assert.deepEqual('submitted_for_settlement', transaction.status);
         const voidedTransaction = await Payment.voidPayment(transaction.id);
         assert.deepEqual(voidedTransaction.status, 'voided');
       });
+    });
 
-      it('#registerPaymentForConsumer should be settleable', async () => {
-        await Payment.registerPaymentForConsumer(consumerId, validNonce);
+    describe('#updateDefaultConsumerPayment', () => {
+      it('#updateDefaultConsumerPayment should be settleable', async () => {
+        await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
         const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
         const transaction = await Payment.paymentWithToken(consumerId, producerId,
           defaultPayment.token, authorizedAmount);
@@ -285,12 +293,14 @@ describe('Braintree', () => {
         const settledTransaction = await Payment.setTestTransactionAsSettled(transaction.id);
         assert.deepEqual('settled', settledTransaction.status);
       });
+    });
 
+    describe('#refundPayment', () => {
       it('#refundPayment should successfully refund payment', async () => {
-        await Payment.registerPaymentForConsumer(consumerId, validNonce);
+        await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
         const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
         const transaction = await Payment.paymentWithToken(consumerId, producerId,
-                                                             defaultPayment.token, authorizedAmount);
+          defaultPayment.token, authorizedAmount);
         assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
         assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
         assert.deepEqual('submitted_for_settlement', transaction.status);
@@ -301,12 +311,14 @@ describe('Braintree', () => {
         assert.deepEqual('credit', refundedTransaction.type);
         assert.notEqual(transaction.id, refundedTransaction.id);
       });
+    });
 
+    describe('#releasePaymentToProducer', () => {
       it('#releasePaymentToProducer should successfully release payment to producer', async () => {
-        await Payment.registerPaymentForConsumer(consumerId, validNonce);
+        await Payment.updateDefaultConsumerPayment(consumerId, validNonce);
         const defaultPayment = await Payment.getCustomerDefaultPayment(consumerId);
         const transaction = await Payment.paymentWithToken(consumerId, producerId,
-                                                             defaultPayment.token, authorizedAmount);
+          defaultPayment.token, authorizedAmount);
         assert.deepEqual((authorizedAmount / 100), parseFloat(transaction.amount));
         assert.deepEqual((calculateServiceFee(authorizedAmount) / 100), parseFloat(transaction.serviceFeeAmount));
         assert.deepEqual('submitted_for_settlement', transaction.status);
@@ -413,42 +425,30 @@ describe('Braintree', () => {
     }
 
     it('should fail with subscription since not implemented yet', async () => {
-      try {
-        const bt = createBraintree();
-        const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
-          braintree.WebhookNotification.Kind.SubscriptionWentPastDue,
-          'myId'
-        );
-        await bt._parseRequest(sampleNotification.bt_signature, sampleNotification.bt_payload);
-      } catch (err) {
-        assert(false, err);
-      }
+      const bt = createBraintree();
+      const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
+        braintree.WebhookNotification.Kind.SubscriptionWentPastDue,
+        'myId'
+      );
+      await bt._parseRequest(sampleNotification.bt_signature, sampleNotification.bt_payload);
     });
 
     it('should succeed with sample merchant account approved', async () => {
-      try {
-        const bt = createBraintree();
-        const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
-          braintree.WebhookNotification.Kind.SubMerchantAccountApproved,
-          'myId'
-        );
-        await bt._parseRequest(sampleNotification.bt_signature, sampleNotification.bt_payload);
-      } catch (err) {
-        assert(false, err);
-      }
+      const bt = createBraintree();
+      const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
+        braintree.WebhookNotification.Kind.SubMerchantAccountApproved,
+        'myId'
+      );
+      await bt._parseRequest(sampleNotification.bt_signature, sampleNotification.bt_payload);
     });
 
     it('should succeed with sample merchant account declined', async () => {
-      try {
-        const bt = createBraintree();
-        const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
-          braintree.WebhookNotification.Kind.SubMerchantAccountDeclined,
-          'myId'
-        );
-        await bt._parseRequest(sampleNotification.bt_signature, sampleNotification.bt_payload);
-      } catch (err) {
-        assert(false, err);
-      }
+      const bt = createBraintree();
+      const sampleNotification = Payment.getGateway().webhookTesting.sampleNotification(
+        braintree.WebhookNotification.Kind.SubMerchantAccountDeclined,
+        'myId'
+      );
+      await bt._parseRequest(sampleNotification.bt_signature, sampleNotification.bt_payload);
     });
   });
 });
