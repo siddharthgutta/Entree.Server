@@ -312,7 +312,7 @@ describe('Consumer DB API', () => {
       assert.equal(results[0].name, 'Eatzis');
     });
   });
-  describe('#concentricCircle()', async () => {
+  describe('#getOrderedProducers()', async () => {
     const name = 'Art of Tacos';
     const username = 'tacotaco';
     const password = 'yumyum';
@@ -350,7 +350,7 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1]);
       const timeCheck = moment('12:00', 'HH:mm');
-      const prodCheck = await Consumer.concentricCircleHelper(consumer.fbId, 2, 2, timeCheck, 'Monday');
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
       const prod1 = await Producer.findOneByObjectId(id1);
       const prod2 = await Producer.findOneByObjectId(id2);
       assert.equal(prodCheck[0].name, prod1.name);
@@ -382,11 +382,40 @@ describe('Consumer DB API', () => {
       await Consumer.addLocation(consumer.fbId, lat, long);
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1, hour2]);
-      const prodCheck = await Consumer.concentricCircleHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday');
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 2);
       const prod1 = await Producer.findOneByObjectId(id1);
       const prod2 = await Producer.findOneByObjectId(id2);
       assert.equal(prodCheck[1].name, prod1.name);
       assert.equal(prodCheck[0].name, prod2.name);
+    });
+    it('should test the limiter and make sure it only grabs a certain number', async () => {
+      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, 'none',
+        address, percentageFee, transactionFee, menuLink, {
+          merchant: {
+            merchantId: '927654'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      const {_id: id2} = await Producer.create('Don', 'dondaddy', password, description, profileImage,
+        'nothing', '817 W 5th St, Austin, TX', percentageFee, transactionFee, 'http:', {
+          merchant: {
+            merchantId: '923622'
+          },
+          producer: {
+            enabled: true
+          }
+        });
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 1);
+      assert.equal(prodCheck.length, 1);
     });
   });
 });

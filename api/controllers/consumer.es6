@@ -169,54 +169,41 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
   });
   return closest.slice(0, limit);
 }
-/**
- *  Returns 10 producers in a list
- *
- * @param {Array} prods: producers list to pull from
- * @returns {Array} an array of ten producers
- */
-function fillTenProducers(prods) {
-  const prodList = [];
-  let k = 0;
-  while (k < prods.length && prodList.length < 10) {
-    prodList.push(prods[k]);
-    k++;
-  }
-  return prodList;
-}
+
 
 /**
  * Finds producers open for a consumer based off of distance and if they are open
  *
  * @param {String} fbId: facebook id of the consumer
- * @param {number} dist: the base search radii
+ * @param {number} miles: the base search radii
  * @param {number} multiplier: the multiplier for the range
  * @param {Moment} time: the time to check with
  * @param {String} dayOfWeek: the day of the week to check with
+ * @param {number} numProds: the number of producers to get
  * @returns {Array} an array of producers based on the distance and if they are open
  */
-export async function concentricCircleHelper(fbId, dist, multiplier, time, dayOfWeek) {
+export async function getOrderedProducersHelper(fbId, miles, multiplier, time, dayOfWeek, numProds) {
   const openArr = [];
   const closeArr = [];
   const prodList = [];
-  let range = dist;
-  const prods = await Producer.findAllEnabled();
-  for (const prod of prods) {
+  let range = miles;
+  const allProducers = await Producer.findAllEnabled();
+  for (const prod of allProducers) {
     if (Producer.isOpenHelper(time, dayOfWeek, prod.hours)) openArr.push(prod);
     else closeArr.push(prod);
   }
-  const openProds = await findDistanceFromProducerCoordinates(fbId, openArr);
-  const closeProds = await findDistanceFromProducerCoordinates(fbId, closeArr);
-  if (openProds.length === 0) return fillTenProducers(closeProds);
-  if (closeProds.length === 0) return fillTenProducers(openProds);
+  const openProducers = await findDistanceFromProducerCoordinates(fbId, openArr);
+  const closeProducers = await findDistanceFromProducerCoordinates(fbId, closeArr);
   let openIndex = 0;
   let closeIndex = 0;
-  while (prodList.length < 10 && (openIndex < openProds.length || closeIndex < closeProds.length)) {
-    while (openIndex < openProds.length && openProds[openIndex]._distance < range && prodList.length < 10) {
-      prodList.push(openProds[openIndex++]);
+  while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
+    while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
+      prodList.length < numProds) {
+      prodList.push(openProducers[openIndex++]);
     }
-    while (closeIndex < closeProds.length && closeProds[closeIndex]._distance < range && prodList.length < 10) {
-      prodList.push(closeProds[closeIndex++]);
+    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance < range
+      && prodList.length < numProds) {
+      prodList.push(closeProducers[closeIndex++]);
     }
     range *= multiplier;
   }
@@ -226,11 +213,12 @@ export async function concentricCircleHelper(fbId, dist, multiplier, time, dayOf
  * Finds producers open for a consumer based off of distance and if they are open
  *
  * @param {String} fbId: facebook id of the consumer
- * @param {number} dist: the base search radii
+ * @param {number} miles: the base search radius
  * @param {number} multiplier: the multiplier for the range
+ * @param {number} numProds: the number of producers to grab
  * @returns {Array} an array of producers based on the distance and if they are open
  */
-export async function concentricCircle(fbId, dist, multiplier) {
-  return concentricCircleHelper(fbId, dist, multiplier, Producer.getCurrentTime(),
-  Producer.dayOfWeek());
+export async function getOrderedProducers(fbId, miles, multiplier, numProds) {
+  return getOrderedProducersHelper(fbId, miles, multiplier, Producer.getCurrentTime(),
+  Producer.dayOfWeek(), numProds);
 }
