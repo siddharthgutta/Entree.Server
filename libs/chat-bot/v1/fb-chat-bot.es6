@@ -5,6 +5,7 @@ import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
+import * as Cleverbot from '../../../api/controllers/cleverbot.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
@@ -222,7 +223,7 @@ export default class FbChatBot {
           await this._updateConsumerLocation(event, consumer);
           return await this._handleSeeProducers(consumer);
         default:
-          return this._handleInvalidText(text);
+          return await this._handleInvalidText(text);
       }
     } catch (err) {
       throw new Error(`Could not handle text event: ${event} with error: ${err}`);
@@ -347,11 +348,11 @@ export default class FbChatBot {
    * @returns {[ButtonMessageData]}: button message data for invalid text
    * @private
    */
-  _handleInvalidText(text) {
+  async _handleInvalidText(text) {
     let response;
-    response = new ButtonMessageData(`Sorry, it looks like we don't know what do with your text \"${text}\" at this ` +
-      `time. Please start over by pressing the \"Trucks\" button. If you were trying to look up trucks ` +
-      `in a different location, press "Update My Location" to update your location.`);
+    const cleverbotResponse = await Cleverbot.ask(text);
+    response = new ButtonMessageData(`${cleverbotResponse}\n\nIf you weren't trying to chat with our bot, start over ` +
+      `with the \"Trucks\" button`);
     response.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     response.pushPostbackButton('Update My Location', this._genPayload(actions.updateLocation));
     return [response];
