@@ -59,6 +59,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const consumer = await this._findOrCreateConsumer(event);
 
     let output;
+    // TODO - handle read receipt messages so it doens't clog up error logs
     switch (this.getEventType(event)) {
       case FbChatBot.events.postback:
         output = await this._handlePostback(event, consumer);
@@ -263,6 +264,7 @@ export default class ConsumerChatBot extends FbChatBot {
    * @private
    */
   async _handleOrderConfirmation(payload, consumer) {
+    // TODO - make it so user cannot confirm order twice
     const {orderId} = this.getData(payload);
     await Order.updateByObjectId(orderId, {status: OrderStatuses.pending});
     const producer = (await Order.findOneByObjectId(orderId, ['consumer', 'producer'])).producer;
@@ -647,7 +649,8 @@ export default class ConsumerChatBot extends FbChatBot {
     let consumer;
     try {
       consumer = await Consumer.findOneByFbId(sender);
-      console.log(`Found Consumer: ${consumer.toJSON()}`);
+      // TODO - this makes the logs cluttered
+      console.log(`Found Consumer: ${consumer}`);
     } catch (err) {
       const profile = await this.consumerMsgPlatform.getFacebookProfileInfo(sender);
       const optionalConsumerFields = {
