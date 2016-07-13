@@ -1,9 +1,11 @@
 /* eslint-disable */
+import * as Producer from './producer.es6';
 import Emitter, {Events} from '../events/index.es6';
-import {FbChatBot} from '../../libs/chat-bot/index.es6';
-import {ConsumerMsgPlatform} from './messaging.es6';
+import {ConsumerChatBot, ProducerChatBot} from '../../libs/chat-bot/index.es6';
+import {ConsumerMsgPlatform, ProducerMsgPlatform} from './messaging.es6';
 
-const fbChatBot = new FbChatBot(ConsumerMsgPlatform);
+const consumerChatBot = new ConsumerChatBot(ConsumerMsgPlatform);
+const producerChatBot = new ProducerChatBot(ProducerMsgPlatform);
 
 /**
  * Dispatcher to handle system events
@@ -13,16 +15,28 @@ Emitter.on(Events.CONSUMER_MSG_RECEIVED, async event => {
   try {
     console.log(event);
 
-    const responses = await fbChatBot.handleInput(event);
-    const sender = event.sender.id;
-
-    for (let index in responses) {
-      const message = responses[index].toJSON();
-      await ConsumerMsgPlatform.sendMessageToId(sender, message);
+    const fbMessage = await consumerChatBot.handleInput(event);
+    if (fbMessage) {
+      await fbMessage.sendMessages(ConsumerMsgPlatform, ProducerMsgPlatform);
     }
+
   } catch (err) {
-    console.error(err);
-    console.error(event);
+    // TODO - should notify slack of error so we can investigate
+    console.error(err.stack);
   }
 });
 
+Emitter.on(Events.PRODUCER_MSG_RECEIVED, async event => {
+  try {
+    console.log(event);
+
+    const fbMessage = await producerChatBot.handleInput(event);
+    if (fbMessage) {
+      await fbMessage.sendMessages(ConsumerMsgPlatform, ProducerMsgPlatform);
+    }
+
+  } catch (err) {
+    // TODO - should notify slack of error so we can investigate
+    console.error(err.stack);
+  }
+});

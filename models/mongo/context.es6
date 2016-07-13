@@ -12,6 +12,10 @@ const contextSchema = new mongoose.Schema({
   producer: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Producer'
+  },
+  order: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Order'
   }
 }, {
   timestamps: true

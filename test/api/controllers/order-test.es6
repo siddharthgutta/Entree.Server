@@ -2,7 +2,7 @@ import * as Order from '../../../api/controllers/order.es6';
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Location from '../../../api/controllers/location.es6';
-import {OrderStatuses} from '../../../models/constants/order-status.es6';
+import OrderStatuses from '../../../models/constants/order-status.es6';
 import _ from 'lodash';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
@@ -32,7 +32,7 @@ describe('Order DB API', () => {
       assert.equal(order.body, body);
       assert.equal(order.producer, producer._id);
       assert.equal(order.consumer, consumer._id);
-      assert.equal(order.status, 'Pending');
+      assert.equal(order.status, OrderStatuses.requestQuote);
     });
 
     it('should create a complex Order object successfully', async () => {
@@ -40,7 +40,7 @@ describe('Order DB API', () => {
       assert.equal(order.body, body);
       assert.equal(order.producer, producer._id);
       assert.equal(order.consumer, consumer._id);
-      assert.equal(order.status, 'Pending');
+      assert.equal(order.status, OrderStatuses.requestQuote);
       assert.equal(order.price, optionalAttributes.price);
       assert.equal(order.eta, optionalAttributes.eta);
     });
@@ -105,7 +105,7 @@ describe('Order DB API', () => {
       assert.equal(order.body, body);
       assert.deepEqual(order.producer, producer._id);
       assert.deepEqual(order.consumer, consumer._id);
-      assert.equal(order.status, 'Pending');
+      assert.equal(order.status, OrderStatuses.requestQuote);
       assert.equal(order.price, optionalAttributes.price);
       assert.equal(order.eta, optionalAttributes.eta);
     });
@@ -299,7 +299,7 @@ describe('Order DB API', () => {
         const order2 = await Order.create('second body text', producer._id, consumer._id, {status: orderStatus});
         await Order.pushOrderByObjectId([consumer, producer], order1._id);
         await Order.pushOrderByObjectId([consumer, producer], order2._id);
-        const orders = await Order.findByStatusForProducer(producer._id, orderStatus, 2);
+        const orders = await Order.findByStatusForProducer(producer._id, [orderStatus], 2);
         assert.equal(orders.length, 2);
         const orderProducerCopy1 = await Order.findOneByObjectId(orders[0]);
         const orderProducerCopy2 = await Order.findOneByObjectId(orders[1]);
@@ -314,19 +314,42 @@ describe('Order DB API', () => {
         const order2 = await Order.create('second body text', producer._id, consumer._id, {status: orderStatus});
         await Order.pushOrderByObjectId([consumer, producer], order1._id);
         await Order.pushOrderByObjectId([consumer, producer], order2._id);
-        const orders = await Order.findByStatusForProducer(producer._id, orderStatus, 1);
+        const orders = await Order.findByStatusForProducer(producer._id, [orderStatus], 1);
         assert.equal(orders.length, 1);
         const orderProducerCopy1 = await Order.findOneByObjectId(orders[0]);
         compareOrderObjects(order1, orderProducerCopy1);
       });
     });
 
-    it(`should not get orders with incorrect status`, async () => {
-      const order1 = await Order.create(body, producer._id, consumer._id, {status: 'Pending'});
-      const order2 = await Order.create('second body text', producer._id, consumer._id, {status: 'Accepted'});
+
+    it(`should find orders with multiple statuses`, async () => {
+      const order1 = await Order.create(body, producer._id, consumer._id, {status: OrderStatuses.accepted});
+      const order2 = await Order.create('second body text', producer._id, consumer._id,
+        {status: OrderStatuses.pending});
+      const order3 = await Order.create('third body text', producer._id, consumer._id,
+        {status: OrderStatuses.cooking});
+
       await Order.pushOrderByObjectId([consumer, producer], order1._id);
       await Order.pushOrderByObjectId([consumer, producer], order2._id);
-      const orders = await Order.findByStatusForProducer(producer._id, 'Accepted', 2);
+      await Order.pushOrderByObjectId([consumer, producer], order3._id);
+
+      const orders = await Order.findByStatusForProducer(producer._id,
+        [OrderStatuses.accepted, OrderStatuses.pending], 3);
+      assert.equal(orders.length, 2);
+
+      const orderProducerCopy1 = await Order.findOneByObjectId(orders[0]);
+      const orderProducerCopy2 = await Order.findOneByObjectId(orders[1]);
+      compareOrderObjects(order1, orderProducerCopy1);
+      compareOrderObjects(order2, orderProducerCopy2);
+    });
+
+    it(`should not get orders with incorrect status`, async () => {
+      const order1 = await Order.create(body, producer._id, consumer._id, {status: OrderStatuses.pending});
+      const order2 = await Order.create('second body text', producer._id, consumer._id,
+        {status: OrderStatuses.accepted});
+      await Order.pushOrderByObjectId([consumer, producer], order1._id);
+      await Order.pushOrderByObjectId([consumer, producer], order2._id);
+      const orders = await Order.findByStatusForProducer(producer._id, [OrderStatuses.accepted], 2);
       assert.equal(orders.length, 1);
       const orderProducerCopy1 = await Order.findOneByObjectId(orders[0]);
       compareOrderObjects(order2, orderProducerCopy1);

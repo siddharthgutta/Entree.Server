@@ -26,6 +26,7 @@ export async function findOne(attributes, populateFields = []) {
       findQuery.populate(field),
     findQuery);
   const producer = await findQuery.exec();
+
   if (Utils.isEmpty(producer)) {
     throw new Error(`Could not find producer with attributes: ${JSON.stringify(attributes)}`);
   }
