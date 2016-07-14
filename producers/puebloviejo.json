@@ -1,0 +1,63 @@
+{
+  "name": "Pueblo Viejo",
+  "username": "puebloviejo",
+  "password": "tacotacoburrito",
+  "description": "Authentic Mexican Food",
+  "profileImage": "http://i.imgur.com/EbL0zqu.jpg",
+  "address": "907 E 6th St Austin, TX 78702",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Mi Madre",
+  "menuLink": "http://i.imgur.com/15EBHob.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "07:30",
+    "closeTime": "22:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "07:30",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "07:30",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "07:30",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "07:30",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "00:00",
+      "closeTime": "02:30"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "07:30",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "00:00",
+      "closeTime": "02:30"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "09:00",
+      "closeTime": "15:00"
+    }]
+}

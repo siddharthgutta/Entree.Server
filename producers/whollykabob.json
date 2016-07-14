@@ -1,14 +1,14 @@
 {
-  "name": "Austin's Habibi",
-  "username": "austinshabibi",
-  "password": "greeksalad",
-  "description": "Fresh Mediterranean and Middle-Eastern Cuisine",
-  "profileImage": "http://i.imgur.com/40Ku24a.jpg",
-  "address": "817 W 5th St, Austin, TX",
+  "name": "Wholly Kabob",
+  "username": "whollykabob",
+  "password": "glutenfree",
+  "description": "Delicious, Juicy Kabob Wraps.",
+  "profileImage": "http://i.imgur.com/eGRonL0.jpg",
+  "address": "1104 E 6th St, Austin, Texas 78702",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 greek salad with falafel",
-  "menuLink": "http://i.imgur.com/LBnWLxP.png?1",
+  "exampleOrder": "1 Rice Bowl with chicken and a side of Hummus + Pita",
+  "menuLink": "http://i.imgur.com/wemSLDb.png",
   "optional": {
     "producer": {
       "enabled": true
@@ -18,36 +18,41 @@
   [{
     "day": "Monday",
     "openTime": "11:00",
-    "closeTime": "15:00"
-  },
+    "closeTime": "14:00"
+   },
     {
       "day": "Monday",
-      "openTime": "17:00",
+      "openTime": "18:00",
       "closeTime": "22:00"
     },
     {
       "day": "Tuesday",
       "openTime": "11:00",
-      "closeTime": "15:00"
+      "closeTime": "14:00"
     },
     {
       "day": "Tuesday",
-      "openTime": "17:00",
+      "openTime": "18:00",
       "closeTime": "22:00"
     },
     {
       "day": "Wednesday",
       "openTime": "11:00",
-      "closeTime": "15:00"
+      "closeTime": "14:00"
     },
     {
       "day": "Wednesday",
-      "openTime": "17:00",
+      "openTime": "18:00",
       "closeTime": "22:00"
     },
     {
       "day": "Thursday",
       "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "18:00",
       "closeTime": "22:00"
     },
     {
@@ -63,6 +68,11 @@
     {
       "day": "Sunday",
       "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "18:00",
       "closeTime": "22:00"
     }]
 }
