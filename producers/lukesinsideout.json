@@ -1,0 +1,53 @@
+{
+  "name": "Ms P's Electric Cock",
+  "username": "lukesinsideout",
+  "password": "shareables",
+  "description": "French Inspired Sandwiches and Shareable Appetizers",
+  "profileImage": "http://i.imgur.com/1RLNqfN.jpg",
+  "address": "1109 S Lamar Blvd Austin, TX 78704",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Mapo Fish Fingers with Sesame Slaw",
+  "menuLink": "http://s3-media4.fl.yelpcdn.com/bphoto/N1dMnSrhcAeGXJQ_AnKEWQ/o.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "17:00",
+    "closeTime": "23:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "17:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "17:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "17:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "13:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "11:30",
+      "closeTime": "23:00"
+    }]
+}

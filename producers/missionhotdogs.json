@@ -1,0 +1,30 @@
+{
+  "name": "Mission Hot Dogs",
+  "username": "mission",
+  "password": "bacondog",
+  "description": "Bacon Wrapped Hot Dogs",
+  "profileImage": "http://i.imgur.com/4FpIZkw.jpg",
+  "address": "1701 East Cesar Chavez Street, Austin, TX, United States",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Vietdog",
+  "menuLink": "https://scontent.xx.fbcdn.net/t31.0-8/1064286_557608934285001_1216852764_o.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:30"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:30"
+    }
+  ]
+}
