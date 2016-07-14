@@ -51,7 +51,7 @@ export default class FbChatBot {
           ` ${date.format(FbChatBot.formatString)}`, `Order: ${order.body}`);
         message.pushPostbackButton('Accept', this.genPayload(ProducerActions.accept, {orderId: order._id}));
         message.pushPostbackButton('Decline', this.genPayload(ProducerActions.decline, {orderId: order._id}));
-      } else if (order.status === OrderStatuses.cooking) {
+      } else if (order.status === OrderStatuses.inProgress) {
         message.pushElement(`In progress order from ${consumer.firstName} ${consumer.lastName} at` +
           ` ${date.format(FbChatBot.formatString)}`, `Order: ${order.body}`);
         message.pushPostbackButton('Ready', this.genPayload(ProducerActions.ready, {orderId: order._id}));
