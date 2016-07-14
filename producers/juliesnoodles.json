@@ -1,0 +1,63 @@
+{
+  "name": "Mac Daddy's",
+  "username": "macdaddys",
+  "password": "cheese",
+  "description": "Food Truck near UT Austin serving delicious mac and cheese creations.",
+  "profileImage": "http://i.imgur.com/bABXzgz.jpg",
+  "address": "2512 Rio Grande St Austin, TX 78705,
+  "percentageFee": 3.5,
+  "transactionFee": 30,
+  "exampleOrder": "1 small meltdown and 1 topo chico",
+  "menuLink": "http://i.imgur.com/2AEqV3D.png",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "17:00",
+    "closeTime": "22:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "17:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "17:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "17:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "00:00",
+      "closeTime": "03:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "00:00",
+      "closeTime": "03:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "17:00",
+      "closeTime": "22:00"
+    }]
+}
