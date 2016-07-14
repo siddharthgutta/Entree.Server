@@ -322,6 +322,7 @@ describe('Consumer DB API', () => {
     const lat1 = 33.285689;
     const lat2 = 33.285689;
     const long = -97.748266;
+
     it('should get the producers first open and closest then closed and progress', async () => {
       const prodAddr1 = await Location.createWithCoord(lat1, long);
       const prodAddr2 = await Location.createWithCoord(lat2, long);
@@ -342,6 +343,7 @@ describe('Consumer DB API', () => {
       assert.equal(prodCheck[0].name, prod1.name);
       assert.equal(prodCheck[1].name, prod2.name);
     });
+
     it('should get the producers in order of distance if all are closed', async () => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const loc2 = await Location.createWithCoord(30.266746, -97.741945);
@@ -362,6 +364,7 @@ describe('Consumer DB API', () => {
       assert.deepEqual(prodCheck[0]._id, prod1._id);
       assert.deepEqual(prodCheck[1]._id, prod2._id);
     });
+
     it('should get the producers in order of distance if all are open', async () => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const loc2 = await Location.createWithCoord(30.266746, -97.741945);
@@ -382,6 +385,7 @@ describe('Consumer DB API', () => {
       assert.deepEqual(prodCheck[0]._id, prod1._id);
       assert.deepEqual(prodCheck[1]._id, prod2._id);
     });
+
     it('should test the limiter and make sure it only grabs a certain number', async () => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const loc2 = await Location.createWithCoord(30.266746, -97.741945);
@@ -399,6 +403,7 @@ describe('Consumer DB API', () => {
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 1);
       assert.equal(prodCheck.length, 1);
     });
+
     it('should work for alternating open closed', async () => {
       const closestLoc = await Location.createWithCoord(30.285013, -97.744931);
       const secondClosestLoc = await Location.createWithCoord(30.285628, -97.738646);
