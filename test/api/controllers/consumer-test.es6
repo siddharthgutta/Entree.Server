@@ -312,7 +312,7 @@ describe('Consumer DB API', () => {
       assert.equal(results[0].name, 'Eatzis');
     });
   });
-  describe('#getOrderedProducers()', async () => {
+  describe('#getOrderedProducers()', () => {
     const name = 'Art of Tacos';
     const password = 'yumyum';
     const description = 'temp';

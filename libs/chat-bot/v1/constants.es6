@@ -5,7 +5,9 @@ const constants = {
   video: 'video',
   audio: 'audio',
   file: 'file',
-  image: 'image'
+  image: 'image',
+  miles: 2,
+  multiplier: 2
 };
 
 export default constants;

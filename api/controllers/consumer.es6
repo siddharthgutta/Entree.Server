@@ -187,6 +187,7 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
   const prodList = [];
   let range = miles;
   const allProducers = await Producer.findAllEnabled();
+  // adds the producers to either open or closed arrays
   for (const prod of allProducers) {
     if (Producer.isOpenHelper(time, dayOfWeek, prod.hours)) openArr.push(prod);
     else closeArr.push(prod);
@@ -195,6 +196,7 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
   const closeProducers = await findDistanceFromProducerCoordinates(fbId, closeArr);
   let openIndex = 0;
   let closeIndex = 0;
+  // adds producers till the limit first adding open then closed and increases the range
   while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
     while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
       prodList.length < numProds) {
@@ -204,6 +206,7 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
       && prodList.length < numProds) {
       prodList.push(closeProducers[closeIndex++]);
     }
+    // increases the range
     range *= multiplier;
   }
   return prodList;
@@ -219,5 +222,5 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
  */
 export async function getOrderedProducers(fbId, miles, multiplier, numProds) {
   return getOrderedProducersHelper(fbId, miles, multiplier, Producer.getCurrentTime(),
-  Producer.dayOfWeek(), numProds);
+    Producer.dayOfWeek(), numProds);
 }
