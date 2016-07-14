@@ -314,42 +314,28 @@ describe('Consumer DB API', () => {
   });
   describe('#getOrderedProducers()', async () => {
     const name = 'Art of Tacos';
-    const username = 'tacotaco';
     const password = 'yumyum';
     const description = 'temp';
     const profileImage = 'http://i.imgur.com/bzuvGk6.jpg';
-    const address = '75 Rainey St, Austin, TX 78701';
-    const percentageFee = 4;
-    const transactionFee = 30;
     const menuLink = 'http://i.imgur.com/Ryy5U7O.png';
-    const lat = 30.285687;
+    const lat = 32.285687;
+    const lat1 = 33.285689;
+    const lat2 = 33.285689;
     const long = -97.748266;
     it('should get the producers first open and closest then closed and progress', async () => {
-      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, 'none',
-        address, percentageFee, transactionFee, menuLink, {
-          merchant: {
-            merchantId: '927654'
-          },
-          producer: {
-            enabled: true
-          }
-        });
-      const {_id: id2} = await Producer.create('Via312', 'user2', password, description, profileImage, 'nothing',
-       '61 Rainey St, Austin, TX 78701', percentageFee, transactionFee, menuLink, {
-         merchant: {
-           merchantId: '927622'
-         },
-         producer: {
-           enabled: true
-         }
-       });
+      const prodAddr1 = await Location.createWithCoord(lat1, long);
+      const prodAddr2 = await Location.createWithCoord(lat2, long);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        prodAddr1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123458'}});
+      const {_id: id2} = await Producer._create('Via32', 'unv2', password, description, profileImage, 'k',
+        prodAddr2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '133457'}});
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, lat, long);
+      const timeCheck = moment('12:00', 'HH:mm');
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1]);
-      const timeCheck = moment('12:00', 'HH:mm');
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
       const prod1 = await Producer.findOneByObjectId(id1);
       const prod2 = await Producer.findOneByObjectId(id2);
@@ -357,24 +343,12 @@ describe('Consumer DB API', () => {
       assert.equal(prodCheck[1].name, prod2.name);
     });
     it('should get the producers in order of distance if all are closed', async () => {
-      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, 'none',
-        address, percentageFee, transactionFee, menuLink, {
-          merchant: {
-            merchantId: '927654'
-          },
-          producer: {
-            enabled: true
-          }
-        });
-      const {_id: id2} = await Producer.create('Don', 'dondaddy', password, description, profileImage,
-      'nothing', '817 W 5th St, Austin, TX', percentageFee, transactionFee, 'http:', {
-        merchant: {
-          merchantId: '923622'
-        },
-        producer: {
-          enabled: true
-        }
-      });
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const loc2 = await Location.createWithCoord(30.266746, -97.741945);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
@@ -385,28 +359,36 @@ describe('Consumer DB API', () => {
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 2);
       const prod1 = await Producer.findOneByObjectId(id1);
       const prod2 = await Producer.findOneByObjectId(id2);
-      assert.equal(prodCheck[1].name, prod1.name);
-      assert.equal(prodCheck[0].name, prod2.name);
+      assert.deepEqual(prodCheck[0]._id, prod1._id);
+      assert.deepEqual(prodCheck[1]._id, prod2._id);
+    });
+    it('should get the producers in order of distance if all are open', async () => {
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const loc2 = await Location.createWithCoord(30.266746, -97.741945);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
+      const prod1 = await Producer.findOneByObjectId(id1);
+      const prod2 = await Producer.findOneByObjectId(id2);
+      assert.deepEqual(prodCheck[0]._id, prod1._id);
+      assert.deepEqual(prodCheck[1]._id, prod2._id);
     });
     it('should test the limiter and make sure it only grabs a certain number', async () => {
-      const {_id: id1} = await Producer.create(name, username, password, description, profileImage, 'none',
-        address, percentageFee, transactionFee, menuLink, {
-          merchant: {
-            merchantId: '927654'
-          },
-          producer: {
-            enabled: true
-          }
-        });
-      const {_id: id2} = await Producer.create('Don', 'dondaddy', password, description, profileImage,
-        'nothing', '817 W 5th St, Austin, TX', percentageFee, transactionFee, 'http:', {
-          merchant: {
-            merchantId: '923622'
-          },
-          producer: {
-            enabled: true
-          }
-        });
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const loc2 = await Location.createWithCoord(30.266746, -97.741945);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
@@ -416,6 +398,40 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id2, [hour1, hour2]);
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 1);
       assert.equal(prodCheck.length, 1);
+    });
+    it('should work for alternating open closed', async () => {
+      const closestLoc = await Location.createWithCoord(30.285013, -97.744931);
+      const secondClosestLoc = await Location.createWithCoord(30.285628, -97.738646);
+      const thirdClosestLoc = await Location.createWithCoord(30.280871, -97.722684);
+      const fourthClosetLoc = await Location.createWithCoord(30.280522, -97.703838);
+      const fifthClosestLoc = await Location.createWithCoord(30.284479, -97.659849);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        closestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        secondClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
+      const {_id: id3} = await Producer._create('Mama Fu', 'kfu', password, description, profileImage, 'k',
+        thirdClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '129090'}});
+      const {_id: id4} = await Producer._create('Chipoodle', 'chiptopia', password, description, profileImage, 'k',
+        fourthClosetLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1232131'}});
+      const {_id: id5} = await Producer._create('el Queso', 'quesoguzzler', password, description, profileImage, 'k',
+        fifthClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123214234'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, 30.286006, -97.747994);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour2]);
+      await Producer.addHours(id3, [hour1, hour2]);
+      await Producer.addHours(id4, [hour2]);
+      await Producer.addHours(id5, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Tuesday', 10);
+      assert.equal(prodCheck.length, 5);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id3);
+      assert.deepEqual(prodCheck[2]._id, id2);
+      assert.deepEqual(prodCheck[3]._id, id4);
+      assert.deepEqual(prodCheck[4]._id, id5);
     });
   });
 });
