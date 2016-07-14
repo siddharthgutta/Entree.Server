@@ -5,7 +5,8 @@ import * as Producer from '../../../api/controllers/producer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import OrderStatuses from '../../../models/constants/order-status.es6';
-import {TextMessageData, ButtonMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
+import {TextMessageData, ButtonMessageData, CallToAction,
+  QuickReplyMessageData} from '../../msg/facebook/message-data.es6';
 import {ProducerActions, ConsumerActions} from './actions.es6';
 import FbChatBot from './fb-chat-bot.es6';
 
@@ -46,7 +47,6 @@ export default class ProducerChatBot extends FbChatBot {
     }
 
     let output;
-    // TODO - handle read receipt messages so it doens't clog up error logs
     switch (this.getEventType(event)) {
       case FbChatBot.events.postback:
         output = await this._handlePostback(event);
@@ -54,16 +54,34 @@ export default class ProducerChatBot extends FbChatBot {
       case FbChatBot.events.text:
         output = await this._handleText(event, producer);
         break;
-      case FbChatBot.events.delivery:
-        // This is an event that just tells us our delivery succeeded
-        // We already get this in the response of the message sent so generate empty response
-        output = this.genResponse();
+      case FbChatBot.events.quickReply:
+        output = await this._handleQuickReply(event, producer);
         break;
       default:
         throw Error(`Invalid event sent to producer bot: ${event}`);
     }
 
     return output;
+  }
+
+  /**
+   * Handles quick reply events
+   *
+   * @param {Object} event: input event from messenger
+   * @param {Producer} producer: producer associated with this event
+   * @returns {Object}: messenger output
+   */
+  async _handleQuickReply(event, producer) {
+    const payload = JSON.parse(event.message.quick_reply.payload);
+    const action = this.getAction(payload);
+    const {context} = producer;
+
+    switch (action) {
+      case ProducerActions.setEta:
+        return this._handleQuickReplyEta(payload, context);
+      default:
+        throw Error('Invalid quick reply payload action');
+    }
   }
 
   /**
@@ -98,10 +116,26 @@ export default class ProducerChatBot extends FbChatBot {
   }
 
   /**
+   * Handles when the producer responds to setting the order eta with a quick reply
+   *
+   * @param {Object} payload: data of the quick reply button
+   * @param {Context} context: context of the producer
+   * @returns {Object}: FbMessage object containing response messages
+   * @private
+   */
+  async _handleQuickReplyEta(payload, context) {
+    const {eta, orderId} = this.getData(payload);
+    await Order.updateByObjectId(orderId, {eta, status: OrderStatuses.inProgress});
+    const order = await Order.findOneByObjectId(orderId, ['consumer', 'producer']);
+
+    return await this._orderEtaHelper(context, eta, order);
+  }
+
+  /**
    * Handles when producer wants to see all pending requests
    *
    * @param {String} fbId: fbId of the producer
-   * @returns {[GenericMessageData]}: the list of pending order requests
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handlePendingRequests(fbId) {
@@ -115,7 +149,7 @@ export default class ProducerChatBot extends FbChatBot {
    * Handles when producer wants to see all in progress orders
    *
    * @param {String} fbId: fbId of the producer
-   * @returns {[GenericMessageData]}: the list of in progress order requests
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handleInProgressOrders(fbId) {
@@ -129,7 +163,7 @@ export default class ProducerChatBot extends FbChatBot {
    * Handles when user taps get started button
    *
    * @param {String} sender: fbId of the producer who sent the message
-   * @returns {[TextMessageData]}: text message data response
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   _handleGetStarted(sender) {
@@ -142,7 +176,7 @@ export default class ProducerChatBot extends FbChatBot {
    * Handles when the producer hit the "Give Quote" postback
    *
    * @param {Object} payload: the message payload
-   * @returns {[TextMessageData]}: text message data response
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handleQuote(payload) {
@@ -171,7 +205,7 @@ export default class ProducerChatBot extends FbChatBot {
    * Handles when producer accepts an order that has been given a quote
    *
    * @param {Object} payload: the payload of the incoming message
-   * @returns {[TextMessageData]}: text message data response
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handleAccept(payload) {
@@ -189,17 +223,23 @@ export default class ProducerChatBot extends FbChatBot {
 
     const {context: contextId} = producer;
     await Context.updateFields(contextId, {lastAction: ProducerActions.accept, order});
+    const quickReply = new QuickReplyMessageData('Please tap a button or type in the estimated time, in minutes,' +
+      ' for the order to be ready.');
+    quickReply.pushQuickReply('5', this.genPayload(ProducerActions.setEta, {eta: 5, orderId: order._id}));
+    quickReply.pushQuickReply('10', this.genPayload(ProducerActions.setEta, {eta: 10, orderId: order._id}));
+    quickReply.pushQuickReply('15', this.genPayload(ProducerActions.setEta, {eta: 15, orderId: order._id}));
+    quickReply.pushQuickReply('30', this.genPayload(ProducerActions.setEta, {eta: 30, orderId: order._id}));
+    quickReply.pushQuickReply('45', this.genPayload(ProducerActions.setEta, {eta: 45, orderId: order._id}));
+    quickReply.pushQuickReply('60', this.genPayload(ProducerActions.setEta, {eta: 60, orderId: order._id}));
 
-    const response = new TextMessageData(`Please type in the estimated time, in minutes, for the order to be ready.`);
-
-    return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response]});
+    return this.genResponse({producerFbId: producer.fbId, producerMsgs: [quickReply]});
   }
 
   /**
    * Handles when producer declines an order that has been given a quote
    *
    * @param {Object} payload: the payload of the incoming message
-   * @returns {[TextMessageData]}: text message data response
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handleDecline(payload) {
@@ -227,7 +267,7 @@ export default class ProducerChatBot extends FbChatBot {
    * Handles when producer indicates that an order is ready to be picked up
    *
    * @param {Object} payload: the payload of the incoming message
-   * @returns {[TextMessageData]}: text message data response
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handleReady(payload) {
@@ -245,7 +285,8 @@ export default class ProducerChatBot extends FbChatBot {
 
     await Order.updateByObjectId(order._id, {status: OrderStatuses.ready});
 
-    const consumerMsg = new TextMessageData(`Your order \"${order.body}\" is ready to be picked up.`);
+    const consumerMsg = new ButtonMessageData(`Your order \"${order.body}\" is ready to be picked up.`);
+    consumerMsg.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
     const response = new TextMessageData('The user has been notified that his or her order is ready for pickup.');
 
     return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response],
@@ -257,7 +298,7 @@ export default class ProducerChatBot extends FbChatBot {
    *
    * @param {Object} event: input event from messenger
    * @param {Producer} producer: producer that sent the event
-   * @returns {Object}: messenger output
+   * @returns {Object}: FbMessage object containing response messages
    */
   async _handleText(event, producer) {
     const {context} = producer;
@@ -266,7 +307,7 @@ export default class ProducerChatBot extends FbChatBot {
       case ProducerActions.quote:
         return await this._handleQuoteOrder(event, context);
       case ProducerActions.accept:
-        return await this._handleOrderEta(event, context);
+        return await this._handleTextEta(event, context);
       case ProducerActions.decline:
         return await this._handleDeclineMessage(event, context);
       default:
@@ -279,7 +320,7 @@ export default class ProducerChatBot extends FbChatBot {
    *
    * @param {Object} event: input event from messenger
    * @param {Object} context: context for the producer
-   * @returns {[TextMessageData]}: text message data response
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
   async _handleQuoteOrder(event, context) {
@@ -328,13 +369,13 @@ export default class ProducerChatBot extends FbChatBot {
    *
    * @param {Object} event: input event from messenger
    * @param {Object} context: context of the producer that sent the event
-   * @returns {*[]}
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
-  async _handleOrderEta(event, context) {
+  async _handleTextEta(event, context) {
     const order = await Order.findOneByObjectId(context.order, ['producer', 'consumer']);
 
-    const {producer, consumer} = order;
+    const {producer} = order;
     if (!/^\d+$/.test(event.message.text)) {
       const response = new TextMessageData('Please enter the correct time format (e.g. 21 for 21 minutes)');
       return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response]});
@@ -343,28 +384,32 @@ export default class ProducerChatBot extends FbChatBot {
     const eta = parseInt(event.message.text, 10);
     await Order.updateByObjectId(order._id, {eta, status: OrderStatuses.inProgress});
 
-
-    await Context.emptyFields(context._id, ['lastAction, order']);
-    const taskList = await this.generateTaskList(producer._id, [OrderStatuses.inProgress], FbChatBot.taskListLimit);
-    const text = new TextMessageData('Here are the current orders in progress');
-
-    const consumerMsg = this._orderAcceptToUser(order, eta);
-    return this.genResponse({producerFbId: producer.fbId, producerMsgs: [text, taskList],
-      consumerFbId: consumer.fbId, consumerMsgs: [consumerMsg]});
+    return await this._orderEtaHelper(context, eta, order);
   }
 
   /**
-   * Sends an order acceptance message to the user
    *
-   * @param {Object} event: input event from messenger
-   * @param {Number} eta: the eta until the order is ready
+   * @param {Object} context: context for producer that is setting the eta
+   * @param {Number} eta: the eta of the order
+   * @param {Order} order: the order object
+   * @returns {Object}: FbMessage object containing response messages
    * @private
    */
-  _orderAcceptToUser(order, eta) {
-    const message = new TextMessageData(`Your order \"${order.body}\" for a total of` +
+  async _orderEtaHelper(context, eta, order) {
+    const {consumer, producer} = order;
+
+    await Context.emptyFields(context._id, ['lastAction, order']);
+
+    const text = new TextMessageData('Here are the current orders in progress');
+    const taskList = await this.generateTaskList(producer._id, [OrderStatuses.inProgress], FbChatBot.taskListLimit);
+
+    const consumerMsg = new ButtonMessageData(`Your order \"${order.body}\" for a total of` +
       ` $${this.formatPrice(order.price)} has been accepted. It will be ready in ${eta} minutes.` +
       ` We'll send you a message once it's ready to be picked up.`);
-    return message;
+    consumerMsg.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
+
+    return this.genResponse({producerFbId: producer.fbId, producerMsgs: [text, taskList],
+      consumerFbId: consumer.fbId, consumerMsgs: [consumerMsg]});
   }
 
   /**
@@ -379,11 +424,12 @@ export default class ProducerChatBot extends FbChatBot {
     await Order.updateByObjectId(order._id, {status: OrderStatuses.producerDeclined});
     await Context.emptyFields(context._id, ['lastAction, order']);
 
-    const consumerMsg = new TextMessageData(`Your order \"${order.body}\" has been declined for the following ` +
-        `reason: ${event.message.text}`);
+    const {consumer, producer} = order;
+    const consumerMsg = new ButtonMessageData(`Your order \"${order.body}\" has been declined by ${producer.name}` +
+      ` for the following reason: ${event.message.text}`);
+    consumerMsg.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
     const response = new TextMessageData('We notified the user that his or her order has been declined.');
 
-    const {consumer, producer} = order;
     return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response],
       consumerFbId: consumer.fbId, consumerMsgs: [consumerMsg]});
   }

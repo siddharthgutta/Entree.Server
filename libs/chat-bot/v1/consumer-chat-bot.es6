@@ -59,7 +59,6 @@ export default class ConsumerChatBot extends FbChatBot {
     const consumer = await this._findOrCreateConsumer(event);
 
     let output;
-    // TODO - handle read receipt messages so it doens't clog up error logs
     switch (this.getEventType(event)) {
       case FbChatBot.events.postback:
         output = await this._handlePostback(event, consumer);
@@ -72,11 +71,6 @@ export default class ConsumerChatBot extends FbChatBot {
         break;
       case FbChatBot.events.attachment:
         output = await this._handleAttachment(event, consumer);
-        break;
-      case FbChatBot.events.delivery:
-        // This is an event that just tells us our delivery succeeded
-        // We already get this in the response of the message sent so generate empty response
-        output = this.genResponse();
         break;
       default:
         console.log(event);
@@ -289,7 +283,8 @@ export default class ConsumerChatBot extends FbChatBot {
     const {orderId} = this.getData(payload);
     await Order.updateByObjectId(orderId, {status: OrderStatuses.consumerQuoteDeclined});
 
-    const button = new ButtonMessageData('Sorry if something was wrong with your order. Try ordering again');
+    const button = new ButtonMessageData('You have successfully cancelled the order. To browse more trucks, press ' +
+      '\"See Trucks\"');
     button.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [button]});
@@ -575,7 +570,7 @@ export default class ConsumerChatBot extends FbChatBot {
    * @private
    */
   async _handleMoreInfo(payload, consumer) {
-    const {producerId} = this._getData(payload);
+    const {producerId} = this.getData(payload);
     const producer = await Producer.findOneByObjectId(producerId);
     const hoursString = this._formatHours(producer.hours);
     const openString = ` is currently ${(Producer.isOpen(producer.hours) ? 'open! :D' : 'closed. :(')}`;

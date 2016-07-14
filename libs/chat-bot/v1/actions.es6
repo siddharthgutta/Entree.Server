@@ -24,5 +24,6 @@ export const ProducerActions = {
   quote: 'Price',
   decline: 'Producer Decline',
   accept: 'Producer Accept',
-  ready: 'Order Ready'
+  ready: 'Order Ready',
+  setEta: 'Set ETA'
 };

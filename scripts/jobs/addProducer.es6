@@ -44,7 +44,7 @@ async function insertInDB(JSONObject) {
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
     await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
       transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
-      menuLink});
+      menuLink, fbId: optional.producer.fbId});
     await Producer.deleteAllHours(_id);
     await Producer.addHours(_id, hours);
   } catch (err) {

@@ -17,7 +17,6 @@ export default class FbChatBot {
     postback: 'Postback',
     text: 'Text',
     attachment: 'Attachment',
-    delivery: 'Delivery',
     quickReply: 'Quick Reply'
   };
 
@@ -92,10 +91,6 @@ export default class FbChatBot {
 
     if (event.message && event.message.attachments) {
       return FbChatBot.events.attachment;
-    }
-
-    if (event.delivery) {
-      return FbChatBot.events.delivery;
     }
 
     return null;
