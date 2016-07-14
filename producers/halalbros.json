@@ -1,0 +1,48 @@
+{
+  "name": "Halal Bros",
+  "username": "haram",
+  "password": "bros",
+  "description": "Authentic, Middle Eastern Food",
+  "profileImage": "http://i.imgur.com/uXnTH6V.jpg",
+  "address": "419 E 7th St Austin, TX 78701",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Chicken Over Rice with French Fries",
+  "menuLink": "http://s3-media4.fl.yelpcdn.com/bphoto/PvxnFKew3XehnoOQUuc2xg/o.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+      "day": "Thursday",
+      "openTime": "21:00",
+      "closeTime": "24:00"
+    },
+    {
+    "day": "Friday",
+    "openTime": "00:00",
+    "closeTime": "03:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "21:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "00:00",
+      "closeTime": "03:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "21:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "00:00",
+      "closeTime": "03:00"
+    }]
+}
