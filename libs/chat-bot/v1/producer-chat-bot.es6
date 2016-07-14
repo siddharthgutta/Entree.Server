@@ -274,6 +274,7 @@ export default class ProducerChatBot extends FbChatBot {
     const {orderId} = this.getData(payload);
     const order = await Order.findOneByObjectId(orderId, ['producer', 'consumer']);
     const {producer, consumer} = order;
+    const {location} = await Producer.findOneByObjectId(producer._id);
 
     if (!this.validOrderStatus(order, [OrderStatuses.inProgress])) {
       const text = this._invalidActionResponse('You have already completed that order.' +
@@ -286,7 +287,7 @@ export default class ProducerChatBot extends FbChatBot {
     await Order.updateByObjectId(order._id, {status: OrderStatuses.ready});
 
     const consumerMsg = new ButtonMessageData(`Your order \"${order.body}\" is ready to be picked up.`);
-    consumerMsg.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
+    consumerMsg.pushLinkButton('Location', `https://maps.google.com/?q=${location.address}`);
     const response = new TextMessageData('The user has been notified that his or her order is ready for pickup.');
 
     return this.genResponse({producerFbId: producer.fbId, producerMsgs: [response],
@@ -397,6 +398,7 @@ export default class ProducerChatBot extends FbChatBot {
    */
   async _orderEtaHelper(context, eta, order) {
     const {consumer, producer} = order;
+    const {location} = await Producer.findOneByObjectId(producer._id);
 
     await Context.emptyFields(context._id, ['lastAction, order']);
 
@@ -406,7 +408,7 @@ export default class ProducerChatBot extends FbChatBot {
     const consumerMsg = new ButtonMessageData(`Your order \"${order.body}\" for a total of` +
       ` $${this.formatPrice(order.price)} has been accepted. It will be ready in ${eta} minutes.` +
       ` We'll send you a message once it's ready to be picked up.`);
-    consumerMsg.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
+    consumerMsg.pushLinkButton('Location', `https://maps.google.com/?q=${location.address}`);
 
     return this.genResponse({producerFbId: producer.fbId, producerMsgs: [text, taskList],
       consumerFbId: consumer.fbId, consumerMsgs: [consumerMsg]});
