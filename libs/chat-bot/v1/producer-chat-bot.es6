@@ -287,10 +287,8 @@ export default class ProducerChatBot extends FbChatBot {
     const {producer, consumer} = order;
 
     let price;
-    if (/^\d+\.\d{2}$/.test(event.message.text)) {
+    if (/^\d+(\.\d{2})?$/.test(event.message.text)) {
       price = Math.round(parseFloat(event.message.text) * 100);
-    } else if (/^\d+$/.test(event.message.text)) {
-      price = parseInt(event.message.text, 10) * 100;
     } else {
       const response = new TextMessageData('Please enter the correct price format (e.g. 15.42) for $15.42' +
         ' or 15 for $15.00');
