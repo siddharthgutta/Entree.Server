@@ -3,7 +3,7 @@
  */
 
 import slack from '@slack/client';
-import NotifierStrategy from './notifier-data.es6';
+import NotifierStrategy from './strategy.es6';
 import _ from 'lodash';
 import Promise from 'bluebird';
 

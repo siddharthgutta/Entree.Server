@@ -49,7 +49,7 @@ export async function createWithCoord(lat, long) {
 /**
  * Finds the location if available in the database given an address
  *
- * @param {number} address: the address of the location to be found
+ * @param {String} address: the address of the location to be found
  * @returns {Location} the object matching the given address
  */
 export async function findLocationFromAddress(address) {

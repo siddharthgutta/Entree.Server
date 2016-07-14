@@ -44,7 +44,7 @@ export default class GoogleMapsGeocoding extends GoogleAPIStrategy {
       'GET', {address: addr, key: this.apiKey}
     );
     if (Utils.isEmpty(responseBody.results[0])) throw new Error('Cannot find a valid location from this address');
-    else return responseBody.results[0].geometry.location;
+    return responseBody.results[0].geometry.location;
   }
 
 }

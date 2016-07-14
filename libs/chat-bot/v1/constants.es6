@@ -1,11 +1,13 @@
 const constants = {
-  radius: 2,
+  radius: 4,
   searchLimit: 10,
   location: 'location',
   video: 'video',
   audio: 'audio',
   file: 'file',
-  image: 'image'
+  image: 'image',
+  miles: 2,
+  multiplier: 2
 };
 
 export default constants;

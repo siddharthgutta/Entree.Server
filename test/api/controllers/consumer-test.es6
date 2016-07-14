@@ -5,6 +5,7 @@ import * as hour from '../../../api/controllers/hour.es6';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
 import _ from 'lodash';
+import moment from 'moment';
 
 describe('Consumer DB API', () => {
   const fbId = 'The Id';
@@ -63,7 +64,17 @@ describe('Consumer DB API', () => {
     });
   });
 
-  describe('#setFieldsByFbId', () => {
+  describe('#findOneByFields()', () => {
+    it('should find a consumer correctly', async () => {
+      await Consumer.createFbConsumer(fbId, optionalAttributes);
+      const consumer = await Consumer.findOneByFields({fbId, firstName: optionalAttributes.consumer.firstName,
+        lastName: optionalAttributes.consumer.lastName, customerId: optionalAttributes.consumer.customerId,
+        receiptCount: optionalAttributes.consumer.receiptCount});
+      assert.ok(consumer.context);
+    });
+  });
+
+  describe('#updateFieldsByFbId', () => {
     const updatedFields = {
       firstName: 'Jill',
       lastName: 'Jane',
@@ -73,7 +84,7 @@ describe('Consumer DB API', () => {
 
     it('should set singular field of a consumer correctly', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.setFieldsByFbId(fbId, {firstName: updatedFields.firstName});
+      await Consumer.updateFieldsByFbId(fbId, {firstName: updatedFields.firstName});
       const consumer = await Consumer.findOneByFbId(fbId);
       assert.equal(consumer.fbId, fbId);
       assert.equal(consumer.firstName, updatedFields.firstName);
@@ -86,7 +97,7 @@ describe('Consumer DB API', () => {
     it('should fail to set customerId of a consumer that is greater than 36 characters', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
       try {
-        await Consumer.setFieldsByFbId(fbId, {customerId: '1234567890123456789012345678901234567'});
+        await Consumer.updateFieldsByFbId(fbId, {customerId: '1234567890123456789012345678901234567'});
       } catch (err) {
         return;
       }
@@ -96,7 +107,7 @@ describe('Consumer DB API', () => {
     it('should fail to set customerId of a consumer that is an empty string', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
       try {
-        await Consumer.setFieldsByFbId(fbId, {customerId: ''});
+        await Consumer.updateFieldsByFbId(fbId, {customerId: ''});
       } catch (err) {
         return;
       }
@@ -105,7 +116,7 @@ describe('Consumer DB API', () => {
 
     it('should set multiple fields of a consumer correctly', async () => {
       await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.setFieldsByFbId(fbId, updatedFields);
+      await Consumer.updateFieldsByFbId(fbId, updatedFields);
       const consumer = await Consumer.findOneByFbId(fbId);
       assert.equal(consumer.fbId, fbId);
       assert.equal(consumer.firstName, updatedFields.firstName);
@@ -190,7 +201,6 @@ describe('Consumer DB API', () => {
       } catch (e) {
         return;
       }
-
       assert(false);
     });
   });
@@ -300,6 +310,127 @@ describe('Consumer DB API', () => {
       const results = await Consumer.getClosestEnabledProducers(consumer.fbId, 20, 1);
       assert.equal(results.length, 1);
       assert.equal(results[0].name, 'Eatzis');
+    });
+  });
+  describe('#getOrderedProducers()', () => {
+    const name = 'Art of Tacos';
+    const password = 'yumyum';
+    const description = 'temp';
+    const profileImage = 'http://i.imgur.com/bzuvGk6.jpg';
+    const menuLink = 'http://i.imgur.com/Ryy5U7O.png';
+    const lat = 32.285687;
+    const lat1 = 33.285689;
+    const lat2 = 33.285689;
+    const long = -97.748266;
+
+    it('should get the producers first open and closest then closed and progress', async () => {
+      const prodAddr1 = await Location.createWithCoord(lat1, long);
+      const prodAddr2 = await Location.createWithCoord(lat2, long);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        prodAddr1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123458'}});
+      const {_id: id2} = await Producer._create('Via32', 'unv2', password, description, profileImage, 'k',
+        prodAddr2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '133457'}});
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      const timeCheck = moment('12:00', 'HH:mm');
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id2);
+    });
+
+    it('should get the producers in order of distance if all are closed', async () => {
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const loc2 = await Location.createWithCoord(30.266746, -97.741945);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 2);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id2);
+    });
+
+    it('should get the producers in order of distance if all are open', async () => {
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const loc2 = await Location.createWithCoord(30.266746, -97.741945);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id2);
+    });
+
+    it('should test the limiter and make sure it only grabs a certain number', async () => {
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const loc2 = await Location.createWithCoord(30.266746, -97.741945);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 1);
+      assert.equal(prodCheck.length, 1);
+    });
+
+    it('should work for alternating open closed', async () => {
+      const closestLoc = await Location.createWithCoord(30.285013, -97.744931);
+      const secondClosestLoc = await Location.createWithCoord(30.285628, -97.738646);
+      const thirdClosestLoc = await Location.createWithCoord(30.280871, -97.722684);
+      const fourthClosetLoc = await Location.createWithCoord(30.280522, -97.703838);
+      const fifthClosestLoc = await Location.createWithCoord(30.284479, -97.659849);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        closestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+      const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
+        secondClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
+      const {_id: id3} = await Producer._create('Mama Fu', 'kfu', password, description, profileImage, 'k',
+        thirdClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '129090'}});
+      const {_id: id4} = await Producer._create('Chipoodle', 'chiptopia', password, description, profileImage, 'k',
+        fourthClosetLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1232131'}});
+      const {_id: id5} = await Producer._create('el Queso', 'quesoguzzler', password, description, profileImage, 'k',
+        fifthClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123214234'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      const timeCheck = moment('12:00', 'HH:mm');
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, 30.286006, -97.747994);
+      await Producer.addHours(id1, [hour1, hour2]);
+      await Producer.addHours(id2, [hour2]);
+      await Producer.addHours(id3, [hour1, hour2]);
+      await Producer.addHours(id4, [hour2]);
+      await Producer.addHours(id5, [hour1, hour2]);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Tuesday', 10);
+      assert.equal(prodCheck.length, 5);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id3);
+      assert.deepEqual(prodCheck[2]._id, id2);
+      assert.deepEqual(prodCheck[3]._id, id4);
+      assert.deepEqual(prodCheck[4]._id, id5);
     });
   });
 });

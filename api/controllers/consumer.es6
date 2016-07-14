@@ -23,15 +23,25 @@ export async function _create(contextId, optional = {}) {
 }
 
 /**
- * Finds a user and populates the fields specified
- *
- * @param {String} fbId: the facebook id of the consumer
- * @param {Array<String>} populateFields: the fields to populate
- * @returns {Promise} returns the populated consumer from the database
+ * Finds one consumer by fields
+ * @param {Object} fields: input fields/conditions to find a consumer by
+ * @param {Object} populateFields: list of fields to populate
+ * @returns {Promise}: Consumer object if found
  * @private
  */
-export async function _findOne(fbId, populateFields = []) {
-  return await Consumer.findOne(fbId, populateFields);
+export async function findOneByFields(fields, populateFields = []) {
+  return await Consumer.findOne(fields, populateFields);
+}
+
+/**
+ * Find and update a consumer from their facebook id with specified fields
+ *
+ * @param {String} _id: consumer's _id
+ * @param {Object} fields: key/value pairs with updated fields
+ * @returns {Promise} returns the producer without updates from the database
+ */
+export async function updateByObjectId(_id, fields) {
+  return await Consumer.findOneAndUpdate({_id}, {$set: fields}, {runValidators: true, new: true});
 }
 
 /**
@@ -41,7 +51,17 @@ export async function _findOne(fbId, populateFields = []) {
  * @returns {Query|Promise|*} return the consumer from the database
  */
 export async function findOneByFbId(fbId) {
-  return await _findOne({fbId}, ['context', 'defaultLocation']);
+  return await findOneByFields({fbId}, ['context', 'defaultLocation']);
+}
+
+/**
+ * Finds a user by their _id
+ *
+ * @param {String} _id: the facebook id of the consumer
+ * @returns {Query|Promise|*} return the consumer from the database
+ */
+export async function findOneByObjectId(_id) {
+  return await findOneByFields({_id}, ['context', 'defaultLocation']);
 }
 
 /**
@@ -63,7 +83,7 @@ export async function createFbConsumer(fbId, optional = {}) {
  * @param {Object} fields: key/value pairs with updated fields
  * @returns {Consumer} returns the consumer without updates from the database
  */
-export async function setFieldsByFbId(fbId, fields) {
+export async function updateFieldsByFbId(fbId, fields) {
   return await Consumer.findOneAndUpdate({fbId}, {$set: fields}, {runValidators: true});
 }
 
@@ -102,7 +122,7 @@ export async function addLocation(fbId, lat, long) {
  *
  * @param {String} fbId: facebook id of the consumer
  * @param {Array<Producer>} producers: the producers whose location we are comparing with; can also be an object
- * @returns {Array<Producer>} an array of producers with an additional field specifying distance
+ * @returns {Array<Producer>} an array of producers with an additional field specifying distance as _distance
  */
 export async function findDistanceFromProducerCoordinates(fbId, producers) {
   const consumer = await findOneByFbId(fbId);
@@ -113,7 +133,6 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
   _(producers).forEach(producer => {
     obj[producer._id] = producer.location.coordinates;
   });
-
   _(producers).forEach(producer => {
     idsToProducers[producer._id] = producer;
   });
@@ -135,7 +154,7 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
  * @param {number} radius: the radius in miles to search for producers across
  * @param {number} limit: number of results desired
  * @returns {Array<Producer>} closest producers within the specified radius with each producer along with a distance
- * field
+ * field as _distance
  */
 export async function getClosestEnabledProducers(fbId, radius, limit) {
   const enabled = await Producer.findAllEnabled();
@@ -148,4 +167,60 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
     }
   });
   return closest.slice(0, limit);
+}
+
+
+/**
+ * Finds producers open for a consumer based off of distance and if they are open
+ *
+ * @param {String} fbId: facebook id of the consumer
+ * @param {number} miles: the base search radius
+ * @param {number} multiplier: the multiplier for the range
+ * @param {Moment} time: the time to check with
+ * @param {String} dayOfWeek: the day of the week to check with
+ * @param {number} numProds: the number of producers to get
+ * @returns {Array} an array of producers based on the distance and if they are open
+ */
+export async function getOrderedProducersHelper(fbId, miles, multiplier, time, dayOfWeek, numProds) {
+  const openArr = [];
+  const closeArr = [];
+  const prodList = [];
+  let range = miles;
+  const allProducers = await Producer.findAllEnabled();
+  // adds the producers to either open or closed arrays
+  for (const prod of allProducers) {
+    if (Producer.isOpenHelper(time, dayOfWeek, prod.hours)) openArr.push(prod);
+    else closeArr.push(prod);
+  }
+  const openProducers = await findDistanceFromProducerCoordinates(fbId, openArr);
+  const closeProducers = await findDistanceFromProducerCoordinates(fbId, closeArr);
+  let openIndex = 0;
+  let closeIndex = 0;
+  // adds producers till the limit first adding open then closed and increases the range
+  while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
+    while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
+      prodList.length < numProds) {
+      prodList.push(openProducers[openIndex++]);
+    }
+    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance < range
+      && prodList.length < numProds) {
+      prodList.push(closeProducers[closeIndex++]);
+    }
+    // increases the range for the search
+    range *= multiplier;
+  }
+  return prodList;
+}
+/**
+ * Finds producers open for a consumer based off of distance and if they are open
+ *
+ * @param {String} fbId: facebook id of the consumer
+ * @param {number} miles: the base search radius
+ * @param {number} multiplier: the multiplier for the range
+ * @param {number} numProds: the number of producers to grab
+ * @returns {Array} an array of producers based on the distance and if they are open
+ */
+export async function getOrderedProducers(fbId, miles, multiplier, numProds) {
+  return getOrderedProducersHelper(fbId, miles, multiplier, Producer.getCurrentTime(),
+    Producer.dayOfWeek(), numProds);
 }

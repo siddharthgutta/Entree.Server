@@ -9,7 +9,7 @@ import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import Constants from './constants.es6';
-import SlackData from '../../../libs/notifier/slack-data.es6';
+import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
 import * as Runtime from '../../runtime.es6';
@@ -18,7 +18,6 @@ import * as Utils from '../../utils.es6';
 import moment from 'moment';
 import _ from 'lodash';
 import * as Hour from '../../hour.es6';
-
 const slackChannelId = config.get('Slack.orders.channelId');
 
 export const events = {
@@ -43,6 +42,7 @@ export default class FbChatBot {
     // callToActions.pushLinkButton('Contact', `https://entreebot.com`);
     // callToActions.pushLinkButton('Update My Location', `https://entreebot.com`);
     callToActions.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
+    callToActions.pushPostbackButton('Update My Location', this._genPayload(actions.updateLocation));
     this.msgPlatform.setPersistentMenu(callToActions.toJSON());
     // Sets the Greeting text
     this.msgPlatform.setGreetingText('Entrée helps you find and order ahead from the best food trucks around you.');
@@ -97,10 +97,16 @@ export default class FbChatBot {
       throw new Error('Could not get payload or action for quick reply event', err);
     }
     switch (action) {
+      case actions.android:
+        return this._handleAndroid(consumer);
+      case actions.ios:
+        return this._handleios(consumer);
+      case actions.desktop:
+        return this._handleDesktop(consumer);
       case actions.existingLocation:
         return this._handleSeeProducers(consumer);
       case actions.newLocation:
-        return this._handleNewLocationPrompt(consumer);
+        return this._handleWhichPlatform();
       default:
         throw Error('Invalid quick reply payload action');
     }
@@ -125,6 +131,8 @@ export default class FbChatBot {
         return this._handleGetStarted();
       case actions.seeProducers:
         return this._handleExistingLocationPrompt(consumer);
+      case actions.updateLocation:
+        return this._handleWhichPlatform();
       case actions.moreInfo:
         return await this._handleMoreInfo(payload);
       case actions.menu:
@@ -220,7 +228,6 @@ export default class FbChatBot {
     }
   }
 
-
   /**
    * Handles the get started button being pressed
    *
@@ -235,6 +242,7 @@ export default class FbChatBot {
     button.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
     return [button];
   }
+
 
   /**
    * Handles the get started button being pressed
@@ -317,12 +325,16 @@ export default class FbChatBot {
   async _sendOrderMessage(consumer, producer, order) {
     const pretext = 'Incoming Order';
     const consumerName = `${consumer.firstName} ${consumer.lastName}`;
-    const slackData = new SlackData(`${pretext}: ${consumerName} from ${producer.name} of ` +
-      `[${order.body}] for $${order.price}`, Runtime.isProduction() ? 'good' : 'danger', pretext);
-    slackData.addFields('Text Body', order.body, false);
-    slackData.addFields('Consumer', consumerName);
-    slackData.addFields('Producer', producer.name);
-    slackData.addFields('Price', `${order.price}`);
+    const slackData = new TypedSlackData();
+    slackData.pushAttachment();
+    slackData.setColor(Runtime.isProduction() ? 'good' : 'danger');
+    slackData.setPretext(pretext);
+    slackData.setFallback(`${pretext}: ${consumerName} from ${producer.name} of ` +
+      `[${order.body}] for $${order.price}`);
+    slackData.pushField('Text Body', order.body, false);
+    slackData.pushField('Consumer', consumerName);
+    slackData.pushField('Producer', producer.name);
+    slackData.pushField('Price', `${order.price}`);
     const response = await Slack.sendMessage(slackChannelId, slackData);
     console.log(response);
   }
@@ -337,8 +349,10 @@ export default class FbChatBot {
   _handleInvalidText(text) {
     let response;
     response = new ButtonMessageData(`Sorry, it looks like we don't know what do with your text \"${text}\" at this ` +
-      `time. Please start over by pressing the \"Trucks\" button`);
+      `time. Please start over by pressing the \"Trucks\" button. If you were trying to look up trucks ` +
+      `in a different location, press "Update My Location" to update your location.`);
     response.pushPostbackButton('Trucks', this._genPayload(actions.seeProducers));
+    response.pushPostbackButton('Update My Location', this._genPayload(actions.updateLocation));
     return [response];
   }
 
@@ -440,27 +454,25 @@ export default class FbChatBot {
     try {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
-      let producersWithAddresses = await Consumer.getClosestEnabledProducers(consumer.fbId,
-        Constants.radius, Constants.searchLimit);
+      let producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId, Constants.miles,
+        Constants.multiplier, Constants.searchLimit);
       response = new GenericMessageData();
-
       const emptyProducers = producersWithAddresses.length === 0;
       if (emptyProducers) {
         text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
           ` Here are some trucks that you might enjoy, though.`);
         const producers = _.shuffle(await Producer.findRandomEnabled());
-
         // Populates the producers from findRandomEnabled() to get address
         for (let k = 0; k < producers.length; k++) {
           producers[k] = Producer.findOneByObjectId(producers[k]._id);
         }
         producersWithAddresses = await Promise.all(producers);
       }
-
       _.each(producersWithAddresses, producer => {
         const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
           `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
-        response.pushElement(title, producer.description, producer.profileImage);
+        const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+        response.pushElement(title, description, producer.profileImage);
         response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
         response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
         response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
@@ -520,7 +532,7 @@ export default class FbChatBot {
   async _handleExistingLocationPrompt(consumer) {
     let response;
     try {
-      if (Utils.isEmpty(consumer.defaultLocation)) return this._handleNewLocationPrompt(consumer);
+      if (Utils.isEmpty(consumer.defaultLocation)) return this._handleWhichPlatform();
       response = new QuickReplyMessageData('Do you want us to use the last location you gave us to ' +
         'find trucks near you?');
       response.pushQuickReply('Yes', this._genPayload(actions.existingLocation));
@@ -532,27 +544,59 @@ export default class FbChatBot {
     return [response];
   }
 
-  /**
-   * Executed after producer presses Continue
-   *
-   * @returns {Object}: Instructions on how to submit location
-   * @private
-   */
-  async _handleNewLocationPrompt(consumer) {
+  async _handleWhichPlatform() {
+    let response;
+    try {
+      response = new QuickReplyMessageData(`Which platform are you using?`);
+      response.pushQuickReply('Android', this._genPayload(actions.android));
+      response.pushQuickReply('iOS', this._genPayload(actions.ios));
+      response.pushQuickReply('Desktop', this._genPayload(actions.desktop));
+    } catch (err) {
+      throw new Error('Failed to generate which platform question');
+    }
+    return [response];
+  }
+
+  async _handleAndroid(consumer) {
     let text;
     try {
-      text = new TextMessageData('Send us your location so we can find the food trucks closest to you. ' +
-        '\n1. For Android, click the \'…\' button, press \'Location\', and then press the send button\n' +
-        '2. For iOS, tap the location button\n3. If you\'re on desktop, ' +
-        'just type in your address or zip code (Ex: 201 E 21st St., Austin, Texas)');
+      text = new TextMessageData('We need your location to find food trucks near you. ' +
+        'click the \'…\' button, press \'Location\', and then press the send button');
       const {context: {_id: contextId}} = consumer;
       await Context.updateFields(contextId, {lastAction: actions.location});
     } catch (err) {
-      throw new Error('Failed to generate search message', err);
+      throw new Error('Failed to generate android message', err);
     }
-
     return [text];
   }
+
+  async _handleios(consumer) {
+    let text;
+    try {
+      text = new TextMessageData('We need your location to find food trucks near you. ' +
+        'Tap the location button to send us your location!');
+      const {context: {_id: contextId}} = consumer;
+      await Context.updateFields(contextId, {lastAction: actions.location});
+    } catch (err) {
+      throw new Error('Failed to generate ios message', err);
+    }
+    return [text];
+  }
+
+  async _handleDesktop(consumer) {
+    let text;
+    try {
+      text = new TextMessageData('We need your location to find food trucks near you. ' +
+        'Type in your address (Ex. 201 E 21st St, Austin, TX). Please be sure to include your city or ' +
+        'your zipcode along with the street address.');
+      const {context: {_id: contextId}} = consumer;
+      await Context.updateFields(contextId, {lastAction: actions.location});
+    } catch (err) {
+      throw new Error('Failed to generate desktop message', err);
+    }
+    return [text];
+  }
+
 
   /**
    * Executed when producer presses the MoreInfo button on a specific producer searched
