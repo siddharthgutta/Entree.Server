@@ -133,7 +133,6 @@ export async function findDistanceFromProducerCoordinates(fbId, producers) {
   _(producers).forEach(producer => {
     obj[producer._id] = producer.location.coordinates;
   });
-
   _(producers).forEach(producer => {
     idsToProducers[producer._id] = producer;
   });
@@ -168,4 +167,60 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
     }
   });
   return closest.slice(0, limit);
+}
+
+
+/**
+ * Finds producers open for a consumer based off of distance and if they are open
+ *
+ * @param {String} fbId: facebook id of the consumer
+ * @param {number} miles: the base search radius
+ * @param {number} multiplier: the multiplier for the range
+ * @param {Moment} time: the time to check with
+ * @param {String} dayOfWeek: the day of the week to check with
+ * @param {number} numProds: the number of producers to get
+ * @returns {Array} an array of producers based on the distance and if they are open
+ */
+export async function getOrderedProducersHelper(fbId, miles, multiplier, time, dayOfWeek, numProds) {
+  const openArr = [];
+  const closeArr = [];
+  const prodList = [];
+  let range = miles;
+  const allProducers = await Producer.findAllEnabled();
+  // adds the producers to either open or closed arrays
+  for (const prod of allProducers) {
+    if (Producer.isOpenHelper(time, dayOfWeek, prod.hours)) openArr.push(prod);
+    else closeArr.push(prod);
+  }
+  const openProducers = await findDistanceFromProducerCoordinates(fbId, openArr);
+  const closeProducers = await findDistanceFromProducerCoordinates(fbId, closeArr);
+  let openIndex = 0;
+  let closeIndex = 0;
+  // adds producers till the limit first adding open then closed and increases the range
+  while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
+    while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
+      prodList.length < numProds) {
+      prodList.push(openProducers[openIndex++]);
+    }
+    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance < range
+      && prodList.length < numProds) {
+      prodList.push(closeProducers[closeIndex++]);
+    }
+    // increases the range for the search
+    range *= multiplier;
+  }
+  return prodList;
+}
+/**
+ * Finds producers open for a consumer based off of distance and if they are open
+ *
+ * @param {String} fbId: facebook id of the consumer
+ * @param {number} miles: the base search radius
+ * @param {number} multiplier: the multiplier for the range
+ * @param {number} numProds: the number of producers to grab
+ * @returns {Array} an array of producers based on the distance and if they are open
+ */
+export async function getOrderedProducers(fbId, miles, multiplier, numProds) {
+  return getOrderedProducersHelper(fbId, miles, multiplier, Producer.getCurrentTime(),
+    Producer.dayOfWeek(), numProds);
 }
