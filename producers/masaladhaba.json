@@ -1,0 +1,58 @@
+{
+  "name": "Masala Dhaba",
+  "username": "masala",
+  "password": "chickentikka",
+  "description": "Authentic Indian Food",
+  "profileImage": "http://i.imgur.com/uFMsgY9.jpg",
+  "address": "75 Rainey St Austin, TX 78701",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Chicken Tikka Masala with Samosas",
+  "menuLink": "https://www.yelp.com/order/menu/Owg9Db0oopzYB6UrmJosKQ?opportunity_token=ae79b86de7c06d7b74a4598ea81d1458",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+      "day": "Tuesday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "00:00",
+      "closeTime": "03:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "17:00",
+      "closeTime": "24:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "00:00",
+      "closeTime": "03:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "17:00",
+      "closeTime": "22:30"
+    }]
+}
