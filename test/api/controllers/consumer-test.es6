@@ -338,10 +338,8 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1]);
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
-      const prod1 = await Producer.findOneByObjectId(id1);
-      const prod2 = await Producer.findOneByObjectId(id2);
-      assert.equal(prodCheck[0].name, prod1.name);
-      assert.equal(prodCheck[1].name, prod2.name);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id2);
     });
 
     it('should get the producers in order of distance if all are closed', async () => {
@@ -359,10 +357,8 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1, hour2]);
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 2);
-      const prod1 = await Producer.findOneByObjectId(id1);
-      const prod2 = await Producer.findOneByObjectId(id2);
-      assert.deepEqual(prodCheck[0]._id, prod1._id);
-      assert.deepEqual(prodCheck[1]._id, prod2._id);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id2);
     });
 
     it('should get the producers in order of distance if all are open', async () => {
@@ -380,10 +376,8 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1, hour2]);
       const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
-      const prod1 = await Producer.findOneByObjectId(id1);
-      const prod2 = await Producer.findOneByObjectId(id2);
-      assert.deepEqual(prodCheck[0]._id, prod1._id);
-      assert.deepEqual(prodCheck[1]._id, prod2._id);
+      assert.deepEqual(prodCheck[0]._id, id1);
+      assert.deepEqual(prodCheck[1]._id, id2);
     });
 
     it('should test the limiter and make sure it only grabs a certain number', async () => {

@@ -206,7 +206,7 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
       && prodList.length < numProds) {
       prodList.push(closeProducers[closeIndex++]);
     }
-    // increases the range
+    // increases the range for the search
     range *= multiplier;
   }
   return prodList;
