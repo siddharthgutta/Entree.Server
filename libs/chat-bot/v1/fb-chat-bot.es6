@@ -461,7 +461,6 @@ export default class FbChatBot {
         text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
           ` Here are some trucks that you might enjoy, though.`);
         const producers = _.shuffle(await Producer.findRandomEnabled());
-
         // Populates the producers from findRandomEnabled() to get address
         for (let k = 0; k < producers.length; k++) {
           producers[k] = Producer.findOneByObjectId(producers[k]._id);
