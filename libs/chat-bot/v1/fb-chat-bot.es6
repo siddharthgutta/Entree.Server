@@ -471,7 +471,7 @@ export default class FbChatBot {
       _.each(producersWithAddresses, producer => {
         const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
           `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
-        const description  = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+        const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
         response.pushElement(title, description, producer.profileImage);
         response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
         response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
