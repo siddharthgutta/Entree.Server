@@ -122,7 +122,6 @@ export async function addLocation(fbId, lat, long) {
  *
  * @param {String} fbId: facebook id of the consumer
  * @param {Array<Producer>} producers: the producers whose location we are comparing with; can also be an object
-<<<<<<< 0fd83d107b535809bf5785635f253af4a804ec64
  * @returns {Array<Producer>} an array of producers with an additional field specifying distance as _distance
  */
 export async function findDistanceFromProducerCoordinates(fbId, producers) {
@@ -175,7 +174,7 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
  * Finds producers open for a consumer based off of distance and if they are open
  *
  * @param {String} fbId: facebook id of the consumer
- * @param {number} miles: the base search radii
+ * @param {number} miles: the base search radius
  * @param {number} multiplier: the multiplier for the range
  * @param {Moment} time: the time to check with
  * @param {String} dayOfWeek: the day of the week to check with
