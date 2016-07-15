@@ -1,14 +1,14 @@
 {
-  "name": "Mac Daddy's",
-  "username": "macdaddys",
-  "password": "cheese",
-  "description": "Food Truck near UT Austin serving delicious mac and cheese creations.",
-  "profileImage": "http://i.imgur.com/bABXzgz.jpg",
-  "address": "709 W 26th St, Austin, TX 78705",
-  "percentageFee": 3.5,
+  "name": "Masala Dhaba",
+  "username": "masala",
+  "password": "chickentikka",
+  "description": "Authentic Indian Food",
+  "profileImage": "http://i.imgur.com/uFMsgY9.jpg",
+  "address": "75 Rainey St Austin, TX 78701",
+  "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 small meltdown and 1 topo chico",
-  "menuLink": "http://i.imgur.com/2AEqV3D.png",
+  "exampleOrder": "1 Chicken Tikka Masala with Samosas",
+  "menuLink": "http://austin.eat24hours.com/masala-dhaba/70070",
   "optional": {
     "producer": {
       "enabled": true
@@ -16,24 +16,19 @@
   },
   "hours":
   [{
-    "day": "Monday",
-    "openTime": "17:00",
-    "closeTime": "22:00"
-  },
-    {
       "day": "Tuesday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "24:00"
     },
     {
       "day": "Wednesday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "24:00"
     },
     {
       "day": "Thursday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "24:00"
     },
     {
       "day": "Friday",
@@ -58,6 +53,6 @@
     {
       "day": "Sunday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "22:30"
     }]
 }
