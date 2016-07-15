@@ -1,0 +1,53 @@
+{
+  "name": "Holla Mode",
+  "username": "icecreamer",
+  "password": "thai",
+  "description": "Thai Style Icecream",
+  "profileImage": "http://i.imgur.com/mncaaZa.jpg",
+  "address": "1800 Barton Springs Road Austin, TX 78704",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Eskimo Kisses with Organic Cocunut Milk",
+  "menuLink": "http://static1.squarespace.com/static/564ae489e4b082e8de1c4914/t/56558033e4b0b807737ffcc8/1448443963453/?format=1000w",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "23:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "23:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "11:00",
+      "closeTime": "23:00"
+    }]
+}
