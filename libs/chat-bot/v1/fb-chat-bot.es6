@@ -409,7 +409,7 @@ export default class FbChatBot {
     let response;
     const day = moment();
     const tmrw = day.add(1, 'day').format('dddd');
-    const today = this._getHoursForADay(producer.hours, day.format('dddd'));
+    const today = this._getHoursForADay(producer.hours, moment().format('dddd'));
     const tomorrow = this._getHoursForADay(producer.hours, tmrw);
     response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
       `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
