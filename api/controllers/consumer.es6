@@ -199,7 +199,19 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
   let closeIndex = 0;
   // adds producers till the limit first adding open then closed and increases the range
   while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
-    if (range >= limit && prodList.length === 0) throw new Error('Location is out of bounds');
+    if (range >= limit) {
+      range = limit;
+      while (openIndex < openProducers.length && openProducers[openIndex]._distance <= range &&
+      prodList.length < numProds) {
+        prodList.push(openProducers[openIndex++]);
+      }
+      while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance <= range
+      && prodList.length < numProds) {
+        prodList.push(closeProducers[closeIndex++]);
+      }
+      if (prodList.length === 0) throw new Error('Location is out of bounds');
+      return prodList;
+    }
     while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
       prodList.length < numProds) {
       prodList.push(openProducers[openIndex++]);

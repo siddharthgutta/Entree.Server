@@ -134,12 +134,16 @@ export default class FbChatBot {
    * @private
    */
   async _handleSeeProducers(consumer) {
-    let text, response;
+    let text, response, producersWithAddresses;
     try {
       text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
         `on the food trucks' cards to see their menu, place an order, or get more information.`);
-      let producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId, Constants.miles,
-        Constants.multiplier, Constants.searchLimit, Constants.limit);
+      try {
+        producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId, Constants.miles,
+          Constants.multiplier, Constants.searchLimit, Constants.limit);
+      } catch (err) {
+        return [(new TextMessageData('Sorry you are too far away. We could not find any trucks near you. :('))];
+      }
       response = new GenericMessageData();
       const emptyProducers = producersWithAddresses.length === 0;
       if (emptyProducers) {
