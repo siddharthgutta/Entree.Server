@@ -337,7 +337,7 @@ describe('Consumer DB API', () => {
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1]);
-      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2, 300);
       assert.deepEqual(prodCheck[0]._id, id1);
       assert.deepEqual(prodCheck[1]._id, id2);
     });
@@ -353,10 +353,10 @@ describe('Consumer DB API', () => {
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Consumer.addLocation(consumer.fbId, 30.285013, -97.744931);
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1, hour2]);
-      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 2);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 2, 25);
       assert.deepEqual(prodCheck[0]._id, id1);
       assert.deepEqual(prodCheck[1]._id, id2);
     });
@@ -372,10 +372,10 @@ describe('Consumer DB API', () => {
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Consumer.addLocation(consumer.fbId, 30.285013, -97.744931);
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1, hour2]);
-      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Monday', 2, 25);
       assert.deepEqual(prodCheck[0]._id, id1);
       assert.deepEqual(prodCheck[1]._id, id2);
     });
@@ -391,10 +391,10 @@ describe('Consumer DB API', () => {
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
-      await Consumer.addLocation(consumer.fbId, lat, long);
+      await Consumer.addLocation(consumer.fbId, 30.285013, -97.744931);
       await Producer.addHours(id1, [hour1, hour2]);
       await Producer.addHours(id2, [hour1, hour2]);
-      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 1);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Thursday', 1, 25);
       assert.equal(prodCheck.length, 1);
     });
 
@@ -424,13 +424,30 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id3, [hour1, hour2]);
       await Producer.addHours(id4, [hour2]);
       await Producer.addHours(id5, [hour1, hour2]);
-      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Tuesday', 10);
+      const prodCheck = await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Tuesday', 10, 25);
       assert.equal(prodCheck.length, 5);
       assert.deepEqual(prodCheck[0]._id, id1);
       assert.deepEqual(prodCheck[1]._id, id3);
       assert.deepEqual(prodCheck[2]._id, id2);
       assert.deepEqual(prodCheck[3]._id, id4);
       assert.deepEqual(prodCheck[4]._id, id5);
+    });
+    it('should fail if the consumer is farther than the limit', async() => {
+      const loc1 = await Location.createWithCoord(30.282771, -97.736957);
+      const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
+        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+      const hour1 = await hour.create('Tuesday', '07:00', '21:00');
+      const hour2 = await hour.create('Monday', '07:00', '21:00');
+      await Producer.addHours(id1, [hour1, hour2]);
+      const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
+      await Consumer.addLocation(consumer.fbId, 32.639193, -4.561192);
+      try {
+        const timeCheck = moment('12:00', 'HH:mm');
+        await Consumer.getOrderedProducersHelper(consumer.fbId, 2, 2, timeCheck, 'Tuesday', 10, 25);
+      } catch (e) {
+        return;
+      }
+      assert(false);
     });
   });
 });

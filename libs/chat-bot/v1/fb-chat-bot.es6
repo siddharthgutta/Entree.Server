@@ -56,7 +56,114 @@ export default class FbChatBot {
         message.pushPostbackButton('Ready', this.genPayload(ProducerActions.ready, {orderId: order._id}));
       }
     });
+    openHours = hourArr.join(', ');
+    if (openHours.length === 0) openHours = 'Closed';
+    return openHours;
+  }
 
+  /**
+   * Gets the hours a producer is open on for a certain day
+   *
+   * @param {Array} hours: an array of hours for a producer
+   * @param {string} day: the day of the week to check the hours for
+   * @returns {string} the formatted hours that the producer is open for for a certain day
+   * @private
+   */
+  _getHoursForADay(hours, day) {
+    let openHours = '';
+    const hourArr = [];
+    _.forEach(hours, hour => {
+      if (hour.day === day) {
+        hourArr.push(Hour.format(hour));
+      }
+      openHours = hourArr.join(', ');
+    });
+    if (openHours.length === 0) openHours = 'Closed';
+    return openHours;
+  }
+
+  /**
+   * Finds the hours for the day its closed and the next day
+   *
+   * @param {Object} producer: the producer to find the closed hours for
+   * @returns {Object} ButtonMessage object
+   * @private
+   */
+  _hoursClosed(producer) {
+    let response;
+    const day = moment();
+    const tmrw = day.add(1, 'day').format('dddd');
+    const today = this._getHoursForADay(producer.hours, moment().format('dddd'));
+    const tomorrow = this._getHoursForADay(producer.hours, tmrw);
+    response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
+      `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
+    response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+    return [response];
+  }
+
+  /**
+   * Handles the order prompting
+   *
+   * @returns {Object}: MessageData object
+   * @private
+   */
+  async _handleOrderPrompt(payload, consumer) {
+    let response;
+    try {
+      const {producerId} = this._getData(payload);
+      const producer = await Producer.findOneByObjectId(producerId);
+      if (!(Producer.isOpen(producer.hours))) {
+        return this._hoursClosed(producer);
+      }
+      const {context: {_id: contextId}} = consumer;
+      await Context.updateFields(contextId, {lastAction: actions.order, producer: producer._id});
+      response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
+        `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
+      response.pushPostbackButton('Go Back', this._genPayload(actions.seeProducers));
+    } catch (err) {
+      throw new Error('Failed to create handle order message');
+    }
+    return [response];
+  }
+
+  /**
+   * Executed when the consumer gives his/her location and displays
+   * the closest producers
+   *
+   * @returns {Object}: GenericMessageData containing producers
+   * @private
+   */
+  async _handleSeeProducers(consumer) {
+    let text, response;
+    try {
+      text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
+        `on the food trucks' cards to see their menu, place an order, or get more information.`);
+      let producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId, Constants.miles,
+        Constants.multiplier, Constants.searchLimit, Constants.limit);
+      response = new GenericMessageData();
+      const emptyProducers = producersWithAddresses.length === 0;
+      if (emptyProducers) {
+        text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
+          ` Here are some trucks that you might enjoy, though.`);
+        const producers = _.shuffle(await Producer.findRandomEnabled());
+        // Populates the producers from findRandomEnabled() to get address
+        for (let k = 0; k < producers.length; k++) {
+          producers[k] = Producer.findOneByObjectId(producers[k]._id);
+        }
+        producersWithAddresses = await Promise.all(producers);
+      }
+      _.each(producersWithAddresses, producer => {
+        const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
+          `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
+        const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+        response.pushElement(title, description, producer.profileImage);
+        response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
+        response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
+        response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
+      });
+    } catch (err) {
+      throw new Error('Failed to generate producers', err);
+    }
     return message;
   }
 
