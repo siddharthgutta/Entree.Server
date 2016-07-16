@@ -47,13 +47,6 @@ class Home extends React.Component {
             </div>
           </div>
         </header>
-        <footer id="footer">
-          <ul className="icons">
-            <li><a href="https://www.facebook.com/entreebot/" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="https://twitter.com/EntreeBot" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-          </ul>
-          <p className="copyright">© Entree POS Inc.</p>
-        </footer>
       </div>
     );
   }

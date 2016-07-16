@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title !{title}
+    meta(charset="UTF-8")
+    meta(name='keywords' content="sms,food,ordering,menu,mobile,free,text,pick up,message,ahead,entree")
+    meta(name='author' content='Entree')
+    block header
+  body
+    block body
+    #app {{ html|safe }}
+    script(src='/js/vendor.js')
+    script(src='/js/vendor.bundle.js')
+    script(src='/js/bundle.js')
+    include footer

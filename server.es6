@@ -1,7 +1,6 @@
 /**
  * Created by kfu on 6/18/16.
  */
-
 import './api/controllers/dispatcher.es6';
 import express from 'express';
 import path from 'path';
@@ -13,7 +12,6 @@ import config from 'config';
 import compression from 'compression';
 import * as fs from 'fs';
 import {ConsumerRouter, ProducerRouter} from './routes/fb-messenger.es6';
-import DeployRouter from './routes/deploy.es6';
 import BasicRouter from './routes/basic.es6';
 import * as Runtime from './libs/runtime.es6';
 import forceSSL from 'express-force-ssl';
@@ -58,7 +56,6 @@ app.use(express.static(path.join(__dirname, 'public'))); // points app to public
 
 // Sets up specific routes
 app.use('/', BasicRouter);
-app.use('/deploy', DeployRouter);
 app.use('/braintree', BraintreeRouter);
 app.use('/consumer-messenger', ConsumerRouter);
 app.use('/producer-messenger', ProducerRouter);

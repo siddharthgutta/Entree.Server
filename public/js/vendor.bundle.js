@@ -6845,7 +6845,7 @@ var canUseTextInputEvent = ExecutionEnvironment.canUseDOM && 'TextEvent' in wind
 var useFallbackCompositionData = ExecutionEnvironment.canUseDOM && (!canUseCompositionEvent || documentMode && documentMode > 8 && documentMode <= 11);
 
 /**
- * Opera <= 12 includes TextEvent in window, but does not fire
+ * Opera <= 12 shared TextEvent in window, but does not fire
  * text input events. Rely on keypress instead.
  */
 function isPresto() {
@@ -8253,14 +8253,14 @@ var DOMProperty = {
    *   Used when rendering markup or with `*Attribute()`.
    * attributeNamespace
    * propertyName:
-   *   Used on DOM node instances. (This includes properties that mutate due to
+   *   Used on DOM node instances. (This shared properties that mutate due to
    *   external factors.)
    * mutationMethod:
    *   If non-null, used instead of the property or `setAttribute()` after
    *   initial render.
    * mustUseAttribute:
    *   Whether the property must be accessed and mutated using `*Attribute()`.
-   *   (This includes anything that fails `<propName> in <element>`.)
+   *   (This shared anything that fails `<propName> in <element>`.)
    * mustUseProperty:
    *   Whether the property must be accessed and mutated as an object property.
    * hasSideEffects:
@@ -25221,7 +25221,7 @@ module.exports = require('./lib/React');
   };
 
   // Determine if the array or object contains a given item (using `===`).
-  // Aliased as `includes` and `include`.
+  // Aliased as `shared` and `include`.
   _.contains = _.includes = _.include = function(obj, item, fromIndex, guard) {
     if (!isArrayLike(obj)) obj = _.values(obj);
     if (typeof fromIndex != 'number' || guard) fromIndex = 0;

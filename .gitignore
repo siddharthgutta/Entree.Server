@@ -12,3 +12,9 @@ node_modules
 
 # Bower Components
 bower_components/
+
+# Gulp generated files
+public/js/bundle.js
+public/js/bundle.js.map
+public/js/vendor.bundle.js
+public/js/vendor.js

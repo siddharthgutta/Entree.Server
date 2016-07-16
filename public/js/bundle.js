@@ -77,6 +77,11 @@ var Home = function (_React$Component) {
   _createClass(Home, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
+      this.initializeFacebookButton();
+    }
+  }, {
+    key: 'initializeFacebookButton',
+    value: function initializeFacebookButton() {
       document.getElementById('send-to-messenger-button').setAttribute('messenger_app_id', appId);
       document.getElementById('send-to-messenger-button').setAttribute('page_id', pageId);
 
@@ -146,45 +151,6 @@ var Home = function (_React$Component) {
               { className: 'inner' },
               _react2.default.createElement('img', { src: 'img/phone_screen.png', alt: true })
             )
-          )
-        ),
-        _react2.default.createElement(
-          'footer',
-          { id: 'footer' },
-          _react2.default.createElement(
-            'ul',
-            { className: 'icons' },
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { href: 'https://www.facebook.com/entreebot/', className: 'icon fa-facebook' },
-                _react2.default.createElement(
-                  'span',
-                  { className: 'label' },
-                  'Facebook'
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'li',
-              null,
-              _react2.default.createElement(
-                'a',
-                { href: 'https://twitter.com/EntreeBot', className: 'icon fa-twitter' },
-                _react2.default.createElement(
-                  'span',
-                  { className: 'label' },
-                  'Twitter'
-                )
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: 'copyright' },
-            '© Entree POS Inc.'
           )
         )
       );
