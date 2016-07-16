@@ -2,7 +2,10 @@ import React from 'react';
 
 class Home extends React.Component {
   componentDidMount() {
-    console.log('Inside component Did Mount');
+    this.initializeFacebookButton();
+  }
+
+  initializeFacebookButton() {
     document.getElementById('send-to-messenger-button')
       .setAttribute('messenger_app_id', appId);
     document.getElementById('send-to-messenger-button')

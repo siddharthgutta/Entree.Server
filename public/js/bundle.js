@@ -45,7 +45,7 @@ var App = function (_React$Component) {
 exports.default = App;
 
 },{"react":"react"}],2:[function(require,module,exports){
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -53,7 +53,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = require("react");
+var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -75,91 +75,116 @@ var Home = function (_React$Component) {
   }
 
   _createClass(Home, [{
-    key: "render",
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      document.getElementById('send-to-messenger-button').setAttribute('messenger_app_id', appId);
+      document.getElementById('send-to-messenger-button').setAttribute('page_id', pageId);
+
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: appId,
+          xfbml: true,
+          version: "v2.6"
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+            fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    }
+  }, {
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "div",
+        'div',
         null,
         _react2.default.createElement(
-          "header",
-          { id: "header" },
+          'header',
+          { id: 'header' },
           _react2.default.createElement(
-            "div",
-            { className: "content" },
+            'div',
+            { className: 'content' },
             _react2.default.createElement(
-              "h1",
+              'h1',
               null,
-              _react2.default.createElement("img", { src: "img/entree-header-logo.svg" })
+              _react2.default.createElement('img', { src: 'img/entree-header-logo.svg' })
             ),
             _react2.default.createElement(
-              "p",
+              'p',
               null,
-              "Stop Waiting. Start Eating.",
-              _react2.default.createElement("br", null),
-              _react2.default.createElement("br", null),
-              "Order ahead from the best food",
-              _react2.default.createElement("br", null),
-              "trucks around you through",
-              _react2.default.createElement("br", null),
-              "Facebook Messenger."
+              'Stop Waiting. Start Eating.',
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('br', null),
+              'Order ahead from the best food',
+              _react2.default.createElement('br', null),
+              'trucks around you through',
+              _react2.default.createElement('br', null),
+              'Facebook Messenger.'
             ),
             _react2.default.createElement(
-              "ul",
-              { className: "actions" },
+              'ul',
+              { className: 'actions' },
               _react2.default.createElement(
-                "li",
+                'li',
                 null,
-                _react2.default.createElement("div", { id: "send-to-messenger-button", color: "white", size: "xlarge", className: "fb-messengermessageus" })
+                _react2.default.createElement('div', { id: 'send-to-messenger-button', color: 'white', size: 'xlarge', className: 'fb-messengermessageus' })
               )
             )
           ),
           _react2.default.createElement(
-            "div",
-            { className: "image phone" },
+            'div',
+            { className: 'image phone' },
             _react2.default.createElement(
-              "div",
-              { className: "inner" },
-              _react2.default.createElement("img", { src: "img/phone_screen.png", alt: true })
+              'div',
+              { className: 'inner' },
+              _react2.default.createElement('img', { src: 'img/phone_screen.png', alt: true })
             )
           )
         ),
         _react2.default.createElement(
-          "footer",
-          { id: "footer" },
+          'footer',
+          { id: 'footer' },
           _react2.default.createElement(
-            "ul",
-            { className: "icons" },
+            'ul',
+            { className: 'icons' },
             _react2.default.createElement(
-              "li",
+              'li',
               null,
               _react2.default.createElement(
-                "a",
-                { href: "https://www.facebook.com/entreebot/", className: "icon fa-facebook" },
+                'a',
+                { href: 'https://www.facebook.com/entreebot/', className: 'icon fa-facebook' },
                 _react2.default.createElement(
-                  "span",
-                  { className: "label" },
-                  "Facebook"
+                  'span',
+                  { className: 'label' },
+                  'Facebook'
                 )
               )
             ),
             _react2.default.createElement(
-              "li",
+              'li',
               null,
               _react2.default.createElement(
-                "a",
-                { href: "https://twitter.com/EntreeBot", className: "icon fa-twitter" },
+                'a',
+                { href: 'https://twitter.com/EntreeBot', className: 'icon fa-twitter' },
                 _react2.default.createElement(
-                  "span",
-                  { className: "label" },
-                  "Twitter"
+                  'span',
+                  { className: 'label' },
+                  'Twitter'
                 )
               )
             )
           ),
           _react2.default.createElement(
-            "p",
-            { className: "copyright" },
-            "© Entree POS Inc."
+            'p',
+            { className: 'copyright' },
+            '© Entree POS Inc.'
           )
         )
       );
