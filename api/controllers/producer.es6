@@ -6,6 +6,7 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
+import * as User from '../controllers/user.es6';
 import moment from 'moment';
 import * as Context from '../controllers/context.es6';
 
@@ -27,7 +28,7 @@ export async function findOneByFbId(fbId) {
  * @returns {Promise<Producer>}: the producer with the specific id
  */
 export async function findOneByObjectId(_id) {
-  return await Producer.findOne({_id}, ['merchant', 'location']);
+  return await Producer.findOne({_id}, ['merchant', 'location', 'user']);
 }
 
 /**
@@ -37,7 +38,8 @@ export async function findOneByObjectId(_id) {
  * @returns {Promise<Producer>}: the producer with the specific username
  */
 export async function findOneByUsername(username) {
-  return await Producer.findOne({username}, ['merchant', 'location']);
+  const {_id} = await User.findByUsername(username);
+  return await Producer.findOne({user: _id}, ['merchant', 'location', 'user']);
 }
 
 /**
@@ -85,7 +87,8 @@ export async function findAll(conditions = {}) {
  */
 
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'},
+    ['merchant', 'location', 'user']);
 }
 
 /**
@@ -95,7 +98,12 @@ export async function findFbEnabled(conditions = {}) {
  * @returns {Promise}: returns the producers found
  */
 export async function findAllEnabled(conditions = {}) {
+<<<<<<< 0bdd4ff0bda259785eb0378064aab303c6ade30f
   return await findAll(_.merge(conditions, {enabled: true}));
+=======
+  return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'},
+    ['merchant', 'location', 'user']);
+>>>>>>> added registration and login
 }
 
 /**
@@ -128,9 +136,15 @@ export async function findRandomEnabled(conditions = {}, limit = 10) {
 export async function _create(name, username, password, description, profileImage, exampleOrder,
                               location, percentageFee, transactionFee, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
+<<<<<<< 0bdd4ff0bda259785eb0378064aab303c6ade30f
   const context = await Context.create({...(optional.context)});
   return await Producer.create({name, username, password, description, profileImage, exampleOrder,
     location: location._id, merchant: merchant._id, context, ...optional.producer});
+=======
+  const user = await User.create(username, password);
+  return await Producer.create({name, user: user._id, description, profileImage, exampleOrder,
+    location: location._id, merchant: merchant._id, menuLink, ...optional.producer});
+>>>>>>> added registration and login
 }
 
 

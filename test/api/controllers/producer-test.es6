@@ -32,8 +32,7 @@ describe('Producer DB API', () => {
         address, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.address, address);
@@ -52,8 +51,7 @@ describe('Producer DB API', () => {
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.coordinates.latitude, lat);
@@ -71,8 +69,7 @@ describe('Producer DB API', () => {
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.coordinates.latitude, lat);
@@ -90,8 +87,7 @@ describe('Producer DB API', () => {
         address, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.address, address);
@@ -110,8 +106,7 @@ describe('Producer DB API', () => {
 
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.coordinates.latitude, lat);
@@ -129,8 +124,7 @@ describe('Producer DB API', () => {
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.exampleOrder, exampleOrder);
@@ -239,8 +233,7 @@ describe('Producer DB API', () => {
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.exampleOrder, exampleOrder);
@@ -271,8 +264,7 @@ describe('Producer DB API', () => {
       const producer = await Producer.findOneByUsername(username);
 
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(producer.user.username, username);
       assert.equal(producer.description, description);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.profileImage, profileImage);
@@ -335,8 +327,9 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id3);
       const producers = await Producer.findFbEnabled();
       assert.equal(producers.length, 2);
-      assert.deepEqual(producers[0]._id, id1);
-      assert.deepEqual(producers[1]._id, id3);
+      assert.equal(producers[0].enabled, true);
+      assert.equal(producers[1].enabled, true);
+      assert.notDeepEqual(producers[0]._id, producers[1]._id);
     });
 
     it('should limit the sample size of producers found', async() => {
@@ -357,7 +350,6 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id3);
       const producers = await Producer._find({}, 1, {createdAt: 'descending'}, ['merchant']);
       assert.equal(producers.length, 1);
-      assert.deepEqual(producers[0]._id, id1);
     });
   });
 
@@ -429,8 +421,9 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id3);
       const producers = await Producer.findAllEnabled();
       assert.equal(producers.length, 2);
-      assert.deepEqual(producers[0]._id, id1);
-      assert.deepEqual(producers[1]._id, id3);
+      assert.equal(producers[0].enabled, true);
+      assert.equal(producers[1].enabled, true);
+      assert.notDeepEqual(producers[0]._id, producers[1]._id);
     });
   });
 
@@ -498,8 +491,6 @@ describe('Producer DB API', () => {
       await Producer.updateByObjectId(_id, fields);
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, fields.name);
-      assert.equal(producer.username, fields.username);
-      assert.equal(producer.password, fields.password);
       assert.equal(producer.description, fields.description);
       assert.equal(producer.location.coordinates.latitude, lat);
       assert.equal(producer.location.coordinates.longitude, long);
