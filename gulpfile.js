@@ -1,3 +1,11 @@
+/*
+ |--------------------------------------------------------------------------
+ | This file was taken from the following tutorial:
+ | http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/#step-8-react-routes-server-side
+ |--------------------------------------------------------------------------
+ */
+
+
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var gulpif = require('gulp-if');
