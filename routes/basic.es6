@@ -14,7 +14,7 @@ import * as Runtime from '../libs/runtime.es6';
 const route = new Router();
 const clientConfig = JSON.stringify(config.get('Client'));
 
-// React Middleware
+// React Middleware - Executed on any BasicRouter Call
 route.use('*', (req, res, next) => {
   const location = createLocation(req.url);
   match({routes: reactRoutes, location}, (err, redirectLocation, renderProps) => {
