@@ -201,24 +201,18 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
   while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
     if (range >= limit) {
       range = limit;
-      while (openIndex < openProducers.length && openProducers[openIndex]._distance <= range &&
-      prodList.length < numProds) {
-        prodList.push(openProducers[openIndex++]);
-      }
-      while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance <= range
-      && prodList.length < numProds) {
-        prodList.push(closeProducers[closeIndex++]);
-      }
-      if (prodList.length === 0) throw new Error('Location is out of bounds');
-      return prodList;
     }
-    while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
+    while (openIndex < openProducers.length && openProducers[openIndex]._distance <= range &&
       prodList.length < numProds) {
       prodList.push(openProducers[openIndex++]);
     }
-    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance < range
+    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance <= range
       && prodList.length < numProds) {
       prodList.push(closeProducers[closeIndex++]);
+    }
+    if (range === limit) {
+      if (prodList.length === 0) throw new Error('Location is out of bounds');
+      return prodList;
     }
     // increases the range for the search
     range *= multiplier;
