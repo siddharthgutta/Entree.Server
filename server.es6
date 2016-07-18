@@ -17,6 +17,12 @@ import * as Runtime from './libs/runtime.es6';
 import forceSSL from 'express-force-ssl';
 import BraintreeRouter from './routes/braintree.es6';
 
+import React from 'react';
+import ReactDOM from 'react-dom/server';
+import {match, RoutingContext} from 'react-router';
+import createLocation from 'history/lib/createLocation';
+import reactRoutes from './app/routes';
+
 let server;
 const app = express();
 const isHTTPS = config.get('Server.protocol') === 'https';
@@ -53,6 +59,24 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // points app to public directory for static files
+
+app.use('*', (req, res, next) => {
+  const location = createLocation(req.url);
+  match({routes: reactRoutes, location}, (err, redirectLocation, renderProps) => {
+    if (err) {
+      res.status(500).send(err.message);
+    } else if (redirectLocation) {
+      res.status(302).redirect(redirectLocation.pathname + redirectLocation.search);
+    } else if (renderProps) {
+      // Pass the generated HTML from React in middleware
+      const html = ReactDOM.renderToString(React.createElement(RoutingContext, renderProps));
+      req.html = html;
+      next();
+    } else {
+      res.status(404).send('Page Not Found');
+    }
+  });
+});
 
 // Sets up specific routes
 app.use('/', BasicRouter);

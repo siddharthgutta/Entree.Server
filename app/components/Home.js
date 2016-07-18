@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -47,6 +48,7 @@ class Home extends React.Component {
             </div>
           </div>
         </header>
+        <Footer />
       </div>
     );
   }
