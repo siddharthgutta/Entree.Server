@@ -171,6 +171,7 @@ describe('Merchant DB API', () => {
         } catch (err) {
           return;
         }
+
         assert(false);
       });
     });

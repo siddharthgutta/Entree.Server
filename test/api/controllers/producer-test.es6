@@ -21,6 +21,7 @@ describe('Producer DB API', () => {
   const percentageFee = 12.5;
   const transactionFee = 30;
   const merchantId = 'abcdef';
+  const fbId = 'Facebook ID';
 
   beforeEach(async() => {
     await clear();
@@ -510,6 +511,36 @@ describe('Producer DB API', () => {
       } catch (err) {
         return;
       }
+      assert(false);
+    });
+  });
+
+  describe('#findOneByFbId()', async () => {
+    it('should find a producer by fbId correctly', async () => {
+      const location = await Location.createWithCoord(lat, long);
+      await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {fbId}});
+      const producer = await Producer.findOneByFbId(fbId);
+      assert.equal(producer.name, name);
+      assert.equal(producer.username, username);
+      assert.equal(producer.password, password);
+      assert.equal(producer.description, description);
+      assert.equal(producer.profileImage, profileImage);
+      assert.equal(producer.location.coordinates.latitude, lat);
+      assert.equal(producer.location.coordinates.longitude, long);
+      assert.equal(producer.merchant.percentageFee, percentageFee);
+      assert.equal(producer.merchant.transactionFee, transactionFee);
+      assert.equal(producer.menuLink, menuLink);
+      assert.equal(producer.fbId, fbId);
+    });
+
+    it('should throw error if nothing is found', async () => {
+      try {
+        await Producer.findOneByFbId(fbId);
+      } catch (err) {
+        return;
+      }
+
       assert(false);
     });
   });
