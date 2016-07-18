@@ -1507,14 +1507,11 @@ module.exports = focusNode;
  * @typechecks
  */
 
-/* eslint-disable fb-www/typeof-undefined */
-
 /**
  * Same as document.activeElement but wraps in a try-catch block. In IE it is
  * not safe to call document.activeElement if there is nothing focused.
  *
- * The activeElement will be null only if the document or document body is not
- * yet defined.
+ * The activeElement will be null only if the document or document body is not yet defined.
  */
 'use strict';
 
@@ -1522,6 +1519,7 @@ function getActiveElement() /*?DOMElement*/{
   if (typeof document === 'undefined') {
     return null;
   }
+
   try {
     return document.activeElement || document.body;
   } catch (e) {
@@ -1767,7 +1765,7 @@ module.exports = hyphenateStyleName;
  * will remain to ensure logic does not differ in production.
  */
 
-function invariant(condition, format, a, b, c, d, e, f) {
+var invariant = function (condition, format, a, b, c, d, e, f) {
   if (process.env.NODE_ENV !== 'production') {
     if (format === undefined) {
       throw new Error('invariant requires an error message argument');
@@ -1781,16 +1779,15 @@ function invariant(condition, format, a, b, c, d, e, f) {
     } else {
       var args = [a, b, c, d, e, f];
       var argIndex = 0;
-      error = new Error(format.replace(/%s/g, function () {
+      error = new Error('Invariant Violation: ' + format.replace(/%s/g, function () {
         return args[argIndex++];
       }));
-      error.name = 'Invariant Violation';
     }
 
     error.framesToPop = 1; // we don't care about invariant's own frame
     throw error;
   }
-}
+};
 
 module.exports = invariant;
 }).call(this,require('_process'))
@@ -2055,23 +2052,18 @@ module.exports = performance || {};
 'use strict';
 
 var performance = require('./performance');
-
-var performanceNow;
+var curPerformance = performance;
 
 /**
  * Detect if we can use `window.performance.now()` and gracefully fallback to
  * `Date.now()` if it doesn't exist. We need to support Firefox < 15 for now
  * because of Facebook's testing infrastructure.
  */
-if (performance.now) {
-  performanceNow = function () {
-    return performance.now();
-  };
-} else {
-  performanceNow = function () {
-    return Date.now();
-  };
+if (!curPerformance || !curPerformance.now) {
+  curPerformance = Date;
 }
+
+var performanceNow = curPerformance.now.bind(curPerformance);
 
 module.exports = performanceNow;
 },{"./performance":33}],35:[function(require,module,exports){
@@ -10029,7 +10021,6 @@ var HTMLDOMPropertyConfig = {
     multiple: MUST_USE_PROPERTY | HAS_BOOLEAN_VALUE,
     muted: MUST_USE_PROPERTY | HAS_BOOLEAN_VALUE,
     name: null,
-    nonce: MUST_USE_ATTRIBUTE,
     noValidate: HAS_BOOLEAN_VALUE,
     open: HAS_BOOLEAN_VALUE,
     optimum: null,
@@ -10041,7 +10032,6 @@ var HTMLDOMPropertyConfig = {
     readOnly: MUST_USE_PROPERTY | HAS_BOOLEAN_VALUE,
     rel: null,
     required: HAS_BOOLEAN_VALUE,
-    reversed: HAS_BOOLEAN_VALUE,
     role: MUST_USE_ATTRIBUTE,
     rows: MUST_USE_ATTRIBUTE | HAS_POSITIVE_NUMERIC_VALUE,
     rowSpan: null,
@@ -10092,8 +10082,8 @@ var HTMLDOMPropertyConfig = {
      */
     // autoCapitalize and autoCorrect are supported in Mobile Safari for
     // keyboard hints.
-    autoCapitalize: MUST_USE_ATTRIBUTE,
-    autoCorrect: MUST_USE_ATTRIBUTE,
+    autoCapitalize: null,
+    autoCorrect: null,
     // autoSave allows WebKit/Blink to persist values of input fields on page reloads
     autoSave: null,
     // color is for Safari mask-icon link
@@ -10124,7 +10114,9 @@ var HTMLDOMPropertyConfig = {
     httpEquiv: 'http-equiv'
   },
   DOMPropertyNames: {
+    autoCapitalize: 'autocapitalize',
     autoComplete: 'autocomplete',
+    autoCorrect: 'autocorrect',
     autoFocus: 'autofocus',
     autoPlay: 'autoplay',
     autoSave: 'autosave',
@@ -10485,7 +10477,6 @@ assign(React, {
 });
 
 React.__SECRET_DOM_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = ReactDOM;
-React.__SECRET_DOM_SERVER_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = ReactDOMServer;
 
 module.exports = React;
 },{"./Object.assign":106,"./ReactDOM":119,"./ReactDOMServer":129,"./ReactIsomorphic":147,"./deprecated":190}],109:[function(require,module,exports){
@@ -14527,10 +14518,7 @@ var ReactDOMOption = {
       }
     });
 
-    if (content) {
-      nativeProps.children = content;
-    }
-
+    nativeProps.children = content;
     return nativeProps;
   }
 
@@ -14570,7 +14558,7 @@ function updateOptionsIfPendingUpdateAndMounted() {
     var value = LinkedValueUtils.getValue(props);
 
     if (value != null) {
-      updateOptions(this, Boolean(props.multiple), value);
+      updateOptions(this, props, value);
     }
   }
 }
@@ -15649,9 +15637,7 @@ var DOM_OPERATION_TYPES = {
   'setValueForProperty': 'update attribute',
   'setValueForAttribute': 'update attribute',
   'deleteValueForProperty': 'remove attribute',
-  'setValueForStyles': 'update styles',
-  'replaceNodeWithMarkup': 'replace',
-  'updateTextContent': 'set textContent'
+  'dangerouslyReplaceNodeWithMarkupByID': 'replace'
 };
 
 function getTotalTime(measurements) {
@@ -20699,7 +20685,7 @@ module.exports = ReactUpdates;
 
 'use strict';
 
-module.exports = '0.14.7';
+module.exports = '0.14.2';
 },{}],169:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21794,7 +21780,6 @@ var warning = require('fbjs/lib/warning');
  */
 var EventInterface = {
   type: null,
-  target: null,
   // currentTarget is set when dispatching; no use in copying it here
   currentTarget: emptyFunction.thatReturnsNull,
   eventPhase: null,
@@ -21828,6 +21813,8 @@ function SyntheticEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEvent
   this.dispatchConfig = dispatchConfig;
   this.dispatchMarker = dispatchMarker;
   this.nativeEvent = nativeEvent;
+  this.target = nativeEventTarget;
+  this.currentTarget = nativeEventTarget;
 
   var Interface = this.constructor.Interface;
   for (var propName in Interface) {
@@ -21838,11 +21825,7 @@ function SyntheticEvent(dispatchConfig, dispatchMarker, nativeEvent, nativeEvent
     if (normalize) {
       this[propName] = normalize(nativeEvent);
     } else {
-      if (propName === 'target') {
-        this.target = nativeEventTarget;
-      } else {
-        this[propName] = nativeEvent[propName];
-      }
+      this[propName] = nativeEvent[propName];
     }
   }
 
