@@ -275,7 +275,7 @@ export default class FbChatBot {
             return [(new TextMessageData('We could not find a location from that address. Please try again.'))];
           }
           return await this._handleSeeProducers(consumer);
-        case actions.suggestions:
+        case actions.suggestion:
           return await this._slackSuggestion(consumer, text);
         default:
           return this._handleInvalidText(text);
@@ -507,14 +507,14 @@ export default class FbChatBot {
    */
    async _handleProducerSuggestion(consumer) {
      const {context: {_id: contextId}} = consumer;
-     await Context.updateFields(contextId, {lastAction: actions.suggestions});
+     await Context.updateFields(contextId, {lastAction: actions.suggestion});
      let response;
      try {
        response = new ButtonMessageData(`We are still adding more trucks everyday.` +
        ` Feel free to enter the name of the food truck you would like us to add! ^-^`);
        response.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
      } catch (err) {
-       throw new Error('Failed to create handle suggestions button');
+       throw new Error('Failed to create handle suggestion button');
      }
      return [response];
    }
