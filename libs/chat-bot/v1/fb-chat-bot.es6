@@ -10,7 +10,6 @@ import {GenericMessageData, TextMessageData, ButtonMessageData,
   ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {actions} from './actions.es6';
 import Constants from './constants.es6';
-import SlackData from '../../notifier/slack-data.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
 import config from 'config';
@@ -20,8 +19,8 @@ import * as Utils from '../../utils.es6';
 import moment from 'moment';
 import _ from 'lodash';
 import * as Hour from '../../hour.es6';
-const slackChannelId = config.get('Slack.orders.channelId');
-const slackSuggestionId = config.get('Slack.suggestions.channelId');
+const slackOrderChannelId = config.get('Slack.orders.channelId');
+const slackSuggestionChannelId = config.get('Slack.suggestions.channelId');
 
 
 export default class FbChatBot {
@@ -190,7 +189,7 @@ export default class FbChatBot {
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload, consumer);
       case actions.suggestions:
-        return this._handleProducerSuggestion(consumer);
+        return await this._handleProducerSuggestion(consumer);
       default:
         throw Error('Invalid postback payload action');
     }
@@ -276,7 +275,7 @@ export default class FbChatBot {
             return [(new TextMessageData('We could not find a location from that address. Please try again.'))];
           }
           return await this._handleSeeProducers(consumer);
-        case actions.suggestions:
+        case actions.takeSuggestion:
           return await this._slackSuggestion(consumer, text);
         default:
           return this._handleInvalidText(text);
@@ -393,7 +392,7 @@ export default class FbChatBot {
     slackData.pushField('Consumer', consumerName);
     slackData.pushField('Producer', producer.name);
     slackData.pushField('Price', `${order.price}`);
-    const response = await Slack.sendMessage(slackChannelId, slackData);
+    const response = await Slack.sendMessage(slackOrderChannelId, slackData);
     console.log(response);
   }
 
@@ -508,11 +507,12 @@ export default class FbChatBot {
    */
    async _handleProducerSuggestion(consumer) {
      const {context: {_id: contextId}} = consumer;
-     await Context.updateFields(contextId, {lastAction: actions.suggestions});
+     await Context.updateFields(contextId, {lastAction: actions.takeSuggestion});
      let response;
      try {
-       response = new ButtonMessageData(`Enter the name of the food truck you would like us to add! ^-^`);
-       response.pushPostbackButton('Update Location', this._genPayload(actions.seeProducers));
+       response = new ButtonMessageData(`We are still adding more trucks everyday.` +
+       ` Feel free to enter the name of the food truck you would like us to add! ^-^`);
+       response.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers));
      } catch (err) {
        throw new Error('Failed to create handle suggestions button');
      }
@@ -531,12 +531,12 @@ export default class FbChatBot {
     await Context.emptyFields(contextId, ['lastAction']);
     const response = new ButtonMessageData('Thanks for your suggestion! We will try our best to add this truck.');
     response.pushPostbackButton('See Trucks', this._genPayload(actions.seeProducers)); // change this to something else
-    const slackData = new SlackData();
+    const slackData = new TypedSlackData();
     slackData.pushAttachment();
+    slackData.setFallback('Suggestion');
     slackData.pushField('Type', 'Suggestion');
-    slackData.setFallback('Suggestion', 0);
     slackData.pushField('Text Body', text);
-    await Slack.sendMessage(slackSuggestionId, slackData);
+    await Slack.sendMessage(slackSuggestionChannelId, slackData);
     return [response];
   }
 

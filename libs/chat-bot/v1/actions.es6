@@ -15,7 +15,8 @@ export const ConsumerActions = {
   android: 'Android',
   ios: 'iOS',
   desktop: 'Desktop',
-  suggestions: 'Suggestions'
+  suggestions: 'Suggestions',
+  takeSuggestion: "takeSuggestion"
 };
 
 export const ProducerActions = {
