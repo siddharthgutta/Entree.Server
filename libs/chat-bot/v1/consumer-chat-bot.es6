@@ -150,7 +150,7 @@ export default class ConsumerChatBot extends FbChatBot {
   async _handleLocationAttachment(event, consumer) {
     const {context} = consumer;
     switch (context.lastAction) {
-      case actions.location:
+      case ConsumerActions.location:
         try {
           await this._updateConsumerLocation(event, consumer);
         } catch (err) {
@@ -459,7 +459,6 @@ export default class ConsumerChatBot extends FbChatBot {
       `on the food trucks' cards to see their menu, place an order, or get more information.`);
     let producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId,
       Constants.miles, Constants.searchLimit);
-   let response = new GenericMessageData();
 
     const response = new GenericMessageData();
     const emptyProducers = producersWithAddresses.length === 0;
@@ -480,9 +479,10 @@ export default class ConsumerChatBot extends FbChatBot {
         `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
       const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
       response.pushElement(title, description, producer.profileImage);
-      response.pushPostbackButton('View Menu', this._genPayload(actions.menu, {producerId: producer._id}));
-      response.pushPostbackButton('More Info', this._genPayload(actions.moreInfo, {producerId: producer._id}));
-      response.pushPostbackButton('Order Food', this._genPayload(actions.orderPrompt, {producerId: producer._id}));
+      response.pushPostbackButton('View Menu', this.genPayload(ConsumerActions.menu, {producerId: producer._id}));
+      response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
+      response.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt,
+        {producerId: producer._id}));
     });
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, response]});
