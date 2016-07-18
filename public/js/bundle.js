@@ -45,6 +45,82 @@ var App = function (_React$Component) {
 exports.default = App;
 
 },{"react":"react"}],2:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                * Created by kfu on 7/18/16.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                */
+
+var FBMessenger = function (_React$Component) {
+  _inherits(FBMessenger, _React$Component);
+
+  function FBMessenger() {
+    _classCallCheck(this, FBMessenger);
+
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(FBMessenger).apply(this, arguments));
+  }
+
+  _createClass(FBMessenger, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.initializeFacebookButton();
+    }
+  }, {
+    key: 'initializeFacebookButton',
+    value: function initializeFacebookButton() {
+      document.getElementById('send-to-messenger-button').setAttribute('messenger_app_id', appId);
+      document.getElementById('send-to-messenger-button').setAttribute('page_id', pageId);
+
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: appId,
+          xfbml: true,
+          version: "v2.6"
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+            fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement('div', { id: 'send-to-messenger-button', color: 'white', size: 'xlarge', className: 'fb-messengermessageus' });
+    }
+  }]);
+
+  return FBMessenger;
+}(_react2.default.Component);
+
+;
+
+exports.default = FBMessenger;
+
+},{"react":"react"}],3:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -129,7 +205,7 @@ var Footer = function (_React$Component) {
 
 exports.default = Footer;
 
-},{"react":"react"}],3:[function(require,module,exports){
+},{"react":"react"}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -145,6 +221,10 @@ var _react2 = _interopRequireDefault(_react);
 var _Footer = require('./Footer');
 
 var _Footer2 = _interopRequireDefault(_Footer);
+
+var _FBMessenger = require('./FBMessenger');
+
+var _FBMessenger2 = _interopRequireDefault(_FBMessenger);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -164,36 +244,6 @@ var Home = function (_React$Component) {
   }
 
   _createClass(Home, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      this.initializeFacebookButton();
-    }
-  }, {
-    key: 'initializeFacebookButton',
-    value: function initializeFacebookButton() {
-      document.getElementById('send-to-messenger-button').setAttribute('messenger_app_id', appId);
-      document.getElementById('send-to-messenger-button').setAttribute('page_id', pageId);
-
-      window.fbAsyncInit = function () {
-        FB.init({
-          appId: appId,
-          xfbml: true,
-          version: "v2.6"
-        });
-      };
-
-      (function (d, s, id) {
-        var js,
-            fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement(s);js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, 'script', 'facebook-jssdk');
-    }
-  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -228,7 +278,7 @@ var Home = function (_React$Component) {
               _react2.default.createElement(
                 'li',
                 null,
-                _react2.default.createElement('div', { id: 'send-to-messenger-button', color: 'white', size: 'xlarge', className: 'fb-messengermessageus' })
+                _react2.default.createElement(_FBMessenger2.default, null)
               )
             )
           ),
@@ -252,7 +302,7 @@ var Home = function (_React$Component) {
 
 exports.default = Home;
 
-},{"./Footer":2,"react":"react"}],4:[function(require,module,exports){
+},{"./FBMessenger":2,"./Footer":3,"react":"react"}],5:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -285,7 +335,7 @@ _reactDom2.default.render(_react2.default.createElement(
   _routes2.default
 ), document.getElementById('app'));
 
-},{"./routes":5,"history/lib/createBrowserHistory":14,"react":"react","react-dom":"react-dom","react-router":"react-router"}],5:[function(require,module,exports){
+},{"./routes":6,"history/lib/createBrowserHistory":15,"react":"react","react-dom":"react-dom","react-router":"react-router"}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -318,7 +368,7 @@ exports.default = _react2.default.createElement(
   _react2.default.createElement(_reactRouter.Route, { path: '/', component: _Home2.default })
 );
 
-},{"./components/App":1,"./components/Footer":2,"./components/Home":3,"react":"react","react-router":"react-router"}],6:[function(require,module,exports){
+},{"./components/App":1,"./components/Footer":3,"./components/Home":4,"react":"react","react-router":"react-router"}],7:[function(require,module,exports){
 var pSlice = Array.prototype.slice;
 var objectKeys = require('./lib/keys.js');
 var isArguments = require('./lib/is_arguments.js');
@@ -414,7 +464,7 @@ function objEquiv(a, b, opts) {
   return typeof a === typeof b;
 }
 
-},{"./lib/is_arguments.js":7,"./lib/keys.js":8}],7:[function(require,module,exports){
+},{"./lib/is_arguments.js":8,"./lib/keys.js":9}],8:[function(require,module,exports){
 var supportsArgumentsClass = (function(){
   return Object.prototype.toString.call(arguments)
 })() == '[object Arguments]';
@@ -436,7 +486,7 @@ function unsupported(object){
     false;
 };
 
-},{}],8:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 exports = module.exports = typeof Object.keys === 'function'
   ? Object.keys : shim;
 
@@ -447,7 +497,7 @@ function shim (obj) {
   return keys;
 }
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 /**
  * Indicates that navigation was caused by a call to history.push.
  */
@@ -479,7 +529,7 @@ exports['default'] = {
   REPLACE: REPLACE,
   POP: POP
 };
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -506,7 +556,7 @@ function loopAsync(turns, work, callback) {
 
   next();
 }
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 /*eslint-disable no-empty */
 'use strict';
 
@@ -555,7 +605,7 @@ function readState(key) {
 
   return null;
 }
-},{"warning":23}],12:[function(require,module,exports){
+},{"warning":24}],13:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -631,13 +681,13 @@ function supportsGoWithoutReloadUsingHash() {
   var ua = navigator.userAgent;
   return ua.indexOf('Firefox') === -1;
 }
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
 var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 exports.canUseDOM = canUseDOM;
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -810,7 +860,7 @@ function createBrowserHistory() {
 
 exports['default'] = createBrowserHistory;
 module.exports = exports['default'];
-},{"./Actions":9,"./DOMStateStorage":11,"./DOMUtils":12,"./ExecutionEnvironment":13,"./createDOMHistory":15,"invariant":21}],15:[function(require,module,exports){
+},{"./Actions":10,"./DOMStateStorage":12,"./DOMUtils":13,"./ExecutionEnvironment":14,"./createDOMHistory":16,"invariant":22}],16:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -851,7 +901,7 @@ function createDOMHistory(options) {
 
 exports['default'] = createDOMHistory;
 module.exports = exports['default'];
-},{"./DOMUtils":12,"./ExecutionEnvironment":13,"./createHistory":16,"invariant":21}],16:[function(require,module,exports){
+},{"./DOMUtils":13,"./ExecutionEnvironment":14,"./createHistory":17,"invariant":22}],17:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1099,7 +1149,7 @@ function createHistory() {
 
 exports['default'] = createHistory;
 module.exports = exports['default'];
-},{"./Actions":9,"./AsyncUtils":10,"./createLocation":17,"./deprecate":18,"./runTransitionHook":20,"deep-equal":6}],17:[function(require,module,exports){
+},{"./Actions":10,"./AsyncUtils":11,"./createLocation":18,"./deprecate":19,"./runTransitionHook":21,"deep-equal":7}],18:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1136,7 +1186,7 @@ function createLocation() {
 
 exports['default'] = createLocation;
 module.exports = exports['default'];
-},{"./Actions":9,"./parsePath":19}],18:[function(require,module,exports){
+},{"./Actions":10,"./parsePath":20}],19:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1156,7 +1206,7 @@ function deprecate(fn, message) {
 
 exports['default'] = deprecate;
 module.exports = exports['default'];
-},{"warning":23}],19:[function(require,module,exports){
+},{"warning":24}],20:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1205,7 +1255,7 @@ function parsePath(path) {
 
 exports['default'] = parsePath;
 module.exports = exports['default'];
-},{"warning":23}],20:[function(require,module,exports){
+},{"warning":24}],21:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1230,7 +1280,7 @@ function runTransitionHook(hook, location, callback) {
 
 exports['default'] = runTransitionHook;
 module.exports = exports['default'];
-},{"warning":23}],21:[function(require,module,exports){
+},{"warning":24}],22:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1286,7 +1336,7 @@ module.exports = invariant;
 
 }).call(this,require('_process'))
 
-},{"_process":22}],22:[function(require,module,exports){
+},{"_process":23}],23:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -1407,7 +1457,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -1472,7 +1522,7 @@ module.exports = warning;
 
 }).call(this,require('_process'))
 
-},{"_process":22}]},{},[4])
+},{"_process":23}]},{},[5])
 
 
 //# sourceMappingURL=bundle.js.map
