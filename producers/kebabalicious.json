@@ -1,14 +1,14 @@
 {
-  "name": "Mighty Cone",
-  "username": "mightycone",
-  "password": "foodtruck",
-  "description": "Spicy, fried meats & veggies in tortilla cones",
-  "profileImage": "http://i.imgur.com/xk6U3iA.jpg",
-  "address": "1720 Barton Springs Rd, Austin, TX 78704",
+  "name": "Kebabalicious",
+  "username": "kebab",
+  "password": "delicious",
+  "description": "Middle Eastern Food",
+  "profileImage": "http://i.imgur.com/hoklvjx.jpg",
+  "address": "1720 Barton Springs Rd Austin, TX 78704",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 Chicken-Avocado Cone",
-  "menuLink": "http://i.imgur.com/MoaugoL.jpg",
+  "exampleOrder": "1 King Chicken Kebab",
+  "menuLink": "http://i.imgur.com/EChyWhj.jpg",
   "optional": {
     "producer": {
       "enabled": true
@@ -16,10 +16,10 @@
   },
   "hours":
   [{
-    "day": "Tuesday",
-    "openTime": "11:00",
-    "closeTime": "22:00"
-  },
+      "day": "Monday",
+      "openTime": "11:00",
+      "closeTime": "21:00"
+    },
     {
       "day": "Wednesday",
       "openTime": "11:00",

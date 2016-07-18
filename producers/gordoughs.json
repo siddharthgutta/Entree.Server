@@ -1,14 +1,14 @@
 {
-  "name": "Via313",
-  "username": "pizza",
-  "password": "pizzapizza",
-  "description": "Detroit-Style Pizza Food Truck",
-  "profileImage": "http://i.imgur.com/LP9gjTk.jpg",
-  "address": "61 Rainey St, Austin, TX 78701",
+  "name": "Gordoughs",
+  "username": "gord",
+  "password": "chunkymonkey",
+  "description": "Gourmet Doughnuts",
+  "profileImage": "http://i.imgur.com/cx22Puw.jpg",
+  "address": "1503 S 1st St Austin, TX 78704",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 Detroiter",
-  "menuLink": "http://i.imgur.com/R9k5U8h.png",
+  "exampleOrder": "1 Chunky Monkey",
+  "menuLink": "http://i.imgur.com/eedT3Vw.jpg",
   "optional": {
     "producer": {
       "enabled": true
@@ -17,52 +17,47 @@
   "hours":
   [{
     "day": "Monday",
-    "openTime": "17:00",
+    "openTime": "10:00",
     "closeTime": "24:00"
   },
     {
       "day": "Tuesday",
-      "openTime": "17:00",
+      "openTime": "10:00",
       "closeTime": "24:00"
     },
     {
       "day": "Wednesday",
-      "openTime": "17:00",
+      "openTime": "10:00",
       "closeTime": "24:00"
     },
     {
       "day": "Thursday",
-      "openTime": "17:00",
+      "openTime": "10:00",
       "closeTime": "24:00"
     },
     {
       "day": "Friday",
-      "openTime": "00:00",
-      "closeTime": "01:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "17:00",
+      "openTime": "10:00",
       "closeTime": "24:00"
     },
     {
       "day": "Saturday",
       "openTime": "00:00",
-      "closeTime": "01:00"
+      "closeTime": "03:00"
     },
     {
       "day": "Saturday",
-      "openTime": "14:00",
+      "openTime": "08:00",
       "closeTime": "24:00"
     },
     {
       "day": "Sunday",
       "openTime": "00:00",
-      "closeTime": "01:00"
+      "closeTime": "03:00"
     },
     {
       "day": "Sunday",
-      "openTime": "14:00",
-      "closeTime": "22:00"
+      "openTime": "08:00",
+      "closeTime": "24:00"
     }]
 }

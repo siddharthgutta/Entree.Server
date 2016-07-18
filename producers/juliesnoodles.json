@@ -1,14 +1,14 @@
 {
-  "name": "Mac Daddy's",
-  "username": "macdaddys",
-  "password": "cheese",
-  "description": "Food Truck near UT Austin serving delicious mac and cheese creations.",
-  "profileImage": "http://i.imgur.com/bABXzgz.jpg",
-  "address": "709 W 26th St, Austin, TX 78705",
+  "name": "Julie's Noodles",
+  "username": "julie",
+  "password": "handmade",
+  "description": "Authentic Handmade Chinese Noodles",
+  "profileImage": "http://i.imgur.com/mlCGSTq.jpg",
+  "address": "2512 Rio Grande St Austin, TX 78705",
   "percentageFee": 3.5,
   "transactionFee": 30,
-  "exampleOrder": "1 small meltdown and 1 topo chico",
-  "menuLink": "http://i.imgur.com/2AEqV3D.png",
+  "exampleOrder": "1 Spiced Chicken Leg Chow Mein ",
+  "menuLink": "http://i.imgur.com/eL5oG88.jpg",
   "optional": {
     "producer": {
       "enabled": true
@@ -18,22 +18,22 @@
   [{
     "day": "Monday",
     "openTime": "17:00",
-    "closeTime": "22:00"
+    "closeTime": "23:00"
   },
     {
       "day": "Tuesday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "23:00"
     },
     {
       "day": "Wednesday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "23:00"
     },
     {
       "day": "Thursday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "23:00"
     },
     {
       "day": "Friday",
@@ -43,7 +43,7 @@
     {
       "day": "Saturday",
       "openTime": "00:00",
-      "closeTime": "03:00"
+      "closeTime": "02:00"
     },
     {
       "day": "Saturday",
@@ -53,11 +53,11 @@
     {
       "day": "Sunday",
       "openTime": "00:00",
-      "closeTime": "03:00"
+      "closeTime": "02:00"
     },
     {
       "day": "Sunday",
       "openTime": "17:00",
-      "closeTime": "22:00"
+      "closeTime": "23:00"
     }]
 }

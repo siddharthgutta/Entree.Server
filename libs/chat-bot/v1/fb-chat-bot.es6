@@ -218,7 +218,11 @@ export default class FbChatBot {
         case actions.order:
           return this._handleOrder(text, consumer);
         case actions.location:
-          await this._updateConsumerLocation(event, consumer);
+          try {
+            await this._updateConsumerLocation(event, consumer);
+          } catch (err) {
+            return [(new TextMessageData('We could not find a location from that address. Please try again.'))];
+          }
           return await this._handleSeeProducers(consumer);
         default:
           return this._handleInvalidText(text);
@@ -409,7 +413,7 @@ export default class FbChatBot {
     let response;
     const day = moment();
     const tmrw = day.add(1, 'day').format('dddd');
-    const today = this._getHoursForADay(producer.hours, day.format('dddd'));
+    const today = this._getHoursForADay(producer.hours, moment().format('dddd'));
     const tomorrow = this._getHoursForADay(producer.hours, tmrw);
     response = new ButtonMessageData(`Sorry ${producer.name} is currently closed.\n` +
       `Today's Hours: ${today}\nTomorrow's Hours: ${tomorrow}`);
@@ -639,7 +643,7 @@ export default class FbChatBot {
         const {lat, lng} = await Google.getLocationCoordinatesFromAddress(inputText);
         await Consumer.addLocation(consumer.fbId, lat, lng);
       } catch (err) {
-        throw new Error('Could not generate location from that address');
+        throw new Error(`Could not generate location from that address`);
       }
     } else { /* In this case the input is a location attachment sent from mobile */
       let lat, long;

@@ -1,0 +1,48 @@
+{
+  "name": "Lard Have Mercy",
+  "username": "oinkoink",
+  "password": "piggy",
+  "description": "Elevated Comfort Food",
+  "profileImage": "http://i.imgur.com/KBxtYeB.jpg",
+  "address": "1512 E 6th St Austin, TX 78702",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Pig Sty and 1 Oh My Oreo!",
+  "menuLink": "http://i.imgur.com/T4bRM4Y.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Thursday",
+    "openTime": "21:00",
+    "closeTime": "24:00"
+   },
+   {
+     "day": "Friday",
+     "openTime": "00:00",
+     "closeTime": "02:00"
+   },
+   {
+     "day": "Friday",
+     "openTime": "21:00",
+     "closeTime": "24:00"
+   },
+   {
+     "day": "Saturday",
+     "openTime": "00:00",
+     "closeTime": "02:00"
+   },
+   {
+     "day": "Saturday",
+     "openTime": "21:00",
+     "closeTime": "24:00"
+   },
+   {
+      "day": "Sunday",
+      "openTime": "00:00",
+      "closeTime": "02:00"
+   }]
+}
