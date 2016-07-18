@@ -45,4 +45,5 @@ producerMsgPlatform.on(FBMessenger.RECEIVED, async event => {
  * MsgPlatform strategy
  * @type {MsgPlatform}
  */
-export const ConsumerMsgPlatform = consumerMsgPlatform;
+export {consumerMsgPlatform as ConsumerMsgPlatform};
+export {producerMsgPlatform as ProducerMsgPlatform};

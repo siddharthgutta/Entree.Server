@@ -1,11 +1,12 @@
-export const actions = {
-  getStarted: 'Get Started',
+export const ConsumerActions = {
+  getStarted: 'Consumer Get Started',
   seeProducers: 'See Producers',
   orderPrompt: 'Order Prompt',
   menu: 'Menu',
   moreInfo: 'More Info',
   order: 'Order',
-  orderConfirmation: 'Order Confirmation',
+  confirm: 'Consumer Confirm',
+  decline: 'Consumer Decline',
   otherTrucks: 'Other Trucks',
   location: 'Location',
   updateLocation: 'Update Location',
@@ -14,4 +15,15 @@ export const actions = {
   android: 'Android',
   ios: 'iOS',
   desktop: 'Desktop'
+};
+
+export const ProducerActions = {
+  getStarted: 'Producer Get Started',
+  pendingRequests: 'Pending Requests',
+  inProgressOrders: 'In Progress Orders',
+  quote: 'Price',
+  decline: 'Producer Decline',
+  accept: 'Producer Accept',
+  ready: 'Order Ready',
+  setEta: 'Set ETA'
 };

@@ -26,12 +26,18 @@ export async function create(attributes) {
  * Returns a single order given a query
  *
  * @param {Object} attributes: key value pairs of the attributes we want to query by
+ * @param {Array<String>} populateFields: fields to populate query with
  * @returns {Promise}: returns a Order object
  */
-export async function findOne(attributes) {
-  const order = await Order.findOne(attributes).exec();
+export async function findOne(attributes, populateFields) {
+  let findQuery = Order.findOne(attributes);
+  findQuery = _.reduce(populateFields, (query, field) =>
+      findQuery.populate(field),
+    findQuery);
+
+  const order = await findQuery.exec();
   if (Utils.isEmpty(order)) {
-    throw new Error(`Could not find order with attributes: ${JSON.stringify(attributes)}`);
+    throw new Error(`Could not find order with attributes:${attributes}`);
   }
   return order;
 }

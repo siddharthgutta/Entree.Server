@@ -4,6 +4,7 @@
 
 import models from '../../models/mongo/index.es6';
 import * as Utils from '../../libs/utils.es6';
+import _ from 'lodash';
 
 const Context = models.Context;
 
@@ -25,12 +26,18 @@ export async function create(attributes) {
  * Returns a single context given a query
  *
  * @param {Object} attributes: key value pairs of the attributes we want to query by
+ * @param {Array<String>} populateFields: fields to populate query with
  * @returns {Promise}: returns a Context object
  */
-export async function findOne(attributes) {
-  const context = await Context.findOne(attributes).exec();
+export async function findOne(attributes, populateFields) {
+  let findQuery = Context.findOne(attributes);
+  findQuery = _.reduce(populateFields, (query, field) =>
+      findQuery.populate(field),
+    findQuery);
+
+  const context = await findQuery.exec();
   if (Utils.isEmpty(context)) {
-    throw new Error(`Could not find context with attributes: ${attributes}`);
+    throw new Error(`Could not find context with attributes:${attributes}`);
   }
   return context;
 }
