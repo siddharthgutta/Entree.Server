@@ -20,6 +20,8 @@ import * as Google from '../../../api/controllers/google.es6';
 import * as Utils from '../../utils.es6';
 import * as Hour from '../../hour.es6';
 import Constants from './constants.es6';
+const slackSuggestionChannelId = config.get('Slack.suggestions.channelId');
+
 
 const slackChannelId = config.get('Slack.orders.channelId');
 
@@ -134,6 +136,8 @@ export default class ConsumerChatBot extends FbChatBot {
         return await this._handleOrderConfirmation(payload, consumer);
       case ConsumerActions.decline:
         return await this._handleOrderDecline(payload, consumer);
+      case ConsumerActions.suggestionPrompt:
+        return await this._handleProducerSuggestion(consumer);
       default:
         throw Error('Invalid postback payload action');
     }
@@ -206,6 +210,8 @@ export default class ConsumerChatBot extends FbChatBot {
       case ConsumerActions.location:
         await this._updateConsumerLocation(event, consumer);
         return await this._handleSeeProducers(consumer);
+      case ConsumerActions.suggestion:
+        return await this._slackSuggestion(consumer, text);
       default:
         return this._handleInvalidText(text, consumer);
     }
@@ -446,6 +452,46 @@ export default class ConsumerChatBot extends FbChatBot {
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
+   /**
+   *  Handles asking the consumer for suggestions
+   * @param {Consumer} consumer: consumer object of the individual
+   * @returns {Object} MessageData object
+   * @private
+   */
+  async _handleProducerSuggestion(consumer) {
+    const {context: {_id: contextId}} = consumer;
+    await Context.updateFields(contextId, {lastAction: ConsumerActions.suggestion});
+    let response;
+    try {
+      response = new ButtonMessageData(`We are still adding more trucks everyday.` +
+        ` Feel free to enter the name of the food truck you would like us to add! ^-^`);
+      response.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
+    } catch (err) {
+      throw new Error('Failed to create handle suggestion button');
+    }
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
+  }
+
+  /**
+   * Handles suggestions and sends the response to slack
+   * @param {Consumer} consumer: consumer object of the individual
+   * @param {String} text: the text the consumer inputs
+   * @returns {Object} MessageData object
+   * @private
+   */
+  async _slackSuggestion(consumer, text) {
+    const {context: {_id: contextId}} = consumer;
+    await Context.emptyFields(contextId, ['lastAction']);
+    const response = new ButtonMessageData('Thanks for your suggestion! We will try our best to add this truck.');
+    response.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
+    const slackData = new TypedSlackData();
+    slackData.pushAttachment();
+    slackData.setFallback('Suggestion');
+    slackData.pushField('Type', 'Suggestion');
+    slackData.pushField('Text Body', text);
+    await Slack.sendMessage(slackSuggestionChannelId, slackData);
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
+  }
 
   /**
    * Executed when the consumer gives his/her location and displays
@@ -455,36 +501,48 @@ export default class ConsumerChatBot extends FbChatBot {
    * @private
    */
   async _handleSeeProducers(consumer) {
-    let text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
+    let producersWithAddresses, text, response;
+    try {
+      text = new TextMessageData(`Here is a list of food trucks that we currently support. Tap any of the buttons ` +
       `on the food trucks' cards to see their menu, place an order, or get more information.`);
-    let producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId,
-      Constants.miles, Constants.searchLimit);
-
-    const response = new GenericMessageData();
-    const emptyProducers = producersWithAddresses.length === 0;
-    if (emptyProducers) {
-      text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
-        ` Here are some trucks that you might enjoy, though.`);
-      const producers = _.shuffle(await Producer.findRandomEnabled());
-
-      // Populates the producers from findRandomEnabled() to get address
-      for (let k = 0; k < producers.length; k++) {
-        producers[k] = Producer.findOneByObjectId(producers[k]._id);
+      try {
+        producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId, Constants.miles,
+          Constants.multiplier, Constants.searchLimit, Constants.limit);
+      } catch (err) {
+        response = new ButtonMessageData('Sorry you are too far away. We could not find any trucks near you. :(' +
+          '\n Please feel free to suggest a truck near you!');
+        response.pushPostbackButton('Update Location', this.genPayload(ConsumerActions.seeProducers));
+        response.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
+        return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
       }
-      producersWithAddresses = await Promise.all(producers);
+
+      response = new GenericMessageData();
+      const emptyProducers = producersWithAddresses.length === 0;
+      if (emptyProducers) {
+        text = new TextMessageData(`Sorry, we could not find any trucks near you that are open!` +
+          ` Here are some trucks that you might enjoy, though.`);
+        const producers = _.shuffle(await Producer.findRandomEnabled());
+
+        // Populates the producers from findRandomEnabled() to get address
+        for (let k = 0; k < producers.length; k++) {
+          producers[k] = Producer.findOneByObjectId(producers[k]._id);
+        }
+        producersWithAddresses = await Promise.all(producers);
+      }
+
+      _.each(producersWithAddresses, producer => {
+        const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
+          `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
+        const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+        response.pushElement(title, description, producer.profileImage);
+        response.pushPostbackButton('View Menu', this.genPayload(ConsumerActions.menu, {producerId: producer._id}));
+        response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
+        response.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt,
+          {producerId: producer._id}));
+      });
+    } catch (err) {
+      throw new Error('Failed to generate producers', err);
     }
-
-    _.each(producersWithAddresses, producer => {
-      const title = emptyProducers ? `${producer.name} (${producer.location.address})` :
-        `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
-      const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
-      response.pushElement(title, description, producer.profileImage);
-      response.pushPostbackButton('View Menu', this.genPayload(ConsumerActions.menu, {producerId: producer._id}));
-      response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
-      response.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt,
-        {producerId: producer._id}));
-    });
-
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, response]});
   }
 
