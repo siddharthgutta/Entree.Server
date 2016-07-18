@@ -9,12 +9,17 @@ class FBMessenger extends React.Component {
     this.initializeFacebookButton();
   }
 
+  /**
+   * Initializes Facebook Button
+   */
   initializeFacebookButton() {
+    // Grabs AppId and PageId from the window
     document.getElementById('send-to-messenger-button')
       .setAttribute('messenger_app_id', appId);
     document.getElementById('send-to-messenger-button')
       .setAttribute('page_id', pageId);
 
+    // Facebook Code
     window.fbAsyncInit = function() {
       FB.init({
         appId: appId,

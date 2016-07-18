@@ -2,7 +2,7 @@
  * Created by kfu on 7/17/16.
  */
 import React from 'react';
-  
+
 class Footer extends React.Component {
   render() {
     return (
