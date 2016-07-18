@@ -188,7 +188,7 @@ export default class FbChatBot {
         return await this._handleMenu(payload);
       case actions.orderPrompt:
         return await this._handleOrderPrompt(payload, consumer);
-      case actions.suggestions:
+      case actions.suggestionPrompt:
         return await this._handleProducerSuggestion(consumer);
       default:
         throw Error('Invalid postback payload action');
@@ -275,7 +275,7 @@ export default class FbChatBot {
             return [(new TextMessageData('We could not find a location from that address. Please try again.'))];
           }
           return await this._handleSeeProducers(consumer);
-        case actions.takeSuggestion:
+        case actions.suggestions:
           return await this._slackSuggestion(consumer, text);
         default:
           return this._handleInvalidText(text);
@@ -507,7 +507,7 @@ export default class FbChatBot {
    */
    async _handleProducerSuggestion(consumer) {
      const {context: {_id: contextId}} = consumer;
-     await Context.updateFields(contextId, {lastAction: actions.takeSuggestion});
+     await Context.updateFields(contextId, {lastAction: actions.suggestions});
      let response;
      try {
        response = new ButtonMessageData(`We are still adding more trucks everyday.` +
@@ -556,9 +556,10 @@ export default class FbChatBot {
         producersWithAddresses = await Consumer.getOrderedProducers(consumer.fbId, Constants.miles,
           Constants.multiplier, Constants.searchLimit, Constants.limit);
       } catch (err) {
-        response = new ButtonMessageData('Sorry you are too far away. We could not find any trucks near you. :(');
+        response = new ButtonMessageData('Sorry you are too far away. We could not find any trucks near you. :(' +
+         '\n Please feel free to suggest a truck near you!');
         response.pushPostbackButton('Update Location', this._genPayload(actions.seeProducers));
-        response.pushPostbackButton('Suggest a Truck', this._genPayload(actions.suggestions));
+        response.pushPostbackButton('Suggest a Truck', this._genPayload(actions.suggestionPrompt));
         return [response];
       }
       response = new GenericMessageData();
