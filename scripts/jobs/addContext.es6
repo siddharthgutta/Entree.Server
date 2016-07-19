@@ -58,8 +58,8 @@ async function addContextsIfDNE() {
   _.forEach(addContextResults, addContextResult => {
     for (const producerName in addContextResult) { // eslint-disable-line
       console.log(addContextResult);
-      const statusString = addContextResults[producerName] ? 'SUCCESS' : 'FAILED';
-      if (addContextResults[producerName]) {
+      const statusString = addContextResult[producerName] ? 'SUCCESS' : 'FAILED';
+      if (addContextResult[producerName]) {
         added++;
       } else {
         failedToAdd++;
