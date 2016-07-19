@@ -14,7 +14,9 @@ export const ConsumerActions = {
   newLocation: 'New Location',
   android: 'Android',
   ios: 'iOS',
-  desktop: 'Desktop'
+  desktop: 'Desktop',
+  suggestionPrompt: 'SuggestionPrompt',
+  suggestion: 'Suggestion'
 };
 
 export const ProducerActions = {
