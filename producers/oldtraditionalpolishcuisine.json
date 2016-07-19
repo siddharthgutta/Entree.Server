@@ -1,0 +1,48 @@
+{
+  "name": "Old Traditional Polish Cuisine",
+  "username": "oldtraditionalpolishcuisine",
+  "password": "nyc",
+  "description": "Traditional and Authentic Polish Food",
+  "profileImage": "http://i.imgur.com/5shKUhN.jpg",
+  "address": "55TH St Broadway Ave, New York, NY 10020",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "The Perogi Combo",
+  "menuLink": "http://i.imgur.com/v4bw0nk.png",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "15:15"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    }]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Little Naansense",
+  "username": "naansense",
+  "password": "chicago",
+  "description": "Finest Indian Food on the streets of Chicago",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f9f518-a228-4528-985f-611946204482.jpg",
+  "address": "Wacker and Adams, Chicago, IL",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Chicken Naanwich",
+  "menuLink": "https://www.toasttab.com/naansense-wells/full-menu",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "12:00",
+      "closeTime": "14:00"
+    }
+    {
+      "day": "Sunday",
+      "openTime": "12:00",
+      "closeTime": "14:00"
+    }]
+}
