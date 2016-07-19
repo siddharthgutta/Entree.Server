@@ -60,6 +60,7 @@ else
 fi
 
 export APP_BRANCH="$1"
+export APP_TYPE="entree"
 
 echo "Branch Pushed: $APP_BRANCH"
 echo "Free Port Chosen: $NODE_PORT"

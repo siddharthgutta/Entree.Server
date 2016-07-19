@@ -4,8 +4,18 @@ import config from 'config';
 import mongoose from 'mongoose';
 import Promise from 'bluebird';
 
-const mongoConfig = config.get('MongoDb');
+const appType = config.get('AppType');
+let mongoConfig;
 mongoose.Promise = Promise;
+
+if (appType === 'entree') {
+  mongoConfig = config.get('Database.Entree');
+} else if (appType === 'pokemon') {
+  mongoConfig = config.get('Database.Pokemon');
+} else {
+  throw Error('Invalid application type');
+}
+
 mongoose.connect(`mongodb://${mongoConfig.host}:${mongoConfig.port}/${mongoConfig.database}`);
 console.log(`Mongo DB [host|port|database]: [${mongoConfig.host}|${mongoConfig.port}|${mongoConfig.database}]`);
 

@@ -55,20 +55,21 @@
       "pageId": "213297705716380"
     }
   },
-  "MySQL": {
-    "username": "root",
-    "password": "123456",
-    "database": "entree",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "logging": true
-  },
-  "MongoDb": {
-    "username": "root",
-    "password": "123456",
-    "database": "entree",
-    "host": "127.0.0.1",
-    "port": "27017"
+  "Database": {
+    "Entree": {
+      "username": "root",
+      "password": "123456",
+      "database": "entree",
+      "host": "127.0.0.1",
+      "port": "27017"
+    },
+    "Pokemon": {
+      "username": "root",
+      "password": "123456",
+      "database": "pokemon",
+      "host": "127.0.0.1",
+      "port": "27017"
+    }
   },
   "NodeEnv": "development",
   "AppBranch": "local"
