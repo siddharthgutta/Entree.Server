@@ -1,0 +1,14 @@
+extends shared/layout
+
+block header
+  link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900')
+  link(rel='stylesheet', href='assets/css/main.css')
+  link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+block body
+  script(type='text/javascript').
+    var config = !{config};
+    var appId = #{isStaging} ? config.Facebook['#{branch}'].appId : config.Facebook.appId;
+    var pageId = #{isStaging} ? config.Facebook['#{branch}'].pageId : config.Facebook.pageId;
+    window.config = config;
+    window.appId = appId;
+    window.pageId = pageId;

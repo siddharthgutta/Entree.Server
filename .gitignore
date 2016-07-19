@@ -9,3 +9,12 @@ npm-debug.log*
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
+
+# Bower Components
+bower_components/
+
+# Gulp generated files
+public/js/bundle.js
+public/js/bundle.js.map
+public/js/vendor.bundle.js
+public/js/vendor.js
