@@ -1,0 +1,673 @@
+{
+  "bulbasaur": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "ivysaur": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "venusaur": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "charmander": {
+    "types":
+    ["fire"]
+  },
+  "charmeleon": {
+    "types":
+    ["fire"]
+  },
+  "charizard": {
+    "types":
+    ["flying",
+      "fire"]
+  },
+  "squirtle": {
+    "types":
+    ["water"]
+  },
+  "wartortle": {
+    "types":
+    ["water"]
+  },
+  "blastoise": {
+    "types":
+    ["water"]
+  },
+  "caterpie": {
+    "types":
+    ["bug"]
+  },
+  "metapod": {
+    "types":
+    ["bug"]
+  },
+  "butterfree": {
+    "types":
+    ["flying",
+      "bug"]
+  },
+  "weedle": {
+    "types":
+    ["poison",
+      "bug"]
+  },
+  "kakuna": {
+    "types":
+    ["poison",
+      "bug"]
+  },
+  "beedrill": {
+    "types":
+    ["poison",
+      "bug"]
+  },
+  "pidgey": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "pidgeotto": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "pidgeot": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "rattata": {
+    "types":
+    ["normal"]
+  },
+  "raticate": {
+    "types":
+    ["normal"]
+  },
+  "spearow": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "fearow": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "ekans": {
+    "types":
+    ["poison"]
+  },
+  "arbok": {
+    "types":
+    ["poison"]
+  },
+  "pikachu": {
+    "types":
+    ["electric"]
+  },
+  "raichu": {
+    "types":
+    ["electric"]
+  },
+  "sandshrew": {
+    "types":
+    ["ground"]
+  },
+  "sandslash": {
+    "types":
+    ["ground"]
+  },
+  "nidoran-f": {
+    "types":
+    ["poison"]
+  },
+  "nidorina": {
+    "types":
+    ["poison"]
+  },
+  "nidoqueen": {
+    "types":
+    ["ground",
+      "poison"]
+  },
+  "nidoran-m": {
+    "types":
+    ["poison"]
+  },
+  "nidorino": {
+    "types":
+    ["poison"]
+  },
+  "nidoking": {
+    "types":
+    ["ground",
+      "poison"]
+  },
+  "clefairy": {
+    "types":
+    ["fairy"]
+  },
+  "clefable": {
+    "types":
+    ["fairy"]
+  },
+  "vulpix": {
+    "types":
+    ["fire"]
+  },
+  "ninetales": {
+    "types":
+    ["fire"]
+  },
+  "jigglypuff": {
+    "types":
+    ["fairy",
+      "normal"]
+  },
+  "wigglytuff": {
+    "types":
+    ["fairy",
+      "normal"]
+  },
+  "zubat": {
+    "types":
+    ["flying",
+      "poison"]
+  },
+  "golbat": {
+    "types":
+    ["flying",
+      "poison"]
+  },
+  "oddish": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "gloom": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "vileplume": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "paras": {
+    "types":
+    ["grass",
+      "bug"]
+  },
+  "parasect": {
+    "types":
+    ["grass",
+      "bug"]
+  },
+  "venonat": {
+    "types":
+    ["poison",
+      "bug"]
+  },
+  "venomoth": {
+    "types":
+    ["poison",
+      "bug"]
+  },
+  "diglett": {
+    "types":
+    ["ground"]
+  },
+  "dugtrio": {
+    "types":
+    ["ground"]
+  },
+  "meowth": {
+    "types":
+    ["normal"]
+  },
+  "persian": {
+    "types":
+    ["normal"]
+  },
+  "psyduck": {
+    "types":
+    ["water"]
+  },
+  "golduck": {
+    "types":
+    ["water"]
+  },
+  "mankey": {
+    "types":
+    ["fighting"]
+  },
+  "primeape": {
+    "types":
+    ["fighting"]
+  },
+  "growlithe": {
+    "types":
+    ["fire"]
+  },
+  "arcanine": {
+    "types":
+    ["fire"]
+  },
+  "poliwag": {
+    "types":
+    ["water"]
+  },
+  "poliwhirl": {
+    "types":
+    ["water"]
+  },
+  "poliwrath": {
+    "types":
+    ["fighting",
+      "water"]
+  },
+  "abra": {
+    "types":
+    ["psychic"]
+  },
+  "kadabra": {
+    "types":
+    ["psychic"]
+  },
+  "alakazam": {
+    "types":
+    ["psychic"]
+  },
+  "machop": {
+    "types":
+    ["fighting"]
+  },
+  "machoke": {
+    "types":
+    ["fighting"]
+  },
+  "machamp": {
+    "types":
+    ["fighting"]
+  },
+  "bellsprout": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "weepinbell": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "victreebel": {
+    "types":
+    ["poison",
+      "grass"]
+  },
+  "tentacool": {
+    "types":
+    ["poison",
+      "water"]
+  },
+  "tentacruel": {
+    "types":
+    ["poison",
+      "water"]
+  },
+  "geodude": {
+    "types":
+    ["ground",
+      "rock"]
+  },
+  "graveler": {
+    "types":
+    ["ground",
+      "rock"]
+  },
+  "golem": {
+    "types":
+    ["ground",
+      "rock"]
+  },
+  "ponyta": {
+    "types":
+    ["fire"]
+  },
+  "rapidash": {
+    "types":
+    ["fire"]
+  },
+  "slowpoke": {
+    "types":
+    ["psychic",
+      "water"]
+  },
+  "slowbro": {
+    "types":
+    ["psychic",
+      "water"]
+  },
+  "magnemite": {
+    "types":
+    ["steel",
+      "electric"]
+  },
+  "magneton": {
+    "types":
+    ["steel",
+      "electric"]
+  },
+  "farfetchd": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "doduo": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "dodrio": {
+    "types":
+    ["flying",
+      "normal"]
+  },
+  "seel": {
+    "types":
+    ["water"]
+  },
+  "dewgong": {
+    "types":
+    ["ice",
+      "water"]
+  },
+  "grimer": {
+    "types":
+    ["poison"]
+  },
+  "muk": {
+    "types":
+    ["poison"]
+  },
+  "shellder": {
+    "types":
+    ["water"]
+  },
+  "cloyster": {
+    "types":
+    ["ice",
+      "water"]
+  },
+  "gastly": {
+    "types":
+    ["poison",
+      "ghost"]
+  },
+  "haunter": {
+    "types":
+    ["poison",
+      "ghost"]
+  },
+  "gengar": {
+    "types":
+    ["poison",
+      "ghost"]
+  },
+  "onix": {
+    "types":
+    ["ground",
+      "rock"]
+  },
+  "drowzee": {
+    "types":
+    ["psychic"]
+  },
+  "hypno": {
+    "types":
+    ["psychic"]
+  },
+  "krabby": {
+    "types":
+    ["water"]
+  },
+  "kingler": {
+    "types":
+    ["water"]
+  },
+  "voltorb": {
+    "types":
+    ["electric"]
+  },
+  "electrode": {
+    "types":
+    ["electric"]
+  },
+  "exeggcute": {
+    "types":
+    ["psychic",
+      "grass"]
+  },
+  "exeggutor": {
+    "types":
+    ["psychic",
+      "grass"]
+  },
+  "cubone": {
+    "types":
+    ["ground"]
+  },
+  "marowak": {
+    "types":
+    ["ground"]
+  },
+  "hitmonlee": {
+    "types":
+    ["fighting"]
+  },
+  "hitmonchan": {
+    "types":
+    ["fighting"]
+  },
+  "lickitung": {
+    "types":
+    ["normal"]
+  },
+  "koffing": {
+    "types":
+    ["poison"]
+  },
+  "weezing": {
+    "types":
+    ["poison"]
+  },
+  "rhyhorn": {
+    "types":
+    ["rock",
+      "ground"]
+  },
+  "rhydon": {
+    "types":
+    ["rock",
+      "ground"]
+  },
+  "chansey": {
+    "types":
+    ["normal"]
+  },
+  "tangela": {
+    "types":
+    ["grass"]
+  },
+  "kangaskhan": {
+    "types":
+    ["normal"]
+  },
+  "horsea": {
+    "types":
+    ["water"]
+  },
+  "seadra": {
+    "types":
+    ["water"]
+  },
+  "goldeen": {
+    "types":
+    ["water"]
+  },
+  "seaking": {
+    "types":
+    ["water"]
+  },
+  "staryu": {
+    "types":
+    ["water"]
+  },
+  "starmie": {
+    "types":
+    ["psychic",
+      "water"]
+  },
+  "mr-mime": {
+    "types":
+    ["fairy",
+      "psychic"]
+  },
+  "scyther": {
+    "types":
+    ["flying",
+      "bug"]
+  },
+  "jynx": {
+    "types":
+    ["psychic",
+      "ice"]
+  },
+  "electabuzz": {
+    "types":
+    ["electric"]
+  },
+  "magmar": {
+    "types":
+    ["fire"]
+  },
+  "pinsir": {
+    "types":
+    ["bug"]
+  },
+  "tauros": {
+    "types":
+    ["normal"]
+  },
+  "magikarp": {
+    "types":
+    ["water"]
+  },
+  "gyarados": {
+    "types":
+    ["flying",
+      "water"]
+  },
+  "lapras": {
+    "types":
+    ["ice",
+      "water"]
+  },
+  "ditto": {
+    "types":
+    ["normal"]
+  },
+  "eevee": {
+    "types":
+    ["normal"]
+  },
+  "vaporeon": {
+    "types":
+    ["water"]
+  },
+  "jolteon": {
+    "types":
+    ["electric"]
+  },
+  "flareon": {
+    "types":
+    ["fire"]
+  },
+  "porygon": {
+    "types":
+    ["normal"]
+  },
+  "omanyte": {
+    "types":
+    ["water",
+      "rock"]
+  },
+  "omastar": {
+    "types":
+    ["water",
+      "rock"]
+  },
+  "kabuto": {
+    "types":
+    ["water",
+      "rock"]
+  },
+  "kabutops": {
+    "types":
+    ["water",
+      "rock"]
+  },
+  "aerodactyl": {
+    "types":
+    ["flying",
+      "rock"]
+  },
+  "snorlax": {
+    "types":
+    ["normal"]
+  },
+  "articuno": {
+    "types":
+    ["flying",
+      "ice"]
+  },
+  "zapdos": {
+    "types":
+    ["flying",
+      "electric"]
+  },
+  "moltres": {
+    "types":
+    ["flying",
+      "fire"]
+  },
+  "dratini": {
+    "types":
+    ["dragon"]
+  },
+  "dragonair": {
+    "types":
+    ["dragon"]
+  },
+  "dragonite": {
+    "types":
+    ["flying",
+      "dragon"]
+  },
+  "mewtwo": {
+    "types":
+    ["psychic"]
+  },
+  "mew": {
+    "types":
+    ["psychic"]
+  }
+}
