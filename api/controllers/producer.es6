@@ -68,6 +68,16 @@ export async function _findWithAggregate(conditions, limit, sortFields = {}) {
 }
 
 /**
+ * Finds all producers
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @returns {Promise}: returns the producers found
+ */
+export async function findAll(conditions = {}) {
+  return await _find(conditions, 0, {createdAt: 'descending'}, ['merchant', 'location']);
+}
+
+/**
  * Find enabled producers with given conditions
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
@@ -85,9 +95,8 @@ export async function findFbEnabled(conditions = {}) {
  * @returns {Promise}: returns the producers found
  */
 export async function findAllEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
+  return await findAll(_.merge(conditions, {enabled: true}));
 }
-
 
 /**
  * Finds random enabled producers with the given conditions
