@@ -247,12 +247,25 @@ export default class FBMessenger extends MsgPlatform {
         const messagingEvents = entries[i].messaging;
         // Loop through each of the messaging events
         for (let j = 0; j < messagingEvents.length; j++) {
-          this._handleEvent(messagingEvents[j]);
+          if (this._validEvent(messagingEvents[j])) {
+            this._handleEvent(messagingEvents[j]);
+          }
         }
       }
       res.sendStatus(200);
     });
 
     return route;
+  }
+
+  /**
+   * Checks that the event is not a delivery confirmation or a read receipt
+   *
+   * @param {Object} eventInput: input event object
+   * @returns {boolean}: true if it is neither a delivery confirmation or a read receipt and false otherwise
+   * @private
+   */
+  _validEvent(eventInput) {
+    return !eventInput.delivery && !eventInput.read;
   }
 }

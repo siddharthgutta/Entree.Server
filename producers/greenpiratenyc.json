@@ -1,0 +1,48 @@
+{
+  "name": "Green Pirate",
+  "username": "greenpiratenyc",
+  "password": "nyc",
+  "description": "Fresh, Healthy, and Delicious Refreshments",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7a3b70-9490-4788-9c11-373b46204482.jpg",
+  "address": "510 Driggs Ave, Brooklyn, NY 11211",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Canteloupe Creamsicle",
+  "menuLink": "http://s3-media2.fl.yelpcdn.com/bphoto/nWbIUAea9DxdXmUF-yxcKQ/o.jpg",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "8:00",
+    "closeTime": "17:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "8:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "8:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "8:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "8:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "8:00",
+      "closeTime": "17:00"
+    }]
+}
