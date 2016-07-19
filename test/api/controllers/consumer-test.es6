@@ -432,6 +432,7 @@ describe('Consumer DB API', () => {
       assert.deepEqual(prodCheck[3]._id, id4);
       assert.deepEqual(prodCheck[4]._id, id5);
     });
+
     it('should fail if the consumer is farther than the limit', async() => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',

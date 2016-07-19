@@ -211,7 +211,7 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
       prodList.push(closeProducers[closeIndex++]);
     }
     if (range === limit) {
-      if (prodList.length === 0) throw new Error('Location is out of bounds');
+      if (prodList.length === 0) throw new Error('No producers found within the limits');
       return prodList;
     }
     // increases the range for the search

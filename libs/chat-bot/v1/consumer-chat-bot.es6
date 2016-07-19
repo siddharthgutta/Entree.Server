@@ -21,9 +21,7 @@ import * as Utils from '../../utils.es6';
 import * as Hour from '../../hour.es6';
 import Constants from './constants.es6';
 const slackSuggestionChannelId = config.get('Slack.suggestions.channelId');
-
-
-const slackChannelId = config.get('Slack.orders.channelId');
+const slackOrdersChannelId = config.get('Slack.orders.channelId');
 
 export default class ConsumerChatBot extends FbChatBot {
   constructor(consumerMsgPlatform) {
@@ -350,7 +348,7 @@ export default class ConsumerChatBot extends FbChatBot {
     slackData.pushField('Consumer', consumerName);
     slackData.pushField('Producer', producer.name);
     slackData.pushField('Price', `${order.price}`);
-    const response = await Slack.sendMessage(slackChannelId, slackData);
+    const response = await Slack.sendMessage(slackOrdersChannelId, slackData);
     console.log(response);
   }
 
