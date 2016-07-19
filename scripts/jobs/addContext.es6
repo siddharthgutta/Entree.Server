@@ -51,13 +51,10 @@ async function addContextsIfDNE() {
   // Waits for all promises to execute
   const addContextResults = await Promise.all(contextPromises);
 
-  console.log(addContextResults);
-
   console.log(`Add Context Results`);
   console.log(`-------------------`);
   _.forEach(addContextResults, addContextResult => {
     for (const producerName in addContextResult) { // eslint-disable-line
-      console.log(addContextResult);
       const statusString = addContextResult[producerName] ? 'SUCCESS' : 'FAILED';
       if (addContextResult[producerName]) {
         added++;
