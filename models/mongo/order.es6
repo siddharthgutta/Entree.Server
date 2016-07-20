@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import {OrderStatuses} from '../constants/order-status.es6';
+import OrderStatuses from '../constants/order-status.es6';
 
 const orderSchema = new mongoose.Schema({
   body: {
@@ -18,8 +18,9 @@ const orderSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: OrderStatuses,
-    default: 'Pending'
+    enum: Object.values(OrderStatuses),
+    required: true,
+    default: OrderStatuses.requestQuote
   },
   price: {
     type: Number,
