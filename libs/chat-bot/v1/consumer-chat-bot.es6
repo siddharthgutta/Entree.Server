@@ -450,7 +450,6 @@ export default class ConsumerChatBot extends FbChatBot {
     const {producerId} = this.getData(payload);
     const producer = await Producer.findOneByObjectId(producerId);
     const {context: {_id: contextId}} = consumer;
-    await Context.updateFields(contextId, {lastAction: ConsumerActions.order, producer: producer._id});
     let response;
     if (!Utils.isEmpty(producer.orderLink)) {
       response = new ButtonMessageData(`Just click on the website for ${producer.name} to order food now.`);
@@ -462,8 +461,10 @@ export default class ConsumerChatBot extends FbChatBot {
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else {
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-        `${producer.name} menu and we'll notify you when ${producer.name} confirms the order. For example: (${producer.exampleOrder})`);
+        `${producer.name} menu and we'll notify you when ${producer.name} confirms the order. For example: ` +
+         `(${producer.exampleOrder})`);
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
+      await Context.updateFields(contextId, {lastAction: ConsumerActions.order, producer: producer._id});
     }
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }

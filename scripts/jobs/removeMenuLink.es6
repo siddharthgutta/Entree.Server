@@ -36,9 +36,8 @@ async function addContextsIfDNE() {
   for (let index = 0; index < producers.length; index++) {
     const producer = producers[index];
     // If context is empty/does not exist, then add a context
-    if (!Utils.isEmpty(producer.menuLink)) { //if they are there then remove them
+    if (!Utils.isEmpty(producer.menuLink)) { // if they are there then remove them
       console.log(`Deleting menuLink for ${producer.name}...`);
-      //remove the menu link
       menuLinkPromises.push(removeMenuLink(producer));
     } else {
       console.log(`No menuLink Exists for ${producer.name}... moving on`);
