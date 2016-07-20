@@ -89,17 +89,8 @@ const producerSchema = new mongoose.Schema({
     validate: {
       validator: hours => hourCheck(hours)
     }
-  },
-  context: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Context',
-    required: true
-  },
-  fbId: {
-    type: String,
-    unique: true,
-    sparse: true
   }
+
 }, {
   timestamps: true
 });

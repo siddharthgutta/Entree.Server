@@ -12,8 +12,4 @@ git checkout master
 git pull
 npm install
 grunt compile
-
-# Build Front-End
-gulp build
-
 pm2 restart index.compiled.js --name "master"

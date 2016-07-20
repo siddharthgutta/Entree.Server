@@ -63,7 +63,7 @@ module.exports = function fileTransform(grunt) {
               createJSFromES6(grunt, transformer, input, output, options);
               compiledCount += 1;
             } else {
-              // console.log(`${output} is already up to date. | No Transform needed`);
+              console.log(`${output} is already up to date. | No Transform needed`);
               alreadyCompiledCount += 1;
             }
           } catch (err) {

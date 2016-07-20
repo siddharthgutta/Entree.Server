@@ -20,8 +20,8 @@ export async function create(optional = {}) {
  * @param {ObjectId} _id: the object id of the Context
  * @returns {Promise}: return the Context from the database
  */
-export async function findOneByObjectId(_id, populateFields = []) {
-  return await Context.findOne({_id}, populateFields);
+export async function findOneByObjectId(_id) {
+  return await Context.findOne({_id});
 }
 
 /**
