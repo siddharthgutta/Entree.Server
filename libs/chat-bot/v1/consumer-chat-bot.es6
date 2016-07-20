@@ -452,7 +452,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const {context: {_id: contextId}} = consumer;
     let response;
     if (!Utils.isEmpty(producer.orderLink)) {
-      response = new ButtonMessageData(`Just press the 'Order Food' button to go to ${producer.name}'s` +
+      response = new ButtonMessageData(`Just press the 'Order Food' button to go to ${producer.name}'s ` +
         `website to order food.`);
       response.pushLinkButton('Order Food', producer.orderLink);
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
