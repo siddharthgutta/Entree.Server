@@ -77,8 +77,7 @@ const producerSchema = new mongoose.Schema({
     required: true
   },
   menuLink: {
-    type: String,
-    required: true
+    type: String
   },
   orders: [{
     type: mongoose.Schema.Types.ObjectId,
@@ -99,6 +98,12 @@ const producerSchema = new mongoose.Schema({
     type: String,
     unique: true,
     sparse: true
+  },
+  orderLink: {
+    type: String
+  },
+  menuImage: {
+    type: String
   }
 }, {
   timestamps: true

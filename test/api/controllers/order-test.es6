@@ -22,7 +22,7 @@ describe('Order DB API', () => {
     await clear();
     location = await Location.createWithCoord(30, 40);
     producer = await Producer._create('Bob Restaurant', shortid.generate(), 'bobpass', 'bobdescription', 'www.bob.com',
-      'example order', location, 12, 12, 'menu');
+      'example order', location, 12, 12);
     consumer = await Consumer.createFbConsumer('Bob Fb Id');
   });
 

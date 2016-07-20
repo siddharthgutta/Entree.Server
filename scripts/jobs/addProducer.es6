@@ -6,6 +6,7 @@ import * as Producer from '../../api/controllers/producer.es6';
 import Promise from 'bluebird';
 import fs from 'fs';
 import _ from 'lodash';
+import * as Utils from '../../libs/utils.es6';
 
 /**
  * Gets the JSON from the file
@@ -15,7 +16,9 @@ import _ from 'lodash';
 function getJSONFromFile(file) {
   return new Promise((resolve, reject) => {
     fs.readFile(`./producers/${file}`, 'utf8', (err, data) => {
-      if (err) reject(err);
+      if (err) {
+        reject(err);
+      }
       else resolve(JSON.parse(data));
     });
   });
@@ -73,12 +76,21 @@ async function insertInDB(JSONObject) {
       console.log(`Add Hours ${addHoursErr}`);
       throw addHoursErr;
     }
+    if (!Utils.isEmpty(optional.producer.phoneNumber)) {
+      await Producer.updateByObjectId(_id, {phoneNumber: optional.producer.phoneNumber});
+    }
+    if (!Utils.isEmpty(optional.producer.menuLink)) {
+      await Producer.updateByObjectId(_id, {menuLink: optional.producer.menuLink});
+    }
+    if (!Utils.isEmpty(optional.producer.menuImage)) {
+      await Producer.updateByObjectId(_id, {menuImage: optional.producer.menuImage});
+    }
   } catch (err) {
     console.log(err);
     console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
     try {
       await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
-        percentageFee, transactionFee, menuLink, optional);
+        percentageFee, transactionFee, optional);
       const producer = await Producer.findOneByUsername(username);
       await Producer.addHours(producer._id, hours);
       return true;

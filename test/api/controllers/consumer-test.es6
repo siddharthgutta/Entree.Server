@@ -212,11 +212,11 @@ describe('Consumer DB API', () => {
     it('should successfully find the distance between consumer\'s location and producer\'s location', async () => {
       const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
       const {_id: id1} = await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com',
-        'example', eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+        'example', eatLocation, 12.5, 30, {producer: {enabled: true},
           merchant: {merchantId: '123456'}});
       const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
       const {_id: id2} = await Producer._create('El Queso', 'bowl', 'burrito', 'another description',
-        'profileImage.com', 'example', quesoLocation, 12.5, 30, 'quesomenu.com', {producer: {enabled: true}});
+        'profileImage.com', 'example', quesoLocation, 12.5, 30, {producer: {enabled: true}});
 
       const producer1 = await Producer.findOneByObjectId(id1);
       const producer2 = await Producer.findOneByObjectId(id2);
@@ -236,7 +236,6 @@ describe('Consumer DB API', () => {
     const profileImage = 'pizzahut.com/profileImage';
     const address = '1811 Guadalupe St, 78705';
     const exampleOrder = 'example order';
-    const menuLink = 'menulink.com';
     const percentageFee = 12.5;
     const transactionFee = 30;
     const latitude = 33.044165;
@@ -251,7 +250,7 @@ describe('Consumer DB API', () => {
       hours = await Promise.all(hours);
 
       const {_id: id1} = await Producer.create(name, username, password, description, profileImage,
-        exampleOrder, address, percentageFee, transactionFee, menuLink, {
+        exampleOrder, address, percentageFee, transactionFee, {
           merchant: {
             merchantId: '987654'
           },
@@ -262,11 +261,11 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id1, hours);
       const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
       const {_id: id2} = await Producer._create('El Queso', 'bowl', 'burrito', 'another description',
-        profileImage, exampleOrder, quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+        profileImage, exampleOrder, quesoLocation, 12.5, 30, {producer: {enabled: true}});
       await Producer.addHours(id2, hours);
       const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
       const {_id: id3} = await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive',
-        'www.eatzi.com', exampleOrder, eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+        'www.eatzi.com', exampleOrder, eatLocation, 12.5, 30, {producer: {enabled: true},
           merchant: {merchantId: '123456'}});
       await Producer.addHours(id3, hours);
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
@@ -286,7 +285,7 @@ describe('Consumer DB API', () => {
       hours = await Promise.all(hours);
 
       const {_id: id1} = await Producer.create(name, username, password, description, profileImage, exampleOrder,
-        address, percentageFee, transactionFee, menuLink, {
+        address, percentageFee, transactionFee, {
           merchant: {
             merchantId: '987654'
           },
@@ -297,11 +296,11 @@ describe('Consumer DB API', () => {
       await Producer.addHours(id1, hours);
       const quesoLocation = await Location.createWithCoord(33.047882, -96.830757);
       const {_id: id2} = await Producer._create('El Queso', 'bowl', 'burrito', 'another description',
-        profileImage, exampleOrder, quesoLocation, 12.5, 30, menuLink, {producer: {enabled: true}});
+        profileImage, exampleOrder, quesoLocation, 12.5, 30, {producer: {enabled: true}});
       await Producer.addHours(id2, hours);
       const eatLocation = await Location.createWithCoord(33.046686, -96.827778);
       const {_id: id3} = await Producer._create('Eatzis', 'salad', 'sandwich', 'expensive', 'www.eatzi.com',
-        exampleOrder, eatLocation, 12.5, 30, 'eatzimenu.com', {producer: {enabled: true},
+        exampleOrder, eatLocation, 12.5, 30, {producer: {enabled: true},
           merchant: {merchantId: '123456'}});
       await Producer.addHours(id3, hours);
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
@@ -317,7 +316,6 @@ describe('Consumer DB API', () => {
     const password = 'yumyum';
     const description = 'temp';
     const profileImage = 'http://i.imgur.com/bzuvGk6.jpg';
-    const menuLink = 'http://i.imgur.com/Ryy5U7O.png';
     const lat = 32.285687;
     const lat1 = 33.285689;
     const lat2 = 33.285689;
@@ -327,9 +325,9 @@ describe('Consumer DB API', () => {
       const prodAddr1 = await Location.createWithCoord(lat1, long);
       const prodAddr2 = await Location.createWithCoord(lat2, long);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
-        prodAddr1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123458'}});
+        prodAddr1, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '123458'}});
       const {_id: id2} = await Producer._create('Via32', 'unv2', password, description, profileImage, 'k',
-        prodAddr2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '133457'}});
+        prodAddr2, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '133457'}});
       const consumer = await Consumer.createFbConsumer(fbId, optionalAttributes);
       await Consumer.addLocation(consumer.fbId, lat, long);
       const timeCheck = moment('12:00', 'HH:mm');
@@ -346,9 +344,9 @@ describe('Consumer DB API', () => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const loc2 = await Location.createWithCoord(30.266746, -97.741945);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
-        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
+        loc1, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
       const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
-        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
+        loc2, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
@@ -365,9 +363,9 @@ describe('Consumer DB API', () => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const loc2 = await Location.createWithCoord(30.266746, -97.741945);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
-        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
+        loc1, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '1234518'}});
       const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
-        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
+        loc2, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '123457'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
@@ -384,9 +382,9 @@ describe('Consumer DB API', () => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const loc2 = await Location.createWithCoord(30.266746, -97.741945);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
-        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+        loc1, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
       const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
-        loc2, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
+        loc2, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
@@ -405,15 +403,15 @@ describe('Consumer DB API', () => {
       const fourthClosetLoc = await Location.createWithCoord(30.280522, -97.703838);
       const fifthClosestLoc = await Location.createWithCoord(30.284479, -97.659849);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
-        closestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+        closestLoc, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
       const {_id: id2} = await Producer._create('Via312', 'user2', password, description, profileImage, 'k',
-        secondClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
+        secondClosestLoc, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '123333'}});
       const {_id: id3} = await Producer._create('Mama Fu', 'kfu', password, description, profileImage, 'k',
-        thirdClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '129090'}});
+        thirdClosestLoc, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '129090'}});
       const {_id: id4} = await Producer._create('Chipoodle', 'chiptopia', password, description, profileImage, 'k',
-        fourthClosetLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '1232131'}});
+        fourthClosetLoc, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '1232131'}});
       const {_id: id5} = await Producer._create('el Queso', 'quesoguzzler', password, description, profileImage, 'k',
-        fifthClosestLoc, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '123214234'}});
+        fifthClosestLoc, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '123214234'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       const timeCheck = moment('12:00', 'HH:mm');
@@ -436,7 +434,7 @@ describe('Consumer DB API', () => {
     it('should fail if the consumer is farther than the limit', async() => {
       const loc1 = await Location.createWithCoord(30.282771, -97.736957);
       const {_id: id1} = await Producer._create(name, '123', password, description, profileImage, 'k',
-        loc1, 1, 1, menuLink, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
+        loc1, 1, 1, {producer: {enabled: true}, merchant: {merchantId: '312314x'}});
       const hour1 = await hour.create('Tuesday', '07:00', '21:00');
       const hour2 = await hour.create('Monday', '07:00', '21:00');
       await Producer.addHours(id1, [hour1, hour2]);
