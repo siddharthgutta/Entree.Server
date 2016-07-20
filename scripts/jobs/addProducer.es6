@@ -42,19 +42,51 @@ async function insertInDB(JSONObject) {
   try {
     const {_id} = await Producer.findOneByUsername(username);
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
-    await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
-      transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
-      menuLink});
-    await Producer.deleteAllHours(_id);
-    await Producer.addHours(_id, hours);
+    if (optional.producer.fbId) {
+      try {
+        await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
+          transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
+          menuLink, fbId: optional.producer.fbId});
+      } catch (errWithFbId) {
+        console.log(`With FB ID ${errWithFbId}`);
+        throw errWithFbId;
+      }
+    } else {
+      try {
+        await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
+          transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
+          menuLink});
+      } catch (errWithoutFbId) {
+        console.log(`Without FB ID ${errWithoutFbId}`);
+        throw errWithoutFbId;
+      }
+    }
+    try {
+      await Producer.deleteAllHours(_id);
+    } catch (deleteAllHours) {
+      console.log(`Delete All Hours ${deleteAllHours}`);
+      throw deleteAllHours;
+    }
+    try {
+      await Producer.addHours(_id, hours);
+    } catch (addHoursErr) {
+      console.log(`Add Hours ${addHoursErr}`);
+      throw addHoursErr;
+    }
   } catch (err) {
     console.log(err);
     console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
-    await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
-      percentageFee, transactionFee, menuLink, optional);
-    const producer = await Producer.findOneByUsername(username);
-    await Producer.addHours(producer._id, hours);
-    return true;
+    try {
+      await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
+        percentageFee, transactionFee, menuLink, optional);
+      const producer = await Producer.findOneByUsername(username);
+      await Producer.addHours(producer._id, hours);
+      return true;
+    } catch (producerCreateError) {
+      console.log(producerCreateError);
+      console.log(`Could not create producer for some reason...`);
+      return null;
+    }
   }
   return false;
   // Use this for logging
@@ -77,13 +109,18 @@ async function handleJSONFile(promises) {
     const createdOrUpdatedResults = await Promise.all(insertInDbPromises);
     let created = 0;
     let updated = 0;
+    let failed = 0;
     _.forEach(createdOrUpdatedResults, createdOrUpdated => {
       if (createdOrUpdated) created += 1;
+      else if (createdOrUpdated === null) failed += 1;
       else updated += 1;
     });
     console.log(`Finished adding or updating ${fileNames.length} producers: ${fileNames}`);
+    console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~`);
     console.log(`Updated ${updated} producers`);
     console.log(`Created ${created} producers`);
+    console.log(`Failed ${failed} producers`);
+    console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~`);
   } catch (err) {
     console.log(`Error adding producers: ${err}`);
   }

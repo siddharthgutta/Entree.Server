@@ -21,6 +21,7 @@ describe('Producer DB API', () => {
   const percentageFee = 12.5;
   const transactionFee = 30;
   const merchantId = 'abcdef';
+  const fbId = 'Facebook ID';
 
   beforeEach(async() => {
     await clear();
@@ -382,6 +383,45 @@ describe('Producer DB API', () => {
     });
   });
 
+  describe('#findAll()', async () => {
+    const name2 = 'Dominos';
+    const password2 = 'password';
+    const description2 = 'some dominos description';
+    const phoneNumber2 = '2345678901';
+    const profileImage2 = 'www.anothaimage.com';
+    const enabled2 = false;
+    const menuLink2 = 'www.somemenulink.com';
+
+    const name3 = 'mcdonalds';
+    const password3 = 'bigmac';
+    const description3 = 'some mcdonalds description';
+    const profileImage3 = 'www.anothaoneimage.com';
+    const enabled3 = true;
+    const menuLink3 = 'pizzahutmenu.com';
+
+    it('should find multiple enabled producers', async () => {
+      const location = await Location.createWithCoord(lat, long);
+      const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+          merchant: {merchantId: shortid.generate()}});
+      const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
+      const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
+        profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
+
+      assert.notDeepEqual(id1, id2);
+      assert.notDeepEqual(id2, id3);
+      assert.notDeepEqual(id1, id3);
+      const producers = await Producer.findAll();
+      assert.equal(producers.length, 3);
+      assert.deepEqual(producers[0]._id, id1);
+      assert.deepEqual(producers[1]._id, id2);
+      assert.deepEqual(producers[2]._id, id3);
+    });
+  });
+
   describe('#findAllEnabled()', async () => {
     const name2 = 'Dominos';
     const password2 = 'password';
@@ -510,6 +550,36 @@ describe('Producer DB API', () => {
       } catch (err) {
         return;
       }
+      assert(false);
+    });
+  });
+
+  describe('#findOneByFbId()', async () => {
+    it('should find a producer by fbId correctly', async () => {
+      const location = await Location.createWithCoord(lat, long);
+      await Producer._create(name, username, password, description, profileImage, exampleOrder,
+        location, percentageFee, transactionFee, menuLink, {producer: {fbId}});
+      const producer = await Producer.findOneByFbId(fbId);
+      assert.equal(producer.name, name);
+      assert.equal(producer.username, username);
+      assert.equal(producer.password, password);
+      assert.equal(producer.description, description);
+      assert.equal(producer.profileImage, profileImage);
+      assert.equal(producer.location.coordinates.latitude, lat);
+      assert.equal(producer.location.coordinates.longitude, long);
+      assert.equal(producer.merchant.percentageFee, percentageFee);
+      assert.equal(producer.merchant.transactionFee, transactionFee);
+      assert.equal(producer.menuLink, menuLink);
+      assert.equal(producer.fbId, fbId);
+    });
+
+    it('should throw error if nothing is found', async () => {
+      try {
+        await Producer.findOneByFbId(fbId);
+      } catch (err) {
+        return;
+      }
+
       assert(false);
     });
   });

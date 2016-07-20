@@ -7,6 +7,17 @@ import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
 import moment from 'moment';
+import * as Context from '../controllers/context.es6';
+
+/**
+ * Finds a producer by the FbId
+ *
+ * @param {String} fbId: facebook messenger id of the producer
+ * @returns {Promise<Producer>}: the producer with the specific fbId
+ */
+export async function findOneByFbId(fbId) {
+  return await Producer.findOne({fbId}, ['context', 'merchant', 'location']);
+}
 
 
 /**
@@ -57,6 +68,16 @@ export async function _findWithAggregate(conditions, limit, sortFields = {}) {
 }
 
 /**
+ * Finds all producers
+ *
+ * @param {Object} conditions: key value pairs of the conditions we want to query by
+ * @returns {Promise}: returns the producers found
+ */
+export async function findAll(conditions = {}) {
+  return await _find(conditions, 0, {createdAt: 'descending'}, ['merchant', 'location']);
+}
+
+/**
  * Find enabled producers with given conditions
  *
  * @param {Object} conditions: key value pairs of the conditions we want to query by
@@ -74,9 +95,8 @@ export async function findFbEnabled(conditions = {}) {
  * @returns {Promise}: returns the producers found
  */
 export async function findAllEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 0, {createdAt: 'descending'}, ['merchant', 'location']);
+  return await findAll(_.merge(conditions, {enabled: true}));
 }
-
 
 /**
  * Finds random enabled producers with the given conditions
@@ -109,8 +129,9 @@ export async function findRandomEnabled(conditions = {}, limit = 10) {
 export async function _create(name, username, password, description, profileImage, exampleOrder,
                               location, percentageFee, transactionFee, menuLink, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
+  const context = await Context.create({...(optional.context)});
   return await Producer.create({name, username, password, description, profileImage, exampleOrder,
-    location: location._id, merchant: merchant._id, menuLink, ...optional.producer});
+    location: location._id, merchant: merchant._id, menuLink, context, ...optional.producer});
 }
 
 
