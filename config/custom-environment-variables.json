@@ -3,5 +3,6 @@
     "port": "NODE_PORT"
   },
   "NodeEnv": "NODE_ENV",
-  "AppBranch": "APP_BRANCH"
+  "AppBranch": "APP_BRANCH",
+  "AppType": "APP_TYPE"
 }

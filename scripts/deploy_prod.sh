@@ -7,6 +7,7 @@ cd /home/ubuntu/.pm2/repos/master/Entree.Server
 export NODE_ENV="production"
 export NODE_PORT=443
 export APP_BRANCH="master"
+export APP_TYPE="entree"
 
 git checkout master
 git pull
