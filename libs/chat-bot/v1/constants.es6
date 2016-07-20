@@ -7,8 +7,7 @@ const constants = {
   file: 'file',
   image: 'image',
   miles: 2,
-  multiplier: 2,
-  limit: 25
+  multiplier: 2
 };
 
 export default constants;

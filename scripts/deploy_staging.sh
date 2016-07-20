@@ -67,9 +67,6 @@ git checkout $APP_BRANCH
 npm install
 grunt compile
 
-# Build Front-End
-gulp build
-
 # Get a list of appnames from pm2
 appname=$(pm2 jlist | jq '.[] .name')
 

@@ -179,10 +179,9 @@ export async function getClosestEnabledProducers(fbId, radius, limit) {
  * @param {Moment} time: the time to check with
  * @param {String} dayOfWeek: the day of the week to check with
  * @param {number} numProds: the number of producers to get
- * @param {number} limit: the farthest distance to search from
  * @returns {Array} an array of producers based on the distance and if they are open
  */
-export async function getOrderedProducersHelper(fbId, miles, multiplier, time, dayOfWeek, numProds, limit) {
+export async function getOrderedProducersHelper(fbId, miles, multiplier, time, dayOfWeek, numProds) {
   const openArr = [];
   const closeArr = [];
   const prodList = [];
@@ -199,20 +198,13 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
   let closeIndex = 0;
   // adds producers till the limit first adding open then closed and increases the range
   while (prodList.length < numProds && (openIndex < openProducers.length || closeIndex < closeProducers.length)) {
-    if (range >= limit) {
-      range = limit;
-    }
-    while (openIndex < openProducers.length && openProducers[openIndex]._distance <= range &&
+    while (openIndex < openProducers.length && openProducers[openIndex]._distance < range &&
       prodList.length < numProds) {
       prodList.push(openProducers[openIndex++]);
     }
-    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance <= range
+    while (closeIndex < closeProducers.length && closeProducers[closeIndex]._distance < range
       && prodList.length < numProds) {
       prodList.push(closeProducers[closeIndex++]);
-    }
-    if (range === limit) {
-      if (prodList.length === 0) throw new Error('No producers found within the limits');
-      return prodList;
     }
     // increases the range for the search
     range *= multiplier;
@@ -226,10 +218,9 @@ export async function getOrderedProducersHelper(fbId, miles, multiplier, time, d
  * @param {number} miles: the base search radius
  * @param {number} multiplier: the multiplier for the range
  * @param {number} numProds: the number of producers to grab
- * @param {number} limit: the farthest distance to search from
  * @returns {Array} an array of producers based on the distance and if they are open
  */
-export async function getOrderedProducers(fbId, miles, multiplier, numProds, limit) {
+export async function getOrderedProducers(fbId, miles, multiplier, numProds) {
   return getOrderedProducersHelper(fbId, miles, multiplier, Producer.getCurrentTime(),
-    Producer.dayOfWeek(), numProds, limit);
+    Producer.dayOfWeek(), numProds);
 }
