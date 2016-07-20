@@ -16,9 +16,7 @@ import * as Utils from '../../libs/utils.es6';
 function getJSONFromFile(file) {
   return new Promise((resolve, reject) => {
     fs.readFile(`./producers/${file}`, 'utf8', (err, data) => {
-      if (err) {
-        reject(err);
-      }
+      if (err) reject(err);
       else resolve(JSON.parse(data));
     });
   });
@@ -41,7 +39,7 @@ _.forEach(fileNames, file => {
  */
 async function insertInDB(JSONObject) {
   const {name, username, password, description, profileImage, exampleOrder, address,
-    percentageFee, transactionFee, menuLink, optional, hours} = JSONObject;
+    percentageFee, transactionFee, optional, hours} = JSONObject;
   try {
     const {_id} = await Producer.findOneByUsername(username);
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
@@ -49,7 +47,7 @@ async function insertInDB(JSONObject) {
       try {
         await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
           transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
-          menuLink, fbId: optional.producer.fbId});
+          fbId: optional.producer.fbId});
       } catch (errWithFbId) {
         console.log(`With FB ID ${errWithFbId}`);
         throw errWithFbId;
@@ -57,8 +55,7 @@ async function insertInDB(JSONObject) {
     } else {
       try {
         await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
-          transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
-          menuLink});
+          transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled});
       } catch (errWithoutFbId) {
         console.log(`Without FB ID ${errWithoutFbId}`);
         throw errWithoutFbId;
@@ -76,14 +73,8 @@ async function insertInDB(JSONObject) {
       console.log(`Add Hours ${addHoursErr}`);
       throw addHoursErr;
     }
-    if (!Utils.isEmpty(optional.producer.phoneNumber)) {
-      await Producer.updateByObjectId(_id, {phoneNumber: optional.producer.phoneNumber});
-    }
-    if (!Utils.isEmpty(optional.producer.menuLink)) {
-      await Producer.updateByObjectId(_id, {menuLink: optional.producer.menuLink});
-    }
-    if (!Utils.isEmpty(optional.producer.menuImage)) {
-      await Producer.updateByObjectId(_id, {menuImage: optional.producer.menuImage});
+    if (!Utils.isEmpty(optional.producer)) {
+      await Producer.updateByObjectId(_id, optional.producer);
     }
   } catch (err) {
     console.log(err);

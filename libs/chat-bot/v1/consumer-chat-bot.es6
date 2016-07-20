@@ -251,8 +251,11 @@ export default class ConsumerChatBot extends FbChatBot {
       button.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
       return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [image, button]});
     }
-    const text = new TextMessageData(`Sorry we do not currently have the menu for ${producer.name}`);
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
+    const button = new ButtonMessageData(`Sorry we do not currently have the menu for ${producer.name}`);
+    button.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
+    button.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt, {producerId: producer._id}));
+    button.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [button]});
   }
 
   /**
@@ -450,8 +453,8 @@ export default class ConsumerChatBot extends FbChatBot {
     await Context.updateFields(contextId, {lastAction: ConsumerActions.order, producer: producer._id});
     let response;
     if (!Utils.isEmpty(producer.orderLink)) {
-      response = new ButtonMessageData(`Just click on the website for ${producer.name}'s online ordering`);
-      response.pushLinkButton('Website Link', producer.orderLink);
+      response = new ButtonMessageData(`Just click on the website for ${producer.name} to order food now.`);
+      response.pushLinkButton('Order Food', producer.orderLink);
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else if (!Utils.isEmpty(producer.phoneNumber)) {
       console.log(producer.name);
@@ -459,7 +462,7 @@ export default class ConsumerChatBot extends FbChatBot {
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else {
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-        `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
+        `${producer.name} menu and we'll notify you when ${producer.name} confirms the order. For example: (${producer.exampleOrder})`);
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     }
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
