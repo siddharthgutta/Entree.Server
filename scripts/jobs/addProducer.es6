@@ -44,6 +44,14 @@ async function insertInDB(JSONObject) {
     const {_id} = await Producer.findOneByUsername(username);
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
     try {
+      await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
+        transactionFee, profileImage, exampleOrder, address, enabled: true});
+    } catch (errUpdating) {
+      console.log(`With FB ID ${errUpdating}`);
+      throw errUpdating;
+    }
+
+    try {
       await Producer.deleteAllHours(_id);
     } catch (deleteAllHours) {
       console.log(`Delete All Hours ${deleteAllHours}`);

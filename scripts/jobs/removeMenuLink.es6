@@ -5,7 +5,7 @@ import _ from 'lodash';
 
 /**
  * Removes the menuLink for a specific producer
- * @param {Producer} producer: producer to add context to
+ * @param {Producer} producer: producer to remove menuLink from
  * @returns {{String: Boolean}}: key value pair with key as the producer's name and value as
  *  whether the adding succeeded
  */
@@ -15,7 +15,7 @@ async function removeMenuLink(producer) {
     await Producer.updateByObjectId(producer._id, {menuLink: undefined});
     returnObj[producer.name] = true;
   } catch (err) {
-    console.log(`Failed to add context for ${producer.name}\n${err}`);
+    console.log(`Failed to add remove menu link for ${producer.name}\n${err}`);
     returnObj[producer.name] = false;
   }
   return returnObj;
@@ -25,17 +25,17 @@ async function removeMenuLink(producer) {
  * Removes menuLink for Producers that have it
  * @returns {Null} Unused
  */
-async function addContextsIfDNE() {
-  let added = 0;
+async function removeMenuLinkIfExists() {
+  let removed = 0;
   let alreadyFixed = 0;
-  let failedToAdd = 0;
+  let failedToRemove = 0;
 
   const producers = await Producer.findAll();
   const total = producers.length;
   const menuLinkPromises = [];
   for (let index = 0; index < producers.length; index++) {
     const producer = producers[index];
-    // If context is empty/does not exist, then add a context
+    // If menuLink is defined remove it
     if (!Utils.isEmpty(producer.menuLink)) { // if they are there then remove them
       console.log(`Deleting menuLink for ${producer.name}...`);
       menuLinkPromises.push(removeMenuLink(producer));
@@ -54,18 +54,18 @@ async function addContextsIfDNE() {
     for (const producerName in removeMenuLinkResult) { // eslint-disable-line
       const statusString = removeMenuLinkResult[producerName] ? 'SUCCESS' : 'FAILED';
       if (removeMenuLinkResult[producerName]) {
-        added++;
+        removed++;
       } else {
-        failedToAdd++;
+        failedToRemove++;
       }
       console.log(`${producerName}: ${statusString}`);
     }
   });
 
   console.log(`Total Producers: ${total}`);
-  console.log(`Total MenuLinks Removed: ${added}`);
-  console.log(`Total MenuLinks Failed: ${failedToAdd}`);
-  console.log(`Total Removed MenuLinks: ${alreadyFixed}`);
+  console.log(`Total MenuLinks Removed: ${removed}`);
+  console.log(`Total MenuLinks Failed: ${failedToRemove}`);
+  console.log(`Total Producers without MenuLinks: ${alreadyFixed}`);
 }
 
-addContextsIfDNE();
+removeMenuLinkIfExists();
