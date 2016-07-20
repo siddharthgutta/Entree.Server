@@ -241,14 +241,21 @@ export default class ConsumerChatBot extends FbChatBot {
   async _handleMenu(payload, consumer) {
     const {producerId} = this.getData(payload);
     const producer = await Producer.findOneByObjectId(producerId);
-    const image = new ImageAttachmentMessageData(producer.menuLink);
-    const button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
-      `or choose one of the following options.`);
+    // todo fix this to display menu or take them there - wait probably fix the outer functions
+    if (!Utils.isEmpty(producer.menuImage)) {
+      const image = new ImageAttachmentMessageData(producer.menuImage);
+      const button = new ButtonMessageData(`Here is the ${producer.name} menu. Tap the image to see it full screen ` +
+        `or choose one of the following options.`);
+      button.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
+      button.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt, {producerId: producer._id}));
+      button.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
+      return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [image, button]});
+    }
+    const button = new ButtonMessageData(`Sorry we do not currently have the menu for ${producer.name}`);
     button.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
     button.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt, {producerId: producer._id}));
     button.pushPostbackButton('See Trucks', this.genPayload(ConsumerActions.seeProducers));
-
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [image, button]});
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [button]});
   }
 
   /**
@@ -443,11 +450,23 @@ export default class ConsumerChatBot extends FbChatBot {
     const {producerId} = this.getData(payload);
     const producer = await Producer.findOneByObjectId(producerId);
     const {context: {_id: contextId}} = consumer;
-    await Context.updateFields(contextId, {lastAction: ConsumerActions.order, producer: producer._id});
-    const response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
-      `${producer.name} menu and we'll start preparing your order. For example: (${producer.exampleOrder})`);
-    response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
-
+    let response;
+    if (!Utils.isEmpty(producer.orderLink)) {
+      response = new ButtonMessageData(`Just press the 'Order Food' button to go to ${producer.name}'s ` +
+        `website to order food.`);
+      response.pushLinkButton('Order Food', producer.orderLink);
+      response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
+    } else if (!Utils.isEmpty(producer.phoneNumber)) {
+      console.log(producer.name);
+      response = new ButtonMessageData(`Just call ${producer.phoneNumber} and place your order for ${producer.name}`);
+      response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
+    } else {
+      response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
+        `${producer.name} menu and we'll notify you when ${producer.name} confirms the order. For example: ` +
+         `(${producer.exampleOrder})`);
+      response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
+      await Context.updateFields(contextId, {lastAction: ConsumerActions.order, producer: producer._id});
+    }
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
    /**
@@ -533,7 +552,12 @@ export default class ConsumerChatBot extends FbChatBot {
           `${producer.name} (${producer.location.address}) - ${producer._distance} mi`;
         const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
         response.pushElement(title, description, producer.profileImage);
-        response.pushPostbackButton('View Menu', this.genPayload(ConsumerActions.menu, {producerId: producer._id}));
+        // if has button go to else set the button to a link
+        if (!Utils.isEmpty(producer.menuLink)) {
+          response.pushLinkButton('View Menu', producer.menuLink);
+        } else {
+          response.pushPostbackButton('View Menu', this.genPayload(ConsumerActions.menu, {producerId: producer._id}));
+        }
         response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.moreInfo, {producerId: producer._id}));
         response.pushPostbackButton('Order Food', this.genPayload(ConsumerActions.orderPrompt,
           {producerId: producer._id}));
@@ -576,7 +600,6 @@ export default class ConsumerChatBot extends FbChatBot {
       'find trucks near you?');
     response.pushQuickReply('Yes', this.genPayload(ConsumerActions.existingLocation));
     response.pushQuickReply('No', this.genPayload(ConsumerActions.newLocation));
-
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 

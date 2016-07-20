@@ -8,10 +8,11 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "Burrito with Fajita Beef, Onions, Cilantro, and Lettuce",
-  "menuLink": "http://i.imgur.com/Ryy5U7O.png",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "phoneNumber": "9726128356",
+      "menuImage": "http://i.imgur.com/Ryy5U7O.png"
     }
   },
   "hours":

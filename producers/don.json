@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "Veggie King with Onsen Egg",
-  "menuLink": "http://i.imgur.com/Thq7gyj.png",
   "optional": {
     "producer": {
-      "enabled": false
+      "enabled": false,
+      "menuImage": "http://i.imgur.com/Thq7gyj.png"
     }
   }
 }
