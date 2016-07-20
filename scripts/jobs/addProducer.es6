@@ -47,7 +47,7 @@ async function insertInDB(JSONObject) {
       await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
         transactionFee, profileImage, exampleOrder, address, enabled: true});
     } catch (errUpdating) {
-      console.log(`With FB ID ${errUpdating}`);
+      console.log(`Error with updating ${errUpdating}`);
       throw errUpdating;
     }
 
