@@ -45,7 +45,7 @@ async function insertInDB(JSONObject) {
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
     try {
       await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
-        transactionFee, profileImage, exampleOrder, address, enabled: true});
+        transactionFee, profileImage, exampleOrder, address});
     } catch (errUpdating) {
       console.log(`Error with updating ${errUpdating}`);
       throw errUpdating;
