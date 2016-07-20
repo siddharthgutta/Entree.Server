@@ -51,7 +51,7 @@ describe('Google API', () => {
 
   describe('#GooglePlacesAPI', () => {
     it('should produce search results with keyword search', async () => {
-      const keyword = 'chicken';
+      const keyword = 'taco';
       const results = await GooglePlacesAPI.searchByKeyword(keyword, lat, lng);
       assert.ok(results);
       assert(results.length > 0);
