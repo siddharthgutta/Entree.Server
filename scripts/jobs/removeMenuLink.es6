@@ -4,7 +4,7 @@ import Promise from 'bluebird';
 import _ from 'lodash';
 
 /**
- * Adds context to a specific producer
+ * Removes the menuLink for a specific producer
  * @param {Producer} producer: producer to add context to
  * @returns {{String: Boolean}}: key value pair with key as the producer's name and value as
  *  whether the adding succeeded
@@ -22,7 +22,7 @@ async function removeMenuLink(producer) {
 }
 
 /**
- * Adds contexts to producers that don't have contexts
+ * Removes menuLink for Producers that have it
  * @returns {Null} Unused
  */
 async function addContextsIfDNE() {
