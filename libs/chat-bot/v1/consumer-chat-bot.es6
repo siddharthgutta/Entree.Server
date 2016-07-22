@@ -200,6 +200,11 @@ export default class ConsumerChatBot extends FbChatBot {
    */
   async _handleText(event, consumer) {
     const text = event.message.text;
+
+    // HACKY SHIT THAT SHOULD BE REMOVED WHEN MANUAL ORDERS NO LONGER EXIST
+    if (/^(yes)|(no)|(cancel)$/.test(text.toLowerCase())) return this.genResponse();
+    // HACKY SHIT THAT SHOULD BE REMOVED WHEN MANUAL ORDERS NO LONGER EXIST
+
     const {context} = consumer;
 
     switch (context.lastAction) {
