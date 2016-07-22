@@ -1,13 +1,13 @@
 // Link to run script on
 // http://roaminghunger.com/food-trucks/
 
-var stateToUrl = {};
+const stateToUrl = {};
 
-var states = document.getElementsByClassName('row')[1].getElementsByClassName('col-sm-3');
+const states = document.getElementsByClassName('row')[1].getElementsByClassName('col-sm-3');
 for (let index = 0; index < states.length; index++) {
   const column = states[index];
   const stateListings = column.getElementsByClassName('stateListing');
-  for (let j = 0 ; j < stateListings.length; j++) {
+  for (let j = 0; j < stateListings.length; j++) {
     const stateListing = stateListings[j];
     const state = stateListing.getElementsByClassName('subhead')[0];
     const stateName = state.getElementsByTagName('a')[0].text;
@@ -25,9 +25,9 @@ for (let index = 0; index < states.length; index++) {
         }
         const cityName = cityA.text;
         stateToUrl[stateName].push({
-          url: url,
+          url,
           city: cityName
-        })
+        });
       }
     }
   }
