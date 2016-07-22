@@ -8,10 +8,10 @@
   "percentageFee": 3.5,
   "transactionFee": 30,
   "exampleOrder": "1 Spiced Chicken Leg Chow Mein ",
-  "menuLink": "http://i.imgur.com/eL5oG88.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/eL5oG88.jpg"
     }
   },
   "hours":

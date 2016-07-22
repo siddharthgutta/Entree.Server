@@ -121,17 +121,16 @@ export async function findRandomEnabled(conditions = {}, limit = 10) {
  * @param {Location} location: the location object specifying the location of the producer
  * @param {Number} percentageFee: percentage fee of the merchant
  * @param {Number} transactionFee: transaction fee of the merchant
- * @param {String} menuLink: link to the producer's menu
  * @param {Object} optional: optional fields for the producer
  * @returns {Promise<Producer>}: resulting producer object
  */
 
 export async function _create(name, username, password, description, profileImage, exampleOrder,
-                              location, percentageFee, transactionFee, menuLink, optional = {}) {
+                              location, percentageFee, transactionFee, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   const context = await Context.create({...(optional.context)});
   return await Producer.create({name, username, password, description, profileImage, exampleOrder,
-    location: location._id, merchant: merchant._id, menuLink, context, ...optional.producer});
+    location: location._id, merchant: merchant._id, context, ...optional.producer});
 }
 
 
@@ -147,16 +146,15 @@ export async function _create(name, username, password, description, profileImag
  * @param {String} address: address of the producer's location
  * @param {Number} percentageFee: percentageFee of the producer
  * @param {Number} transactionFee: transactionFee of the producer
- * @param {String} menuLink: the link to the menu of the producer
  * @param {Object} optional: optional fields for both the producer/merchant under respective keys
  * @returns {Promise} resulting producer object
  */
 
 export async function create(name, username, password, description, profileImage, exampleOrder, address,
-                             percentageFee, transactionFee, menuLink, optional = {}) {
+                             percentageFee, transactionFee, optional = {}) {
   const location = await Location.createWithAddress(address);
   const producer = await _create(name, username, password, description, profileImage,
-    exampleOrder, location, percentageFee, transactionFee, menuLink, optional);
+    exampleOrder, location, percentageFee, transactionFee, optional);
   return await producer.save();
 }
 

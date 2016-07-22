@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "Eskimo Kisses with Organic Cocunut Milk",
-  "menuLink": "http://i.imgur.com/FnvcmhI.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/FnvcmhI.jpg"
     }
   },
   "hours":

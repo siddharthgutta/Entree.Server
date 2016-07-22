@@ -40,7 +40,6 @@ describe('Braintree', () => {
   const profileImage = 'www.image.com';
   const exampleOrder = 'This is an example order';
   const enabled = true;
-  const menuLink = 'www.menulink.com';
 
   // Generated from previous merchant creations
   // NOTE: Sub Merchant accounts can only be created via the API
@@ -68,7 +67,7 @@ describe('Braintree', () => {
 
       const location = await Location.createWithCoord(lat, long);
       const producer = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
+        location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
       producerId = producer._id;
     });
 
@@ -373,7 +372,7 @@ describe('Braintree', () => {
     it('creating declined merchant account should fail', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: testProducerId} = (await Producer._create(name, username, password, description, profileImage,
-        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}}));
+        exampleOrder, location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}}));
       const individual = createIndividual(false);
       const merchantAccount = await Payment.registerOrUpdateProducerWithPaymentSystem(
         testProducerId, individual, {}, funding);
@@ -386,7 +385,7 @@ describe('Braintree', () => {
     it('creating approved merchant account should succeed', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: testProducerId} = (await Producer._create(name, username, password, description, profileImage,
-        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}}));
+        exampleOrder, location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}}));
       const individual = createIndividual(true);
       let merchantAccount = await Payment.registerOrUpdateProducerWithPaymentSystem(
         testProducerId, individual, {}, funding);
@@ -402,7 +401,7 @@ describe('Braintree', () => {
     it('updating merchant account should succeed', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: testProducerId} = (await Producer._create(name, username, password, description, profileImage,
-        exampleOrder, location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled},
+        exampleOrder, location, percentageFee, transactionFee, {producer: {phoneNumber, enabled},
           merchant: {merchantId}}));
       const individual = createIndividual(true);
       await Payment.registerOrUpdateProducerWithPaymentSystem(

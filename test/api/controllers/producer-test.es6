@@ -17,7 +17,6 @@ describe('Producer DB API', () => {
   const profileImage = 'www.image.com';
   const exampleOrder = 'This is an example order';
   const enabled = true;
-  const menuLink = 'www.menulink.com';
   const percentageFee = 12.5;
   const transactionFee = 30;
   const merchantId = 'abcdef';
@@ -30,7 +29,7 @@ describe('Producer DB API', () => {
   describe('#create()', () => {
     it('should create a Producer object successfully with an address', async () => {
       const {_id} = await Producer.create(name, username, password, description, profileImage, exampleOrder,
-        address, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+        address, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, name);
       assert.equal(producer.username, username);
@@ -40,7 +39,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.location.address, address);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
-      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, enabled);
     });
@@ -50,7 +48,7 @@ describe('Producer DB API', () => {
     it('should create a Producer object successfully', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-       location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
+       location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
@@ -62,7 +60,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.location.coordinates.longitude, long);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
-      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, enabled);
     });
@@ -70,7 +67,7 @@ describe('Producer DB API', () => {
     it('should create a default disabled Producer object successfully', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber}, merchant: {merchantId}});
+        location, percentageFee, transactionFee, {producer: {phoneNumber}, merchant: {merchantId}});
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
@@ -82,7 +79,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.location.coordinates.longitude, long);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
-      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, false);
     });
@@ -91,7 +87,7 @@ describe('Producer DB API', () => {
   describe('#create()', () => {
     it('should create a Producer object successfully with an address', async () => {
       const {_id} = await Producer.create(name, username, password, description, profileImage, exampleOrder,
-        address, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+        address, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, name);
       assert.equal(producer.username, username);
@@ -101,7 +97,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.location.address, address);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
-      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, enabled);
     });
@@ -111,7 +106,7 @@ describe('Producer DB API', () => {
     it('should create a Producer object successfully', async() => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-       location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+       location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
 
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, name);
@@ -123,7 +118,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.location.coordinates.longitude, long);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
-      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.phoneNumber, phoneNumber);
       assert.equal(producer.enabled, enabled);
     });
@@ -131,7 +125,7 @@ describe('Producer DB API', () => {
     it('should create a default disabled Producer object successfully', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber}, merchant: {merchantId}});
+        location, percentageFee, transactionFee, {producer: {phoneNumber}, merchant: {merchantId}});
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
@@ -147,14 +141,13 @@ describe('Producer DB API', () => {
       assert.equal(producer.merchant.transactionFee, transactionFee);
       assert.equal(producer.merchant.merchantId, merchantId);
       assert.equal(producer.enabled, false);
-      assert.equal(producer.menuLink, menuLink);
     });
 
     it('should fail to create a Producer with no name', async () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create(null, username, password, description, profileImage, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+          location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       } catch (e) {
         return;
       }
@@ -165,7 +158,7 @@ describe('Producer DB API', () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create(name, null, password, description, profileImage, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+          location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       } catch (e) {
         return;
       }
@@ -176,7 +169,7 @@ describe('Producer DB API', () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create(name, username, password, null, profileImage, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+          location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       } catch (e) {
         return;
       }
@@ -187,7 +180,7 @@ describe('Producer DB API', () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create(name, username, null, description, profileImage, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+          location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       } catch (e) {
         return;
       }
@@ -198,7 +191,7 @@ describe('Producer DB API', () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create(name, username, password, description, null, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+          location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       } catch (e) {
         return;
       }
@@ -208,7 +201,7 @@ describe('Producer DB API', () => {
     it('should fail to create a Producer with no location', async () => {
       try {
         await Producer._create(name, username, password, description, profileImage, exampleOrder,
-          null, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}});
+          null, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       } catch (e) {
         return;
       }
@@ -219,18 +212,7 @@ describe('Producer DB API', () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create('Pizza Hut', username, password, 'some description', profileImage, exampleOrder,
-          location, null, transactionFee, menuLink, {producer: {phoneNumber: '1234567890', enabled: true}});
-      } catch (e) {
-        return;
-      }
-      assert(false);
-    });
-
-    it('should fail to create a Producer with no menu link', async () => {
-      try {
-        const location = await Location.createWithCoord(lat, long);
-        await Producer._create('Pizza Hut', username, password, 'some description', profileImage, exampleOrder,
-          location, percentageFee, transactionFee, null, {producer: {phoneNumber: '1234567890', enabled: true}});
+          location, null, transactionFee, {producer: {phoneNumber: '1234567890', enabled: true}});
       } catch (e) {
         return;
       }
@@ -241,7 +223,7 @@ describe('Producer DB API', () => {
       try {
         const location = await Location.createWithCoord(lat, long);
         await Producer._create('Pizza Hut', username, 'password', 'some description', profileImage, exampleOrder,
-          location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber: '123456789', enabled: true}});
+          location, percentageFee, transactionFee, {producer: {phoneNumber: '123456789', enabled: true}});
       } catch (e) {
         return;
       }
@@ -253,7 +235,7 @@ describe('Producer DB API', () => {
     it('should find a producer correctly', async() => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
+        location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
       const producer = await Producer.findOneByObjectId(_id);
 
       assert.equal(producer.name, name);
@@ -268,7 +250,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
       assert.equal(producer.enabled, enabled);
-      assert.equal(producer.menuLink, menuLink);
     });
 
     it('should return null if nothing is found', async() => {
@@ -285,7 +266,7 @@ describe('Producer DB API', () => {
     it('should find a producer correctly', async () => {
       const location = await Location.createWithCoord(lat, long);
       await Producer._create(name, username, password, description,
-        profileImage, exampleOrder, location, percentageFee, transactionFee, menuLink,
+        profileImage, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled}, merchant: {merchantId}});
       const producer = await Producer.findOneByUsername(username);
 
@@ -297,7 +278,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.exampleOrder, exampleOrder);
       assert.equal(producer.enabled, enabled);
-      assert.equal(producer.menuLink, menuLink);
     });
 
     it('should return null if nothing is found', async () => {
@@ -317,21 +297,19 @@ describe('Producer DB API', () => {
     const phoneNumber2 = '2345678901';
     const profileImage2 = 'www.anothaimage.com';
     const enabled2 = false;
-    const menuLink2 = 'www.somemenulink.com';
 
     const name3 = 'mcdonalds';
     const password3 = 'bigmac';
     const description3 = 'some mcdonalds description';
     const profileImage3 = 'www.anothaoneimage.com';
     const enabled3 = true;
-    const menuLink3 = 'pizzahutmenu.com';
 
     it('should find a singular enabled producer', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
+        location, percentageFee, transactionFee, {producer: {phoneNumber, enabled}, merchant: {merchantId}});
       const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
-        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled2}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
@@ -343,13 +321,13 @@ describe('Producer DB API', () => {
     it('should find multiple enabled producers', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+        location, percentageFee, transactionFee, {producer: {phoneNumber2, enabled},
         merchant: {merchantId: shortid.generate()}});
       const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
-        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
       const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
-        profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        profileImage3, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
@@ -364,14 +342,14 @@ describe('Producer DB API', () => {
     it('should limit the sample size of producers found', async() => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+        location, percentageFee, transactionFee, {producer: {phoneNumber2, enabled},
         merchant: {merchantId: shortid.generate()}});
 
       const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2, profileImage2,
-        exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
       const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3, profileImage3,
-        exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
@@ -390,25 +368,23 @@ describe('Producer DB API', () => {
     const phoneNumber2 = '2345678901';
     const profileImage2 = 'www.anothaimage.com';
     const enabled2 = false;
-    const menuLink2 = 'www.somemenulink.com';
 
     const name3 = 'mcdonalds';
     const password3 = 'bigmac';
     const description3 = 'some mcdonalds description';
     const profileImage3 = 'www.anothaoneimage.com';
     const enabled3 = true;
-    const menuLink3 = 'pizzahutmenu.com';
 
     it('should find multiple enabled producers', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+        location, percentageFee, transactionFee, {producer: {phoneNumber2, enabled},
           merchant: {merchantId: shortid.generate()}});
       const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
-        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
       const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
-        profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        profileImage3, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
@@ -429,25 +405,23 @@ describe('Producer DB API', () => {
     const phoneNumber2 = '2345678901';
     const profileImage2 = 'www.anothaimage.com';
     const enabled2 = false;
-    const menuLink2 = 'www.somemenulink.com';
 
     const name3 = 'mcdonalds';
     const password3 = 'bigmac';
     const description3 = 'some mcdonalds description';
     const profileImage3 = 'www.anothaoneimage.com';
     const enabled3 = true;
-    const menuLink3 = 'pizzahutmenu.com';
 
     it('should find multiple enabled producers', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+        location, percentageFee, transactionFee, {producer: {phoneNumber2, enabled},
           merchant: {merchantId: shortid.generate()}});
       const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
-        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
       const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
-        profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        profileImage3, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
@@ -467,28 +441,26 @@ describe('Producer DB API', () => {
     const phoneNumber2 = '2345678901';
     const profileImage2 = 'www.anothaimage.com';
     const enabled2 = false;
-    const menuLink2 = 'www.somemenulink.com';
 
     const name3 = 'mcdonalds';
     const password3 = 'bigmac';
     const description3 = 'some mcdonalds description';
     const profileImage3 = 'www.anothaoneimage.com';
     const enabled3 = true;
-    const menuLink3 = 'pizzahutmenu.com';
 
     it('should find multiple enabled producers', async () => {
       const location = await Location.createWithCoord(lat, long);
       const {_id: id1} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {phoneNumber2, enabled},
+        location, percentageFee, transactionFee, {producer: {phoneNumber2, enabled},
           merchant: {merchantId: shortid.generate()}});
       const {_id: id2} = await Producer._create(name2, shortid.generate(), password2, description2,
-        profileImage2, exampleOrder, location, percentageFee, transactionFee, menuLink2,
+        profileImage2, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled2}, merchant: {merchantId: shortid.generate()}});
       const {_id: id3} = await Producer._create(name3, shortid.generate(), password3, description3,
-        profileImage3, exampleOrder, location, percentageFee, transactionFee, menuLink3,
+        profileImage3, exampleOrder, location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
       await Producer._create('nice place', shortid.generate(), 'password', 'nice',
-      'profileimage.com', 'example', location, percentageFee, transactionFee, menuLink,
+      'profileimage.com', 'example', location, percentageFee, transactionFee,
         {producer: {phoneNumber, enabled: enabled3}, merchant: {merchantId: shortid.generate()}});
 
       assert.notDeepEqual(id1, id2);
@@ -512,7 +484,6 @@ describe('Producer DB API', () => {
       profileImage: 'www.updated.com',
       exampleOrder: 'This is an updated example order',
       enabled: true,
-      menuLink: 'www.menulink.com',
       hour: {
         day: 'Tuesday',
         openTime: '07:00',
@@ -523,7 +494,7 @@ describe('Producer DB API', () => {
     it('should update a producer correctly', async() => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink);
+        location, percentageFee, transactionFee);
       await Producer.updateByObjectId(_id, fields);
       const producer = await Producer.findOneByObjectId(_id);
       assert.equal(producer.name, fields.name);
@@ -538,13 +509,12 @@ describe('Producer DB API', () => {
       assert.equal(producer.profileImage, fields.profileImage);
       assert.equal(producer.exampleOrder, fields.exampleOrder);
       assert.equal(producer.enabled, fields.enabled);
-      assert.equal(producer.menuLink, fields.menuLink);
     });
 
     it('should not update a producer if phoneNumber is invalid', async() => {
       const location = await Location.createWithCoord(lat, long);
       const {_id} = await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink);
+        location, percentageFee, transactionFee);
       try {
         await Producer.updateByObjectId(_id, {phoneNumber: '123456789'});
       } catch (err) {
@@ -558,7 +528,7 @@ describe('Producer DB API', () => {
     it('should find a producer by fbId correctly', async () => {
       const location = await Location.createWithCoord(lat, long);
       await Producer._create(name, username, password, description, profileImage, exampleOrder,
-        location, percentageFee, transactionFee, menuLink, {producer: {fbId}});
+        location, percentageFee, transactionFee, {producer: {fbId}});
       const producer = await Producer.findOneByFbId(fbId);
       assert.equal(producer.name, name);
       assert.equal(producer.username, username);
@@ -569,7 +539,6 @@ describe('Producer DB API', () => {
       assert.equal(producer.location.coordinates.longitude, long);
       assert.equal(producer.merchant.percentageFee, percentageFee);
       assert.equal(producer.merchant.transactionFee, transactionFee);
-      assert.equal(producer.menuLink, menuLink);
       assert.equal(producer.fbId, fbId);
     });
 

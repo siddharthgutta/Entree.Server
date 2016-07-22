@@ -8,10 +8,11 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 TTC and Large Frites",
-  "menuLink": "http://i.imgur.com/mQkdVsL.png",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "orderLink": "http://austin.eat24hours.com/pommes-frites-etc/53347",
+      "menuImage": "http://i.imgur.com/mQkdVsL.png"
     }
   },
   "hours":

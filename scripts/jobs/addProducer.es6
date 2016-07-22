@@ -6,6 +6,7 @@ import * as Producer from '../../api/controllers/producer.es6';
 import Promise from 'bluebird';
 import fs from 'fs';
 import _ from 'lodash';
+import * as Utils from '../../libs/utils.es6';
 
 /**
  * Gets the JSON from the file
@@ -38,29 +39,18 @@ _.forEach(fileNames, file => {
  */
 async function insertInDB(JSONObject) {
   const {name, username, password, description, profileImage, exampleOrder, address,
-    percentageFee, transactionFee, menuLink, optional, hours} = JSONObject;
+    percentageFee, transactionFee, optional, hours} = JSONObject;
   try {
     const {_id} = await Producer.findOneByUsername(username);
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
-    if (optional.producer.fbId) {
-      try {
-        await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
-          transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
-          menuLink, fbId: optional.producer.fbId});
-      } catch (errWithFbId) {
-        console.log(`With FB ID ${errWithFbId}`);
-        throw errWithFbId;
-      }
-    } else {
-      try {
-        await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
-          transactionFee, profileImage, exampleOrder, address, enabled: optional.producer.enabled,
-          menuLink});
-      } catch (errWithoutFbId) {
-        console.log(`Without FB ID ${errWithoutFbId}`);
-        throw errWithoutFbId;
-      }
+    try {
+      await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
+        transactionFee, profileImage, exampleOrder, address});
+    } catch (errUpdating) {
+      console.log(`Error with updating ${errUpdating}`);
+      throw errUpdating;
     }
+
     try {
       await Producer.deleteAllHours(_id);
     } catch (deleteAllHours) {
@@ -73,12 +63,15 @@ async function insertInDB(JSONObject) {
       console.log(`Add Hours ${addHoursErr}`);
       throw addHoursErr;
     }
+    if (!Utils.isEmpty(optional.producer)) {
+      await Producer.updateByObjectId(_id, optional.producer);
+    }
   } catch (err) {
     console.log(err);
     console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
     try {
       await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
-        percentageFee, transactionFee, menuLink, optional);
+        percentageFee, transactionFee, optional);
       const producer = await Producer.findOneByUsername(username);
       await Producer.addHours(producer._id, hours);
       return true;

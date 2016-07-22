@@ -8,10 +8,11 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Chicken Tikka Masala with Samosas",
-  "menuLink": "http://austin.eat24hours.com/masala-dhaba/70070",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuLink": "http://www.allmenus.com/tx/austin/385268-masala-dhaba/menu/",
+      "orderLink": "http://austin.eat24hours.com/masala-dhaba/70070"
     }
   },
   "hours":
