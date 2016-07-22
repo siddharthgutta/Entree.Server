@@ -55,19 +55,19 @@ describe('Google API', () => {
       const results = await GooglePlacesAPI.searchByKeyword(keyword, lat, lng);
       assert.ok(results);
       assert(results.length > 0);
-      const firstPlace = results[0];
+      const firstPlace = results[1];
       placeCheck(firstPlace);
     });
 
     it('should produce search results with name search', async () => {
       const name = 'chipotle';
       const results = await GooglePlacesAPI.searchByName(name, lat, lng);
-      assert.ok(results);
+      assert.ok(results, 'Results should populate');
       assert(results.length > 0);
       const firstPlace = results[0];
       placeCheck(firstPlace);
       placeid = firstPlace.place_id;
-      assert.ok(placeid);
+      assert.ok(placeid, 'First result should have a place id');
       photoReference = firstPlace.photos[0].photo_reference;
     });
 
