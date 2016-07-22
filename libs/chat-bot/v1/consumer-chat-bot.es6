@@ -136,6 +136,10 @@ export default class ConsumerChatBot extends FbChatBot {
         return await this._handleOrderDecline(payload, consumer);
       case ConsumerActions.suggestionPrompt:
         return await this._handleProducerSuggestion(consumer);
+      case ConsumerActions.exampleProducers:
+        return await this._handleExampleProducers(consumer);
+      case ConsumerActions.exampleMoreInfo:
+        return await this._handleExampleMoreInfo(payload, consumer);
       default:
         throw Error('Invalid postback payload action');
     }
@@ -495,6 +499,61 @@ export default class ConsumerChatBot extends FbChatBot {
   }
 
   /**
+   * Handles getting example producers
+   * @param {Consumer} consumer: consumer object of the individual
+   * @returns {Object} MessageData object
+   * @private
+   */
+  async _handleExampleProducers(consumer) {
+    let response, button;
+    response = new GenericMessageData();
+    try {
+      const producers = await Producer.findRandomEnabled();
+      _.forEach(producers, producer => {
+        const title = `${producer.name}`;
+        const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+        response.pushElement(title, description, producer.profileImage);
+        // if has button go to else set the button to a link
+        response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.exampleMoreInfo,
+          {producerId: producer._id}));
+      });
+      button = new ButtonMessageData(`Here is an example of how you would see trucks near you. To suggest trucks for` +
+        ` us to add in your area, press 'Suggest A Truck'. Press 'Update My Location' to see live trucks nearby you.`);
+      button.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
+      button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
+    } catch (err) {
+      throw new Error('Failed to generate example producers');
+    }
+
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response, button]});
+  }
+
+  /**
+   * Executed when producer presses the MoreInfo button on a specific producer searched for examples
+   *
+   * @param {Object} payload: Producer tht was searched
+   * @param {Consumer} consumer: Consumer that requested more info
+   * @returns {Object}: Buttons and more text information on the producer
+   * @private
+   */
+  async _handleExampleMoreInfo(payload, consumer) {
+    const {producerId} = this.getData(payload);
+    const producer = await Producer.findOneByObjectId(producerId);
+    const hoursString = this._formatHours(producer.hours);
+    const openString = ` is currently ${(Producer.isOpen(producer.hours) ? 'open! :D' : 'closed. :(')}`;
+    // TODO Google Maps Insert Location Information Here
+    // TODO fix the format string rip
+    const button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
+      `\n${producer.name}${openString}\n\nHours:\n${hoursString}\n\nPress 'Update My Location' to see live trucks ` +
+      `nearby you.`);
+    button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
+    button.pushPostbackButton('Other Example Trucks', this.genPayload(ConsumerActions.exampleProducers));
+    button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
+
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [button]});
+  }
+
+  /**
    * Handles suggestions and sends the response to slack
    * @param {Consumer} consumer: consumer object of the individual
    * @param {String} text: the text the consumer inputs
@@ -532,9 +591,10 @@ export default class ConsumerChatBot extends FbChatBot {
           Constants.multiplier, Constants.searchLimit, Constants.limit);
       } catch (err) {
         response = new ButtonMessageData('Sorry you are too far away. We could not find any trucks near you. :(' +
-          '\n Please feel free to suggest a truck near you!');
+          '\nPlease feel free to suggest a truck near you!');
         response.pushPostbackButton('Update Location', this.genPayload(ConsumerActions.seeProducers));
         response.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
+        response.pushPostbackButton('See Example Trucks', this.genPayload(ConsumerActions.exampleProducers));
         return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
       }
 
