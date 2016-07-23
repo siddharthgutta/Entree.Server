@@ -66,4 +66,17 @@ export default class ButtonMessageData extends MessageDataStrategy {
       url
     });
   }
+
+  /**
+   * Adding an account linking button to the buttons array
+   *
+   * @param {String} url: REQUIRED url is opened in a mobile browser for linking an account
+   * @return {Null} unused return statement
+   */
+  pushAccountLinkButton(url) {
+    this._pushButton({
+      type: 'account_link',
+      url
+    });
+  }
 }
