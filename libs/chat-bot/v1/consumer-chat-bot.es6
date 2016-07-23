@@ -609,7 +609,7 @@ export default class ConsumerChatBot extends FbChatBot {
   }
 
   async _handleWhichPlatform(consumer) {
-    const response = new QuickReplyMessageData(`Which platform are you using?`);
+    const response = new QuickReplyMessageData(`Which platform are you using? Press one of the following buttons:`);
     response.pushQuickReply('Android', this.genPayload(ConsumerActions.android));
     response.pushQuickReply('iOS', this.genPayload(ConsumerActions.ios));
     response.pushQuickReply('Desktop', this.genPayload(ConsumerActions.desktop));
