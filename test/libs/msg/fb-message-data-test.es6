@@ -262,6 +262,18 @@ describe('FB Message Data', () => {
         assert.deepEqual(msgDataButtons[0].url, url1);
       });
 
+      it('should push an account unlinking button successfully to a single element', () => {
+        const msgData = new GenericMessageData();
+        msgData.pushElement(elementTitle1);
+        msgData.pushAccountLinkButton();
+        const msgDataElements = msgData.toJSON().attachment.payload.elements;
+        assert.equal(msgDataElements.length, 1);
+
+        const msgDataButtons = msgDataElements[0].buttons;
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_unlink');
+      });
+
       it('should push a multiple account link buttons successfully to a multiple elements', () => {
         const msgData = new GenericMessageData();
         msgData.pushElement(elementTitle1);
@@ -468,6 +480,14 @@ describe('FB Message Data', () => {
         assert.equal(msgDataButtons.length, 1);
         assert.deepEqual(msgDataButtons[0].type, 'account_link');
         assert.deepEqual(msgDataButtons[0].url, url1);
+      });
+
+      it('should add an account unlinking button correctly', () => {
+        const msgData = new ButtonMessageData(text);
+        msgData.pushAccountLinkButton();
+        const msgDataButtons = msgData.toJSON().attachment.payload.buttons;
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_unlink');
       });
 
       it('should add multiple account link buttons correctly', () => {
@@ -846,6 +866,14 @@ describe('FB Message Data', () => {
         assert.equal(msgDataButtons.length, 1);
         assert.deepEqual(msgDataButtons[0].type, 'account_link');
         assert.deepEqual(msgDataButtons[0].url, url1);
+      });
+
+      it('should add an account unlinking button correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushAccountLinkButton();
+        const msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_unlink');
       });
 
       it('should add multiple account link buttons correctly', () => {
