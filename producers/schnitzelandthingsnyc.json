@@ -1,0 +1,48 @@
+{
+  "name": "Schnitzel and Things",
+  "username": "schnitzelandthings",
+  "password": "nyc",
+  "description": "Tasty, Authentic Schnitzel",
+  "profileImage": "http://i.imgur.com/vsnW8XF.jpg",
+  "address": "Ave of the Americas & W 52nd St, New York, NY 10019",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Chicken Schnitzel",
+  "menuLink": "hhttp://www.schnitzelandthings.com/menu.html",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:30",
+    "closeTime": "14:15"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:30",
+      "closeTime": "14:15"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:30",
+      "closeTime": "14:15"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:30",
+      "closeTime": "14:15"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:30",
+      "closeTime": "14:15"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:30",
+      "closeTime": "14:15"
+    }]
+}

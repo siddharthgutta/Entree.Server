@@ -1,0 +1,43 @@
+{
+  "name": "Bruges Brothers",
+  "username": "brugesbros",
+  "password": "chicago",
+  "description": "Classic Belgian Street Treats",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55884011-8640-435c-94ac-42c146204482.jpg",
+  "address": "50 W Washington St, Chicago, IL 60602",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Braised Oxtail Poutine",
+  "menuLink": "http://www.brugesbrothers.com/menu",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "13:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "13:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "13:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "13:00"
+    }]
+}

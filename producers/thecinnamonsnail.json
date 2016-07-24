@@ -1,0 +1,48 @@
+{
+  "name": "The Cinnamon Snail",
+  "username": "veganfood",
+  "password": "nyc",
+  "description": "Delicious, Responsible Vegan Food",
+  "profileImage": "http://midtownlunch.com/downtown-nyc/files/2012/03/cinnamon-snail-truck.jpg",
+  "address": "Ave of the Americas & W 52nd St,New York, NY 10019",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Miso Teriyaki Grilled Tofu",
+  "menuLink": "http://cinnamonsnail.com/menu-and-locations/",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    }]
+}
