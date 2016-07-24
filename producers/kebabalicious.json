@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 King Chicken Kebab",
+  "menuLink": "http://i.imgur.com/EChyWhj.jpg",
   "optional": {
     "producer": {
-      "enabled": true,
-      "menuImage": "http://i.imgur.com/EChyWhj.jpg"
+      "enabled": true
     }
   },
   "hours":

@@ -1,14 +1,14 @@
 {
-  "name": "Pommes Frites",
-  "username": "pommes",
-  "password": "frites",
-  "description": "Belgian Fries, Toppings, and More",
-  "profileImage": "http://i.imgur.com/4K60G1T.jpg",
-  "address": "411 W 23rd St Austin, TX 78705",
+  "name": "Jerk",
+  "username": "jamaicanjerkchicken",
+  "password": "chicago",
+  "description": "Modern Jamaican Grill Food Truck",
+  "profileImage": "http://s3-media1.fl.yelpcdn.com/bphoto/QDyePSnnFBZAPhWUDFc3eg/o.jpg",
+  "address": "811 W Chicago Ave, Chicago, IL 60642",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 TTC and Large Frites",
-  "menuLink": "http://i.imgur.com/mQkdVsL.png",
+  "exampleOrder": "Jerk Chicken with Coconut Rice and Beans",
+  "menuLink": "http://www.jerkgrill.com/menu/",
   "optional": {
     "producer": {
       "enabled": true
@@ -37,12 +37,17 @@
     },
     {
       "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
+      "openTime": "12:00",
+      "closeTime": "24:00"
     },
     {
       "day": "Saturday",
-      "openTime": "11:00",
+      "openTime": "12:00",
+      "closeTime": "24:00"
+    }
+    {
+      "day": "Sunday",
+      "openTime": "12:00",
       "closeTime": "22:00"
     }]
 }
