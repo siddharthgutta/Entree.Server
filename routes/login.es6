@@ -11,7 +11,7 @@ route.get('/logout', (req, res) => {
   res.redirect('/login');
 });
 
-route.post('/login',
+route.post('/',
 	passport.authenticate('local', {successRedirect: '/login/success', failureRedirect: '/login'})
 );
 
