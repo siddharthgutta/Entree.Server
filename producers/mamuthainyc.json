@@ -1,14 +1,14 @@
 {
-  "name": "Pommes Frites",
-  "username": "pommes",
-  "password": "frites",
-  "description": "Belgian Fries, Toppings, and More",
-  "profileImage": "http://i.imgur.com/4K60G1T.jpg",
-  "address": "411 W 23rd St Austin, TX 78705",
+  "name": "Mamu Thai Noodle",
+  "username": "mamuthainoodles",
+  "password": "nyc",
+  "description": "Authentic Thai Noodles",
+  "profileImage": "http://i.imgur.com/K262vpb.jpg",
+  "address": "6 E 17th St, New York, NY 10003",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 TTC and Large Frites",
-  "menuLink": "http://i.imgur.com/mQkdVsL.png",
+  "exampleOrder": "Pad Thai Lunch Special",
+  "menuLink": "http://www.philssteaks.com/our-menu/",
   "optional": {
     "producer": {
       "enabled": true
@@ -18,31 +18,31 @@
   [{
     "day": "Monday",
     "openTime": "11:00",
-    "closeTime": "22:00"
+    "closeTime": "15:00"
   },
     {
       "day": "Tuesday",
       "openTime": "11:00",
-      "closeTime": "22:00"
+      "closeTime": "15:00"
     },
     {
       "day": "Wednesday",
       "openTime": "11:00",
-      "closeTime": "22:00"
+      "closeTime": "15:00"
     },
     {
       "day": "Thursday",
       "openTime": "11:00",
-      "closeTime": "22:00"
+      "closeTime": "15:00"
     },
     {
       "day": "Friday",
       "openTime": "11:00",
-      "closeTime": "22:00"
+      "closeTime": "15:00"
     },
     {
       "day": "Saturday",
       "openTime": "11:00",
-      "closeTime": "22:00"
+      "closeTime": "15:00"
     }]
 }

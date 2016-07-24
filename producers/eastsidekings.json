@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 chicken karaage with 1 order of beet fries",
+  "menuLink": "http://i.imgur.com/9rQp0nc.jpg",
   "optional": {
     "producer": {
-      "enabled": true,
-      "menuImage": "http://i.imgur.com/9rQp0nc.jpg"
+      "enabled": true
     }
   },
   "hours":
@@ -84,5 +84,6 @@
       "day": "Sunday",
       "openTime": "16:00",
       "closeTime": "24:00"
-    }]
+    }
+  ]
 }
