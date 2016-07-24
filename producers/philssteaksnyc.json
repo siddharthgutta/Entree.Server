@@ -1,0 +1,48 @@
+{
+  "name": "Phil's Steaks",
+  "username": "phillycheesesteak",
+  "password": "nyc",
+  "description": "NYC's first authentic Philly Cheese Steaks",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f21cc4d-d440-4800-be03-3f3346204482.jpg",
+  "address": "476 5th Ave,New York, NY 10018",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 American Steak",
+  "menuLink": "http://www.philssteaks.com/our-menu/",
+  "optional": {
+    "producer": {
+      "enabled": true
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    }]
+}
