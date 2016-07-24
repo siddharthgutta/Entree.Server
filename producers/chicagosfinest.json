@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Mac Daddy Dog",
-  "menuLink": "http://storage.googleapis.com/cftf_menus/chicagosfinest-04252016.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://storage.googleapis.com/cftf_menus/chicagosfinest-04252016.jpg",
     }
   },
   "hours":

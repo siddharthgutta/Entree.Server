@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "Bulogi Burrito",
-  "menuLink": "http://korillabbq.com/menus/restaurants-menu",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuLink": "http://korillabbq.com/menus/restaurants-menu",
     }
   },
   "hours":

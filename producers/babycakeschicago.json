@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Waffle Works",
-  "menuLink": "https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes",
     }
   },
   "hours":

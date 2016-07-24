@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 pad thai with shrimp",
-  "menuLink": "http://i.imgur.com/KewWGBC.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/KewWGBC.jpg",
     }
   },
   "hours":

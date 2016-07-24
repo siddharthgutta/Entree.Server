@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "A meatball sub and a turkey",
-  "menuLink": "http://thefatshallot.com/menu/",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuLink": "http://thefatshallot.com/menu/",
     }
   },
   "hours":

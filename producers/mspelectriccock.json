@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 3 piece tenderloin with SOCO slaw",
-  "menuLink": "http://i.imgur.com/shF05YJ.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/shF05YJ.jpg",
     }
   },
   "hours":

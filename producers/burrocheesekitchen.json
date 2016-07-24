@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Little Kahuna with Barbecue Chips",
-  "menuLink": "http://i.imgur.com/yahLzLG.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/yahLzLG.jpg",
     }
   },
   "hours":

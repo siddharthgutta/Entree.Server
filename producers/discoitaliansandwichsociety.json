@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Lefty Louie",
-  "menuLink": "http://www.disosnyc.com/menu-page",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuLink": "http://www.disosnyc.com/menu-page",
     }
   },
   "hours":

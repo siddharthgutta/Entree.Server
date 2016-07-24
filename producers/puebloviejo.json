@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Mi Madre",
-  "menuLink": "http://i.imgur.com/QM2Ww1F.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/QM2Ww1F.jpg",
     }
   },
   "hours":

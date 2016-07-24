@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "The Perogi Combo",
-  "menuLink": "http://i.imgur.com/v4bw0nk.png",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/v4bw0nk.png",
     }
   },
   "hours":

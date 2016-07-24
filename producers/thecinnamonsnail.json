@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "Miso Teriyaki Grilled Tofu",
-  "menuLink": "http://cinnamonsnail.com/menu-and-locations/",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuLink": "http://cinnamonsnail.com/menu-and-locations/",
     }
   },
   "hours":

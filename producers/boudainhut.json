@@ -8,10 +8,10 @@
   "percentageFee": 3.5,
   "transactionFee": 30,
   "exampleOrder": "1 Hot Link Po-Boy with Corn Fritters",
-  "menuLink": "http://i.imgur.com/XW9ffes.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/XW9ffes.jpg",
     }
   },
   "hours":

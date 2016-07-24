@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 Rice Bowl with chicken and a side of Hummus + Pita",
-  "menuLink": "http://i.imgur.com/0NnLDyc.png",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://i.imgur.com/0NnLDyc.png",
     }
   },
   "hours":

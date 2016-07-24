@@ -8,10 +8,10 @@
   "percentageFee": 6,
   "transactionFee": 30,
   "exampleOrder": "1 American with Honey Dijon",
-  "menuLink": "http://www.gorillacheesenyc.com/menu/files/gorilla-menu.jpg",
   "optional": {
     "producer": {
-      "enabled": true
+      "enabled": true,
+      "menuImage": "http://www.gorillacheesenyc.com/menu/files/gorilla-menu.jpg",
     }
   },
   "hours":
