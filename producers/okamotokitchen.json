@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuLink": "http://okamotokitchen.com/menu/",
-      "phoneNumber":"8183739767"
+      "phoneNumber": "8183739767"
     }
   },
   "hours":
@@ -44,11 +44,21 @@
   {
     "day": "Saturday",
     "openTime": "16:00",
-    "closeTime": "1:00"
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "00:00",
+    "closeTime": "01:00"
   },
   {
     "day": "Sunday",
     "openTime": "16:00",
-    "closeTime": "1:00"
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Monday",
+    "openTime": "00:00",
+    "closeTime": "01:00"
   }]
 }
