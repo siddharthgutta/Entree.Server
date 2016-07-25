@@ -1,0 +1,53 @@
+{
+  "name": "Rice Balls of Fire",
+  "username": "riceballsofire",
+  "password": "losangeles",
+  "description": "Korean Fusion Food Truck",
+  "profileImage": "https://riceballsoffire.files.wordpress.com/2014/03/20131124_112352-e1396062543687.jpg",
+  "address": "710 S Spring St, Los Angeles, CA 90014",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 BBQ Eel",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "https://riceballsoffire.com/menu/",
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "18:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "18:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "18:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "18:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "18:00",
+      "closeTime": "22:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "18:00",
+      "closeTime": "22:00"
+    }]
+}

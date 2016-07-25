@@ -1,0 +1,54 @@
+{
+  "name": "Okamoto Kitchen",
+  "username": "okamotokitchen",
+  "password": "losangeles",
+  "description": "Delicious Japanese Dishes",
+  "profileImage": "http://www.trbimg.com/img-568dac3e/turbine/la-dd-okamoto-kitchen-20160106",
+  "address": "3831 North Orchid Ln,Calabasas, CA 91302",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Miso Salmon Plate",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://okamotokitchen.com/menu/",
+      "phoneNumber":"8183739767",
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:30",
+    "closeTime": "21:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:30",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:30",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:30",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:30",
+      "closeTime": "21:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "16:00",
+      "closeTime": "1:00"
+    },
+    {
+      "day": "Sunday",
+      "openTime": "16:00",
+      "closeTime": "1:00"
+    }]
+}
