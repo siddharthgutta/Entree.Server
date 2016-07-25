@@ -1,5 +1,5 @@
 import * as User from '../db/user.es6';
-import * as bcrypt from '../../libs/login/bcrypt.es6';
+import * as bcrypt from '../../libs/auth/bcrypt.es6';
 
 /**
  * Creates a user with the given attributes

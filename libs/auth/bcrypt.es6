@@ -25,7 +25,7 @@ export async function hash(password, salt) {
   return new Promise((resolve, reject) => {
     bcrypt.hash(password, salt, (err, hashedPassword) => {
       if (err) reject(err);
-			else resolve(hashedPassword);
+      else resolve(hashedPassword);
     });
   });
 }

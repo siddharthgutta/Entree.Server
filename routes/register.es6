@@ -9,8 +9,7 @@ route.post('/register', async (req, res) => {
   const password = req.body.password;
   const email = req.body.email;
 
-  const user = await User.create(username, password, {email});
-  console.log(user);
+  await User.create(username, password, {email});
   res.redirect('/login');
 });
 

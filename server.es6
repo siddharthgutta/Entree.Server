@@ -22,7 +22,6 @@ import BraintreeRouter from './routes/braintree.es6';
 import LoginRouter from './routes/login.es6';
 import RegisterRouter from './routes/register.es6';
 
-
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import {match, RoutingContext} from 'react-router';
@@ -70,7 +69,8 @@ app.use(cookieParser());
 app.use(session({
   secret: 'secret',
   resave: false,
-  saveUninitialized: true
+  saveUninitialized: true,
+  secure: isHTTPS
 }));
 app.use(passport.initialize());
 app.use(passport.session());
