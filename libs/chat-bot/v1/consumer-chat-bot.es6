@@ -7,7 +7,8 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction,
+  VideoAttachmentMessageData} from '../../msg/facebook/message-data.es6';
 import {ConsumerActions} from './actions.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -94,7 +95,7 @@ export default class ConsumerChatBot extends FbChatBot {
       case ConsumerActions.android:
         return this._handleAndroid(consumer);
       case ConsumerActions.ios:
-        return this._handleios(consumer);
+        return this._handleiOS(consumer);
       case ConsumerActions.desktop:
         return this._handleDesktop(consumer);
       case ConsumerActions.existingLocation:
@@ -663,6 +664,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
+  /**
+   * Handles the which platform buttons to show the user when getting location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for choosing the platform
+   * @private
+   */
   async _handleWhichPlatform(consumer) {
     const response = new QuickReplyMessageData(`Which platform are you using? Press one of the following buttons:`);
     response.pushQuickReply('Android', this.genPayload(ConsumerActions.android));
@@ -672,6 +680,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
+  /**
+   * Handles the android instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for android platform
+   * @private
+   */
   async _handleAndroid(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'click the \'…\' button, press \'Location\', and then press the send button');
@@ -681,15 +696,32 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
 
-  async _handleios(consumer) {
-    const text = new TextMessageData('We need your location to find food trucks near you. ' +
-      'Tap the location button to send us your location!');
+  /**
+   * Handles the iOS instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for iOS platform
+   * @private
+   */
+  async _handleiOS(consumer) {
+    const text = new TextMessageData(`We need your location to find food trucks near you. ` +
+      `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
+      ` refer to the video we are about to send you!`);
+    const video = new VideoAttachmentMessageData(`https://video.xx.fbcdn.net/v/t42.3356-2/13863546_1048964375191033_` +
+      `1506523789_n.mp4/video-1469478569.mp4?vabr=604435&oh=fceee7b5883cfd419f5262c1b949e003&oe=5798354B&dl=1`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, video]});
   }
 
+  /**
+   * Handles the desktop instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for desktop platform
+   * @private
+   */
   async _handleDesktop(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'Type in your address (Ex. 201 E 21st St, Austin, TX). Please be sure to include your city or ' +
