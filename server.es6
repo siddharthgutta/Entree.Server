@@ -9,13 +9,18 @@ import bodyParser from 'body-parser';
 import https from 'https';
 import http from 'http';
 import config from 'config';
+import morgan from 'morgan';
 import compression from 'compression';
+import passport from 'passport';
+import session from 'express-session';
 import * as fs from 'fs';
 import {ConsumerRouter, ProducerRouter} from './routes/fb-messenger.es6';
 import BasicRouter from './routes/basic.es6';
 import * as Runtime from './libs/runtime.es6';
 import forceSSL from 'express-force-ssl';
 import BraintreeRouter from './routes/braintree.es6';
+import LoginRouter from './routes/login.es6';
+import RegisterRouter from './routes/register.es6';
 
 import React from 'react';
 import ReactDOM from 'react-dom/server';
@@ -25,6 +30,7 @@ import reactRoutes from './app/routes';
 
 let server;
 const app = express();
+
 const isHTTPS = config.get('Server.protocol') === 'https';
 
 if (isHTTPS) {
@@ -55,10 +61,20 @@ app.set('view engine', 'jade');                   // sets the view engine to jad
 // compress gzip
 app.use(compression());
 
+app.use(morgan('combined'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); // points app to public directory for static files
+app.use(cookieParser());
+app.use(session({
+  secret: 'secret',
+  resave: false,
+  httpOnly: true,
+  saveUninitialized: true,
+  secure: isHTTPS
+}));
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('*', (req, res, next) => {
   const location = createLocation(req.url);
@@ -83,5 +99,9 @@ app.use('/', BasicRouter);
 app.use('/braintree', BraintreeRouter);
 app.use('/consumer-messenger', ConsumerRouter);
 app.use('/producer-messenger', ProducerRouter);
+app.use('/login', LoginRouter);
+if (!Runtime.isProduction()) {
+  app.use('/register', RegisterRouter);
+}
 
 export default server;
