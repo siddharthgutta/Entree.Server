@@ -1,0 +1,49 @@
+{
+  "name": "Uncle Gussy's",
+  "username": "greekfood",
+  "password": "nyc",
+  "description": "Fresh and Authentic Greek Food",
+  "profileImage": "https://unclegussys.com/wp-content/uploads/2012/07/uncle-gussys-1-14.jpg",
+  "address": "Park Ave & E 51st St., New York, NY 10022",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Chicken Platter",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "https://unclegussys.com/menu/",
+      "phoneNumber": "9296001111"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "10:00",
+    "closeTime": "16:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "10:00",
+    "closeTime": "16:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "10:00",
+    "closeTime": "16:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "10:00",
+    "closeTime": "16:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "10:00",
+    "closeTime": "16:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "10:00",
+    "closeTime": "16:00"
+  }]
+}

@@ -1,18 +1,18 @@
 {
-  "name": "Pommes Frites",
-  "username": "pommes",
-  "password": "frites",
-  "description": "Belgian Fries, Toppings, and More",
-  "profileImage": "http://i.imgur.com/4K60G1T.jpg",
-  "address": "411 W 23rd St Austin, TX 78705",
+  "name": "Korilla BBQ",
+  "username": "koreanbbq",
+  "password": "nyc",
+  "description": "Korean-Mexican Fusion",
+  "profileImage": "http://www.greedysnob.com/wp-content/uploads/2011/06/korilla-bbq-truck.jpg",
+  "address": "23 3rd Ave, New York, NY 10003",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 TTC and Large Frites",
+  "exampleOrder": "Bulogi Burrito",
   "optional": {
     "producer": {
       "enabled": true,
-      "menuImage": "http://i.imgur.com/mQkdVsL.png",
-      "phoneNumber": "5125457877"
+      "menuLink": "http://korillabbq.com/menus/restaurants-menu",
+      "orderLink": "http://eat24hrs.com/restaurants/order2/menu.php?id=52523"
     }
   },
   "hours":
@@ -43,7 +43,12 @@
   },
   {
     "day": "Saturday",
-    "openTime": "11:00",
+    "openTime": "12:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "12:00",
     "closeTime": "22:00"
   }]
 }

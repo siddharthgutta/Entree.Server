@@ -11,7 +11,8 @@
   "optional": {
     "producer": {
       "enabled": true,
-      "menuImage": "http://i.imgur.com/KewWGBC.jpg"
+      "menuImage": "http://i.imgur.com/KewWGBC.jpg",
+      "orderLink": "http://www.bitesquad.com/food/delicious-thai/2918"
     }
   },
   "hours":
@@ -20,34 +21,34 @@
     "openTime": "11:30",
     "closeTime": "20:30"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:30",
-      "closeTime": "20:30"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:30",
-      "closeTime": "20:30"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:30",
-      "closeTime": "20:30"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:30",
-      "closeTime": "20:30"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "11:30",
-      "closeTime": "20:30"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "11:30",
-      "closeTime": "20:30"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:30",
+    "closeTime": "20:30"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:30",
+    "closeTime": "20:30"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:30",
+    "closeTime": "20:30"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:30",
+    "closeTime": "20:30"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:30",
+    "closeTime": "20:30"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "11:30",
+    "closeTime": "20:30"
+  }]
 }

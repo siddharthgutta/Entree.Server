@@ -15,9 +15,18 @@ import * as Utils from '../../libs/utils.es6';
  */
 function getJSONFromFile(file) {
   return new Promise((resolve, reject) => {
-    fs.readFile(`./producers/${file}`, 'utf8', (err, data) => {
-      if (err) reject(err);
-      else resolve(JSON.parse(data));
+    fs.readFile(`./producers/${file}`, 'utf8', (readFileErr, data) => {
+      if (readFileErr) {
+        console.log(`Error reading [${file}] | ${readFileErr}`);
+        reject(readFileErr);
+      } else {
+        try {
+          resolve(JSON.parse(data));
+        } catch (parsingErr) {
+          console.log(`Error parsing [${file}] | ${parsingErr}`);
+          reject(parsingErr);
+        }
+      }
     });
   });
 }
@@ -77,7 +86,7 @@ async function insertInDB(JSONObject) {
       return true;
     } catch (producerCreateError) {
       console.log(producerCreateError);
-      console.log(`Could not create producer for some reason...`);
+      console.log(`Could not create producer ${username} for some reason...`);
       return null;
     }
   }

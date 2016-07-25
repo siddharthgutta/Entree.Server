@@ -1,0 +1,49 @@
+{
+  "name": "Disco's Italian Sandwich Society",
+  "username": "discoitaliansandwichsociety",
+  "password": "nyc",
+  "description": "Gourmet Italian Sandwiches",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543463db-1e3c-41a4-9236-035246204482.jpg",
+  "address": "137 W 48th St,New York, NY 10036",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Lefty Louie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.disosnyc.com/menu-page",
+      "orderLink": "9177564145"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  }]
+}
