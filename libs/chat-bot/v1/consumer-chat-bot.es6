@@ -664,6 +664,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
+  /**
+   * Handles the which platform buttons to show the user when getting location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for choosing the platform
+   * @private
+   */
   async _handleWhichPlatform(consumer) {
     const response = new QuickReplyMessageData(`Which platform are you using? Press one of the following buttons:`);
     response.pushQuickReply('Android', this.genPayload(ConsumerActions.android));
@@ -673,6 +680,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
+  /**
+   * Handles the android instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for android platform
+   * @private
+   */
   async _handleAndroid(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'click the \'…\' button, press \'Location\', and then press the send button');
@@ -682,6 +696,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
 
+  /**
+   * Handles the iOS instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for iOS platform
+   * @private
+   */
   async _handleiOS(consumer) {
     const text = new TextMessageData(`We need your location to find food trucks near you. ` +
       `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
@@ -694,6 +715,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, video]});
   }
 
+  /**
+   * Handles the desktop instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for desktop platform
+   * @private
+   */
   async _handleDesktop(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'Type in your address (Ex. 201 E 21st St, Austin, TX). Please be sure to include your city or ' +
