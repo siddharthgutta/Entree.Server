@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuLink": "http://www.schnitzelandthings.com/menu.html",
-      "phoneNumber":"3477727341",
+      "phoneNumber":"3477727341"
     }
   },
   "hours":
@@ -21,29 +21,29 @@
     "openTime": "11:30",
     "closeTime": "14:15"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:30",
-      "closeTime": "14:15"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:30",
-      "closeTime": "14:15"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:30",
-      "closeTime": "14:15"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:30",
-      "closeTime": "14:15"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "11:30",
-      "closeTime": "14:15"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:30",
+    "closeTime": "14:15"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:30",
+    "closeTime": "14:15"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:30",
+    "closeTime": "14:15"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:30",
+    "closeTime": "14:15"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:30",
+    "closeTime": "14:15"
+  }]
 }

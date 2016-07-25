@@ -11,7 +11,7 @@
   "optional": {
     "producer": {
       "enabled": true,
-      "menuLink": "https://riceballsoffire.com/menu/",
+      "menuLink": "https://riceballsoffire.com/menu/"
     }
   },
   "hours":
@@ -20,34 +20,34 @@
     "openTime": "18:00",
     "closeTime": "22:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  }]
 }

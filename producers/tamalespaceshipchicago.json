@@ -11,7 +11,7 @@
   "optional": {
     "producer": {
       "enabled": true,
-      "menuLink": "http://thetamalespaceship.com/menu",
+      "menuLink": "http://thetamalespaceship.com/menu"
     }
   },
   "hours":
@@ -20,24 +20,24 @@
     "openTime": "11:00",
     "closeTime": "13:30"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  }]
 }

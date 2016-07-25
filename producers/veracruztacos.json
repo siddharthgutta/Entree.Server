@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuImage": "http://i.imgur.com/vyJMQka.jpg",
-      "phoneNumber":"5129811760",
+      "phoneNumber":"5129811760"
     }
   },
   "hours":
@@ -21,34 +21,34 @@
     "openTime": "07:00",
     "closeTime": "15:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "07:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "07:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "07:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "07:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "07:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "07:00",
-      "closeTime": "15:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "07:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "07:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "07:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "07:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "07:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "07:00",
+    "closeTime": "15:00"
+  }]
 }

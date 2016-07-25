@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuLink": "http://chicagolunchbox.com/",
-      "phoneNumber":"7736960144",
+      "phoneNumber":"7736960144"
     }
   },
   "hours":
@@ -21,34 +21,34 @@
     "openTime": "11:00",
     "closeTime": "13:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "12:00",
-      "closeTime": "13:00"
-    }
-    {
-      "day": "Sunday",
-      "openTime": "12:00",
-      "closeTime": "13:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "12:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "12:00",
+    "closeTime": "13:00"
+  }]
 }

@@ -11,7 +11,7 @@
   "optional": {
     "producer": {
       "enabled": true,
-      "menuImage": "http://s3-media2.fl.yelpcdn.com/bphoto/nWbIUAea9DxdXmUF-yxcKQ/o.jpg",
+      "menuImage": "http://s3-media2.fl.yelpcdn.com/bphoto/nWbIUAea9DxdXmUF-yxcKQ/o.jpg"
     }
   },
   "hours":
@@ -20,29 +20,29 @@
     "openTime": "8:00",
     "closeTime": "17:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "8:00",
-      "closeTime": "17:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "8:00",
-      "closeTime": "17:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "8:00",
-      "closeTime": "17:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "8:00",
-      "closeTime": "17:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "8:00",
-      "closeTime": "17:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "8:00",
+    "closeTime": "17:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "8:00",
+    "closeTime": "17:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "8:00",
+    "closeTime": "17:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "8:00",
+    "closeTime": "17:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "8:00",
+    "closeTime": "17:00"
+  }]
 }

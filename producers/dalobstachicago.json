@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuLink": "http://www.dalobsta.com/menu",
-      "phoneNumber":"3129550894",
+      "phoneNumber":"3129550894"
     }
   },
   "hours":
@@ -21,24 +21,24 @@
     "openTime": "11:00",
     "closeTime": "13:30"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  }]
 }

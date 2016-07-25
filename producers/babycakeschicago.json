@@ -13,7 +13,7 @@
       "enabled": true,
       "orderLink": "https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes",
       "phoneNumber":"8724446308",
-      "menuLink":"https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes",
+      "menuLink":"https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes"
     }
   },
   "hours":
@@ -22,24 +22,24 @@
     "openTime": "11:00",
     "closeTime": "13:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "13:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  }]
 }

@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuImage": "http://i.imgur.com/XW9ffes.jpg",
-      "phoneNumber":"5129204423",
+      "phoneNumber":"5129204423"
     }
   },
   "hours":
@@ -20,50 +20,50 @@
       "day": "Monday",
       "openTime": "17:00",
       "closeTime": "23:00"
-    },
-    {
-      "day": "Tuesday",
-      "openTime": "17:00",
-      "closeTime": "23:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "17:00",
-      "closeTime": "23:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "12:00",
-      "closeTime": "24:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "00:00",
-      "closeTime": "03:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "12:00",
-      "closeTime": "24:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "00:00",
-      "closeTime": "03:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "12:00",
-      "closeTime": "24:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "00:00",
-      "closeTime": "03:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "15:00",
-      "closeTime": "22:00"
-    }]
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "17:00",
+    "closeTime": "23:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "17:00",
+    "closeTime": "23:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "12:00",
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "00:00",
+    "closeTime": "03:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "12:00",
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "00:00",
+    "closeTime": "03:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "12:00",
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "00:00",
+    "closeTime": "03:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "15:00",
+    "closeTime": "22:00"
+  }]
 }

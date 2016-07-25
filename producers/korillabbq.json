@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuLink": "http://korillabbq.com/menus/restaurants-menu",
-      "orderLink":"http://eat24hrs.com/restaurants/order2/menu.php?id=52523",
+      "orderLink":"http://eat24hrs.com/restaurants/order2/menu.php?id=52523"
     }
   },
   "hours":
@@ -21,34 +21,34 @@
     "openTime": "11:00",
     "closeTime": "22:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "12:00",
-      "closeTime": "22:00"
-    }
-    {
-      "day": "Sunday",
-      "openTime": "12:00",
-      "closeTime": "22:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "12:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "12:00",
+    "closeTime": "22:00"
+  }]
 }

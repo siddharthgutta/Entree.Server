@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "menuImage": "http://i.imgur.com/fObewi8.png",
-      "phoneNumber":"5124438226",
+      "phoneNumber":"5124438226"
     }
   },
   "hours":
@@ -21,64 +21,64 @@
     "openTime": "10:00",
     "closeTime": "15:00"
   },
-    {
-      "day": "Monday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Tuesday",
-      "openTime": "10:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Tuesday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "10:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "10:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "10:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "10:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "18:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "09:00",
-      "closeTime": "21:00"
-    }]
+  {
+    "day": "Monday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "10:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "10:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "10:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "10:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "10:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "18:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "09:00",
+    "closeTime": "21:00"
+  }]
 }

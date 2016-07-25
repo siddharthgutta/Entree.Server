@@ -12,7 +12,7 @@
     "producer": {
     "enabled": true,
     "menuLink": "http://bisonburgertruck.com/Menu",
-    "phoneNumber":"8182615469",
+    "phoneNumber":"8182615469"
     }
   },
   "hours":
@@ -21,34 +21,34 @@
     "openTime": "11:00",
     "closeTime": "13:30"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "11:30",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "11:00",
-      "closeTime": "13:30"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "11:30",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  }]
 }

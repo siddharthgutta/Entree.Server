@@ -12,7 +12,7 @@
     "producer": {
       "enabled": true,
       "phoneNumber":"3239326253",
-      "orderLink": "http://los-angeles.eat24hours.com/skys-gourmet-tacos/5661?W=1",
+      "orderLink": "http://los-angeles.eat24hours.com/skys-gourmet-tacos/5661?W=1"
     }
   },
   "hours":
@@ -21,34 +21,34 @@
     "openTime": "09:00",
     "closeTime": "21:00"
   },
-    {
-      "day": "Tuesday",
-      "openTime": "09:00",
-      "closeTime": "21:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "09:00",
-      "closeTime": "21:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "09:00",
-      "closeTime": "21:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "09:00",
-      "closeTime": "21:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "09:00",
-      "closeTime": "21:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "09:00",
-      "closeTime": "19:00"
-    }]
+  {
+    "day": "Tuesday",
+    "openTime": "09:00",
+    "closeTime": "21:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "09:00",
+    "closeTime": "21:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "09:00",
+    "closeTime": "21:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "09:00",
+    "closeTime": "21:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "09:00",
+    "closeTime": "21:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "09:00",
+    "closeTime": "19:00"
+  }]
 }
