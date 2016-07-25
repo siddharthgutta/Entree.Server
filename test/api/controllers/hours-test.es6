@@ -4,6 +4,7 @@ import assert from 'assert';
 import * as Producer from '../../../api/controllers/producer.es6';
 import moment from 'moment';
 import * as Location from '../../../api/controllers/location.es6';
+import _ from'lodash';
 
 describe('Hours DB API', () => {
   const name = 'Pizza Hut';
@@ -238,8 +239,8 @@ describe('Hours DB API', () => {
       await Producer.addHours(id2, [hour3, hour4]);
       await Producer.addHours(id3, [hour5]);
       const openProds = await Producer.findOpenHelper(moment('12:00', 'HH:mm'), 'Wednesday');
-      assert.deepEqual(openProds[0]._id, id1);
-      assert.deepEqual(openProds[1]._id, id2);
+      assert.equal(openProds.length, 2);
+      assert.equal(_.intersectionBy([id1, id2], [openProds[0]._id, openProds[1]._id], String).length, 2);
     });
   });
 
