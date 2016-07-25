@@ -11,7 +11,9 @@
   "optional": {
     "producer": {
       "enabled": true,
-      "menuImage": "http://i.imgur.com/LBnWLxP.png?1"
+      "menuImage": "http://i.imgur.com/LBnWLxP.png?1",
+      "phoneNumber": "5127334014",
+      "orderLink": "https://ordering.chownow.com/order/4325/locations"
     }
   },
   "hours":
@@ -20,49 +22,49 @@
     "openTime": "11:00",
     "closeTime": "15:00"
   },
-    {
-      "day": "Monday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Tuesday",
-      "openTime": "11:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Tuesday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "11:00",
-      "closeTime": "15:00"
-    },
-    {
-      "day": "Wednesday",
-      "openTime": "17:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Thursday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Friday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Saturday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    },
-    {
-      "day": "Sunday",
-      "openTime": "11:00",
-      "closeTime": "22:00"
-    }]
+  {
+    "day": "Monday",
+    "openTime": "17:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "17:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "17:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  }]
 }

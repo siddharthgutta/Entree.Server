@@ -1,0 +1,44 @@
+{
+  "name": "Da Lobsta Food Truck",
+  "username": "lobsters",
+  "password": "chitown",
+  "description": "Authentic Mexican Cuisine",
+  "profileImage": "http://www.dalobsta.com/images/uploads_users/features/_resized/10428562_859996950677370_4658097955505529747_n.jpg",
+  "address": "416 N Clark St, Chicago, IL 60654",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Shrimp Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.dalobsta.com/menu",
+      "phoneNumber": "3129550894"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  }]
+}

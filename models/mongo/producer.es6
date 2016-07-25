@@ -33,13 +33,9 @@ const producerSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  username: {
-    type: String,
-    required: true,
-    unique: true
-  },
-  password: {
-    type: String,
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
     required: true
   },
   description: {

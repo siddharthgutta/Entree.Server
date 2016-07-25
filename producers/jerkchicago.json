@@ -1,0 +1,53 @@
+{
+  "name": "Jerk",
+  "username": "jamaicanjerkchicken",
+  "password": "chicago",
+  "description": "Modern Jamaican Grill Food Truck",
+  "profileImage": "http://s3-media1.fl.yelpcdn.com/bphoto/QDyePSnnFBZAPhWUDFc3eg/o.jpg",
+  "address": "811 W Chicago Ave, Chicago, IL 60642",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Jerk Chicken with Coconut Rice and Beans",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.jerkgrill.com/menu/"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "12:00",
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "12:00",
+    "closeTime": "24:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "12:00",
+    "closeTime": "22:00"
+  }]
+}

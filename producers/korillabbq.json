@@ -1,0 +1,54 @@
+{
+  "name": "Korilla BBQ",
+  "username": "koreanbbq",
+  "password": "nyc",
+  "description": "Korean-Mexican Fusion",
+  "profileImage": "http://www.greedysnob.com/wp-content/uploads/2011/06/korilla-bbq-truck.jpg",
+  "address": "23 3rd Ave, New York, NY 10003",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Bulogi Burrito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://korillabbq.com/menus/restaurants-menu",
+      "orderLink": "http://eat24hrs.com/restaurants/order2/menu.php?id=52523"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "12:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "12:00",
+    "closeTime": "22:00"
+  }]
+}

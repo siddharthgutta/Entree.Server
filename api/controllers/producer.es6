@@ -6,6 +6,7 @@ import * as Producer from '../db/producer.es6';
 import * as Merchant from '../controllers/merchant.es6';
 import _ from 'lodash';
 import * as Location from '../controllers/location.es6';
+import * as User from '../controllers/user.es6';
 import moment from 'moment';
 import * as Context from '../controllers/context.es6';
 
@@ -27,7 +28,7 @@ export async function findOneByFbId(fbId) {
  * @returns {Promise<Producer>}: the producer with the specific id
  */
 export async function findOneByObjectId(_id) {
-  return await Producer.findOne({_id}, ['merchant', 'location']);
+  return await Producer.findOne({_id}, ['merchant', 'location', 'user']);
 }
 
 /**
@@ -37,7 +38,8 @@ export async function findOneByObjectId(_id) {
  * @returns {Promise<Producer>}: the producer with the specific username
  */
 export async function findOneByUsername(username) {
-  return await Producer.findOne({username}, ['merchant', 'location']);
+  const {_id} = await User.findByUsername(username);
+  return await Producer.findOne({user: _id}, ['merchant', 'location', 'user']);
 }
 
 /**
@@ -85,7 +87,8 @@ export async function findAll(conditions = {}) {
  */
 
 export async function findFbEnabled(conditions = {}) {
-  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'}, ['merchant', 'location']);
+  return await _find(_.merge(conditions, {enabled: true}), 10, {createdAt: 'descending'},
+    ['merchant', 'location', 'user']);
 }
 
 /**
@@ -129,10 +132,10 @@ export async function _create(name, username, password, description, profileImag
                               location, percentageFee, transactionFee, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   const context = await Context.create({...(optional.context)});
-  return await Producer.create({name, username, password, description, profileImage, exampleOrder,
+  const {_id: user} = await User.create(username, password);
+  return await Producer.create({name, user, description, profileImage, exampleOrder,
     location: location._id, merchant: merchant._id, context, ...optional.producer});
 }
-
 
 /**
  * Creates a producer as a merchant

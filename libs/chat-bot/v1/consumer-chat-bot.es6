@@ -7,7 +7,8 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction,
+  VideoAttachmentMessageData} from '../../msg/facebook/message-data.es6';
 import {ConsumerActions} from './actions.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -18,6 +19,7 @@ import FbChatBot from './fb-chat-bot.es6';
 import moment from 'moment';
 import * as Google from '../../../api/controllers/google.es6';
 import * as Utils from '../../utils.es6';
+import * as PhoneNumber from '../../phone-number.es6';
 import * as Hour from '../../hour.es6';
 import Constants from './constants.es6';
 const slackSuggestionChannelId = config.get('Slack.suggestions.channelId');
@@ -94,7 +96,7 @@ export default class ConsumerChatBot extends FbChatBot {
       case ConsumerActions.android:
         return this._handleAndroid(consumer);
       case ConsumerActions.ios:
-        return this._handleios(consumer);
+        return this._handleiOS(consumer);
       case ConsumerActions.desktop:
         return this._handleDesktop(consumer);
       case ConsumerActions.existingLocation:
@@ -136,6 +138,10 @@ export default class ConsumerChatBot extends FbChatBot {
         return await this._handleOrderDecline(payload, consumer);
       case ConsumerActions.suggestionPrompt:
         return await this._handleProducerSuggestion(consumer);
+      case ConsumerActions.exampleProducers:
+        return await this._handleExampleProducers(consumer);
+      case ConsumerActions.exampleMoreInfo:
+        return await this._handleExampleMoreInfo(payload, consumer);
       default:
         throw Error('Invalid postback payload action');
     }
@@ -463,7 +469,8 @@ export default class ConsumerChatBot extends FbChatBot {
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else if (!Utils.isEmpty(producer.phoneNumber)) {
       console.log(producer.name);
-      response = new ButtonMessageData(`Just call ${producer.phoneNumber} and place your order for ${producer.name}`);
+      response = new ButtonMessageData(`Just call ${PhoneNumber.format(producer.phoneNumber)} to place your order ` +
+        `for ${producer.name}`);
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else {
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
@@ -492,6 +499,55 @@ export default class ConsumerChatBot extends FbChatBot {
       throw new Error('Failed to create handle suggestion button');
     }
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
+  }
+
+  /**
+   * Handles getting example producers
+   * @param {Consumer} consumer: consumer object of the individual
+   * @returns {Object} MessageData object
+   * @private
+   */
+  async _handleExampleProducers(consumer) {
+    let response, button;
+    response = new GenericMessageData();
+    const producers = await Producer.findRandomEnabled();
+    _.forEach(producers, producer => {
+      const title = `${producer.name}`;
+      const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+      response.pushElement(title, description, producer.profileImage);
+      response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.exampleMoreInfo,
+        {producerId: producer._id}));
+    });
+    button = new ButtonMessageData(`Here is an example of how you would see trucks near you. To suggest trucks for` +
+      ` us to add in your area, press 'Suggest A Truck'. Press 'Update My Location' to see live trucks nearby you.`);
+    button.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
+    button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
+
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response, button]});
+  }
+
+  /**
+   * Executed when producer presses the MoreInfo button on a specific producer searched for examples
+   *
+   * @param {Object} payload: Producer tht was searched
+   * @param {Consumer} consumer: Consumer that requested more info
+   * @returns {Object}: Buttons and more text information on the producer
+   * @private
+   */
+  async _handleExampleMoreInfo(payload, consumer) {
+    const {producerId} = this.getData(payload);
+    const producer = await Producer.findOneByObjectId(producerId);
+    const hoursString = this._formatHours(producer.hours);
+    const openString = ` is currently ${(Producer.isOpen(producer.hours) ? 'open! :D' : 'closed. :(')}`;
+    // TODO Google Maps Insert Location Information Here
+    // TODO fix the format string rip
+    const button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
+      `\n${producer.name}${openString}\n\nHours:\n${hoursString}`);
+    button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
+    button.pushPostbackButton('Other Example Trucks', this.genPayload(ConsumerActions.exampleProducers));
+    button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
+
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [button]});
   }
 
   /**
@@ -532,9 +588,10 @@ export default class ConsumerChatBot extends FbChatBot {
           Constants.multiplier, Constants.searchLimit, Constants.limit);
       } catch (err) {
         response = new ButtonMessageData('Sorry you are too far away. We could not find any trucks near you. :(' +
-          '\n Please feel free to suggest a truck near you!');
+          '\nPlease feel free to suggest a truck near you!');
         response.pushPostbackButton('Update Location', this.genPayload(ConsumerActions.seeProducers));
         response.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
+        response.pushPostbackButton('See Example Trucks', this.genPayload(ConsumerActions.exampleProducers));
         return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
       }
 
@@ -608,8 +665,15 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
+  /**
+   * Handles the which platform buttons to show the user when getting location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for choosing the platform
+   * @private
+   */
   async _handleWhichPlatform(consumer) {
-    const response = new QuickReplyMessageData(`Which platform are you using?`);
+    const response = new QuickReplyMessageData(`Which platform are you using? Press one of the following buttons:`);
     response.pushQuickReply('Android', this.genPayload(ConsumerActions.android));
     response.pushQuickReply('iOS', this.genPayload(ConsumerActions.ios));
     response.pushQuickReply('Desktop', this.genPayload(ConsumerActions.desktop));
@@ -617,6 +681,13 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response]});
   }
 
+  /**
+   * Handles the android instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for android platform
+   * @private
+   */
   async _handleAndroid(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'click the \'…\' button, press \'Location\', and then press the send button');
@@ -626,15 +697,32 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
 
-  async _handleios(consumer) {
-    const text = new TextMessageData('We need your location to find food trucks near you. ' +
-      'Tap the location button to send us your location!');
+  /**
+   * Handles the iOS instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for iOS platform
+   * @private
+   */
+  async _handleiOS(consumer) {
+    const text = new TextMessageData(`We need your location to find food trucks near you. ` +
+      `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
+      ` refer to the video we are about to send you!`);
+    const video = new VideoAttachmentMessageData(`https://video.xx.fbcdn.net/v/t42.3356-2/13863546_1048964375191033_` +
+      `1506523789_n.mp4/video-1469478569.mp4?vabr=604435&oh=fceee7b5883cfd419f5262c1b949e003&oe=5798354B&dl=1`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, video]});
   }
 
+  /**
+   * Handles the desktop instructions for selecting the location
+   *
+   * @param {Consumer} consumer: consumer object for the current consumer
+   * @returns {Object}: response message data object for desktop platform
+   * @private
+   */
   async _handleDesktop(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       'Type in your address (Ex. 201 E 21st St, Austin, TX). Please be sure to include your city or ' +

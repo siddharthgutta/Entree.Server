@@ -1,0 +1,54 @@
+{
+  "name": "Swami's Sandwiches",
+  "username": "swamisandwiches",
+  "password": "losangeles",
+  "description": "A Vegetarian Sandwich Experience",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a95147-2b04-4c6c-a967-334d46204482.jpg",
+  "address": "8581 Santa Monica Blvd #276, West Hollywood, CA 90069",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Thai Me Up",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.swamissandwiches.com/#!food/c1jo3",
+      "phoneNumber": "3235107123"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:30",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  }]
+}

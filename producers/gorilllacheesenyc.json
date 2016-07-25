@@ -1,0 +1,48 @@
+{
+  "name": "Gorilla Cheese NYC",
+  "username": "gorillacheese",
+  "password": "nyc",
+  "description": "Seriously Delicious Grilled Cheese",
+  "profileImage": "http://media.tumblr.com/f57a8c38d64c579675c2445ea5b5e6c5/tumblr_inline_mu3ivmhRkc1qb3qcf.jpg",
+  "address": "110 King St, New York, NY 10014",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 American with Honey Dijon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuImage": "http://www.gorillacheesenyc.com/menu/files/gorilla-menu.jpg"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:00",
+    "closeTime": "22:00"
+  }]
+}
