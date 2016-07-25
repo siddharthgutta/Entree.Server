@@ -19,6 +19,7 @@ import FbChatBot from './fb-chat-bot.es6';
 import moment from 'moment';
 import * as Google from '../../../api/controllers/google.es6';
 import * as Utils from '../../utils.es6';
+import * as PhoneNumber from '../../phone-number.es6';
 import * as Hour from '../../hour.es6';
 import Constants from './constants.es6';
 const slackSuggestionChannelId = config.get('Slack.suggestions.channelId');
@@ -468,7 +469,8 @@ export default class ConsumerChatBot extends FbChatBot {
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else if (!Utils.isEmpty(producer.phoneNumber)) {
       console.log(producer.name);
-      response = new ButtonMessageData(`Just call ${producer.phoneNumber} and place your order for ${producer.name}`);
+      response = new ButtonMessageData(`Just call ${PhoneNumber.format(producer.phoneNumber)} to place your order ` +
+        `for ${producer.name}`);
       response.pushPostbackButton('Go Back', this.genPayload(ConsumerActions.seeProducers));
     } else {
       response = new ButtonMessageData(`Just send us a message telling us what you want to order off of ` +
