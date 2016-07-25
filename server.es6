@@ -100,6 +100,8 @@ app.use('/braintree', BraintreeRouter);
 app.use('/consumer-messenger', ConsumerRouter);
 app.use('/producer-messenger', ProducerRouter);
 app.use('/login', LoginRouter);
-app.use('/register', RegisterRouter);
+if (!Runtime.isProduction()) {
+  app.use('/register', RegisterRouter);
+}
 
 export default server;
