@@ -507,23 +507,18 @@ export default class ConsumerChatBot extends FbChatBot {
   async _handleExampleProducers(consumer) {
     let response, button;
     response = new GenericMessageData();
-    try {
-      const producers = await Producer.findRandomEnabled();
-      _.forEach(producers, producer => {
-        const title = `${producer.name}`;
-        const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
-        response.pushElement(title, description, producer.profileImage);
-        // if has button go to else set the button to a link
-        response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.exampleMoreInfo,
-          {producerId: producer._id}));
-      });
-      button = new ButtonMessageData(`Here is an example of how you would see trucks near you. To suggest trucks for` +
-        ` us to add in your area, press 'Suggest A Truck'. Press 'Update My Location' to see live trucks nearby you.`);
-      button.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
-      button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
-    } catch (err) {
-      throw new Error('Failed to generate example producers');
-    }
+    const producers = await Producer.findRandomEnabled();
+    _.forEach(producers, producer => {
+      const title = `${producer.name}`;
+      const description = `${producer.description} - ${Producer.isOpen(producer.hours) ? 'OPEN' : 'CLOSED'}`;
+      response.pushElement(title, description, producer.profileImage);
+      response.pushPostbackButton('More Info', this.genPayload(ConsumerActions.exampleMoreInfo,
+        {producerId: producer._id}));
+    });
+    button = new ButtonMessageData(`Here is an example of how you would see trucks near you. To suggest trucks for` +
+      ` us to add in your area, press 'Suggest A Truck'. Press 'Update My Location' to see live trucks nearby you.`);
+    button.pushPostbackButton('Suggest a Truck', this.genPayload(ConsumerActions.suggestionPrompt));
+    button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
 
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [response, button]});
   }
