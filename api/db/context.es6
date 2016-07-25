@@ -53,7 +53,8 @@ export async function findOne(attributes, populateFields) {
 export async function findOneAndUpdate(conditions, updates, options = null) {
   const context = await Context.findOneAndUpdate(conditions, updates, options).exec();
   if (Utils.isEmpty(context)) {
-    throw new Error(`Could not find and update context with attributes: ${conditions} with updates ${updates}`);
+    throw new Error(`Could not find and update context with attributes: ${JSON.stringify(conditions)} with updates ` +
+      `${JSON.stringify(updates)}`);
   }
   return context;
 }
