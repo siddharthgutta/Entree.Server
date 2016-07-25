@@ -245,6 +245,69 @@ describe('FB Message Data', () => {
       });
     });
 
+    describe('pushAccountLinkButton', () => {
+      const elementTitle1 = 'First card';
+      const elementTitle2 = 'Second card';
+
+      it('should push a single account link button successfully to a single element', () => {
+        const msgData = new GenericMessageData();
+        msgData.pushElement(elementTitle1);
+        msgData.pushAccountLinkButton(url1);
+        const msgDataElements = msgData.toJSON().attachment.payload.elements;
+        assert.equal(msgDataElements.length, 1);
+
+        const msgDataButtons = msgDataElements[0].buttons;
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_link');
+        assert.deepEqual(msgDataButtons[0].url, url1);
+      });
+
+      it('should push an account unlinking button successfully to a single element', () => {
+        const msgData = new GenericMessageData();
+        msgData.pushElement(elementTitle1);
+        msgData.pushAccountLinkButton();
+        const msgDataElements = msgData.toJSON().attachment.payload.elements;
+        assert.equal(msgDataElements.length, 1);
+
+        const msgDataButtons = msgDataElements[0].buttons;
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_unlink');
+      });
+
+      it('should push a multiple account link buttons successfully to a multiple elements', () => {
+        const msgData = new GenericMessageData();
+        msgData.pushElement(elementTitle1);
+        msgData.pushAccountLinkButton(url1);
+        msgData.pushAccountLinkButton(url2);
+
+        msgData.pushElement(elementTitle2);
+        msgData.pushAccountLinkButton(url1);
+        msgData.pushAccountLinkButton(url2);
+
+        const msgDataElements = msgData.toJSON().attachment.payload.elements;
+        assert.equal(msgDataElements.length, 2);
+
+        assert.deepEqual(msgDataElements[0].title, elementTitle1);
+        assert.deepEqual(msgDataElements[1].title, elementTitle2);
+
+        const msgDataButtons1 = msgDataElements[0].buttons;
+
+        assert.deepEqual(msgDataButtons1[0].type, 'account_link');
+        assert.deepEqual(msgDataButtons1[0].url, url1);
+
+        assert.deepEqual(msgDataButtons1[1].type, 'account_link');
+        assert.deepEqual(msgDataButtons1[1].url, url2);
+
+        const msgDataButtons2 = msgDataElements[1].buttons;
+
+        assert.deepEqual(msgDataButtons2[0].type, 'account_link');
+        assert.deepEqual(msgDataButtons2[0].url, url1);
+
+        assert.deepEqual(msgDataButtons2[1].type, 'account_link');
+        assert.deepEqual(msgDataButtons2[1].url, url2);
+      });
+    });
+
     it('should push a multiple link or postback buttons successfully to a multiple elements', () => {
       const elementTitle1 = 'First card';
       const elementTitle2 = 'Second card';
@@ -405,6 +468,44 @@ describe('FB Message Data', () => {
         const secondButton = msgDataButtons[1];
         assert.deepEqual(secondButton.type, 'web_url');
         assert.deepEqual(secondButton.title, title2);
+        assert.deepEqual(secondButton.url, url2);
+      });
+    });
+
+    describe('pushAccountLinkButton', () => {
+      it('should add an account link button correctly', () => {
+        const msgData = new ButtonMessageData(text);
+        msgData.pushAccountLinkButton(url1);
+        const msgDataButtons = msgData.toJSON().attachment.payload.buttons;
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_link');
+        assert.deepEqual(msgDataButtons[0].url, url1);
+      });
+
+      it('should add an account unlinking button correctly', () => {
+        const msgData = new ButtonMessageData(text);
+        msgData.pushAccountLinkButton();
+        const msgDataButtons = msgData.toJSON().attachment.payload.buttons;
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_unlink');
+      });
+
+      it('should add multiple account link buttons correctly', () => {
+        const msgData = new ButtonMessageData(text);
+        msgData.pushAccountLinkButton(url1);
+        let msgDataButtons = msgData.toJSON().attachment.payload.buttons;
+        assert.equal(msgDataButtons.length, 1);
+
+        msgData.pushAccountLinkButton(url2);
+        msgDataButtons = msgData.toJSON().attachment.payload.buttons;
+        assert.equal(msgDataButtons.length, 2);
+
+        const firstButton = msgDataButtons[0];
+        assert.deepEqual(firstButton.type, 'account_link');
+        assert.deepEqual(firstButton.url, url1);
+
+        const secondButton = msgDataButtons[1];
+        assert.deepEqual(secondButton.type, 'account_link');
         assert.deepEqual(secondButton.url, url2);
       });
     });
@@ -753,6 +854,44 @@ describe('FB Message Data', () => {
         const secondButton = msgDataButtons[1];
         assert.deepEqual(secondButton.type, 'web_url');
         assert.deepEqual(secondButton.title, title2);
+        assert.deepEqual(secondButton.url, url2);
+      });
+    });
+
+    describe('pushAccountLinkButton', () => {
+      it('should add an account link button correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushAccountLinkButton(url1);
+        const msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_link');
+        assert.deepEqual(msgDataButtons[0].url, url1);
+      });
+
+      it('should add an account unlinking button correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushAccountLinkButton();
+        const msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+        assert.deepEqual(msgDataButtons[0].type, 'account_unlink');
+      });
+
+      it('should add multiple account link buttons correctly', () => {
+        const msgData = new CallToAction();
+        msgData.pushAccountLinkButton(url1);
+        let msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 1);
+
+        msgData.pushAccountLinkButton(url2);
+        msgDataButtons = msgData.toJSON();
+        assert.equal(msgDataButtons.length, 2);
+
+        const firstButton = msgDataButtons[0];
+        assert.deepEqual(firstButton.type, 'account_link');
+        assert.deepEqual(firstButton.url, url1);
+
+        const secondButton = msgDataButtons[1];
+        assert.deepEqual(secondButton.type, 'account_link');
         assert.deepEqual(secondButton.url, url2);
       });
     });
