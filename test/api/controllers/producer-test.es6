@@ -1,5 +1,6 @@
 import * as Producer from '../../../api/controllers/producer.es6';
 import * as Location from '../../../api/controllers/location.es6';
+import * as User from '../../../api/controllers/user.es6';
 import shortid from 'shortid';
 import {clear} from '../../../models/mongo/index.es6';
 import assert from 'assert';
@@ -31,8 +32,10 @@ describe('Producer DB API', () => {
       const {_id} = await Producer.create(name, username, password, description, profileImage, exampleOrder,
         address, percentageFee, transactionFee, {producer: {phoneNumber, enabled}});
       const producer = await Producer.findOneByObjectId(_id);
+      const user = await User.findOneById(producer.user);
       assert.equal(producer.name, name);
-      assert.equal(producer.user.username, username);
+      assert.equal(user.username, username);
+      assert(User.comparePassword(user.password, password));
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.address, address);
@@ -521,9 +524,10 @@ describe('Producer DB API', () => {
       await Producer._create(name, username, password, description, profileImage, exampleOrder,
         location, percentageFee, transactionFee, {producer: {fbId}});
       const producer = await Producer.findOneByFbId(fbId);
+      const user = await User.findOneById(producer.user);
       assert.equal(producer.name, name);
-      assert.equal(producer.username, username);
-      assert.equal(producer.password, password);
+      assert.equal(user.username, username);
+      assert(User.comparePassword(password, user.password));
       assert.equal(producer.description, description);
       assert.equal(producer.profileImage, profileImage);
       assert.equal(producer.location.coordinates.latitude, lat);

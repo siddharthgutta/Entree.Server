@@ -132,7 +132,8 @@ export async function _create(name, username, password, description, profileImag
                               location, percentageFee, transactionFee, optional = {}) {
   const merchant = await Merchant.create(percentageFee, transactionFee, optional.merchant);
   const context = await Context.create({...(optional.context)});
-  return await Producer.create({name, username, password, description, profileImage, exampleOrder,
+  const {_id: user} = await User.create(username, password);
+  return await Producer.create({name, user, description, profileImage, exampleOrder,
     location: location._id, merchant: merchant._id, context, ...optional.producer});
 }
 

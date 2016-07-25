@@ -1,9 +1,6 @@
 import passport from 'passport';
-import PassportLocal from 'passport-local';
+import {Strategy as PassportLocalStrategy} from 'passport-local';
 import * as User from './user.es6';
-import * as Utils from '../../libs/utils.es6';
-
-const LocalStrategy = PassportLocal.Strategy;
 
 /**
  * Initializes passport by setting up the strategy and serialization/deserialization process
@@ -11,19 +8,46 @@ const LocalStrategy = PassportLocal.Strategy;
  * @returns {Null}: returns nothing
  */
 export async function init() {
-  passport.use(new LocalStrategy(async (username, password, done) => {
-    const user = await User.findByUsername(username);
-    const pass = await User.comparePassword(password, user.password);
-    if (!Utils.isEmpty(user) && pass) done(null, user);
-    else done(null, false);
+  /**
+   * Uses local strategy for checking account username/password
+   */
+  passport.use(new PassportLocalStrategy(async (username, password, done) => {
+    // Finds user by username
+    let user;
+    try {
+      user = await User.findByUsername(username);
+    } catch (findByUsernameErr) {
+      done(null, false, {message: 'Incorrect Username'});
+    }
+
+    // Compares passwords, throws error if bcrypt errors
+    let passwordMatches;
+    try {
+      passwordMatches = await User.comparePassword(password, user.password);
+    } catch (comparePasswordError) {
+      done(comparePasswordError);
+    }
+
+    // If passwordMatches is true, then passwords match
+    if (passwordMatches) {
+      done(null, user);
+    } else {
+      done(null, false, {message: 'Incorrect Password'});
+    }
   }));
 
+  /**
+   * Serializes the user for sessions/cookies
+   */
   passport.serializeUser((user, done) => {
-    done(null, user.id);
+    done(null, user._id);
   });
 
+  /**
+   * Deserializes the user for sessions/cookies
+   */
   passport.deserializeUser(async (id, done) => {
-    const user = await User.findById(id);
+    const user = await User.findOneById(id);
     done(null, user);
   });
 }
@@ -43,3 +67,8 @@ export function ensureAuthenticated(req, res, next) {
   console.log('user not authenticated, redirecting...');
   res.redirect('/login');
 }
+
+/**
+ * Initializes passport
+ */
+init();

@@ -44,7 +44,7 @@ export async function findByUsername(username) {
  * @param {String} id: the id of the user to find
  * @returns {Promise}: the found user
  */
-export async function findById(id) {
+export async function findOneById(id) {
   return await User.findOne({_id: id});
 }
 
@@ -53,7 +53,7 @@ export async function findById(id) {
  *
  * @param {String} candidatePassword: the password to check
  * @param {String} hash: the hashed password
- * @returns {Promise}: whether or not the passwords match
+ * @returns {Promise<Boolean>}: whether or not the passwords match
  */
 export async function comparePassword(candidatePassword, hash) {
   return await bcrypt.comparePassword(candidatePassword, hash);

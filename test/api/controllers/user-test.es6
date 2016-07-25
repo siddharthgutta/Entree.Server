@@ -10,16 +10,25 @@ describe('User DB API', () => {
   describe('#create()', () => {
     it('should register a user with hashed password', async () => {
       const user = await User.create('navsaini', 'nav1996', {email: 'nav1996@gmail.com'});
-
-      assert.equal(user.username, 'navsaini');
+      assert.deepEqual(user.username, 'navsaini');
       assert.notEqual(user.password, 'nav1996');
-      assert.equal(user.email, 'nav1996@gmail.com');
+      assert.deepEqual(user.email, 'nav1996@gmail.com');
     });
+
+    it('should not allow duplicate usernames', async () => {
+      await User.create('navsaini', 'nav1966', {email: 'nav1996@gmail.com'});
+      try {
+        await User.create('navsaini', 'nav1967', {email: 'nav1997@gmail.com'});
+      } catch (createErr) {
+        return;
+      }
+      assert(false, 'Duplicate usernames should fail validation');
+    });
+
     it('should encrypt the passwords differently even though the passwords are the same', async () => {
       const user1 = await User.create('jessemao', 'nav1996', {email: 'jlmao@gmail.com'});
       const user2 = await User.create('navsaini', 'nav1996', {email: 'nav1996@gmail.com'});
-
-      assert.notEqual(user1.password, user2.password);
+      assert.notDeepEqual(user1.password, user2.password);
     });
   });
 
@@ -28,10 +37,11 @@ describe('User DB API', () => {
       await User.create('kimchi', 'mike');
       const user = await User.findByUsername('kimchi');
 
-      assert.equal(user.username, 'kimchi');
-      assert.notEqual(user.password, 'mike');
+      assert.deepEqual(user.username, 'kimchi');
+      assert.notDeepEqual(user.password, 'mike');
     });
-    it('should fail to find a user', async () => {
+
+    it('should fail to find a user if no user exists', async () => {
       try {
         await User.findByUsername('kimchi');
       } catch (err) {
@@ -41,20 +51,36 @@ describe('User DB API', () => {
     });
   });
 
-  describe('#findById()', () => {
+  describe('#findOneById()', () => {
     it('should find a user correctly', async () => {
       const {_id} = await User.create('songla', 'taiwan');
-      const user = await User.findById(_id);
+      const user = await User.findOneById(_id);
 
-      assert.equal(user.username, 'songla');
+      assert.deepEqual(user.username, 'songla');
     });
-    it('should fail to find a user', async () => {
+
+    it('should fail to find a user if user does not exist', async () => {
       try {
-        await User.findById('kimchi');
+        await User.findOneById('kimchi');
       } catch (err) {
         return;
       }
       assert(false);
+    });
+  });
+
+  describe('#comparePassword()', () => {
+    const password = 'taiwan';
+    it('should compare passwords correctly', async () => {
+      const {_id} = await User.create('songla', password);
+      const user = await User.findOneById(_id);
+      assert(await User.comparePassword(password, user.password));
+    });
+
+    it('should fail to compare incorrect passwords correctly', async () => {
+      const {_id} = await User.create('songla', password);
+      const user = await User.findOneById(_id);
+      assert(!(await User.comparePassword('incorrectPass', user.password)));
     });
   });
 });

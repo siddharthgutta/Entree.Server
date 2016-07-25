@@ -209,6 +209,7 @@ describe('Hours DB API', () => {
       assert(false);
     });
   });
+
   describe('#findOpen', async () => {
     it('should give all currently open', async () => {
       const hours = {
@@ -237,8 +238,8 @@ describe('Hours DB API', () => {
       await Producer.addHours(id2, [hour3, hour4]);
       await Producer.addHours(id3, [hour5]);
       const openProds = await Producer.findOpenHelper(moment('12:00', 'HH:mm'), 'Wednesday');
-      assert.equal(openProds[0].hours[0].day, 'Wednesday');
-      assert.equal(openProds[1].hours[1].day, 'Monday');
+      assert.deepEqual(openProds[0]._id, id1);
+      assert.deepEqual(openProds[1]._id, id2);
     });
   });
 

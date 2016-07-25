@@ -15,6 +15,4 @@ route.post('/',
 	passport.authenticate('local', {successRedirect: '/login/success', failureRedirect: '/login'})
 );
 
-Passport.init();
-
 export default route;
