@@ -53,6 +53,25 @@ export default class CallToAction {
     });
   }
 
+  /**
+   * Adding an account linking button to the buttons array
+   *
+   * @param {String} url: REQUIRED url is opened in a mobile browser for linking an account
+   * @return {Null} unused return statement
+   */
+  pushAccountLinkButton(url = null) {
+    if (!url) {
+      this._pushCallToAction({
+        type: 'account_unlink'
+      });
+    } else {
+      this._pushCallToAction({
+        type: 'account_link',
+        url
+      });
+    }
+  }
+
   toJSON() {
     return this.callToActions;
   }

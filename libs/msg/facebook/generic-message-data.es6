@@ -83,4 +83,24 @@ export default class GenericMessageData extends MessageDataStrategy {
       url
     }, index);
   }
+
+  /**
+   * Adding an account linking button to the buttons array
+   * If url is null, will do account unlinking
+   *
+   * @param {String} url: REQUIRED url is opened in a mobile browser for linking an account
+   * @return {Null} unused return statement
+   */
+  pushAccountLinkButton(url = null, index = this.elements.length - 1) {
+    if (!url) {
+      this._pushButton({
+        type: 'account_unlink'
+      }, index);
+    } else {
+      this._pushButton({
+        type: 'account_link',
+        url
+      }, index);
+    }
+  }
 }

@@ -392,9 +392,9 @@ describe('Producer DB API', () => {
       assert.notDeepEqual(id1, id3);
       const producers = await Producer.findAll();
       assert.equal(producers.length, 3);
-      assert.deepEqual(producers[0]._id, id1);
-      assert.deepEqual(producers[1]._id, id2);
-      assert.deepEqual(producers[2]._id, id3);
+      const actualProducerIds = [producers[0]._id, producers[1]._id, producers[2]._id].sort();
+      const expectedProducerIds = [id1, id2, id3].sort();
+      assert.deepEqual(actualProducerIds, expectedProducerIds, 'Actual producer ids should match the expected');
     });
   });
 
