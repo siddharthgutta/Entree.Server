@@ -7,7 +7,8 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction,
+  VideoAttachmentMessageData} from '../../msg/facebook/message-data.es6';
 import {ConsumerActions} from './actions.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -94,7 +95,7 @@ export default class ConsumerChatBot extends FbChatBot {
       case ConsumerActions.android:
         return this._handleAndroid(consumer);
       case ConsumerActions.ios:
-        return this._handleios(consumer);
+        return this._handleiOS(consumer);
       case ConsumerActions.desktop:
         return this._handleDesktop(consumer);
       case ConsumerActions.existingLocation:
@@ -681,13 +682,16 @@ export default class ConsumerChatBot extends FbChatBot {
     return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
   }
 
-  async _handleios(consumer) {
-    const text = new TextMessageData('We need your location to find food trucks near you. ' +
-      'Tap the location button to send us your location!');
+  async _handleiOS(consumer) {
+    const text = new TextMessageData(`We need your location to find food trucks near you. ` +
+      `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
+      ` refer to the video we are about to send you!`);
+    const video = new VideoAttachmentMessageData(`https://vimeo.com/176220212/download?t=1469478466&v=572074225&s=` +
+      `0b89e74320de3ab3e6839ca01030920ade755a8b3370348f4f04f892004be68c`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, video]});
   }
 
   async _handleDesktop(consumer) {
