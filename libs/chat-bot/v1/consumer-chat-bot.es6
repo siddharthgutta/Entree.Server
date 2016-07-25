@@ -542,8 +542,7 @@ export default class ConsumerChatBot extends FbChatBot {
     // TODO Google Maps Insert Location Information Here
     // TODO fix the format string rip
     const button = new ButtonMessageData(`Here is more information about ${producer.name}.` +
-      `\n${producer.name}${openString}\n\nHours:\n${hoursString}\n\nPress 'Update My Location' to see live trucks ` +
-      `nearby you.`);
+      `\n${producer.name}${openString}\n\nHours:\n${hoursString}`);
     button.pushLinkButton('Location', `https://maps.google.com/?q=${producer.location.address}`);
     button.pushPostbackButton('Other Example Trucks', this.genPayload(ConsumerActions.exampleProducers));
     button.pushPostbackButton('Update My Location', this.genPayload(ConsumerActions.updateLocation));
