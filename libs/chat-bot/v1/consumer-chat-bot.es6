@@ -707,8 +707,8 @@ export default class ConsumerChatBot extends FbChatBot {
     const text = new TextMessageData(`We need your location to find food trucks near you. ` +
       `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
       ` refer to the video we are about to send you!`);
-    const video = new VideoAttachmentMessageData(`https://vimeo.com/176220212/download?t=1469478466&v=572074225&s=` +
-      `0b89e74320de3ab3e6839ca01030920ade755a8b3370348f4f04f892004be68c`);
+    const video = new VideoAttachmentMessageData(`https://video.xx.fbcdn.net/v/t42.3356-2/13863546_1048964375191033_` +
+      `1506523789_n.mp4/video-1469478569.mp4?vabr=604435&oh=fceee7b5883cfd419f5262c1b949e003&oe=5798354B&dl=1`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
