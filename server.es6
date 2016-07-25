@@ -69,6 +69,7 @@ app.use(cookieParser());
 app.use(session({
   secret: 'secret',
   resave: false,
+  httpOnly: true,
   saveUninitialized: true,
   secure: isHTTPS
 }));
