@@ -1,18 +1,17 @@
 {
-  "name": "Ms P's Electric Cock",
-  "username": "electriccock",
-  "password": "friedchicken",
-  "description": "Fried Chicken and Breakfast Tacos",
-  "profileImage": "http://i.imgur.com/C2aHFUF.jpg",
-  "address": "1101 South Congress Avenue Austin, TX 78704",
+  "name": "Green Pirate",
+  "username": "greenpiratenyc",
+  "password": "nyc",
+  "description": "Fresh, Healthy, and Delicious Refreshments",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7a3b70-9490-4788-9c11-373b46204482.jpg",
+  "address": "510 Driggs Ave, Brooklyn, NY 11211",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 3 piece tenderloin with SOCO slaw",
+  "exampleOrder": "1 Canteloupe Creamsicle",
   "optional": {
     "producer": {
       "enabled": true,
-      "menuImage": "http://i.imgur.com/shF05YJ.jpg",
-      "phoneNumber": "5129127778"
+      "menuImage": "http://s3-media2.fl.yelpcdn.com/bphoto/nWbIUAea9DxdXmUF-yxcKQ/o.jpg"
     }
   },
   "hours":
@@ -43,12 +42,7 @@
   },
   {
     "day": "Saturday",
-    "openTime": "09:00",
-    "closeTime": "17:00"
-  },
-  {
-    "day": "Sunday",
-    "openTime": "09:00",
+    "openTime": "08:00",
     "closeTime": "17:00"
   }]
 }

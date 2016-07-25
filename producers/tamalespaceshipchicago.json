@@ -1,0 +1,43 @@
+{
+  "name": "The Tamale Spaceship",
+  "username": "tamalealiens",
+  "password": "chitown",
+  "description": "Authentic Mexican Cuisine",
+  "profileImage": "http://www.chicagonow.com/body-mod-chicago/files/2014/09/TamaleSpaceship.jpg",
+  "address": "Wacker and Adams, Chicago, Illinois, 60606",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Picturesque",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://thetamalespaceship.com/menu"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:30"
+  }]
+}

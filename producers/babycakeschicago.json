@@ -1,0 +1,45 @@
+{
+  "name": "Babycakes",
+  "username": "babycakes",
+  "password": "chicago",
+  "description": "Fluffy, Mouthwatering Pancakes",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/501f08dd-3358-4097-b823-3ab246204482.jpg",
+  "address": "940 W Weed St, Chicago, IL 60622",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Waffle Works",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "orderLink": "https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes",
+      "phoneNumber": "8724446308",
+      "menuLink": "https://www.doordash.com/store/babycakes-gourmet-pancakes-chicago-27566/?utm_small=website&utm_source=partner-link&utm_campaign=babycakes"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  }]
+}

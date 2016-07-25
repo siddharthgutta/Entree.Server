@@ -1,18 +1,17 @@
 {
-  "name": "Pommes Frites",
-  "username": "pommes",
-  "password": "frites",
-  "description": "Belgian Fries, Toppings, and More",
-  "profileImage": "http://i.imgur.com/4K60G1T.jpg",
-  "address": "411 W 23rd St Austin, TX 78705",
+  "name": "Gorilla Cheese NYC",
+  "username": "gorillacheese",
+  "password": "nyc",
+  "description": "Seriously Delicious Grilled Cheese",
+  "profileImage": "http://media.tumblr.com/f57a8c38d64c579675c2445ea5b5e6c5/tumblr_inline_mu3ivmhRkc1qb3qcf.jpg",
+  "address": "110 King St, New York, NY 10014",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "1 TTC and Large Frites",
+  "exampleOrder": "1 American with Honey Dijon",
   "optional": {
     "producer": {
       "enabled": true,
-      "menuImage": "http://i.imgur.com/mQkdVsL.png",
-      "phoneNumber": "5125457877"
+      "menuImage": "http://www.gorillacheesenyc.com/menu/files/gorilla-menu.jpg"
     }
   },
   "hours":

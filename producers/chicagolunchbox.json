@@ -1,0 +1,54 @@
+{
+  "name": "Chicago Lunchbox",
+  "username": "chicagolunchbox",
+  "password": "chicago",
+  "description": "Traditional Asian Fare served in untraditional ways",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5463a57a-a09c-4e05-b2cd-690746204482.jpg",
+  "address": "Mobile",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Sloppy Thai",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://chicagolunchbox.com/",
+      "phoneNumber": "7736960144"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "12:00",
+    "closeTime": "13:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "12:00",
+    "closeTime": "13:00"
+  }]
+}

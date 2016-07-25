@@ -1,0 +1,54 @@
+{
+  "name": "Mexacalbi",
+  "username": "mexacalbi",
+  "password": "losangeles",
+  "description": "Gourmet Mexican Fusion Tacos",
+  "profileImage": "http://s3-media2.fl.yelpcdn.com/bphoto/PqK5bFNtrnUqZy7O5P4cUg/o.jpg",
+  "address": "3200 Park Center Drive, Costa Mesa, California, 92626",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "2 Tacos and a Tostada salad",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuImage": "http://www.mexicalbi.com/",
+      "phoneNumber": "7145847910"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Tuesday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Wednesday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Thursday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Friday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Saturday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+  {
+    "day": "Sunday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  }]
+}

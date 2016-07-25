@@ -1,18 +1,18 @@
 {
-  "name": "Don",
-  "username": "donfoodtruck",
-  "password": "fishkatsu",
-  "description": "Delicious Japanese Food Truck",
-  "profileImage": "http://i.imgur.com/PWS4zfl.jpg",
-  "address": "817 W 5th St, Austin, TX",
+  "name": "Swami's Sandwiches",
+  "username": "swamisandwiches",
+  "password": "losangeles",
+  "description": "A Vegetarian Sandwich Experience",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a95147-2b04-4c6c-a967-334d46204482.jpg",
+  "address": "8581 Santa Monica Blvd #276, West Hollywood, CA 90069",
   "percentageFee": 6,
   "transactionFee": 30,
-  "exampleOrder": "Veggie King with Onsen Egg",
+  "exampleOrder": "1 Thai Me Up",
   "optional": {
     "producer": {
-      "enabled": false,
-      "menuImage": "http://i.imgur.com/Thq7gyj.png",
-      "phoneNumber": "2817253686"
+      "enabled": true,
+      "menuLink": "http://www.swamissandwiches.com/#!food/c1jo3",
+      "phoneNumber": "3235107123"
     }
   },
   "hours":
