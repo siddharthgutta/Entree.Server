@@ -1,0 +1,49 @@
+{
+  "name": "Creperie Saint Germain",
+  "username": "crepes",
+  "password": "germain",
+  "description": "Quick, informal eatery with a range of gluten-free, organic, and buckwheat crepes",
+  "profileImage": "http://www.quirkysanfrancisco.com/wp-content/uploads/2010/03/Creperie-Saint-Germain-3.jpg",
+  "address": "222 2nd St & Howard st, San Francisco, CA 94105",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Breakfast Crepe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://creperiesaintgermain.com/menus/555-california/",
+      "phoneNumber":"4157069733"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}
