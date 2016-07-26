@@ -53,7 +53,6 @@ describe('Google API', () => {
     it('should produce search results with keyword search', async () => {
       const keyword = 'burrito';
       const results = await GooglePlacesAPI.searchByKeyword(keyword, lat, lng);
-      console.log(results);
       assert.ok(results);
       assert(results.length > 0);
       const firstPlace = results[1];
