@@ -3,6 +3,7 @@
  */
 
 import * as Producer from '../../api/controllers/producer.es6';
+import * as User from '../../api/controllers/user.es6';
 import Promise from 'bluebird';
 import fs from 'fs';
 import _ from 'lodash';
@@ -53,11 +54,19 @@ async function insertInDB(JSONObject) {
     const {_id} = await Producer.findOneByUsername(username);
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
     try {
-      await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
+      await Producer.updateByObjectId(_id, {name, description, percentageFee,
         transactionFee, profileImage, exampleOrder, address});
     } catch (errUpdating) {
       console.log(`Error with updating ${errUpdating}`);
       throw errUpdating;
+    }
+
+    const {_id: userId} = await User.findByUsername(username);
+    try {
+      await User.updateByObjectId(userId, {username, password});
+    } catch (userUpdateErr) {
+      console.log(`Error with updating user ${userUpdateErr}`);
+      throw userUpdateErr;
     }
 
     try {
