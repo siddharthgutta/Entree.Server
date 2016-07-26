@@ -52,7 +52,13 @@ async function linkAndRemove(producer) {
   const returnObj = {};
   try {
     const {username, password} = producer;
-    const user = await User.create(username, password);
+    let user;
+    try {
+      user = await User.create(username, password);
+    } catch (userCreationErr) {
+      console.log(`Duplicate user exists for ${username}... linking to existing...`);
+      user = await User.findByUsername(username);
+    }
     await linkUser(producer, user);
     await removeUsernameAndPasswordFields(producer);
     returnObj[producer.name] = true;
