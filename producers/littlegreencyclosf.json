@@ -1,0 +1,49 @@
+{
+  "name": "Little Green Cyclo",
+  "username": "littlegreencyclo",
+  "password": "sffoodtruck",
+  "description": "Fresh, Vietnamese Street Food",
+  "profileImage": "http://www.sfstation.com/files/2013/02/little-green-cyclo.jpg",
+  "address": "121 S Maple Ave #13, South San Francisco, CA 94080",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Banh Mi and jasmine rice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://littlegreencyclo.com/?page_id=64",
+      "phoneNumber":"4153751657"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}

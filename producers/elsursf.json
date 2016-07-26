@@ -1,0 +1,49 @@
+{
+  "name": "El Sur",
+  "username": "elsur",
+  "password": "elsurtruck",
+  "description": "Empanadas Artesanales",
+  "profileImage": "http://i.imgur.com/73yhnqq.jpg",
+  "address": "South of Market, San Francisco, CA 94107",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Pollo Saltado and 1 Verde",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.elsursf.com/Menu.aspx",
+      "phoneNumber":"4155302803"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Easy Creole",
+  "username": "easycreole",
+  "password": "creolefood",
+  "description": "All Natural, Never Fried Creole and Cajun Food",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f59939d-ff5c-45e7-a799-35d746204482.jpg",
+  "address": "1761 Alcatraz Ave. Berkeley, CA 94703.",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Chicken Creole",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://easycreole.com/menu/"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}

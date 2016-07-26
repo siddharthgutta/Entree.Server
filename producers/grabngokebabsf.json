@@ -1,0 +1,49 @@
+{
+  "name": "Grab and Go Kebab",
+  "username": "grabngokebab",
+  "password": "sf",
+  "description": "Delicious, Mouthwatering Kebabs",
+  "profileImage": "http://grabandgokabob.com/wp-content/uploads/2013/04/truck.jpg",
+  "address": "4160 Dublin Boulevard, Dublin, CA 94568 ",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Joojeh Plate",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://grabandgokabob.com/menu/",
+      "phoneNumber": "9257888967"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}
