@@ -1,6 +1,5 @@
 import * as User from '../db/user.es6';
 import * as bcrypt from '../../libs/auth/bcrypt.es6';
-import _ from 'lodash';
 
 /**
  * Creates a user with the given attributes
@@ -67,10 +66,10 @@ export async function comparePassword(candidatePassword, hash) {
  * @returns {Promise} returns the producer without updates from the database
  */
 export async function updateByObjectId(_id, fields) {
-  let updatedFields = fields;
+  const updatedFields = fields;
   if ('password' in updatedFields) {
     const password = await bcrypt.saltAndHash(updatedFields.password);
-    updatedFields = _.merge(_.omit(updatedFields, 'password'), {password});
+    updatedFields.password = password;
   }
   return await User.findOneAndUpdate({_id}, {$set: updatedFields}, {runValidators: true, new: true});
 }
