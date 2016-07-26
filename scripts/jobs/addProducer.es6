@@ -51,7 +51,22 @@ async function insertInDB(JSONObject) {
   const {name, username, password, description, profileImage, exampleOrder, address,
     percentageFee, transactionFee, optional, hours} = JSONObject;
   try {
-    const {_id} = await Producer.findOneByUsername(username);
+    let _id;
+    try {
+      const producer = await Producer.findOneByUsername(username);
+      _id = producer._id;
+    } catch (findOneByUsernameErr) {
+      // Temporary try catch to prevent duplicate producers from being created
+      console.log(`Could not find producer by username [${username}] in user subdocument`);
+      try {
+        const producer = await Producer.findOneByUsernameField(username);
+        _id = producer._id;
+      } catch (findOneByUsernameFieldErr) {
+        console.log(`Could not find producer by username [${username}] in username field`);
+        throw findOneByUsernameFieldErr;
+      }
+    }
+
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
     try {
       await Producer.updateByObjectId(_id, {name, description, percentageFee,

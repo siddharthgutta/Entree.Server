@@ -42,6 +42,11 @@ export async function findOneByUsername(username) {
   return await Producer.findOne({user: _id}, ['merchant', 'location', 'user']);
 }
 
+// Temporary function while migration is occurring
+export async function findOneByUsernameField(username) {
+  return await Producer.findOne({username}, ['merchant', 'location', 'user']);
+}
+
 /**
  * Returns a Query object for finding producers
  *
