@@ -51,14 +51,24 @@ async function insertInDB(JSONObject) {
   const {name, username, password, description, profileImage, exampleOrder, address,
     percentageFee, transactionFee, optional, hours} = JSONObject;
   try {
-    const {_id, user: userId} = await Producer.findOneByUsername(username);
+    const {_id, user: {_id: userId}, location: {address: existingAddress}} = await Producer.findOneByUsername(username);
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
     try {
       await Producer.updateByObjectId(_id, {name, description, percentageFee,
-        transactionFee, profileImage, exampleOrder, address});
+        transactionFee, profileImage, exampleOrder});
     } catch (errUpdating) {
       console.log(`Error with updating ${errUpdating}`);
       throw errUpdating;
+    }
+
+    // Should limit the amount of Geocoding API calls that occur if addresses match
+    if (existingAddress !== address) {
+      try {
+        await Producer.updateByObjectId(_id, {address});
+      } catch (updateAddressErr) {
+        console.log(`Error with updating address ${updateAddressErr}`);
+        throw updateAddressErr;
+      }
     }
 
     try {
