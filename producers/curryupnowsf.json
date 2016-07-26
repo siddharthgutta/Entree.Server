@@ -1,0 +1,49 @@
+{
+  "name": "Curry Up Now",
+  "username": "curryandspicegirl",
+  "password": "poonam",
+  "description": "",
+  "profileImage": "http://static1.squarespace.com/static/54090308e4b0ba22079ce4dd/54c16585e4b0688a8813debe/54c165a7e4b03dfa2a23dcbc/1421960616697/20110531-_MG_2179.jpg",
+  "address": "601 Mission Bay Boulevard North, San Francisco, CA 94158",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Paneer Tikka Masala Bowl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.curryupnow.com/truck-menu",
+      "phoneNumber":"6504257682"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "17:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    }]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "The Grilled Cheez Guy",
+  "username": "grilledcheez",
+  "password": "cheesesandwich",
+  "description": "Upscale, American Cheesy",
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5755ab22-fd50-4586-9207-526446204482.png",
+  "address": "Landmark Building C, 2 Marina Blvd, San Francisco, CA 94123",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Frenchy sandwich",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://grilledcheezguy.com/catering/"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}

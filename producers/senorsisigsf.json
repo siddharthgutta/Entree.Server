@@ -1,0 +1,49 @@
+{
+  "name": "Senor Sisig",
+  "username": "senorsisig",
+  "password": "tengohambre",
+  "description": "Filipino Fusion Food Truck",
+  "profileImage": "http://insidescoopsf.sfgate.com/files/2015/10/Senor-Sisig-Truck.jpg",
+  "address": "300 Pine St, San Francisco, CA 94104",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Sisig Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.senorsisig.com/#menu",
+      "phoneNumber":"18557474455"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}

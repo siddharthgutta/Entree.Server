@@ -1,0 +1,49 @@
+{
+  "name": "Sajj Street Eats",
+  "username": "sajjstreeteats",
+  "password": "deliciousgreek",
+  "description": "Fresh, Fast, and Healthy Mediterranean Food",
+  "profileImage": "http://bookmylot.com/wp-content/gallery/sajj-street-eats/sajj-street-eats-food-truck-the-bay-area-food-truck-san-francisco-07.jpg",
+  "address": "2300 Geng Rd, Palo Alto, CA 94303",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Chicken Schwarma",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.sajjstreeteats.com/menu/",
+      "phoneNumber":"650-322-7255"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}

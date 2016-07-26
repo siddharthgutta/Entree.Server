@@ -1,0 +1,48 @@
+{
+  "name": "Bacon Bacon",
+  "username": "baconbaconsf",
+  "password": "baconator",
+  "description": "Delicious Bacon Eats",
+  "profileImage": "http://www.baconbaconsf.com/wp-content/uploads/2012/08/Bacon-Bacon-Truck-Marquee-2.jpg",
+  "address": "428 11th St, San Francisco, CA 94103",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "The Porky Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.baconbaconsf.com/the-truck"
+      }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "14:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "14:00"
+    }]
+}
