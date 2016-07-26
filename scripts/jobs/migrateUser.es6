@@ -20,7 +20,18 @@ async function linkUser(producer, user) {
     await Producer.updateByObjectId(producer._id, {user: user._id});
   } catch (err) {
     console.log(`Failed to link user for ${producer.name}\n${err}`);
+    throw err;
   }
+}
+
+/**
+ * Empties the username and password fields of a producer
+ *
+ * @param {Producer} producer: producer to add linking to
+ * @returns {Null}: Unused
+ */
+async function emptyUsernameAndPassword(producer) {
+  await Producer.updateByObjectId(producer._id, {username: undefined, password: undefined});
 }
 
 /**
@@ -33,7 +44,7 @@ async function linkUser(producer, user) {
 async function removeUsernameAndPasswordFields(producer) {
   const returnObj = {};
   try {
-    await Producer.updateByObjectId(producer._id, {username: undefined, password: undefined});
+    await emptyUsernameAndPassword(producer);
     returnObj[producer.name] = true;
   } catch (err) {
     console.log(`Failed to delete username and password fields for ${producer.name}\n${err}`);
@@ -60,7 +71,7 @@ async function linkAndRemove(producer) {
       user = await User.findByUsername(username);
     }
     await linkUser(producer, user);
-    await removeUsernameAndPasswordFields(producer);
+    await emptyUsernameAndPassword(producer);
     returnObj[producer.name] = true;
   } catch (err) {
     console.log(`Failed to link and delete username and password fields for ${producer.name}\n${err}`);
