@@ -50,9 +50,34 @@ _.forEach(fileNames, file => {
 async function insertInDB(JSONObject) {
   const {name, username, password, description, profileImage, exampleOrder, address,
     percentageFee, transactionFee, optional, hours} = JSONObject;
+  let created = false;
+  let _id;
+  let userId;
+  let existingAddress;
   try {
-    const {_id, user: {_id: userId}, location: {address: existingAddress}} = await Producer.findOneByUsername(username);
+    const producer = await Producer.findOneByUsername(username);
+    _id = producer._id;
+    userId = producer.user._id;
+    existingAddress = producer.location.address;
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
+  } catch (err) {
+    console.log(err);
+    console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
+    try {
+      await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
+        percentageFee, transactionFee, optional);
+      const producer = await Producer.findOneByUsername(username);
+      await Producer.addHours(producer._id, hours);
+      created = true;
+    } catch (producerCreateError) {
+      console.log(producerCreateError);
+      console.log(`Could not create producer ${username} for some reason...`);
+      created = null;
+    }
+  }
+
+  // Run updates if already exists
+  if (!created) {
     try {
       await Producer.updateByObjectId(_id, {name, description, percentageFee,
         transactionFee, profileImage, exampleOrder});
@@ -84,34 +109,19 @@ async function insertInDB(JSONObject) {
       console.log(`Delete All Hours ${deleteAllHours}`);
       throw deleteAllHours;
     }
+
     try {
       await Producer.addHours(_id, hours);
     } catch (addHoursErr) {
       console.log(`Add Hours ${addHoursErr}`);
       throw addHoursErr;
     }
+
     if (!Utils.isEmpty(optional.producer)) {
       await Producer.updateByObjectId(_id, optional.producer);
     }
-  } catch (err) {
-    console.log(err);
-    console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
-    try {
-      await Producer.create(name, username, password, description, profileImage, exampleOrder, address,
-        percentageFee, transactionFee, optional);
-      const producer = await Producer.findOneByUsername(username);
-      await Producer.addHours(producer._id, hours);
-      return true;
-    } catch (producerCreateError) {
-      console.log(producerCreateError);
-      console.log(`Could not create producer ${username} for some reason...`);
-      return null;
-    }
   }
-  return false;
-  // Use this for logging
-  // const producer = await Producer.findOneByUsername(username);
-  // console.log(producer);
+  return created;
 }
 
 /**
