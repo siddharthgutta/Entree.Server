@@ -63,7 +63,7 @@ async function insertInDB(JSONObject) {
 
     const {_id: userId} = await User.findByUsername(username);
     try {
-      await User.updateByObjectId(userId, {username, password});
+      await User.updateByObjectId(userId, {password});
     } catch (userUpdateErr) {
       console.log(`Error with updating user ${userUpdateErr}`);
       throw userUpdateErr;
