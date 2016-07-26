@@ -36,7 +36,7 @@ async function addContextsIfDNE() {
   const total = producers.length;
   const contextPromises = [];
   for (let index = 0; index < producers.length; index++) {
-    const producer = producers[index];
+    const producer = producers[index].toJSON();
     // If context is empty/does not exist, then add a context
     if (Utils.isEmpty(producer.context)) {
       console.log(`Creating context for ${producer.name}...`);

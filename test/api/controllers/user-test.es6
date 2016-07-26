@@ -83,4 +83,28 @@ describe('User DB API', () => {
       assert(!(await User.comparePassword('incorrectPass', user.password)));
     });
   });
+
+  describe('#updateByObjectId()', () => {
+    const password = 'taiwan';
+    const updatedUsername = 'wtf';
+    const updatedPassword = 'bbq';
+    it('should update username correctly', async () => {
+      const {_id} = await User.create('songla', password);
+      const user = await User.updateByObjectId(_id, {username: updatedUsername});
+      assert.deepEqual(user.username, updatedUsername);
+    });
+
+    it('should update password with salt/hash correctly', async () => {
+      const {_id} = await User.create('songla', password);
+      const user = await User.updateByObjectId(_id, {password: updatedPassword});
+      assert(await User.comparePassword(updatedPassword, user.password));
+    });
+
+    it('should update both username and password correctly', async () => {
+      const {_id} = await User.create('songla', password);
+      const user = await User.updateByObjectId(_id, {username: updatedUsername, password: updatedPassword});
+      assert.deepEqual(user.username, updatedUsername);
+      assert(await User.comparePassword(updatedPassword, user.password));
+    });
+  });
 });

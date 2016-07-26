@@ -55,7 +55,7 @@ describe('Google API', () => {
       const results = await GooglePlacesAPI.searchByKeyword(keyword, lat, lng);
       assert.ok(results);
       assert(results.length > 0);
-      const firstPlace = results[0];
+      const firstPlace = results[1];
       placeCheck(firstPlace);
     });
 

@@ -23,8 +23,7 @@ export async function _create(username, password, optional = {}) {
  * @returns {Promise}: the created user
  */
 export async function create(username, password, optional = {}) {
-  const salt = await bcrypt.genSalt();
-  const hashedPassword = await bcrypt.hash(password, salt);
+  const hashedPassword = await bcrypt.saltAndHash(password);
   return await _create(username, hashedPassword, optional);
 }
 
@@ -57,4 +56,20 @@ export async function findOneById(id) {
  */
 export async function comparePassword(candidatePassword, hash) {
   return await bcrypt.comparePassword(candidatePassword, hash);
+}
+
+/**
+ * Find and update a producer from their facebook id with specified fields
+ *
+ * @param {String} _id: producer's _id
+ * @param {Object} fields: key/value pairs with updated fields
+ * @returns {Promise} returns the producer without updates from the database
+ */
+export async function updateByObjectId(_id, fields) {
+  const updatedFields = fields;
+  if ('password' in updatedFields) {
+    const password = await bcrypt.saltAndHash(updatedFields.password);
+    updatedFields.password = password;
+  }
+  return await User.findOneAndUpdate({_id}, {$set: updatedFields}, {runValidators: true, new: true});
 }

@@ -3,6 +3,7 @@
  */
 
 import * as Producer from '../../api/controllers/producer.es6';
+import * as User from '../../api/controllers/user.es6';
 import Promise from 'bluebird';
 import fs from 'fs';
 import _ from 'lodash';
@@ -49,32 +50,16 @@ _.forEach(fileNames, file => {
 async function insertInDB(JSONObject) {
   const {name, username, password, description, profileImage, exampleOrder, address,
     percentageFee, transactionFee, optional, hours} = JSONObject;
+  let created = false;
+  let _id;
+  let userId;
+  let existingAddress;
   try {
-    const {_id} = await Producer.findOneByUsername(username);
+    const producer = await Producer.findOneByUsername(username);
+    _id = producer._id;
+    userId = producer.user._id;
+    existingAddress = producer.location.address;
     console.log(`Found existing producer by username: |${username}|. Updating producer...`);
-    try {
-      await Producer.updateByObjectId(_id, {name, username, password, description, percentageFee,
-        transactionFee, profileImage, exampleOrder, address});
-    } catch (errUpdating) {
-      console.log(`Error with updating ${errUpdating}`);
-      throw errUpdating;
-    }
-
-    try {
-      await Producer.deleteAllHours(_id);
-    } catch (deleteAllHours) {
-      console.log(`Delete All Hours ${deleteAllHours}`);
-      throw deleteAllHours;
-    }
-    try {
-      await Producer.addHours(_id, hours);
-    } catch (addHoursErr) {
-      console.log(`Add Hours ${addHoursErr}`);
-      throw addHoursErr;
-    }
-    if (!Utils.isEmpty(optional.producer)) {
-      await Producer.updateByObjectId(_id, optional.producer);
-    }
   } catch (err) {
     console.log(err);
     console.log(`Could not find existing producer by username: ${username}. Creating new producer...`);
@@ -83,17 +68,60 @@ async function insertInDB(JSONObject) {
         percentageFee, transactionFee, optional);
       const producer = await Producer.findOneByUsername(username);
       await Producer.addHours(producer._id, hours);
-      return true;
+      created = true;
     } catch (producerCreateError) {
       console.log(producerCreateError);
       console.log(`Could not create producer ${username} for some reason...`);
-      return null;
+      created = null;
     }
   }
-  return false;
-  // Use this for logging
-  // const producer = await Producer.findOneByUsername(username);
-  // console.log(producer);
+
+  // Run updates if already exists
+  if (!created) {
+    try {
+      await Producer.updateByObjectId(_id, {name, description, percentageFee,
+        transactionFee, profileImage, exampleOrder});
+    } catch (errUpdating) {
+      console.log(`Error with updating ${errUpdating}`);
+      throw errUpdating;
+    }
+
+    // Should limit the amount of Geocoding API calls that occur if addresses match
+    if (existingAddress !== address) {
+      try {
+        await Producer.updateByObjectId(_id, {address});
+      } catch (updateAddressErr) {
+        console.log(`Error with updating address ${updateAddressErr}`);
+        throw updateAddressErr;
+      }
+    }
+
+    try {
+      await User.updateByObjectId(userId, {password});
+    } catch (userUpdateErr) {
+      console.log(`Error with updating user ${userUpdateErr}`);
+      throw userUpdateErr;
+    }
+
+    try {
+      await Producer.deleteAllHours(_id);
+    } catch (deleteAllHours) {
+      console.log(`Delete All Hours ${deleteAllHours}`);
+      throw deleteAllHours;
+    }
+
+    try {
+      await Producer.addHours(_id, hours);
+    } catch (addHoursErr) {
+      console.log(`Add Hours ${addHoursErr}`);
+      throw addHoursErr;
+    }
+
+    if (!Utils.isEmpty(optional.producer)) {
+      await Producer.updateByObjectId(_id, optional.producer);
+    }
+  }
+  return created;
 }
 
 /**

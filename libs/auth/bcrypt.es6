@@ -3,7 +3,7 @@ import bcrypt from 'bcryptjs';
 /**
  * Generates salt for hashing
  *
- * @returns {Promise}: the salt
+ * @returns {Promise<String>}: the salt
  */
 export async function genSalt() {
   return new Promise((resolve, reject) => {
@@ -19,7 +19,7 @@ export async function genSalt() {
  *
  * @param {String} password: the password to hash
  * @param {String} salt: the salt used to encrypt
- * @returns {Promise}: the hashed password
+ * @returns {Promise<String>}: the hashed password
  */
 export async function hash(password, salt) {
   return new Promise((resolve, reject) => {
@@ -28,6 +28,17 @@ export async function hash(password, salt) {
       else resolve(hashedPassword);
     });
   });
+}
+
+/**
+ * Salts and hashes a password
+ *
+ * @param {String} password: password string
+ * @returns {String}: salted and hashed string
+ */
+export async function saltAndHash(password) {
+  const salt = await genSalt();
+  return await hash(password, salt);
 }
 
 /**
