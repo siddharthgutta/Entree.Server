@@ -5,6 +5,7 @@
 import * as Producer from '../../api/controllers/producer.es6';
 import * as User from '../../api/controllers/user.es6';
 import * as Utils from '../../libs/utils.es6';
+import Promise from 'bluebird';
 import _ from 'lodash';
 
 /**
@@ -78,7 +79,7 @@ async function addOrLinkUserIfDNE() {
   const linkingPromises = [];
   const removalPromises = [];
   for (let index = 0; index < producers.length; index++) {
-    const producer = producers[index];
+    const producer = producers[index].toJSON();
     if (Utils.isEmpty(producer.user) && Utils.isEmpty(producer.username)) {
       console.log(`${producer.name} has no username/password fields and no user!`);
       emptyFieldsEmptyUser++;
