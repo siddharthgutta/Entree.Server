@@ -7,8 +7,7 @@ import * as Consumer from '../../../api/controllers/consumer.es6';
 import * as Context from '../../../api/controllers/context.es6';
 import * as Order from '../../../api/controllers/order.es6';
 import {GenericMessageData, TextMessageData, ButtonMessageData,
-  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction,
-  VideoAttachmentMessageData} from '../../msg/facebook/message-data.es6';
+  ImageAttachmentMessageData, QuickReplyMessageData, CallToAction} from '../../msg/facebook/message-data.es6';
 import {ConsumerActions} from './actions.es6';
 import TypedSlackData from '../../notifier/typed-slack-data.es6';
 import * as Slack from '../../../api/controllers/slack.es6';
@@ -690,11 +689,13 @@ export default class ConsumerChatBot extends FbChatBot {
    */
   async _handleAndroid(consumer) {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
-      'click the \'…\' button, press \'Location\', and then press the send button');
+      `click the \'…\' button, press \'Location\', and then press the send button! If you're unsure what button to ` +
+      `press to send your location, refer to the video we are about to send you!`);
+    const img = new ImageAttachmentMessageData(`http://i.imgur.com/QwprqLi.gif`)
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text]});
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, img]});
   }
 
   /**
@@ -708,12 +709,11 @@ export default class ConsumerChatBot extends FbChatBot {
     const text = new TextMessageData(`We need your location to find food trucks near you. ` +
       `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
       ` refer to the video we are about to send you!`);
-    const video = new VideoAttachmentMessageData(`https://video.xx.fbcdn.net/v/t42.3356-2/13863546_1048964375191033_` +
-      `1506523789_n.mp4/video-1469478569.mp4?vabr=604435&oh=fceee7b5883cfd419f5262c1b949e003&oe=5798354B&dl=1`);
+    const img = new ImageAttachmentMessageData(`http://i.imgur.com/amybFGn.gifv`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
-    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, video]});
+    return this.genResponse({consumerFbId: consumer.fbId, consumerMsgs: [text, img]});
   }
 
   /**
