@@ -691,7 +691,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const text = new TextMessageData('We need your location to find food trucks near you. ' +
       `click the \'…\' button, press \'Location\', and then press the send button! If you're unsure what button to ` +
       `press to send your location, refer to the video we are about to send you!`);
-    const img = new ImageAttachmentMessageData(`http://i.imgur.com/QwprqLi.gif`);
+    const img = new ImageAttachmentMessageData(`https://media.giphy.com/media/26BRBkNA75SnuAaFa/giphy.gif`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
@@ -709,7 +709,7 @@ export default class ConsumerChatBot extends FbChatBot {
     const text = new TextMessageData(`We need your location to find food trucks near you. ` +
       `Tap the location button to send us your location! If you're unsure what button to press to send your location,` +
       ` refer to the video we are about to send you!`);
-    const img = new ImageAttachmentMessageData(`http://i.imgur.com/amybFGn.gifv`);
+    const img = new ImageAttachmentMessageData(`http://i.imgur.com/QwprqLi.gif`);
     const {context: {_id: contextId}} = consumer;
     await Context.updateFields(contextId, {lastAction: ConsumerActions.location});
 
