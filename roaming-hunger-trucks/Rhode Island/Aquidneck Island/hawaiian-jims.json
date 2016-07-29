@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hawaiian Jim's is serving up some superb shave ice on the streets of Rhode Island! Stop by and try authentic Hawaiian shave ice with all the fantastic flavors you could ask for--you'll never be disappointed when you try this terrific truck. For a frozen treat that just can't be beat, look for Hawaiian Jim's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hawaiian Jim's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564a4e81-3048-4598-9413-549746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

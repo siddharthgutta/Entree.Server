@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic street food for a modern mobile world is ready and waiting to satisfy you today! Ritro Vending is cooking up the very best in that old school American favorite, the hot dog. Made with quality ingredients and with all the toppings you can imagine, you've never had hot dogs like this before! The perfect caterers for any and every event, Ritro Vending is just what you've been looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ritro Vending",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13207/5730cdf2-f418-4561-a035-1cd446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

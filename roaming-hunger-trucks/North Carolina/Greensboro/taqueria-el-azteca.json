@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Greensboro, NC Taqueria El Azteca has been cooking up a host of yummy tacos for its hungry North Carolinian residents. A menu must-try are the fish tacos, made baja style topped with pico de gallo and a slice of avocado. Stop by and try a daily special!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria El Azteca",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522f9b2e-dbcc-4c66-8ef6-50dc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

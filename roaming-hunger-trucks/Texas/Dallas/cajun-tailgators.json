@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cajun Tailgators is a Rolling Gourmet Food Truck & has expanded to a caf\u00e9 in downtown Plano, TX. Coming Soon to the Dallas Farmers Market in May 2015! Come find us! We make our Cajun dishes from scratch! Voted Best Food Truck in Dallas 2014! Best Cajun Restaurant in Plano 2014!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cajun Tailgators",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2860/54c79fd6-a918-4040-803f-15d246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

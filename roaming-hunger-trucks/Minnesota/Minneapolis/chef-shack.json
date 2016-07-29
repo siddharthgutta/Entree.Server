@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chef Shack is a mobile kitchen serving up some of the tastiest street food in Minneapolis. Started in 2007 by two of the Twin Cities' best known chefs - Carrie Summer and Lisa Carlson, you can find the Chef Shack at the Mill City Farmers' Market on Saturday mornings.Summer and her savory counterpoint, chef Lisa Carlson, each have 20 years of experience working in notable fine-dining kitchens in Minneapolis, New York, and San Francisco\u2014as well as a knack for throwing extravagant underground dinner parties. The two met in 2001, when Carlson opened Caf\u00e9 Barbette and hired Summer as her sous chef.Indian-spiced mini donuts fried to perfection, decadent chocolate mousse and creme brulee topped with caramelized bananas, triple-chocolate coconut cookies, and softly whipped cream are a few of Summer's delicious creations. Carlson whips up a savory menu of tomato/watermelon gazpacho, pulled pork nachos and sandwiches, cheese curds, natural grass fed beef hot dogs, asparagus, ribs and hand cut fries. Yum!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e3add30-f120-4c76-9254-351146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

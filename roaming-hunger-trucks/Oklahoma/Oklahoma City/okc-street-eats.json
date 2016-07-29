@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We serve scratch made comfort food using fresh ingredients. Our menu consists of hand cut loaded fries, Philly cheesesteak sliders with our special cheese sauce, BBQ shredded chicken sliders, turkey wrap with fried avocado and avocado basil cream sauce and chicken fajita style tacos. All items are made to order and include our own special twist. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "OKC Street Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9217/55297f8f-fb4c-434e-880a-3c2646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

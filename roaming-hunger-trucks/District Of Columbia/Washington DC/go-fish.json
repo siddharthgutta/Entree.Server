@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Go Fish Mobile Market offers a lunch menu by day and is a dinner market by evening. Serving the DC Metro area, Go Fish offers a signature MD Crab Roll, Crab cake sandwich, Salmon Burger, Grilled Tuna Panini, Shrimp Salad, and more for lunch. Evenings you can grab marinated fish, Seafood Kabobs. crab cake mixture and more for dinner tonight! We want you to eat more fish!To learn more about owner and chef David Stein, and why he opened Go Fish! in the first place, check out Roaming Hunger's interview with him here: http://roaminghunger.com/blog/4429/featured-food-truck-go-fish",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Go Fish!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e2787c3-04f0-4f5f-bf2b-702a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

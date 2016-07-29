@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vivi's Yummy Rolls is cooking up the very best in Vietnamese cuisine on the Portland street food scene! Your favorite rolls, Bahn Mi, and more are all on this terrific truck's menu. Don't wait, visit Vivi's Yummy Rolls today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vivi's Yummy Rolls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5616f0fc-6be4-4828-918c-2d4f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

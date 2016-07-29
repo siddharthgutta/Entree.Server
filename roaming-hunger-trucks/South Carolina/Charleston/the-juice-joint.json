@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The mission of The Juice Joint is to offer its customers supremely healthy and nutrient-dense juices made from whole, organic, sustainable raw fruits and vegetables; whole fruit smoothies; & healthy and delicious breakfast, lunch, and snack offerings. With such a great goal and such awesome options, how could you say no?",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Juice Joint",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54171a1d-d190-4d7b-ad35-543f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

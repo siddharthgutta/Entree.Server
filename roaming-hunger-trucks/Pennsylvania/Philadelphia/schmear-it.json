@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Schmear It is Philly's first and only food truck serving bagels with your personalized, custom-crafted spreads AND social good!In addition to offering fresh bagels, unique schmears, and gourmet coffee, the truck doubles as a grassroots fundraising and marketing platform, raising awareness and donating a portion of sales to a new local cause every two weeks.Let's spread some good!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Schmear It",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5233c70c-fef0-43bd-98c4-43ef46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

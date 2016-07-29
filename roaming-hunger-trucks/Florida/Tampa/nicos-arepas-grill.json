@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nico's Arepas Grill is cooking up that classic Venezuelan dish on  street near you! Arepas are small, tasty, and perfect to eat any time of day! Have one with cheese, chicken, beef, shrimp, or all of them at once! For a great taste and a great time, look for Nico's Arepas Grill today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nico's Arepas Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5564a34c-48b0-47ec-81f1-1bb646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

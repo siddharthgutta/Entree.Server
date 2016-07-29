@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "South Florida's new-age Mexican food truck. Our menu includes soft and hard shell tacos with chicken, steak, pork and our signature loco meat.We also offer burritos, bowls chimichanga's, quesadilla's loaded nachos and our famous 'Sloppy Juan.'",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Poblanos Mexican Fusion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539635de-6390-4ae6-87ad-261d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

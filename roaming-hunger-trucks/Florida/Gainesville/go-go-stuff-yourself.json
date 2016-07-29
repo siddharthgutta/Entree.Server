@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Go Go Stuff Yourself is on the go! Gainesville's best truck for delicious, on-the-go food is bringing you the best burgers, tacos, hot dogs, and more! So if you're looking for fantastic food and amazing service at a great price you can't go wrong with Go Go Stuff Yourself!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Go Go Stuff Yourself",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5553bfaa-f240-430d-8fd3-460646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

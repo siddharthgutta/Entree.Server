@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Foodies of DFW, you\u2019ll be thankful to this state-of-the-art truck for bringing the Yummy Yankee flavors of Binghamton, New York down south and straight to your mouths.Their mouth-watering menu features all the classic NY eats; delicious Pizza, Gyros, Wings, and of course...Spiedies!Right before your eyes, these culinary masters skewer juicy marinated chunks of steak or chicken (whichever you choose) along with onions, tomatoes, and green peppers, then grill it all up for maximum flavor. From there, you can either keep the Kabob or go with a Hoagie and get a drizzle of smoky chipotle mayo.Mmm...so yes indeedy, come try this truck\u2019s treats because we know you feel the need...the need for Spiedies!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yummy Spiedies Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56fad930-4c44-4028-9501-50c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

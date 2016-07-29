@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The first Japanese food truck in the bay area, Japacurry strives to provide the authentic curry dishes that make it the most popular family meal served at homes throughout Japan. The recipe for Japacurry is based on Jay's special style and the curry is made from scratch and takes several days of cooking with secret spices and superior ingredients. The end result is a delicious meal that is made with care and provided at a price that is reasonable for all.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JapaCurry",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e52f4fa-96b8-4b6f-bd9b-7c5a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

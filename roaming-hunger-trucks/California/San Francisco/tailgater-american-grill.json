@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tailgater American Grill is a mobile food trailer/catering business. They specialize in grilled food such as gourmet burgers, pulled pork, ribs, chicken, Tri-tip, and even fish. Their signature item is the tailgater burger:grass-fed beef patty on toasted bun with pepper jack cheese, Cajun mayo, jalape\u00f1os, and lettuce/tomato, but we always have some new and exciting entree for the week.  They also have fabulous salads and sides. A couple of example of them are:  red potato salad with blue cheese, finely chopped green onion, and olives with a little spicy dressing or our \"adult\" Mac-n-cheese with three cheeses, jalape\u00f1o, and applewood smoked bacon. Yum!!   Try an awesome peanut butter/ dark chocolate cookie for desert  too!In addition they also make breakfast and have a great fried egg, cheese, and applewood smoke bacon sandwich or French toast fingers with maple syrup and powdered sugar.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tailgater American Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539a48de-ed74-4744-a95a-6e3b46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

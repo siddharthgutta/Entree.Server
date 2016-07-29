@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The most important meal of the day is just the beginning when it comes to The magpie and their amazing menu! The down-home diner experience is on the move for your eating pleasure today. Breakfast, lunch, pie, and more, The magpie has something delicious for every appetite! If you're after the freshest fare that Alaska has to offer, then there's nobody like The magpie!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The magpie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5625719d-59f4-4f3d-b09e-543146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ya! Crave is Asia Kitchen's fabulous Asian-Fusion food truck, located in lovely Orlando, Florida. With options including Chinese, Japanese, Korean, Thai and Vietnamese fare, you're sure to find a great Asian dish you'll love! Stop by and grab a delicious meal at Ya! Crave.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ya! Crave",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56048fd0-b3a4-4f88-809f-110b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

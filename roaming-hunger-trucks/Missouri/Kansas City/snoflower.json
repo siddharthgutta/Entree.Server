@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the tastiest shaved ice in Kansas? Then what you're looking for is SnoFlower! Serving fantastic frozen treats on the streets of Kansas City, SnoFlower is the best way to enjoy a warm day on the go. With dozens of flavors to mix and match, SnoFlower will have the perfect one for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SnoFlower",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ad6301-03dc-4c95-b848-30a146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Crab Cab is a 5 Star mobile \"restaurant\" on wheels that is nevertheless affordable! This truck uses the freshest ingredients to create delectable soups, and sumptuous \"finger-licking\" crab cakes. But the menu doesn't stop there! It also includes succulent hickory-smoked salmon that literally melts in your mouth. Hungry for a bite? Just make sure when you see the signature yellow and black checkerboard logo with Mr. Crabby on it with his shades on that you hail it to stop like a New York City Cab. You will be glad that you did. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Crab Cab",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543f01d9-d180-4143-a957-7a3546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

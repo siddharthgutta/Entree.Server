@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot dogs, frozen treats, and good times are making their way down the streets of Virginia, thanks to Mobilee Delicious! Always ready to serve at your most important events, this food truck's menu is sure to satisfy your guests tastes buds. Grab the best treats on the Virginia streets, with the amazing Mobilee Delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobilee Delicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a922cb-1af4-40a9-a48a-12d846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

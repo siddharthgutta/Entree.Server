@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Double D's Bama-Q is bringing the very best in Alabama style BBQ to the streets of Connecticut! Chef Dave Dumas is bringing over 45 years of experience in the world of Southern BBQ to you. For the finest in ribs, chicken, seafood, and more, Double D's Bama-Q is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Double D's Bama-Q",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f74054-ada8-4e44-872b-70f046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

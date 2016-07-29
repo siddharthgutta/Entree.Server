@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Seb's Wood-Fired Cuisine is bringing delicious food straight to you! A mobile oven that's ready and waiting to come to your next event, Seb's Wood-Fired Cuisine is the perfect way to feed you and your guests, Organic food made fresh for you is on the way today at this great trailer!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seb's Wood-Fired Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5612d178-7e98-4662-ab5e-693b46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

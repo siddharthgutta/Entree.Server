@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Great tasting food at reasonable prices. Our menu includes tacos, burritos, tamales, tortas, and Mexican Nachos (our signature dish). All of our dishes are made with top quality meats and fresh produce. Our food has the  homemade taste, come and see for yourself. One of our favorite dish is the Mexican Nacho, includes chips, beans, cheese, onions, cilantro, tomatoes, avocado, and sour cream. It will rock your world!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Do\u00f1a Luz Mexican Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5384cd09-52c4-4cde-bad3-65fe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

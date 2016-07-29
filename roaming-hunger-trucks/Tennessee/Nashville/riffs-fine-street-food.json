@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Riff's Fine Street Food is out and roaming the streets of Nashville. The guys at Riffs have a love for street food that is unparalleled.  Riff's is serving up food with influences that come everywhere from Bangkok to Oaxaca, and their local, organic, and sustainable menu is changing with the seasons.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Riff's Fine Street Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52151cc9-7430-4020-98d3-5d1746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

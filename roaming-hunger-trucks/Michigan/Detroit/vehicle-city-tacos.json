@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best tacos in Flint? Vehicle City Tacos has you covered! Offering great food made in Flint, this truck is serving up that hometown quality with fresh, locally sourced ingredients and a love for their community. These are tacos done right! Try The Clucker, The Oinker, The Capper, or any of their amazing menu items today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vehicle City Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ad3d40-7ccc-4810-9d03-52ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

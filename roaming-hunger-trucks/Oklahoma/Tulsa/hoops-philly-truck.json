@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic concessions on the move with great attitude are coming your way, thanks to Hoop's Philly Truck! Cheesesteaks, Polish Sausage, Jumbo Corn Dogs, and so many more delicious dishes are on the menu and waiting for you. Grab some great grub that'll really stick to your ribs today from Hoop's Philly Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hoop's Philly Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e8bc10-1064-49a5-811e-7a5446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

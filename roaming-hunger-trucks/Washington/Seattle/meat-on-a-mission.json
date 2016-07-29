@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best BBQ around? Then you're in luck because we have Meat On A Mission! Mixing traditions from across the country, Meat On A Mission really is on a mission... To bring you the best BBQ possible! Pulled pork, brisket, delicious steak for the paleo among us, and even a salad made of \"what food eats\", Meat On A Mission has something for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Meat On A Mission",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589f2cf-a764-42c1-a260-3eca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

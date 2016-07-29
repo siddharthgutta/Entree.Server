@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Blacktop Grill is serving up delicious gourmet dogs, Latin fusion eats, and other tasty fare to the Tucson area. From the Hawaiian dog, topped with crushed pineapple, red onion, baked coconut, and sliced jalapenos, to the Melted Mozzarella Quesadilla, these inventive eats are sure to blow you away with your first bite! Don't believe us? Find out for yourself, when the Blacktop Grill hits a street near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Blacktop Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5515e318-e518-4cf3-8541-1a4a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

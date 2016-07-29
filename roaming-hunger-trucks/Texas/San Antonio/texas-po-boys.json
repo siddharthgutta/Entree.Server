@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Texas PO' Boys is serving up an awesome old fashioned sandwich with a fantastic Texas twist! Savory flavor to make your mouth water is what you'll find on this amazing menu. For the best burgers, sandwiches, and so much more, keep an eye out for Texas PO' Boys!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Texas PO' Boys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ef4b11-6544-44a5-a5c0-01b546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

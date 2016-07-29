@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Two for the Road is a mobile food truck specializing in American comfort food. Our menu changes weekly so we may bring all of our favorites for you to enjoy. We'll always have a special burger, outrageous hot dogs and kicked-up corn dogs. Each week we'll have a few regional specials like New England Lobster Rolls, Miami Mojito Chicken Sandwiches or Seattle Salmon Burgers. Our truck will also have a great selection of unique and retro sodas and chips to match our menus. We've partnered with THE CRAVORY cookies for dessert. If you've had these fantastic cookies you know they are the best EVER! We use all fresh ingredients, never frozen and hormone free. Our corn dogs and hot dogs are Hebrew National so you know they're tops.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Two for the Road",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d71af73-7cd4-405b-a0c8-310c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

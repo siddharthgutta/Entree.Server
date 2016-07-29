@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're in the mood for Thai food with a gourmet twist, look no further than Los Angeles' Arroy Food Truck! Choose from a variety of Thai sliders that include juicy pork belly and yummy chicken satay slathered in nutty peanut sauce! Top off your meal with some refreshingly sweet thai iced tea or lychee limeade. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arroy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5772c08a-e4b8-4662-8a8c-162846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

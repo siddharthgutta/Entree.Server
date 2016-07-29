@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Thanks for visiting us at DC Taco! We are committed to using the freshest ingredients, made with generous portions from locations convenient to you! Choose your filling, from steak, fish, chicken, shrimp, and veggie, or mix & match, and then add one of our amazing sauces to the top! A great way to brighten your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DC Taco Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5011aa5d-d8bc-446a-bb6f-7ec946204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

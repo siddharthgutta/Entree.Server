@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Traveling Cup is bringing the brew to you! A cup of coffee you won't find anywhere else, this is just what you need to carry you through your day when you're adventuring out on the streets of Arizona. For a wonderful way to start your day, or a great drink at any time of day, The Traveling Cup is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Traveling Cup",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13136/574d0d09-1020-412a-99a6-0bf146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

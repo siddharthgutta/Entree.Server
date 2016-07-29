@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yummy Box was established with the intention of producing favorite street foods visitors to Asia often enjoy, and incorporating these flavors with fresh, locally-sourced ingredients.   Their mission? For customers to enjoy this mouth-watering Asian street food, and to bring a new kind of dining experience to the streets of Seattle.After all, boxes from around the world are yummy in their own special ways!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yummy Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54186f4a-11ec-4409-9a0b-1bae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

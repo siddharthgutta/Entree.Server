@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Parfait's organic ice cream is skillfully handcrafted in small batches from local, 100% organic dairy, eggs, and produce. From the simple vanilla bean to the stupendous rosemary pine nut brittle, these amazing flavors are guaranteed to blow you away. For the true decadent experience, try one of these flavors sandwiched between two brownies made fresh and delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Parfait Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4cdb45d0-3e38-433f-abad-4ba846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

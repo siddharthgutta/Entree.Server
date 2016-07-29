@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Foodies of Keene, New Hampshire sure find this family-run truck to be quite keen, with its delicious selection of homemade vegetarian cuisine. Their selection of vegetarian/vegan Salads, Sandwiches, Burgers, and Quesadillas are all made with fresh local ingredients, and with every meal you order here, you\u2019ll know that you\u2019re helping a small farm to grow. We also hear that their incredible Chai beverages (hot or iced) are an absolute must-try. So just ask any local, and they will confess that the fare from Farm Concessions is simply the best.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Farm Concessions",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5723cdda-4f9c-4f4e-8a9d-1ccb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

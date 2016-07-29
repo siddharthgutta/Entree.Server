@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taco Green-Go is a local, Chef owned and operated, eco-friendly, food truck, offering a rotating selection of fusion style street food. Some of their featured items are Mexican-style ceviche, fried macaroni and cheese balls and chicken mole tacos. Everything Taco Green-Go serves is fresh and homemade, no microwaves, canned, or pre-packaged food are used to produce meals. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Green-Go!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53974799-d6c8-4129-bb72-71f046204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

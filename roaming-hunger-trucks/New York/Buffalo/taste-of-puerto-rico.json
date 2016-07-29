@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the most flavorful food on the move in Buffalo, then look no further than Taste of Puerto Rico! Island flavors you're sure to savor are on the menu and ready to satisfy your hunger. If you're craving something delicious to shake up your everyday lunch routine, then Taste of Puerto Rico is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste of Puerto Rico",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d75ff8-4974-4aac-8a6a-62e846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

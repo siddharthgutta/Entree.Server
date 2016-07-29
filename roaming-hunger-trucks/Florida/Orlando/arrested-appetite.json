@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing together some of the greatest culinary traditions on Earth, Arrested Appetite is serving up just what you need! Spanish paella, Puerto Rican empanadas, Mexican enchiladas--Arrested Appetite has all this and more. Taking pride in every dish they provide, these fantastic chefs are the perfect people to cater your next big event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arrested Appetite",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5693f5fd-d9c4-4b57-afff-48e246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Creperie Saint Germain is San Francisco\u2019s healthlicious street food vendor of sweet and savory crepes made with organic buckwheat and fresh, seasonal ingredients. Organic buckwheat is a highly energizing and nutrious fruit seed rich in magnesium and dietary fiber that has a more distinctive flavor than wheat. Buckwheat is the key traditional ingredient used to make crepes in French kitchens across the world. It provides for a delicious taste while keeping the texture light and easily digestible. We are waiting everybody for a bite at Creperie Saint Germain!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Creperie Saint Germain",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ce76972-4864-4861-8694-745246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

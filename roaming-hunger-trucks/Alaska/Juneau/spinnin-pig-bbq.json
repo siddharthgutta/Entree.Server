@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Spinnin' Pig BBQ is making downhome eats on the streets of Juneau, today! Spinnin' Pig BBQ's magnificent menu is packed with all your favorite Southern style dishes. If you're craving some first-class fare with amazing BBQ flair, there's nobody better than Spinnin' Pig BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spinnin' Pig BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5629037d-d61c-48a9-b42f-4b4746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

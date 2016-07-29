@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "JR's BBQ is bringing the best BBQ in Ocala to a street corner near you! Cooked to perfection, you'll never find better burgers, ribs, pulled pork, cheesesteak, or any of their delicious dishes! If you're looking for mouthwatering meat that falls right off the bone then JR's BBQ is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JR's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555cb857-715c-44b4-843a-22d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

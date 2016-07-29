@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The PAC Pastries truck serves gluten free, vegan and organic pastries made with only the healthiest and most natural ingredients so you can have your cake and eat it too! Based out of Palm Beach County. Most known for their \"can't tell the difference\" cupcakes, donut holes and cookies. They can cater to ANY allergy and want anyone to be able to indulge a little, every now and then.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PAC Pastries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52951040-729c-43f3-9a8f-4d1946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

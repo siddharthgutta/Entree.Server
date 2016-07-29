@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This food truck has the best handpatty burgers and deep fried catfish you could ever hope to try, and they're serving directly to the streets of Little Rock. Everything is freshly cooked to order, the hamburgers are handmade from 80/20 Angus Beef, and the nachos use real cheese, and FRESH produce. Stop by and grab a delicious bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jackie's Mobile Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7ae60-20f8-44a4-a070-45c646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

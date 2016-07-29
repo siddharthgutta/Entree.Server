@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hensen's Grill is serving up the best of the best right here in the heart of Oregon! Hamburgers, hot dogs, teriyaki chicken hoagies, and more are waiting to satisfy your cravings! And let's not forget Hensen's amazing Hawaiian-style shave ice, with all their amazing flavors flown straight from Hawaii for that authentic flavor. Hensen's Grill, your soon-to-be-favorite place for fantastic food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hensen's Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558d9633-7424-4972-8532-2f5846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

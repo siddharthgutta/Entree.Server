@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You can't miss this fire truck red Portland cart, and once you get a taste of their Thai grub you'll be glad you didn't! Portland foodies can't get enough of their traditional Asian dishes like pineapple fried rice, pad thai, and cashew nut chicken. Make sure you also get an order of their freshly made spring rolls. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sawasdee Thai Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5249f520-dc38-40ab-9209-29b446204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

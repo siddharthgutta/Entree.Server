@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vagabond Food Truck is wandering through Pittsburgh and dishing out local & organic deliciousness.Chef Michael Madigan and his talented team have put together a tasty selection of tacos, burritos, tortas, and more, all made with the utmost care and quality. These fantastic eats are perfect for any kind of party or event, so be sure to have Vagabond Food Truck come cater for you soon. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vagabond Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577d7756-fcf4-4208-8c00-541746204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

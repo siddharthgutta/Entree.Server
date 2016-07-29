@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "HP's Smokehouse BBQ is a BBQ truck serving the streets of Kirkland and the surrounding areas. The menu includes savory wood-smoked pulled pork sandwiches, baby back ribs, chicken breast sandwiches, hot links, and beef brisket, all enhanced with HP's smokehouse BBQ sauce, and accompanied by a delicious downhome side. If this description has already set your tummy rumbling, check out HP's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "HP's Smokehouse BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418b8e6-884c-4bbf-afd4-3b5046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

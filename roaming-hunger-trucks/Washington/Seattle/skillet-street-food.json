@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Skillet is a Seattle-based brand that redefines modern American food: approachable, upscale, prepared with classic technique, and using local and seasonal ingredients. Skillet includes three restaurants, the Skillet Diner Ballard, Skillet Diner Capitol Hill and the Skillet: Counter at the Seattle Center; a line of food products that includes Skillet\u2019s signature line of bacon jams and condiments; and the original Skillet Street Food trucks that hit the streets and cater weddings, corporate or community events.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Skillet Street Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/172/56d5fe5c-f8dc-458e-a62c-5ca446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

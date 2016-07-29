@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Steve-O is a unique sandwich perfected over 30 years by machinist and Vietnam veteran Steve Moreno. It consists of iconic dishes, layered between two toasted, sealed tortillas. Each Steve-O is carefully designed by Chef Jed Moreno. It is fresh and packed with flavor.Steve invented the sandwich in 1981 to keep food out of his long beard. Originally named the Moreno Burrito, it was launched at Cinnamon's Bakery in Wrightwood, Calif., and subsequently renamed the Steve-O.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Steve-O's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8270/549f3d51-c844-4632-ba2e-565646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet food coming to a street near you! Mohawk Freestyle Grill is a fantastic food truck led by the classically trained chef, Aaron Hanover, who's ready, willing, and able to serve you food made with the very best skills he learned in school and on his travels! In true Freestyle spirit, the menu changes often, but is always filled with quality and value!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mohawk Freestyle Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553aa631-a5ac-42ac-b33c-0fac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

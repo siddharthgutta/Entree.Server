@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The El Cubanito Subs has everything you need when it comes to delicious sandwiches. The latin cuban fusion sandwiches pack a punch of flavor in every bite. They have perfected the cuban sandwich and have created a colossal menu with many delicious options. You can't drive past this roaming kitchen without given it a try!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Cubanito Subs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554bcc54-1d1c-4a65-a765-1f9946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

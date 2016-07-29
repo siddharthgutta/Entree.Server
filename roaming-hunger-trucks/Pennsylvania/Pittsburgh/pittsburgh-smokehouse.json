@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best BBQ east of Texas is right around the corner, thanks to Pittsburgh Smokehouse! Cooked low and slow for that perfect BBQ flavor and tenderness, these are real stick-to-your-ribs meals made to satisfy your hunger unlike anything else around. If you're hungry for delicious brisket, pulled pork, ribs, and more, there's nobody better than Pittsburgh Smokehouse!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pittsburgh Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56672435-0504-4804-b013-684246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best hot dogs you'll ever have are coming right to you, courtesy of Twister Dogs! Hot dogs are the classic mobile meal, and they've never tasted better than they do on the streets of Oklahoma today. 100% beef, 100% fun, 100% guaranteed, that's what you'll find when you get your hot dogs at Twister Dogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Twister Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c53b16-523c-4960-8b1c-470346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

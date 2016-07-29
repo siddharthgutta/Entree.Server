@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Indulge yourself with Hart's Soda Shop's handmade sodas, floats, and sundaes! This great mobile sweetery is just like a classic ice cream shop, but with a delicious modern twist. Hart Soda Shop is sure to enliven any event with their splendid beverages and sweet treats.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hart's Soda Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12955/56dcd53f-0790-4148-9e60-3ef746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

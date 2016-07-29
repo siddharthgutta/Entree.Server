@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For those of you who have watched (with visions of tasty grilled hot dogs dancing in your eyes) the lot next door to Memphis Taproom sloooowy become our new Beer Garden, to you, we proudly say...TAADAA!We offer hot dogs and canned beverages for take out. Sorry, we cannot package the Fried Pickles to go. There is no telephone in the truck, so call ahead take out orders are not possible (no calling the bar, please!). Come on out and see us in person to place your take out order!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beer Garden",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dc6441f-00cc-4493-b5d1-110646204482.gif",
+  "transactionFee": 30,
+  "username": ""
+}

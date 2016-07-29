@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot dog, hot dog, get your hot dog here! Located in the South Lake Tahoe area, Pretty Odd Weiners is serving up hot and fresh hot dogs, exotic sausages, and even vegan tofurkey dogs. Some of the favorite items are the Chicago dog and the cheddar stuffed elk sausage!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pretty Odd Weiners",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55563738-97d4-4ad3-b05e-56d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

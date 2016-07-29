@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At RedEye Barbeque they make sure they deliver nothing but the highest quality meats to their hungry customers. Their meats are seasoned with fresh rubs, then smoked over all-natural hardwood charcoal to give them just the right amount of signature wood flavor notes. In addition they offer tasty fresh sides like locally sourced seasonal veggies. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "RedEye Barbeque",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522f9ee2-6620-4ee7-ba8b-545246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

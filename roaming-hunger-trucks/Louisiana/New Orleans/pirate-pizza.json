@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best food bike on the streets is rolling up to your curb with the best pizza you've ever had! Pirate Pizza's handmade Razor Thin crust is just the beginning when it comes to these fantastic pies. Their selection of fresh toppings and sauces combined with a fantastic four cheese blend are sure to make your taste buds take notice. For the best pizza on the move in New Orleans there's no question, it's got to be Pirate Pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pirate Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b6b994-8fe0-449f-9557-363946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

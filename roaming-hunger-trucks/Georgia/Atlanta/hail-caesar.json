@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hail Caesar food truck features house-made gourmet salads and fresh to order sandwiches for Atlanta. Featuring four types of homemade Caesar dressing, including \u201dguilt-free\u201d that makes a salad of less than 50 calories, this truck sports a great menu of delicious, healthy foods. And healthy doesn't have to mean tasteless! The \u201cspoonable\u201d salads are served \u201cstreet food\u201d style in cones and paired with delightful polenta shortbread, and the crunchy wraps are complemented with homemade chips.Create your own salad or wrap and see where the rubber meets the road when it comes to the best Caesar salad in Atlanta. Hail Caesar! Hail Food Trucks!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hail Caesar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dec1f5a-e7c4-4b6f-9a85-3dd646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

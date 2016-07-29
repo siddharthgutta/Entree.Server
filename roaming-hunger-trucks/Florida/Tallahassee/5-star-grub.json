@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Florida's finest mobile eatery is on its way to you today, thanks to 5 Star Grub! This food truck's name says it all--they're cooking up only the best street cuisine you will ever see. BBQ cooked with their homemade sauces, burgers made hot and fresh, sandwiches you're sure to love, and so much more are finally here, so don't miss out on the awesome eating experience that is 5 Star Grub!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "5 Star Grub",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5626b293-5978-4bff-a420-252746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

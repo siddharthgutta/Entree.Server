@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BoDawgs, established in Reno, NV June 2010, serves up custom made hot dogs with an island flare.  The traditional \"BoDawg\" derives its name from the the restaurant's habit forming secret sauce, nicknamed The Bodacious Sauce, and the 1/4 lb charbroiled hot dogs that get smothered in it.Come out and enjoy a great Dawg!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bo Dawgs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/507f2730-348c-43ec-acfa-3b8446204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

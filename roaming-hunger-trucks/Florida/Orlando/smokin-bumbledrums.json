@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smokin Bumbledrums is serving up the finest cheesesteaks outside of Philadelphia! Made with genuine sirloin, rib, American white cheese, and Amoroso rolls, every bite of these fantastic sandwiches is sure to be incredible. Customize your order with their fresh onions, bell peppers, mushrooms, and so much more! Philly's best grub is right in the heart of Florida today, and it's coming to a curb near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smokin Bumbledrums",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b128db-2278-4a01-812d-16b746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

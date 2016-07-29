@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frozen treats for one and all, Mr. Freeze Ice Cream Truck is serving up only the best! Your sweet tooth will be the happiest it's ever been when you grab a cool cone, Banana Boat, Sundae, or any of their other delicious treats. Keep cool on the Orlando streets with Mr. Freeze, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr. Freeze Ice Cream Trucks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13168/57167b88-6c88-4cd8-ae12-6e7e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

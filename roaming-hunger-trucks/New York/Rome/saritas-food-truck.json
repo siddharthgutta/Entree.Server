@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have you been hankering for the finest empanadas this side of the Atlantic? Then Sarita's is the food truck for you! This classic Spanish dish is making its way through the streets of New York, with a delightfully American twist to give your taste buds a little extra treat. Sweet and savory empanadas, fresh fruit smoothies, and a selection of snacks for any appetite mean that you'll always find something to love when Sarita's Food Truck rolls up to a curb near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sarita's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56eb086b-0498-4a9a-bda7-2b1146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

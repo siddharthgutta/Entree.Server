@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mucho Bueno prides itself in using only the freshest, most flavorful, locally sourced and high quality ingredients for their menu items. A must-try is their pulled pork taco, which features slow cooked and tender pulled pork that melts in your mouth! In addition their rotating menu also features a host of healthy sandwiches and vegetarian options! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mucho Bueno",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5233c969-865c-4902-a4b6-285f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

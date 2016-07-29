@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food for the night owl in all of us, Midnight Munchies is making its way to you! Quality cuisine to see you through the night shift is hard to come by, but thanks to Midnight Munchies it's now right around the corner. Burgers, tacos, hot dogs, and more... Midnight Munchies has everything you want!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Midnight Munchies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561eacf7-0330-499f-a0d1-360f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

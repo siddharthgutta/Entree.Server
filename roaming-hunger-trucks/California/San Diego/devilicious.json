@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Devilicious is serving up amazing food to San Diego, the likes of which you've never seen before! Far from your simple white bread and American cheese, the grilled cheeses from this truck can have butter poached lobster or duck confit of their freshly-baked artisan sourdough bread. The crab cake comes on a sourdough English muffin with the incredible House Spicy Aioli, and an optional egg on top. And let's not forget the truffled parmesan fries. Food so good, it's bad!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Devilicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e87bd92-bfe4-48b3-a1d5-3bb146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

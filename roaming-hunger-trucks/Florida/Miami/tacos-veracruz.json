@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tacos Veracruz is a taco truck serving Southern Florida with he most delicious authentic Mexican food you'll find! With recipes originating from Cordoba Veracruz Mexico, and fresh with all Florida grown veggies, these tasty bites are sure to please. And if tacos aren't your speed, try tamales, a quesadilla, or a burrito instead!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos Veracruz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54515f22-1ee4-4a37-bb03-775846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

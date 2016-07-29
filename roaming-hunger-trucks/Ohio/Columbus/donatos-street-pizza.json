@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Donatos Street Pizza has perfected thin crust pizza for over five decades, and what started as a pizza shop has now expanded to the modern food scene. This outstanding pizza has an unmistakable presentation, not hiding the savory toppings under the cheese. Proud to serve pizza fans of Columbus, Ohio, Donatos has you covered every time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Donatos Street Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559d9bc6-e014-4e79-8d93-0f6146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

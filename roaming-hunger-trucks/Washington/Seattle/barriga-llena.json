@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of Mexico City in the heart of Seattle, it must be Barriga Llena! The first and the best, Barriga Llena introduced Seattle to the true Mexico City-style torta and it's delicious flavor! With a variety of different styles, you've just got to try this award-winning menu from Barriga Llena!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Barriga Llena",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5578ab32-a900-4109-a680-175046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

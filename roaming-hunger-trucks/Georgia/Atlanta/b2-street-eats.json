@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for some superb Soul food in the heart of Georgia? B2 Street Eats is serving up nothing but the best! Providing a menu full of healthier choices and all the flavor you've been craving, these astounding turkey and chicken dishes will always satisfy your hunger. With their Turkey Legs, Southern Fried Corn, Philly Chicken & Cheese, and so much more, B2 Street Eats is sure to be your new favorite food truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "B2 Street Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56733885-0b70-4080-8f89-424c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

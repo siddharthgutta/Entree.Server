@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We\u2019re all aware that Orlando is the land o\u2019 incredible Latin food. Well, this family owned truck guarantees that this reputation remains true, as it wheels around and serves up tasty and traditional Mexican meals. Their marvelous menu includes tantalizing Tacos, Quesadillas, Flautas, and Tostadas. You\u2019d just have to be a fool not to come by and try el Cactus Azul!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Cactus Azul",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5702ee0f-711c-4fd8-9d74-641646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

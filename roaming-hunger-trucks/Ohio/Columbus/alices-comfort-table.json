@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for food that makes you feel real good, there's always a place for you at Alice's Comfort Table. This savory selection of family recipes is absolutely sure to please, no matter what you\u2019re craving. Their offerings include oh-so-scrumptious Pork Belly Grilled Cheese, big ole\u2019 BBQ Meatloaf Sandwiches, and delicious Chicken Pot Pie. For all this and much more, be sure to come by Alice's Comfort Table!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Alice's Comfort Table",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d4fb61-0b3c-4f09-82b0-469e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

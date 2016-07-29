@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lime was created to fill a void; Orange County needed us. We wanted to deliver amazing fresh food to people who are on the go, people cramped in office cubicles every day and provide delicious food made with high quality ingredients to our fellow insomniacs during our wild late nights.To read about the ongoing pranks and other behind-the-scenes happenings on the Lime Truck, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/3914/featured-food-truck-of-the-week-2",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Lime Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4df91b95-f5f8-47ff-90ac-5d5f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sista Soul features mobile southern comfort food for the streets of Los Angeles. They are serving up many flavors from the South, from Breakfast to Lunch.  The menu offers fried chicken, hot links, sandwiches, and their signature fried ribs. Sista Soul offers a taste of home on the go! \"We hope to satisfy your taste buds with  our Southern style comfort foods.\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sista Soul Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f56c2-4bfc-4914-af66-249946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

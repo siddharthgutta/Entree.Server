@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ruthie's Rolling is a gourmet mobile food truck serving up the finest melt in your mouth grilled cheese sandwiches and mac 'n' cheese. Try the Turkey Trot, the Ham & I, or the Italian Hippy! They travel all over Dallas, so don't miss out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ruthie's Rolling Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578ff24f-89b8-4b1f-9412-733f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

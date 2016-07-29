@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Luigi's Ice Cream is coming to you, and they're bringing the best hand-made ice cream in all of New Jersey! This ice is made in small batches to ensure you get nothing but the freshest, highest quality frozen treats possible. With their very own flavors, like Cereal Milk and Thai Iced Tea, along with their famous Creamybun ice cream donut sandwiches, you're sure to get something great when you try Luigi's Ice Cream!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luigi's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568eb8ee-5fc8-44da-8055-685d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet sandwiches and salads are on the move on the streets of the Circle City, ready to feed your need for quality cuisine! Sam's Upper Krust is serving up nothing but the best food possible, whether it's the Summer Time Salad, Reuben, Philly, or any of their fantastic fare. This truck will make you feel like part of the family with their great attitude and friendly service. So if you're looking for the best place to grab a meal while on the go, look no further than Sam's Upper Krust!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sam's Upper Krust",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b2b104-9448-47e6-a69e-214c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

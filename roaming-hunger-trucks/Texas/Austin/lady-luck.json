@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lady Luck is here with an internationally inspired menu and a Southern twist! The constantly changing menu will keep you on your culinary toes, with ingredients sourced as locally as possible to make sure you're getting the best food around. If you're looking for an amazing eating experience that combines a taste of home and lands far and wide, then Lady Luck is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lady Luck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55afd8b8-a690-46cf-a3ee-7d7146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

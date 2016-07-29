@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "After rolling around New Orleans and jazzing everyone up with their delicious Oaxacan menu, Mamita's has decided to bring their marvelous Mexican meals to Austin, and these Texans are delightedly two-stepping their way over to this tasty taco truck. Austin, come get your awesome selves over to Mamitas and start digging into their Flame-Grilled Flank Steak or savory Marinated Chicken, and be sure to drizzle on their incredibly zesty and spicy handcrafted salsas. Mmmmmm mmm, Mamitas!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mamita's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8746/551b44e9-2c68-4049-be81-234946204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

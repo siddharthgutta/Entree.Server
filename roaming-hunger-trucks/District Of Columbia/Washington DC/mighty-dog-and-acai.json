@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mighty Dog and Acai is a great DC-based food truck serving delicious gourmet hot dogs and a\u00e7ai shakes. What could be better than pairing a mouthwatering hot dog with a cool, refreshing shake on a bright, clear day? Stop on by and turn your day up a notch!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mighty Dog and Acai",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50215557-3d74-4272-b44b-2dd646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

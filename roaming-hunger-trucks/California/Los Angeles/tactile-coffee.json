@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tactile Coffee is a mobile coffee truck in Los Angeles serving up delicious specialty coffee and espresso drinks. It launched in February 2016, with the intent to explore LA and serve you good people some tasty drinks. Stop by when you see it out and about and grab yourself one of the best coffee drinks around!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tactile Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56d0a6b2-404c-4a26-b6b4-668446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For Florida's most flavorful Latin cuisine, Fritan'Go is the food truck you need! That homemade meal feel is something that's not easy to find everywhere, so we just know you'll love being able to get it when you're on the move. Get that great Carne Asada, Gallo Pinto, Queso Frito, and so much more from Fritan'Go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fritan'Go Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13391/5706634e-2c1c-49b8-873f-67fc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mr. Cooker is a family-run food truck that strives to reflect Venezuela's rich culture and traditions. Their menu is a \"Fiesta of Flavors\" made with quality ingredients and spices. Try out delicious traditional dishes like empanadas and arepas! Whether you're a meat lover or a vegetarian, there's something for you at Mr. Cooker!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr. Cooker",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12965/564bc603-736c-4206-a2ff-45d146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

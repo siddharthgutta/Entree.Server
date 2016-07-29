@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DC Vegetarian takes your favorite dishes and makes them animal-friendly by using a variety of meat substitutes such as seitan, or tempeh. Choose from a variety of healthy burgers, sandwiches, and subs. Hungry for some vegan deliciousness in the morning? No fear, they've got a breakfast menu as well!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DC Vegetarian",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e9d40a-1978-41f3-87d9-76a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

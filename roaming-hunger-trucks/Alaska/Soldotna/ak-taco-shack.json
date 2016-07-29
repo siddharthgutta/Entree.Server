@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Alaska's favorite tacos are coming to take your taste buds on a wild ride! Amazing tacos, burritos, and quesadillas are here and they're ready to shake up your every day lunch routine. Made with quality ingredients and cooked to perfection, every bite off this amazing food truck is sure to capture your heart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "AK Taco Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5627d239-d054-434c-9262-0a9846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot dogs made for the all-american worker, Andys' Roadside Dive knows what you crave! It all starts with a hot dog, then comes the pulled pork, chili, or bacon, and topped with onion, sauerkraut, jalapenos, or any and all of their delicious toppings! Hot dogs made to your hearts desire, Andys' Roadside Dive has the hot dog that's perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Andys' Roadside Dive",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557a19bb-f8d8-4557-ae9e-0b7346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

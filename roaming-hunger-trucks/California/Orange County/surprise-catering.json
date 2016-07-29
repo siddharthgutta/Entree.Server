@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Surprise Catering is not your ordinary ice cream truck. No, while these trucks may innocently roam the streets on ordinary days, the instant you bring them to you, they turn into a full-fledged ice cream experience. When this truck turns up to your event, you get all you can eat - floats, splits, and even hot dogs - until the event is over! Didn't see that coming, did you?",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Surprise Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418682c-f42c-4987-925c-25e346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

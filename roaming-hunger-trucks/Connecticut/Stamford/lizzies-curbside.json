@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lizzie's Curbside is here to cater to your needs! With daily selections of gourmet breakfast and lunch with burgers, sandwiches, chili and more she is ready to serve. Serving UConn since 1991 Lizzie's Curbside is a staple of the mobile food scene in Stamford.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lizzie's Curbside",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554ce3e1-9d70-48ee-a0b8-649c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

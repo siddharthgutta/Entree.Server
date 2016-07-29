@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Located in Santa Barbara, california, We are a locally founded mobile ice cream vendor. We use only the finest dairy products to handcraft perfect ice cream every single day. All our ice creams and flavors are creative and constantly changing as Our artisan craftsmen strive to show an unparalleled creativity and skill.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sugar and Salt Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e1e80b5-c7fc-4f35-bff1-33e146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

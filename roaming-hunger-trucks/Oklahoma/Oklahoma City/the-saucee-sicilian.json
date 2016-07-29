@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delivering Old World Italian food in a 1000 degree wood-fired oven.  We specialize in pizza, fresh pasta and panuozzi sandwiches.  Enjoy your meal while sitting along our 15 seat wrap around shaded tables plus 3 satellite TV's for you viewing.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Saucee Sicilian",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53bf6918-cd94-4151-aad3-286946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

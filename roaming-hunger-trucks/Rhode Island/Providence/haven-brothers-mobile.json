@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "One of the oldest mobile diners in the country, Haven Brothers can trace its origins back to a horse-drawn lunch wagon in the 1890s. The wagon has changed, but the fare remains, classic burgers, fries, and other diner dishes. If you're looking for a fancy eatery, this isn't it, but if you want a good meal at any time of day, Haven Brothers is the place to go.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Haven Brothers Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56aa61c5-bcec-4922-a0d3-080e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

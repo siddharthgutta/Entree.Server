@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cheez O Man is serving up the cheesiest treats on the Pennsylvania streets! Grilled cheese, burgers, hot dogs, and more are coming right to you. Every delicious dish you order from Cheez O Man comes with your choice of terrific cheese, from cheddar to gouda to pepperjack and more! If you're after the best comfort food on the go, be on the lookout for Cheez O Man today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheez O Man",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e5d89a-feb8-4750-8a5a-448a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

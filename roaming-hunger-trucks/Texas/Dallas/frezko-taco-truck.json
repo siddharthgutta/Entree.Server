@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's nothing like a Texas taco, and there's nobody serving them up like Frezko Taco Truck! If you're looking for a taste of home on the go, then this menu is just what you need, with a selection of fantastic food made with old family recipes. Rolling right to you with food you're sure to love, Frezko Taco Truck will be your new favorite truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frezko Taco Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a67064-2528-48de-b05d-050846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

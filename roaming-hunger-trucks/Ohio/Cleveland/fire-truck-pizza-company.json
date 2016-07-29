@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fire Truck Pizza Company is cooking up the coolest meals on the move in Cleveland! Their wood fired pizza is made fresh when you order, right on their retired fire truck. The perfect caterers for any occasion, their awesome selection of gourmet pizzas is sure to satisfy you and your guests every time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fire Truck Pizza Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6433/56b26252-94f8-4826-b92b-2bcd46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

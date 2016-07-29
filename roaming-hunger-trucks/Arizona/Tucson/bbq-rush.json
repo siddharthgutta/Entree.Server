@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tucson's source for the best Texas-style BBQ is rolling down a street near you, courtesy of BBQ RUSH! Are you craving delicious ribs, brisket, sausages, and more? Then this is the truck you've been waiting for! This is perfect cuisine for any occasion that calls for juicy and delicious BBQ flavor. If you want the very best in the west, look no further than BBQ RUSH!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BBQ RUSH",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c92f2d-abc4-45fc-9879-2b9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

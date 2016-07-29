@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Uprooted Kitchen is sharing locally sourced food with the streets of Tuscon. When you visit their vintage mobile kitchen, you'll see that their vegetarian menu is truly for everyone! The Uprooted Kitchen serves breakfast, lunch, and dinner. They will always have two feature vegetarian lunch items and a vegan dinner option. The features range from special burgers, sandwiches, wraps, tacos, sushi, or anything else they can come up with!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Uprooted Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ad23b7-3c04-42e4-8cb5-0fcd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

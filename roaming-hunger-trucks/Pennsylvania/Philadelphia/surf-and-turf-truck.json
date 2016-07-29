@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing the beach to you...curbside! We specialize in tasty lobster rolls, shrimp rolls, surf and turf, fish tacos, salmon sliders and more!Our menu takes the Chinese philosophical concept of yin-yang and applies it to every item we offer.Yin-yang is used to describe how opposite or contrary forces are interconnected and give rise to each other as they interrelate to one another. These dualities exist everywhere: hot and cold; dark and light; male and female, etc.Well, we do that with our food - surf and turf, lobster and beef, warm and hit, sweet and sour, soft and crunchy.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Surf and Turf Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51b23a85-9f58-4ba1-b526-22ce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

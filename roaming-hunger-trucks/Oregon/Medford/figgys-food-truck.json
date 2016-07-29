@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City - Medford, ORFiggy's is primarily a lunch truck; born out of a desire to put fast, hearty food in the hands of lunchers around the Rogue Valley.  Our freshly baked baguettes are filled with homemade, slow-cooked goodness. Each week the menu changes to offer different sandwiches and soup options. We are not exclusively organic, but handpick the freshest vegetables and meats from local farms and grocers. Come see us soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Figgy's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5089ab78-3984-4bc7-a10e-3b3246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

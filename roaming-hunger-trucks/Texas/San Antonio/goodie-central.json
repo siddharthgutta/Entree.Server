@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Goodie Central is the premiere mobile restaurant serving fabulous Dirty South cuisine! Dirty South blends culture with comfort representing our near and dear southern states! Goodie Central's menu focuses mostly on sandwiches. Try out their provolone and cheddar melted with a thin slice of black forest ham on jalape\u00f1o cheese bread served with tomato crema dip, or go for the Roast beef,topped with provolone and Asian marinated onions on a sub roll. All items come with chips and home made coleslaw. Goodie!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Goodie Central",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f8473d-a12c-4ef6-a11a-696b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

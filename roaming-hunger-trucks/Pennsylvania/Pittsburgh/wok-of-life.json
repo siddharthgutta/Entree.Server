@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The finest Asian cuisine around is on its way to you, thanks to Wok of Life! Fried rice, chicken teriyaki, Asian chicken tacos, and so much more are rolling down a street near you. Don't miss out on this fantastic truck today--visit Wok of Life and try something terrific!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wok of Life",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e4ae2a-2ce8-4ae9-8085-7a1346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "D-lish Dallas is here to deliver an amazing eating experience to the city of Dallas! These organic eats on the streets are sure to make for a great time on the go, and the seasonal menu of scrumptious treats and fantastic service are what really set this truck apart. If this sounds good to you, be on the lookout for D-lish Dallas today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "D-lish Dallas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b01d7c-ae30-4034-92bb-742946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Boston's most tropical truck, Lilo's Plates, is bringing Hawaiian street food to the East Coast! Plate lunches are a specialty on the islands, and Lilo's Plate is bringing that tradition to a street near you. Try the Loco Moco, Big Island Chicken Curry, or anything off their menu for a great eating experience today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lilo's Plates",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558dab58-cc40-4eef-b349-05f446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

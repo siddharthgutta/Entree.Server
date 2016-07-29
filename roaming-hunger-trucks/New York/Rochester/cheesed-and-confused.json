@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cheesed and Confused is grilling up an old fashioned comfort food with a gourmet twist to go along with their \"fancy soups.\" Their grilled sandwiches are filled with a number of tasty meats and veggies like bbq pulled pork, bacon and gorgonzola, prime rib beef and onion, and much more. Make sure to get a tomato parmesan soup, or some tater tots to complete your meal. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheesed and Confused",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e795c-826c-48fb-a28c-193046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

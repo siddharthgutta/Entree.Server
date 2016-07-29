@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kauai, HI This food truck is cooking up some tasty sunny day sandwiches on the beautiful island of Kauai. Try a local favorite like the loco moco breakfast item which typically includes a beef hamburger patty, a fried egg, and brown gravy all atop a bed of white rice. In addition, they also offer burgers, tacos, main plates and a variety of fresh locally caught seafood. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kauai Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51158087-c384-4e78-8022-4cfd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

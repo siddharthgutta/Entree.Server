@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Los Angeles food truck serving grass fed, responsibly made burgers to hungry Angelenos.We are passionate about providing healthy, sustainable, delicious and flavorful beef.  All of our animals are exclusively pasture raised in Teton Valley, Idaho.  Unlike animals raised in factory farms, our cattle are never fed grain or anything else unnatural to their diet.  They are never given any steroids, growth hormones or antibiotics.  Our cattle live naturally, on green pastures, which means we are able to provide beef that tastes the way nature intended!LA Street food sourced right!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Patty Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e97b1e9-3d24-4b3c-baba-530c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

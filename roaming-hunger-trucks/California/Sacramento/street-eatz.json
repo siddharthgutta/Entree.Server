@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Street Eatz is serving up some of California's coolest cuisine! The classic Cubano, mouthwatering Philly Cheese Steak, and unbelievable Blue Flame Burger are just the beginning when it comes to this terrific truck's menu. If you're looking for something you can really sink your teeth into, then there's nobody better than Street Eatz!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Street Eatz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5697f97a-3e5c-4749-9aab-1adc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

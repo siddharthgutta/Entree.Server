@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smokin' Warehouse Barbecue first opened their window on October 1st, 2010. Owner Bill Lee had already started running his catering company, BL Catering for a couple years in the kitchen of his electrical warehouse (the warehouse that we're still running out of). He created the kitchen with the purpose of feeding his family, friends and employees. He then started catering for non-profit organizations as fundraisers and holiday parties. Wanting more people to try his food, he was inspired to open Smokin' Warehouse Barbecue. He hired more chefs and staff to work on the menus, food and run the kitchen.Smokin' Warehouse Barbecue now has a friendly staff of 10, and with the new truck coming along, we're growing! We're excited to see what's in store for us. Check back to see how we're doing and what updates we may have along the way. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smokin' Warehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f8859a9-c474-454d-922c-5b7946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

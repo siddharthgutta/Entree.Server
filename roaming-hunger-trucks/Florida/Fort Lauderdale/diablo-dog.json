@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Diablo Dog is bringing gourmet hot dogs to a street near you! Made from the best and freshest locally sourced ingredients around, these hot dogs are bringing your taste buds the best flavor combinations you've ever had. You'll never have a better hot dog than the delicious, grilled-to-perfection eats at Diablo Dog!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Diablo Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b6c741-5a18-4974-b33e-580446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

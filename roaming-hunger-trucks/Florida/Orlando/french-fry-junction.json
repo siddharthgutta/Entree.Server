@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "French fries galore! French Fry Junction is bringing you the best gourmet french fries in all of Orlando! Hot and crispy, loaded, seasoned; they've got fries for every occasion! If you're not in the mood for spuds you can order one of their delicious burgers! French Fry Junction is taking the foods you crave to a curbside near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "French Fry Junction",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558de6e1-69b8-4447-932f-777446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

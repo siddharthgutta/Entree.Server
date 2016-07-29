@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving up American fusion cuisine unlike anything you've ever seen, Magic Food Bus is here to amaze and astound your taste buds! Bringing their love for good food to Nashville, this cool crew is taking classic American dishes and giving them a global twist. If you want to give your taste buds a magical experience, then nobody is better than Magic Food Bus!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Magic Food Bus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56467490-1424-49f0-96d7-7a9146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kaiteki is bringing Japan's tastiest soup to the streets of Oklahoma City with their mobile ramen truck! Customers love getting their ramen with shoyu style broth, braised pork belly, marinated egg and snap peas. Vegetarians also go nuts for the vegan ramen made with veggie broth, noodles, tofu, and plenty of tasty veggies. Not in the mood for soup? They've got pork belly buns, spicy fried chicken wings, and fried brussels sprouts as well. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kaiteki Ramen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b831d-3d74-4b18-9413-16f546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

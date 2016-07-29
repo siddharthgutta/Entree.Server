@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cluck It Up is a mobile eatery on the streets of San Francisco. Cluck It Up serves amazing Chicken Wings paired with their signature sauces.  Dip your tasty wings into Garlic Butter Parmesan, Sweet and Tangy BBQ, Nacho Cheese with Bacon, or Sweet Chili Sauce. Check the truck often for their rotating specials.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cluck It Up",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51f01cb0-74a4-4ba8-9732-3ad446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

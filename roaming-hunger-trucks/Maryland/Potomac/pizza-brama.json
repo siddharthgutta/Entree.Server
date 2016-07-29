@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pizza Brama is crafting wood-fired creations to soothe your cravings for the delicious and savory! There's nothing quite like the taste of a pizza made just for you, hot and fresh when you order it. Craftsmanship, nourishment, and companionship, that's the philosophy behind every single slice from Pizza Brama!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Brama",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55babe7e-a228-4dbc-bc70-273a46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

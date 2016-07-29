@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Salsa Spot is taking authentic Mexican cuisine to the streets of the Twin Cities today! This menu is full of the finest enchiladas, tacos, ceviche, and so much more. Traditional Mexican meals made fresh for you are always a welcome treat, and when they're made by the fantastic folks at The Salsa Spot they're even better!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Salsa Spot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56af88fe-4d90-4703-8bf5-512746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best burgers in town are right around the corner with 503 Burger Co! Made fresh, fast, and fantastic, these delicious burgers are sure to be just the thing you need to satisfy your cravings. For a mouthwatering meal you'll absolutely love, there's nobody better than 503 Burger Co!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "503 Burger Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561bd3fd-08a0-498f-9704-6d9c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

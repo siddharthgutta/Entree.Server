@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Capishe Pizza is living the pizza dream right here on the streets of Tucson! Extraordinary pizza to one and all, these personal pizzas are made to order and cooked in 90 seconds for the freshest taste possible. Taking their craft to amazing new levels, Capishe Pizza is satisfying your hunger, one pizza at a time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Capishe Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e089f4-a9c8-4dfe-9b84-1caa46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

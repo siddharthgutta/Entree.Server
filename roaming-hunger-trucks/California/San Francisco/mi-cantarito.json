@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The gifted team at Mi Cantarito is taking their 10+ years of foodservice success to the streets of San Francisco to show you how amazing mobile Mexican cuisine can be. Their authentic menu includes tacos, burritos, nachos, and more, all piled high with flavor-packed meats, tasty cheeses, and the freshest toppings. If you can go for a delicious Mexican meal, you simply must make your way to Mi Cantarito!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mi Cantarito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5790f9dd-efd4-4395-9132-0e2146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tutto Bene is a gelato truck serving the delicious frozen treats to the Bay Area streets. Offering an amazing variety of flavors, with non-dairy options, this truck will have you swooning for these high-quality, preservative-free gelatos, sorbettos, semifreddos, and more! Check them out today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tutto Bene Gelateria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542af767-d1f0-4d8e-981b-0ac246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

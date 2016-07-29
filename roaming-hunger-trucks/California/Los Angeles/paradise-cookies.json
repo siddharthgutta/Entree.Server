@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Paradise Cookies & Ice Cream is a fun, high-energy, customer-focused cookies and ice cream establishment located in sunny Los Angeles, CA.  We pride ourselves in top-quality products and go to great measures to ensure our customers\u2019 expectations are exceeded.We were founded with one simple notion in mind: to bring high-quality and affordable cookies and ice cream to neighborhoods throughout Southern California with unparalleled customer service.  Hence, we strive to make quality and value as defining characteristics to our company. All our cookies are made from scratch and baked fresh throughout the day on our custom-built Paradise Trucks!  We use only the finest ingredients available, including premium chocolate, fresh California eggs, pure vanilla extract, Grade AA sweet cream butter, pure cane sugar and unbromated-unbleached flour.   So the next time you see one of our Paradise Trucks parked somewhere in your neighborhood, please do not hesitate to stop by and say hello or to try our delicious selection of cookies and ice cream!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Paradise Cookies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50e145e4-c1bc-4f78-87d3-15ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

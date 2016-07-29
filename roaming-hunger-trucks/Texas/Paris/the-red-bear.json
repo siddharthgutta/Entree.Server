@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Woodfired Mediterranean flavor is coming to a curbside near you! The Red Bear is serving up the tastiest Mediterranean-style pizza this side of the Atlantic. Their variety of toppings, not to mention their delicious cheesecakes, mean that you'll always find something for you at the Red Bear, whatever you're craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Red Bear",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55494001-5ff4-4537-98e7-72d746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Yogurtland you know and love now has a mobile concession stand! With flavors like churro and strawberry sorbet, it's no wonder everyone's always going back for more! Yogurtland carries the finest quality frozen treats around.Operating under the Hoang's Indulgence LLC.  We also offer Arctic Zone Italian and Hawaiian Shave Ice for all events.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yogurtland",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5591c0fa-d3f4-495d-b50b-0ec046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

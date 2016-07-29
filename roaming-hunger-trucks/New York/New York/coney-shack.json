@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fusion street cuisine that's perfect for any occasion is pulling up to a curb near you! This amazing food truck is serving up specialty tacos, burritos, quesadillas, and hot dogs, all with a fantastic Asian twist. This award winning food truck is bringing you all the flavor and quality food you could ever desire, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Coney Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562014a7-7a0c-4444-a185-15e046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

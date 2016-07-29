@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "I'm sure your asking yourself, What is CURBSIDE?Part of the Moochies Family, Curbside is a gourmet food truck serving up the most mouth watering hamburgers you can imagine. We have about 25 different burgers rotating on/off the menu and fresh cut fries, chips, tator tots to go along side.  We buy from farms here in louisiana, we make EVERYTHING in house, and we serve it with a smile.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e72d2a3-732c-45ef-bc02-287d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

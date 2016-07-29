@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mae's Creole Kitchen is cooking up the quality street cuisine you've been dreaming of! Great Seafood Gumbo, Crawfish Ettoufe, Red Beans & Rice, and so much more are right around the corner with these fine folks. If you're looking for real flavor that you can savor on the streets of North Carolina, then Mae's Creole Kitchen is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mae's Creole Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562a7df9-a83c-4af2-ab48-1df646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

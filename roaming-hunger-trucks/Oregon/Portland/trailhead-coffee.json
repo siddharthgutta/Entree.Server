@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Trailhead Coffee Roasters is brewing the best cup of coffee you'll ever have! The Pacific Northwest is known for providing quality coffee, and Trailhead Coffee is no exception. Hand-roasted, small batch brews for you are on their way today, thanks to Trailhead Coffee Roasters!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Trailhead Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566f5611-3894-4ae5-ac19-509546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

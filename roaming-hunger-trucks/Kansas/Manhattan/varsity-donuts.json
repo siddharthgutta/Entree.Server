@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Varsity Donuts is serving up the very finest in freshly made donuts you can really sink your teeth into! Sweet and delicious donuts that are sure to make your day are on the menu today. Together with their savory mac n' cheese grilled cheese, this truck has something for every appetite! If you're looking for good times and good eats on the go, there's nobody better than Varsity Donuts!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Varsity Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e88fac-fd6c-4ba3-886e-3d4a46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

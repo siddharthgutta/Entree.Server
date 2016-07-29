@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aurora's Gypsy Cafe brings an eclectic mix of Middle Eastern, North African, and Eastern European cuisine and exotic game meat to the table. From the gypsy caravan covered in tchotchkes to the pillowed cushion seating Aurora's Gypsy Cafe is more than a meal it's an experience. Try some of Aurora's food and bring out the gypsy in you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aurora's Gypsy Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5547b24e-5d18-4639-a5ec-147b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

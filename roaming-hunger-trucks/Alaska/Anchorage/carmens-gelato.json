@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Award winning frozen treats are roaming the streets of Anchorage today! Carmen's Gelato is serving up handcrafted deliciousness you'll absolutely love. These tasty treats are made with fresh and seasonal ingredients--you'll never find any artificial flavors when Carmen's Gelato is around! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carmen's Gelato",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5627e30c-84c4-484b-8404-69b546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

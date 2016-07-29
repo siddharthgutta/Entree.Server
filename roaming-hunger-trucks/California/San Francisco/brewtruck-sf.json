@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Formerly called \u201cbrewtruc,\u201d Brewtruck is the world\u2019s first mobile taproom and beer lounge, capable of serving up to 6 varieties of artisanal craft brew from 6 full-sized kegs housed in a subfloor keg fridge.This 40 foot custom-converted bus features a copper and walnut bar, spacious interior with overhead skylights, and leather-upholstered bench seating for 20 passengers. Also boasting exterior taps, Brewtruck is an amazing option for all your event needs!To read about a sweet ride in this sweet ride, and why Brewtruck is the best party this side of the Bay, check out Roaming Hunger's blog post here: http://roaminghunger.com/blog/8191/the-brewtruck-a-mobile-tap-room",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "brewtruck sf",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7438/54455ac8-3dd8-41e9-87ca-5e9046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

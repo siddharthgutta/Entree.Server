@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "FRESH Ground, 100% Sirloin Burgers. Hand-crafted, gourmet burgers, house butchered ANGUS beef. Sirloin Cheesesteaks, Roast Pork sand. Fresh cut fries. We are a 4x8 cart. No loud generators, Eco-efficient, (propane, battery) can fit where most trucks can't.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spot Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fecea79-8b78-4116-9519-595746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

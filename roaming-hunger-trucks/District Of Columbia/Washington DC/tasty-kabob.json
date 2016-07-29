@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "I'm tasty. Tasty Kabob was started by the efforts of Steve Hanifi, an accounting major at George Mason University. With his vision of bringing variety and better food options to Washingtonians and the dedication and hard work of his growing team, they collectively have brought many hungry customers day-in and day-out food that they truly can enjoy and feel good about. With perseverance, the start of the business with a single cart has grown into a fleet of trucks and carts. This was only possible because of you, our beloved customers!!!! So THANK YOU!You're tasty. Of course, where would we be without our loyal customers? From regular eaters to newbies alike, we are always pleased to serve. All we ask is for the chance to prove that our lunches are the best in D.C. We know you'll be satisfied! Our perfectly prepared lamb, delectable chicken, and fresh veggies are too much to keep to yourself. Our generous portions and flavors are unsurpassed. Come and try to see what everyone is raving about!We're a family. Our relationship with our customers is something we strive to nurture. It is because of our customer's that we are here today. Customer service is our focus just as much as us whipping up a tasty lunch is your right to enjoy! We work hard to make the Tastiest lunches for hungry Washingtonians. Our delicious Halal food is prepared fresh each day to give our customers a reason to keep coming back.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tasty Kabob",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f0641b9-e5cc-40cf-9e79-1ead46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

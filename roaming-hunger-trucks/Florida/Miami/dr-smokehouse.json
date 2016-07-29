@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Award winning BBQ creator DR Smokehouse brings the smokehouse to you, serving competition-grade BBQ, whole hog, smoked chicken wings, grilled chicken wings, grilled seafood, wide variety of grilled and smoked main courses, homemade sides, and desserts. If you're in Palm Beach County and hungry for some first-class BBQ, look no further than DR Smokehouse!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DR Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54513f10-34a0-439f-9b50-1dfe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

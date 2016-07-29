@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Itty Bitty Pie Company has delicious, baked from scratch sweet and savoury pies for Niagra Falls.Mini-pies, Micro-minis, Pie-in-a-Cup, Pie-on-a-Stick, 9\" pies and Caramel Sauce",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Itty Bitty Pie Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5247ba67-a6ec-4f4d-8fe5-57fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

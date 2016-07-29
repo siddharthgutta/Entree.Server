@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A world of taste for the explorer in you! The Explorers Club is taking it's years of experience and skill to the streets to bring everyone a little taste of the world. With an eclectic menu and a strong Cuban influence, the Explorers club has something for everyone. Meat-eaters, vegetarians, vegans? The Explorers Club Food Truck is ready and waiting for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Explorers Club Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5537ec2b-9f14-43e0-918e-49e246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

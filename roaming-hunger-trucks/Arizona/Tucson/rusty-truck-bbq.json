@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Many places serve Arizona BBQ, but nowhere defines it as truly as Rusty Truck BBQ. With their carefully-perfected BBQ technique, paired with the world-famous Rusty Sauce, it's no wonder people can't stop talking about this great truck. BBQ has reached its peak at the Rusty Truck, so stop by and see what all the fuss is about!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rusty Truck BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55147723-f6a0-4c6d-b74d-5b2546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

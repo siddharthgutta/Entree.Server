@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wound Up Cafe is a mobile Espresso bar serving the streets of Dallas. This unique truck has been modified to serve high end Italian Espresso, Cappuccino, Lattes, Hot Chocolate, Mocha, and Chai Tea. All coffee is brewed fresh on site, and all lattes are steamed fresh to order, made with your choice of milk. Come check out the Wound Up Cafe and get your Java fix for the morning!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wound Up Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515a1fe3-7544-4d9c-bf40-3ce346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

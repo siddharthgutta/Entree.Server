@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Port Huron's greatest grub is on its way down a street near you, thanks to LuckyLunch! This fantstic food truck offers the very best in wraps, salads, and so much more. LuckyLunch is bringing you a fresh, new alternative to your everyday lunch, so don't miss out when it rolls by you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LuckyLunch",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ca2cc1-e50c-483c-9714-4d1f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

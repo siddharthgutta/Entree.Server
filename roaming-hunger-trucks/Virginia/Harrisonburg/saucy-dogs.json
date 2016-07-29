@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Harrisonburg, Virginia are you ready for this mobile landmark \"Saucy Dogs!\" This food trailer is proudly serving Nathan's famous hot dogs and a signature foot long hot dog. Head over and create your very own hot dog with tasty toppings like homemade chili and guacamole. Enjoy your next hot dog at Saucy Dogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Saucy Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555fa08d-29f8-4ff8-b0e7-14ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Minneapolis, MNDandelion Kitchen is a Minneapolis-based gourmet food truck that focuses on bringing creative, hand-crafted dishes that highlight the bounty of the midwest.  DK brings locally-sourced, high-quality food to the streets and markets of Minneapolis. Using all local and organic ingredients whenever possible, DK looks to nearby family farms for their meat, produce, and dairy. Located in downtown Minneapolis (weekdays) and farmers markets (weekends) Dandelion Kitchen serves up a small but well-crafted menu of sandwiches, soups, salads, and seasonal specialties, all made from scratch.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dandelion Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4db499a2-2ab4-4ce4-a4c5-287546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

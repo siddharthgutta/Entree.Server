@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The crepes you've been craving are coming right to you, with that fantastic French touch you were hoping for! Frenchies Touch is taking terrific taste right to you. Freshly made crepes for any appetite are on this food truck's menu! Check out the Nutella, Strawberry, Chicken Club, and so much more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frenchies Touch",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12477/56131023-0ea8-4cff-906e-5dae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

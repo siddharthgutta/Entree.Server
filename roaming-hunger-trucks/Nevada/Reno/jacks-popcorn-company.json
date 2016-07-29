@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jack's Popcorn Company is making fresh, fun snacks for the city of Reno to enjoy! Freshly popped corn is a treat everyone can enjoy, and Jack's is serving up a variety of flavors you'll love. Light, fluffy, fresh, and delicious, this is popcorn you'll always remember, so stop by Jack's Popcorn Company today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jack's Popcorn Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cd1e06-8070-41f1-80b1-7b4346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

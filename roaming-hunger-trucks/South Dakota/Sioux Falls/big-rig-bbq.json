@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big flavor is headed right to you, from Big Rig BBQ! This is real BBQ you can sink your teeth into! Brisket, sausage, and ribs that'll really stick to your ribs are just the start with this BBQ truck.This is Texas-style BBQ made right, so get a taste of that authentic flavor you've been craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Rig BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ca7e29-cdf8-4e94-9961-4a6c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

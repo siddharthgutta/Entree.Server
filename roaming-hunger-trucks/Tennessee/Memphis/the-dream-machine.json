@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The tastiest frozen treats you'll find in all of Memphis is on the move and coming to you! The Dream Machine is serving up your sweet tooth's favorite ice cream on the streets of Tennessee. Perfect for every occasion, The Dream Machine is ready and waiting to make your next event into an experience everyone will remember!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Dream Machine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cb943c-ae04-45f4-b28e-592a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

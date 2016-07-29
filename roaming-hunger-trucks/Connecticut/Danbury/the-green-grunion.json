@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Green Grunion is a great San Diego-style burrito truck that provides the fine people of the greater Danbury area (and beyond) a TRUE burrito done the San Diego way... right! From the Cali to the Black Bean to the Veggie, each burrito is tastier than the last... and that's not even half of them! So if you're in the mood for some SoCal sunshine, stop by The Green Grunion and brighten your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Green Grunion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/550227ea-a2ec-41a0-8737-65a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

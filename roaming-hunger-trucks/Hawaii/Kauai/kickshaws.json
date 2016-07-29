@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kickshaws is serving up amazingly varied fare, from the 100% Awesome Burger to the Thai Taco, all delicious and all crafted with care. This is \"science forward food,\" using sous vide cooking and other avant garde techniques to create truly unique and tasty dishes. Try it and you'll be back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kickshaws",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f0e338-dfa4-46ca-a22a-752546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

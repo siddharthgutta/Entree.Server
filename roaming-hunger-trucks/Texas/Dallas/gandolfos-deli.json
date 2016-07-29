@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The menu at the deli includes an extensive list of breakfast sandwiches and bagels, with specialty cream cheeses, for the early-morning crowd. Sandwiches are made on fresh bread that is baked on site each morning and include turkey, chicken breast, ham, roast beef, pastrami, corned beef as well as vegetarian options and Nathan's brand hot dogs. The delis offer customers over 50 fresh hot or cold sandwiches, fresh green salads, over 20 deli salads, and delicious desserts all made in the famous and unique style of New York's favored delis. We love our deli and strive to bring our customers the highest quality sandwiches, freshest salads, breads and desserts we can possibly prepare every day! We look forward to serving you and hope you love ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gandolfo's Deli",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e848d35-bc48-4441-bb6d-401a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

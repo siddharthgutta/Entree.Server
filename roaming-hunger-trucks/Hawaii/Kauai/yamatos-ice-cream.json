@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yamato's was born of a desire to serve truly spectacular ice cream to Kauai. Ice cream makes people happy, and the great minds behind this truck wanted to help inspire that happiness in others. While the menu has expanded to include fantastic Japanese home cooking, from Chicken Curry Ramen to the Buta Bowl, the delicious ice cream remains. Try out one of the amazing flavors, from honey ginger to coconut lime, and watch your day get a little bit brighter!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yamato's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f0d0ed-114c-488c-851a-5f8946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

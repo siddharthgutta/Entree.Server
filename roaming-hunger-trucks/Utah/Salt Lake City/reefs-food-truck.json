@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Reef's Food Truck is serving Salt Lake City the best Mediterranean meals you've ever seen! On this food truck you'll find delicious, perfectly made pita sandwiches with a variety of different fillings for any appetite. Don't miss out on these amazing meals from this mobile restaurant, visit Reef's Food Truck and taste what sets them apart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Reef's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56428466-ac10-4215-9f2b-504d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

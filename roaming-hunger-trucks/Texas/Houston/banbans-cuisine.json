@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BanBan's Cuisine is bringing two great culinary traditions together to feed your hunger! If you're looking for the tastiest tacos, pasta, paninis, and more, then this is definitely the truck for you. Mexican-Italian fusion isn't something you see every day, so don't miss out when BanBan's Cuisine rolls down a street near you! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BanBan's Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56785100-4c70-43b0-bec2-2d8346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

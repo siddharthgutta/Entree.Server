@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have you been looking for the sweetest frozen treats in all of Reno? Then Bibo Freddo is the perfect cart for you! You'll find nothing but the best handmade gelato and sorbetto at Bibo Freddo. This is amazing Italian-style ice cream and sorbet, and it's coming right to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bibo Freddo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cd2a92-b614-4c01-b6a2-45ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

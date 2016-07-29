@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burrito Girl is bringing the best in classic Hispanic dishes to the streets of Oregon! Terrific tacos, burritos, pupusas, and more are right around the corner with this fantastic mobile eatery. If you're craving street cuisine that doesn't skimp on quality, then Burrito Girl is the restaurant for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burrito Girl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56154bc5-e120-4029-9479-7b0a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

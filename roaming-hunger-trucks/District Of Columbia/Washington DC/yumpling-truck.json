@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yumpling is the greatest, and first, dumpling truck in DC, serving fresh-made dumplings straight to hungry foodies! They advertise the fact that six of their dumplings are less than 300 calories, but it  goes much further than that. Each bite of one of these pockets of goodness is sure to brighten your day, and just a few will fill you right up!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yumpling Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ee0dab-a228-47c0-a023-509446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

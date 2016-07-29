@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "KLEAN Cafe is a coffee truck that cares! A non-profit mobile cafe, KLEAN is coming to you from the good folks at KLEAN Treatment Centers to serve delicious coffee and bring jobs to people in recovery. Fresh coffee, cold-pressed juice, healthy snacks, and hope are on the menu at KLEAN Cafe today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "KLEAN Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a97de3-c5e8-47d1-9a2f-43c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

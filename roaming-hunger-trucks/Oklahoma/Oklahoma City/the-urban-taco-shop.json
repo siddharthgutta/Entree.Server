@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Urban Taco Shop is making amazing Mexican cuisine you'll absolutely love! Delicious and customizable burritos, quesadillas, authentic street tacos, and so much more are coming to you from these fine folks. The Urban Taco Shop has great food from fresh ingredients served up with the friendliest attitude around, so don't miss out on this fantastic OKC food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Urban Taco Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56561ad2-2548-4420-a638-6c1646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

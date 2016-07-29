@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Gastro Gnomes are driven to satisfy all of their customers in Lexington, Kentucky. Delivering a distinctive menu for everyday of the week it has lead them to create delicious and unique dishes. Next time Gastro Gnomes  crosses your path you never know what you're in for, but whatever you order it is to be enjoyed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Gastro Gnomes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55281e90-d640-4d5a-ac61-5dad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

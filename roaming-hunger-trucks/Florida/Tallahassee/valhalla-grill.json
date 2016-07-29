@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food fit to feed a viking-sized appetite, it's the Valhalla Grill! Serving up dishes from across the globe, the Valhalla Grill has something for everyone. Whether it's the blue ox burger, tempura broccoli, the black sheep, or any of their other fantastic dishes, the Valhalla Grill is sure to satisfy your craving for delicious cuisine!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Valhalla Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570c2ca-bea8-4f78-8649-1b1946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

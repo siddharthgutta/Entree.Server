@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "GringoDillas Food Truck & Catering is located in Flagstaff, Arizona. We combine restaurant quality food with quick service while using local, organic ingredients to provide you with the best late night snacks and dishes around! Choose from a wide assortment of hot dogs such as the Sly Dog or the authentic Chicago-style Hot Dog. Gringodillas also has pulled pork sandwiches as well as signature pork quesadillas, such as the Sly Dilla. You\u2019ll have to stop by to find out what your favorite is!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gringodillas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8236/54928d64-9ca0-4460-9bf8-3ed246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

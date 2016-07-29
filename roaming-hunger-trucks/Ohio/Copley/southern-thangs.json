@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Southern Thangs is bringing genuine down-home cookin' to the great state of Ohio! If you're looking for the finest po' boys, shrimp skewers, gator bites, and so much more, then look no further than this fantastic food truck and it's amazing crew. And don't forget about the scrumptious desserts, like chocolate covered strawberries and peach nectar fuzz! Southern Thangs, serving food with Twang!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Southern Thangs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55381c44-a2f8-4f77-bceb-418746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

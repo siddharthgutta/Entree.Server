@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hungry for hot dogs in the Mesa area? Check out Best Dressed Dog! With many toppings to choose from, including green chilies, pinto beans, bacon jam, and the famous Judd Sauce, the varied flavors of Best Dressed Dog won't let you down! Have yourself a formal dog at informal prices.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Best Dressed Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8242/563ffa40-6aa0-47f7-a494-60ce46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

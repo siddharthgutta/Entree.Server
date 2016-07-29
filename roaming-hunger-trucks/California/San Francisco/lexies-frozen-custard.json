@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lexie's Frozen Custard is a delicious frozen treats truck serving the streets of the Bay Area. What is frozen custard? It\u2019s the best soft serve ice cream you\u2019ll ever have. It\u2019s got a super smooth texture and is way more dense and creamy than other soft serve because there\u2019s hardly any air incorporated in the freezing process. This custard is crazy popular in the Midwest, and now Lexie's is bringing that joy here to California!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lexie's Frozen Custard",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542b44c6-0320-46ae-bf86-01cd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

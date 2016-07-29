@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Piping hot coffee and soft, sweet cinnamon rolls,l is there a better way to start your day? Mobile Mug is here to serve up a simple, street curb vibe with their coffee, kicking corporate coffee to the curb! And nothing goes better with a fine cup of coffee than their delicious, fresh-baked cinnamon buns!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobile Mug",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5547da1e-1b3c-4de1-85d0-3f3f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

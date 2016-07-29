@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to Charlie's Bakery in Orlando, where we still believe that \"butter makes the difference\". At Charlie's, we know our success is due to using only the finest ingredients. We use the recipes of our grandfather's father. That's right, four generations of know how which brings that true old-fashioned goodness to every item we bake.Charlie's Bakery Menu is quite vast, specialties include Cheesecake, Chocolate Tortes, Apricot Pecan Cookies, Almond Wafer Tea Cookies, Cakes, Pies, Danishes, Pecan Creoles, and everything in between.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Charlie's Bakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ef0e57-c540-4e5c-a253-172f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

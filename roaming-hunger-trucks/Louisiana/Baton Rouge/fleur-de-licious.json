@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet cooking roaming the streets of Baton Rouge! Fleur de Licious is offering up food that's fresh and bursting with flavor, made using only the finest ingredients and cooked with care and skill by their award-winning chef. IF you're looking for the finest in Creole cuisine in Baton Rouge, look no further than Fleur de Licious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fleur de Licious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552c43c2-bc88-410a-b411-164446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

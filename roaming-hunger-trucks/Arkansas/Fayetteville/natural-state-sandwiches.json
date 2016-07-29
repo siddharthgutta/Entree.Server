@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A not-so-typical sandwich shop bringing you the best in fresh, delicious sandwich creations! Natural State Sandwiches is serving you a rotating menu of amazing sandwiches for all appetites, styles, and tastes! Whatever you're craving, Natural State Sandwiches has something to satisfy your hunger!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Natural State Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55776183-18cc-48d1-9123-2c6646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

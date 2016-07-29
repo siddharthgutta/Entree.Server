@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Latte Love is a coffee shop on the move, when you encounter this terrific trailer you'll find a lot to love! Try the best locally roasted espresso in town - you'll never find another cup of coffee like this. Lattes, frappes, and even their famous frozen hot chocolate are sure to astound and amaze you every time you get to experience A Latte Love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "A Latte Love Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56cc8f78-6efc-4424-9a10-727046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

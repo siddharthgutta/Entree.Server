@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best bagels in all of Portland? Then this is the food truck for you! The Bridgetown Bagel Company is bringing something delicious you can really sink your teeth into. Great spreads, cheeses, veggies, and more, Bridgetown Bagel Company has it all! You'll be sure to love these gourmet sandwiches from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Bridgetown Bagel Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5616e58d-0f80-4c3f-bbb4-159446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

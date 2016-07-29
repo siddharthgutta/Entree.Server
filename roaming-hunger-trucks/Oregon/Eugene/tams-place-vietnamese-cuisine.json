@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tam's Place is serving traditional Vietnamese food, specializing in Com Tam. This is fresh and healthy food with a special twist on traditional homestyle Vietnamese recipes. All the ingredients are fresh, flavorful, and fantastic! Come experience the wonderful flavors of Southern Vietnam!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tam's Place Vietnamese Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ee5792-ebb4-4082-b7d6-1d0f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

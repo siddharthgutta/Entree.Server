@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The OKC will never be the same after it has experienced the arrival of The Chosen Juan! Making Mexican-style burgers, hot dogs, empanadas, and more, this is a truck that's sure to have something you'll love. Make sure your guests eat only the very best, look to The Chosen Juan when you need to cater your next big event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Chosen Juan",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c54075-498c-4897-9726-302a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

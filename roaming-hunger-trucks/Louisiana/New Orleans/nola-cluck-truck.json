@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Real. Good. Chicken. The NOLA Cluck Truck is ready to bring the best fried chicken and the friendliest service to you! Perfect for parties, birthdays, festivals, or any occasion you can think of, the NOLA Cluck Truck is ready to serve you great food and great times!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "NOLA Cluck Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d8fe8-e758-44b9-8f42-199946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

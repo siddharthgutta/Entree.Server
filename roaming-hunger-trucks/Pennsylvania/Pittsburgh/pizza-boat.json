@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pizza Boat is setting sail for the streets of Pittsburgh with the best pizza you've ever had! Made from scratch and cooked up just for you, this wood-fired pizza is sure to be the perfect addition to your day. With wood-fired and fantastic pies, Pizza Boat is bringing you an eating experience you just can't miss!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Boat",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3f139-f1e0-4348-a9c9-155246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cowabunga Food Truck is serving up delicious American Classics to the hungry residents of Norwalk and Fairfield County, Connecticut. Items on their menu include hamburgers, cheeseburgers, hot dogs, grilled cheese sandwiches, cheesesteak sandwiches, and of course french fries. Specials are also available daily. If you're hankering for this truck before lunch, have no fear - they've also got a breakfast menu that offers customers a variety of tasty breakfast sandwiches. For those with a sweet tooth, this truck offers creamy soft-serve ice cream as well! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cowabunga",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51800ca9-c564-48dd-9f67-135346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

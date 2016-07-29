@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "South Indian food that's good for the soul, Dosa Kitchen is driving their terrific truck right to you! The dosa, a crisp and tangy rice and lentil crepe, is the heart of what you'll find on this truck's menu. Dosa with delicious masala, free-range chicken curry, their signature Dosa Dog, and more are being cooked up hot and fresh for you, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dosa Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5654ede7-9f48-4809-bfa9-620b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

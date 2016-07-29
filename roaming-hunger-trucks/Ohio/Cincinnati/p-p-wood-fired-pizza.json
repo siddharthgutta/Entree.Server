@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing delicious wood-fired pizza to the hungry mouths of Cincinnati, P&P; was the product of two unlikely friends who decided to take their business on the road. P&P; offers many choices of cheeses, sauces, and toppings, leaving the finished pizza in your control. Be sure to get it while it's hot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "P&P; Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53ffadf9-4160-426d-8aec-44fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

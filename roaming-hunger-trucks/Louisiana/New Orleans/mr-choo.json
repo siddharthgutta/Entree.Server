@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mr Choo is moving down the streets of New Orleans, ready to satisfy your hunger with the best street food in town! Delicious sushi, sashimi, dumplings, broth, shrimp fried rice, and so much more are on the menu and perfect for you. If you want something new and fantastic to feed your hunger, then Mr Choo's is the food truck you've been looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr Choo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56157ff1-2f90-452b-8fc7-1eff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

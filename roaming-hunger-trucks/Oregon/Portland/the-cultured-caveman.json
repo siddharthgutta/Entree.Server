@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cultured Caveman has multiple food cart locations throughout Portland, Oregon and every menu item is Paleo-diet friendly as well as gluten, soy and dairy free! Try some paleo chicken tenders, bacon almond dates, sweet potato mash or all meat chili - among many tasty other choices!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cultured Caveman",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5241fe26-3adc-4d4d-b765-11a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

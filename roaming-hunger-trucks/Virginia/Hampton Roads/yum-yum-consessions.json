@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yum Yum Concessions is a fun concessions stand on wheels, serving the best kettle corn, pork rinds and fresh squeeze lemonade in Hampton Roads, VA. This food truck is a great addition for any event, delicious finger snacks that are perfect way to start a celebration or treat after a long day. With a large selection of flavored kettle corn there is something for everyones crunch on. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yum Yum Consessions",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555f926a-5f30-4fbc-809e-21a646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

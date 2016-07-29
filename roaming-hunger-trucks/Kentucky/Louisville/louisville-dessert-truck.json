@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "On any given day the Louisville Dessert Truck offers a variety of treats to brighten your day.  Cupcakes, cake slices, ice cream novelties, pie slices, cookies, brownies and of course Louisville Cookies - it's all based on the chef's time and whim.  You'll just have to follow the truck to discover what we've got inside!We're available for lunch, private parties, business promotions and festivals.And remember, \" Life is uncertain.  Eat dessert first.\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Louisville Dessert Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7015ca-d874-45cf-a7dc-5ae946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

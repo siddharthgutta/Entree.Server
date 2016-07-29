@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Las Gorditas is a family-owned and operated food truck based on traditional flavors of Venezuela. With many Arepas to choose, from plain pollo or queso amarillo to the Pabellon, with shredded beef, black beans, plantain, and white cheese, and many more flavor combinations, you're never at a loss for a new meal to try. Check them out today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arepas Las Gorditas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5453bae8-c518-46df-bf9f-3d0b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

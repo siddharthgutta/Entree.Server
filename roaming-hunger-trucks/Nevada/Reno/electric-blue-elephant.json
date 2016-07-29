@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eating organic has never felt so good! Electric Blue Elephant is bringing you the freshest, tastiest, and healthiest food around. Using nothing but locally sourced organic produce means that you're getting the best tasting and healthiest food possible, and their great service will be sure to bring you back for more, time and time again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Electric Blue Elephant",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553171b3-c268-4b27-a757-6a2746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

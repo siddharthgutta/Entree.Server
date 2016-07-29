@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Heirloom Mobile Food truck is dedicated to serving the freshest ingredients possible. our menu is designed to feature locally grown produce and meats with a emphasis on street foods from around the world. The definition of Heirloom is something past down through the generations. What is an heirloom than the recipes that have been cooked for hundreds of years, maybe more. By purchasing local ingredients from Front Range farmers who practice sustainable farming John is dedicated to serving you the foods of the world. Enjoy! John Campbell started his culinary career learning to cook while living at Lake Tahoe. After discovering his love for food and the art of cooking he attended the California Culinary Academy. After graduating he moved to Washington DC where he became chef at Restaurant Nora, America\u2019s first certified organic restaurant. Next John worked for Whole Foods Market as one of the first Culinary Assistant Store Team Leaders and was integral  part of opening some of their biggest and innovative stores in the east coast. He then decided to move back to the mountains of Colorado and pursue his passion for cooking.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Heirloom",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5075ae86-a9d8-4c87-b94f-7eee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This sweet pink school bus can be found roaming around town, cooling down the crowds with tasty frozen treats. Everyone in Mount Vernon loves Fresh Ella\u2019s and their delectable selection of refreshing fruit pops and delicious ice cream. Blueberry, Salted Caramel, Peppermint Stick, Ginger, and more...Craving these rave-worthy ice cream flavors? Well, then it must be time for some Fresh Ella\u2019s! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fresh Ella's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5719198b-7164-46eb-bec6-7dd346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Jamaican Cajun Food Truck Providing Jamaican & Cajun Specialties Made Hot and Fresh Daily in beautiful Beaumont, Texas. Try the Roti Wraps, JaCajun Jerk Chicken Wings, Curries, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Jamaican Cajun Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7697/5424a24a-2af8-4c72-81f8-5c6b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

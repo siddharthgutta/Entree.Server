@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kebabs have always been a great meal on the go, and Charlotte's getting the best in North Carolina! Pinchos El Bori is grilling up this delicious dish daily, always serving you the freshest flavor possible. Whether it's slathered in BBQ or hot sauce, we know you'll absolutely love every bite from this food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pinchos El Bori",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56aa70be-a478-4d8e-9ce1-577546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

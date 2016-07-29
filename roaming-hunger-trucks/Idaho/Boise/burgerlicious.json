@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burgerlicious is an Idaho food truck serving up juicy burgers and tasty sides in the Boise metro. Featuring local grass-fed beef and veggie patties, their signature burgers come paired with delicious house crafted dipping sauces. Of course Idaho is the star on the menu at Burgerlicious, and potatoes are featured in both burgers and sides. Treat yourself to both fries and their home made chips!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burgerlicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d20bb7-a410-4f03-9caa-4a9946204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

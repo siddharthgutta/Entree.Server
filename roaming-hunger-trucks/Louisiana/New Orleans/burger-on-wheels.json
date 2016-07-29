@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Made fresh and fantastic for you every time your order, it must be Burger On Wheels! Using 100% Angus Beef and the finest in locally made kaiser rolls, each and every bite of your burger is guaranteed to be absolutely delicious. All your favorite fixings and so much more are making their way to you, with the astounding Burger On Wheels!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burger On Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56d7248c-66cc-420d-9195-247d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

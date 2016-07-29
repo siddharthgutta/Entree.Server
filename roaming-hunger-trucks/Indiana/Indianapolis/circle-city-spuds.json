@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are Circle City Spuds & Grub, a gourmet food truck and catering company.  We show our customers that good homemade comfort food can come out of a food truck and taste amazing! Throughout the week, our home base is downtown Indianapolis for the lunch crowd, and on the weekends and holidays, we cater to private events. Spuds are our specialty.  Our menu is about taking the spud to the next level; making it the center of the dish and using gourmet meat and veggie creations as toppings for the spud.  Our customers will stop the first time for the spud but they\u2019ll come back the next time for the amazing value for such a scrumptious hearty meal.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Circle City Spuds",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f279906-a508-4602-9b7e-618b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

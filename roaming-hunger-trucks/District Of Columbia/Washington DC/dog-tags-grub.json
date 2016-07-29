@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dog Tags is a mobile food truck operation that serves quality food in and around Washington, DC, Maryland, and Northern Virginia. In addition to feeding the masses, Dog Tags' mission is to provide job opportunities to wounded warriors and the nation\u2019s veterans. From the inside out, Dog Tags is giving back to the communities and individuals that support those who have served.Dog Tags serves All American Grub specializing in Philly Cheesesteaks using real rib-eye steak and fresh baked bread! Every item on the menu is prepared fresh daily using the finest quality of meats, cheeses and produce.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dog Tags Grub",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543d63ca-bf30-4159-ace0-14fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

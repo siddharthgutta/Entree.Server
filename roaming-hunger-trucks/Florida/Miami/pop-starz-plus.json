@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pop Starz Plus is taking frozen treats to a whole new level on the streets of Miami! The perfect way to keep cool on those sunny Florida days, these ice pops will never disappoint. Pop Starz Plus has the best frozen sweets in every flavor you could ever want, from strawberry to mango to coconut, and beyond! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop Starz Plus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7ed41-6118-4177-a1fc-63d546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

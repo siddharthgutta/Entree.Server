@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "NPL Food Truck is bringing you nothing but the best of the best when you're craving great food on the go! Have you been craving a freshly made pulled pork sandwich? Strawberry chicken salad? Turkey pretzel club? All these, and so much more, are rolling down a street near you! Perfect for your every event, NPL Food Truck is ready and waiting to take your special day to the next level! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "NPL Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e5e32b-c6d8-499c-a65c-7be846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

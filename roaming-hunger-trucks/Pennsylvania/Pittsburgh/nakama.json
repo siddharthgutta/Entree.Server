@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nakama is making its way through Pittsburgh, providing their famously tasty and award-winning Japanese cuisine to the hungry folks hanging by the curbs after a life-altering Penguins or Steelers game. Their menu features Hibachi-style fried rice, white rice, and spicy lo mein noodles, which you can top with your choice of savory protein; chicken, steak, shrimp, or ahi tuna. There\u2019s also a sushi chef on board, rolling out  fresh sushi favorites; Philly rolls, shrimp tempura rolls, and spicy tuna rolls (to name a few).For all this and much more, come on out to the Nakama Food Truck or have them come cater your next big occasion with their sensational selection of delicious and authentic Japanese flavors.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nakama",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559aee09-e64c-4a7c-8320-30bb46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

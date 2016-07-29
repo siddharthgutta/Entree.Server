@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sun City Blends is an LA based food truck blending up all natural smoothies, juices, acai bowls and much, much more! They believe delicious and healthy aren't mutually exclusive, and everywhere they roll, they're always crafting new menu items so you can always treat yourself, guilt free. Stop by and try them today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sun City Blends",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12850/563b8e3f-84e0-4526-952c-154d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

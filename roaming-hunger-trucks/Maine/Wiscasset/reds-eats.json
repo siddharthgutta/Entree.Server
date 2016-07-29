@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Red's is serving delicious lobster rolls and seafood selections to the hungry people of Maine, as well as other great eats! Stop by for a grilled chicken breast sandwich, ham and cheese on a toasted sesame seed bun, or another classic meal! Don't you want a taste of Maine's #1 lobster roll? \"Red's is not fancy...it's perfect\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red's Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d8c45be-3ba0-462c-83f2-7a3a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

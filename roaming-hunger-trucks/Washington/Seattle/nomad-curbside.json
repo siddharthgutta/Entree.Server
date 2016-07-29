@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "NOMAD Curbside, with a inner city theme with a full graffiti wrap serves common foods prepared in an uncommon way. Check out the NOMAD Cordon Bleu sandwich, the Trucker \"Unleaded\" burger, the chili, and the sweet potato fries!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "NOMAD Curbside",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50419a3b-e8bc-48a1-b189-38ec46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

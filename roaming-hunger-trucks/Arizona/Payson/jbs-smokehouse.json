@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best BBQ Payson has to offer? Then JB's Smokehouse is the food truck for you! Brisket, pulled pork, BBQ beef, all smoked to perfection for your eating pleasure are ready and waiting to satisfy your cravings! This is real down-home cooking you'll always love. Don't miss out on this amazing menu--it's time to visit JB's Smokehouse!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JB's Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fb474d-053c-4c09-af3a-172646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

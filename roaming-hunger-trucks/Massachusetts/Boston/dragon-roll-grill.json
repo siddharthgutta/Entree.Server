@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If Boston cuisine is known for one thing, it's delicious seafood, and Dragon Roll Grill is keeping that tradition alive.Rice bowls and sushi rolls are the perfect way to enjoy a meal on the move. Lobster, shrimp, teriyaki chicken, and beef, this food truck has something for every appetite. Made when you order it by great chefs using the freshest ingredients, every time you order from this awesome menu you're sure to love it!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dragon Roll Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56144d5d-9b40-4c0a-91d7-146946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

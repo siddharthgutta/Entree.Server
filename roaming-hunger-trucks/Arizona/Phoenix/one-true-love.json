@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are an Arizona-local non-profit food truck whose primary mission is to serve folks living on the streets of the Valley. We serve healthy, local, & organic (when possible) foods.  We can create a custom menu for catering opportunities.All menu items are donation based, and support our mission 100%",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ONe TRUe LOVe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8748/54ff0e04-773c-41a6-9562-40e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

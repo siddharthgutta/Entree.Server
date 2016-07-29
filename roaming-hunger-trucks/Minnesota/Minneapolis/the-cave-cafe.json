@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Experience The Cave Caf\u00e9, a delicious fusion of African and Italian cuisine \u2013 Afro-Italiano!  The Cave Caf\u00e9, a mobile food truck, is owned and operated by Chef Teddy (Tewodros) Negash.  He can drive to your place of business to offer you and your office mates the best taste of two continents \u2013 on wheels!Even better, during the month of October, Chef Teddy will be sending 20 percent of his profits to the World Food Program USA, whose mission it is to feed those dying of hunger around the world.  Born in Ethiopia, raised in Eritrea,  Chef Teddy is deeply moved and saddened by the alarming rate of famine and starvation in East Africa.So, by buying a delicious and unique lunch at The Cave Caf\u00e9, you can help feed the hungry on the other side of the World \u2013 The Cave Caf\u00e9 feeds you, you feed East Africa.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cave Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ebb6ff1-f144-4a80-8b14-176646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

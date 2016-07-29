@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Alchemy Coffee is the mobile laboratory that takes a scientific approach to making coffee. There are many coffee shops but there are very few who dedicate their time to pouring the perfect cup of coffee. Alchemy Coffee trailer has been brewing coffee with passion since 2012 alongside with some of the best homemade pastries. Be enlighten every morning with a specialized cut of coffee!  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Alchemy Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f6f1e-3bb4-4753-8af6-243446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

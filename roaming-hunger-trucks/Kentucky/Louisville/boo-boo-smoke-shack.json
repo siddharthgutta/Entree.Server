@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hey Boo Boo! Yogi's not the only one yelling this anymore. Boo Boo Smoke Shack is your one stop shop for all your BBQ needs. Pulled pork sandwiches covered in slaw, smoked dog covered in pulled pork and bacon covered in chocolate are just a few of the items you might see. Get your picnic basket and get over to Boo Boo!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Boo Boo Smoke Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5541112f-a6d8-4611-ab04-5e0546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

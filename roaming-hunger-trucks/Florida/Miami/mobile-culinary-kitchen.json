@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mobile Culinary Kitchen was founded in late 2011, by none other than a food junkie with more than 25 years of experience in the Culinary field.After traveling and cooking for many prestigious and reputable restaurants, he has decided to share his passion with the hungry public by cooking up some of the Best Colombian food you'll find in South Florida!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobile Culinary Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50079a4e-825c-4e2b-be3d-409e46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kalamas Local Grind is serving the streets of Maui! The offer a diverse menu of Home Cooked Local Food! Items include Ribeye, Burgers, Fresh Fish, Garlic fried Noodles, Kalua Pork, and many other Hawaiian favorites. Kamalas is adding Brown Rice as a choice for a healthier meal. Green salad is also available with their sweet garlic chili dressing. Check in often for local specials.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kalamas Local Grinds",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/516343fe-ab38-491d-a8d0-490846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

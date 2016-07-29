@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Korean street food at its very finest, K-Bop STL is serving up something superb today! Hot, fresh, and full of flavor, these breathtaking bowls and sides are always sure to satisfy your hunger. Cups of Korean cuisine unlike anything else you'll find are rolling right to you, so don't miss out on the magnificent K-Bop STL!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "K-Bop STL",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568aff45-4b30-4fc0-9d8a-433946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

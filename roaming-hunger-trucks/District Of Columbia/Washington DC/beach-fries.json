@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Who needs \u201cbrick and mortar\u201d?  Beach Fries LLC and the big orange\u201cBeach Buggy\u201d are bringing a little bit of the \u201cbig city\u201d through its mobile food truck to the Fredericksburg area.  We want to share with our customers some of our favorite foods and hope that they will become your favorites as well.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beach Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5c1cba-e368-4b82-9f9e-1ff346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

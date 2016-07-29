@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kalamazoo's first food truck, going long and staying strong! Gorilla Gourmet's internationally inspired unique cuisine is always a smash hit. Whether it's the Asian-style tacos, Oberon brats, El Monstro quesadilla, or any of the rest of their ever-evolveing menu you can be sure you'll have something amazing each time you visit.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gorilla Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526f20c-8bdc-45b9-852d-7eeb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

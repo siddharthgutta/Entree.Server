@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Soul Fuel Barbeque is out roaming the streets of Nashville. Soul Fuel provides the ultimate simplistic dining experience with a \"heroic twist.\" They come to serve their food with their unique BBQing vehicle, the 501 converted fire truck. Their delicious menu includes 14 hour smoked brisket, turkey legs, the signature 'king kong' sirloin burger, massive polish sausage and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Soul Fuel BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51798b19-89e4-4c13-b69e-7bc646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "High quality hot dogs are winding their way through the Windy City streets on their way to you! Delicious sausages you're sure to savor are on the menu of this terrific truck. Choose from the Polish Mild, Italian Spicy, German Oktoberfest, or more! Together with their delicious fries and poutine, Kate & Jan Hotdogs has everything you could desire from a fantastic, local food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kate & Jan Hotdogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f9c1ed-1410-4a6a-9bc9-3fdb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

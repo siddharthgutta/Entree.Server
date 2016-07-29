@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mosaic Restaurant that has an outstanding reputation in the Richmond, Virginia for being a special place. Mosaic has gone mobile! Bringing you the Mosaic Food Cart for a delicious experience. Now that they have expanded to the serving the streets to bring a gourmet meal at your request. You're invited next time you are at an outdoor event to try new exciting dishes that will make it a special night.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mosaic Food Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55721417-8a6c-424c-b3e7-7d1246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

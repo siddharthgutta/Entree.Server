@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are Bay Area's favorite gourmet ice cream truck. Our motto is \"Making the World a Happier place one Scoop at a Time\".  We have flavors from vanilla and chocolate to Sunday Funday and Peanut Butter Dream. We focus on Corporate Catering, School Events, Festivals and Birthday parties. We have repeatedly been acknowledged for our excellent service and smooth execution of 50-1000 person catering events. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Scoops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f87a3a9-63ec-472b-a55a-3a6b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

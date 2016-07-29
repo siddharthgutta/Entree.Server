@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ye Ole Food Truck is rolling down the streets of Charleston with the greatest grub on the go! If you're craving savory burgers, hot dogs, milk shakes, and more, then this is the food truck for you. This is fantastic food on the move that you're sure to love, so be on the lookout for Ye Ole Food Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ye Ole Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ddedd9-e700-4a64-8344-413746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

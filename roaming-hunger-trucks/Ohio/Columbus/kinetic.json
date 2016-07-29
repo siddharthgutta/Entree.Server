@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kinetic is a gourmet food truck for the health-conscious. With bowls, wraps, smoothies and more, Kinetic is the premier healthy food truck in Columbus designed with nutrition and balance in mind. Stop by today and find out what truly delicious healthy food tastes like!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kinetic",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7694/550dd64e-7eb8-4064-ae22-7b0c46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

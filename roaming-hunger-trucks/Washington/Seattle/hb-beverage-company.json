@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "HB Beverage Co is offering up Kirkland's greatest cold pressed juice, smoothies, and bowls! Hospitality, education, and fantastic flavor are at the heart of this food truck's philosophy. Natural taste, friendly service, and an amazing selection are all on the menu today, thanks to HB Beverage Co! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "HB Beverage Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56cb5a78-635c-4d90-ad6d-5a1f46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

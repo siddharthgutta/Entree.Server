@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kapow bills themselves as the next evolution in food trucks and considering these fresh, flavorful fusion dishes, it's hard to disagree. The Thai, Korean, and Hawaiian flavors sure pack a punch, so come out and try the Kapow Rolls, Kimchi Tacos, Huli Huli Bowls, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kapow Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8906/57967e44-3bb4-43a2-b51e-405c46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

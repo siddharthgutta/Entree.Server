@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The perfect eatery for anyone who loves variety, J Street Food truck is always ready to amaze.Every month this truck trots out a fantastic new cuisine, from Thailand to the American Southwest to the Mediterranean to who knows where! The spice of life is alive and well on this food truck, and the streets of Denver are all the better for it. Anything you order can be made into their Street Size snack portion or their regular entree size, so they're ready to satiate any appetite, big or small.This truck is doing Denver proud, so don't miss out on the Mile High City's most unique culinary experience on four wheels.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "J Street Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56fc5797-92d4-4966-b08d-17e446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

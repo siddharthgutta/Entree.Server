@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tip-A-Roo is Florida's home for real Santa Maria Char-Grilled Tri-tip and Beans, in addition to unique Char-Grilled Chicken Breast and Pork Tenderloin! If you're in need of a delicious tri-tip sandwich, Tip-A-Roo is your source for meaty goodness!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tip A Roo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5453c7b9-ad84-4f66-8ca7-043e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

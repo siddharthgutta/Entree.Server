@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Oddball Eats, we are mobile purveyors of round food, bringing you ball-shaped food with a Mediterranean/Middle Eastern flair! With old favorites like the Full Egyptian Breakfast and the Falafel Ball Sandwich, alongside new additions such as our Spicy Merguez Meatballs, you will  assuredly satisfy your succulent, circular desires. Come and join us at Oddball Eats! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oddball Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d27b78-378c-4a0b-865b-4ceb46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

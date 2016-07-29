@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bark and the Bite is your number one truck for artisan BBQ on the streets of Minneapolis! Serving up southern hospitality in every bite, this food truck is sure to make you feel right at home when you visit. With delectable eats made from scratch, Bark and the Bite is bringing you everything you could ever ask for, so stop by today and try a taste for yourself!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bark and the Bite",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564baa5b-b86c-43dd-ab0c-745946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

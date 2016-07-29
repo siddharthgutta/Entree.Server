@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Years of experience and a passion for making quality pizza are what's at the forefront of this fantastic food truck. The Traveling Pizza Maestro wants to share his love for pizza with you, and you're sure to fall in love with his pizzas! Hot, fresh, made-to-order, and from the finest ingredients possible, this pizza is certain to be the highlight of your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Traveling Pizza Maestro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55359438-a68c-42b7-b4a5-32b046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to FAIRYCAKES!  Hawaii's unique mobile cakery! It's 3:15 in the afternoon, your stomach's grumbling and the vending machines dusty chips and stale pretzels just won't cut it...Now there is a way to get the freshest, funkiest sweet treats JUST as you want it, and even WHERE and WHENEVER you want it.  Totally mobile, baked from scratch, with innovative flavors and island-inspired ingredients, our selection of freshly baked cupcakes, brownies, cookies and cakes will be served daily from our travelling van (or foodtruck, lunchwagon, da kine - whatever you'd like to call it.) Watch out for us...our cake fairies are roaming the streets of Honolulu in our fabulous purple Van.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fairy Cakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dd28be6-6bec-4147-9c13-11e046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The potato is the inspiration for the creation of the Spudrunners menu.  Fresh ingredients, unique handmade sauces, and homemade soups will be on the daily menu. Along with potato based items, Spudrunners will also feature a variety of Americans favorite sandwich, the \u201cGrilled Cheese\u201d.  All of our grilled cheese creations will feature fresh baked breads and a variety of quality cheeses and fillings.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spudrunners",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d40f189-f288-4874-9ed6-481746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

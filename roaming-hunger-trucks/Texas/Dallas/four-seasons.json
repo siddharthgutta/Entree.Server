@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Four Seasons is here to provide the Metroplex with our gourmet food all year long! With over sixty years of experience in the catering field we've come to realize that change is good, really good. Our menu will be constantly changing throughout the year, although keeping some crowd favorites such as our massive Philly cheese steak and our amazing Black Angus Burgers.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Four Seasons",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fbed394-f7d8-4900-bdc3-55e146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

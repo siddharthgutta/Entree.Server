@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pizza Politana offers a unique culinary experience. We have imported an authentic Neapolitan wood-fired oven and housed it on a custom-built trailer that can be transported directly to events. We serve pizza at serveral Bay Area farmers' markets and can be hired for anything from an annual corporate picnic to an upscale wedding. Pizza Politana fits into every occasion, as an hors d'oeuvre or as the main event. Not quite street food and not quite a food truck, Pizza Politana offers 'stand up' pizza from a very unique mobile oven.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Politana",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4df07c77-a4e8-4f0a-aa3a-66cd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wraps N' Rolls is bringing Michigan the best Vietnamese cuisine on the scene! Made with the best ingredients and some serious skill, Wraps N' Rolls' menu has something you'll love. Authentic pho, banh mi, wraps, and more are on their way to a street near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wraps N' Rolls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ad3654-b0a0-4e5b-a4e8-32dc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

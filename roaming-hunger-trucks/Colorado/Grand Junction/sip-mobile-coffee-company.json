@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "sip mobile coffee company is Western Colorado's only mobile coffee trailer, our goal is to meet you where you are at; sports fields, local events, farmers markets, concerts, look for us wherever you plan to be! We use only Colorado made products to keep our business local! So come by for a sip!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "sip mobile coffee company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7020/53e63251-1da4-45f0-8c17-306a46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

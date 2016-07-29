@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Miami's best Asian food truckFrom Korean BBQ to Teriyaki menu, MiAmiGoz A.K.A. MAG is one of the few Asian food truck with menu that people love.Hawaiian Teriyaki, MAG Bomb Chicken, Korean MAG Galbi, Korean MAG Bulgogi... the menu is full of Asian Cuisine that people love.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MiAmiGoz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5452d277-5490-4b47-8282-064746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

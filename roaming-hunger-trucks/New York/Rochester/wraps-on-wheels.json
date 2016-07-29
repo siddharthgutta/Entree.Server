@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Something that tastes great and is great for you? Look no further than Wraps on Wheels. Your premiere choice for healthy, tasty wraps made from fresh and locally grown produce. Menu items include tangy Buffalo Chicken, sweet Cranberry Blue Chicken, and classic Chicken Caesar, among others! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wraps on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e5a9f-c6c8-4056-82ab-117246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

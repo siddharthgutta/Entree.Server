@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "G's Brunch Truck is bringing the best breakfast sandwiches right to you! With great ingredient's and years of practice, G's Brunch Truck is serving you only the best, made with genuine Taylor ham, eggs, potato, and more! Along with the delicious hot dogs, meatballs, and sausage sandwiches, there's sure to be something for everyone at G's Brunch Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "G's Brunch Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5543b21f-a6a0-499e-b8fa-27de46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

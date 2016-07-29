@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Julia's Sweets Truck is roaming the streets of Nashville and beyond. They bake fresh daily, and  use only the finest fresh ingredients.  All of their treats are made the old-fashioned way with love, patience, and consistent dedication to the highest quality. Julia's Sweets Truck serves layer dessert cakes, cheesecakes, award winning pies, cookies, brownies and other bars, pastries, their ever popular cake squares, and other delicious treats. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Julia's Sweet Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/517b0e4f-92ac-4d41-9282-572846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

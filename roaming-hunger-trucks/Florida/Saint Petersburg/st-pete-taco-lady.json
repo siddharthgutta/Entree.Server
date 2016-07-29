@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sunny St Petersburg's best tacos are on the move with the St Pete Taco Lady! An eclectic mix of Mexican and American flavors, these tacos are always fast, fresh, and amazing! So for the best rib-eye cheesesteak tacos, grilled mahi tacos, bacon cheeseburger quesadillas, and more, look for the St Pet Taco Lady today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "St. Pete Taco Lady",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f37bc-6ae4-4ab8-b2e7-59ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

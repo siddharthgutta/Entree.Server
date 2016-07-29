@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Iggy's Food Truck is serving a taste of Chicago to Palm Beach County! Between Chicago Italian Beef served with handmade Au Jus, and Chicago Dogs, both on soft, freshly-baked buns, you won't find Chicago food this authentic unless you're on the corner of Clark and Addison! Come get Iggy with it and hear what all the rave is all about!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Iggy's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545bf123-7f68-4adb-8150-3a4b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

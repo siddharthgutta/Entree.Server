@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Dog OKC is taking the classic street food you love to all new heights of flavor! Hot dogs made right, every single bite from this hot dog cart is sure to satisfy your cravings for fantastic food. Whether you're looking for a savory bratwurst, spicy jalape\u00f1o smoked sausage, classic all beef hot dog, or anything else off their amazing menu, Hot Dog OKC is sure to be your new favorite street food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Dog OKC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c5442a-4924-4e7a-a8ad-03bc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

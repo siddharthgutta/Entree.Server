@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This big green truck is feeding West Burke the best and freshest cuisine, made with local ingredients of the utmost quality.The folks at 802 Fresh strongly emphasise ecological sustainability by exclusively using Vermont-grown foods, and you can tell that their fare is special with every dish you taste. Their menu offers items such as their Vermont Maple Chipotle Pulled Pork Sandwich, Roast Beet Salad, BLT, Vermont Maple Milkshake, and so much more.Make your way to 802 Fresh for nutritious fast food that\u2019s great to eat. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "802 Fresh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/572b71e9-9f40-45e5-a29d-1a7646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Portland's \"These Guys Brooklyn\" is serving up some of the juiciest meaty sandwiches curbside. Menu items include the brisket sandwich, the pork shoulder sandwich, a variety of meat filled tacos, and tasty sides like potato salad and slaw.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "These Guys Brooklyn",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5215120a-aba4-4f5b-a165-453146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

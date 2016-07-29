@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're a gastronome but love junk food, 17 and Co. has perfected the junk food for you. With items such as bacon-wrapped hot dogs, pancetta mac n' cheese balls, and much more, 17 and Co. creates the perfect savory experience for your taste buds. Come grab some gourmet snacks at 17 and Co.!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "17 and Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559c39c3-55e8-4cd2-b273-013746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

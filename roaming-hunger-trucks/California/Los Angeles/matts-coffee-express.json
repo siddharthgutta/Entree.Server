@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Specialty Coffee and Smoothie drinks, Hot & Cold. Full Mobile Espresso. Formerly EXCLUSIVE Mobile Service for Coffee Bean & Tea Leaf Co. Our menu is modeled after theirs, many similar drinks. Serving Los Angeles & Ventura Counties, 24/7.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Matt's Coffee Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51ddafb8-2f94-48c1-8168-6e3b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

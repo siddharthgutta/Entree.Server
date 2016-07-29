@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Black Market Food Truck is a mobile gourmet deli in Buffalo specializing in unique sandwiches, soups, and sides. Everything is fast, fresh, and made from scratch. Specializing in a range of regional cuisines, the ever-changing menu keeps each meal exciting for both the customers and the cooks. With dishes ranging from Coconut-Curry Chicken Souvlaki, to Vietnamese Banh-Mi, Buffalo Chicken Arancini, Homemade Juices, and Local sodas, The Black Market Food Truck is poised to become Buffalo's premier gourmet food truck! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Black Market Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4769/56f46c14-b998-4339-9ed3-41af46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

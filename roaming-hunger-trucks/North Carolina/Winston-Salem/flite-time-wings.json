@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flite Time Wings has taken flight over Winston-Salem, North Carolina, delivering a variety of hot wings through out the triad area. They serve up sauces from sweet to spicy that are suitable for all taste buds and you\u2019ll want to try them all! Their finger licking menu makes you stop and exceptional service will keep you coming back.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flite Time Wings",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558c3bc7-8048-4352-bdad-1a6b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

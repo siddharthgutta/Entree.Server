@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kiss My Grits is a food truck that has been roaming the streets of Seattle since 2014. The mission of Kiss My Grits is to provide the highest quality food using the best local and seasonal ingredients wherever possible, while exceeding its guests' expectations for taste, value, and service. Offering delicious grits and soup options, this truck truly brings a taste of the low country cuisine up to Seattle. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kiss My Grits",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418c6e8-e99c-44d2-a244-2e1246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

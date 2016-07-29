@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pittsburgh is a blue collar town built on the hard labor of steel workers. When the Great  hit, they had to work even longer hours just to make ends meet.  With twenty hour work days and only twenty minute lunch breaks, the workers needed a delicious and filling meal before going back to work, but lacked the time to sit down and eat a full meal of protein, vegetables, and potatoes. Out of this desire, the Pittsburgh-style sandwich was born. The sandwich shops started serving slaw and fries on the sandwich. This way the steel workers could have a quick, tasty, satisfying meal to get them through the rest of their shift.  Still to this day Pittsburgh sandwiches are made this way and are a staple of the Pittsburgh community. Why are Steel City Sandwiches so yummy? They're comfort food. There's no fancy mayo, buttered buns, or truffle oil. They don't need 'em! Fresh ingredients prepared properly taste great all on their own. We get our Italian bread fresh daily from Vito at Eagle Rock Bakery. We don't toast 'em or butter 'em cause they're fresh and perfect for holding overloaded sandwiches. The coleslaw is shredded daily and wilted with sugar and vinegar for over an hour to get that perfect vinegary slaw taste. The fries are hand cut, blanched to get that starchy taste out, and then cooked again at a higher temperature to get that perfect crispiness. Just a little salt and pepper and those fries are good to go. Three simple ingredients treated properly are the foundation for the perfect Steel City Sandwich.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Steel City Sandwich",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e97a8b7-1e2c-4feb-87eb-1a1246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

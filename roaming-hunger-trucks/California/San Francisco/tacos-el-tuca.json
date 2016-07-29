@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tacos El Tuca is a mobile eatery on the streets of San Francisco.  They serve the following Mexican favorites: Tacos, Burritos, Tortas, Quesadillas, and Platos with rice and beans. All of their menu items are prepared with a wide selection of meats and flavorful salsas. Tacos El Tuca uses fresh ingredients daily.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos El Tuca",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51edaefe-5530-4ea9-826c-7e9246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

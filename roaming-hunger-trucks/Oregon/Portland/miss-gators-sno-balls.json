@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Miss Gator's Sno-balls serves up the perfect sweet treats for those hot days in Portland! With a wide variety of flavors including Georgia Peach and Bubblegum, you're sure to find something downright delicious. Stop by and grab a perfectly made sno-ball!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Miss Gator's Sno-balls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c29f5d-9c5c-4189-90ee-287646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

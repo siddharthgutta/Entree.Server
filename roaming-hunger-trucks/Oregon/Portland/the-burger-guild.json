@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Burger Guild is bringing delicious Midwest flavor to the Northwest by serving up tasty stuffed burgers and hand pounded crispy pork tenderloin. They also compliment your burger or sandwich with a bag of chips, or you can substitute that with some crunchy sweet potato fries for only a buck. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Burger Guild",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e9bc6d-142c-4805-9bca-447046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

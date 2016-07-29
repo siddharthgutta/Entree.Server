@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your favorite froyo is now on wheels!  is Local Yogurt's first mobile unit! This truck carries your favorite toppings with the same great froyo that can be found in any Local Yogurt location! You can find Loyo On The Go traveling just about anywhere in the State, but its main home is Greenville, NC! Loyo On The Go wants to cater your next birthday party,college outing, wedding, or special event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LoYo On The Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb225df-fc28-454b-8704-3b3f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

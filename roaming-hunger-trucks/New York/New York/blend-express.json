@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Blend Express is a Food Truck in NYC offering a mix of dishes incorporating rich Latin American culture fused together to entice your dining palette.  A daily celebration of repast encompasses your visit beginning with a warm welcome.  An array of dishes served to seamlessly quench and appetite starts with tacos, burritos, or bowls and you build from there with options of proteins, toppings and sauces. Other signature items include empanadas and maduros. \u200b",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blend Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50dcea19-f590-4e6b-8355-2ef946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

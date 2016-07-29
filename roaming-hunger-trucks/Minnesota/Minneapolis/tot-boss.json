@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "TOT BOSS is a food truck specializing in tasty tater tots and tater tot concoctions such as bacon wrapped tater tots, tater tot nachos, and of course - tater tot hot dish. Many menu items are gluten free.Tater tot enthusiast, Dan Docken (the boss), invites you to enjoy unique snacks and meals at a location near you \u2013 a mobile location.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "TOT BOSS",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fa1c85b-fd4c-485f-9a08-452946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

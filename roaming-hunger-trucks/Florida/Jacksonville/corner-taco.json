@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Semi-Swanky Street Food-Marinated in \"Fresh Thyme Vinaigrette\" from our sister company, Corner Natural Foods.  We make all of our sauces from scratch and make our own tortillas.  All of our ingredients are carefully sourced and most of our food is gluten free.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Corner Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/508040db-9198-4c28-8a1f-6d8746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

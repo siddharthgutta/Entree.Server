@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Happy Grillmore is a Seattle-based burger truck offering delicious handmade burgers and fries. No frills here, burgers and fries are the only options available, but the range of patties, from beef to salmon to black bean, bespeaks an underlying care and quality to this truck's fare. Find this truck on the streets of Seattle, or bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Happy Grillmore",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418c18b-aa94-416a-a6dc-58d346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

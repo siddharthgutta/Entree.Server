@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "From downtown Manhattan on Wall Street to Park Avenue in midtown, Jiannetto's Pizza Trucks serve an award winning Grandma Thin-Crust Sicilian Pie and are recognized as one of the best offered in New York!Jiannetto's started with one truck on Wall Street in 1998 and has grown in size and popularity since. Today, three trucks share the streets delivering good food for reasonable prices in New York City.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jiannetto's Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e4d5bb3-03c8-46da-9125-53a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

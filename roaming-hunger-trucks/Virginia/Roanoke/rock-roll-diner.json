@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Roanoke, VAThis mobile diner is serving up an eclectic menu with all things comfort food! From breakfast tacos and burritos, to classic diner burgers, to authentic philly cheesesteaks there really is no wrong choice when indulging in some traditional comfort food. They also offer a variety of sandwiches, pastas, tex-mex, and homefry platters! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rock & Roll Diner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523a48bc-0264-410b-99f8-034146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

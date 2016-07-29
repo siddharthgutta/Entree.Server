@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are bringing handmade frozen desserts to Denver, the mobile way!Coaches Scoop Frozen Desserts offers a wide variety of frozen desserts including ice creams, gelato, sherbets, and sorbets.  Because all our frozen desserts are made fresh for each event or special order, we can create just about any flavor.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Coaches Scoop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e2f6561-40b8-42cf-80c4-097d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

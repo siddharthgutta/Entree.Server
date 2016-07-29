@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "D'Burritos is cooking all your favorite fresh Mexican fare. Their menu consists of a variety of tacos, burritos, and salads. Tacos are prepared with corn tortillas and pico de gallo, and burritos are prepared with flour tortillas rice, beans, sour cream, and pico de gallo. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "D'Burritos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e8dbd-c798-4914-8ec9-308b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

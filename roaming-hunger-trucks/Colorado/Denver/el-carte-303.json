@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Carte 303 is Denver's finest mobile food cart.  From Carne Asada to Pico de Gallo, we serve up the freshest flavors direct from local farms to your table. Try our Famous Bacon Wrapped Dawgs or \"Big Ass Dawg,\" 100% hebrew beef frank wrapped in two slices of hickory smoked bacon. Our tacos are on point with your choice of Carnitas, Asada, Al Pastor, or Pollo. Meat choices also available in Quezadilla or Burritos.  We can prepare classic Gyros sandwiches and a Philly cheesesteak. As always, options from our Salsa Bar included with every purchase. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Carte 303",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6621/54f16cf0-45a0-45bd-ad73-181246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

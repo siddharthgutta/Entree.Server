@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The freshest seafood in Austin is coming to you, thanks to Quality Seafood Market! Serving it up fresh and fast, you've never had such delicious fish dishes as you'll find when you try this truck. Local favorites with fantastic mobile flare, Quality Seafood Market has everything you could ever ask for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Quality Seafood Market",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5653a4fd-7234-4db3-a56c-39a546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

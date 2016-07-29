@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Refuge Coffee Co. is a nonprofit business committed to preparing amazing coffee, tea, and espresso drinks from top-quality, sustainable ingredients, and serving them with a smile.More than good coffee, we are using our truck as an engine for job training for refugees in our community of Clarkston, GA. Our trainees work in the business, receiving food-service job training, individual mentorship, and job placement help. Their hard work on the truck generates revenue to sustain the training program, minimizing\u2013and ultimately eliminating\u2013the need for donor support.Our truck is designed to be a mobile cafe\u2013capable of catering large and small events, providing a tasty caffeine jolt at a festival, and serving as a relaxing outdoor cafe anywhere, anytime.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Refuge Coffee Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10045/554ea0b8-d66c-4403-b2de-175f46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

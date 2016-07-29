@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Seattle Biscuit Company is a fantastic biscuit truck on the streets of Seattle. Using only local Washington-Oregon ingredients, they're building biscuits without boundaries. Offering older flavor combos, like jalape\u00f1o blackberry jelly and bacon, and new ideas to satisfy the fusion-friendly west coast, like ham, bacon, Beechers cheese, sweet onion mustard, pickles, and apple butter, this fare has something to offer everyone. Find it on the streets and grab yourself a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seattle Biscuit Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419fcfd-f800-47ab-b767-284046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

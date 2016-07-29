@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bayou City Catfish is making the most amazing seafood on the streets of Montana! Try the freshest in Southern fried seafood--you haven't lived 'til you've tried this truck's catfish and shrimp. Southern hospitality and a Montana attitude make Bayou City Catfish an amazing eating experience you just can't miss!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bayou City Catfish",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56452464-7828-4bab-b9fb-3bc246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

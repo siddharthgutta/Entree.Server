@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grill Master Cafe Miami comes from a husband/wife team who started it as a weekend side gig.GMC just started full-time dishing out the mixed bag of Cuban, Mexican, and All-American grub consisting of philly cheese steak sandwiches, burgers, tacos and even a Grill Master Mojito Wrap!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Grill Master Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7c4444-2b9c-46e1-ad66-4cd646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

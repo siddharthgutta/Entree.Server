@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Midland, TXServing up the best burgers, bbq and hand cut fries. Fountain Drinks and Milkshakes.The Big Red Lunchbox is owned and operated by J.P. Hearn an Le Cordon Bleu trained chef.  The Unit was designed to accommodate a large and diverse menu.  We specialize in food with a \u201chome cooking\u201d flair. Some items we offer:\u2022The New \u201cSpudStick\u201d - We take a whole potato, cut it with our exclusive cutting technology, then fry it up and season.\u2022Bloomin\u2019 Onion - Fried up in a our special batter, served with our special sauces.\u2022Texas Ribeye Sandwich - our version of the venerable Philly Cheesesteak, we make it with Ribeyes, special sauce, caramelized onions and topped with cheese on a bun.\u2022Brisket Sandwiches - Smoked chopped brisket with sauce.\u2022Old fashion Hamburgers - Buttered toasted bun with all the usual toppings and some gourmet options.\u2022Hot Dogs - All Beef Black Angus Sirloin served up with all the trimmings.\u2022Fountain Drinks - Coca Cola, Dr. Pepper, Sprite, Big Red, Barq\u2019s Root Beer.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Red Lunchbox",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4c71f7b0-1368-4134-be3e-7b0246204482.gif",
+  "transactionFee": 30,
+  "username": ""
+}

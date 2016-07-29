@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Dashboard Diner is Indiana's newest gourmet food truck, the mobile half of Dashboard Edwards Drive-In.Dashboard Edwards Drive-In is home of the legendary handmade pork tenderloin, hand-dipped onion rings and homemade root beer. Edwards originally opened as a Dog'n Suds drive-in on August 10, 1957 and was owned and managed by Herb Edwards and his son Tom, which was later passed down to Tom's son and daughter, Jeff and Terri.We hope to see you soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dashboard Diner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec56fc6-9f58-4fd4-a5af-08c146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

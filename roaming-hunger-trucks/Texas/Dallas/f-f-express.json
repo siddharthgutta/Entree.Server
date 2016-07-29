@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A food truck that's ready for the fast-paced world of Texas racing, F&F; Express is ready and waiting for you! Healthy and delicious Japanese and Korean cuisine is on the menu here, and we're sure you'll agree that you won't find better anywhere else in town. This food truck is off to the races, so if you want the best bowls, rolls, and so much more, you'd better be able to keep up with F&F; Express!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "F&F; Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56e9ed07-4ccc-4a68-bd78-468046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For delicious eats on the beaches of Florida, there's nobody better than DJ's Sandbar! Burgers, hot dogs, ice cream, and more are the perfect way to refuel when you're out and about having fun in the sun. Don't miss out, DJ's Sandbar is ready and waiting to make your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DJ's Sandbar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56030bbd-da98-4037-bff5-52aa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

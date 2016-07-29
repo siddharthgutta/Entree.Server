@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A BBQ wonderland on wheels, it's Truck U Barbeque! This rockin' truck is ready to serve up rockin' good times with rockin' good barbeque wit ha Latin twist! Blackened catfish, pulled pork burritos, short rib torta, all these and more cooked to perfection and guaranteed to satisfy your cravings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Truck U Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55315c7c-deb0-4643-aff3-0b2d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

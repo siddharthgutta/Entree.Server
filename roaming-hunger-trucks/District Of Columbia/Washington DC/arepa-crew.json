@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Arepa Crew is here to bring a taste of Venezuela to the streets of Washington DC! These wonderful flatbread sandwiches, stuffed with the best cheese, avocado, and many other delicious fillings, are soon to be all the rage. With a unique new cuisine on the food truck scene, Arepa Crew is serving up fantastic new food you won't soon forget!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arepa Crew",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559accaa-2148-4bfb-9ebb-626e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

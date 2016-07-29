@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "JoJo's is taking the best hot dogs in SoCal on the road with their fantastic food truck! There's no better hot dog than one that's fresh off the grill, and JoJo's knows that better than anyone. JoJo's Grill-a-Dog is serving you great hot dogs on fresh buns, with all the toppings you could ask for! Don't miss out--get a great dog today at this amazing food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JoJo's Grill-a-Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d7af28-01d0-4d3b-9df8-6e1946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stop by this gourmet food cart on the go, and you'll find the very best meals on the move! Sporks A La Cart is serving up a Pan Asian-American menu you're sure to love, made amazing by Chef Francine's signature sauces. Savory BBQ, Spicy Peanut, Zingy Chimichurri, and more delightful sauces are sure to make your meal amazing when you try Sporks A La Cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sporks A La Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5670564e-736c-467a-ae55-08e946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

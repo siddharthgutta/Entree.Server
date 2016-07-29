@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Canvas Food Truck is serving up amazing Seasonal, Organic, and Locally Grown Comfort Food in Los Angeles. With a menu that is sure to tempt the taste buds of any foodie, this delightful truck is the perfect choice to sate your hunger. From fantastic burgers to delicious sandwiches and wraps, this fare will satisfy any who try a bite.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Canvas Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4920/53ec3a64-9254-431c-b275-2b6946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

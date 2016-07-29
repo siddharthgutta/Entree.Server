@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet burgers and hot dogs like you've never had them before! The Mann's Doghouse is bringing you the best of what you crave. True Coney Dogs with the best Coney Sauce you've ever had, burgers cooked to perfection when you order, and service you just won't believe are what set this mobile eatery apart! The Mann's Doghouse is serving up the food you've been looking for, so stop buy and find something delicious today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mann's Doghouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5592fab7-8dc8-4a50-ac32-603946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

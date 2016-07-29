@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Say Cheese! Time to smile for the cheesiest moment in your life. The Say Cheese food truck has captured all your picture perfect memories from childhood and compressed them into groovy grilled cheese sandwiches. The concept design of a school bus mobile kitchen can't be missed. Growing in popularity is has been named \"Jacksonville's Grooviest Grilled Cheese Truck\"!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Say Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554cf18e-03c4-4d85-9b6b-2b5d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

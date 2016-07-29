@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Trudy's Tex-Mex is making amazing meals on the move in the city of Austin! This mobile kitchen is cooking up all the comforts of home, with a classic selection of the best Tex-Mex dishes around. If you've been craving the very best tacos, burritos, enchiladas, and more, then this is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Trudy's Tex-Mex",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13146/56b26777-a4f4-45b9-8fce-236a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

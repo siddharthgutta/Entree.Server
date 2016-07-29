@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kick's Frozen Yogurt, the shop you know and love, has expanded to a fantastic froyo trailer! This mobile purveyor of delights serves 4 flavors of premium delicious soft-serve frozen yogurt and 4 flavors of frozen fruit sorbets to make it easy to beat the heat and satisfy your sweet tooth at the same time. If you want some Kick's on the go, then this trailer has you covered!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kick's Frozen Yogurt",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10673/5571e4a1-020c-44a9-a3c6-629546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

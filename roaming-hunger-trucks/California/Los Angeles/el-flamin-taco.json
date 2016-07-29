@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Flamin' Taco is a terrific taco truck on the streets of Los Angeles! These tacos are taking taste to all new levels - just try one and you're sure to be hooked. Tacos, burritos, huaraches, and more delicious dishes make up the great menu that you'll find at El Flamin' Taco!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Flamin' Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577e9663-ceec-4cc3-b59a-22df46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "RockSalt is a delicious truck serving the DC streets with, among other things, Fried Fish and Shrimp with hand cut fries and coleslaw, Po Boys, Shrimp and Grits topped with cajun cream sauce with bacon, scallions, and tomatoes, and Fried Pickles! Fresh off the line, every time! Check them out today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "RockSalt",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543ec29d-1c28-4dc0-86a0-601546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

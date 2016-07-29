@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Los Lobos Burritos is bringing authentic Northern Mexican burritos stateside to the streets of Washington D.C.! Choose from the Tinga (slow cooked shredded chicken in a chipotle tomato sauce), the Chile Verde (shredded beef sauteed in a green pepper salsa), the Chile Colorado (beef sauteed in a red pepper salsa), or the Rajas (grilled and peeled Anaheim peppers sauteed with onions and cheese).  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Los Lobos Burritos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52312c0b-1888-40a5-80de-17a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

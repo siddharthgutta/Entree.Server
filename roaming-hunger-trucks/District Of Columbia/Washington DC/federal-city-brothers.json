@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our nation's capital attracts the best of everything, and when it comes to their food truck, Federal City Brothers is no exception! Sausages & brats to make your mouth water all day long, everything you order off their fantastic menu is sure to satisfy. The Spicy Pig, Bacon Wrapped Brat, Oktoberfest, and more are ready and waiting for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Federal City Brothers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558c6744-7974-4665-82ad-6f8e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

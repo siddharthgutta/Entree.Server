@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At KAMI food truck you can get all of your favorite dishes with a gourmet Korean twist. A local favorite is the KAMI burger - a bulgogi kimchi with korean slaw on a bun! They're also known for their Korean Tacos made with bulgogi marinated beef with spicy pickled daikon carrots, lettuce, cheese, and sour cream. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "KAMI",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b4497-c098-42a5-a846-39d146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

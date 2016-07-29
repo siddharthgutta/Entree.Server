@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving organic, Heirloom, Local fusion cuisine, the FARMERS BELLY has a rotating menu and seasonal specials.  FARMERS BELLY is made up of a small handful of earth loving, fun loving family members that have a blast focusing on the body inside and out. **Recently seen on The Cooking Channel with Haylie Duff**",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farmers Belly",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6128/5764351b-63ac-4d90-bbfe-306046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

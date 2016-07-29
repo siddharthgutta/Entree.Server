@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We bring fine dining to the streets.BunsOnWheels is a mobile gourmet kitchen serving gourmet burgers made from premium, all-natural and organic ingredients.Street food does not get better than this.We endeavor to be environmentally responsible. We use only recyclable containers and ware. We compost food scraps and anything else that can be composted. We source our supplies locally to support our neighbors and to help minimize greenhouse gas generated from trucking in food from long distances.We use premium, 100% natural, certified organic, grass-fed beef for our hamburgers.Why?Besides the true, rich taste of natural beef, meat from a grass-fed steer has about one-half to one-third as much fat as a comparable cut from a grain-fed animal.Lower in calories, grass-fed beef is also higher in vitamin E and omega-3 fatty acids, which helps to reduce the risk of cancer, lower the likelihood of high blood pressure, and make people less susceptible to .Further, meat from grass-fed cattle is rich in another beneficial fat called conjugated linoleic acid (CLA), which is also believed to lower the risk of cancer.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Buns on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ea0edb8-92b0-40d9-a4ea-72bf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

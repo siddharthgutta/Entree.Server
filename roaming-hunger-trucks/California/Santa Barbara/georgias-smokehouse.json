@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving up the best grub in Santa Barbara, Georgia's Smokehouse will have you hooked! With that real downhome Southern taste and hospitality, Georgia's is serving up an eating experience like no other. Try the pulled pork, Alabama chicken, brisket melt, of any of their delicious grub today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Georgia's Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559ff944-7950-48d2-88aa-57ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

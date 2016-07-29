@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "TaGO Bueno is Taco Bueno's newest addition to their Tex-Mex fleet! The truck will be traveling the metroplex serving made-in-house fresh Tex-Mex including chicken, steak, and beef tacos, burritos, quesadillas, and nachos! Come out and enjoy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Bueno",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522e84ae-bd5c-4f2b-b962-3b8046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

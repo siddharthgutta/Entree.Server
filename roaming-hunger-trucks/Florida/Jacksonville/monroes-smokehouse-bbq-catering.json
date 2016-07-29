@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Monroe's Smokehouse is here to bring you the best BBQ in Jacksonville! Juicy, delicious, hot, and fresh, Monroe's is serving up a real BBQ experience. Ribs, sandwiches, and so much more, you'll find something to satisfy your cravings at Monroe's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Monroe's Smokehouse BBQ & Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555a0e77-3880-4d9b-9009-4ce746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

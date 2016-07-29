@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Award winning BBQ is coming right to you! UPS 2 BBQ is competition style BBQ at it's very best. Smoked to perfection, and seasoned with their very own rubs and sauce, UPS 2 BBQ is dedicated to bringing you the most delicious BBQ you'll ever find!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "UPS 2 BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5554d63a-2350-433f-a029-19d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "crankees pizzeria is a mobile wood-fired pizza truck. They are committed to producing Neapolitan inspired pizzas using fresh, local and seasonal ingredients. Their dough is made by hand with fresh natural yeast, Caputo 00 flour, sea salt and water.All of their pizzas are cooked in a wood-fired \"Di Fiore\" oven, shipped from Italy and painstakingly built onto the truck. They make their pizzas fresh to order and in full view of all their patrons!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crankees Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5241327f-e424-4d14-82e8-60a946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bones Burgers specializes in serving cincy residents the tastiest grass fed beef burgers in town. In addition, they also offer turkey, salmon, and garden burgers as well as a delectable grilled cheese sandwich. All burgers are served on locally baked whole grained bread, with a choice of 10-15 different cheeses and other locally sourced toppings. Compliment your delicious burger with seasoned parmesan fries or sweet potato fries.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bones Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51c4e3d8-277c-4e61-9a42-0e3b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

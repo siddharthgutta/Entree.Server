@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We\u2019re the Good Food Truck, and we serve up delicious savory waffle cones, international rice crispy treats, and much more creative street food throughout the Atlanta metro area.The Truck sort of found us \u2013 we saw it and instantly fell in love with it. Once we raised the money to fix it up, we set out to create a unique menu in easy-to-carry street food configurations, influenced by local Southern comfort food as well as Asian, Mexican, and Indian flavors. There\u2019s also a healthy dose of whatever we think tastes good with fresh, seasonal ingredients from local farms!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Good Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4c6afd5f-d284-42b2-80b7-444746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

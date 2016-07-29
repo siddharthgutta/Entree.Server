@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to the Flying Deutschman, we are a mobile German Restaurant. We offer German specialties like \"Schnitzel\" and \"Bratwurst\" but what we really pride our selves in, is that we produce everything ourselves. No open package and reheat food is being served here. We also feature weekly specials like Beef Rouladen or Goulash and many others. Most of the receipies that we use were handed down from my grandmother. I have prepared these receipies myself for the last 30 years with great success. I am sure you will enjoy them just as much. Looking forward to serving you \"The Flying Deutschman.\" ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Flying Deutschman",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6540/54fb7a1b-365c-4e82-9028-135946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

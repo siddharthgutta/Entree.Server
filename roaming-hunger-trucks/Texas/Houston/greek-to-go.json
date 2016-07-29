@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Greek To Go is Houston's newest Greek food truck offering the flavors of the Mediterranean to the people of Houston. We offer traditional authentic Greek street cuisine including gyros, pork souvlakia, dolmathes, Greek salad, and baklava. No party is too big or too small and we are eager to serve at your next event! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Greek To Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8434/54d029c7-6670-4ad1-bc08-50a646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

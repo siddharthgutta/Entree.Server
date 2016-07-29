@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cafe Racer blends flavors from across Latin America with gourmet technique and a focus on fresh daily bought ingredients. Gluten-free and vegetarian options are available along with our pulled meats and signature Perro Caliente Colombiano. Latin American Street Food and Catering in the Twin Cities! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cafe Racer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ac20f1-d874-4758-b850-68bb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

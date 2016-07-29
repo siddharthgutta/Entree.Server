@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cheesesteak Truck is a mobile eatery in Tampa serving top quality Cheesesteaks and more hot off the grill! Their signature sandwich is served with delicious cheddar fondue, the option of Provolone or American cheese, and your choice of 'Wit or Witout' onions. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cheesesteak Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5150ebe5-b2c8-45b2-a4a8-05d146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

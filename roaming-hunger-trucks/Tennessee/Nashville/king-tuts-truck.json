@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "King Tut's offers a mix of Egyptian and Mediterranean style cuisine. Known for their signature falafel made from all fresh ingredients, green herbs, onion and spices, that is then deep-fried until golden brown. They also serve Chicken Shwarma and Lamb Gyro with your choice of sauce, in a salad, over rice or on a sandwich! Overall offering great options for vegetarians and meat-lovers alike.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "King Tut's Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539a4c7e-0cc8-49b3-8852-229446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

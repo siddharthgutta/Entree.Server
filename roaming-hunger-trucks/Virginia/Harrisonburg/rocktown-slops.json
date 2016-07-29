@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rocktown Slops is your comfort food destination. If you're a fan of Sloppy Joe's this the place to go. They are all about creating the ultimate sloppy Joe experience to satisfy your hunger. Anywhere from Sloppy Joe Nachos to Sloppy Joe Burgers this place takes you back to a happy place that will remind you of your mom's comfort food cooking. Head on over for your next satisfying meal or just to try something new!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rocktown Slops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5564c537-cba4-411e-ac2f-76b846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

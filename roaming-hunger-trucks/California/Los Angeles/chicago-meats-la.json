@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing the classic tastes of Chicago to your next party, festival, or any occasion, it's Chicago Meats LA! With the wonderful hot dog, sandwiches, and other signature dishes of the Windy City, not to mention their skill and quality ingredients, Chicago Meats LA is sure to be the life of your next party!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chicago Meats LA",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5578c908-2f54-4d4c-88f2-03c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

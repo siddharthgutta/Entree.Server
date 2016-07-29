@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gezzo's Surf and Taco is out roaming the streets of Atlanta! All of Gezzo's ingredients are the freshest available, the salsas are made with fresh ingredients, and the corn tortilla chips are made fresh every day! Gezzo's likes to give your burrito a little more personality. Not only do they offer Regular Flour tortillas, but also Spinach Herb, Tomato Basil, and Whole Wheat tortillas, as well as a delicious selection of flavorful toppings. Customize your burrito with toppings ranging from sweet pineapple to spicy jalapenos. The Corn Salsa is the best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gezzo's Surf & Grille",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569048f6-2208-4ffa-90ff-59da46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

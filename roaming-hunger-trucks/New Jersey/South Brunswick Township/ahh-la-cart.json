@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are more than just a hot dog truck, ahh! la cart is an American-International grille serving favorites from Philly to Mexico.  Our tasty menu served from a chalkboard truck makes the ahh! la cart truck an interactive experience.  Come \"chalk\" it up while enjoying our ...truckin\u2019 good food.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ahh! La Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7121/53ff7434-0284-423a-a519-5d5b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

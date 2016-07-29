@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Porko Rico BBQ serves great slow smoked American BBQ with some fun Caribbean twists. The menu features such hits as Pillager Pulled Pork, Cannon Fire Fries, the Buccaneer Bowl, and more! If you love BBQ you will want to track this new gourmet food truck down!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Porko Rico BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54131977-4a18-42a2-bdbc-5aa746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

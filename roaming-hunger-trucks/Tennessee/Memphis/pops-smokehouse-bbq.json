@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Memphis Some of the finest BBQ around! Stop by and try the Loaded BBQ Nachos, 1/2 lb. Double Stack Cheeseburgers or a signature Pop's Pulled Pork Sammich! \"More meat falls off our bun that most places put on one!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop's Smokehouse BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51195b7d-e6dc-42f0-8c03-2b9a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

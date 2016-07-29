@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Coastal Crust was created to cater pizza in the most unique style possible. Combining a beautifully restored 1947 KB5 International Harvester with a handcrafted wood fired Valoriani pizza oven, this truck can bring pizza anywhere in style. The custom-built truck also houses a coal fired grill when the need arises to provide freshly grilled toppings such as peppers, onions, skirt steak, shrimp, and much more to the party.In addition to pizza, this truck also offers salad, fresh Italian Gelato and Espresso, with many ingredients sourced locally. Sure to be a smash hit at any event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Coastal Crust",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b05b7-346c-4839-b6e4-258646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

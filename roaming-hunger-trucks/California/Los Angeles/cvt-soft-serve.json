@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CVT is a delicious soft serve truck roaming the Los Angeles streets to find those hungry for a frozen treat. After realizing how difficult it was to find quality soft serve in Los Angeles, these enterprising owners created CVT to bring Los Angeles the highest quality east coast soft serve ice cream, and show a town full of smoke and mirrors just how much frozen yogurt sucks. Check out CVT today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CVT Soft Serve",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b2c07-543c-4cee-894c-163d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

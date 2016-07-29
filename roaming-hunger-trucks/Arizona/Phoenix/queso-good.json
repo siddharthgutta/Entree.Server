@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Queso Good has taken one of our favorite Mexican dishes and transformed it into a tasty gourmet creation. Their speciality quesadillas come stuffed with a variety of fresh ingredients from wild mushroom to marinated grilled steak, to roasted pulled pork and much much more. In addition, at Queso Good any of their quesadillas can be made into burritos as well! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Queso Good",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6177/55276fc8-68a0-4f42-8abd-76dc46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

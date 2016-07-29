@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Home of the falafel handbag sandwich, it's The Pocketful! The best of the old and the new, The Pocketful is taking traditional Mediterranean is taking traditional recipes and putting a brand new spin on them. Happy, healthy, and absolutely delicious, The Pocketful is something you can't afford to miss.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pocketful",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5578b6aa-5928-4af8-a42d-4bf546204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

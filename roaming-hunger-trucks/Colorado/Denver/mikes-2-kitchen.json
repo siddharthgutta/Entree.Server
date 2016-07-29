@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mikes\u00b2 Kitchen prepares express breakfast and lunch favorites, served conveniently and affordably. Our innovative gourmet mobile kitchen provides a unique dining experience; whether you enjoy your meal with us or on the go. Each meal is prepared from scratch and made to order; ensuring the highest quality breakfast and lunch.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mike's 2 Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538e39f4-79fc-4ccd-9812-3e2a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

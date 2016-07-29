@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing America's favorite street foods to Florida, Backstreets Catering is serving up only the best! There's no other truck that'll serve you the best Philly Cheesesteak outside of Philly, the juiciest Memphis style BBQ, or any number of this countries best dishes! For that authentic quality, you need to go to Backstreets Catering!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Backstreets Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555528d0-8a1c-4ac9-873c-127746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

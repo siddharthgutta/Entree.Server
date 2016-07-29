@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CinnaMini Donuts is serving up the freshest donuts on the streets of Iowa! Mini donuts made daily for your eating pleasure are the perfect treat when you're roaming the streets of Iowa City. Grab some great donuts and a freshly brewed cup of coffee from CinnaMini Donuts today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CinnaMini Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f843e4-02fc-4737-8ae7-38d446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

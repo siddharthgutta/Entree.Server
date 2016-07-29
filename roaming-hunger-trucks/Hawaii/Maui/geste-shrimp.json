@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What could be better than being in Maui? Eating at Geste Shrimp in Maui! Their succulent shrimp scampi is the perfect savory meal to munch on while overlooking the beautiful Pacific ocean. If you're not a seafood lover, no fear, they've got hot dogs on the menu as well. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Geste Shrimp",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f6ac8-47a4-4554-a818-081c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Johnny Doughnuts are the premiere gourmet doughnuts of the Bay Area! Cooked in store at their brick and mortar San Rafael location and served from their mobile truck. Stop by and try one of their classic, jelly, glazed, creme filled or gluten free doughnuts!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Johnny Doughnuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10415/56149747-f2c0-4f7b-b1d5-5fc446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

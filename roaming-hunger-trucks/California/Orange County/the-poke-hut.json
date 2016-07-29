@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the freshest, most fantastic seafood in all of SoCal? Then The Poke Hut is the food truck for you! Authentic poke made from fish fresh from the ocean every single day is a meal that can't be missed. You won't find any shortcuts or gimmicks here, just delicious food made to bring you the best eating experience possible!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Poke Hut",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578036d5-48e0-4101-9a02-494946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

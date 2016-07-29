@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Guerrilla Tacos is no ordinary truck. Using seasonal ingredients as often as possible, and sourcing from as many local farms as they can, the folks behind this cuisine strive to produce the best. With a changing menu of new flavors and great twists on old classics, there's no way Guerrilla will leave you unsatisfied!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Guerrilla Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57745abc-d680-4b36-be14-15aa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

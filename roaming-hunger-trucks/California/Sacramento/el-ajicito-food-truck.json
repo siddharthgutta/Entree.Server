@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We specialize in Peruvian Street Food, pastries and gourmet sandwiches. Our mission is to cook autenthic Peruvian food utilizing the freshest ingredients and to make our customer's experience the most pleasant by adhering to higher standards of customer services. Our menu will always include vegeterian and new items every month to show the variarety of the Peruvian food. Our food truck displays several Peruvian cultural references to share the richness of our culture, food and traditions. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Ajicito Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8875/551aadf3-c76c-4857-829f-1ae646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

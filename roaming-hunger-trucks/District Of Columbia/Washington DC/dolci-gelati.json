@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving the wonderful city of Washington DC, Dolci Gelati's gelato and sorbet flavors are crafted from the finest ingredients using a traditional artisan Italian technique. The gelato is made to order every day in small batches to guarantee the freshness and quality of the product. Whether it is the richest Sicilian pistachios, Hazelnuts from Turin, chocolate from Ecuador or juicy local peaches and strawberries, Chef Gianluigi crafts his recipes to create a product that is absolutely spectacular. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dolci Gelati",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52cca12f-e9a8-4806-840a-61ab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food Junkies is bringing an all in one catering solution to the streets of San Diego. This San Diego food truck serves up street food to the masses with only the true passion a Food Junkie could provide. Come try these upscale eats, from the BBQ Tri Tip to the Balsamic Glazed Chicken Breast today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Food Junkie Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e3caa72-4cc4-4898-b2fd-66d346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

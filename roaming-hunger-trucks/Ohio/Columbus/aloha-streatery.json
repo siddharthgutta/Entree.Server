@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hawaiian flavor you're sure to savor is rolling down a street near you! You'll find Aloha Noodles, Pork Belly Sliders, and so many delicious dishes on the menu of this terrific truck. Don't miss out on Columbus' tastiest food truck, be on the lookout for Aloha Streatery!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aloha Streatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564b654b-fcd4-4691-9bcf-7ab746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

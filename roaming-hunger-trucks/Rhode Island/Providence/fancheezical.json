@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "FanCheezical is Rhode Island's Most Delicious Grilled Cheese Truck! We bring the best Grilled Cheese Sandwiches to you...Quick lunch break in Downcity Providence?Dinner break between your studies on the East Side?A late night snack after hitting the town?Your backyard party?We are where you want us to be!Eat Up!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fancheezical",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2688/560b0820-b338-4e0c-8b94-4fd346204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

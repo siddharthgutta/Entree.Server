@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cooking up something cool on the streets of Kansas City, Iggy's GreenGo is a food truck you just can't miss! Brought to you by the same minds behind the Salty Iguana Mexican Restaurant, you can be sure their Mexican specialties are made just right every single time you order. This traveling kitchen is just perfect for your next big event, from parties to festivals to weddings and beyond! Whether you're hungry for a classic Mexican meal or something fresh and fantastic that only these mobile masters could make, Iggy's GreenGo is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Iggy's GreenGo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56e86025-30bc-4fea-8255-4d2446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

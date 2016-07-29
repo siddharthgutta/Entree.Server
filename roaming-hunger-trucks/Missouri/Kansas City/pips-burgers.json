@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grab a gourmet burger on the streets of Kansas City today, with Pip's Burgers! Delicious short ribs have been ground and formed into the perfect patty and placed on a freshly baked bun for your eating pleasure. Together with their homemade waffle chips and the friendliest service you'll ever find, Pip's Burgers is bringing you everything you could ever ask for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pip's Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56cf448b-ebac-4652-936a-1f5f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

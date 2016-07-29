@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for a caffeinated kick on the streets of Austin? Then Wanderlust Coffee is just what you need! This is the kind of quality coffee you won't get at just any corner coffee shop, these are locally roasted, handcrafted beverages made just for you. If a truck doesn't suit your needs, WLC has a pop-up cafe kiosk that they can bring up to your office or into your reception area. Basically-- wherever there is a need for excellent coffee, they can be there. Ready and waiting to serve anywhere you need, Wanderlust Coffee is the perfect way to fuel your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wanderlust Coffee Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569811f6-bc7c-4942-a91b-724146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

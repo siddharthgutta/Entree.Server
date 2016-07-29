@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for delicious wings? Do you crave that saucy buffalo flavor? Then Wing Shack has just what you need! These wings are out of this world, full of all the delicious flavor you expect from the best wings in town. With wings cooked to perfection and a dozen homemade sauces to choose from, this truck ensures that you'll always have the perfect meal for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wing Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e62e23-af5c-4b07-a798-72fe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

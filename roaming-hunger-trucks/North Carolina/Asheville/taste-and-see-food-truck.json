@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet food truck serving local, homemade fair with mostly organic ingredients. Cuisine is New American. We specialize in high volume events with a 5 minute or less ticket time. We make our own potato chips, kale chips and slaw. Catering can be done for up to 1,000 people. We do weddings, corporate events, grand openings, etc. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste and See Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7559/54185f64-b62c-4347-97ef-51dd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

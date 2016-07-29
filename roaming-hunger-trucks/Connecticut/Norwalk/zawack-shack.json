@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Zawack Shack is located on Rte 7 in Ridgefield, CT across from the Days Inn. We serve a variety of hot dogs and hamburgers. We have the classic chili dog made from our own homemade chili to a Rochester, N. Y. white hot dog. Some of our specialty dogs are the Chicago style, Cincinnati hot dog, slaw dog. Try one with our homemade onion sauce. We also serve our signature burgers. Some of our specialty burgers are our Italian Stallion topped with prosciutto, provolone, and caramelized onions ( sweet peppers optional), our bacon blue burger topped with bacon and blue cheese, and our \"grilled cheese\" burger topped with jalape\u00f1o peppers, bacon, and BBQ sauce. Come enjoy a burger and a dog.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Zawack Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54873948-b8f4-4797-a84d-7eec46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

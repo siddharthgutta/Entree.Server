@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "900 Degreez of delicious flavor in every slice! 900 Degreez Pizza is serving up the freshest, most delicious pizza in town, made right when you order it! There's nothing like genuine, wood-fired pizza fresh out of the oven, and when it's made with quality ingredients and served by the friendliest folks around, it's even better!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "900 Degreez Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555b7318-f1d4-4414-b60c-411e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

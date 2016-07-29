@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Girl of Sandwich is serving up the freshest sandwiches you could ever desire! Handcrafted deliciousness made from scratch on freshly baked bread is just as fantastic as it sounds, and The Girl of Sandwich is serving them up like no other. Sink your teeth into their amazing Beef Barbacoa, Buffalo Chicken, Chicken Salad, or another of their spectacular sandwiches today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Girl of Sandwich",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df8aa3-1748-4b4f-8766-6b6946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

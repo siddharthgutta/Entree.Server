@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mario's Cart is bringing their passion for cooking to the streets of Illinois! Mexican, Italian, and classic street foods meet for an eating experience that has something for everyone. With a customizable menu for any occasion, a dedication to quality food, and excellent service, Mario's Cart is the perfect way to feed your next event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mario's Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55886b89-8c78-4b10-bf4e-4a3746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

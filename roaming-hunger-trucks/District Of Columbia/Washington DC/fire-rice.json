@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fire & Rice is a fantastic Korean Bibimbap truck serving delicious bowls to the DC streets. From the Bulgogi Beef to the Buldak Chicken, each bowl is flavorful and filling, with meats marinated and grilled to perfection over the fluffiest rice you could ask for. No better Korean BBQ in the city!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fire & Rice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55119731-b658-4fca-aecd-3cde46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

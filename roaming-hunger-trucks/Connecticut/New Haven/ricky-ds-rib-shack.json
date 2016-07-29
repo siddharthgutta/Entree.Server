@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Treat every day like a cook out! Ricky D's Rib Shack created the \"KansaLina\" BBQ by combining the vinegar-based taste of Carolina Style BBQ with the sweet & savory taste of Kansas City. With hickory smoked meats and a custom spice blend, Ricky D's is the best BBQ you'll find!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ricky D's Rib Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554bba1e-9910-4fff-89dd-412646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

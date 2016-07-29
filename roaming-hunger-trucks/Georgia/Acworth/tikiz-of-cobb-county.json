@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The ice cream truck of yesteryear, and the future! Tikiz of Cobb County brings that fun and friendly feeling of the ice cream trucks you remember with a professional attitude that you'll love. Enjoy your hot and sunny days with an ice cream cone or shaved ice that's your own syrup creation, served from their patented \"Surv-Board\"!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tikiz of Cobb County",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5519e979-a8f4-4121-a254-4a1046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

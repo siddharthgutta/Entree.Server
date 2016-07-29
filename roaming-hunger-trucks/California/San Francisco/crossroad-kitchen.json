@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crossroad Kitchen is not only serving up beefy burgers but they've also included a veggie black bean burger, a chicken sandwich, grilled cheese, hot dogs, and a hearty chili (topped with goldfish crackers!) Their eclectic menu changes from week to week so you'll always have something new to try, and if possible they can accomodate your requests for a custom built sandwich. If you thought this truck couldn't get any better think again; they're also environmentally friendly, using seasonal and sustainably farmed ingredients. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crossroad Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5113fce4-7748-409b-be03-7cb446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

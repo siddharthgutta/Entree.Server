@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DK Local Kitchen is cooking up something fresh and delicious just for you! This seasonal menu is full of amazing food all year round, with their delicious sandwiches, salads, and snacks. Using locally grown ingredients and new specials daily, this truck ensures that you'll always have some great grub to choose from when you visit DK Local Kitchen!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DK Local Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560dbc3a-e6b4-446a-ad3c-52d346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

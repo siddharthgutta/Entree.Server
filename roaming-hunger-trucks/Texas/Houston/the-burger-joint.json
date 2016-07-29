@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The finest in fresh, quality burgers is coming to the streets of Houston! The Burger Joint is just that, a classic burger joint just like the ones you know and love, on wheels! Whether you're looking for the classic no-frills burger, the bacon cheddar, the late night burger, or even their delicious sausages and fries, you can't go wrong at The Burger Joint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Burger Joint",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9257/57606b97-fb3c-4457-ab58-5fe846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

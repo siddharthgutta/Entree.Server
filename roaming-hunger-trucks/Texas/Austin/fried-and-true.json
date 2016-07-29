@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fried and True is making deep-fried carnival food in the heart of Austin, from a cute vintage truck! Offerings range from deep-fried grilled cheese and sriracha to chocolate candy bacon, with everything in-between, and a little more on the side as new ideas catch the chef's fancy. So don't miss out on one of these delicious treats! Stop by the trailer today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fried and True",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54639eda-6290-45e4-847d-096e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

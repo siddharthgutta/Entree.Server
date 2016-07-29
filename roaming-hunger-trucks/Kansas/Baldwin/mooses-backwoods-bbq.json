@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Moose's Backwoods BBQ is bringing true BBQ taste to you.With their burgers, ribs, wings, and more, this truck's got all the greatest tastes that you've been hoping to find out on the streets of Kansas. Maybe you're in need of a breakfast on the move? This truck provides some of the best breakfast sandwiches and burritos you could ever ask for.Whatever your eating needs are, Moose's Backwoods BBQ will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Moose's Backwoods BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57461a16-197c-4364-ad2f-4fdb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

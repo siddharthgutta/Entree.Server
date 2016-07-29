@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Diego is getting a taste of something special today, thanks to LouZiana Food! A California truck with Cajun style, this truck's amazing menu is sure to make your lunch break amazing when they pull up to your curb. For SoCal's best Jambalaya, Gumbo, Red Beans & Rice, and more, this is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LouZiana Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565e11fa-94e8-4030-9d85-140546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

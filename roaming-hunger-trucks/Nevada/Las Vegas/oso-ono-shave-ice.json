@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oso Ono Shave ice is serving the streets of Las vegas! Owned and operated by a local Vegas family, Oso Ono is shaving the softest ice with the most amazing flavors on our lil bus. We have a wide variety of flavors and toppings to accompany the soft snow like shave ice.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oso Ono shave ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51525950-7ca4-4feb-96c9-685946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

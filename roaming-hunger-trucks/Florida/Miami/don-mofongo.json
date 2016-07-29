@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Mofongo es un plato t\u00edpico de Puerto Rico y Rep\u00fablica Dominicana hecho de pl\u00e1tano verde (no maduro) frito y majado. Al majarlo se le a\u00f1ade chicharr\u00f3n de cerdo, ajo, sal y un poco de aceite de oliva. Se maja formando una consistencia ni muy blanda ni muy dura para que pueda tomar forma de media esfera o de recipiente para rellenarlo de carne de cerdo, mariscos o pollo.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Don Mofongo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5075bc21-86d8-4b72-8d23-104346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

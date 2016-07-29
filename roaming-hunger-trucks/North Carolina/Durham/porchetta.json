@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Porchetta is owned and operated by Nicholas Crosson and Matt Hayden, two chefs, with a combined 22 years of industry experience. Our staple item is the \"Porchetta\" (Por-Ket-A), a slow roasted Italian Style Pork, that we will be shaving down into several different styles of sandwich. We will also be making homemade sausages, and the Pork Burger! We plan to use local sustainable pork, beef, lamb, and produce whenever possible! Vegetarian options are available.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Porchetta",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/508ed139-eed0-4534-9bc9-3f1846204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

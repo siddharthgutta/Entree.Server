@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Awarded the Best New Food Truck Of Las Vegas in 2013 and ranked #1 on Best Of Las Vegas 2014 Dragon Grille has become one of the most acclaimed Food Trucks in the valley. We specialize in Modern Asian Fusion from delicious Beef Brisket Bowls/Tacos to delectable Bulgogi Philly Cheesesteak and Wagyu Beef Sliders,  this truck's dishes are sure to please and entice. So head on over and check out Dragon Grille today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dragon Grille",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545d54e9-b560-4b53-b36d-4f4046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

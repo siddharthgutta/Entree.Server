@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beach House Creamery serves up the best and tastiest ice cream on the West Coast right here on the streets of Los Angeles. There's nothing like spending a hot summer day down at Muscle Beach and then cooling off with Beach House's delicious gourmet flavors, whether it's chocolatey goodness or some refreshing and fresh fruit sorbet! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beach House Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f126a-c18c-4b97-a7aa-023846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

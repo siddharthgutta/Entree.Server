@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cascadia Pizza Co is bringing mobile, wood-fired pizza to a street near you! Hot, fresh, and fantastic, this is some of the best pizza you'll ever try. Perfect for any occasion, this is artisan cuisine you can really sink your teeth into, so keep an eye out for this oven on the go today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cascadia Pizza Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b65e6c-aca8-49db-8805-0ed546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

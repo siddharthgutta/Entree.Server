@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Greenville, SCThe folks at ASADA have made it their mission to spread Latin American culture to the Greenville masses by way of their delicious Latin food. Inspired by the Mission district in San Francisco, home of the burrito, ASADA has created a menu full of flavorful tacos, quesadillas, and fresh guacamole and pico de gallo. If you're in the mood for dessert try their Tres Leches or Flan de queso. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ASADA",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/511415ef-7fb0-4c0b-8edd-60c146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

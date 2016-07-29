@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crepe Amour is a creperie and caf\u00e9 brand serving freshly baked and internationally inspired sweet and savory cr\u00eapes. Now, they take to the streets!The crepes are made fresh to order, and filled with a variety of sweet and savory ingredients from fresh vegetables to meat and dairy.These sweet and savory crepes are a great meal or snack alternative enjoyed for breakfast, lunch or dinner. Try them today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crepe Love",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54386406-7ec8-4405-8e93-0b2a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

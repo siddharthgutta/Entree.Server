@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rika Arepa Express mobile food truck serves Venezuelan arepas to the streets of Las Vegas.  Arepas are traditionally Venezuela's daily bread. They are made from cornmeal, water and salt.  It is formed into a flat, round and soft patty cooked on a griddle, split open and stuffed with a variety of ingredients.  Follow Rika Arepas as it makes it's way around Las Vegas serving up Venezuelan Arepas! Keep an eye out for Arepita. You never know when she might be rolling your way.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rika Arepa Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/516ee2ba-39e8-482b-98d7-673746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The streets of Philadelphia will never be the same after experiencing the fantastic food from The Daily Press'd! Paninis, soup, salad, and good times are just the beginning when you try this fantastic food truck. The Daily Press'd is preparing something superb just for you, so don't miss out on this fantastic eating experience today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Daily Press'd",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56181759-02fc-48bb-85ca-670d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

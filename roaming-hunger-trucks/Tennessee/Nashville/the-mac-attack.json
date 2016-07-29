@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Mac Attack food truck is brought to you by Dan's Gourmet. His passion for cheesy pasta has lead him to develop an artisan mac and cheese menu for all to enjoy. Delivering fresh and finest ingredients to create cheesy goodness across Nashville. The great tasting pasta and blend of cheeses is fora a worthy Southern comfort meal.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mac Attack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557b46f8-8970-4e47-950c-0c3046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

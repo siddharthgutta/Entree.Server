@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Traveling far and wide to bring you an eating experience you'll never forget, it's The Happy Wanderer! This food truck specializes in gourmet egg rolls in a variety of amazing styles you have to see to believe. Whether you're here for the Veggie, Wild Rice and Mushroom, Bacon Cheeseburger, or any of their other delicious egg rolls, The Happy Wanderer is sure to have something for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Happy Wanderer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5616927e-b208-4236-aa79-4a4946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

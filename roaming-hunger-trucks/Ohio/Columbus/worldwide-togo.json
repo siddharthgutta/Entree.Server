@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Columbus is getting a taste of world-class cooking, thanks to the amazing Worldwide ToGo! Grilling up some huge burgers, Cleveland style Polish Boys, Smoked Chicken Philly's, and more, this food truck is bringing you nothing but the best. Over 25 years of food service experience is rolling your way today, so be sure to keep an eye out for Ohio's fastest and friendliest lunch wagon, Worldwide ToGo!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Worldwide ToGo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56be32e7-a960-41c1-a157-2d4446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

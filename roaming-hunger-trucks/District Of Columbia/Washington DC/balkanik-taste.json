@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Balkanik Taste Food truck & Catering, is bringing to DC Area the delicious cuisine of the Balkans. The menu includes home made Kyufte(traditional Bulgarian pork burger). Also delicious marinated & grilled lemon-garlic chicken.  Balkanik Taste use only fresh and local ingredients.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Balkanik Taste",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8167/54ed481d-d864-4dd7-8ec6-0a1246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

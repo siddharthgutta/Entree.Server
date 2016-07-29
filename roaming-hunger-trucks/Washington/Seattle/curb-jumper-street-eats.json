@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Curb Jumper Street Eats is a Fast, Fresh, Fun Food Truck Experience.Serving gourmet sliders and specialty sandwiches.We use only the freshest local ingredients, we roast and braise all our meats for our specialty sandwiches that change daily and top them off with our signature sauces. Our brioche, whole wheat slider buns, sandwich breads and rolls are baked fresh daily. Our authentic artisan gelato is from local award winning Bottega ItalianiaCome check out our truck for some food you can't resist!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curb Jumper Street Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5092b6bf-4ae8-45fc-b56b-56b846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Say hi to a fantastic SoCal truck that will make you smile and say Richeeze! Offering gourmet grilled cheese on the go on the streets of the Greater Los Angeles area, Richeeze is cooking up amazing new variations on this classic favorite. Whether you try the Bacon Mac, Ally's Special, Grilled Cheeze Roll-Up's, or anything off their amazing menu, you're sure to love this truck from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Richeeze",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577ebda4-f6d4-4132-8a25-79df46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

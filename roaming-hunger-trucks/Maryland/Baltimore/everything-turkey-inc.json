@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everything Turkey, Inc., was founded in 2008 to provide delicious, healthy foods at local community festivals at a reasonable price. These foods are homemade and start with the freshest ingredients. If you're hungry for a healthy turkey burger, poor boy, BLT, or more, stop by Everything Turkey!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Everything Turkey, Inc.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54171299-b480-4f7f-a665-5b5b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

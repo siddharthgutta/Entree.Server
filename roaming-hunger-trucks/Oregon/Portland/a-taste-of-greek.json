@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Portland's A Taste of Greek offers all of your favorite Greek dishes. Customers can choose from tasty appetizers like grape leaves, hummus, or falafel balls as well as some hearty mains like chicken platters, lamb platters, and greek salads and of course falafel and lamb pita sandwiches. A must try is the Super Lamb Gyro which includes a bigger pita, more meat and lots of feta cheese. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "A Taste of Greek",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524491a4-3bac-423e-9c6a-238e46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

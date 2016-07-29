@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hungry Los Angelenos get a scrumptious taste of authentic German street cuisine, all thanks to The Berlin Food Truck. This big bold truck is serving up an \u00fcber delicious selection of gourmet grilled cheese sandwiches (including the Buffalo Chicken Grilled Cheese with pepper jack cheese and crispy onions), flavor-packed sausages (including the Mac \u2018N Cheese Dog with an all-beef wiener topped with homemade mac n\u2019 cheese and parsley on a German roll) and crispy golden shoestring fries topped with all sorts of yummy options like bacon, onions seasoning, cheese, etc\u2026For all this and much more (including unbelievably kind service), come on by The Berlin Food Truck soon! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Berlin Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b1562-d1e0-49d1-aa09-6c2246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

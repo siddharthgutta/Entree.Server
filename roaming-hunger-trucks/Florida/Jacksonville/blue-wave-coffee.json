@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Proudly serving the best new wave coffee to Ponta Vedra. Blue Wave Coffee is bringing you something fresh and fantastic! Seasonal coffees for all tastes, serving french pressed, espressos, iced coffee, and more! For the best way to energize your day, look no further than Blue Wave Coffee!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blue Wave Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555e0711-7a40-4b9a-947a-522446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

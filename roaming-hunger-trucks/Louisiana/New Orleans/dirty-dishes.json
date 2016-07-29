@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing classic favorites with a gourmet twist to the streets of New Orleans, you can't go wrong with Dirty Dishes! Their famous Fleur de Lis waffle is always amazing, whether you cover it in their sweet pecan praline sauce or the pulled pork for their unique take on the \"pig in a blanket\". The Dirty Mac, made with smoked gouda, crawfish, and turkey tasso will have your mouth watering in seconds! So stop by Dirty Dishes and satisfy your stomach today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dirty Dishes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d84ba-caa8-4606-bd41-0a6046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

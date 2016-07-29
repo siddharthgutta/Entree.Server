@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The MOO-Mobile is making its way down the streets of Rhode Island with all your favorite frozen treats! Delicious ice cream, refreshing frozen lemonade, root beer floats, and more are making their way to you. Whether you run into it on the street or have The MOO-Mobile come to your next event, you'll never forget the fun and flavorful times you have when they're around!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The MOO-Mobile Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5640e838-8638-4ac4-b7f0-2a1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "East Coast Frozen Custard is bringing you Cleveland's finest frozen custard...Wherever you or your event are!The founders spent years perfecting a recipe and redesigning a machine to create the old-fashioned frozen custard first made at Coney Island, New York in 1919. The extraordinary signature vanilla is made fresh daily and used to make an array of delectable fountain items from sundaes and shakes to smoothies and concretes.The \"flavors of the day\" are selected from over 100 sumptuous recipes. The incomparable butter pecan, mint chocolate chip, fruit and crunch flavors are made with the finest purees, choicest nuts and richest chocolate available.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "East Coast Frozen Custard",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522909ab-e1e4-49e1-aa95-157f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

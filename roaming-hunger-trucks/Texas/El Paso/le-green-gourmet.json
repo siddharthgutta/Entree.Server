@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Paso's newest gourmet food on the go is coming to you today! Le Green Gourmet is here to make you rethink the way you look at street food. Fast, fresh, and healthy, this menu is full of delicious dishes you'll absolutely fall in love with, Sink your teeth into some marvelous new meals today, with Le Green Gourmet!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Le Green Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561ed31e-0f68-4780-9ee7-610c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

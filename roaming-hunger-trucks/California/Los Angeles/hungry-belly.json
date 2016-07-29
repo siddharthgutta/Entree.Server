@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get ready for the tasty Thai cuisine that the Hungry Belly truck is bringing straight to the streets. You\u2019re sure to find all your favorite fare, like Pad Thai, Green Curry Fried Rice, Pad See Ew, just to name a few. Turn your hungry belly into a happy one with any of the fantastic food from this big and beautiful truck. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hungry Belly",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12320/5746492f-aea4-4e23-bf28-512b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

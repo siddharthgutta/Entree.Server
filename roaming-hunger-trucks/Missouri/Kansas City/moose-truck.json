@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Moose Truck in Kansas City is roaming town and serving up some of the favorite tapas and appetizers you find at their Blue Moose Bar and Grill. Try their adventurous fare like deep fried pickles and shrimp won tons with tangy sweet and sour sauce, and classics like chicken nachos and mouth-watering Moose Wings. All of their amazing food, dressings, soups and sauces are made from scratch. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Moose Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51280356-7918-4bbe-9f42-5bb046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

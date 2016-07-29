@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Scoops2U features custom constructed chipwiches made with fresh baked cookies and super premium ice cream. Irresistable flavor combo\u2019s like peanut butter cookie with double chocolate ice cream or chocolate brownie cookie with mint chocolate chip.*Available for private events* Customizable menu* Temporary graphics packages.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Scoops2U",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5d5de3-0d00-4feb-b800-232146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

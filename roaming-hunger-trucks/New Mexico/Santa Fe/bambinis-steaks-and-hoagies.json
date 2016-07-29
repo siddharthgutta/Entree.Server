@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bambini's is bringing you the best Philly cheese steaks in the business! You'll find fantastic cheese steaks, hoagies, cannoli, and more on this terrific truck. Great ingredients combined into amazing recipes really set Bambini's Steaks and Hoagies apart, so don't miss out on this awesome eating experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bambini's Steaks and Hoagies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cce8ca-7af4-4667-b0b2-6a8946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

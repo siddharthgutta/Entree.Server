@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Little G's Mobile Pizzeria is a mobile WOOD FIRED pizzeria selling fresh, hot 10\" pizzas to the streets of Minneapolis, as well as baked pasta and much more! Out and about and looking for some food? Need some pizzas for your kickin' party? Little G's can save the day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Little G's Mobile Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fb566ac-3360-4f37-827d-661746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet sandwiches are the name of the game at The Meat Truck! This butcher shop inspired truck serves up inspired gourmet meat sandwiches. The Meat Truck slow roasts, braises, smokes, and grills all their meats before creating their delicious handcrafted sandwiches.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Meat Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554bbdaa-ab3c-44f4-9e4b-4a2946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

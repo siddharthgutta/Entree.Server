@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fusion Peru is bringing you a new way to enjoy amazing Peruvian food!  Fresh, fantastic, and delicious, this food truck's menu is sure to keep you happy and satisfied. Peruvian Pork Sliders, Salchipapas, and so much more are ready and waiting for you thanks to Fusion Peru!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fusion Peru",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6a8fa-b708-45ae-857f-350b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

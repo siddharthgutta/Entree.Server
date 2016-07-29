@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get ready for the Taste Of The Island Food Truck, bringing you island flavors of the Bahamas and Jamaica. While the Bahamas offer a mixture of all your favorites fish, chicken and steak. Authentic Jamaican food always tantalizes the taste bud while appeasing to the eyes. Take your taste buds on a vacation next time you see the Taste Of The Island Food Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste Of The Island",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554901d2-925c-4ce1-a7a9-448346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

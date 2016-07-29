@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Real New York pizza is finally here, and it's ready for you! Made in Brooklyn is making pizza the way it's meant to be, so that you can experience authentic New York Pizza any time you want. Perfectly made pies, sandwiches, garlic knots, and more for any and every occasion are just what you'll find at Made in Brooklyn!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Made in Brooklyn NY Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569034f4-ce08-4527-aba4-3edb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

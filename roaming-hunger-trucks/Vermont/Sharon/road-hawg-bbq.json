@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You might have heard of fine dining, but how about Swine Dining! Road Hawg BBQ is cooking up some tender, mouthwatering morsels to delight and satisfy any appetite. Their award-winning BBQ will never disappoint, and their friendly service is always impeccable. Road Hawg BBQ is guaranteed to have you coming back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Road Hawg BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55303a6e-7e30-420d-abe5-3d9346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

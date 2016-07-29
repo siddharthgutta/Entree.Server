@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eddis & Sons is serving up Jacksonville's most superb sandwiches! Have you been craving cheesesteaks, hoagies, wraps, and good times? Then you're sure to love this truck's awesome menu. Now that Philly natives are bringing Florida an all-new eating experience, you have to be on the lookout for Eddis & Sons!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eddis & Sons",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565f68a4-4dac-42f6-a461-5acd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

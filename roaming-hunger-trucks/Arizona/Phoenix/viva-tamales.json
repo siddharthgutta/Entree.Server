@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Viva Tamales is serving gourmet tamales from scratch to the Phoenix area. These delicious eats are made with fresh, local ingredients and real masa, and are lard-free and packed with delicious fillings. Extra large in size and bold on flavor! Try one and you\u2019ll be hooked!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Viva Tamales",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5491bf51-9868-493f-b9d0-33ed46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Primo Passo Pizzeria hand-stretches every dough and creates every gourmet pizza specifically for each customer for the perfect crust and pie. We acquired a centuries old natural yeast (sourdough starter) from a small volcanic island off the coast of Naples, Italy (where pizza as we know it started). Our dough is unique and tastes like no other.Our San Antonio mobile pizzeria (gourmet food pizza truck) was designed and built specifically to produce great artisan pizza for the individual or for catering private parties and events in San Antonio and Bexar County. In addition, we offer antipasti, salads and house-made gelato to complement our artisan pizza. Please check us out. We are sure it will be an experience you will not forget.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Primo Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50633814-0218-498c-9bcc-1d5546204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This cart aims to culture Portland residents on the fabulous foods of Russia by dishing out their tastiest authentic Russian meals. From savory Russian dumplings to sweet Russian Blin filled with whip cream, strawberries, and chocolate syrup, one taste and you'll want to book a flight to Europe ASAP. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Traditional Russian Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52151482-0c80-42b5-919b-3d9546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

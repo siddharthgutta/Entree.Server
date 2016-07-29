@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a mobile food cart, serving the greatest city on earth. Providing New yorkers with a touch of France and Belgium both at the same time. Delicious French crepes and Belgium Liege waffles are our M.O. Choose from multiple toppings such as Nutella, Chocolate, Speculoos spread, ice cream and much more. Try Our grilled chicken crepes, tuna crepes, or salmon crepes to entice your hunger. Take a bite out of us.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cr\u00e8pes de la Cr\u00e8me",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557b2c77-df18-411c-aa8b-6ece46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oh Hai, Philadelphia! If you\u2019re super hungry, don\u2019t just get by, get Hai from Hai Street Kitchen\u2019s incredible Sushi Burrito Rolls and Bowls. Whether you\u2019re in the mood for a Roll, Rice Bowl, or Salad, you just pack your pick with any of these proteins: Grilled Chili Citrus Pork, Chargrilled Chicken, Shrimp Tempura, Lightly Breaded Panko Chicken, and Seared Tataki Salmon.Next up, choose the perfect house-made sauce, including Salsa Verde, Gochujang, Spicy Mayo, Black Pepper Teriyaki, and Ginger Miso Dressing. Then you toss in some fresh vegetables of your choice, like pickled Jicama, papaya salad, carrots, cucumbers and red cabbage. Last but not least, add some crunch to your munch with your choice of fried garlic, shallots or tempura. Whether you\u2019re a roller or a bowler, come on by to Hai Street and satisfy your sky-high Sushi Burrito cravings on the fly.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hai Street Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f42fe7-a78c-41b9-8c56-7acc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

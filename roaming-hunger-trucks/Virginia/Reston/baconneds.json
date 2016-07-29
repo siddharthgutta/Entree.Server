@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for some gourmet southern grub on the go in Virginia, then BaconN'Ed's is here for you! Chef Ed is serving up some amazing cuisine that you can really sink your teeth into. For great sandwiches, salads, breakfast biscuits, and so much more, BaconN'Eds is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BaconN'Ed's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55db5cf9-7180-4ec8-9b21-6a3846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

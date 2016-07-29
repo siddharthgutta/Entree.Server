@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Koagie Hots is a Korean influenced food truck serving cheesesteaks, hot dogs and much more.Our Koagie's begin with a fresh, daily-delivered french baguette loaded toppings such as in-house marinated Korean BBQ ribeye, our signature kimchi made by Chef Pak, onions, aioli, and the customers' option of provolone or wiz. Our unique spin on a \u201cKorn Dog\u201d and fries is definitely worth checking out as well. \u200bCome by and see us!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Koagie Hots",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57991dec-8390-4cad-84e1-4cba46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

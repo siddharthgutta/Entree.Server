@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Washington D.C. based food, Surfside Truck serves delicious tacos, switching up the preparations and salsas for fresh new twists on all your favorites.Surfside is proud to announce its newest addition: the Surfside food truck! We will feature an exciting rotating menu of our classic Surfside tacos, switching up the preparations and salsas for fresh new twists on all your favorites. All our salsas and marinades are made daily from the freshest ingredients, and our flavors are inspired by cuisines from all over the world.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Surfside Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eac2317-73bc-4dbd-ac01-574d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

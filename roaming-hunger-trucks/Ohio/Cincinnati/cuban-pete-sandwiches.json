@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Specializing in tasty Cuban and Caribbean type sandwiches, Cuban Pete's is the ideal lunch for the foodie who wants a little flavor without any burning spice. Order the basic Cubano, or try Pete's Chimichurri Steak Sandwich! The many options at this truck will never leave you wanting.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cuban Pete Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53ffa6ce-694c-45b1-82cf-6bc346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

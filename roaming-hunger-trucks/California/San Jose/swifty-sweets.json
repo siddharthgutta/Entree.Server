@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Swifty Sweets is a frozen yogurt truck serving the San Jose Bay Area.We have two frozen yogurt machines that will allow for up to four flavors plus double flavor twists.  Add in some sweet toppings and you\u2019ll be able to create your own inspired mouth-watering masterpiece.  The yogurt we serve will be of the highest quality where at least one of the flavors will be either low carb or no sugar added.  We cater to the healthy and active lifestyle!Bringing frozen yogurt to you! Sweet you soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Swifty Sweets",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50906e89-742c-4f2d-8829-6c3a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best chicken dishes in town, then this is the food truck for you! Sandwiches, nachos, wraps, and so much more, all featuring their slow cooked shredded chicken, are sure to satisfy all your cravings. With this wide variety of dishes made from quality ingredients, you can be sure that Shredded Chicken will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shredden Chicken",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5601d0d7-73d4-4995-bd86-0f5546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

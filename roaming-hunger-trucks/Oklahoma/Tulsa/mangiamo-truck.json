@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mangiamo Truck is currently roaming the streets of Tulsa, OK. Mangiamo serves Italian food featuring homemade meatballs, pastas with a choice of sauce, and specials like sausage and peppers, baked ziti and lasagna rolls. Menu keeps expanding so check back with us. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mangiamo Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5150e09e-0cf4-41be-983a-0fb446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

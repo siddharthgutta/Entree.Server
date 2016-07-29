@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cheke's Takos is a fantastic family-owned trailer serving tacos and other latin dishes to the Austin streets. Their menu includes Tlacoyos, Mushroom quesadillas, Pambazos, Barbacoa y consome, and more! Stop by today and grab a tasty bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheke's Takos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546520e4-46cc-4ec0-99c0-2bb846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "R. A. MacSammy's is the cheesiest truck in the Twin Cities' Food Truck Scene! We are hitting the streets with a fantastic mix of \"Gourmet Comfort Food\". A rotating variety of Classic Mac & Cheese dishes, Monster Sandwiches, and more. Hope to see you at the truck soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "R A MacSammy's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f3ad492-271c-469a-8b17-374146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

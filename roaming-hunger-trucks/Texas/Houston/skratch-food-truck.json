@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chefs Paul and Carlos ditched the restaurant biz after 25 years of service in order to wheel in a food truck revolution. Now they have all the freedom to cook up eclectic cuisine from all over the world, all with locally sourced ingredients, all from Skratch! Their menu changes with the seasons, and of course it\u00e2\u0080\u0099s all incredible. They serve everything from Brazilian Steak Sandwiches (with shaved rib-eye, vibrantly tangy homemade chimichurri sauce, thinly shaved onions, all on a crunchy hoagie roll) to Fried Chicken Sandwiches from the Bayou (crispy fried chicken with jalapeno slaw and Louisiana Mayo on a Brioche bun), and anything in between when they feature daily and weekly specials. You\u00e2\u0080\u0099ll want to join this revolution because it\u00e2\u0080\u0099s a noble (and delicious) fight with every bite. Plus, the food will love you! Wait...Skratch that, reverse it. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SKRATCH Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57057cb2-41a0-4dde-a84d-3b2946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

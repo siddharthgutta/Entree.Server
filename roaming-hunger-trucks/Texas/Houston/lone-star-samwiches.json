@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lone Star Samwiches aims to offer an open air dining experience from its mobile food unit with a variety of regional American-samwich-favorites with a multi-cultural flare. The 'samwiches' will be prepared with only the best local ingredients, served fresh, and only made to order. Each 'samwich' is a representative of the melting pot that is unique to the City of Houston.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lone Star Samwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53a3aa10-e8f4-4c88-957b-416646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Guy's BBQ brings smoked meat goodness to the streets of Indianapolis. Big Guy's  dining experience  will include their signature pulled pork and sides such as green beans, corn on the cob nibblets, potato salad, pinto beans, and cole slaw. In addition to that signature serving, he offers Texas style beef brisket, ribs, rib tips, smoked kielbasa sausage, and smoked chicken. Big Guy's is always is adding special items, check back for his hot dogs, nachos, and bacon wrapped jalapeno poppers to make appearances on the menu.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Guy's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f755d1-dd84-4281-a6f8-66ac46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

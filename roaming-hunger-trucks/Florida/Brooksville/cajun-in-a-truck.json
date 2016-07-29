@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cajun In A Truck, a gourmet truck dishing out special family recipes for first timers and cajun food lovers. If you are in the Tampa Bay area be sure to check out Cajun In A Truck and try the Cajun Boudin Balls and Shrimp Po' Boy for a mouthwatering experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cajun In A Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9143/56c28691-dbf0-43fe-8a93-37d246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

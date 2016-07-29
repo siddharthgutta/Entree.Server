@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Make Sunbird your Cape Cod culinary destination! Serving fast \"slow food\", Sunbird is the perfect place to grab a healthy bite on the go! And if you're not in a hurry, that's fine too! A laid back, easy going atmosphere permeates every corner of this establishment!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sunbird Cape Cod",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55355d99-48d4-485e-8ec0-349b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

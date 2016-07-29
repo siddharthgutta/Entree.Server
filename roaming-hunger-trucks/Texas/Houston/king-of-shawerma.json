@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chef Ashraf brings over 20 years of Shawarma-making experience to the streets of Houston and with his royal talents, he\u2019s conquering the appetites of all the hungry locals.The sauces are made fresh, the meats are marinated in a special blend of spices, and only the finest quality ingredients are used to make his entire menu of wonderfully delicious wrapped creations. For a taste of the best Shawerma in Texas, come on out and get your fix of the dish that\u2019s fit for a king!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "King of Shawerma",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57893ef5-573c-4229-a56a-081846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

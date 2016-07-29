@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sofrito Food Truck specializes in Latin Caribbean cuisine served to the streets of San Antonio. We specialize in the making of Antojitos Latinos such Empanadas filled with beef, tuna, chicken, pork, pizza, etc, Alcapurrias, Puerto Rican Pasteles made of yuca or green banana, Panamanian Tamales filled with pork or chicken, Carimanolas (Relleno de Yuca), Bacalaitos, Tostones and many more sold frozen or ready to be enjoyed. We can also cater your event... Arroz con gandules, pernil, pasteles for a tasty Puerto Rican treat. Or how about a Panamanian treat .. Arroz con pollo, Potato Salad, empanaditas or maybe you are hosting an event and would like Great Latin/Caribbean food??? We can also customize your order.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sofrito Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d2042f-ae68-4195-b082-5f3746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

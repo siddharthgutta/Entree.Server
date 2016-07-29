@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Smokin' Burrito is perfect for a great meal on the go! If you're in the mood for a burrito or quesadilla, The Smokin' Burrito is just what you need. Try their California BBQ Burrito or their Smoked Tri-Tip Quesadilla! Stop by soon and grab a delicious burrito at The Smokin' Burrito!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Smokin' Burrito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5605a815-4684-4bc9-b799-53c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

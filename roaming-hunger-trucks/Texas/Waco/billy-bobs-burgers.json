@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Billy Bob's has been providing Texas with fresh, delicious burgers for years, and now they're taking that skill and experience to the streets! Billy Bob's Burgers food truck is taking the same dedication to service and quality they've had for years right to you so you can have the best burgers, sandwiches, and more on the go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Billy Bob's Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5548f4ff-8f08-4e73-bdb2-49c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

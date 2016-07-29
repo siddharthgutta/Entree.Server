@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Avery's is Asheville's finest mobile hot dog vendor, serving up Nathan's Beef Dogs and 'No Evil Foods' Veggie Dogs to the Asheville curbsides... Any Way You Like It! Stop by for lunch on weekdays or Saturdays, or bring the cart to your next event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Avery's Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f4c09a-6544-4be7-86f5-20af46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

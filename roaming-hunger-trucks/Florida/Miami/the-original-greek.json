@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Original Greek is a Miami-based truck serving food from recipes that have been passed down for generations, creating traditional Greek food with an emphasis on quality ingredients, classic flavors and simplicity. The truck uses organic, locally grown foods, whenever possible, not only to protect the environment, but to serve the most delicious and wholesome Greek food possible. Check out the delicious gyros, baklava, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Original Greek",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5453c296-74bc-4b62-be58-181046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

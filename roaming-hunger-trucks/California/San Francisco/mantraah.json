@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Mantraah, we believe in serving fresh, vegetarian, organic Indian street food made with locally sourced ingredients. We embrace \u201cFRESHNESS\u201d as the central ingredient of all our creations.Want to eat gluten-free, vegetarian, vegan, no onion-no Garlic, or just don\u2019t like certain kinds of food? No problem. Just tell us what you want and we can customize your order.No time to drive? No-worries, we deliver to your office or home. Our freshly prepared meals offer a convenient way to eat healthy, delicious food at home or on-the-go. No shopping, no cooking, no cleaning, no hassles; just heat, eat, and enjoy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mantraah",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8196/54e4d3a8-5930-47b1-8dca-4e2e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

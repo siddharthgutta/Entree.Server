@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Whether you're looking for the most important meal of the day or the best baked goods in Oklahoma, Pitchfork Kitchen and Bakery has just what you need! Serving up something fresh and delicious every day, this tasty truck is sure to have great grub you'll love from the first bite. Pitchfork's superb sweets, delicious sandwiches, and signature pot pies are sure to have you coming back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pitchfork Kitchen and Bakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13047/56c88e37-6d8c-4cc8-ade5-170946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

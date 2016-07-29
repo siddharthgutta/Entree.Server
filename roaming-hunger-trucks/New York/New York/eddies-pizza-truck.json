@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eddies Pizza of New Hyde Park has been the original home of the bar pie since the 1930's. Now our truck is hitting the streets of NYC. Eddie's Pizza has been serving its famous Bar Pie's for over 60 years. After years and years of people requesting that we bring our pizza to the city, the day has finally come. Our mission is to provide the highest quality product and service to our customers on a daily basis.10\" and 16\" Pies Available in Regular or Whole Wheat",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eddie's Pizza Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e913a08-4958-4775-85f0-648546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cannoli Truck is your mobile Italian bakery! They serve fresh and delicious cannoli and pastries in honor of their parents, who owned an Italian bakery. And since part of the proceeds are donated to Smilow Cancer Hospital at Yale New Haven, you'll feel good in both stomach and heart.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cannoli Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554807e8-d88c-42cb-9ec3-74b646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

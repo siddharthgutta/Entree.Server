@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "James Coney Island has expanded to feature their very own Coney Cruiser truck! This favorite among Houston locals, is now bringing their famous Coney hot dog to the streets. In addition they're also serving up other American classics like burgers, chili and french fries. If you happen to see this truck early in the morning, grab your choice of their delicious breakfast items like biscuits, breakfast tacos, and coffee. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Coney Cruiser",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f3785-4b7c-4e29-aa95-47c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

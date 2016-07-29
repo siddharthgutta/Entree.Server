@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet T's Smokin' Eats is serving up that superb smoked taste that North Carolina craves! Burgers and sandwiches you can really sink your teeth into are always a great way to satisfy your hunger, and Sweet T's is cooking them up like nobody else. There's nothing better than food made with skill and passion, and there's nobody else like Sweet T's Smokin' Eats!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet T's Smokin' Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569e7c88-0f28-4643-b9bf-14f646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

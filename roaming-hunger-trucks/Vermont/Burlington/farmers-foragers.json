@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Farm-to-truck is certainly the forte of these chefs as they forage through local Vermont farms to find the freshest ingredients and from there, spontaneously create a beautifully flavorful menu that changes with the seasons.  No matter what selection of fare you\u2019re feasting on - whether it\u2019s Fried Avocado Tacos, a B.L.T., or a fresh and light Kale & Arugula Salad - you\u2019ll find that every dish served from this truck is incredibly fantastic. Just ask any of your foodie friends; every Vermonter who\u2019s eaten at this truck appears to be Farmers & Foragers' biggest fan. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farmers & Foragers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/572cbb4a-a9f0-49f0-aab6-56d846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

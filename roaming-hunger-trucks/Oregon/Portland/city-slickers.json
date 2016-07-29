@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City Slickers is serving up the finest hot dogs and sandwiches in all of Portland! Quality ingredients and superb service combine to make every bite into an eating experience you'll never forget. Try the Philly Cheesesteak, Chicago Dog, LA French Dip, or anything off this amazing menu today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "City Slickers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5616b7f6-3b7c-41f9-b5a7-43fb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

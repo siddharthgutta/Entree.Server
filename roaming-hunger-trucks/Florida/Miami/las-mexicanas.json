@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Las Mexicanas are taking Miami's street food scene by storm! Authentic Mexican cuisine that's always guaranteed to satisfy your hunger is what you'll find when you try this terrific truck. For Florida's finest tacos, tostadas, gorditas, and so much more, look no further than Las Mexicanas!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Las Mexicanas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565ce7c1-ee54-4bf2-b6db-49f646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

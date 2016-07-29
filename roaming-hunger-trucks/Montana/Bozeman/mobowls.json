@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mac 'n' Cheese that's been taken around the world and brought back to Montana in style! The classic cheesy meal with a gourmet twist, Mo'Bowls is the go to truck for the best mac 'n' cheese around! Whether you're looking for a bowl, a burger, their signature fried mac 'n' cheese balls, or any of their fantastic handcrafted food you're sure to love every bite at Mo'Bowls!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mo'Bowls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5528036c-2528-4f69-bcf1-3ceb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

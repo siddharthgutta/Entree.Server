@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Country Grill is a Bay Area food truck that specializes in rotisserie chicken and meats including pork ribs, turkey thighs as well as flavorful side dishes. Serving mostly locally-sourced meats and vegetables from small farms no further than 100 miles from the Bay Area, this truck prides itself on serving organic, free-range and hormone free products from local farms as frequently as possible. Check out the rotisserie chicken, spare ribs, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Country Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7726/54879886-3cfc-4100-87cc-59c746204482.PNG",
+  "transactionFee": 30,
+  "username": ""
+}

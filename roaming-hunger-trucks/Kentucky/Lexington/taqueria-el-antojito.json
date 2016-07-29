@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best tacos in all Kentucky are rolling down a street near you, with Taqueria El Antojito! Great food and great attitude are what you'll get every time you visit this great truck. Grab a taco, sandwich, or any other delicious item off their menu today! Mexican food you can really sink your teeth into is always a great meal, and when it's prepared with the skill and ingredients that these fine folks are bringing to the table, there's no way you can pass this up!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria El Antojito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d648e3-636c-4e7e-b545-39d246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

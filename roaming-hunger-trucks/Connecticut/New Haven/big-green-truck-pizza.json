@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New Haven's original mobile wood-fired pizzeria! Served from a vintage green truck with wood burning oven built in, Big Green Truck Pizza has been the best mobile pizza restaurant for years. Serving up fresh and hot wood-fired pizzas to the New Haven area, you'll be happy and full after a stop at the green truck.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Green Truck Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554bc8b4-0474-42ae-abc3-630c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A new gourmet foodtruck has hit the streets of the Denver Metro area.  \u201cKuechos\u201d is big, bright orange, and dedicated to gastronomy \u2013 the art or science of good eating.Julie Conner has dreamed for years of operating a truck that serves up exquisitely hand crafted dishes that allow people to experience fine food at reasonable prices.  Several years ago she and her daughter worked on a service project, building a school for the deaf, in Jamaica.  On breaks from her labor, she discovered the jerk chicken sold by local street vendors and fell in love with the wonderful collision of heat and sweet and spice that characterize this traditional method of preserving and cooking chicken and pork. Now she is bringing her version of jerk to the Mile High City.  Kuechos offers jerk pulled pork and jerk grilled chicken sliders, tacos, and quesadillas.  Crispy, hand cut, fresh French fries, complex cheese fritters, luscious banana fritters, and decadent fried pies round out the Kuechos menu.\u201cKuechos\u201d is Yurok for \u201cgrandmother.  Julie has recently become one and she has chosen a name for her truck that connects to her Native American roots and this exciting new phase of her life.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kuechos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5058c030-5158-4962-95c5-435e46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

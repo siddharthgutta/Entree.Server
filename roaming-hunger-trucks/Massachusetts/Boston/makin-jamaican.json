@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh and bursting with flavor is what Makin' Jamaican has to offer. Serving the Boston area, they provide great tasting food that's prepared fresh with the highest quality of ingredients. Treat yourself today with an authentic Jamaican meal from the delicious menu. Visit Makin' Jamaican and be sure to enjoy the great flavor, friendly service, and affordable prices.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Makin' Jamaican",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3452/551e176f-b564-425c-abe9-16ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

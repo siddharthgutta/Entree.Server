@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get ready for a unique dining experience! ABreast of Vegas is bringing the freshest in white meat chicken breast to the Las Vegas streets! Great sandwiches, sliders, pizza, hand-breaded chicken fingers, and more are ready and waiting to be cooked up fresh, just for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ABreast of Vegas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55304970-6c48-4e16-afc6-411146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Conch Shack is a food truck that wants to add to the food truck craze and bring something new to the table while embracing what has worked, mixing technology with great food. They offer a fusion of Latin, Caribbean, Asian, and southern dishes... a Floridian melting pot. Check out the great jerk chicken, conch fritters, potstickers, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Conch Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545bbbc3-8e3c-4c81-970f-7e2b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

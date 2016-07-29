@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Chennai Club food truck specializes in delicious fusion-style dosas, a filled rice & lentil crepe! This tasty Indian/Pakistani classic lends itself well to fusion, and the Chennai Club takes advantage of this with their American & Chinese style dosa fillings. Don't miss this tasty Bay Area gem!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Chennai Club",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9697/55ca5f93-7850-408d-bc4b-736746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

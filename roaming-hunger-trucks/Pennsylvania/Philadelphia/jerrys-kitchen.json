@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jerry\u2019s Kitchen is a catering company and food truck.  We serve modern American food with options for every appetite.  We feature a seasonal rotating menu with items for every appetite including sandwiches, tacos, pulled meats and BBQ, and Philly cheesesteaks. Everything we serve is made from scratch and all recipes are created in-house. Jerry\u2019s Kitchen specializes in weddings, bar and bat mitzvahs, family reunions, barbecues, music festivals, art festivals, fundraisers, and birthday parties. Our staff will attend to every detail ensuring your event goes off without a hitch.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jerry's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8815/56fe99b9-36f4-47f8-bdd0-28c946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

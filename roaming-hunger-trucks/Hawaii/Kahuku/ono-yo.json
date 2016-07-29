@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: KahukuOno Yo is a frozen yogurt truck focused on making naturally simple frozen yogurt that\u2019s deliciously good for you. We strive to provide the highest quality ingredients  using real fruit and plain Greek yogurt to create our product. We always use the freshest, most seasonal & local toppings available. We are NOT available for events, but please come visit us in Kahuku or at PCC!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ono Yo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e1ded82-6758-47ab-9acc-64b246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

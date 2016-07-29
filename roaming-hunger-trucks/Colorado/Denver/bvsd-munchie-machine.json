@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "\u200bWe serve fresh, delicious and nutritious food every day! We use locally sourced and organic ingredients whenever possible, and avoid highly processed foods, high fructose corn syrup, chemicals, dyes and food additives. \u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200bThe BVSD SFP Food Truck, fondly known as the Munchie Machine, serves lunch to BVSD high schools and is available for catering and special events. 100% of the Munchie Machine's proceeds go to the School Food Project to support healthy, delicious meals and engaging nutrition education for all of our students.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BVSD Munchie Machine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56d0957c-a000-411e-9b38-77a646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

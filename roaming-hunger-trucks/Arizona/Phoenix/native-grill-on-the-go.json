@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Native Grill & Wings is full-service casual dining concept built around friends, families and sport enthusiasts. Established in 1979, Native was first to market in Arizona for their award winning wings. Alongside their traditional wings, boneless wings and chicken tenderloin options, Native Grill & Wings has signature menu items in the sandwich, salad, pizza and burger categories. Native began franchising in 1993, currently has 28 locations in Arizona, Colorado, and Texas, and is now \"On-the-Go\" with our new mobile food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Native Grill on the Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53977c60-60d0-4993-9258-7e0c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

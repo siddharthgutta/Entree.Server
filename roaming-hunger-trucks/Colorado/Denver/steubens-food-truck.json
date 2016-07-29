@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Steuben's Food Truck is recreating American Regional Classics. Looking for something new and different from the Steuben\u2019s Truck this season? Well, you\u2019re in luck! This year Pearl will be turning into a \u201cTest Kitchen\u201d for both the Steuben\u2019s & Vesta chefs to try out new things that you may or may not see in either restaurant! These specials will be limited and not available daily so be sure to come by to find out when we have them. Some of our customer favorites you\u2019ll be seeing regularly are our Cubano, Cheesesteak, Maine Lobster Roll & Fries, Grilled Cheese with Tomato Soup, and the Chicago Dog.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Steuben's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e8f604b-c778-4200-a912-783246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

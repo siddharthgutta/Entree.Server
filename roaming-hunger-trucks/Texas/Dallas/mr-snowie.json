@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mr. Snowie is a gourmet sno cone truck serving the DFW area with over 30 flavors to choose from. Fancy a trip down memory lane? Revisit your childhood with flavors such as Cream Soda, Root Beer and English Toffee. Thinking about having a more Adult event? Mix your own cocktails to Mojito, Margarita and Daiquri. Stop on by, or bring the truck to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr. Snowie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54762828-61c0-413d-88ad-3fcb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

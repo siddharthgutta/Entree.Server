@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "R & R Extreme Wings is serving the streets of Indianapolis. They are the \"Wing Kings\" with a mobile food truck! Serving up chicken wings with various house made sauces such as the Sweet and Spicy, Honey BBQ, Mild Buffalo, Sweet Mustard, R & R Extreme Special Sauce, Spicy Garlic sauce, and Hot Habanero wings, get the breaded or sauced up! \"You'll be licking your fingers in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "R & R Extreme Wings",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f72ce7-9c84-47db-85c0-360b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

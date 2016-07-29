@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mighty Bean Espresso is a mobile cafe serving up Espresso and Smoothies in the greater Seattle area.  Using Award Winning Dillanos Coffee and Local Smith Brothers Milk, Mighty Bean Espresso crafts some of the creamiest lattes, cappuccinos, and steamers around, and their espresso and and americanos will wake you right up. Mighty Bean Espresso truly has all your coffee house favorites, from chai and frappes to italian sodas and smoothies, all on wheels!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mighty Bean Espresso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50df53d2-5f7c-422b-b8ca-3eb346204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

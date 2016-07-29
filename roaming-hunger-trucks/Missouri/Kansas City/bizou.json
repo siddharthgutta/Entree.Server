@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bizo\u00f9 is a Food Truck selling French Cr\u00eapes. Owned by Fr\u00e9d\u00e9rique & Fr\u00e9d\u00e9ric, both French, both from Brittany (Bretagne) where cr\u00eapes and galettes come from. Both were trained as \"cr\u00eape masters\" at Ecole de Ma\u00eetre Cr\u00eapier\", the best cr\u00eape school in France. Authentic savory buckwheat flour galettes and sweet cr\u00eapes are on the menu.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BIZOU",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10719/55674fac-1c04-430b-b45a-01f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

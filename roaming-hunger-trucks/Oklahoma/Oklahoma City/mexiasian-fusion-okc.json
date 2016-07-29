@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A marriage of food! Combining a husband and wife's family recipes is what Mexiasian Fusion is born from. Mixing up the Mexican and Asian cuisines of their childhoods, the owners of Mexiasian Fusion have created delicious and mouth watering tacos and burritos with Asian and Mexican flavors. Come down and taste the union!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mexiasian Fusion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553ea024-8508-4f59-bc94-274746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

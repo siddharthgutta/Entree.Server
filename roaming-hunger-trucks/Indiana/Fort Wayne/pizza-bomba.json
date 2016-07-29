@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best, freshest, most delicious pizza on the streets of Fort Wayne? Then Pizza Bomba is the food truck for you! Handmade, New York-style pizza is what you'll find at this fantastic food truck. Sink your teeth into some real gourmet street cuisine, look out for Pizza Bomba today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Bomba",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df71dc-17bc-442d-b805-09ea46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

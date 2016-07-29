@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Veraci Pizza is Seattle's original, award-winning traveling wood-fired pizza company.We specialize in creating authentic Italian pizza at Farmer's Markets, festivals & private partiesWe don't deliver pizza -we bring the whole wood-fired ovenand pizza making operation to your event!  With our custom-made wood-fired pizza oven we come to your venue,fire-up our ovenand start making pizzas!Service time lasts for 2 hours while we mix and matchyour choice of toppings to create fresh, hot authentic pizzas.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Veraci Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2112/5582f9b7-d184-4d55-b302-1b2f46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

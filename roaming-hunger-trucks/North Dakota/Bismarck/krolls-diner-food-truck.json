@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "North Dakota's favorite 50's style diner on wheels! Kroll's Diner Food Truck is traveling the great state of North Dakota serving up that delicious German and American grub they're famous for. Come see what all the hubbub is about, you'll be sure to fall in love with the fantastic flavor and flare that Kroll's Diner is bringing you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kroll's Diner Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552c3772-8070-4d4d-8113-3ee146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

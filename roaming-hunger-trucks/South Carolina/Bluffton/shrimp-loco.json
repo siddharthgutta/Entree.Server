@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bluffton's best shrimp truck is serving up some serious seafood, just for you! Shrimp Loco is taking flavors from all across the nation to create something amazing for you and your taste buds. Tacos, sliders, salads, and more, all packed with that delicious shrimp flavor, are coming right to you from this fantastic food truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shrimp Loco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f85184-2760-4662-8d77-6e3046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

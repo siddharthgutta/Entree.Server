@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The art and science of cooking is coming to you, from Le Camion Bistro! Gourmet cuisine on the street food scene is a great eating experience that just can't be missed. Bringing together cooking tradition from around the world has made for an awesome menu at this fantastic truck, so don't miss out on these delicious dishes--visit Le Camion Bistro today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Le Camion Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d62a9f-f000-4522-af02-7d0946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

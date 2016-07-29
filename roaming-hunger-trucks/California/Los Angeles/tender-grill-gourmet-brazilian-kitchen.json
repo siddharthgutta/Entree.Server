@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tender Grill is the first gourmet Brazilian food truck in Los Angeles. Their delicious dishes are made from only the finest USDA Prime meats and certified organic local produce. Don't miss their scrumptious chicken and catupiry, served hot and fresh on the streets of LA!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tender Grill Gourmet Brazilian Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12829/5646ca00-7c7c-485c-92cd-6b5746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

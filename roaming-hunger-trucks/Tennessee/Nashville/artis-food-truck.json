@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Artisanal Sandwiches, Soups, & Sides served fresh to the streets of Nashville! Check out our delicious selections, each bite is tastier than the last! \"Our commitment to what we do is simply defined by the word ARTISAN: Made with passion, pride, enthusiasm, care, and attention to detail.\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arti's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54de59a5-d548-4d57-9919-74fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

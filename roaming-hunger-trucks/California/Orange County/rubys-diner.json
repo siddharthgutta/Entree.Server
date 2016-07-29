@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nothing makes an amazing event like the best burgers and shakes in America, and the only place to find those is Ruby's Diner! This is that classic American flavor you've been craving, grilled up fresh and fast for you. Turn your event from something ordinary to something extraordinary today, with Ruby's Diner!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ruby's Diner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a7ad9a-d1d0-40cd-b9da-415546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

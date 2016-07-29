@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving up healthy fresh sushi hand rolls, spring rolls and soups five days a week, 11 AM- 3 PM, from a cute, little food cart on the plaza at 17th and California.  We work from a local kitchen, where we store all our fish and ingredients and do all our preparation. Our fish is purchased from reliable wholesalers, including Seattle Fish Co., who receive it 3 times daily by plane. Our sushi is freshly rolled while you wait by a skilled, experienced sushi chef who has trained in both Asia and Denver. Feel free to customize your roll. Everything is made to order so it's no problem to add or subtract whatever you like.www.yataifoodcart.com",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yatai Food Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3694/5505e208-c220-4369-bd74-043346204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "America's favorite cupcake shop is now on wheels! Gigi's Cupcakes of Columbus, Ohio has taken the show on the road, and is spreading the love of quality cupcakes all around town. Perfect for any event or even just walking down the street, treat yourself with these little sweets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gigi's Cupcakes of Columbus, Ohio",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5537fb22-3d68-4c4d-86a2-17d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

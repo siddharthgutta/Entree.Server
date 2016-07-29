@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mon Cherie is making amazing meals on the move in Anchorage! Offering food that'll fill you up with amazing flavor, this cart is coming your way with an awesome selection that's sure to make your mouth water. Perfect portions of poutine, freshly grilled hot dogs, and fantastic good times are right around the corner, thanks to Mon Cherie!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mon Cherie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562912dd-ded4-453c-a403-139f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

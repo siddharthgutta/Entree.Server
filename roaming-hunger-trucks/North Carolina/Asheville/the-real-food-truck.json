@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Real Food Truck is serving up dishes you won't find anywhere else - this is local, grass-fed, pasture-raised, organic, nutrient-dense, farm-to-truck, creative cuisine. Too many descriptors for you? Basically, this is the best food you'll find for miles around, and it comes to you! From the amazing grilled goat cheese sandwiches to the fantastic chicken bone broth, this wholesome, delicious food is good for you and the world! Stop by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Real Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f5f1f6-3394-4700-b868-592c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

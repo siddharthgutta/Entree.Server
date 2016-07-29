@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Quality Q is on the move in the heart of Oklahoma, and it's headed right to you! Celli's Smokehouse is ready and waiting to show you the amazing meals you can only get through expert BBQ smoking. Brisket, pulled pork, ribs, and so much more, Celli's Smokehouse has it all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Celli's Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56982e44-4a84-4c08-bcc4-767746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

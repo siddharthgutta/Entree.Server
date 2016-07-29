@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you craving great grub that's sure to fill you up? Then Kolanders Concession is here for you! The Cowboy Cheesesteak and Chocolate Dipped Cheesecake are just the start of this delicious menu. If you're looking to feed your need for delicious cuisine, Kolanders Concession will never let you down!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kolanders Concession",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e8d1c1-8464-4d2e-94fc-09c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

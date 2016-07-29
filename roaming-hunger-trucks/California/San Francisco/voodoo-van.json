@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "100% Legit Street Food. No Forks, No Knives, No Mercy!Voodoo Van--a cosmic take on food from the 4 corners of America.Check out the delicious sandos, served on specially-baked bread or on a bed of home-made slaw, fantastic tacos, hot dogs, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Voodoo Van",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ff745ea-f288-4340-86b8-139f46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

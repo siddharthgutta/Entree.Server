@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eatin' Alive is bringing the best raw and vegan cuisine you've ever seen to the people of Portland! Nutritious, delicious, and always amazing, everything these fine folks serve is absolutely fantastic. Ready and waiting to make you rethink food, Eatin' Alive is bringing you nothing but the best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eatin' Alive",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12654/573e03c9-cc48-440d-a37b-540946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

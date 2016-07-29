@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lexington's premier frozen yogurt truck is on the move and headed to you! Sweet Lily's Frozen Yogurt is the coolest treat on the Kentucky streets, full of fantastic flavor that you're sure to love. Sweet Lily's is perfect for any occasion that calls for good food and great times! Don't miss out on this amazing food truck--Sweet Lily's is just what you're looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Lily's Frozen Yogurt",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fc3a9e-0dcc-4fc1-92f9-4c2846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Matt and Steve's All American Grill is a real kitchen on wheels, serving up some superb sandwiches, burgers, mac & cheese bites, and more! Looking for the perfect way to feed you next party? This is the food truck for you! Ready and waiting to prepare an amazing menu made just for you and your guests, Matt and Steve's All American Grill is just what you've been craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Matt and Steve's All American Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568ff30b-9074-483a-948e-6fbd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

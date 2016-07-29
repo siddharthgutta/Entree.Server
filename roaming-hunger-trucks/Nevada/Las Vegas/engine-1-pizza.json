@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Engine 1 Pizza provides catering for Las Vegas with freshly made pizza right to your doorstep. Hand crafted pizza made to order and it takes about 2 minutes to cook in an oven that is 700 degrees plus! These are delicious treats with fine gourmet options all included in the price.Find Engine 1 Pizza every First Friday at 3rd and Colorado just across from the famous Gypsy Den. Although First Friday closes down at 10pm, we are open later with the Gypsy Den crowd and are right there for your late night grub!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Engine 1 Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dc47cbd-6da4-4a92-8c91-643846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

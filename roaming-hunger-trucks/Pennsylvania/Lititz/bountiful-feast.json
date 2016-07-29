@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There is no one like the Bountiful Feast roving restaurant ready to prepare an extensive food menu. They can make anything from cinnamon roll pancakes to escargot with a pesto sauce. All orders are prepared fresh to order from scratch. Nothing is better than a dish served with quality unique food at affordable prices are out of this world!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bountiful Feast",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554aa7a5-d868-486c-9f76-6d3d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pop Bandits have committed a crime! The crime of making fresh and healthy whole fruit ice pops and aguas frescas with an exotic twist. If you spot Pop Bandits in the neighborhood of Clearwater, Florida make sure to run over and try delicious chilled treats and refreshing beverages that will have you thinking you have committed a crime. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop Bandits",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526c7c5-06bc-4ced-a17a-349f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

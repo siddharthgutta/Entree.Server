@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hawaiian style meals to serve any appetite are making their way down a street near you! Ono Kai is taking their unique style to the streets of Tallahassee, sharing the best flavors of the Pacific with the Sunshine State. Whether you're here for the Kalua Roast Pork, Crispy Kona Chicken, or any of their other delicious dishes, Ono Kai will always deliver an awesome eating experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ono Kai",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560335d7-2b9c-49da-828c-0cc246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

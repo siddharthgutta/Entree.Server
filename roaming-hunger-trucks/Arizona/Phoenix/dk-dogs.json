@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Hot Dog Revolution. A spectacular Arizona Hot Dog Cart with Danish roots!Our 'DK Dog' is our specialty and not your average hot dog. It is a hollowed out baguette stuffed with an all beef frank and sauce of your choice! Baguettes are made fresh daily by a local Phoenix bakery.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DK Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8522/54e51b81-bc10-4136-8136-576b46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

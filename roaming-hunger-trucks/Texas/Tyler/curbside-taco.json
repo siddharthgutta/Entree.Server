@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This truck is taking the tastiest cuisine from Mexico & Latin America all through the streets of Tyler. Curbside Taco offers a simple yet superb selection of Carne Asada, Mexico City Chicken, and Al Pastor tacos. With meats so juicy, savory, and wonderfully flavorful, and toppings so fresh, you'll surely be coming back to Curbside Taco to get your taco fix time and again, or you can always have them come over and cater too. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57632f79-5a8c-4682-b98c-5a4846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

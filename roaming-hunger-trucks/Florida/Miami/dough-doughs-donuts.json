@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dough Dough's is a scrumptious doughnut truck serving the streets of Miami and more. With all the classic toppings, from glaze to maple to chocolate, and some new flavors, served up on everything from plain to red velvet doughnuts, you won't be wanting for variety here. And don't be scared by the small size - these morsels pack one flavorlicious punch!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dough Dough's Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54512cbd-79e0-48fa-b73d-13c146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

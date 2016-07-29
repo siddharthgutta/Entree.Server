@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kickstart your day with the coolest cafe on wheels you've ever seen! Cool Beans Espresso is owned and operated by some serious, certified baristas who are prepared to bring you the best beverages, baked goods, and so much more. Quality cups of coffee and customer service with a smile is just the start of the good times you'll find when you try Cool Beans Espresso!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cool Beans Espresso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a7c963-3b80-49c1-9cb6-320246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

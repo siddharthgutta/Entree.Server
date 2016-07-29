@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Putting the FUN in Fundraiser, it's Kona Ice! Perfect for any event, Kona Ice Treasure Valley loves bringing the tropical good times everywhere they can. So whether you need the best frozen treat for a festival, party, reunion, or just walking down the street, Kona Ice Treasure Valley is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kona Ice Treasure Valley",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552ef737-f57c-4e37-9a68-49bc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

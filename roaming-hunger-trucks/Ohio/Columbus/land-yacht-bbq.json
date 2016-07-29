@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Setting sail for flavor country, it's Land Yacht BBQ! They're serving up delicious down-home style ribs, pulled pork, bacon mac 'n' cheese, and more! If you're on the search for something amazing to stick to your ribs and put a smile on your face, then look no further than this amazing truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Land Yacht BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5536e7ca-93fc-4ed3-a675-1d8146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

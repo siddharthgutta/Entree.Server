@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This lush green truck is home to the most delicious Cambodian street food in Phoenix. Their menu offers a scrumptious selection of Lemongrass Beef, Chicken, and Sausage, as well as sides of seasoned basil rice, spicy papaya salad, and more. As you can guess, it all tastes sublime. Flavor and friendly service is certainly their knack, so you just might find yourself frequently coming back to savor every moment at The Lemongrass Shack.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Lemongrass Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5717dfe6-5f08-4ec3-92af-29c546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

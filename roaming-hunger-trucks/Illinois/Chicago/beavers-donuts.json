@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beavers Donuts serves delicious fried to order mini donuts with various signature toppings and imported coffee. Made from scratch every day using the finest ingredient\u2019s available. Come visit us today! We are constantly adding new flavors and monthly specials that may not be listed, so please stop by and see what we are up to!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beavers Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ecd9ef5-689c-4328-b21e-742946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

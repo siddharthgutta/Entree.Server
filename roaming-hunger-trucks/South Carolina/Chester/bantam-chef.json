@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "South Carolina's favorite food truck is here to serve up something delicious, just for you! These are the best burgers, hot dogs, and sandwiches you've seen, and when paired with their amazing ice cream and milkshakes, you've got an amazing meal you'll never forget. So if you're looking for a classic American meal that will brighten your week, Bantam Chef is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bantam Chef",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c399d2-d2ac-4685-ba8a-1f6346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

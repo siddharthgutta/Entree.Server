@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oh My! Pocket Pies is a fresher alternative to fast food; an Inner-city mobile food vendor truck that offers quality, local food at competitive prices. Based only in Houston, TX OMPP buys quality ingredients from mostly local vendors, prepares them fresh with just the right amount of flavor, and serves it to you in recyclable and compostable/biodegradable products only. Built on passion and run on dedication, OMPP strives to serve the best food with minimum environmental impact. We ultimately hope to become living proof that quality, fast food can be produced with little to no excess waste. You're happy, Mother Earth is happy- we're happy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oh My! Pocket Pies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e68524f-c9b0-424a-b1a6-034a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Boasting to be Buffalo's Best Barbecue, J & L Boulevard BBQ may very well be telling the truth! Real wood fired barbecue cooked low and slow as it should be, their locally sourced fruit woods add that extra character which pushes it over the top! Book them for your next event and treat your guests Buffalo's Best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "J & L Boulevard BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552ef2d4-5ce0-4a18-897d-05ea46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

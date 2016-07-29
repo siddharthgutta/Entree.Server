@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This little cart is bringing big, beautiful flavors all throughout Birmingham with every hearty sandwich they make. The locals just love Izabella\u2019s selection of sandwiches, including their homemade Italian sausage, Muffaletta, and Philly Cheesesteak, just to name a few. For a meal that you\u2019re sure to savor, be sure to check out Izabella\u2019s Italian Sandwiches!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Izabella's Italian Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/574335be-d448-49b2-a4ed-098d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

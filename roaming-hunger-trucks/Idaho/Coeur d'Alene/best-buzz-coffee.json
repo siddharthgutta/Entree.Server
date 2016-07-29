@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you in need of a caffeinated kick that's full of flavor? Well, Best Buzz Coffee has got you covered. With Americanos, Lattes, Mochas, ever-so-energizing blended Red Bull smoothies, and mo\u2019...Best Buzz is giving you just the jolt you need, fo sho\u2019.. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Best Buzz Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571fe259-3ffc-48b5-bcae-050046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

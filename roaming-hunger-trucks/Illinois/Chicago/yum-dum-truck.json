@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yum Dum is Chicago's first dumpling and baowich truck! Serving fresh, authentic handmade steamed dumplings, baowiches, & other homestyle Asian fares, crafted from family recipes!To read about owner Jeff Wang's philosophies, food, and food truck design, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/8388/yum-dum-in-your-tum-tum",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yum Dum Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7863/544d1186-4f30-4db0-83ae-15c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MOB {Marco's Onion Burger} Grill, a Food Trailer with a UNIQUE and SATISFYING burger experience, fresh cut Fries & Amazing Cheese Fries. This burger is the #RealDeal !  No Fugazzis here!#BestBurgers! #BestFries",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MOB Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fe6d99-3e24-4322-832a-2db446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

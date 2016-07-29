@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wikipita is bringing you the best Mediterranean and Greek cuisine on the streets of Denver! Come try traditional pita pockets filled with the freshest in locally sourced ingredients for your eating pleasure. Healthy, fast, and fantastic, these pita sandwiches are unlike any you've had before! Don't miss out--visit Wikipita today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wikipita",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5612c6ef-dad0-4195-90e6-5b6246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a full service mobile espresso bar based in Los Angeles. We prepare all based espresso drinks such as lattes, cappuccino, machiattos and americanos. We also prepare non-coffee drinks such as chai lattes, matcha lattes, and spiced apple ciders. As far as cold drinks go,we have a commercial blender that can whip up frappes and fruit smoothies as well. We carry a smal selection of baked goods such as muffins, scones, cookies and brownies that combine wonderfully with our coffees.We are fully permitted (health, business, sellers licenses) fully insured, and with brand new vehicles.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "frank and grind",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5776e4d4-d0d4-4f4a-90d5-504d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

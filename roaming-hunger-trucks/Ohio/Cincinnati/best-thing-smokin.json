@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're hungry for awesome BBQ on the streets of Cincinnati, then we know just where to find the Best Thing Smokin'! Delicious rib tips, chicken wings, carnitas tacos, and more are what you'll find on this food truck. For everybody looking for real downhome flavor that'll satisfy your hunger, Best Thing Smokin' is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Best Thing Smokin'",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56462f31-7a38-4725-b3ee-3cb946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

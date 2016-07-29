@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cape Pies is baking up Atlanta's most beloved hand-held pies! Savory and superb, you'll never find anything else like this delicious fare. Whether it's the Steak & Mushroom, Sausage Rolls, Vegetable Curry, or anything else off their menu, we're sure you'll agree that these are the greatest pies on the streets of Georgia! Don't miss out, grab something delicious from Cape Pies today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cape Pies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13369/56dc4ba4-062c-4c71-99f5-6b2946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

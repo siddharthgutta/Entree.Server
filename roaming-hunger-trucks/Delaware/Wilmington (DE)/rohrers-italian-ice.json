@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rohrer's Italian Ice is serving up some sweet treats you'll never forget! Italian ice is a frozen treat unlike any other, and it's sure to be just what your sweet tooth has been craving. Dig into an amazing dessert on the streets of Delaware today, with Rohrer's Italian Ice!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rohrer's Italian Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55de0c1f-d264-4f10-b1e7-2f8746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Phoenix's favorite food is finally here for you, and it's all thanks to MunchEZ! Serving up a variety of gourmet grilled cheese, soups, and more, this food truck is sure to have something for every appetite. Sink your teeth into their superb sandwiches today, from MunchEZ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MunchEZ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5665dc75-71ec-45ef-a0e9-139a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rare Earth Farms is bringing you the most farm fresh meals you've ever seen! The best burgers on Earth are on the menu of this food truck, made from all-natural, grass-fed beef from their very own family-owned farm. If you're looking for quality unlike any other, then Rare Earth Farms is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rare Earth Farms",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5669bc10-e324-43b5-a448-30f846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

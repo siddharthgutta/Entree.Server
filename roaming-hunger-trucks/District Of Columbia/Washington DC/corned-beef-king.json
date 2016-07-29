@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food trucking: Melt in your mouth, slow cooked corned beef, pastrami, Reubens and veggie Reubens. From the \"Mad Bull\" to the \"G Spot,\" these sandwiches are sure to satisfy. So find the Corned Beef King on a street near you and dig in!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Corned Beef King",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5d9504-97f0-47b6-97ec-1b0046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

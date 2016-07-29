@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the finest frozen treats on the streets of Pittsburgh? Then Leona's is bringing you just what you're looking for! Small batch ice cream and ice cream sandwiches ensure you'll always get something of the highest quality. Stay cool on the go and satisfy your sweet tooth at the same time, with Leona's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Leona's Ice Cream Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56661dec-9310-41c7-b7b8-62fc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

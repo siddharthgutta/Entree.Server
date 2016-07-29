@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Scrumptious sliders for one and all are rolling down a street near you, thanks to Forks on the Road! The Hot Rod, Cali Burger, Black Bean Burger, and so much more are on the menu today to satiate your hunger. You'll never forget your very first bite from this fantastic food truck, so look for Forks on the Road today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Forks on the Road",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ea15c1-e550-41d2-8ec1-476746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

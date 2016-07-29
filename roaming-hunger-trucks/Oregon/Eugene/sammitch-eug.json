@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "\"O hear ye, local EUGanauts! SAMMITCH is here to break the mold, leaving traditional sandwich design behind by combining local ingredients with a new Sammitch style and sauce.\" At least that's what they say... and they're completely right! From the ORGASmitch to the B.L.A.T., these great sammitches are the way to go! Have one, but be warned... you'll soon be back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sammitch",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ee3b3a-8914-4a37-b01d-458c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

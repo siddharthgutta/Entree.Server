@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A mobile eatery providing a diverse menu reflecting San Diego's historical culture through food. The first campus-run food truck on the West Coast!Grilled California Prawn Tacos on Homemade Tortillas served with Roasted Garlic Guacamole & Fire Roasted Tomatillo SalsaGrilled Skirt Steak or Chicken Tacos on Homemade Tortillas with Roasted Garlic Guacamole, Onions and choice of SalsaGrilled Veggie SandwichAND SO MUCH MORE!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Torero Tu Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/501f1904-acc4-4112-8a14-015846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

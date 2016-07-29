@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The French Twist Food Truck offers mobile cuisine, beyond the routine. Michael DeBoer, our chef/owner, is a graduate of the Culinary Institute of America and is committed to providing made-from-scratch, locally-sourced fare. Our selection of classical dishes such as crepes, omelettes, chicken cordon bleu and duck confit is often accompanied by French-inpsired dishes from Louisiana, Vietnam and Morocco. You can find us at business parks, community parks and festivals and events. In addition to our curbside service, we offer private and corporate catering.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The French Twist Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f3d5d-166c-4a81-b197-30ed46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

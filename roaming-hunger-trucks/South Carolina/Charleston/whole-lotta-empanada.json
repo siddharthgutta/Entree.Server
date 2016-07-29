@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You really oughtta trot on out to this awesome truck because the sweet and savory empanadas they\u2019re serving are nada if not delicious. With a tasty twist on a classic Spanish dish, you\u2019ll find that these fantastic flaky fried stuffed pastries here are the stuff of dreams. The dough is made fresh and there\u2019s a wonderful selection of fun fillings; Shrimp & Grits, Sloppy Joe, Buffalo Chicken, Applewood Bacon with Mac & Cheese, and more! And if you\u2019re in the mood for a sweet treat, you\u2019re in luck because you\u2019ll also find Nutella Banana, Apple Pie, and other tasty treats at this truck. Mmmm, we all just gotta get ourselves a Whole Lotta Empanadas!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Whole Lotta Empanada",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/570fd84a-840c-4bd4-9534-279346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

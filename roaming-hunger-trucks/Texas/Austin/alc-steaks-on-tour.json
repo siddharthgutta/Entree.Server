@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your favorite steakhouse on wheels! ALC Steaks On Tour is taking your favorite steaks, burgers, salads, and more to the best events and streets in Texas! Try the ALC Steak Burger, Pulled Pork Shoulder Sandwich, Grilled Portobello Mushroom Sandwich, or anything off of their excellent menu. You won't be disappointed with ALC!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ALC Steaks On Tour",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55416b31-c408-4502-b0ff-100146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

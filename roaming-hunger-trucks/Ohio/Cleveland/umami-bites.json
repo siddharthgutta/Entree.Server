@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Umami Bites is a gourmet Asian Fusion style food truck based out of Wooster, Ohio. They use a commerical kitchen at Wooster's local produce cooperative. Using mostly local ingrediants they serve a Chinese/Thai blend style of food. The Umami team just returned from a 6 week cooking tour in Southeast Asia with many exciting new menu items coming to the truck! Menu items include Pork Belly Wonton Tacos with pickled veggies and sweet chilis, Flash Fried Brussels Sprouts with a cilantro/jalapeno aioli, and Chicken Satay with a peanut dipping sauce",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Umami Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559c1953-98f0-4cc7-9d09-435246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

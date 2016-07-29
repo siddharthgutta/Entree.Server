@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Philadelphia Steak Bites is serving Washington DC authentic Philly Cheese Steaks.  Their menu provides a variety of Subs and Sandwiches, including the Pizza Cheesesteak, the Cheeseburger Sub, an Italian Cold Cut sandwich, and several types of Gyros. Salads and sides are also available.  All of the subs and sandwiches are traditional Philly favorites. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philadelphia Steak Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ee01d7-ebe8-4c3e-a18d-18a546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

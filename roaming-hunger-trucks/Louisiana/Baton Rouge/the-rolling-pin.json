@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rolling out the very best food that The Kolache Kitchen has to offer, it's The Rolling Pin! The beloved Baton Rouge breakfast place has taken it's menu to the road with this mobile trailer to share the joy with the world! The Rolling Pin offers nothing but the best, from their signature kolaches, pastries, empanadas, breakfast tacos, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rolling Pin",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d458a-d0a0-4189-922b-55d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

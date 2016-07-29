@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There is only one true farm-to-fork mobile food vendor in Michigan and that\u2019s Monty\u2019s Beef Truck. They offer a premium selection of their very own Michigan-born Piedmontese beef from free-range cattle that had descended directly from the Piedmont region of Italy. Monty\u2019s beef is completely hormone & antibiotic free, low in fat and cholesterol, and is naturally lean with a perfect tender texture. You can find this truck at special events and farmers markets throughout town, serving up beautifully delicious beef dishes; like burgers, brisket sandwiches, bolognese, meatballs, and more! If you\u2019d prefer to skip the meat, there are plenty of tasty vegan/vegetarian options for you too. Whether you\u2019re looking for healthy and tasty farm-to-fork fare for your next meal or next event, Monty\u2019s Beef Truck is definitely your best bet. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Monty's Beef Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57964d12-4b9c-4aed-86c8-25a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Costa's Finest brings you delicious Kettle Corn on the streets of Sacramento. If you're in the mood for a crunchy snack or some fresh-squeezed lemonade, And we offer a hot fresh funnel cake made right on the truck with various toppings to add to it! Find this truck out and about, or bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Costa's Finest Kettle Corn",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54133de8-b1c8-47e0-b8e5-643746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

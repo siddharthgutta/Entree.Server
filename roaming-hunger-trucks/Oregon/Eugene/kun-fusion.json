@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Kun Fusion truck is a great Korean-Mexican food truck serving Eugene great tacos, burritos, \"kyros\" (Korean gyros), and more! Choose between loco chicken, spicy pork, kalbi beef, and spicy tofu as your filling, and then chow down! The only confusion you'll experience is how you could find food this good!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kun Fusion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ebceb2-65a0-404e-870c-6d0146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stone Pelican Rolling Cafe is bringing lunch classics to the streets of Akron Ohio. Serving up gourmet Sandwiches, Paninis, Wraps and more, some of their signature items include the Portobello Mushroom wrap, Fresh Fish tacos, and warm hand crafted Apple Cider. New delights are always being developed for the menu, so stay tuned for specials such as pulled pork, shrimp, chicken tenders, and breakfast burritos.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stone Pelican",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f87bd8-8bc0-441c-899a-221946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

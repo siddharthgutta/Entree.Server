@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MoBi, short for Mobile Bistro, was developed by Viet and Nam Vu, is exactly that. We move all around town, day and night, to bring Tallahassee fresh, affordable, and delicious Street-food. i.e. Tacos, sliders, sandwiches, wings, wraps and much more...",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MoBi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eaa21bf-f49c-425b-92ac-2de146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

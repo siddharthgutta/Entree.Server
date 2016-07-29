@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We love pie! We service the Seattle area in our cool food truck. We bring tasty commonwealth pies to the public. Our food truck serves the Seattle area with pies we fell in love with in New Zealand and Australia. We specialize in traditional favorites like steak and onion, lamb and mushroom, and green curried vegetables. In addition, we throw in some inspired new pies like prosciutto in mac and cheese.Find our truck and see what we have today! Pie for all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "314 PIE",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50907017-b1b0-4183-9a48-03e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

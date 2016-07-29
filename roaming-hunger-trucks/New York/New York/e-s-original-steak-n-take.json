@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The original and the very best! E & S Original Steak-N-Take is serving up the finest cheesesteaks around! With their signature special sauce, you'll never have a better sandwich! And don't forget about their fresh fried fish, burgers, hot dogs, and more! Whatever you're craving, E & S is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "E & S Original Steak-N-Take",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55411233-d574-4b97-ae68-76fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

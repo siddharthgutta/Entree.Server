@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Trailer is the premier burger truck on the streets of the North Coast! Quality sandwiches for all appetites are on their way to you. Burgers, cheesesteaks, grilled cheese, and more are being made fresh daily for your eating pleasure! So if you're looking for great food on the go, look no further than The Trailer!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Trailer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bbcdf7-8538-422f-9155-697546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

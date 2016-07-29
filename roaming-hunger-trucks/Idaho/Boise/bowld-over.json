@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This truck is ready to bowl over Boise with more amazing meals than this city will know what to do with! Their mashed potato and rice bowls are gourmet experiences you just won't want to miss, not to mention their \"Bowld Sodas\", made with your choice of their superb syrups. Give them a try, and see why this is Boise's new favorite food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bowld Over",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56e8962b-ebfc-477e-8ce5-4cab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Trader Jim's is bringing you the best frozen treats on the streets of Petaluma! These delicious pineapple soft serve treats are sure to delight your sweet tooth each and every time you visit this terrific Tiki trailer. Made with the fantastic flavor of pineapple whip, these delicious desserts are perfect for everybody!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Trader Jim's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560d6e28-8bf8-48f4-8410-30fe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

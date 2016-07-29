@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pierogies Factory is a great mobile Polish bistro! This tasty truck specializes in authentic pierogies and Polish food, from delicious Kielbasa to hearty Bigos, or hunter's stew. If you're in the mood for an Eastern European treat, look no farther than Pierogies Factory!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pierogies Factory",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8374/54b87473-de2c-4af7-bd17-022a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

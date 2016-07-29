@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet cuisine is rolling down the streets of Detroit to a curb near you, all thanks to Detroit75Kitchen!  An amazing menu featuring delicious sandwiches, salads, and shawarma is just the beginning. Detroit75Kitchen is here with the most fantastic food and amazing service you could ever ask for, so don't miss out--look for this mobile eatery today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Detroit75Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c277cd-54b8-4306-9d16-0aab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

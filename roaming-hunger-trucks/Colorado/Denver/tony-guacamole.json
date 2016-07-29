@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nothing makes a taco better than a good guacamole, and at Tony Guacamole they're experts on that! From the traditional to the innovative, everything at Tony Guacamole is made fresh and delicious. Bite into a breakfast burrito, a delicious taco or one of their signature Fried PBJ Jalape\u00c3\u00b1os today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tony Guacamole",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551ec05a-13c4-4481-bdd9-150846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

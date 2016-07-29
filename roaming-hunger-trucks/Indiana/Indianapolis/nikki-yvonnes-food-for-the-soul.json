@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nikkiyvonnes Soulfood is serving some of the best soul food in Indianapolis: collard greens, green beans, candied yams, mac n cheese, dressing, baked or fried chicken, baked or fried turkey/pork chops, fish, fries, coneys, cheese burgers and much, much more...",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nikki Yvonne's Food For The Soul",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5736/53f201b2-21b0-4f32-8551-717446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

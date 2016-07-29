@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Beast of the Street is bringing out incredibly delicious seasonal and farm fresh cuisine that is sure to please every foodie in Haddonfield. Their mouthwatering menu features items created exclusively with locally sustained ingredients, including their Smoked Brisket & Slaw Egg Roll with house-made BBQ dipping sauce, and more. For some tasty eats that can\u2019t be beat, be on the lookout for Beast of the Street!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beast of the Street",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/573a4bbc-4400-43b8-bbd0-19d446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Deli Llammma serves up all your favorites, with some spicy twists! Try their Neato Burriteaux or their 'Samba' Empanadas. Every menu item has something unique to it. Come visit Deli Llammma for a great meal, and you'll definitely leave saying 'mmm!'",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Deli Llammma",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f9fe8d-141c-4a07-aa3c-40be46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

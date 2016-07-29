@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mamacita is making amazing Mexican meals on the move on the streets of Phoenix! Vegan and vegetarian friendly foods on the move, these enchiladas, tacos, flautas, and more are perfect for anyone who loves delicious flavor. Coming right to you, Mamacita is ready and waiting to make your mouth water today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mamacita",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565cbd4d-19d8-456d-8de5-29e546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

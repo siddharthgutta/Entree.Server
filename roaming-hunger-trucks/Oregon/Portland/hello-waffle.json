@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your favorite waffle shop on wheels is rolling down a street near you! Wonderful waffles made from scratch are making their way to you today to take your taste buds on a wild ride in delicious flavor. Made fresh and piled high with your favorite toppings, each bite from Hello Waffle is sure to capture your heart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hello Waffle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/563d195b-0704-4a36-8d74-3dca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

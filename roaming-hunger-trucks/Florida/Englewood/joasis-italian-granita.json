@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For a cool refreshing break from the hummer heat, nobody's better than J'Oasis! Italian granitas, shaved ice, snowballs, and excellent service are what you'll find here. So if you're looking for the most refreshing treat to beat the heat, remember, it's gotta be J'Oasis!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "J'Oasis Italian Granita",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556e2814-ffa0-4076-8572-6a3246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

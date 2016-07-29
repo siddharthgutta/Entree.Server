@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cleveland's favorite coffee is coming to you from the Eco Cafe'! The caffeinated kickstart you've been craving is finally here, and you're sure to love it. Along with their delicious Parisian crepes, Eco Cafe's coffee is here to make your morning amazing! This one of a kind experience is everything you're hoping for, so don't miss out on the Eco Cafe'!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eco Cafe'",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5646206c-9f8c-46d8-871d-114746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

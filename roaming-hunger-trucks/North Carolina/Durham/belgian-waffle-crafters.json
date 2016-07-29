@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Home made Belgian waffles with sweet or savory toppings. From across the pond they have brought you two types of waffles: the Brussels, light and crispy and the Li\u00e8ge, made from a dough with pearls of sugar. Perfect for dinner, desserts, or snacks. Example of waffles: Bouc : Brussels waffle, goat cheese, apples, walnuts, honey, thyme.Fraises au chocolat : Your choice of waffle, strawberries, whipped cream, hot Belgian chocolate fudge.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Belgian Waffle Crafters",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538e6580-1958-4d81-92e4-163646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

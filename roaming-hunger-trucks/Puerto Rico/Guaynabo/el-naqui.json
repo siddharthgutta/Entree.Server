@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet food with a casual feel is on the streets of Puerto Rico today! el \u00f1aqui is bringing the mobile food movement to Puerto Rico in a big way. Their signature \u00f1aqui, delicious ribs, and fantastic wings will blow your taste buds away!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "el \u00f1aqui",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559ed001-8a78-4000-867a-658746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

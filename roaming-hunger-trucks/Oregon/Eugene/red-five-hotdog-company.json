@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic American hot dogs with a twist of the Northwest, the Red Five Hotdog Company is bringing the best hot dogs in the galaxy! 100% Oregon beef hot dogs along with beer brats, veggie dogs, chips, and popcorn, ensure that you'll find something fantastic to love when you visit this amazing hot dog cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red Five Hotdog Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558dd23b-6e70-4119-a3be-0b2c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

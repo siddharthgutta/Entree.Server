@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "World Street Kitchen is the brain child of the team behind the critically-acclaimed and award-winning Saffron Restaurant & Lounge, brothers Saed & Sameh Wadi.World Street Kitchen features a seasonal menu which utilizes only the highest quality ingredients, presented in a fun way: street style. The cuisine is inspired by the food served in street carts around the world, from Morocco to Vietnam.Find World Street Kitchen in Minneapolis, Minnesota!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "World Street Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52549b28-c064-466c-ab7c-260746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

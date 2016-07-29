@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The doctor is in and she's serving up something tasty! Dr Mom's Tasty Bites is the perfect cross of delicious and nutritious, with a menu managed by a trained nutritionist who knows that the best way to get people to eat healthy is to make sure it tastes amazing. Turkey Panini, Big Gyro, Spinach Pie, and more! All hot, fresh, and ready to satisfy your hunger!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dr Mom's Tasty Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5537e6a6-a74c-4da7-bee2-2ab646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

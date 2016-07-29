@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Denver Cupcake Truck brings cupcakes to you in ice cream truck fashion.A fun and lighthearted way to enjoy any event from a birthday party to a wedding. Offering a delicious, gourmet and scratch-made confection, so sweet and yummy it will take you right back to your childhood. Having The Denver Cupcake Truck at your event will leave people talking for years to come. It's beautiful vintage look and wildly famous cupcakes are a sure hit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Denver Cupcake Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1225/54130f75-8648-48a2-9e6a-6d0746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

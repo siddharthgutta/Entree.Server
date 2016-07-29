@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Ginger Armadillo is not a BBQ truck, not a burger or a taco truck\u2014but it might just be all those things. This Austin food truck can take quintessential Texas cuisine and give it a gourmet spin, or international dishes and give them a Texas spin. The menu changes monthly based on what\u2019s local and in season, so you\u2019ll never have to have the same thing twice... but you\u2019ll want to!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Ginger Armadillo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8042/54e759c6-8634-4e39-baca-51c246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

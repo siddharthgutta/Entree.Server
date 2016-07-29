@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Streetside Sushi is rolling through the streets of Detroit and serving up some sensational Japanese cuisine. With a mission to provide fresh and healthy sushi to all the local foodies, the Streetside team has crafted a delicious selection of miso soup, California rolls, spicy shrimp tempura rolls, tuna rolls, etc...For all this and more, stop on by Streetside Sushi!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Streetside Sushi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578fc189-3b4c-40f9-a56b-6cfe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

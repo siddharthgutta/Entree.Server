@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Amore pizza is a Pizza truck est on May 2013 in Denver, Colorado. We are the home of Kick-Ass NY style Pizza Slice. Why is our pizza taste so good? its simple. Our dough is made fresh daily and the tomato sauce for our pizza is imported from the San marzano valley in Italy. And yes, we cook it will love and passion. Come and try us out, you will be amazed to taste pizza this good from a mobile food truck.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Amore pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7686/54214e3d-1f1c-412c-87fe-625246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

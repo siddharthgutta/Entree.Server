@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Philly Cheese Steak Food Truck is the best damm cheese steak in town. We have been grilling up cheese steaks for over 20 years. It does not get any better. To introduce South Florida to a Philly Tradition that is RIDICULOUSLY AUTHENTIC!Its time to GET YOUR STEAK ON SOUTH FLORIDA.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e988f64-3378-4aa1-b75c-7a7746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

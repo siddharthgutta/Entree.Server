@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The streets of Nashville are getting the greatest breakfast tacos you've ever seen, thanks to the Taco Bike! An original mobile eatery with an amazing organic menu, Taco Bike is ready to take your taste buds by storm. Eggs, potatoes, beans, and good times: Taco Bike is bringing you only the very best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Bike",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f70775-4934-43ea-b857-432e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

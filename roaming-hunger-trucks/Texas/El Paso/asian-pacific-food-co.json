@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "are you looking for the best Asian food in El Paso? Look no further than the Asian Pacific Food Co! Combining dishes and styles from across the continent, they've got something for everyone! Filipino BBQ pork, ramen noodles, their signature steamed buns, and more are on the menu and ready to fill you up with delicious flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Asian Pacific Food Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5542aa5e-c458-4edb-849a-254c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

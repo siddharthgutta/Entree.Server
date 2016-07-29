@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Southern style BBQ is coming to the streets of Ann Arbor with the arrival of Satchel's mobile BBQ! Customers can choose from pulled pork, brisket, chicken, and ribs - not to mention a number of delicious sides that include  cole slaw, potato salad, baked beans, mac and cheese, corn bread, and greens! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Satchel's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51bb7fc8-d628-43cc-b2a8-116446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

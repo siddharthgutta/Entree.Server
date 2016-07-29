@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Redmond's getting some of the greatest pizza it's ever seen, and it's all thanks to The Orange Box.Every savory slice you have is made to order in their on-board woodfire oven, so you always have a steaming hot pie that you're sure to love. Together with their sandwiches, hot wings, and the rest of their mobile menu, this food truck is sure to have something for you. The Orange Box is honoring the Northwest's tradition of terrific street food, so stop by this trailer and find out what's got everybody's mouths watering!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Orange Box Mobile Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

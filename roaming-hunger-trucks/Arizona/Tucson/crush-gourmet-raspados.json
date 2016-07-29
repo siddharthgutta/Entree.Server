@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "How do you cool down hot summer days in Tucson? With refreshing Raspados! Crush is the roaming kitchen bringing a breeze of gourmet shaved ice and frozen treats. You can cool down with a wide range of homemade syrups over premium shaved ice with Crush!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crush Gourmet Raspados",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559edba3-a748-4311-a6be-1c4646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

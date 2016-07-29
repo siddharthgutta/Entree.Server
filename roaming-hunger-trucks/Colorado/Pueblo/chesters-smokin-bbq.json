@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For the best BBQ around, go no further than Chester's Smokin' BBQ! Whether you're there for the melt-in-your-mouth briscuit, real wood-smoked ribs, the pulled pork sandwiches smothered in their homemade BBQ sauce, or any of their other delicious specialties, you're guaranteed to have a meal you love at Chester's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chester's Smokin' BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55231379-3d38-4235-a2b0-759146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

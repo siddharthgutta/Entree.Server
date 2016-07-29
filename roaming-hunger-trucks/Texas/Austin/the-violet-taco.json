@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best tacos in town, then The Violet Taco is the food truck for you! This amazing menu is crammed choc full of everything you could ask for when you're craving delicious Tex Mex. Dig into the amazing Pica Dillo Loco, Tejano Dog, The Violet Taco, and more, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Violet Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560076ff-837c-4809-94b9-0d2746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

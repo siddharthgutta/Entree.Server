@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "French/Vietnamese fusion food truck in the heart of Tulsa, Ok. Serving Banh Mi and Beignets to the masses. Savory, sweet, sour, and spicy. A perfect balance. Harmony served from a truck. The best place in Tulsa to get a great Banh Mi. The (only?) place to get caramelized Kimchi fries, and the best Beignets outside of Nola!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lone Wolf Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50c8ea5e-fb84-4cc8-a0df-749c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

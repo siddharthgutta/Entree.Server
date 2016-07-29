@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "True Southern BBQ is right around the corner today, with the best food truck in town! Slow-smoked meats and handmade sides are making their mark on the Charleston streets, showing your taste buds a fantastic time. From their chicken to their ribs to their signature Piggy Parfaits, Squeals On Wheels is sure to be serving up something you'll love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Squeals On Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56afca06-c6e4-4995-8d8c-3f5a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

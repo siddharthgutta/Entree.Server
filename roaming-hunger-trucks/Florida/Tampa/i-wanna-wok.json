@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet Pan Asian Grill Food Truck serving the Greater Tampa Bay Area.Using secret recipes from the Momma Mei's Little Red Cookbook, The I Wanna Wok Truck is leading the Great Culinary Leap Forward. Our food is inspired by the original street food of Asia - it's bold, spicy, unique, fast and delicious. We also offer authentic steamed Bao Buns that use the freshest ingredients - savory and addictive.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "I Wanna Wok",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52374cbe-7e3c-403a-a224-05db46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

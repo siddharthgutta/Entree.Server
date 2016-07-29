@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cosmic Chrome Cafe is cooking up cuisine with real kick! Southwest style food on the move is what you'll find on this food truck. Bringing Indianapolis some flavor it can really savor, Cosmic Chrome Cafe's menu will amaze and astound your taste buds each and every time you visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cosmic Chrome Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b2ba73-319c-4146-b8b0-5f4b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

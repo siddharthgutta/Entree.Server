@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best BBQ in Ohio is on its way to you, thanks to JT's Barbecue! You can really sink your teeth into the pulled pork, smoked kielbasa, and so much more that you'll find on this BBQ truck. With your choice of sauces and sides, you can make a meal all your own! Don't miss out on an amazing eating experience, visit JT's Barbecue today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JT's Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d4d188-51dc-4b67-87a4-108046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

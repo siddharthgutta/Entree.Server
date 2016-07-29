@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The coolest truck in the hottest desert, Fat Daddy's Ice Cream is breaking the heat with the sweetest frozen treat. This truck is red hot and ready to make sure you're the coolest cat in town with their supply of ice cream, snow cones, and even cotton candy! For the coolest time on Earth, look for Fat Daddy's Ice Cream today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Daddy's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5531415d-61e4-49f0-beb7-223b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

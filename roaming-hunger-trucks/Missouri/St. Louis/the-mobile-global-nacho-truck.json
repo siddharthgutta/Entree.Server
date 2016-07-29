@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Global Mobile Nacho Truck is wheeling around the streets of St. Louis, with the best Tex-Mex meals around!This is a world of deliciousness, served up on a plate of hot and tasty chips, cheese, tortillas, and more. The classic Bleacher 'Chos served up with jalape\u00f1os and their four cheese blend is always a popular choice, the Buffalo 'Chos are great for adding a little more spice to your lunch, and the Pangea 'Chos are just packed with excellent flavor.Don't miss out on the tastiest plates of globally inspired Mexican meals around - be on the lookout for The Mobile Global Nacho Truck today.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mobile Global Nacho Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57476805-c940-4ff7-975d-7f4846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

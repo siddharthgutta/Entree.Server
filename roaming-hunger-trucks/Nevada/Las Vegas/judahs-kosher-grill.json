@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Judah's Kosher Grill is the epitome of Americana cuisine packaged in the mobile convenience of a food truck. From handmade fresh ground beef patties to slow cooked shredded beef sandwiches, Judah's Kosher Grill is intended to provide a fresh, great tasting Americana experience that happens to be kosher.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Judah's Kosher Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9915/554290c6-c338-43b7-9132-1e1546204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

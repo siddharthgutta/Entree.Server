@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A friendly attitude, fantastic service, and the best Southern BBQ in Tampa, that's what you'll find at Holy Hog Barbecue! Great BBQ is what they do, using only the finest cuts and smoking them to perfection every bite from Holy Hog is sure to be delicious! For the greatest ribs, pulled pork, chicken, and so much more, there's no truck better than Holy Hog BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Holy Hog BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5571eb43-3d40-4394-ba5f-131146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

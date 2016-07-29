@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Diggity Doughnuts is a truck in the Charleston area serving organic, whole wheat, small batch, egg free, dairy free doughnuts! In addition, these tasty vegan treats can come in gluten free, so keep your eyes peeled for their wheat-free days! With a delicious range of flavors, you don't want to miss out on these tasty treats.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Diggity Doughnuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541714e5-a3ac-4629-a481-022c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

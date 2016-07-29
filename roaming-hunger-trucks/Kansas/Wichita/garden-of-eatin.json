@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Garden of Eatin' is cooking up paradise on Earth and putting it right on your plate! Gourmet comfort food on the go is something you just can't miss. With a menu made for everyone, Chefs Kevin and Becca can accommodate any dietary restrictions you may have. Food fit for a king is coming right to you today, fast, fresh, and fantastic from Garden of Eatin'!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Garden of Eatin'",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5626c2c5-10e8-459b-aa1b-0ce346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

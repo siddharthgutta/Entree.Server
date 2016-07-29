@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Just Cupcakes is a delightful bakery and cupcake truck serving the streets of Virginia Beach! Try some of these delectable sweets, made daily using only the freshest, highest quality, all-natural ingredients \u2014 Guittard, Callebaut and Valrhona chocolates, Madagascar Bourbon Vanilla, and organic vanilla beans. Just one bite is sure to brighten your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Just Cupcakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55022394-8174-46cd-8bde-083746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

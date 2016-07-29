@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "OKCity Grill is serving up the best street food you've ever seen! Sink your teeth into their savory O' City Burger, Pork Tenderloin Sandwich, Fried Catfish Basket, or anything else off their amazing menu. For fast and friendly service and the best food for miles around, OKCity Grill is just what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "OKCity Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562fb757-519c-496a-a33d-6d5146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

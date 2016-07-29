@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Like a luau on wheels, it's Kanak Attack! Authentic Hawaiian cuisine in Idaho's Garden City, Kanak Attack is serving up the best food with the best service. Perfect for any event, or when you're on the go, Kanak Attack is great any time you're looking for some quality food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kanak Attack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9350/55412ff8-fe3c-49fb-930f-798b46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

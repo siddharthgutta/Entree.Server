@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The taste of the islands on a bun, Croz's Surf Shack is serving up the tastiest good times! Croz's Surf Shack is a lifelong dream come true, and you can taste the love in very delicious bite. And don't forget you can top that off with their superb shaved ice! The fish tacos, black bean burgers, their signature Croz Dog, and more are ready and waiting to satisfy your hunger today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Croz's Surf Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555e15f5-7cc8-4a45-9dba-6b7946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

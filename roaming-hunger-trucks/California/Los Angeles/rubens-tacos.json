@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Best tacos in town, fresh, quality, fast, and  delicious. The best  place on the west side and now   hollywood. Open late 7 days a week until 3 am or later. Offering tacos, burritos, cheese burgers, asada fries, sopes, hot dogs, Cali burrito, tortas, quesadillas, veggie options  and much more! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ruben's tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51abbf4a-19e4-4447-be0a-2b7446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

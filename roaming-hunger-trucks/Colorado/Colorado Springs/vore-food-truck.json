@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Here to bring you better food, it's Vore Food Truck! This is gourmet grilled cheese at it's very finest. With their vegan, vegetarian, and gluten-free options, this is a food truck for one and all! The Fearless, The Peruvian, and The Elvis are just the start with this amazing menu - grab a sandwich and get your choice of side and a cup of delicious tomato soup for a meal that will really fill you up! Don't miss out, visit Vore Food Truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vore Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f1daf7-d920-4a28-aee2-541446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

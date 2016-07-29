@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Auto Burger and and Fry Guys serve up tasty burgers of all varieties: choose from beef, turkey, or back bean patties and build your own creation with topping choices that include everything from spinach and pineapple to fried egg and bacon. If the task of choosing from all of that seems like too much, pick from their menu of signature burgers that includes fun combos like The Hangover and The Californiaction. Don't forget to ask for some of their amazing condiments to go with your meal! Auto Burger and Fry Guy serves the Charlotte metro lunch and dinner.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Auto Burger And Fry Guys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d2162a-50dc-49f5-8959-118446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving fresh, seasonal, locally sourced food, The Holy Grill is a heck of a good stop for a bite to eat. Try the HolyCow Burger, the Garden of Eden Veggie Platter, or the Jerusalem Jambalaya, while they're still on the menu!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Holy Grill NOLA",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7398/54b6936c-7c9c-4387-b0a6-11cf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

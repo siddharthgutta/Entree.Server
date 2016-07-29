@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for burgers, fries, and good vibes, then there's nobody better than Beach Burger! Rolling up to a curb near you with their old school food trailer, Beach Burger is serving up fantastic food that'll make you feel like you're enjoying a real day at the beach. Dig into something delicious today, with this mobile eatery's amazing menu!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beach Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56200aba-2f80-463c-b3c8-682e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

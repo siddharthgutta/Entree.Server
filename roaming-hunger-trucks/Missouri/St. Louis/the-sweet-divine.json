@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sweet Devine is St. Louis' specialty cakes & cupcake shop.  Our truck's name is \"Georgie\" and you will see her at a location near you.We sell delicious cupcakes, cookies, whoopie pies, cake pops and more.We even RENT our truck for parties and events!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sweet Divine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50cf9fb5-ff90-4caa-87fc-3a8c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

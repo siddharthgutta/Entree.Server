@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Pittsburgh, PA The PGH Taco Truck specializes in giving its customers tacos that posses a global blend of unique ingredients. They also cater to their vegetarian/vegan customers by always offering an option for them. In addition, they aim to please all palettes by making some tacos milder than others. Some interesting taco combinations to choose from include: indian butter chicken with sambal yogurt, spicy jerk chicken with avocado cream, and curried potato with sriracha-lime cream. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PGH Taco Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5182f1a9-e0ec-43d9-b74c-081d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

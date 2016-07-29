@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kruzin Cuisine roams the Valley of the Sun, slinging gourmet street food and putting smiles on faces while doing it.  From our famous Coconut Fried Chicken and Waffles with Sriracha Maple Syrup to our zesty Pulled Pork and Kimchi Sandwich, our rotating menu has something for everyone. In the mood  for killer, unique food truck experience?  We offer catering, wedding, and business lunch services, so if you\u2019re hungry, we\u2019ll be there.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kruzin Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8448/54d4d0dc-a010-4533-ac47-621846204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

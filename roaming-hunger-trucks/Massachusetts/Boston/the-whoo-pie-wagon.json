@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A classic New England treat, the Whoopie Pie, has now gone mobile with the birth of The Whoo(pie) Wagon. This delicious dessert truck offers whoopie pies in a variety of mouth-watering flavors such as Pumpkin, Gingerbread, and Red Velvet to name a few. They even feature a \"Whoopie Burger\" - a vanilla whoopie pie with a chocolate filling that they've dressed up to look just like a burger. For your creamy whoopie pie center you can choose between a cream cheese filling or a more traditional whipped filling. If you've got a sweet tooth the Whoo(pie) Wagon should be first on your list. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Whoo(pie) Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/511ae79f-9b28-412f-b796-47fb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

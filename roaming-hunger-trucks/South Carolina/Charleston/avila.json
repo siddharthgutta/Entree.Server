@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Charleston's premier Venezuelan vehicle is hitting the streets with the greatest treats you could ever ask for! This food truck is serving up the finest in classic Venezuelan dishes, like their arepas, cachapas, patacones, and more. Breakfast, lunch, and late night delights from the friendliest folks in town are sure to have you coming back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Avila",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5698376b-a9a0-4f5f-8fdc-551746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Craving a real Philly Cheesesteak but can't make to Philadelphia? Well, the taste of Philadelphia has made it Cali. Thus, Philly Fornia is born! They serve you Philadelphia inspired Philly Cheesesteaks right in the heart of LA. So come get your taste of Philly!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Phillyfornia",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10414/55550ac2-a19c-493b-8383-23d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

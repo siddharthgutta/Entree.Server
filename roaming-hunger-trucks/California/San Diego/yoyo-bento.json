@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This super cool truck is serving up San Diego a fantastically tasty twist on Asian-inspired dishes. You can skip the home-brought lunch and come get yourself some robustly delicious sandwiches, salads, and of course, their signature bentos, with options like Chicken Katsu, Curry, or Meatball, served with rice, tempura, and yummy macaroni salad. The food from YoYo Bento is so blissfully flavorful, you\u2019ll surely keep coming back for mo\u2019!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "YoYo Bento",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57477b15-4a04-4abc-9cae-5be746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

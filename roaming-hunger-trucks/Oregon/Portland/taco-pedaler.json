@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Portland's Taco Pedaler is serving up delicious street tacos in much the same way that they've been served on the streets of Mexico for hundreds of years. Their corn tortillas are handmade to order and can be filled with your choice of beef, chicken, pork, or pinto beans (meats are natural and produce is locally sourced.) ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Pedaler",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/520295c4-0644-42c3-aa2e-166746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

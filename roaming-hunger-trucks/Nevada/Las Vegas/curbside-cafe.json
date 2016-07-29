@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everything ordered at the Curbside Cafe is made fresh on the spot using the highest quality ingredients. If you're in the mood for classic American fare (Burgers, Hot Dogs, Sandwiches)   head over to Curbside Cafe to get your fix. Want something different? They also feature daily specials that range from Chicken Tandoori to Pork Tenderloin sandwiches. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4487/54417538-e1e0-4174-9e83-132446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

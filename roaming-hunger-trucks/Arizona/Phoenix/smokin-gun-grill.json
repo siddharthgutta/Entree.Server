@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have you been craving quality BBQ in the heart of Phoenix? Then there's nobody better than Smokin Gun Grill! Made with love and quality ingredients, this is a menu full of fantastic dishes that'll make your mouth water in no time. Feel excited about your next meal--get something great from Smokin Gun Grill!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smokin Gun Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568ffa1e-bba4-4bdb-aba4-0d2246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

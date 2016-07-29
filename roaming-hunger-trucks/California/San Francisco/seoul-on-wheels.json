@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "From Rib Eye BBQ to Kimchee Fried Rice, Seoul on Wheels is serving up the tastiest Korean BBQ West of the Pecos! Try a Korean BBQ Taco from the famous BBQ Princess of Yoon, from the Province of Yummi! And if you're not in the mood for fabulous Korean goodness, check out the burgers instead!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seoul on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4cdb3c84-6f80-448b-bd32-416f46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

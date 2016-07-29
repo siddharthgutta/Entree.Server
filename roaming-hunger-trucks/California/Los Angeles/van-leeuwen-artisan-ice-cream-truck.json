@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stay cool in the sunny days of LA! Van Leeuwen Artisan Ice Cream Truck makes all their ice cream in their New York facilities with only fresh hormone and antibiotic-free milk and cream, cane sugar and egg yolks. Never using artificial flavors, all flavorings are sourced from small producers all over the world. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Van Leeuwen Artisan Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577d69c2-61bc-4dbc-aa1d-6de146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

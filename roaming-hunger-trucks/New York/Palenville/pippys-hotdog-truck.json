@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If Pippy can do it, so can you!Inspired by her hot dog-truck-owning grandmother, Heather serves 100% beef hotdogs alongside veggie and seasonal options. Homemade toppings, sauces, and handed down family recipes make this truck one-of-a-kind!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pippy's Hotdog Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552fd7cc-9828-4b42-ae6f-1a0e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

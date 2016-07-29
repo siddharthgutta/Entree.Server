@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Guerrilla BBQ truck is pleasing those meat-lovin' Philly foodies with their tender cuts of juicy pork, beef, and chicken! Don't worry vegan friends, their menu also features a spicy BBQ eggplant with black bean hummus... yum! Meaty favorites include the green chilli chopped berkshire pork platter and the pecan smoked beef brisket platter",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Guerilla Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5233ccae-9ab4-4837-af16-11c946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

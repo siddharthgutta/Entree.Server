@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mighty Moo is a small local ice cream company in the Surprise, AZ area. They make their own ice cream using the best ingredients and in small batches to maintain their high standard of quality. Check out the delicious range of flavors, from chocolate thin mint to coconut almond. And don't miss the maple candied bacon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mighty Moo Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54908adb-9758-40c3-b547-0f6d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

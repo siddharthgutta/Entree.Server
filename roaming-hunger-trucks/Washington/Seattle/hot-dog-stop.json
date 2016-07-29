@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Dog Stop (home of the famous Nimmerdogs) has been in business since 2002 and has served numerous hungry mouths in that time. With all the standard dogs, and some specialties like the jalapeno/cheddar, the \"pizza dog,\" and the \"Nimmerdog\" (chocolate/peanut butter/bacon/whipped cream), Hot Dog Stop is sure to make any event a smash hit.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Dog Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418b072-3150-4715-9d60-15f246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

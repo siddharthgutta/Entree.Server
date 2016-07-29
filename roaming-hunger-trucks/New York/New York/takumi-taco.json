@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Takumi Taco is taking the best of two worldly cuisines, and fusing them together for an absolutely tasty street taco treat.Their mouthwatering menu includes tacos, burritos, sushi rolls, salads, soups, bowls, and more\u2026. all brimming with a mix of Japanese & Mexican-inspired deliciousness.You just have to try any of their delightful creations, like their Spicy Tuna Taco (avocado, jicama, and cucumber, stuffed in a gyoza shell) or Curry Beef Rice Bowl (with brown rice, cotija cheese, cilantro, scallions, and edamame), or their Miso Tortilla Soup (miso broth, cilantro, lime, tortilla crisps, soba noodles, edamame, togarashi, with your choice or protein). For all this and much more, take a tour of the Takumi Taco truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Takumi Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/574e2775-4820-4ede-9486-145146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

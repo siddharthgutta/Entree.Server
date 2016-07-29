@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sarah's Cake Stop is St. Louis' first mobile cupcake truck.Our focus is on delicious food and excellent service using only the best ingredients.  Whether you're hosting a birthday party, arranging a company function or planning a wedding, you can trust our experienced staff to provide you with food and desserts that you and your guests will never forget.Sarah\u2019s Cake Stop will carry four or five daily flavors, along with a couple special flavors which is up to our creative cupcake bakers to decide each day. These in the past have included such flavors as Chocolate Caramel Cretzel, Pearl Vodka Lemon Drops, Carmel Mudslides, Guinness Chocolate & Coconut Keylime, so follow us daily.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sarah's Cake Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1113/548fbaa0-b074-44e9-9926-508546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

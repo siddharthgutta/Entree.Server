@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A custom bike to bring you a unique ice cream experience, it's IceCycle Creamery! These fine folks have years of experience making their own ice cream flavors at home, and they've brought those skills out to share with the streets of Reno! Come try a fantastic new flavor like Earl Grey, Lemon Licorice, Mango Lime Chili, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "IceCycle Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55355d51-52b8-4507-94b8-2d0046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

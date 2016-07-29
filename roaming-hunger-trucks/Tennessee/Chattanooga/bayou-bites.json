@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bayou Bites is bringing the raging cajun flavors of New Orleans through the streets of Chattanooga!There are so many wonderfully authentic items to choose from their Mardi Gras of a menu; Gator Tail on a Stick, Crispy Fried Catfish, Crawfish Nachos, and more!Come on by Bayou Bites for a beautifully delicious taste of the big easy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bayou Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57697cc8-a728-459f-a61c-2eb546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

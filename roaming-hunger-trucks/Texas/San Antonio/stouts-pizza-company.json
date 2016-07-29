@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stout's Pizza Company is serving up pies to the streets of San Antonio.They start with hand-made dough, made fresh daily on-location, and select and prepare the best ingredients to finish it off. Stout's Pizza Company chops their own veggies and makes their own sauce. Their pies are stone-baked and made-to-order\u2026.fresh, the way pizza is meant to be enjoyed.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stout's Pizza Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52165eba-7cf4-49c7-86cb-4f9446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

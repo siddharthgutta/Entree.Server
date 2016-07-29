@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Colombian cuisine in the heart of South Carolina is here for you! Pacha Mama's menu is a unique collection of some of the best Colombian dishes you'll ever see. Arepas, empanadas, tostones, and more, Pacha Mama serves the very best! Don't miss out, grab a great meal from your soon-to-be favorite food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pacha Mama",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12875/57280104-e2dc-4029-afee-094b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

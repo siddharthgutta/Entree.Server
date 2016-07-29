@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Frankie's Pizza is here to perk up your day with the best wood-fired pizza in town! Neapolitan pizza for any occasion is an amazing eating experience that can't be missed. Whether you're craving the savory or the sweet, this brick oven is ready to make something incredible right before your eyes! Stop by today for a great meal at Fat Frankie's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Frankie's Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f3562a-2688-40ef-9dfa-7d5f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sailing the streets of Nevada to bring their bountiful beverages to you, it's Java Ship Coffee! The best in locally roasted and organic espresso, Italian sodas, and even Hawaiian style shave ice are what's on offer today! However you like to quench your thirst, you'll find something to love with Java Ship Coffee!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Java Ship Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55356385-30e4-4c8d-9574-1d2e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Salt Lake City's premier Mongolian grill on the move is coming right to you! Freestyle Foodie is bringing a fresh new take on mobile cuisine to the Utah streets, and we're sure you'll love it. Get ready for fantastic stir fry you can customize to be perfect for you, only at Freestyle Foodie!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Freestyle Foodie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56426844-8d98-4715-8c2c-5b0546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

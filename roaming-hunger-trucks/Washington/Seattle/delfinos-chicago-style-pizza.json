@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delfino's has been bringing the magic of Chicago-style pizza to the Northwest for over 20 years, and now they're taking that amazing menu to the streets! Delfino's Chicago Style Pizza truck has all the skill and experience you expect, in a modern mobile package. There's no better pizza than Chicago-style, and no better way to get it than from Delfino's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Delfino's Chicago Style Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a17b82-de58-4178-a6b8-79e946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

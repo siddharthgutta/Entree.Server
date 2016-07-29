@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You will never find a fresher, more distinctive cup of coffee than you will get from Mod Cup Coffee! Doing their own microbatch roasting means that every cup they sell is as fresh as possible, leaving you with a drink that's of the highest quality with the most amazing and complex flavors. Mod Cup Coffee is sure to have you coming back again and again for their delicious brews!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mod Cup Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553ff098-7aac-4cf9-befe-4e3846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

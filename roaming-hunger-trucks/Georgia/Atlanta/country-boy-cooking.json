@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Country Boy Cooking is serving up the South's best flavors on the streets of Atlanta, today! Homestyle flavor for any occasion, this menu is packed with the best tastes that Georgia has to offer. Burgers, BBQ, fried chicken, and so much more, Country Boy Cooking is just what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Country Boy Cooking",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566869af-7394-4bf8-b6e4-3dd746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grand Junctions premier food truck, Duncan's Gourmet Street Food lives up to its name! They strive to bring you the best in all the classic foods you love! Whether it's the Big Kahuna Tuna Taco, the Colorado Cheesesteak or their signature Duncanburger, you can't got wrong at Duncan's Gourmet!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Duncan's Gourmet Street Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551ed7ff-90a4-4737-8567-35b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

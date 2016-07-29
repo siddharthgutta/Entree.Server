@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Caponies Express is Chicago's first Italian Food Truck, serving delicious Italian comfort food to the hungry curbside foodies. Check out the Panzarotti, the Arancini, or just grab your own Deep Dish Mini Pizza! Rounded out with salads, the soup of the day, and some tasty treats for dessert, this menu is sure to please! Stop on by!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caponies Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f36891e-35f0-40ab-8230-386546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

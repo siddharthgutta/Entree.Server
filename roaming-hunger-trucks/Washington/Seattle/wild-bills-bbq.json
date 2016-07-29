@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wild Bill's BBQ is bringing slow cooked St. Louis style BBQ to the streets of Seattle! Sandwiches, ribs, and superb sides are all on the menu here, ready and waiting to make your day amazing. The Pacific Northwest is getting the finest food and the friendliest service it's ever seen, so get ready to sink your teeth into some delicious dishes from Wild Bill's BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wild Bill's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569d2764-6558-4300-ac87-149c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

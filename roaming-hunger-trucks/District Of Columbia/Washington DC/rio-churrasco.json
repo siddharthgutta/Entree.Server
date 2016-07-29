@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rio Churrasco serves up barbecue in Churrasco style, which translates roughly from the Portuguese for 'barbecue'. The barbecue tradition known as churrascaria hails from the southern part of Brazil, from a gaucho technique of cooking meat over an open flame. This method of preparation seals in the meat's natural juices, resulting in a tender, more flavorful steak. Try it today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rio Churrasco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543c66ed-a074-4e17-9260-313446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

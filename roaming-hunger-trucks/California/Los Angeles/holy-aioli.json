@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The ultimate Food Truck for divine Sandwiches & Salads, offering unique filings and Aiolis that turn sandwiches, paninis and baguettes on their head.All of our delicious Aiolis are home made using our own secret recipes and we make sure that our ingredients are carefully selected from local suppliers to ensure consistent freshness and quality. Don\u2019t hesitate to pay us a visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Holy Aioli",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5474f6-c56c-4690-a68c-33a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

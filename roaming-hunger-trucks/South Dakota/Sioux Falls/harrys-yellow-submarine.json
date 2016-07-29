@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Harry's Yellow Submarine is here to bring you an amazing eating experience on the streets of South Dakota! A unique fusion of German and Cajun flavors is something you won't find every day. With their sandwiches, sausages, schnitzel, and more, Harry's is sure to have something you'll love! Stop on by this fantastic food truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Harry's Yellow Submarine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cb70f6-a580-45eb-88ad-102446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

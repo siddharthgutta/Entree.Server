@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Appropriately dubbed the \u2018Antonio Banderas\u2019 of food trucks, the Tex\u2019s Tacos food truck is nothing short of suav\u00e9 \u2013 a fully equipped kitchen & restaurant on wheels. Serving-up a delicious array of \u2018Nueva Texicana\u2019 eats with style and grace, we\u2019re bringing the fun & excitement of the Tex\u2019s Tacos experience directly to the people. Keep your head on a swivel, because you never know when the fiesta might roll-up to your neck of the woods!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tex's Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e18fb8d-cb90-46d7-bc2c-119c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

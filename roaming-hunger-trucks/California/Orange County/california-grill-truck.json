@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "California Grill Truck guarantees great prices for quality food. Featuring items such as a bulkogi sandwich and wraps, all ingredients are fresh and high quality with the cooking and grilling infused with love. More than making delicious food, Moon hopes to create and maintain relationships with customers as a chef and friend!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "California Grill Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e495f9c-62e8-4a53-a32a-578646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Smoking Cow is making Minnesota proud, with a menu that offers amazingly tasty dishes, all made from fresh, local ingredients. Their delicious burgers are just the start of what you'll find here. With a savory selection of Smoked Goat Legs, Fried Delicata Squash, House Made Mozzarella Sticks, and much more, your appetite will surely be delightedly satisfied. If you wish to try a taste of the hard-working, high-quality spirit that makes Minneapolis so great, then The Smoking Cow is the food truck for you!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Smoking Cow",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57575a96-d904-4c4e-966e-504c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

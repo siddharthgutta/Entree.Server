@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Revered as the best tacos in Hollywood, this food truck has all the authentic Mexican food you love to eat! It's like you suddenly were teleported to Mexico to enjoy amazing Al Pastor Tacos, Carne Asada Quesadillas, Nachos, Burritos, you name it! The King even does omelettes, pancakes and Hamburgers just because he can. Breakfast, lunch or late night after a night on the town, The King of Grill will treat you right.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The King of Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12917/5643f181-cc3c-4838-a6fb-2d5246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

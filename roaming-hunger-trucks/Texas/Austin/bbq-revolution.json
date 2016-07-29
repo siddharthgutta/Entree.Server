@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BBQ Revolution is a food truck dedicated to bringing people the best possible vegan foods in the best city to be vegan: Austin, Texas! Menu items include Vegan \"Brisket\" made from Wheat Roast, Garbanzo Tempeh \"Ribs,\" and soy curls. Sides include \"mom's\" Potato Salad, Coleslaw, Beans, and a special rotating Mac and Cheese. BBQ Revolution uses as many local vendors and ingredients as possible, and actually smokes all proteins on a true smoker! If you believe that BBQ doesn't have to equal meat, head over and join the revolution!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BBQ Revolution",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5464f8d5-d998-4065-874c-01b346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

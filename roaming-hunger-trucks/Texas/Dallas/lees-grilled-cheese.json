@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lee's Grilled Cheese is providing fantastic food with ease! Always fresh and made to order, Lee's Grilled Cheese is ready to make you the best grilled cheese you've ever had. From the classic grilled cheese, the tomato mozzarella, the cheddar mac, and more, everything on the menu is sure to delight and satisfy. So look for Lee's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lee's Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5543bba0-f6c8-4c79-8031-721a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

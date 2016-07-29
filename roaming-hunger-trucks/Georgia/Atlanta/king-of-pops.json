@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "King of Pops makes the best pops in the world and serves them with good grace and humor out of small pushcarts with rainbow umbrellas and chalkboard menus. Whether you're in the mood for a refreshing grapefruit mint or raspberry lime fruit pops or a rich decadent chocolate sea salt or banana puddin' creamy pop they're all delicious. We started in Atlanta but are now all over the South including Charlotte NC, Charleston SC, Savannah GA, Richmond VA, Greenville SC and Athens GA.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "King of Pops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1537/55358c22-55dc-43c5-b31d-616b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

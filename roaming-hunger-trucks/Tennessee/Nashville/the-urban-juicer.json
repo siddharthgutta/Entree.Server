@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nashville's premier mobile juicery is right around the corner, so go grab yourself a cup of something great from The Urban Juicer! These are juices, smoothies, and superfoods, all made free of additives and processed sugars. Serving all over Nashville, this terrific truck is ready and waiting to make you a delightful drink that'll have you coming back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Urban Juicer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5633e560-4498-42be-8b7a-297846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

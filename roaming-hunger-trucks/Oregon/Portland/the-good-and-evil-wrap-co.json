@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you good or evil? The Good and Evil Wrap Co. is here with their good wraps and their evil wraps - up to you which you choose. Feeling good today? Have the Avocado Tempeh wrap or the Curry Quinoa wrap. Feeling evil? Have the Fat Boy or Buffalo Chicken wrap.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Good And Evil Wrap Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55400e36-1654-4fdc-afcc-649a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

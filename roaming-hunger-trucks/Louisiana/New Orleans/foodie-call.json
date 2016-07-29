@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Foodie Call took home a Vendy award for their mouth-watering culinary creations. They boast southern classics with a gourmet twist that is sure to please all palettes. For Sunday brunch they feature Boudin Biscuits, a Brie-LT sandwich, Turtle Soup and many other unorthodox yet scrumptious items. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Foodie Call",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51647cc2-9bc0-462e-b990-321f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

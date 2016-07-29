@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vazzy's Canteen is a traveling kitchen serving up classic on the go foods. Perfect for large events and parties, Vazzy's Kitchen has something for everyone - even vegetarians. Get your burgers, grilled chicken, Philly cheesesteaks and fried dough here! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vazzy's Canteen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5547e9aa-7cb0-46a2-bb19-406e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

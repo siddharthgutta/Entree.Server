@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There are no better tacos on the streets of Mountain View than what you'll find at Mamacitas! Fresh Mexican delights for any appetite, Mamacitas is cooking up an eating experience you'll never forget. Fresh ingredients, a wide selection, and the friendliest folks in town, Mamacitas has it all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mamacitas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56afed62-9fac-48b8-a8f5-034846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

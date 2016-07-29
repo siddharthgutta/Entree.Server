@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chick a Dee is Metro Detroit\u2019s latest roving dining experience.Serving our signature hand battered Chicken on a Stick, and Chicken Tenders guaranteed to blow you away! Don\u2019t miss the Hand Dipped Chicken Corn Dogs.Add one of our Awesome sides Sweet Potato Fries, Deep Fried Mac and Cheese, Homemade Waffles, and Fries.Complete your meal with a refreshing Fresh Squeezed Lemonade, Limeade, or Cherryade.BE HAPPY, BE HEALTHY, EAT CHICKEN !",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chick-A-Dee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9403/556f6d1c-15e0-45c2-b298-605546204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

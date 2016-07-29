@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At The Zingaro, our food is our passion, as is our community. Our focus is to provide not only the comfort food favorites but also offer a healthier choice.  While I can\u2019t give up my signature burger, we love all of our healthier dishes as well.Two other components of our business model are very important to us:  supporting the local economy and using in-season foods.  We use the best quality foods from as many local producers as possible.  Our menu, while having its constants, is very fluid and is heavily focused around what\u2019s in season.  To us these two aspects are very important for sustainable living for both us and our clients.While it will be hard not to order our Zingaro Burger, there will always be healthier fare on the menu.  There\u2019s absolutely no way I could keep up with my toddlers if all I ate was our yummy comfort foods.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Zingaro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f5eada9-5a44-4461-b5cb-5de946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

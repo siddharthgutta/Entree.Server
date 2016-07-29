@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic \"Philly\" cheesesteaks made fresh to order ever day are coming your way, thanks to Hillbilly Philly! These are some savory sandwiches you're sure to love, made from only the finest ingredients Chattanooga has to offer. Whether you're craving their signature sandwich or any of their other culinary creations, Hillbilly Philly is sure to have something delicious, just for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hillbilly Philly",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f70ffa-9a44-4c4f-8fca-6fc346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

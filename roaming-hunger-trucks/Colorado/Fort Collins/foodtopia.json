@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fort Collins' new favorite food truck is here to turn the streets of Colorado into a FoodTopia! Fresh, affordable, and full of flavor, this menu is an all-star list of the best dishes on the street food scene. If you're looking for quality cuisine on the move, there's nobody better than FoodTopia!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "FoodTopia",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e74023-029c-4c7e-988c-649646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

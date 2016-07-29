@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Street Eats DSM is serving the finest sammiches Des Moines had ever had! You've never had anything as delicious as the \"Pollo Italiano\", \"Welcome to Iowa\", or \"Where's the Beef?\".  Street Eats DSM and their gourmet sammiches and handmade fries are on their way to make your next meal spectacular!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Street Eats DSM",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b81003-4168-4cbf-89c8-215446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

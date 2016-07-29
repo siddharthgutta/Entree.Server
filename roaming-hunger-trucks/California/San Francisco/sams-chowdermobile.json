@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Recognized nationally, Sam's Chowder House in California now delivers award-winning seafood \"on the road\" all over the Bay Area in Sam's ChowderMobile, your mobile seafood shack.Enjoy the fresh and delicious seafood that won \"Best Seafood in the Bay Area\" by San Jose Magazine, or try Sam's award-winning Lobster Roll, named Top Five \"Best Sandwiches in America\" by NBC's The Today Show.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sam's Chowdermobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb83070-2850-424e-bd7a-3b7246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

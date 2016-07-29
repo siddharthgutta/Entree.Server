@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Enjoy an awesome beer on the streets of Portland today, with Scout Beer Garden! There's nothing like a delicious drink to make your day out and about even more amazing, and these fine folks provide you nothing but the best. For all your outdoor beer needs, it's got to be Scout Beer Garden!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Scout Beer Garden",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565e38a5-7a74-4d6e-9864-336e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

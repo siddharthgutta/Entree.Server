@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Steak Louie has taken an East Coast favorite and given it unique St. Louis flavors. Steak Louie uses regionally-grown, grass-fed Black Angus strip streak. They slice it thin every day, wait to cook it until you place your order, then layer it thick on your sandwich. The secret to their special chips and fries is Steak Louie's house-made seasoning. Enjoying their bold, savory flavors on the side or as your main course.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Steak Louie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e9adc2-6414-4814-a99a-0e5246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

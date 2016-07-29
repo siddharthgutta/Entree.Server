@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Drewski's Hot Rod is a gourmet food truck rolling through the Greater Sacramento Area . . . coming soon to a street corner near you!! Don't miss their delicious and inventive grilled cheese sammies, tater tots, and make sure to save room for the Nutella s'more dessert sandwich!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Drewski's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec94f80-c288-4c85-b033-288e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

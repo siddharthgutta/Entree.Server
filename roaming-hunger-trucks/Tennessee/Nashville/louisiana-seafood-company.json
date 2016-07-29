@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Louisiana Seafood Company is a food truck in Nashville. They are committed to fresh seafood for the local community! Louisiana Seafood company has a product range with everything from alligator meat to fresh crab. They have a great variety Gulf seafood; they specialize in boiled crawfish, crabs, and shrimp. Stop by to taste this delicious southern specialty! Their seafood is the freshest and friendliest in Nashville! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Louisiana Seafood Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515cc47e-9538-4cbf-abca-35b646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

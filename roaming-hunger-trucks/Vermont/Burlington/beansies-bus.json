@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A part of Burlington for the last 70 years, Beansie's Bus is a local institution. Occupying the same spot since 1944, Beansie's continues to serve up the classic burgers, hot dogs, sandwiches, and all the other fine fare that's earned them a place in the hearts and minds of their community. With a history of friendly, welcoming service and quality food, Beansie's Bus is sure to warm your heart and fill your belly time and time again.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beansie's Bus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55300e71-3218-4059-a6be-50aa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

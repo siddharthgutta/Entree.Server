@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Local is a mobile eatery that hooks up organic, local, and seasonal produce, great food, and a jazzy vintage step van. Check out the Pork Green Chili Grilled Cheese, Chickpea Fritter, Kimchi Quesadilla, or whatever happens to be on the menu today! Eat locally, and eat well!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Local",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51ac1222-25f0-4ee3-a499-0e9a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

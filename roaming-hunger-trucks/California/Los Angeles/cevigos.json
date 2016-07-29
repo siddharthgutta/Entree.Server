@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cevigos is a new Peruvian Food Truck, bringing the next level of latin flavor to southern california. Great Peruvian Ceviche also Arroz con Mariscos. The empanadas are the best, Salchipapas and Papa a la Huancaina are amazing, fresh and homemade Rocoto Sauce and so many other delicious dishes. Cevigos is bringing the next level of Latin flavor to Southern California. Be on the lookout folks - you won't be disappointed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cevigos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8990/55f67351-a4fc-4ee4-b786-780446204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

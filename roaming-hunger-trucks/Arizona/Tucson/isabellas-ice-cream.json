@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Isabella's Ice Cream is serving the Tucson area great ice cream out of a restored 1927 Model-T! This delicious ice cream is made using only natural ingredients - no artificial ingredients, stabilizers, or fillers allowed! Delicious, nutritious sweet treats out of an adorable vehicle - what could be better?",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Isabella's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5514891e-d404-4136-bdce-218846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

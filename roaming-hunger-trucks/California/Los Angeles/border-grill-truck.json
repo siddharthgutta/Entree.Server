@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to the Border Grill Truck! Gourmet tacos, quesadillas, ceviches, and more from \"Too Hot Tamales\" Mary Sue Milliken and Susan Feniger. Presenting the bold flavors of modern Mexican cuisine, Border Grill Truck sets a new standard for mobile gourmet fare. Our menu is always evolving so this is just a sample of our most popular dishes. Be sure to ask about our farmers market specials to get an exclusive taste of the latest chef creations.Bringing the modern flavors of Mexico to a neighborhood near you, and booking private events and regular route stops now! Check out the Roaming Hunger map whenever this truck tweets to find out where it will be next!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Border Grill Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56/55679b40-5b9c-4c2a-9e6d-3de346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

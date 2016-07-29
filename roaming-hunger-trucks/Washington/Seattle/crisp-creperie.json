@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We founded Crisp Creperie with the idea of bringing top-shelf ingredients in exquisitely crafted crepes to our neighbors here in Seattle. Our ingredients are sourced both locally in Washington and from independently owned farms around the world, and we dedicate extra attention to seasonality and sustainability when selecting them all. The result is the finest confluence of flavors and style we can bring to our craft. Find us parked in different Seattle neighborhoods throughout each week. We'll see you soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crisp Creperie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f91de3c-2268-4aed-bd70-218a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

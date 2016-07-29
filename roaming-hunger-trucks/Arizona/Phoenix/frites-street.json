@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a mobile, gourmet, pomme frites kitchen serving traditionally prepared Belgian style french fries.  Our pomme frites are thick-cut by hand, then fried twice to give a satisfying exterior crunch that gives way to a tender center.  For the purist, we offer a cone of fries accompanied by a selection of one of our twelve dipping sauces; for the connoisseur, our selections include entrees that start with a bed of our golden-brown-delicious pomme frites and topped with ingredients ranging from duck confit, cheese curd, and sherry gravy, to carne asada with tomatillo salsa and fresh pico, and many more on our rotating, seasonal menu.  For those with special dietary needs, we have gluten-free offerings, as well as a rotating vegan frites special.Whether you're in the mood for a quick snack, or a satisfying menu, we have something for everyone.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frites Street",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8632/54f4acbf-7d9c-427e-a439-31f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

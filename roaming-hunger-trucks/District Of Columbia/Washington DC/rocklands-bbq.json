@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rocklands is a great community-oriented BBQ truck serving the streets of DC and beyond. With an extensive menu of sandwiches and platters of BBQ, salads and sides, and a guarantee that this truck gives back to local schools and organizations, Rocklands should be your BBQ choice. Check them out today! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rocklands BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54385729-5df8-4b72-8a71-1f6946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food trucks may seem to be a new thing for many people, but Okie Dokies began serving their BBQ out of a little red trailer in 1999! As you can imagine, they've only gotten better with time. So whenever you're out and about and craving some delicious pulled pork, stop by the Okie Dokies Smokehouse truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Okie Dokies Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f5ef06-4be0-4b81-8dac-02c946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

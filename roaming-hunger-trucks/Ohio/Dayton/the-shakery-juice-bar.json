@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dayton's juicy secret is out, and it's making a splash! The Shakery Juice Bar is Dayton's premier mobile organic juice bar, striving to bring you the best in fresh, seasonal, fantastic juices, smoothies, and more! Simple, fresh, always a delight, The Shakery Juice Bar is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Shakery Juice Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5538260f-16f4-4e6b-87d8-297c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

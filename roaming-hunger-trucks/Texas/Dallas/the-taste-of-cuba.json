@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Taste of Cuba is a truck serving delicious sandwiches and other Cuban fare to the streets of Dallas. Try a Cubano, Mambo Tacos, or a Deep Fried Pork Wing. Just don't miss out on these delicious meals. The soul of Havana in the heart of Texas!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Taste of Cuba",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54762607-f448-4119-b1e4-048f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

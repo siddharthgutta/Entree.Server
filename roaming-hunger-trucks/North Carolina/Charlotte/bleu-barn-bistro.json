@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bleu Barn Bistro is a new food truck serving up healthy local organic produce as it is seasonally available. Sourcing meat and produce from local farms that focus on the natural way of growing live stock and produce, with minimal to no pesticides, growth hormones, or GMOs, this truck is dedicated to promoting the health of its patrons and the world at large.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bleu Barn Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5417543b-6e60-41d4-b7ae-7a9f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

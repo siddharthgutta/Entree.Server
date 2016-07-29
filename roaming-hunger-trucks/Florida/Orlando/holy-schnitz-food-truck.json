@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Orlando's premier Austrian/German food truck is pulling up to a curb near you! Holy Schnitz is serving up the best Schnitzel, Currywurst, and Bratwurst you've ever seen. Don't miss out on this amazing experience--try the amazing menu from Holy Schnitz today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Holy Schnitz Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56041ff5-658c-49f7-8f7a-5a1446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

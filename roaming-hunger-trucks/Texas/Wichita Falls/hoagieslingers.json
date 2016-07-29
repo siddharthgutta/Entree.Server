@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "HoagieSlingers is serving up Texas' finest sandwiches on the streets of Wichita Falls today! Brought to you by the amazing Deli Planet, this food truck has the same quality cuisine you'd find in their brick and mortar restaurant. Made fast, fresh, and just for you, HoagieSlingers is sure to satisfy your hunger!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "HoagieSlingers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56745d9f-1dfc-466b-81b7-4c7446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

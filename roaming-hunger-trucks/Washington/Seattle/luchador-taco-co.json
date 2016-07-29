@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Luchador Taco Co is here to bring your taste buds to their knees with intense flavor! Seattle's premier vegetarian taco truck, Luchador Taco Co is serving up delicious dishes everyone can enjoy. Tacos, tamales, burritos, and beyond, this food truck is ready to satisfy you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luchador Taco Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a59fa9-276c-45be-b6fc-405946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tropical Vibes is bringing you the best Caribbean BBQ on the streets of California! With fantastic flavor and jammin' reggae tunes, this truck is serving up good food and good times. Come try the stupendous Jerk Chicken, Mac n' Cheese, candied yams, and so much more from Tropical Vibes!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tropical Vibes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfc11e-8f98-483e-a361-6f2a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

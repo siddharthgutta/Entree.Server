@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Mama's Wings is bringing you Eugene's best wing joint on wheels! Chicken Wings, Tempeh Wings, Fries, Tater Tots and Pretzels are sure to get your mouth watering as soon as their bus rolls up to your street! There's no time like wing time, and Hot Mama's Wings does it like no other!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Mama's Wings",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57226d34-6f2c-4bb3-95c8-69fc46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

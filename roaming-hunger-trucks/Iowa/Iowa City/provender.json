@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Provender is a wood-fired oven on the move, cooking up some superb cuisine that you're sure to love! Delicious pizza, freshly baked bread, and so much more are coming to you today, thanks to these fine folks. Whether you're at your favorite farmer's market or need a way to feed your next big event, Provender is perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Provender",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5665bd96-0c7c-4607-a7c9-197346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, local, made from scratch, that's the kind of food you'll get at the B-Town Bistro! Their rotating, seasonal menu is always packed with delicious food and fun new surprises to delight your tastebuds. Anything and everything they make you is sure to leave you happy and satisfied, so visit the B-Town Bistro today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "B-Town Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9328/562fd333-b74c-4c01-a8c8-295a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicioso Food Truck delivers Delicious food straight to you in the streets of San Diego!Our delicioso Tacos will make your mouth burst with our Tex-Mex infused flavors! We take any ordinary taco and turn into a flavorful mouthful! All our food is made fresh to order! Delicioso Food Truck offers a variety of delicious Southwest Food.  We offer everything from salads to burritos. Including some California favorties: California burritos with our exquisite tasting sauces Chipotle and Cilantro., Carne Asada Fries with a twist BBQ Fries. Delicioso Catering Truck caters the delicious food straight to your office party, carnival, building opening, school, and even birthday parties. No event is too small or too big! We offer catering to anyone who wants to experience the taste of this amazing food!  We offer several Menus and adjust to your parties desires and needs.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Delicioso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb9e175-8704-445d-b2e9-7e8146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

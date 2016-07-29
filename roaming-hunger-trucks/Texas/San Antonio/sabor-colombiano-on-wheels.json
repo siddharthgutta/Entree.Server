@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sabor Colombiano on Wheels is San Antonio's premier way to get great Colombian cuisine on the go! You'll find only the finest in authentic, home style Colombian dishes, like their delicious empanadas and fried plantains. Sure to satisfy your hunger, Sabor Colombiano on Wheels is just right for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sabor Colombiano On Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5010a17f-5834-4708-81de-0ea646204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

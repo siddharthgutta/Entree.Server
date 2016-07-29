@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic Yum is making its way through Minneapolis and serving up a scrumptious twist on Asian and American cuisines. A few of their ever-so-appetizing offerings include fresh hot fries topped with delicious Thai chicken curry, the Vietnamese PoBoy (with crispy fried fish, Classic Yum\u2019s signature coleslaw and spicy mayo), Turkey Egg Rolls...just to name a few. For all this and much more, come on out to Classic Yum!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Classic Yum",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5581cbd2-de28-46b0-a789-4ce046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

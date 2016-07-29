@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Tot Cart is out roaming the streets of Philadelphia. The cart serves up delicious tots in six different ways. Order you tots spiced up with Old Bay seasoning, sprinkled with garlic and parmesan, tossed with buffalo sauce and bleu cheese, dunked in \"drunken\" cheese sauce, or the traditional way: plain and golden. All tots are deep fried to order right on the cart.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Tot Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4704/5760c1bb-bdec-460d-9f54-36e546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

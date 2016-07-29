@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Caveman Truck  is one of the first paleo / primal food truck concepts in the nation. Menus items rotate based on attainability of high quality food. Current offerings include: Bacon Hash- Organic Sweet Potato/ Organic Bacon/ Organic SausageVeg Hash- Organic Sweet Potato/ Organic Coconut OilPaleo Taco - Organic Sausage/ Organic Cucumber/ Organic Carrot/ Organic Mango/ Jicama Tortilla Barnyard Chili- Grassfed Beef/Organic Sausage/ Pastured Pork Bacon/ Organic Tomato/ Organic Sweet PotatoEggs- Pastured Chickens Raised Locally (Homestead Heritage)Paleo Taco (breakfast style)- Organic Sausage / Egg/ Organic Sweet PotatoSausage- Organic Pasture Raised Heritage Hogs Raised Regionally (Blackbird Heritage)drinks- bottled water & sparkling waterSome planned items include:Grassfed beef / Bison burgers / salads / sweet potato fries / bbq pulled pork / coconut water / kombucha / tea",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caveman Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50214b75-c714-4237-8844-315846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

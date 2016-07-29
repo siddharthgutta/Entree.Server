@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wrap-N-Roll is a Southeastern Virginia truck serving up delicious wraps, zesty grilled foods, and thirst quenching drinks. Drop by and try the great Chicken Caesar Wrap, Mediterranean Veggie Wrap, Roasted Beet and Goat Cheese Salad, and much much more! These wraps are sure to put a spring in your step!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wrap-N-Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55021f3e-0ed4-44cf-822a-206b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

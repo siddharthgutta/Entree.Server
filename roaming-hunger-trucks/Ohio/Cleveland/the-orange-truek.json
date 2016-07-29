@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Orange Tr\u00fck is N.E.Ohio's newest chef run gourmet food truck. The Orange Tr\u00fck is run by two classically trained chefs and specializes in fresh farm to table cuisine.  They bring the practice of creating high quality artisan food to the streets of Akron, as is shown in their gastropub menu including Arancini, an Italian rice ball! His are filled with cheesy risotto, provolone & pork tenderloin. Or try the fish tacos with blackened tuna, tomatoes, avocado, cilantro, queso fresco cheese & his always amazing avocado creme fraiche! Cooking is their passion and their life.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Orange Tr\u00fck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f8757a-41b8-4d6f-a9b6-488446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

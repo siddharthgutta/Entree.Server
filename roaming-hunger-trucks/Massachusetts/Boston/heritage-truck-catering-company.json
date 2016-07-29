@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At the Heritage Truck, our mission is championing local farmers, fishermen and foragers, with a dedication to ethnic diversity and menus inspired by market fresh bounty and house-made ingredients. Farm to table cuisine, although we're calling it \"farm to truck\"!We source seasonal, sustainable, antibiotic-free ingredients, local whenever possible.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Heritage Truck Catering Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5549117f-3b20-4029-adb4-715f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

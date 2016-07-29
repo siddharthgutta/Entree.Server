@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Neapolitan-style pizza is roaming the streets! 900 Degrees Woodfired Pizza is a delicious experience from a genuine pizzeria on wheels. Making their pizzas fresh when you order and only from the best ingredients, 900 Degrees is serving you a deliciously good time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "900 Degrees",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554cfbab-92e8-4842-bfea-397d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

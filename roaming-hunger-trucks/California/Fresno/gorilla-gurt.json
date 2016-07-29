@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for something refreshing to eat? How about an ice cold frozen yogurt? After all what can be more refreshing? Oh I know, how about an entire frozen yogurt shop? Gorilla Gurt is a mobile self-serve frozen yogurt shop with eight flavors of frozen yogurt and several awesome toppings that can cater for your needs. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gorilla Gurt",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55244178-d980-4dbb-8d29-0f0c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

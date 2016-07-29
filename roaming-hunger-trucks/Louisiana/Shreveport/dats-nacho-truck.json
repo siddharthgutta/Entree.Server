@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot, crunchy, cheesy nachos are out there waiting for you! Dat's Nacho Truck is serving up nachos, burgers, wings, and more! They're taking this classic cuisine and giving it their very own twist, so you can be sure that when you eat from this truck it'll be an amazing experience you can't get anywhere else!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dat's Nacho Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552e9979-f69c-41ed-bbf6-5a5546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

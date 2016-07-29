@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Minneapolis' Lulu's Street Food is combining gourmet, tenacity, faith, family, and the love of LuLu! From delicious pulled pork to amazing southern fried chicken sandwiches, these eats are unlike any other. You'll be dreaming about them for days! So stop by and try a bite.\"Urban Eats on the Streets\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lulu's Street Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523fb686-0148-4bf5-ba4d-013346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

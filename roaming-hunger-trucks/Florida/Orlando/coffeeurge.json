@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The world's best coffee, 100% Colombian delivered right to you and your event, to satisfy that CoffeeUrge! A fully-trained barista and wide variety of beverages ensure a great experience! Americano? Espresso? Latte? Chai? Whatever your favorite drink, CoffeeUrge ha something for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CoffeeUrge",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557efb1c-a4a8-4605-9352-043646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

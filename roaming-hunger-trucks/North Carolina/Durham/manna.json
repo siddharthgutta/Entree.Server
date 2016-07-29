@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Manna is a mobile food kitchen that offers nothing but the best in delicious meals. Most of all the produce used on this \"Rolling Kitchen\" comes from the Manna Family organic farm. The locally inspired menu has to be one of Raleigh, North Carolina's finest eateries, be sure to follow the yellow cart and have your next delicious meal!   ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Manna",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55562941-9fcc-4805-a3d2-101a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

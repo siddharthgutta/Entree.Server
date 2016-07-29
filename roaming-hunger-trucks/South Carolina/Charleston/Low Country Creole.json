@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Creole Food Truck is quickly becoming one of the regions most revered  food trucks. The culinary team of the Creole Truck put their decades of experience into each guest's visit. Low Country Creole serves up all your southern favorites with authentic New Orleans flair! Muffulettas, Over Stuffed PoBoys, Gumbo, Creole Jambalaya and Crawfish E'touffee' headline our daily changing menus which always feature local and seasonal ingredients. We serve only the freshest seafood, the choicest meats & cheeses, farm fresh veggies and fresh baked signature breads. Made to order Beignets also available.                                      Come taste the \"Genuine N'awlins\" difference at Low Country Creole!Curbside Weekday Service throughout the Tri-County Weekend Public Events Food Truck Rodeos\"Available for Private Events.\" ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Low Country Creole",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523a43bd-928c-439e-9a0b-161446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

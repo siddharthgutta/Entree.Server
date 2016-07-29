@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "California Pizza Kitchen brings their kitchen to you! Choose from any of a number of delicious pizza, sandwich, and salad options, and more! Hungry for that delicious, fresh-cooked pizza taste? Look no further than the CPK Mobile Kitchen today!Great for office lunches, school fundraisers, and any event that needs some California Creativity!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "California Pizza Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7095/53f6349c-6d64-44a2-8bcc-6d5c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Da Burger Shack is a Chicago-inspired burger truck bringing some good eats to the Miami streets. Burger Shack masterminds, the Hernandez brothers, show their Chi-town origins in these delicious burgers and fries, but draw on their time in Miami to make sure these great dishes pack a punch. Each bite you take carries years of burger-making expertise. Don't miss out on this fabulous experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Da Burger Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54526849-4c48-47a8-be5c-6fe346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

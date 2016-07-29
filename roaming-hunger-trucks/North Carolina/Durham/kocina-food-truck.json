@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kocina Food Truck is bringing you delightful dishes from all the corners of Latin and South America. This unique mobile kitchen is causing quite a mix in North Carolina neighborhoods with its authentic homemade Latin cuisine.  You can be certain to satisfy your hunger with all the delicious meals and tapas.  Have Kocina make your next meal and mingle with the flavors of Latin America!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kocina Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555cbfd1-b2ec-484d-af9d-768246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

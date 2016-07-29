@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Andy's offers incredibly fresh, delectable Italian Ices created with the highest quality ingredients in individual handmade batches. With over 60 flavors of fresh, genuine fruit ices, Andy's has an ice to satisfy every thirst\u2014guaranteed! No customer leaves unsatisfied.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Andy's Italian Ices NYC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/663/570afa66-80f8-4f51-8f4a-5b6446204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

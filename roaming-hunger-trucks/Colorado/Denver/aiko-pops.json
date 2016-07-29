@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aiko Pops are the original popsicle of Denver! Our gourmet ice pops have unique flavor combinations that will exhilarate your taste buds. We personally make each ice pop using only the freshest ingredients that are organic and locally sourced whenever possible. Amazing menu includes mouthwatering flavors like Coconut-Lemongrass, Pineapple Cilantro, Plum Cardamom, And Honey Blue cheese. Aiko Pops bring the party to your mouth!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aiko Pops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50e0dc69-9f5c-4599-8f25-38bd46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bandido's Mexican Cafe has the Mexican cuisine you've been craving! Taking years of experience to the streets of Chapel Hill, this trailer is packed with the best talent and most fantastic flavor around. Looking for great burritos? Tacos? Nachos? You'll find all that and more at Bandido's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bandido's Mexican Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55aec39c-b75c-493a-b557-6e7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Bacon Truck is the solution for everyone craving a salty snack in this suddenly health-obsessed world. Bringing the goodness of bacon in all its forms to hungry people all around Boston, this truck is determined to see its mission out. The Bacon Truck proudly serves Blackstone St. Smokehouse's thick-cut, applewood smoked bacon. Prepared and smoked right here in South Boston, it's the best bacon around.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Bacon Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5400ebe3-0998-4a72-b584-4e6546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

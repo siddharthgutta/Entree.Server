@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crawfish To Geaux is cooking up some of the finest Cajun cuisine you'll ever find! This mobile kitchen is making amazing meals full of flavor that you won't find anywhere else. Shrimp, crab, crawfish, and so much more are here to take your taste buds on a wild ride in flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crawfish To Geaux",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5655fe79-7ee8-4ff7-a4c8-5cfe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

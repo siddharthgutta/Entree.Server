@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Spins Coffee Truck is brewing up the best beverages on the SoCal streets! Your local coffee shop on wheels, Spins has all your favorite coffee drinks, teas, and a variety of signature smoothies you're sure to love. Whether you're just starting your day or giving your afternoon a caffeinated jumpstart, this food truck is the perfect one for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spins Coffee Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564640dd-0788-4a21-9148-232446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

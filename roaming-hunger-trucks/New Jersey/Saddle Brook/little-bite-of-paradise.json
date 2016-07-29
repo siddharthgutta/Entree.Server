@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Amazing home cooking, straight from the heart! Little Bite of Paradise is bringing it's classic recipes to you, making simple food full of fantastic flavor! So if you're looking for delicious sliders, sandwiches, empanadas, and more, look no further than Little Bite of Paradise!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Little Bite of Paradise",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e90fe-59a4-4cf8-a0ec-2d3146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

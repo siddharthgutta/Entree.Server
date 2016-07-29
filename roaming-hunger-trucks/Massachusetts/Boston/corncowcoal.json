@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CornCowCoal is here to bring you the best in local food on the move! With their custom built smoker, special blends of spices, and an amazing attitude you'll love, this food truck is sure to have you hooked in no time. Organic beef, fresh corn, delicious donuts made right before your eyes - CornCowCoal has it all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CornCowCoal",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a93f76-4eb8-4a68-98c6-5b6a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

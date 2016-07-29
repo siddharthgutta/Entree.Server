@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Maui Natural Ice is bringing Southern California the best natural shave ice around! Created with only the freshest fruits and other ingredients available, these sweet frozen treats are sure to be the most delicious you've ever had. Homemade syrups, sweet azuki beans, chewy mochi balls, and more really set Maui Natural Ice apart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Maui Natural Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577ec15f-6048-48ef-b0cf-5b4c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

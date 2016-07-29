@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a gourmet grilled cheese truck specializing in creative, comforting sandwiches made with local artisanal breads, imported and local cheeses, and the highest quality fresh, organic meats and produce.Amazing grilled cheese sandwiches out of the truck! Come see us!And don't forget to Take It Cheesy",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Melt Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5089c436-9d0c-4569-ba2b-10a346204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

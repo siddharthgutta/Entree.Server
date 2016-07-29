@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious empanadas served all over the Cincinnati area! Created from authentic Venezuelan recipe, these empanadas are the perfect breakfast, lunch, dinner, or snack! With sweet, savory, vegetarian, and carnivore options, you won't be left wanting anything else.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Empanadas Aqui",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53ffa9cc-ba48-41eb-97ed-7ce346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

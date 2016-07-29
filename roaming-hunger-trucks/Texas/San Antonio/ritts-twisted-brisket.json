@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a Mobile kitchen located in Boerne, Texas, working in San Antonio and the Hill Country serving BBQ with a twist.  We strive to not be like every other BBQ truck in that we make items with our slow smoked brisket.  Our signature dish is brisket served in a waffle cone.  Nachos, tacos, stuffed baked potatoes, tornadoes, are some of our menu items.  We will also have sandwiches and/or sliders. We also cater for private parties and groups.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ritt's Twisted Brisket",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/531dfbf8-5d9c-4824-91a1-1ad246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

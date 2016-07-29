@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The King of Wings is on the streets of Colorado, bringing you food fit for the finest royalty! These grilled wings and hand-made chicken tenders are perfect for satisfying your cravings when you're on the move. Whether you prefer Hot Buffalo, Sweet BBQ, Spicy Thai, or any of their other sauces, you'll absolutely love every time you visit King of Wings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "King of Wings",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5669edc0-2fcc-418f-8c8b-074446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

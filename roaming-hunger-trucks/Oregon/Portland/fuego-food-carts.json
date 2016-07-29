@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fuego Food carts, locally owned and operated for almost 2 decades, offer tasty, freshly made and healthy burritos and bowls. Options include savory brown rice, black beans, marinated grilled chicken, salsa, guacamole, spinach, cheese, sour cream, yogurt, Portland pickles, and several hot sauces to choose from. Everything is prepared daily in our kitchen. Vegetarian, vegan and gluten free options available.Fuego Food Carts currently consist of 7 carts located throughout the Portland metro area.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fuego Food Carts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5882/56b10981-7d64-4b3e-9c8a-4c5246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

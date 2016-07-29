@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet sandwiches on the go are coming to you from The Sizzle Truck! Good food, good friends, and good times is the motto here, and their dedication to quality and amazing service means that they deliver on that each and every time you visit them. The steak and cheese sub, gyro, pork bahn mi, and more delicious sandwiches are ready and waiting to satisfy your hunger at The Sizzle Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sizzle Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555687e8-d4f4-47d7-adee-510346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

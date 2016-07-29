@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing Bombay To the Streets Of Dallas!Bombay Street Food is a new food truck concept hitting the streets of Dallas and the surrounding metroplex. Our first truck will feature Indo-Chinese favorites from our restaurant locations. We will be rolling out new food trucks in the near future, each based on a different set of our delicous recipes. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bombay Street Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/509c10ed-af18-4a89-b9ef-2c1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

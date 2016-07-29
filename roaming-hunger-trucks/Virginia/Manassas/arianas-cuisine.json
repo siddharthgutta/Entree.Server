@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ariana's Cuisine is cooking up something amazing for you! You'll find Latin food with great attitude when you visit this terrific truck. Whether you're after the Guacamole Burrito, Southwest Chicken Quesadilla, or anything off this amazing menu, Ariana's Cuisine will be your new favorite truck from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ariana's Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d21380-6ec8-4335-98b2-4c0746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

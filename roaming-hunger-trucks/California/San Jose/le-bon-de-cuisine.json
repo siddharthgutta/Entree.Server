@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Le Bon de Cuisine is the premier Vietnamese/ French Mobile Food Truck in the Bay Area! We serve up special Vietnamese sandwiches with a French flare. Come Find us!Le Bon de Cuisine offers you unique Vietnamese/French Cuisine. We have mouth watering Vietnamese style Sandwiches with a contemporary French flare. From our succulent Roasted Pork Belly to our sweet-onion apple marmalade. We mix and match Traditional Vietnamese ingredients with French techniques and sauces. A totally unique tasty spin on the traditional Vietnamese Sandwich. We also have soon to be world famous Garlic Noodles that is a must try. The executive chef, Jeffrey Nguyen is a classically trained chef that has worked in many of the best Asian and French restaurants in the Bay Area. He offers you only the freshest ingredients to produce a utterly delicious experience.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Le Bon de Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec98fc3-9ee4-4a7e-af43-7bfa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

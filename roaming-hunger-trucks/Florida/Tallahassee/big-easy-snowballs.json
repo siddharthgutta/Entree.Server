@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "In Florida the weather can get pretty darn hot, so do yourself a favor and cool down with a delicious shaved ice snowball from the Big Easy Snowballs Truck! Their speciality is a \"stuffed\" snowball, which features sweet and creamy vanilla soft serve in the middle. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Easy Snowballs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5179bbd9-ebb4-4d5d-8838-69e446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

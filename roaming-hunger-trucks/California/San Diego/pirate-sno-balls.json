@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "These frozen treats will have your timbers shivering in no time! Pirate Sno-balls is bringing New Orleans style sno-balls to the streets of San Diego to fill your SoCal days with the tastiest treats on Earth. Your taste buds will agree, nobody beats Pirate Sno-balls!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pirate Sno-balls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560c7317-0670-4c50-bacf-596d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

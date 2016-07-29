@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "T\u014dv is an amazing Egyptian coffee shop on the move! This is a full walk-in cafe on a double-decker bus, ready to give you that caffeinated kick you're looking for. Whether you're here for the espresso, cappuccino, macchiato, or any of their other delightful drinks, T\u014dv has something you're sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "T\u014dv Coffee Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5616c4f6-142c-4e77-b1ed-041446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

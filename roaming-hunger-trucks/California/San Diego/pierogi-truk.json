@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pierogi Truck mobile restaurant is San Diego's first polish and eastern European gourmet food truck in San Diego.  We are serving-Hand made Pierogi with many different stuffings (meat, cheese, russian, mushroom, cabbage), Hungarian pancakes, blitzers, original grilled Polish sausage, and much much more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pierogi Truk",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4df6f5b5-c3b4-42d2-a9db-313d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

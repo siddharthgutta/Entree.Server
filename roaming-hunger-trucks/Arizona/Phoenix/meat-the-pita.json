@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Meat the Pita is brought to you by the marvelous Mardini family who, with recipes passed down through their matriarchal line, is on a mission to offer the streets of Phoenix a delicious taste of Mediterranean-style eating. They exclusively use organic vegetables and legumes, virgin olive oil, whole grains, and kosher/halal organic non-GMO free-range chicken and beef to create their delectable menu. The hummus and baba ghanoush are scrumptious and homemade, the meats in the shawarma are tender and juicy, the tabbouleh and fattoush salads are fantastically refreshing, and Grandmother\u2019s Stuffed Grape Leaves are the ultimate \u201cpi\u00e8ce de r\u00e9sistance\u201d. For all this and much more, come out to Meat the Pita to savor all these amazing meals as you make mouthwatering memories with your friends and family!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Meat The Pita",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

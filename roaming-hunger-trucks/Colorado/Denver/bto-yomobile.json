@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We own the only Denver-based self-serve Frozen Yogurt Shop on wheels called the \u201cYoMobile\u201d. This great truck comes fully staffed , has 3 yogurt machines with the ability to offer 6 total flavors and a wide selection of toppings. Our flavor selections come from our award winning non fat, low fat, no sugar added, and non dairy flavors! Check us out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BTO YoMobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8462/54d8ffee-e598-4925-8444-56cf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

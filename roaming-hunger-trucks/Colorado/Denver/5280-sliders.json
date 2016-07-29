@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "It's like an old-school burger stand on wheels! 5280 Sliders does one thing and they do it right, serving up burgers made in an old-fashioned style with only the freshest ingredients, making the best burger you could ever ask for and keeping you coming back for more! Simple, affordable, and great, that's what they love here at 5280 Sliders.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "5280 Sliders",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551d8d96-bc20-4c35-b5eb-4e4446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Farm to Fender specializes in locally sourced healthy fare. Our food is full of healthy energy that has been produced in a sustainable way. We offer healthy-gluten free, vegetarian, and vegan meals! The specials lean towards the carnivores with southern favorites that really stick to your bones.  We also offer a kids menu to keep the little ones healthy and happy. We cook with the season and work with over 15 local farmers, supporting our local economy and creating a stronger community.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farm To Fender",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51abba96-ad04-4a55-b78a-1c3146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

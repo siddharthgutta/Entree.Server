@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wiseguy's Italian is a mobile eatery roaming the streets of Issaquah. We're the foremost Italian food truck in Washington. Our Chef has perfected his variation of an old Italian classic dish. We have named it the Wiseguy Hero! Come try the authentic Hero sandwiches and pastas made daily with home made sauce.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wiseguy Italian",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5154e5c1-4094-401f-8e2c-137446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

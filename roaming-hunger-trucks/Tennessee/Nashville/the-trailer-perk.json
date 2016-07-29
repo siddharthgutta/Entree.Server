@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Start your day right with a visit to the Trailer Perk, Nashville's very own mobile Coffee shop! Their menu includes a number of coffee drinks such as lattes, mochas, cappuccinos, and blended frappes. If you're not a big coffee drinker, they also offer a variety of non-coffee drinks like tea, soda, apple cider and hot chocolate. If you'd like a bite to eat with your coffee, Trailer Perk has got you covered. Choose from any of their delicious breakfast sandwiches, or opt for some hearty oatmeal or a yummy bakery item. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Trailer Perk",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/518c1052-8eb4-4191-8ed7-09e046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

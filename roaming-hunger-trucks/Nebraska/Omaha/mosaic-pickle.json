@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Omaha, NE At Mosaic Pickle customers can choose from a host of yummy Mexican and American classics like chicken fajitas, hamburgers, chicken quesadillas, and pulled pork with rice! Keep in mind that this truck is cash only so make sure to bring a couple bucks with ya! Vegetarian options also available. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mosaic Pickle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b7158-7158-4924-9342-705446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

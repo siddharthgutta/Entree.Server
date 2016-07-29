@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dadz Grilled Cheez is a mobile bistro operating on the Philly streets. It offers a traditional grilled cheese sandwich with a choice of various cheeses, Havarti, Horseraddish Chedder, Muenster and many other varities.  The customer also has a selection of various topping (i.e. bacon, tomatoes, and jalapenos) that may be added to enhance the sandwich. In addition, the menu has four to five \"gourmet\" grilled cheese sandwiches. These \u201cgourmet\u201d options are chef prepared with a variety of specialty ingredients and cheeses that set them apart from the \u201ctraditional sandwich\u201d.Catch the truck out and about, or bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dadz Grilled Cheez",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418a48c-ba58-4dbb-8734-210246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

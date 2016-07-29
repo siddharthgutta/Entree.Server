@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Tasty Tortilla is a great trailer specializing in Tacos, Quesadillas, and Nachos. All the food is cooked to order using fresh ingredients. No fryers or microwaves on board this truck! So stop by and try one of the amazing tortillas, pan-fried to perfection and served with care.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Tasty Tortilla",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8456/54d62df5-b4a8-466b-a160-336046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stevie Tomato's has taken to the streets of Florida with their fantastic food truck, The Travelling Tomato! With their years of experience serving delicious food to the people of Florida, this truck is sure to satisfy your hunger. Delicious pizza, Chicago dogs, tamales, and more are ready and waiting for you one The travelling Tomato!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Travelling Tomato",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5553a78b-f4b4-4711-a1ce-1abb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

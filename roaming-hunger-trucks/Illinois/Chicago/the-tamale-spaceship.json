@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Tamale Spaceship is a food truck based in the Chicago area featuring the authenticity of Mexican cuisine. We are inspired by Luchadores (Mexican Wrestlers) with a mission to bring to the streets homemade tamales with authentic regional dishes and classic moles from all over Mexico.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Tamale Spaceship",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e93d5d5-5010-4005-90f2-5c5e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for great organic juice on the go? Then SaraFresh is the truck for you! Raw and cold-pressed juices, superfood smoothies, and more are what you'll find on the menu here. Grab and go nutrition made with local fruits and veggies, what could possibly be better? Keep an eye out for SaraFresh today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SaraFresh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5633dd9d-8b08-422f-b09d-1aaa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

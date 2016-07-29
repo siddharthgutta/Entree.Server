@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a local farm family that have opened a cafe and run a mobile cafe out of it. Our goal is to provide the most farm fresh, delicious food the Lowcountry has seen. Our motto is Local Food, Served Fresh by Nice People. We have been in business for over a year and love what we do! We are always looking for new ways to bring our food to more people! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Farmer's Wife",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559d8f9b-ce4c-42f4-8fb6-2c9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

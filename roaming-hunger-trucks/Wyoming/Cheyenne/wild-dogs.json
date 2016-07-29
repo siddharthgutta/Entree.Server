@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wild Dogs is the classic hot dog cart you know and love, and it's coming right to you! You'll find quality you can taste when you visit Wild Dogs, whether you go for the Chicago Dog, Polish Sausage, Jumbo Beef Hot Dog, or anything on their amazing menu. Don't let this pass you by--grab some delicious grub from Wild Dogs today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wild Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b952d3-751c-4059-8125-517346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

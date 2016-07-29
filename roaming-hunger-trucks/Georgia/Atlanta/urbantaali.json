@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "UrbanTaali is an up and coming mobile food truck dedicated to the serving fresh quality meals that are sure to satisfy any taste buds! This truck serves up many \u201cTaali\u201ds (translates into the word \u201cdishes\u201d or \u201cplates\u201d in Hindi (thali)) including specialty dishes, burgers, Philly cheesesteaks, sandwiches, and sides all with a twist of flavor. Furthermore, its food is \u201chalal!\u201d Their mission? To provide freshly cooked halal meals at convenient locations in the metro Atlanta area.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "UrbanTaali",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54062164-a820-4018-84b1-4ec046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Villa Verde is bringing you delicious and authentic flavor on the streets of North Carolina! This is a food truck that loves its community and is here to serve, so they're bringing you fantastic food at prices anyone can afford. With their incredible empanadas, sandwiches, nachos, and more, Villa Verde really is a kitchen on its way to sweep you off your feet!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Villa Verde",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c39170-51dc-4d82-aac8-018946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

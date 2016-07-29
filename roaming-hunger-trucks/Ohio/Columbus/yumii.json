@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We operate a Kettle Corn and Steamed Bagel Sandwich Trailer and Truck.  Our Trailer travels Ohio going to various festivals, parties, and events.  Our Food Truck launches 2015 and will be all around Columbus serving up delicious steamed bagel sandwich's along with our amazing Kettle Corn.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yumii",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7036/53ea79cd-c9f8-477c-821f-32c546204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Twisted Sicilian food truck serves pasta, panini, cannoli and other Italian street Food, fresh & house-made in Indy from The Twisted Sicilian, the little purple Food Truck.Chea Carmack, The Piccola Chef, and her husband Rob have been working for over two years to bring their dream to the streets of Indianapolis. With the help & hard work of good friends and family they are serving up Pasta, Panini, & Italian Street Food from the little purple truck",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Twisted Sicilian",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f163c3f-7bc8-42b0-b90b-5da346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "That unique Australian taste with a mobile American twist is wheeling its way right to you! Down Under Foods is serving up some superb savory pies that you won't find anywhere else. Together with their Aussie-inspired sweets and excellent selection of Australian sodas, Down Under Foods is sure to give you and your taste buds an unforgettable time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Down Under Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13069/57915ab7-1714-49e8-9a33-43d546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

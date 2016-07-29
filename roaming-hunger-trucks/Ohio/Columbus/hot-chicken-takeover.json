@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Chicken Takeover is bringing a delicious Nashville tradition to the streets of Columbus! Perfectly seasoned with the cayenne-infused flavor you've been craving, this is some mouthwatering chicken you can really sink your teeth into. So whether you're craving some wings, drumsticks, sandwiches, or anything else on this Southern-style menu, Hot Chicken Takeover is right for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Chicken Takeover",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bb9f62-d1d8-4c39-85bb-41b746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

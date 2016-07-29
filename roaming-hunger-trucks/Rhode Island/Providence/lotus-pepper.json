@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lotus Pepper is the premiere Providence joint for some made-to-order authentic Vietnamese cuisine. Popular specials include their ginger chicken served with steamed veggies and their spicy chicken curry. Remember to add a crunchy egg roll with sweet sauce to your plate... yumm! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lotus Pepper",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e9023-12cc-454e-bb31-380d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

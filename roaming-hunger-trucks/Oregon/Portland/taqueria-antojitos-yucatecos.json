@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taqueria Antojitos Yucatecos is famous around Portland for their amazing Panuchos, a traditional Yucatan dish which consists of hand made tortillas filled with hearty beans then fried and topped with lettuce, tomato, chicken, onion and spicy habanero sauce. Their menu also features tacos, burritos and tostadas. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria Antojitos Yucatecos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5244f0c4-bf40-415e-880f-646c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

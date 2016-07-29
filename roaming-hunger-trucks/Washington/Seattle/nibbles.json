@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of the Southwest is in Seattle and it's fantastic! Nibbles is bringing its Southwest fusion cuisine to the streets of the Northwest to serve you the best grub you've ever had. Whether it's the Smokey Meatloaf Sandwich, Salmon Chili, Grandma GG's Shortcake, or any of their other amazing menu items, Nibbles is one food truck that you're sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nibbles",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a5a701-e3bc-4c81-bce5-442e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

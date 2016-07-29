@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papa's Place is serving up traditional Chamorro food from the Pacific island of Guam. Chamorro food consists of mostly red rice, and island style marinated meat (either chicken or short ribs). Sides include Lumpia, diced chicken and veggies rolled into a deep fried egg wrap, chicken empanadas, and shrimp fritters. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa's Place",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e9600-f28c-4376-8b1d-083d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

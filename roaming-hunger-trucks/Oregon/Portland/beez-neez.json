@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beez Neez is bringing you all the delicious sausage eats on the Portland area streets! If you've never had these unusual sausages, make sure not to miss out! After all, life is fleeting, so eat reindeer while you have the chance! And don't worry, vegans - there are some meatless choices for herbivores as well!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beez Neez",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552fe5f3-b430-4c67-a197-1e2646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

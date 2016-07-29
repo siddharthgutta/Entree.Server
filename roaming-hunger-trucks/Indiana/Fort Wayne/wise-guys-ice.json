@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Straight from New York City, it's Wise Guys Ice! Their Italian Ice is made in small batches with love, care, and a 100-year-old secret recipe so every delicious scoop is the best it can be. These Guys are pretty Wise, they won't steer you wrong, so grab an Italian Ice today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wise Guys Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55285e52-ac70-42ba-9b5a-74f346204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

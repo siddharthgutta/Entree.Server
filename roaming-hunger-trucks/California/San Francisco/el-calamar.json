@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Calamar is a food truck serving the San Francisco streets that will bring your taste buds back to Peru. These foods have the same delicious flavors that you would find on the streets in Lima or Chimbote, Peru, from the fresh calamari to the long-standing family recipe Lomo Soltados. You won't leave this truck unhappy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Calamar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542b29f5-ce40-446a-8a27-034046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

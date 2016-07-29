@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Deli n Dogz Pastrami Truck offers deli, kosher style food and sandwiches on the streets of New Your City. We serve hot, 7 hour slow cooked meats such as pastrami and corned beef and juicy burgers, as well as our own New York twist on cheesesteaks. We also have an array of sides from hot dogs and Knishes and homemade cole slaw and potato salad. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Deli n Dogz Pastrami Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9450/5533fb4c-f168-4ea5-b687-1e1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "My Sweet Basil brings unique and expertly prepared cuisines of all kinds to Albuquerque! Try their Scotch Eggs, Cubano Sandwich, or Southern Fried Chicken, only a few of their delicious selections. Stop by My Sweet Basil soon for a tasty, fresh dining experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "My Sweet Basil",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56329550-55bc-4742-97e6-37ec46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

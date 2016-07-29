@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frappin On The Caro's is serving up the finest coffee drinks on the streets of South Carolina! Delicious, refreshing, and sure to give your day the caffeinated kick it needs, these drinks will have you loving this truck every time it pulls up to you. Grab a cup of the best taste ever, from Frappin On The Caro's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frappin On The Caro's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56621eaa-10f0-4c8f-9b3f-630a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

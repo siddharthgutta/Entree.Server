@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mr Darryl's Southern BBQ is cooking up the most amazing BBQ on the road! Each bite is BBQ done right; you'll absolutely love the pork, chicken, turkey legs, and more. If you're looking for good eats and great times on the Indiana streets, there's nobody better than Mr Darryl's Southern BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr. Darryl's Southern BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df4afa-7ec4-41a0-b181-75fe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The tastes of the Mediterranean are on the sunny streets of Southern California! Using only the freshest ingredients possible, The Green Olive is piling your plate with the finest falafel, hummus, kebabs, and so much more. Delectable dishes and the finest service in town are what you'll find each and every time you run into The Green Olive Food Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Green Olive Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57841318-9f1c-43f9-8a7f-548e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

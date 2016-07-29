@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sno Cafe brings a delicious twist to the ALWAYS refreshing shaved ice. We create a traditional New Orleans style \"SNOBALL\", then add a little love. You won't believe your eyes. (or taste buds!) We hand-make and mix our own flavors with pure cane sugar. (No high fructose here!) Another great thing about us is that we are MOBILE. So, check out our upcoming events and come find us. SEE YOU SOON! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sno Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577d84fe-ea10-4790-b1fd-348c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roll With It Caf\u00e9 is a family owned and operated mobile food truck. Using eco-friendly practices for a smaller carbon footprint whenever possible, and sourcing ingredients from local farmers and businesses, this is a fresh and vibrant truck that you do not want to miss. Get a sandwich, soup, or some fresh-cut fries, but don't miss out on this delicious fare!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roll With It Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53ff9a2a-9ec8-4685-8019-103346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Amigos Locos is a Tex-Mex concept combining authentic Texas Style BBQ meats with fresh ingredients.  The menu includes made to order tacos, burrito bowls, fresh salads, sandwiches, home made sides and creative Aqua Fresca beverages.  Everything is made with the freshest possible ingredients daily.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Amigos Locos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9567/5537f1ab-32b8-44d2-a424-106746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

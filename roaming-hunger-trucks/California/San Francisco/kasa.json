@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Honoring simple, homestyle Indian food at reasonable prices using local and natural ingredients.The passionate team behind Kasa includes British-born, lawyer-turned-mother-turned-chef Anamika Khanna and business geek-turned-aspiring restaurateur Tim Volkema.Anamika's been cooking Indian food since she was a little girl growing up in London and India. A graduate of the London School of Economics and a former lawyer in the UK, she can't wait to finally share her vision of Indian food with a broader audience.Tim's been feasting on Indian food forever and always believed it could be done better. After sampling Anamika's simple, homestyle Indian food, he decided to leave his brand manager position at Kraft Foods, uproot his family and move out West to run the front of house operations at Kasa. Tim holds an MBA from Northwestern's Kellogg School of Management and a BA in economics from Calvin College.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kasa",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f599a00-df54-411d-88fa-7cfc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

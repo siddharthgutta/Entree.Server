@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Horns N Snouts is a Barbecue Truck bringing delicious meats to the greater Dallas area. A recent winner of the NorthWood Church Food truck Competition, Horns N Snouts brings the flavor with BBQ pulled pork and brisket, served as a sandwich or by it's self and priced by the pound. In addition to their BBQ goodness, Horns N Snouts has amazing sides and fries done in their signature style. \"Life, Liberty, and BBQ for All!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Horns N Snouts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d23ba6-09ec-4d03-9bf2-7a5246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

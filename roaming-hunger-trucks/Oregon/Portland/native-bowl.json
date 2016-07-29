@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "All of the food at Native Bowl is made from scratch with love. Our bowls are always made to order, using only the freshest vegetables and ingredients available. We use locally made tofu and soymilk from Ota Tofu, and Soy Curls from Butler Foods in nearby Grand Ronde, Oregon. We pride ourselves in serving you the freshest, most delicious, healthy, fun bowls in town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Native Bowl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eda8c84-78a8-4dab-a51f-728c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

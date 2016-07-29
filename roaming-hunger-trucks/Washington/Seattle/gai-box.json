@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best chicken & rice in the city of Seattle, it's time to try the delicious food at Gai Box! Serving locally sourced food, cooked fresh and made absolutely delicious, this mobile eatery is cooking up something you'll love. With a selection of tasty sauces and service that'll make you smile, Gai Box will be your new favorite food truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gai Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a588b8-36e4-4ba2-90d5-4fc046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

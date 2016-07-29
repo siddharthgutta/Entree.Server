@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sanguchon is a mobile Peruvian sandwich truck located in San Francisco's Potrero Hill district.  It was founded by Chef Carlos Altamirano, the owner of Mochica, Piqueo's and La Costanera.  Sanguchon serves hearty sandwiches that are stuffed with classic and contemporary Peruvian fillings, traditional sides and housemade refrescos -- freshly-blended fruit drinks with a variety of flavors, among which include passionfruit and purple corn.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sanguchon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1554/546fde36-30e8-44dd-aa1c-61a746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

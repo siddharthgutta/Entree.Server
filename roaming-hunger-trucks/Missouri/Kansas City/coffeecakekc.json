@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CoffeeCakeKC is Kansas City's original coffee shop on wheels! We offer fresh and locally roasted Mother Earth Organic Coffee, 3 Women and an Oven gourmet cupcakes and cookies, as well as a variety of other items including incredible coffeecake and smoothies!We travel all over the Kansas City Metro with regular routes in addition to public and private catering. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CoffeeCakeKC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1276/560c8f06-dcd8-481a-b61b-54f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

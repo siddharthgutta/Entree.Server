@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ramon Q's Cantina is coming, with a menu full of the fantastic food you crave! A Mexican-Italian Fusion fiesta is happening on this terrific truck, and you don't want to miss out on this party. Short Rib Tacos, Italian Sausage Tortas, Meatball Tacos, and more are ready and waiting to satisfy your cravings today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ramon Q's Cantina",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56143398-55a0-44bc-bdd5-107046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing the feel of the Bay Area's best backyard BBQs to a street near you, The Boneyard is a food truck you just can't miss! With their smoked and roasted meats, fresh baked bread, and superb side dishes, you'll always find something to love. Feed your inner carnivore with The Boneyard!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Boneyard",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/527add9e-0588-4f8b-b489-49c946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

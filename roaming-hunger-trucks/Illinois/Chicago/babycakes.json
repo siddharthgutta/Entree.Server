@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Babycakes is a Chicago based food truck and catering company that specializes in gourmet pancakes. Babycakes are available in over 250 unique and creative flavors.Our mission is to elevate the humble pancake, showing the world that these sweet and savory creations can be served for any meal or occasion.Babycakes also serves elegant, upscale breakfast food, such as frittatas, breafasty sandwiches, deep fried waffles and more!  Our motto is breakfast 24/7!We serve gourmet breakfast items that are perfect for any meal. Enjoy an elegant breakfast for dinner for your special occasion! We can serve breakfast, dinner, late night, or just dessert.  Have us customize your menu today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Babycakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3440/53ecc946-c108-462a-bed2-060f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

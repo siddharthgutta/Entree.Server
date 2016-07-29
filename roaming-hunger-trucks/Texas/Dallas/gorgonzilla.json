@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gorgonzilla is a Forth Worth truck serving up grilled cheese experiences of monstrous proportions! These are oozy-gooey creations of fresh baked breads, hand-crafted recipes, and, of course, excessively melty cheeses from around the globe.... destroy Tokyo, howl at the moon, devour a sandwich, and become a GORGONZILLA!!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gorgonzilla",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57928f07-f5f8-4e6a-a6c0-3b9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

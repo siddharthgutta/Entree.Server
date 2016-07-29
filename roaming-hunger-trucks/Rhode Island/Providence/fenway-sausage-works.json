@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We specialize in bringing the ballpark to our customers in our authentic Fenway Sausage. We also carry other sausage varieties that are sure to blow your mind. Choose one of our 1/2 lb. Burgers, 1/2 lb. All Beef Hot Dog, a Bourbon Steak Tip Sub, or maybe an Authentic Fenway Sausage Sandwich. We only carry the highest quality food at a fair price, and we would love to show you what we have to offer!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fenway Sausage Works",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50419eaf-7e6c-48ee-a568-192846204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

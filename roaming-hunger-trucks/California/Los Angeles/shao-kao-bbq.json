@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's nothing quite like Chinese BBQ, and the fantastic folks of Shao Kao BBQ are serving it up on the streets of LA for you! Their menu is seasonally inspired and made with great ingredients, so each and every grilled-to-order meal is going to be amazing. Authentic Chinese taste, freshly grilled over charcoal on the go, what could possibly be better? Try some Shao Kao BBQ today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shao Kao BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578414cf-67d8-48d7-852e-12ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

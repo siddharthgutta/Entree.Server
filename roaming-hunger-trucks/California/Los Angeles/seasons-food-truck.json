@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burgers like you've never had before are coming your way, from the fine folks of Seasons! Taking a new approach to the world of burgers by packing all the flavor you could ever need right into the patty is just one of the fantastic innovations you'll find on this food truck. When you add their cheese-covered chicken wings and nachos with a twist, you're sure to find something you'll love when you try Seasons!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seasons Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a25a4b-12d4-4ebf-ab2a-768e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

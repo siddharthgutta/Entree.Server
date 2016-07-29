@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SEATTLE Thai street food truck with popular traditional dishes. Their menu features all the classic curries (Panang & Yellow curry) and classic noodle dishes (Pad Thai & Pad See lew). Don't forget to complement your meal with the perfect appetizer like spring rolls or yummy deep fried pot stickers. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Thai-U-Up",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5216f261-2d94-4c3d-bf78-05a746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Piadina is a great sandwich truck serving the Fort Collins area. Offering Piadinas - authentic Italian flatbread sandwiches originally from Bologna - this truck has a little something for everyone. With homemade dough, from-scratch sauces, and a wide variety of toppings suitable for everyone from vegans to meat-eaters, all foodies are sure to find a good meal here. Check out La Piadina, and try out one of these delicious sandwiches!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Piadina",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541a22d5-fc84-432d-90fb-175946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

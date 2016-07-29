@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mess Haul is an All-American food truck bringing you the best of the best in burgers, sandwiches, and more! Gourmet sandwiches on the go are a great way to satisfy your cravings for fantastic food. Waffle sandwiches, gourmet burgers, hot pressed sandwiches, and everything you could ever want are on their way to a street near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mess Haul",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a4462f-6694-4c1b-a29b-7f2746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

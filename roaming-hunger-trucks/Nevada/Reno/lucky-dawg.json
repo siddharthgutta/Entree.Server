@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a New York style hot dog cart businesslocated in beautiful downtown Reno, NV.Lucky Dawg serves only the best premium franks and sausages including Miller's all beef hot dogs and pork Polish sausage.Both have the famous \u201csnap\u201d when you bite into them.Our buns are always fresh and servedsteamed and soft.Lucky Dawg also provides a wide rangeof toppings and gourmet mustard.Check out our amazing drink selection!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lucky Dawg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51163fd6-5a20-4e56-9511-034b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

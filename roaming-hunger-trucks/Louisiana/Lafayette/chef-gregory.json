@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing gourmet food to a street corner near you, it's Chef Gregory! Dedicated to using only the freshest and best local ingredients, Chef Gregory is creating cuisine that will make your mouth water. Salads, sandwiches, nachos, and more, all prepared with a passion and a southern style that just can't be beat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Gregory",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d4e33-d5e8-4938-af9c-089e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

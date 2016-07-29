@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What better way to celebrate the original food truck food than with Tacofest! Food trucks have gone far and wide, but it's always good to remember your delicious roots, especially when those roots come filled with beef, pulled, pork, periperi chicken, and more! For delicious tacos, fantastic service, and a great experience, there's no better place than Tacofest!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacofest",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556634cd-09b8-4b5d-88f6-06eb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

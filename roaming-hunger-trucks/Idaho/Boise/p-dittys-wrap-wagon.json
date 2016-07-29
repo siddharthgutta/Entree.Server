@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "P. Ditty's Wrap Wagon is a mobile food truck serving you only the finest wraps in Boise! We specialize in gourmet wraps while focusing on local and organic ingredients, such as our famous \"Let's Get Stoned\" wrap. Made with local pork, marinated in Stone Brewing Co.'s Arrogant Bastard Ale and secet spices, layered with cabbage and jack cheese, paired with our homemade herb and cheese spread. Try our Wraps today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "P. Ditty's Wrap Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50fdc81c-0ac4-4681-83cb-7df446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

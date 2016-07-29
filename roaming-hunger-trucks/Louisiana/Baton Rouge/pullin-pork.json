@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pullin' Pork is taking traditional barbecue to the streets of Baton Rouge! With their years of experience and recipes featuring seasonings and sauces from the award winning \"Lillie's Q\", Pullin' Pork is cooking up nothing but the best barbecue for you. The delicious Carolina Sandwich, Memphis Tacos, Pulled Pork Nachos, and more are sure to make your mouth water and your taste buds happy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pullin' Pork",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d3c2f-ac94-4dec-83f0-04ee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

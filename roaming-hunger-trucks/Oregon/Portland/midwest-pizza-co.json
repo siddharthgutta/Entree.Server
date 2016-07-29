@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Portland's most portable pizza is on the road today, thanks to Midwest Pizza Co! The best deep dish pizza and Chicago dogs on the West Coast are on this truck's menu, ready to satisfy your cravings. If you're after the best grub on the go, then be on the lookout for Midwest Pizza Co today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Midwest Pizza Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561bced6-8bec-4e97-9c08-7fc746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are the only Arepa Food Truck in Raleigh NC bringing delicious Venezuelan and Latin American food to the city streets!Arepas are a gluten free corn mill patty that we have stuffed with quality, fresh and mostly organic ingredients.Delicious food for meat lovers, vegans and vegetarians!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arepa Culture NC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8436/54d0528b-4804-41e1-a65f-489a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

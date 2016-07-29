@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best BBQ in town is cruising towards you! Jones Bones BBQ is bringing the flavor of authentic and delicious ribs, pulled pork, hot dogs, and more! IF you're looking for the best way to get your mouth watering and your stomach growling, look for the expert crew of Jones Bones BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jones Bones BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9523/56ccea6e-0b90-4ffd-ab6e-751c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

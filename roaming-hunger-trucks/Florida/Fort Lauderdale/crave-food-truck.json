@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crave is a delightful food truck serving Fort Lauderdale and the surrounding areas with tasty, fresh food. Its mission is to provide dynamic service, use quality, fresh, local ingredients, and create wonderful, unique flavors for your taste buds, and with the Portobello Crave Burger, the Deep Fried PB&J;, and the It's Always Summer Salad, Crave is sure to succeed! Stop by and grab a Bleu Crave Burger or some Salmon Cakes today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crave Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545bc937-a938-4549-b7ad-501f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

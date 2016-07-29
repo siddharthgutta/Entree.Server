@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Come try Canada's favorite food export! The Poutine King serves fresh and delicious poutine - french fries covered in gravy and white cheddar cheese curds. Try the original classic or with one of many other toppings - bacon, onions, jalape\u00f1os, shredded chicken, guacamole, or sour cream for a creation of your own!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Poutine King",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554cdfab-31b4-428c-8752-11ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

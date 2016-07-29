@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for fantastically fresh food on the move in Nashville? Then we've got the food truck for you! That special California fusion of American, Asian, and Mexican cuisine has never hit Tennessee like this before. An amazing menu made with locally grown ingredients is always an eating experience worth having, so try Califarmia today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Califarmia",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56466baa-a184-4ccf-a66b-7c9c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wrap It Up will wrap up whatever you want! Within reason, of course. Let the Wrap It Up Truck make you a delicious wrap with fresh, tasty ingredients! Now let's wrap up this description so you can go find the Wrap It Up truck and get your very own wrap!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wrap It Up",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9692/5696496c-e194-4bc4-aa57-7c8a46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oh My Gaga Food Truck's food is made from their unique blend of fresh, local ingredients, and their gourmet grilled cheese sandwiches are sure to tempt the taste buds of any food truck connoisseur.  Find them in Los Angeles for food that will make you say, \"OH MY GAGA\" this is delicious food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oh My Gaga Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5772ffac-e534-4eab-81a0-73a746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

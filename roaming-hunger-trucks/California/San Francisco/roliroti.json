@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "RoliRoti is the country's first and finest mobile rotisserie food truck, serving only sustainably-farmed meats and organic produce at their seasonal best. Available only at select farmer's markets or for the catering of private parties, RoliRoti's cuisine is prepared according to the innovative recipes of Rotisseur Thomas Odermatt, one of the world's foremost authorities on the art of rotisserie grilling and an expert in organic farming. One taste and you'll understand why the luminaries of the gourmet food world all agree that you will never find better grilled meat than at RoliRoti.Garlic from Gilroy, lettuce from Bolinas, chickens from Sonoma Valley. At Roli Roti we are passionate about serving you only the freshest produce and happy, healthy meats raised by trusted family farmers. No big industrial crops here -- just seasonal, fresh from the garden good food.A carrot still a bit dirty from the field, a radish still warm from the sun and a fresh -- never frozen -- whole plump chicken roasting over the fire. Good food begins on great farms, and we take pride in selecting and preparing for you only the choicest ingredients from our favorite family farms.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "RoliRoti",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dde11e5-8544-4586-b449-428f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

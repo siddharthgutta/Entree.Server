@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Fuki we are committed to providing quality food , promoting organic agriculture, and supporting local producers.  We use humane and sustainable products such as grass fed,  antibiotic and hormone  free meats, Organic free range eggs, organic produce and compostable containers and utensils.Alex Meisels created Fuki because he realized that while San Francisco is a very organic, locally-oriented city, there was a curious blind spot when it came to food trucks. The greasy, unhealthy food you find at most rallies just wouldn't stand, so instead he took a stand. And the results were spectacular. Why the name? Find out on the Roaming Hunger blog here: http://roaminghunger.com/blog/7912/what-the-fuki",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "fuki",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5152140c-ddb0-45df-ada4-40ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

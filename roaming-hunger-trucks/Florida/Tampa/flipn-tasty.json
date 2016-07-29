@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flip'n Tasty is taking Filipino food to the streets of Florida for your eating pleasure! A taste of the Pacific Islands that you won't soon forget, this menu will be sure to have you coming back again and again. If you're looking for something fresh, fantastic, and full of flavor, then you're looking for Flip'n Tasty!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flip'n Tasty",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56031842-b69c-41a3-9614-173c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

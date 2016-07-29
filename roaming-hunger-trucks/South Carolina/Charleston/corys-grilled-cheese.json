@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cory's Grilled Cheese is serving the streets of Charleston, SC. Everybody has a favorite way to prepare a grilled cheese. Cory's signature sandwich is made with muenster cheese that oozes out from between two pieces of cinnamon raisin swirl bread with crispy bacon and honey mustard. The menu changes seasonally, and sandwiches are fully customizable with your choice of bread, cheese, and a variety of fillings incuding everything form bacon to basil.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cory's Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515a0083-8190-4328-a103-060246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: BurlingtonHoused in a vintage fire truck, The Hindquarter is an exciting new dining experience setting the Burlington food scene aflame. With an ever changing menu of eclectic dishes from house made ramen, to duck pastrami and decadent house made bacon, The Hindquarter is sure to have something to appease even the pickiest of palettes. In order to keep with the strong localvore movement that has taken a hold of the great state of Vermont, we at The Hindquarter are proud to serve only the freshest locally produced ingredients, many of which are grown in our own in-house garden. Available for private functions, and at your favorite pop up locations around town, the Hindquarter is guaranteed to put a smile on your face, and some love in your stomach!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hindquarter",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/514247bd-1c5c-4c72-a8b4-7e4c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

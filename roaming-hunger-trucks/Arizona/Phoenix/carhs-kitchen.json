@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CarH's Kitchen is a great truck serving a variety of dishes from around the world to the hungry foodies of the Phoenix area. Family owned and operated, CarH's Kitchen is completely independent and dedicated to satisfying the bellies of every customer. From Peruvian Stir Fry and Empanadas to Gyros and a Classic Brooklyn Burger, these varied flavors are sure to wow and impress, whether you're just grabbing a bite from the truck, or having it make your event a success. Don't miss this wonderful truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carh's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5491d644-d8dc-4d7c-a29d-0e1046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

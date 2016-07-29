@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rockabella's Bakery is baking up the best treats on the streets of North Carolina! Your sweet tooth will never be the same after you try these delicious cupcakes, cookies, pies, and other sweet treats from this vintage trailer. Perfect for any and every occasion, Rockabella's Bakery is the best way to take your next big event from good to great!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rockabella's Bakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562a942b-1cf4-42e0-8bd3-65d146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stony's Pizza is a father-son business started in Austin, TX in September '07. The food truck also caters for orders no less than $150. Also, for private parties we roll right up into your driveway and make pizzas to order, hot and fresh, right out of the oven. No less than $200 per party, prices vary according to number of people being fed. Doing our best to keep Austin weird!! Give us a call and order some pie!!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stony's Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d847f2d-e95c-4bd9-9f21-52a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

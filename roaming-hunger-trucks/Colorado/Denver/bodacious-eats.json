@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bodacious Eats is bringing you the best food on the Colorado streets! Cajun fusion cuisine like you've never seen, this is some fantastic food you'll never forget. You'll find Smoked Pulled Pork with a Cajun flare, Bodacious Gumbo, and so much more at this amazing food truck, so stop by and try a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bodacious Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b6ad0b-cf48-4fb5-acde-7e3446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

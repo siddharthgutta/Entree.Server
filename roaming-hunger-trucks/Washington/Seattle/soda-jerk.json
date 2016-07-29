@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Soda Jerk is a truck serving new, fresh soda to the streets of Seattle. With familiar soda flavors and new taste combinations, these beverages are sure to be a hit, and since they're created using real fruit, natural ingredients, and real organic cane sugar instead of corn syrup, you can feel good about drinking them! You can also feel good for the environmentally-friendly approach used to create these tasty drinks. The serving materials are 100% compostable - the cups (corn based), straws (corn based), and napkins (made from recycled material) are all safe to put into the compost bin. In addition, as many ingredients as possible are locally sourced and organically grown! Get yourself a cup of this amazing soda today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Soda Jerk",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541a0b24-fab0-452d-b44e-45d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

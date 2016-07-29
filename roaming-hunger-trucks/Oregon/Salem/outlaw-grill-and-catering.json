@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Outlaw Grill and Catering is selling the best cheesesteaks on the streets of Oregon! Salem's best kept secret is sure to have your mouth watering in no time, with their amazing sandwiches made from only the finest ingredients. Along with their Pastrami & Swiss, Chicken Philly, Hamburgers, and Hot Dogs, Outlaw Grill has everything you could ask for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Outlaw Grill and Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56184c0b-1714-4eda-b4f9-7d1446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

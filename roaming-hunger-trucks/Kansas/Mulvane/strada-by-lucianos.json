@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fast and fun quality food at a great price! Strada by Luciano's prides itself on serving only the very best in authentic Italian cuisine. Come try their pasta, sandwiches, signature parmesan salad cones, or any of their delectable offerings and you'll see how they got to be the best in the business!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Strada by Luciano's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55259b5e-4094-46b0-be51-123d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

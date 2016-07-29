@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's no better BBQ than Texas BBQ, and nobody makes Texas BBQ better than Texas BBQ Company! From brisket to sausage to chicken and beyond, there's nothing on this menu that won't have your mouth watering the second you see it. Authentically fresh, authentically delicious, authentically Texan, the food truck of your dreams is bringing it all to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Texas BBQ Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13374/57574c2d-9e44-4208-af32-49b246204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

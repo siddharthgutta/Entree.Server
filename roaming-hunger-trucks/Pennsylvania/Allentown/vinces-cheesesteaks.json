@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vince's Cheesesteaks is serving up the best sandwiches you'll ever find on the streets of Allentown! A Lehigh Valley institution for decades, Vince's Cheesesteaks has extended their amazing skill and passion for great food to this fantastic food truck. If you're looking for the best way to satisfy your hunger while you're on the go, then Vince's Cheesesteaks is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vince's Cheesesteaks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3ed4f-e128-4b81-8e92-365c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

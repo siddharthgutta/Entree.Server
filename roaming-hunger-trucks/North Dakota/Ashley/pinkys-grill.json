@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burgers, cheesesteaks, and good times are just some of the things you'll find when you encounter the pride of North Dakota, Pinky's Grill.A food truck bringing high quality classic cuisine to the people of this great state, Pinky's Grill is gonna be your new favorite eatery in no time. If the amazing food doesn't win you over, then Pinky's winning attitude certainly will. Don't miss out, sink your teeth into something superb from Pinky's Grill today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pinky's Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5744a4d0-1f50-4ef5-9d92-0c9846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

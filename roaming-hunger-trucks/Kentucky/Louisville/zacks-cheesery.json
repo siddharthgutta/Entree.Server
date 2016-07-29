@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taking an American classic to the streets of Louisville, Zack's Cheesery is serving up grilled cheese like you've never had! Pastrami grilled cheese, ham and gouda, and more delicious sandwiches are on the menu and ready to satisfy any appetite. With great gourmet grilled cheese on the go, Zack's Cheesery has the food you crave!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Zack's Cheesery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6e763-8a08-4348-9cd3-2fdb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

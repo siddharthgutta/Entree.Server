@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving up all local ingredients in true street food fashion.  Menu ranges from Caribbean, Indian, Asian, Latin & Southern soul all wrapped in our signature Roti bread.  Come enjoy the historic streets of Charleston while enjoying the local goodies! We like to call it 'Farm-to-truck'!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roti Rolls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/912/56255c7f-aa1c-458e-9eb4-677946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

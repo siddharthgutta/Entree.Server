@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "District Streatcar is a non-profit food truck that's bringing great eats to the New Orleans streets and providing support for kids in need! Delicious donuts, savory sliders, rich coffee, and a good cause are things you don't often find together in one food truck, but District Streatcar has brought it all into one great whole. If you want to help foster kids while you help yourself to some amazing food on the move, then you'll love District Streatcar!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "District Streetcar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568ac284-9314-4aaa-a669-4c4d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

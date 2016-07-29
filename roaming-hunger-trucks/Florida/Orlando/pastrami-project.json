@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Pastrami Project is Orlando's first and only traditional NY style delicatessen in a food truck. They make everything themselves, slow food deli style. Hand made in small batches, hand cut in front of the consumer, using local ingredients. The menu includes Pastrami, Corned Beef, Lox, Nova, and Smoked Turkey sandwiches and bagels, Egg Creams, Black & White cookies, and Old World style Cheesecake.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pastrami Project",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ef1afa-426c-4e4d-9c17-1b9b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}
