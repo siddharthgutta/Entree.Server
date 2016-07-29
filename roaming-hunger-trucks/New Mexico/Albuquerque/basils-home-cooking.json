@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Basil's Home Cooking is bringing Albuquerque some of the best mobile cuisine you've ever seen! Fantastic Filipino Fusion and classic American grub are rolling down a street near you. From the Beef Sirloin Asian Tacos and Tempura Shrimp to the Pulled Pork and delicious Doughnut Burger, everything on this menu is sure to deliver an eating experience you'll never forget!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Basil's Home Cooking",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

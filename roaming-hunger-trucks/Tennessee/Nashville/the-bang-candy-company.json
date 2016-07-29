@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Band Candy Company Cart brings gourmet marshmallows and hot chocolate to wherever folks might be cold and in need of a sugar buzz. Tell us where you are!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Bang Candy Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dd35c7c-f908-4fca-9b7a-139f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

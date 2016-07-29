@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh off the grill, the Kabob King is here to feed your need! Hot and fresh steak, chicken, vegetables, and more skewered and grilled to perfection, what could be better? With wraps, rice, salads, and their delicious pita-wiches on offer too, the Kabob King will satisfy your stomach, whatever you're craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kabob King",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552fec29-149c-4360-a6f1-646e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

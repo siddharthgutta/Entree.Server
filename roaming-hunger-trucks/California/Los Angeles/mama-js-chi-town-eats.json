@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Chicago food on the streets of Los Angeles and at your next event!  Vienna Beef Hot Dogs and Polishes, Italian Beef Sandwiches, Fried Chicken, Pizza Puffs and more! Come grab a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama J's Chi-Town Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8402/54c42704-4d40-4d6d-b685-58f546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

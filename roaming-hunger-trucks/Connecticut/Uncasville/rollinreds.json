@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rollin' rollin' rollin'! Rollinred's serves up classic American streetfood. Get your burgers, chili, frito pies, sandwiches and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollinred's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554cfb22-d9ec-4322-9ea9-2ede46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

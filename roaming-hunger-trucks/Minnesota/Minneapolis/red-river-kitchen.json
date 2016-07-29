@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Red River kitchen is inspired by an old ox-cart trail that stretched from Winnipeg to the Twin Cities as travelers on the Red River Trail relied upon local provisions. Red River Kitchen pays homage to this part of Minnesota history by specializing in scratch cooking using many farm-direct food purveyors.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red River Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55381c40-a65c-4030-b0e1-4b0446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": " A portion of the proceeds from every meal served by the Manna Truck is used by Bethel to help feed the poor throughout Northeast Ohio, and the Manna Truck provides a second chance for men and women who have gone through Lutheran Metropolitan Ministry's culinary training program. By grabbing a meal from the Manna Truck, you are creating jobs for the formerly homeless and helping feed those in need.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Manna Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6592/5492e0b6-5eb4-49b7-830b-366f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

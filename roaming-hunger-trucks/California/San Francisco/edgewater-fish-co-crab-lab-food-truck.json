@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Don't be crabby! Edgewater Fish Co. & Crab Lab Food Truck is here to bring you fresh Dungeness crab from the Marin County coast. Crab cakes, fish tacos, salmon burgers an more await you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Edgewater Fish Co. & Crab Lab Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55562df9-4b2c-4eab-818a-5fb946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

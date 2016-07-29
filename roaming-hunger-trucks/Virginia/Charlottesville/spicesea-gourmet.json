@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SpiceSea is a food truck formerly based in San Antonio, now roaming the Charlottesville streets, dedicated to delicious home cooked food. Food items will be mainly Southern in nature, but will feature dishes from around the world! Recipes are based on family favorites of the chef and feature a variety of seafood. Try the Virginia Crab Cakes, The Shrimp Po' Boy, or the lobster roll, all SpiceSea signatures.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SpiceSea Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50edd413-1120-47b9-bbbb-7aaa46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Philly's Finest Sambonis specializes in bringing Philadelphia's tastiest delicacy curbside. The cheesesteak is a sacred meal in Philadelphia and the three owners of Philly's Finest have perfected this tender juicy sandwich slathered in melted cheese. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly's Finest Sambonis",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b3bf3-de58-4922-956e-565046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

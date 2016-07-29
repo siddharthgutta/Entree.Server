@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best burgers on the boulevard are on their way right to you! Buffy's Boulevard Burgers is a food truck on the move, bringing you the best freshest, most fantastic burgers in town. With burgers for every appetite, this is a food truck that will not disappoint. Try the All-American, Greektown, or any of their amazing burgers today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Buffy's Boulevard Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a054bc-a984-4152-bce6-583e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

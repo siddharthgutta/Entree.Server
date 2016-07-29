@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Capital Ramen is coming right to you with the best gourmet ramen you'll ever find! Made with a fantastic pork belly stock, freshly made noodles, and other high-quality ingredients, this is ramen like you've never had before. Delicious food and great attitude are what you'll find on this food truck! For the best noodles on the move in Columbus, look for Capital Ramen today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Capital Ramen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d4d7f6-effc-415a-937a-730946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

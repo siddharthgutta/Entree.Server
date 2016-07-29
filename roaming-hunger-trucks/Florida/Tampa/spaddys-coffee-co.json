@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Spaddy's Coffee Co. is the perfect coffee house when you need some java on the go! If you're thirsty but not looking for that caffeinated kick, then their juices and teas are sure to be right up your alley. Stop by today and find out what Tampa's greatest mobile coffeehouse can do for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spaddy's Coffee Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f0aae3-4168-432b-ac99-4d8746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

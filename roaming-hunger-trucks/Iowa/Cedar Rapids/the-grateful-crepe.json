@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Grateful Crepe is crafting fantastic cuisine for the streets of Iowa today! Cedar Rapids' first mobile creperie, this food truck is bringing you fantastic flavor you'll absolutely love. Whether you're satisfying your sweet tooth or looking for a savory meal on the move, The Grateful Crepe is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Grateful Crepe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560eca63-86f0-4915-9370-547346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

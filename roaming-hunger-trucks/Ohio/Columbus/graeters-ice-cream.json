@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Graeter's Ice Cream is a terrific truck that's bringing you some truly astounding craft ice cream and small batch gelato. Using a century-old artisinal technique for producing their unique frozen treats, Graeter's is winning the hearts, and taste buds, of the city of Columbus. Crafted with heart, and seriously cool Columbus style, you'll never find a finer cone, cup, or bowl than what''s on offer from this ice cream truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Graeter's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56ec3b48-da74-4c30-8b86-61a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

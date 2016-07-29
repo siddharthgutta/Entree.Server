@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gusto's is a gourmet local catering and gourmet mobile food truck that provide's a healthier American classic food option. At Gusto's our menu will change throughout the season. We do not serve any artificial food, artificial sugar, and no processed foods. We try to use local, seasonal vegetables, fruits and meats. We can cook all food to order; if you are gluten free or Paleo we can make it for you. We pride our self in the art of cooking using real food and the enjoyment of eating with family & friends.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gusto's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6817/577e6145-aba4-4ae1-a26c-32a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

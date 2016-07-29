@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Goreeng is bringing you the best Asian cuisine on the food truck scene! If you're looking for the best Indonesian and Thai food on the streets of Settle then look no further than this terrific truck. Garlic Green Beans, Pad Thai Burn, Nasi Goreeng, and so much more are on the menu and ready for you today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Goreeng",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b67d3b-27e4-41b0-87eb-3ba146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

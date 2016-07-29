@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the finest seafood on the streets of Alabama? Then Rollin' Lobstah is just the truck for you! Fried lobster, lobster tacos, lobster rolls, and more, they've got a great menu that's packed full of everyone's favorite shellfish. Gourmet grub on the go is here and headed to you, thanks to Rollin' Lobstah!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin' Lobstah",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569d622c-e28c-40b7-82fb-608f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

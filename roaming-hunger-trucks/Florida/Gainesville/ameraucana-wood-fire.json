@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ameraucana Wood Fire brings an outdoor pizza restaurant to it's customers in Gainesville, FL. This truck provides quite an experience with its appealing wood burning, fresh picked ingredients, wild yeast sourdough dough to create a satisfying pizza. Make sure to get there early to order their home made Sausage Pizza before they run out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ameraucana Wood Fire",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5522c459-5684-45a6-a8ae-569246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

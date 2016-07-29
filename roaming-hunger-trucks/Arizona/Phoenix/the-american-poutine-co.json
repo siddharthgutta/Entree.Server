@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The American Poutine Co. is a fantastic mobile kitchen operating all over the valley that offers various types of Poutine.  \"Poutine\" is a popular Canadian dish made originally of French fries, cheese curds and gravy. Over the years poutine has evolved to many different types and flavors! Our mission is to bring authentic poutine to Arizona.  We offer a variety of poutine; along with the traditional, we have added different toppings that make every poutine unique: bacon, pulled pork, chili cheese, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The American Poutine Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8258/57504814-07c0-471b-9fda-526b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

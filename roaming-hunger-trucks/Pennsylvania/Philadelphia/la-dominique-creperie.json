@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Dominique is well-known for serving the best crepes you're likely to ever taste, and there's not much of a secret as to why: the quality and the care. The cart's owner, Zbigniew, makes sure to procure the best ingredients - fresh, wholesome, and, in the case of the chicken, hormone-free - and creates each crepe with love. As he says, he would never want to serve a crepe to a customer that he wouldn't serve to his family.Check out some of the delicious sweet options, with the Tiramisu, the Viennese, and the classic Banana Strawberry, and try a savory Mexican, Italian, or Smoked Salmon crepe, or one of the  many other choices. Whatever you order, you're sure to walk away satisfied.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Dominique Creperie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/food_truck.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

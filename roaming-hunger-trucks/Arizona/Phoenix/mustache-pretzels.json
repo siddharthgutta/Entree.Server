@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mustache Pretzels is a start-up food truck in the Valley of the Sun. The name isn't some clever euphemism - this truck serves hand-rolled, hot and fresh soft pretzels in the shape of handlebar mustaches, and they do it better than anybody in the history of the world. At Mustache Pretzels, they believe that you deserve a delicious solution for both your mustache- and pretzel-related needs, and they look forward to becoming your go-to provider for pretzels shaped like mustaches.Why mustaches? Why pretzels? Because great mustaches aren't born - they're bread.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mustache Pretzels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8209/56c64468-dd94-4245-abc5-622046204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

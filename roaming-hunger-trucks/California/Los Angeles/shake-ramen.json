@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This cool truck is shakin' up lunch with its delicious and flavorful Ramen in a cup! And you get to choose how you want this incredible food, every step of the way: Size: Mini/RegularMeat: Pork Belly, Ground Beef, or TofuSauce: Shoyu, Shio, or MisoToppings: Bean Sprouts, Spinach, Cabbage, Corn, Green Onions, Soft Boiled EggAnd then just shake it, eat it, and love it. So all you LA foodies, come shake your booties on over to Shake Ramen for the ultimate tasty pick-me-up!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shake Ramen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e4f50f-1224-4272-8498-663346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

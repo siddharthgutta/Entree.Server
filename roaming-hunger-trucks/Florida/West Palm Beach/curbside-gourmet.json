@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Curbside Gourmet was founded in 2011 with the goal of becoming Palm Beach County's first mobile gourmet eatery. At Curbside Gourmet, we are committed to using seasonally fresh and local ingredients to create a nutritious and delicious culinary experience. In addition to our lunch and afternoon curbside services, we also cater private events!Try our crab cake sliders, blt on sourdough, mojo pork tacos, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/575aff4b-05f8-486c-ad23-703246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Groovy coffee folks bringing great vibes and great drinks to the streets of North Carolina, Larry's Beans will perk you up, body and soul. A coffee company that cares, from their bio-diesel bus to their partnerships with farmers growing quality beans, you know you're gonna get something great from people who care when you satisfy your coffee cravings with this fantastic bus!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Larry's Beans",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55820d05-2e64-49cb-b7ef-300c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tokyo Dog is a truck serving Japanese style hot dogs - that is, hot dogs that use German style bratwurst and sausages with a combination of high-quality Japanese toppings such as nori, furikake, shichimi, miso, etc. Tokyo Dog is proud to state that they source the best quality ingredients, and that translates into the best possible dogs for you. Try one today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tokyo Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541878b6-0660-43cb-b129-2d9146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

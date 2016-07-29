@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Swat Truck is the only shish kabob food truck in Central Florida.  Our menu is created with locally sourced meat and vegetables.  With no fried food every item is grilled with an even balance between all major food groups in various combinations by taking well known dishes and deconstructing them to a skewered item.  We do not typically fit into a specific genre of food truck as a result of this. We are in the midst of adding vegetarian/vegan items and more seafood as the demand increases based on venue.  We are the authority on kabobs and skewered food as we are able to operate within our concept while offering numerous combinations of menu items.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Swat Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51a81962-e89c-4c82-9f57-4dd046204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

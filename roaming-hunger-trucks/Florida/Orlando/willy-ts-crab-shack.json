@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "That fantastic Maryland taste is roaming the streets of Florida, with Willy T's Crab Shack! Nobody knows crab cakes like Maryland, and Willy T's is serving up that authentic Maryland flavor and quality. Crab cakes, crab balls, an assortment of sauces to go with them, and the friendliest folks in town mean that you'll love each and every visit to Willy T's Crab Shack!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Willy T's Crab Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555bc5db-b47c-4adc-937a-3dd346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

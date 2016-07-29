@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Premium soft serve on the go in Fayetteville is coming right to you from Burton's Comfort Creamery! The frozen treat that's sweet to eat, there's nothing like soft serve to satisfy your sweet tooth. From soft serve cones to magnificent milkshakes, Burton's Comfort Creamery has it all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burton's Comfort Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55776624-3268-4302-867a-6c0246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

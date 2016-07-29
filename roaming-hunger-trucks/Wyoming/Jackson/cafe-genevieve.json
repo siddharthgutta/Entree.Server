@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you've been looking for home cooking brought straight to you, then Cafe Genevieve has just what you need! Local, seasonal cuisine that's made perfectly every time, Cafe Genevieve is perfect for any occasion. Quality food  and a menu that's just for you, this is just what you and your next big event needs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cafe Genevieve",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56564079-9d64-4a82-a7f8-11bf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

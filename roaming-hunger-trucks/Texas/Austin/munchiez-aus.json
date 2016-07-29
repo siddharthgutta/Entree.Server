@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This fun family-run truck is serving Austin up with all sorts of marvelously mouthwatering munchies. Come by and try some Wings, Sandwiches (like yummy Grilled Cheese!), Burgers (like the Sriracha burger perfectly delicious with its spicy kick), Street Tacos, Chili Cheese Dogs, and so much more.You can order your next lunch from Munchiez online or have them come cater your next big party. Either way, the tasty comfort cuisine from this colorful truck is just the thing to satisfy your Texas taste buds. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Munchiez",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/573e0861-40dc-4994-a19d-222c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

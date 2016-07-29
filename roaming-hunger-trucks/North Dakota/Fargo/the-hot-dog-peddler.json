@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The finest hot dogs and sausages on the streets of Fargo are headed your way, straight from The Hot Dog Peddler! North Dakota will never be the same after experiencing this cart's fantastic food. The Hot Dog Peddler is making the freshest food around, with all the amazing toppings you could ask for, so don't miss out on an amazing meal today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hot Dog Peddler",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f85999-93cc-498d-80b6-739646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

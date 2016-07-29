@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ceviche on Wheels brings the taste of authentic Peruvian ceviche to the streets of Orlando! Back in Lima, ceviche is more than just delicious food, it's an excuse to get together with friends and catch up. Ceviche on Wheels wants to share that experience of community with you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ceviche on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8630/54f4ee67-3508-41e8-bb6c-741846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

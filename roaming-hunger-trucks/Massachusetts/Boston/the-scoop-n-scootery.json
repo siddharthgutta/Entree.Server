@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everybody's favorite frozen treat is rolling down a street near you! The Scoop N Scootery is an ice cream truck for the modern world, with fully customizable sundaes made to order just how you like them. With the best ice cream and frozen yogurt flavors around, not to mention all the toppings you could ask for, The Scoop N Scootery is perfect for your delicious ice cream needs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Scoop N Scootery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560af150-e3d4-4332-9849-7b4346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

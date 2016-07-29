@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Boom Boom Boca Grill is waking up your your taste buds with savory smokey barbecue. There is no doubt that traditional barbecue is done right at this mobile establishment. This barbecue brings all styles of Southern to Tex-Mex, making a delicious statement!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Boom Boom Boca Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f2b5b-5be0-473c-b1e5-7c9746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

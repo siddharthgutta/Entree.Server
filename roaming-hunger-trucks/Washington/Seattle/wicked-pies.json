@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New York style pizza has settled on the streets of Seattle! Wicked Pies is serving up the Big Apple's most famous food by the slice, along with some brilliant focaccia bread sandwiches, tasty salads, and delicious gelato! Using locally sourced, organic ingredients, Wicked Pies is ensuring that each and every bite is of the highest quality for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wicked Pies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589ec5c-421c-4db7-bf35-4dfa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

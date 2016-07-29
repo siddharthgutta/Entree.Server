@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the finest Indian food on the streets of Columbus, then we've got good news for you! Horn OK Please is serving up the most satisfying food you could ever ask for, with their delicious kebabs, naan wraps, and more. For fantastic cuisine you can really sink your teeth into, there's nobody quite like Horn OK Please!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Horn OK Please",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564b5754-15fc-44d4-bd68-168746204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

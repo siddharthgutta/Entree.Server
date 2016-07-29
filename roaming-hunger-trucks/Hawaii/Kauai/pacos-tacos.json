@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Paco's Tacos serves up all the crunchy, spicy goodness of Mexican-style street food right here in Kapaa, overlooking the beautiful beaches. If you're a connoisseur of great Mexican food, don't miss the fabulous fish tacos or the perfectly blended guacamole!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Paco's Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f763f9-e524-4221-b6b8-58e146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

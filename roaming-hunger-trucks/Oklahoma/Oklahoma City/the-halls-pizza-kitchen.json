@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hall's Pizza Kitchen is cooking up some tasty pies with fresh high quality ingredients. Try their signature Saturday Night pizza that features sausage, pepperoni, whole milk mozzarella, fresh basil, parmigiano reggiano, and their homemade sauce! They also offer a number of fresh seasonal salads and a selection of their favorite cookies, brownies, and sweet treats. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hall's Pizza Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b8a5a-5ea0-40bd-8d56-79c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

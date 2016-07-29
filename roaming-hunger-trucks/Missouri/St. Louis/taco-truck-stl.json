@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We have the authentic flavor of Mexican. Tacos, Quesdillas, Tortas, and Burritos to fill your appetite.The Taco Truck brings the beloved authentic Mexican cuisine to your company in the lunch time, special events, festivals, night clubs, and parties. We've got the party in the truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Truck STL",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3837/553ea7e7-2c64-437d-beee-2a7146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

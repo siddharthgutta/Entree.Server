@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Denver's getting a taste of some true Northeast flavor today, thanks to the incomparable John's Lunch Box! Classically delicious dishes are on their way to you, with the finest cheesesteaks, chicken fingers, breakfast burritos, and so much more. A great food truck for all your favorite fairs, festivals, or just walking around town, John's Lunch Box is just what you've been looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "John's Lunch Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56c75640-90c8-4cd5-b529-5d4e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

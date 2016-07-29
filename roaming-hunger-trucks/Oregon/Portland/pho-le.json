@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Pho Le all of their Vietnamese and Thai dishes are made to order with the freshest ingredients. Their Banh Mi sandwich is said to be one of the best around town, made with a crispy baguette and filled with tender cuts of pork and plenty of veggies. Another signature item is the Pho, a piping hot Vietnamese noodle soup. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pho Le",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524f5cff-20a8-4811-b0d6-680146204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

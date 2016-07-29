@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What's that rolling down the street? It must be Rolz! Delicious, crispy, and made from the best ingredients around, these fantastic tubular bites are bringing you amazing taste and a great eating experience. Fried to perfection and full of flavor, Rolz will always be a fantastic treat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rolz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a82ff1-7e00-4b56-a5c3-3b2146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

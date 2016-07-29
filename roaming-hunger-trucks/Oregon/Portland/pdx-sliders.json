@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food Cart | Mini-Burgers | Sandwiches | Hand-Cut Fries | Named one of the \"Top 10 New Food Carts of 2014\" by The Oregonian | Eat Mobile 2014 \"Judge's Choice\" Award Winner",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PDX Sliders",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7891/544a9d78-0194-40cd-b64d-49f546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

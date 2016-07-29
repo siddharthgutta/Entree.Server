@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SnoCal Shaved Ice is a treat truck coming to the hot San Diego streets. It all starts with the ice. SnoCal partnered up with a local San Diego company to provide them with the cleanest of clean water.  SnoCal utilizes only natural flavors, pure cane sugar and filtered water in their syrups. They mix them fresh, and rotate flavors frequently to keep things fun.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SnoCal Shaved Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5262/5632b307-6cc0-4219-a966-02b046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

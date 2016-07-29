@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kebablicious is cooking up magnificent Mediterranean inspired meals on the streets of Tampa! Kebabs, falafel, shawarma, and delicious food are what you'll find on this food truck. Don't miss out on an awesome menu you'll never forget, coming right to you from Kebablicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kebablicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56943116-d858-420c-988e-5a4146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

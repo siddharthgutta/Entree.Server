@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best BLTs in town are rolling up to a curb near you! STL BLT is bringing you the best sandwiches around, made with freshly cooked bacon and so much more. Whether you try their Ole' Faithful, Hot Route, Caramel Apple, or Captain Obvious, STL BLT is sure to satisfy your cravings for fantastic food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "STL BLT",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5671c4bb-27dc-4f2e-aa25-156746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

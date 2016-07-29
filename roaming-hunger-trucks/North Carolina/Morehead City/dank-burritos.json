@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dank Burritos is here to serve you Mexican inspired fare that draws upon all your other go-to favorites! Choose from mouthwatering citrus fish tacos, slow-cooked Asian pulled pork burritos, and more! You can also turn your burrito into a bowl or choose veggie options!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dank Burritos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554d089e-71e4-4bbd-8271-7e0646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

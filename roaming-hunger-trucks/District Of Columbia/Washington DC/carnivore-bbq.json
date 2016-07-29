@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Carnivore BBQ, we try our best to deliver fresh, wholesome, gourmet caliber food. We blend care with craft, art, and only the finest ingredients to create our signature dishes. We locally source our provisions and prepare from scratch our own slaws, sauces, and rubs. The pit master roasts our meats slowly over real hard-wood. In fact, it takes 22 hours to smoke both our brisket and pulled pork.Moreover, we offer a relaxed friendly atmosphere because while life may be short, it should be sweet whenever possible. Eat in good health from all of us at Carnivore BBQ.Stephen AdelsonPit Master",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carnivore BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1798/5537c848-5628-43eb-b110-7c7646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

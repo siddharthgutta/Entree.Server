@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Velvet Cup Coffee Truck was established in 2012 in beautiful Asheville, NC. This gourmet coffee truck roams the east coast, serving amazing espresso concoctions, 100% fruit smoothies, frappes, and fresh, made-to-order mini doughnuts. These delightful drinks and munchies are sure to brighten your day, so stop by and have a taste!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Velvet Cup",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f60856-e6fc-421d-8ace-767a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

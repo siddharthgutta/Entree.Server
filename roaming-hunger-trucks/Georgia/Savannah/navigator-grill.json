@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Armstrong Universities very own food truck, the Navigator Grill! Exactly what every college student craves; savory, sweet, and fried foods to energize the body and fuel the mind. Wings, cheesesteak, chili dogs, funnel cake, there's food for everyone at the Navigator Grill!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Navigator Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551b2de1-7970-4e61-a506-5dce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

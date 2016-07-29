@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We created this truck from the need Miami had of a food truck that specializes in hot dogs.Dog Eat Dog Food Truck offers a great variety of gourmet hot dogs, from the good old classics like our Chili Dog to new creations like our 305 Dog. We also have the Not Dog (vegetarian) and the After Dog (dessert dog). We also make our own potato and sweet potato chips on the truck.We also offer Coca-Cola products and Dr. Brown's (Black Cherry, Root Beer, and Cream Soda)... The best companion for a hot dog!We also cater for all types of events.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dog Eat Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dd9c34c-7390-4992-a725-52af46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

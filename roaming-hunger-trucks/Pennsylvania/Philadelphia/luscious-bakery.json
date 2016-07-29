@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Luscious Bakery specializes in brunch inspired foods from European and American cafes, as well as delicious sweets. An oven onboard allows us to provide the freshest baked goods and produce an intoxicating aroma. At Luscious Bakery we focus on organic dairy, artisanal ingredients and seasonal produce to enhance our heirloom recipes.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luscious Bakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7013/53e3d226-818c-433c-9ee5-56e046204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

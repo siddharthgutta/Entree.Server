@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Three generations of hard work and family pride began in 1946 when John Kinder opened his first meat market in the Bay Area town of San Pablo, California. Today, Kinder's Truck delivers the best BBQ to you on the streets.  Grab yourself a sandwich or plate of ribs from this great truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kinders Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/503fff49-b5e0-43c2-aa0d-389846204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

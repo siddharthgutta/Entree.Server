@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chef Johnson\u2019s Truck is serving the streets of New Orleans his acclaimed selection of Cajun cuisine that\u2019s cooked slow and served quick. His entire menu is free of chemicals, preservatives, high fructose corn syrup, and anything you can\u2019t pronounce (Cajun vernacular aside). A few of the local faves include the luscious Lobster Cheeseburger, Johnson Jambalaya, Deep South Un-Fried Chicken, Mac \u2018n Cheese (with your choice of andouille, lobsta, chilli, etc..)For all this and much more, come on out to Chef Johnson\u2019s Truck and indulge your cravings for the best Cajun grub from the bayou. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Johnson's Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57719077-4ca8-4463-b2a0-3f3d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

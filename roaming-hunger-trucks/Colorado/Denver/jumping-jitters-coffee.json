@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jumping Jitters Coffee has fresh, delicious coffee sure to keep you on your toes. From their Brazilian Peaberry to their Costa Rica, every roast is bold and flavorful. Stop by and grab a delicious coffee from Jumping Jitters!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jumping Jitters Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11615/55c575f3-54bc-4ce9-a130-265646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

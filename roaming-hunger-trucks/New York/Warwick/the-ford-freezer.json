@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "America's most classic ice cream truck is making its way down a street near you! Good Humor ice cream, courtesy of the fantastic Ford Freezer is roaming the streets. Everyone's favorite frozen treat is perfect for any occasion - whether you're just walking down the street, playing in the park, or need something for your next big occasion, The Ford Freezer is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Ford Freezer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b45a8-8a18-485d-a092-0ef146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

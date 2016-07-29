@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Best Truckin' Barbecue in Chicago! From The Interstate to The Expressway, the Spare Tires to the Speeding Tickets, these BBQ sandwiches and sliders will blow you away! Sauces include spiced pomegranate sauce and apple cider bourbon sauce, rich mixes of flavors that take each meal to a whole new level. Stop by Best Truckin' today, or just bring them straight to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Best Truckin' BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f88eb8-9d94-41b2-a26d-35af46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

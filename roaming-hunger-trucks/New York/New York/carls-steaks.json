@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Carl's Steaks is providing the people of New York with the most authentic Philly Steaks. It starts with thinly sliced sirloin steak grilled to perfection, then topped with or without grilled onions. Staying true to cheesesteaks, the original \"cheese whiz\" is also offered or your choice of provolone or white american cheese. To top it off, only the freshest hoagie roll is used because as everyone knows it's all in the roll.Hope you all enjoy this truly classic sandwich! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carl's Steaks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5241033e-c68c-42ef-a30d-60d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

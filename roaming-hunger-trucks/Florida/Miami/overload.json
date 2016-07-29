@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to OverLoad Extreme Street Food. We are a family owned and operated food truck, striving to bring you great food and a good time. Our food truck is based on the most important things in life: food, fun, friends, and family. We strive to hear each and every one of our customers say \"Wow, that was soooo good!\"We offer burgers, subs, and more at a very reasonable price. Come visit us and be ready to have a great time. Be sure to check out our schedule for daily specials and our location. And don't forget, our domino tables are ready, so don't forget to bring your dominos.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "OverLoad",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec3102f-f59c-47a0-a4b4-280546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

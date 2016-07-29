@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Quise's Salad Joint is bringing you healthy foods with fantastic flavor and style! These are no ordinary salads, these are salads packed with the best ingredients around. You'll find nothing but the freshest veggies, the best proteins, and just the right amount of dressing to make it all pop. Eating healthy has never felt as good as it does with Quise's Salad Joint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Quise's Salad Joint",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cd2415-f760-43c1-b347-395c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

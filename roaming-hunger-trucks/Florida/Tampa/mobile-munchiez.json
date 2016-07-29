@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mobile culinary vehilce serving the Tampa Bay area specializing in Italian, American, and Latin fusion. Some of our items include italian quesadillas, chorizo rice balls (arancini), stuffed potatoes (papa rellena), chicken wings, rice balls, deep fried spaghetti, yuca fries, curly fries, plantains, and some sandwich and salad options as well. All of our sauces and dressings are home made.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobile Munchiez",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/506cbfe3-9678-4721-b461-58b546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

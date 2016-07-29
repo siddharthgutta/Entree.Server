@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best shave ice in all of San Antonio? Then you're looking for Ice Ice Baby! Hawaiian-style frozen treats made with fantastic flavors from pure cane sugar are just what your sweet tooth has been craving. For the best way to stay cool and refreshed on-the-go, Ice Ice Baby is what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ice Ice Baby",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b1730a-8b74-4255-b1ef-07d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

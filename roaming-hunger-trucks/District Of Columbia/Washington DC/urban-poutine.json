@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet comfort food you can really sink your teeth into is on its way to you, thanks to Urban Poutine! Hand cut, twice cooked fries with homemade gravy and fresh cheese curds are just the start of the delicious good times at this food truck. Customize your meal with their delicious toppings, like Duck Confit or Andouille Sausage, to make your eating experience truly unique!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Urban Poutine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568c3ae0-abac-481d-8e02-141e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

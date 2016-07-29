@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aloha To Go brings the best of the islands to Tampa Bay. We specialize in local Hawaiian favorites including Kalua Pork, Shoyu Chicken, Ono Teriyaki Beef, and Spam Musubi. If you've never had Hawaiian cuisine, then you are in for a real treat. You've tried the rest, now come try the best. Mahalo!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aloha To Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9925/5542a700-5004-478b-a62f-138746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

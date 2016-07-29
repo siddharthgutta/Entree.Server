@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Pinche Tacos our goal is to put a modern twist on \"comida de la calle\"\u2014mexican street food. We believe in using local products while staying true to authentic regional recipes. At Pinche Tacos we specialize in street tacos, in Mexico these are often referred to as pinche tacos.Our taqueros\u2014taco makers\u2014are in the kitchen every morning preparing the food for that day of business. They load up the taco carts and wagons and hit the streets. The tacos are served on locally made corn tortillas and finished in front of the customer as they order. When our taqueros are out of food we close for the day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pinche Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e85684a-3240-49c6-ac88-3a3546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

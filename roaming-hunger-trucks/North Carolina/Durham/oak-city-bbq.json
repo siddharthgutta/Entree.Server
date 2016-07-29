@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oak City BBQ is a fantastic food truck serving the RDU area. We specialize in Eastern North Carolina BBQ with a unique twist on tradition southern sides. i.e.; GPS (Grilled Potato Salad), Skrimpies (Shrimp Hushpuppies), Smoked Corn on the Cob w/Homemade Mango Habanero Butter, and Southen Brownies! Come find out for yourself just how good local BBQ can be!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oak City BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570c7aa-9210-44f1-8253-5da846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Take your lunch to the max with MaxLunch! The best sandwiches, salads, soups, and more on the streets of Denver are coming right to you! The soups are homemade, the breads are baked fresh, all of the ingredients are fantastic, and guaranteed to be delicious! Grab a delicious Reuben sandwich, Caesar salad, or anything off the fantastic menu, and let MaxLunch make your lunch all that it can be!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MaxLunch",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5592ddb2-7a18-4530-88e3-7b4d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

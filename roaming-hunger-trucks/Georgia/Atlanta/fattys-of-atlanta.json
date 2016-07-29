@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fatty's of Atlanta offers 100% all-beef Sabrett hot dogs, stadium pretzels, potato knishes, cannoli's, Italian ice, and ice cream sodas! If that doesn't set your mouth watering, you must be mad! Stop by and grab yourself a delicious bite to eat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fatty's of Atlanta",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1522/56916464-f558-4b38-a88b-306a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

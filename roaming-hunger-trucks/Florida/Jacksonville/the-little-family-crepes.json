@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wether you're looking for something savory, or craving something sweet, The Little Family Crepes cart is sure to have something for you! Their savory crepes are stuffed with your choice of chicken, ham, spinach, tomatoes, onions, mushrooms, and/or cheese. Sweet crepes can include fresh strawberries, bananas, lemon, peanut butter, nutella, dark chocolate, whipped cream, and/or apricot jam. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Little Family Crepes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51be6ce5-24b4-4942-94ea-17a946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

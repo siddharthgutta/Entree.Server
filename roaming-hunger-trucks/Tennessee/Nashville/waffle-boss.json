@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Waffle Boss is Nashville's first and only Chicken & Waffle Food Truck. Their menu is pretty straight forward: You pick from Nashville Style Hot Chicken or Original buttermilk batter and add your choice of a Red Velvet, original, or Birthday Cake waffle. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Waffle Boss",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51799f9c-3128-48be-bd9a-576c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Paso's newest addiction has just hit the streets. This sweet truck is delivering the tastiest treats to its hungriest customers. With an abundance of sweet flavors, featuring Caramel Macchiato, Chai, and Oreo just to name a few, this truck answers all of your cupcake needs. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Addiction",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f1def-0b00-4a55-b9f5-463946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

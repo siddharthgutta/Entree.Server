@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving up some of the best New England comfort food around, ChowdaHeads is hitting the streets to bring it right to you! With their Boston Crab rangoons, Boston-style gumbo, and some of the best clam chowder you'll ever have, this is one food truck you just have to try! So keep an eye out for ChowdaHeads today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ChowdaHeads",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b2404-9b78-4010-90f8-76a146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

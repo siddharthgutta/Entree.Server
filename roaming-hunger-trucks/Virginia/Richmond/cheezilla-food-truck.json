@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get ready for Richmond, Virginia very first grilled cheese food truck...Cheezilla! This is Richmond very own gourmet cheese truck bringing a creative menu for your enjoyment. It all starts with finest cheeses, fresh ingredients, and delicious bread from a local bakery. This outstanding comfort menu is here to thrill and amuse your taste buds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheezilla Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55660f52-07dc-400e-80ac-4aff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

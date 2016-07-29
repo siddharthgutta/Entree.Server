@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cool Concessions is an Ice Cream truck serving the streets of the greater Richmond area. The truck serves Good Humor treats. Their extensive menu of frozen delights includes Bubble Gum Swirl cones, Whacky Watermelon ice cream, Firecracker pops, Birthday Party Ice Cream Sandwiches, Star Bars, Sundae Crunch bars, Oreo Cookie Sandwiches, Big Dipper Cones, and Good Humor Premium Ice Cream Bars. Yum!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cool Concessions",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515cb711-20e4-4d56-8a45-531e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

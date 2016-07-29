@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Soul Food Caf\u00e9 Express is a mobile eatery serving the streets of Las vegas. Their menu offers a collection of traditional southern food with a common theme: Healthy, Flavorful, and Familiar. Their goal is to create satisfying, wholesome, nutritious food. With the increased awareness of nutritional food options, Soul Food Cafe Express is providing a healthy alternative to good old fashioned Soul Food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Soul Food Cafe Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5148b86c-31fc-412b-9426-1cf246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

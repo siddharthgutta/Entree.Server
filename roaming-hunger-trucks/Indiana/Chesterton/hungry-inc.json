@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Northwest Indiana's premier food truck, Hungry, INC is here! Bringing a new dining experience to the streets, they're serving up fast, fresh and (mostly) healthy sandwiches, soups salads, wraps, and more! For the greatest mobile kitchen adventure around, visit Hungry, INC today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hungry, INC.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552c1f81-5dec-4432-80a8-59d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

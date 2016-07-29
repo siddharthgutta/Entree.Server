@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Buzz Truck is an awesome truck bringing fresh, locally roasted coffee to the streets of Fairfield County! From delicious coffee and tea drinks to locally sourced breakfast items and snacks, this truck's fare is a great start to your day, or pick-me-up for the afternoon slump. Stop by when you see the truck at an event near you, or throw a party just to bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Buzz Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55030f34-17a8-4607-bec2-349446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

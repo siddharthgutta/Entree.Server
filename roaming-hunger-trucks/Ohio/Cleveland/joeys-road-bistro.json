@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Joey's BIstro Bar has been serving the fine folks of Cleveland for years, and now they're taking their quality cuisine on the move to serve you! Joey's Road Bistro is bringing you only the absolute best with their fantastic food truck. When Joey's Road Bistro pulls up to your next event, you'll know that you're guaranteed an amazing meal today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Joey's Road Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12659/561e9dc1-b8f8-4615-83d6-1b7946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

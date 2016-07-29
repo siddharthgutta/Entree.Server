@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Wheels Bakery delivers authentic desserts to South Florida. No matter what you're craving Sweet Wheels Bakery is ready to delight your taste buds with fresh desserts baked daily, using only the finest, organic ingredients. The menu changes regularly with the seasons and we are constantly creating new and exciting recipes!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Wheels Bakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9037/551f467a-8d18-4fe6-9d9b-3d3846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

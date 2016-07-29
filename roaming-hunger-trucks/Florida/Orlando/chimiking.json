@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dominican delicacies with a modern twist are here, courtesy of the ChimiKing! This fantastic truck serving up the best in Latin cuisine is providing you with the best service in town and the best food made with quality ingredients. If you're looking for a fantastic dining experience from start to finish, you can't go wrong with ChimiKing!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ChimiKing",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555cd155-0c44-489d-84b3-322a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

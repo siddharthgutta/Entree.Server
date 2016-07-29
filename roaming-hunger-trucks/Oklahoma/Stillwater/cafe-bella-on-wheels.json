@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Stillwater, OK Cafe Bella on Wheels is Stillwater, Oklahoma's premiere spot for healthy and tasty authentic Mediterranean food. Entrees include classic dishes like hummus wraps, gyro sandwiches, falafel sandwiches, tabouli, dulma, baba ghanoush and more! In addition they offer salads and burgers (with a greek twist). ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cafe Bella on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522e970a-fed8-40fb-ada8-0dce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

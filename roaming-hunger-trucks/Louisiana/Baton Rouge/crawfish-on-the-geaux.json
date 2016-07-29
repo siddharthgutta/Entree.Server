@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you love crawfish, you'll love Crawfish on the Geaux! This truck cooks up fresh crawfish daily, with such care and skill that it's no wonder Baton Rouge loves these great eats! Stop by and see for yourself what the fuss is about today.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crawfish on the Geaux",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cbdc4a-ecec-42e6-b1a6-1e0946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

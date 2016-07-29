@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Capital Chicken & Waffle is the Washington DC area's first and only chicken and waffles food truck. Chicken and Waffles are of course the star on Capital CW's menu, and can be ordered in a variety of combos. Traditional southern sides are also available, including Cheesy Mac, Candied Yams, salad, and their Original Bannana Pudding. Check out all the goodies they'll be serving at Capital Chicken & Waffle.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Capital Chicken And Waffle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f9f645-7840-4e65-b794-4b7746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

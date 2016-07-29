@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a brand new truck specializing in Fried Ice Cream. ALL our ice cream is 100% original and made on the truck. We have 4 ways of frying the ice cream; Original, Mexican, Thai, Japanese. All completely original and include choice of sauce. We also serve scoops and Milkshakes with our Frach's 100% truck-made sauces.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frach's Fried Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53936e51-edec-442f-8289-1f7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

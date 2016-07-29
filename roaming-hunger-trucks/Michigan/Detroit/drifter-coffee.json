@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Coffee on the go for a modern world, Drifter Coffee is bringing you the caffeine you crave! Fresh-brewed and fantastic, Drifter Coffee's selection of drinks is sure to have something you'll love. Drip coffee, iced tea, and even scones are ready and waiting for you at Drifter Coffee!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Drifter Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6dd50-833c-4197-b6e2-19d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

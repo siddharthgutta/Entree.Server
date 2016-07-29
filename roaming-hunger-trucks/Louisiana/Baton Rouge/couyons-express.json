@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious, slow-smoked, cajun bar-b-q for any occasion! CouYon's Express is taking their experience and amazing service to the streets of Port Allen to bring you all the very best! Whatever you order off of their delicious menu is guaranteed to satisfy and fill you up!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Couyon's Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552daa5b-ae58-4248-bf41-4fd546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

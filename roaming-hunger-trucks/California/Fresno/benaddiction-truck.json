@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you loves eggs benedict, this truck is heaven on earth. They are serving up a number of different eggs benedict sandwiches on english muffins and topped with homemade hollandaise sauce. If you look at the menu you'll notice that each item is named after a song by various bands. If you can name all of these bands you may just get a free snack. Too late for breakfast? They've got sandwiches too, ranging from pulled pork to a crab melt. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Benaddiction Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51140aa5-e06c-4ec1-a0f8-699c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

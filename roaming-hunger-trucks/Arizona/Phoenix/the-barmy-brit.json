@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Barmy Brit is bringing fantastic fish and chips to the streets of Arizona today! This is authentic British cuisine from authentic British chefs, and you'll love the incredible flavor here every time you try it. Superior seafood and freshly fried chips are just what you've been waiting for, so don't miss out on this terrific truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Barmy Brit",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fb42e6-3518-4dd7-9628-644b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

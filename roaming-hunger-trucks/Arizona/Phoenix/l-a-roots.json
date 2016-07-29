@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "L.A. Roots is a truck born from Latin American influence, with L.A. Flava! This is a new truck from the Aji Mobile Foods Family, and it brings a host of delicious meals, from the \"Gaucho\" and \"Inca\" to the \"Saltado\" or \"Hornado,\" all fantastic combinations of marinated meats and tasty veggies that you can order as a sandwich, tacos, or a bowl! Stop by and grab one of these great meals today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "L.A. Roots",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5490975a-d28c-4eec-8e8e-5d7b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

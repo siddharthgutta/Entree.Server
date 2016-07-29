@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "LostCoffee combines speed with quality and convenience with friendship. Combining these formulas gives our customers the greatest coffee buying experience.  You will see game-changing technology.  Ordering and paying for your drink will be as easy as sending a text message.  Go ahead, read that sentence again.  Ordering AND Paying will be as easy as sending a TEXT message!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lost Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e31d922-a678-4f4c-b2a5-1dbe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

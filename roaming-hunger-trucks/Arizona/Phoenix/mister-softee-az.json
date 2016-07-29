@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mister Softee has been delighting customers worldwide since 1956 by bringing ice cream treats curb side. We are not like the other ice cream truck around!We have soft service ice cream sundaes, soda floats, cones, cups, banana splits, and shakes.Come visit us soon! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mister Softee. AZ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4178/560452bd-7020-41da-aa71-3bf046204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

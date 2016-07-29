@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Blue Truck Chicken is bringing the beauty of Nashville-style hot chicken to the streets of San Antonio! Full of that fantastic Southern flavor you've been craving, this chicken will certainly satisfy your hunger. Blue Truck Chicken is here and ready to give you a terrific taste of Tennessee you'll never forget!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blue Truck Chicken",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b144ad-1fa8-401c-963d-366a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

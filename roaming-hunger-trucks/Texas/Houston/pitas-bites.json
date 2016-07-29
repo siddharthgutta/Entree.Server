@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Mediterranean Cuisine food truck specializing in a combination of Lebanese and Greek flavors. We make all of our menu items from scratch daily and fresh-to-order falafel, gyro, shawarma and salads (fatoush and tabouleh). Simply delicious Mediterranean Cuisine serve in H-town streets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pitas Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8399/54c32fc8-8c94-4968-8203-0dc246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

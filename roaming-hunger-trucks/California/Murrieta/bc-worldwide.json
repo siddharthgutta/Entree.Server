@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taking their signature style and fantastic flavor to the streets, BC Worldwide is on the move and heading right to you! This great truck has a menu full of fabulous tastes from around the globe, ready to take your lunch to the next level. Perfect for any occasion, this food truck will spice up your next big event with quality food and a great attitude, so keep your eyes open for BC Worldwide today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BC Worldwide",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfb64f-13d0-4d77-854a-258d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

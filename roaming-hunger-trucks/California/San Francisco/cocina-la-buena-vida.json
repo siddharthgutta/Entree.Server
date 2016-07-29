@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cocina la Buena Vida is a Redwood City food truck that's dedicated to farm fresh, healthy cooking. Try out their Latin-style Paleo dishes! Tacos, Carnitas, and more abound at this fantastic mobile eatery, so check it out when it rolls your way!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cocina la Buena Vida",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564fb9c8-9ee0-486a-8568-79f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

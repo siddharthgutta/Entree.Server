@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best buzz there is! Better Buzz Mobile Espresso is serving up a hot cup of joe, made just how you like it. These fine folks are bringing fair trade, organic coffee to the streets of Vermont. Along with their fruit smoothies and homemade pastries I'm sure you can see why people are buzzing with excitement over this terrific truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Better Buzz Mobile Espresso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55303457-0d68-4632-8938-2fec46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

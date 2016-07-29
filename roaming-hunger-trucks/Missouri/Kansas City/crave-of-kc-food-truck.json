@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crave of KC Food Truck in Kansas City features scratch made menu including Carnitas, Chicken, & Fish Tacos, and Loaded Nachos. Crave of KC puts their own unique spin on street food favorites, such as the Taco Dog, made with carnitas,  onions, pickle relish and a hot dog all piled up on a tortilla. You will definitely crave this food truck.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crave of KC Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d4eab7-fd48-4a60-9767-103b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

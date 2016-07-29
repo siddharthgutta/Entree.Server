@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cocoa & Cream is a food truck serving the classics of southern food in New Orleans, alongside some new delicious creations. Whether you're in the mood for sweet chili glazed wings, an oyster poboy, or just chicken-n-waffles, this truck has you covered!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cocoa & Cream Mobile Foods & Catering Service",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7401/5706e81d-7650-4436-8078-14a546204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

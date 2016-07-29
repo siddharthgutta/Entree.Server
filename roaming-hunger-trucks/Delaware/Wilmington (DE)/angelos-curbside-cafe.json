@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Angelo's Curbside Cafe is coming to you with the best grub on the go! If you're looking for delicious cheesesteaks, grilled cheese, Italian subs, and more, then this is the truck for you. Food that'll really fill you up is on its way right to you, so don't miss out on an amazing eating experience today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Angelo's Curbside Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55de1cd9-26f8-46e0-bec0-0ca346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

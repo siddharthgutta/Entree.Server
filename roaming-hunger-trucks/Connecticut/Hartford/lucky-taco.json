@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Not only does the Lucky Taco catch your eye with its brilliant rainbow stripes, but it also catches your taste-buds with its scrumptious tacos. Choose from slow smoked pulled pork, stewed chicken, beef picadillo, cheesesteak, and many more! Lucky Taco also incorporates other global flavors (for example their kung pao chicken) and their menu features vegetarian friendly options! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lucky Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51770af1-f478-48ed-8a13-777b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

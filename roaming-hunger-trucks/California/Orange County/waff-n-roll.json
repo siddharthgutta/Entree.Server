@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Waff N' Roll is a mobile eatery in Orange County serving sweet & savory waffle sandwiches! Their fillings in their savory sandwiches range from fried chicken and pulled pork to tandoori chicken and rosemary balsamic mushrooms. Their menu of sweet treats includes waffels stuffed with lemon curd and berries, bananas and nutella, and dulce de leche and pecans. Check in for weekly specials!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Waff N' Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/517ef5a5-6324-4d38-9b0f-1f4e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

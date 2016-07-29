@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic Hummus and fantastic times! Fantastic Hummus is serving up delicious, authentic Mediterranean cuisine to the fine people of Orlando, and they're doing it with the friendliest service you'll ever see. Shawarma, falafel, gyros, and more! You'll be sure to love the fantastic food at Fantastic Hummus!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fantastic Hummus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555b9037-3fd4-49b0-8a13-02fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

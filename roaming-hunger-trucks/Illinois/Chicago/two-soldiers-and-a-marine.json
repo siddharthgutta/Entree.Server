@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Two Soldiers and a Marine is a Service-Disabled Veteran owned food truck serving up delicious BBQ creations to the Chicago area. Check out the pulled pork sandwich, great ribs, and delicious sides and desserts. Fantastic food and great service!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Two Soldiers and a Marine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8158/547e3d03-3fb0-4820-904e-27e846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

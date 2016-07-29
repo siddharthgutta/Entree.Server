@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We wanted to have a unique twist on the always \"BBQ\" Pork, We wanted the kind of Pork you can't just go to the grocery store, buy frozen and microwave at home! Our mad scientists down at the Pork U laboratory started creating a very special proprietary blend of ingredients that make the Pork oh so sweet and Savory, with just a little bit of kick that finishes it all up.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pork U",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51a68861-2fd0-47c7-af18-01e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

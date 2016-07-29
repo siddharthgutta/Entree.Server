@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Pitkin's is cooking up quality comfort food you can really sink your teeth into! A food cart on the move, Sweet Pitkin's is serving up a superb menu of pulled pork, smoked chicken, vegetarian chili, and more. Whether you're walking out and about or need someone to cater your next special occasion, Sweet Pitkin's is perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Pitkin's Comfort Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13177/569fb9ea-d140-4298-9f1e-697846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

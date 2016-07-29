@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a mobile food truck that opened up in the early part of 2013. We serve out some of the city's most delicious classic sammiches. All of our sammy's are made with love and fresh ingredients. Like our \"Meatball Sammy\" made from a 60 year old Sicilian family recipe. Loaded with garlic and herbs, slathered in a San Marzano tomato sauce and topped with fresh mozzarella and basil, YUM!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sammich Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5116aa33-c570-44c2-bd3b-228f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What is that little red wagon? It's the Lady Bug Lunch Box, serving fresh and tasty lunches daily at Fire Fighter Park! Get one of these tasty burgers, or grab a sausage, sandwich, or salad! Stop by this trailer - it's a great way to break up your day, and get a tasty meal to boot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lady Bug Lunch Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54fa073a-5bbc-4138-bcff-118d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

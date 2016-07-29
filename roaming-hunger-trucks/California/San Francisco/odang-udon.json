@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the finest noodles on the move? Then we've got the food truck for you! Odang Udon is serving up amazing meals you're sure to love. These are the freshest noodles in San Francisco, made daily right on the truck so that you get the best eating experience possible! Fantastic food and great times are rolling down a street near you, thanks to Odang Udon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Odang Udon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560d7b8f-bd78-4434-bfd5-479446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

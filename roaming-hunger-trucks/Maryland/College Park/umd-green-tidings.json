@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "University of Maryland's very own food truck is serving up just what every student needs! Green Tidings' menu is full of locally-sourced goodness to fuel body and mind. With an ever-changing menu from the best ingredients around, you'll be sure to find something you'll love each and every time you visit UMD Green Tidings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "UMD Green Tidings",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f3427f-457c-45fd-8cdf-335f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "That's How We Roll has all your American breakfast, lunch and dinner favorites. Rolling onto the Lexington scene with some of the best food on four wheels. Offering anywhere from breakfast bagels, delicious lunch sandwiches, or meatloaf dinner, even a vegetarian menu. That's How We Roll! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "That's How We Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55281111-823c-47f1-89ae-03b346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

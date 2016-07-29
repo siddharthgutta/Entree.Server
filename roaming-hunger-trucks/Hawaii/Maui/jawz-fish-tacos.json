@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jawz Fish Tacos is here with delicious Mexican food with a Hawaiian twist! Always fresh and delicious, nothing goes better with a day of Hawaiian fun than some of their award winning tacos, burritos, quesadillas or any of their amazing offerings. Sink your jaws into some Jawz today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jawz Fish Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552468b0-e698-44c8-8ce0-66f446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

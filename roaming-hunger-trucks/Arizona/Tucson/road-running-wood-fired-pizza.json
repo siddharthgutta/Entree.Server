@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Road Running Wood Fired Pizza is bringing genuine brick oven pizza to the streets of Tucson! Made hot and fresh, just for you, these pizzas will have your mouth watering in no time.  Everyone's favorite cheesy treat is coming right to you, so don't miss out on Road Running Wood Fired Pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Road Running Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e0ed21-5280-4c6b-820c-6e8946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Marco's Grilled Cheese is making the most delicious gourmet grub on the streets of Iowa! Great grilled cheese like this is something that can't be missed. Savoury and satisfying, Marco's Grilled Cheese is ready to make your mouth water with their fantastic food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Marco's Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ce4078-3b58-496a-af8d-6d0c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

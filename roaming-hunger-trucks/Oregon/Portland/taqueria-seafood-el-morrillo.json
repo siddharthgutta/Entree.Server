@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taqueria Seafood El Morrillo is serving up some delicious fusion cuisine you won't believe! When you taste this Cajun flavor and Mexican style, you'll be amazed by this truck's terrific menu. Delicious tacos, shrimp po'boys, freshly cooked crawfish, and so much more are headed your way today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria Seafood El Morrillo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560eb437-dd00-4125-b1f1-5c1e46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

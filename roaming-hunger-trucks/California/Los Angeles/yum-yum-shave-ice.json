@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yum-Yum Shave Ice makes Hawaiian-style shave ice with fresh ingredients directly from Hawaii! Make sure you also try out your refreshing shave ice with Mexican toppings, like lechera, tajin, y chamoi. Yum-Yum makes any hot day more sweet and fun!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yum-Yum Shave Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8921/551cc387-bc28-4d3a-9c1e-44eb46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

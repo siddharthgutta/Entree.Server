@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We specialize in locally sourced comfort food inspired from around the world. We source as much as possible from within Colorado, and source organically. We are always looking for new farmers to supply us, and new places to set up shop. Our menu is constantly changing, and inspired by the seasons, farms, and the world travels of our chef Jason Woodside. You can look forward to some traditional Indonesian rendang, or our peach chicken and waffle sandwich. We look forward to seeing you soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farm to Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/537be5fc-08c0-458b-90ef-039846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

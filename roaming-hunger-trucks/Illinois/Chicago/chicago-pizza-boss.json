@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Boss is Coming, Eat Accordingly.Chicago Pizza Boss Mobile Pizzeria serving Neopolitan Style Pizza, 3 types of Anarancini (Crispy on the outside, warm, soft and delicous inside these tennis ball sized stuffed arborio rice balls are filled with Ground beef, peas, cheese and sauce. ..Spinach and Ricotta Cheese...or Ham and Alfredo and Fresh cut fries you should eat with a fork.Basil Pesto, Garlic Parm, or Black and blue (Kalamata olive pesto and blue cheese)",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chicago Pizza Boss",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53a49d51-0528-4902-ab4d-0a8146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

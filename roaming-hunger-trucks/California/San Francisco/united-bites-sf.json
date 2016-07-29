@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "United Bites is a combined catering and gourmet mobile food vending business, based in Antioch, CA and is owned, operated and managed by Adam Gross. United Bites provides a Globally-Inspired twist on Comfort Foods to the San Francisco Bay Area and beyond. Yummy Comfort foods with a unique global twist!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "United Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5154821b-1f00-4bfb-a355-176446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

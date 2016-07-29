@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The future of mobile cuisine is on its way, thanks to Curbside Urban Cuisine! The wonderful culinary program at Bates Technical College is training their up-and-coming chefs in the real skills needed to own and operate a mobile eatery just like this terrific truck. A food truck full of great flavor and a great cause: Curbside Urban Cuisine is here and it's perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Urban Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5609a1e7-376c-4995-9d78-23ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

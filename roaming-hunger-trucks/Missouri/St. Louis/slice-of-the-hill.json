@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Slice Of The Hill is roaming the streets of St. Louis. The Truck is serving up Tuscan inspired pizzas with locally sourced ingredients from the Hill.  The ever changing menu features different pies weekly, including Chicken Pesto, Margherita, Prosciutto and Fresh Sage, Caramelized Onion And Mushroom, and a pie starring fresh local tomatoes, basil, saut\u00e9ed onion, mozzarella, then finished with a garlic infused olive oil.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Slice Of The Hill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e9ba5f-6bc0-4de2-80ea-6f2446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

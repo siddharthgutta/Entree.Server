@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "All your favorite fair food is on the move all over Florida and the Midwest, with C&E; Concessions! Delicious, Deep Fried Oreos, Fresh Cut Curly Fries, Texas Taters, and more are on this awesome menu. A family owned and operated food trailer that's making its way to you, C&E; Concessions is sure to brighten your day from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "C&E; Concessions",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565e3177-8bfc-49a8-89c7-2ac546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

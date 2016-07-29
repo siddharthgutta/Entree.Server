@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Carte Blanche is cooking up an eclectic menu of gourmet meals on the move! Chef Jessie Aron is ready and waiting to take your taste buds on a wild ride in amazing food and delicious flavor. Craving some superb sandwiches? Salads? Mac & Cheese? All that and more are coming right to you today, thanks to Carte Blanche!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carte Blanche",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56538dd0-3180-4650-a959-3a9246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

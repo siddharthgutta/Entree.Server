@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's no place like New York for pizza, and when you get yours from Arthur Avenue you are guaranteed to have something delicious! Nothing but that best ingredients go into each and every slice here. Cooked to order with the toppings you crave, Arthur Avenue's pies will have you coming back for more, again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arthur Avenue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a83e08-8508-41a7-b5fe-58fb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

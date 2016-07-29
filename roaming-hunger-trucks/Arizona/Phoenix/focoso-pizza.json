@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Experience food cooked in a wood-fired oven the way our ancestors did. Follow the aromatic smell to your personalized pizza cooked in under 5 minutes at temperatures over 800 degrees and enjoy the flavor of a crisp chewy crust paired with the most  flavorful local ingredients.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Focoso Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538c8623-a580-46b2-9071-749746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

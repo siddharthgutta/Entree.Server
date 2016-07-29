@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Thieps Eats is bringing Las Vegas a wide array of Asian cuisine, from curry to potstickers, Pad Thai, stir-fry, and more. For quality Asian Fusion at an affordable price, stop by Theips Eats! You're sure to love whatever you try!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Thieps Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11662/55c26b57-3f18-40fc-b1db-7fe646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

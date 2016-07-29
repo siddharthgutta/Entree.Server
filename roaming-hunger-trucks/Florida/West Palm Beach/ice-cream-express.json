@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ice Cream Express isn't your typical neighborhood ice cream truck. Serving all natural and organic soft serve ice cream - vanilla, chocolate and the of course, the swirl - in a cake or waffle cone, or a cup, is just the beginning.  You can add toppings like oreos, m&m;'s, chocolate sprinkles, rainbow sprinkles, and gummie bears, or order sundaes with chocolate, strawberry, caramel, and pineapple syrups with whipped cream and nuts. Don't forget the cherry on top!An ice cream shoppe isn't an ice cream shoppe without a banana split - big enough to share, of course - and hand-spun shakes that will make your day.Gluten-free cones available upon request!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ice Cream Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7910/5456b06c-7488-4617-9467-094146204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

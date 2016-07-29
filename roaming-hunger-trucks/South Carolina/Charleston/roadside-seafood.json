@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roadside Seafood is a mobile kitchen in Charleston that serves up fresh and tasty seafood, cooked to order. Home of the Bam Bam Shrimp Tacos. C'mon and get hooked on the best seafood around town!Roadside Seafood strives to bring you southern hospitality with a smile!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roadside Seafood",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5238a31a-1134-4973-8498-1e1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

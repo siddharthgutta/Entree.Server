@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Old Traditional Polish Cuisine is a food truck and catering mobile hitting the streets of New  York. Their menu include old country favorites and ever changing specials. The truck specializes in traditional and authentic Polish grilled kielbasa, potato and cheese pierogis, and meat pierogis. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Old Traditional Polish Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f5fff-4e30-446f-881c-410446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

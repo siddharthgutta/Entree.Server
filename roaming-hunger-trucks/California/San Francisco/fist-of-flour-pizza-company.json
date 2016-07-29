@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fist of Flour is a mobile wood-fired pizza company specializing in Catered events, private parties, and more! Our pizzas, subs & salads are made from the finest ingredients available, featuring local, organic produce, humanely-treated animal products, and quality cheeses. All of our dough, sauces, sausage, and meatballs are prepared from scratch each week. We hand pick, slice or chop every topping in house.To read about James Whitehead's journey from pizza seeker in 2009 to pizza maestro today with his own handmade mobile clay pizza oven, check out the Roaming Hunger blog post here: http://roaminghunger.com/blog/8339/fire-up-the-oven",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fist of Flour Pizza Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2317/545d118e-5170-4ebe-ae6e-0bf946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

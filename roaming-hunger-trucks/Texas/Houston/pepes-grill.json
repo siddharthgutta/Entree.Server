@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pepe's Grill serves extraordinary Latin American foods at a reasonable price and offers a unique opportunity to experience the flavors of regions from Houston to Honduras.What sets us apart from other food trucks is our authentically delicious menu that incorporates a modern twist on American and Latin American favorites. Each dish is prepared with spices and seasonings that are tasted in every bite. The ingredients are always fresh and our service is always friendly and inviting. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pepe's Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538fcfa6-bb6c-40fa-8444-415846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

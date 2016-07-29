@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "INDIAN + THAI + CHINESE = TAIPAN FUSION! Enjoy your favorite Thai and Chinese dishes cooked in Indian spices at this delicious and inventive truck. Try out the Imperial Fish in Chili Sauce, or the Szechwan Fusion Chicken. And don't miss out on the Taipan Fried Rice!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taipan Fusion Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54346a43-5860-4672-8e38-6d0646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

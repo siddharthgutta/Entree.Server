@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Foxy Falafel is serving up amazing hand-crafted falafel, cooked fresh to order. Your options include Foxy (your traditional falafel), Curry (with Indian spices added to the mix), Beet (with ground beets added in), or Stoplight (all 3 flavors in one!). You can also get turkey gyros, turkey shawarma, lamb burgers, and much more at this fantastic truck, all local, organic, and sustainable as much as possible.Come by today to get a little Foxy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Foxy Falafel",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1170/5716b6c3-a1ec-40e7-b77b-655746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taqueria Miguelito is mixing it up in Maryland with their delicious Mexican menu. Their tacos, burritos, tortas, and more are all filled to the brim with fresh veggies and grilled marinated meats. Each bite is absolutely packed with flavor and you\u2019re sure to love everything you eat at Taqueria Miguelito. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria Miguelito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5769b9a6-f2b0-4bd8-bd03-2e7646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

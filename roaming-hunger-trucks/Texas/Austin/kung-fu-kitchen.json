@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kung Fu Kitchen is an Austin truck serving authentic Vietnamese street food with the skill, discipline, and grace of a Kung Fu master. The menu includes Bun Ga Nuong, Spring Rolls, and much more, and is sure to please any palate. So stop by and grab a delicious bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kung Fu Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546e78f9-4290-4f5e-b678-480c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

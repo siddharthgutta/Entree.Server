@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dan's Deli 41 is bringing the best deli-style street food right to you on the streets of Columbus! Burgers, hot dogs, and more, all served with their signature grilled mozzarella! Great taste and fantastic value, Dan's Deli 41 is fantastic food just for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dan's Deli 41",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f24ea-4bbc-4191-8316-2b0846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

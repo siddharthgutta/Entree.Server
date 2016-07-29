@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Genuine New England cuisine is roaming the streets of Ohio! Boston Bert's Seafood is bringing that East Coast expertise to your plate and serving up the very best seafood around! Whether it's the shrimp basket, fried shrimp po' boy, beer batter fish & chips, or anything off of their amazing menu, you can be sure that every visit to Bert's will be a fantastic one!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Boston Bert's Seafood",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5536ddff-d0f8-4228-9ad7-05c646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

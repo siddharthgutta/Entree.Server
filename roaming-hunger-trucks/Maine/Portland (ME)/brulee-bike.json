@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Br\u00fbl\u00e9e Bike is bringing fantastic French dessert to the streets of Maine! Creamy custard with a perfectly caramelized top is a delicious dessert you'll love from the very first bite. Don't miss this terrific treat, visit the Br\u00fbl\u00e9e Bike today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Br\u00fbl\u00e9e Bike",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This Portland cart is known for serving up heaping portions of piping hot Indian curries over a bed of Basmati Rice. They also include a giant doughy naan to perfectly complement your meal. Local favorites include their Shahi Paneer, Paneer Tikka Masala and Lamb Vindaloo. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Real Taste of India",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524cb170-317c-43d7-8398-465a46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

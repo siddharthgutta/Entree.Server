@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Feedback is making the most of your lunch break, with a menu of amazing meals you'll never forget! If you love the savory taste of freshly made grilled cheese, then this food truck is sure to be your new favorite eatery. Grab something great, like the Classic Rock Grilled Cheese, War Pigs, Philly Collins, and more, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Feedback",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5621804e-9e1c-4fcc-ac83-785246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

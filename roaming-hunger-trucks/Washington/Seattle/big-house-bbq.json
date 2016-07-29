@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Slow smoked BBQ isn\u2019t something you just fall into. It takes years of practice, trial and error, and countless hours spent beside the smoker. The Big House story is a testament to the dedication it takes to do BBQ the right way. Now, after 25 years of practice, Big House is ready to offer this perfection to you.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big House BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54138352-137c-465a-ac40-5f0746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

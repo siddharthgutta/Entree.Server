@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rickshaw Stop food truck serves traditional Pakistani street food for all of the fans of Boardwalk on Bulverde. We are 100% HALAL!Offering Beef Bihari & Chicken Boti Tikka kebabs along with Beef & Chicken Samosas, Rickshaw Stop will have you second-guessing whether you are in San Antonio or if you've been teleported to an authentic street vendor in Karachi!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rickshaw Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e0e2ab3-8078-4f34-9b8d-055a46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

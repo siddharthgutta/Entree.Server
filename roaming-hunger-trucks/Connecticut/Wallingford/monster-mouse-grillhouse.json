@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Monster Grillhouse is a unique and mobile concession stand in Wallingford, CT.  Monster Mouse specializes in fresh, made to order gourmet grilled cheese sandwiches, fresh tomato soup, and tempura fried cheesecake sticks with dipping sauces. They use fresh ingredients, quality cheeses, bakery made breads, and a lot of love and humor. From their \u201cchildhood comfort\u201d grilled cheese to their more adventurous specialty sandwiches Monster Mouse invites you to try them all. Remember, it is every person\u2019s individual responsibility to \u201d Give Cheeze A Chance!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Monster Mouse Grillhouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e8851c-36fc-498d-9c41-4a9d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

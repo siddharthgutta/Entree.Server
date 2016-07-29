@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cafe Ybor is a food truck based in Austin, Texas, serving freshly-made gourmet pressed sandwiches, soups, salads, and desserts. Check out the Spanish Bean Soup, the hot-pressed Ybors, or the delicious Miami sandwich. And don't miss the 'Nanna bread for dessert!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cafe Ybor Food Bus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8074/54a2b08f-096c-4bda-8923-07a046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Melts My Heart Truck feeds San Francisco delicious cheesy sandwiches. Their featured sandwiches truly take grilled cheese to the next level. The gourmet creations, such as The Catch, which is made with Alaskan Salmon, and Pizza My Melt, made with pepperoni and toasted garlic bread, are a unique spin on traditional grilled cheese. All of Melts My Heart Truck sandwiches are made with love, and served with dipping sauce and a side of chips.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Melts My Heart Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d4cfad-2a48-45d4-879a-447d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

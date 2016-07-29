@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Italian street food is right around the corner and waiting for you! La Pizza Fritta is bringing quality mobile cuisine to the streets of Connecticut. With fresh, fantastic tastes that you'll swear were here from the heart of Italy, this is one food truck you can't miss!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Pizza Fritta",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559efb96-cb30-4b4f-99f0-4dfa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

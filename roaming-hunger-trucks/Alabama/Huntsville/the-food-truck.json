@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The number one name in mobile cuisine is roaming the streets of Alabama, and it's coming right to you! The Food Truck is cooking up some delicious steak burgers, steak tacos, steak fries, and so much more for your eating pleasure. Serving up great food and great times, The Food Truck is the perfect way to get some grub on the go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ba8378-8ce8-4ccb-8a5c-6dd546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

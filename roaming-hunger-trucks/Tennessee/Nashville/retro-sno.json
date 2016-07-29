@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hello Nashville!Welcome to Retro Sno, Nashville's Original Shaved Ice Truck!We serve shaved ice, or as we like to call them, Snoballs. If you've never heard of a Snoball, it's like a snow cone, but WAY BETTER!!! Snoballs are shaved from a block of ice. This method produces ice that tastes like freshly fallen snow! We then add syrups that we mix ourselves, containing NO HFCS and quality PURE CANE SUGAR.Our favorite part is creating unique, fun flavors such as Vanilla Toasted Coconut, Chocolate Covered Cherry, Mango Pineapple, Strawberry Lemonade, and many more! We have a revolving menu, and we love requests from our customers!There's almost NOTHING better than a Snoball on a hot summer day. Come get some SHAVED ICE!!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Retro Sno",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/506e168c-3a6c-498d-ab1d-72c646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

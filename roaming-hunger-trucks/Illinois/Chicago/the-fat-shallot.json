@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Searching the streets of Chicago for a tasty sandwich? - Try one of the yummy creations at The Fat Shallot! Whether you're in the mood for a sharp cheddar grilled cheese, or braised pork shoulder on a french roll, the Fat Shallot has got you covered. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Fat Shallot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51b3b28b-2ec8-4451-8dae-47c546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

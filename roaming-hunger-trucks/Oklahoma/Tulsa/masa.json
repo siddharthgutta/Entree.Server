@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MASA is here to bring a Latin food infusion to the Oklahoma street food scene! This truck is bringing you South American flavor in gourmet mobile style, and you won't believe what delights you'll find on the menu. If you're after the best empanadas, arepas, bacon bombs, and more, then keep an eye out for MASA on a street near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Masa",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11966/56da1385-cd54-4535-9ab7-4ba446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

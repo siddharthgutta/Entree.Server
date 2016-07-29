@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "With some of the finest sandwiches, wraps, and BBQ kielbasa in all of North Dakota, Chef Mobile will never let you down.Feeding flavorful eats to the community is this food trailer's goal, and we're sure you'll agree that they succeed with flying colors. From the Walleye Wraps to the Cajun Chicken Sandwich to the BBQ'D Kielbasa Sandwich, Chef Mobile has something for every appetite.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5744ba09-7bd0-4271-8c85-725546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

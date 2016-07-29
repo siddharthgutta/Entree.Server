@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The chefs at Mo\u2019Rockin Fusion are bringing their extensive experience from cooking in Boston\u2019s best restaurants, straight to the streets of Quincy. Everyone is just lovin\u2019 their deliciously creamy hummus, juicy lemony chicken, fluffy and fragrant rice, and so much more. So come on out and rock your palate with the amazing mix of Mediterranean, Middle Eastern, and Moroccan cuisines that they\u2019re cookin' up over at this marvelous truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mo'Rockin Fusion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/574f10b4-be44-4f6a-a7f1-717346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

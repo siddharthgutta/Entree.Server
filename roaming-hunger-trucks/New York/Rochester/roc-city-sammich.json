@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roc City Sammich is serving up a traditional Pittsburgh style delicacy. Fresh Italian bread topped with melted provolone cheese, french fries, sweet cole slaw, and your choice of protein. Meat options include pastrami, philly steak, angus burger, panko pork tenderloin, chicken breast, or panko eggplant for the veggie lovers. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roc City Sammich",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e7f81-118c-4258-bdac-0aa446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

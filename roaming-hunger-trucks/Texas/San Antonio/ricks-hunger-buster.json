@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rick's Hunger Buster brings Philly Cheesesteaks, Burgers, Pitas, and more to the streets of San Antonio! East Coast meets Left Coast here in the south, so don't miss out on these great options! The tastiest sandwiches you'll get around!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rick's Hunger Buster",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52a4f3c5-0c08-4f20-979b-659346204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

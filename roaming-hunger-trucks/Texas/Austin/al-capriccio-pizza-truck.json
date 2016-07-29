@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Al Capriccio Pizza Truck serves up thin crust NY style pizza, with fresh ingredients and the biggest slices in Austin! They boast the carry biggest selection of toppings, encompassing traditional Italian toppings, gourmet toppings, and new American-style toppings. Don't miss your chance to try out Austin's favorite pizza truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Al Capriccio Pizza Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9551/5536f473-4a58-4c77-829b-054546204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

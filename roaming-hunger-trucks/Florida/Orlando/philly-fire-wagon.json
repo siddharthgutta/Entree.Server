@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everyone loves the Philly Cheesesteak at Philly Fire Wagon! Orlando can't get enough, and you won't be able to either. Try their nachos or their waffle fries if you're not in the mood for cheesesteak- you'll be just as fulfilled!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly Fire Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11603/55f1ead1-84c0-4fe0-b8e1-633446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

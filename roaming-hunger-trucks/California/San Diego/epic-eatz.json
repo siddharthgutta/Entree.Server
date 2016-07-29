@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Epic Eatz is serving delicious Baja tacos, quesadillas, Cali burritos, and more to the San Diego streets. From the Surf & Turf Burrito to the Epic Nachos, these eats will bring your food experience up to a whole new level! Stop by this great truck, or bring it to your next event and make it that much more epic!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Epic Eatz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f643414-8c4c-48cb-a5c5-3ed946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

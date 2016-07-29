@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Really Good Food. It's what we do.The Bistro Box is an upscale food truck hitting the streets of Renton with Kobe beef & coconut chicken sliders, toasted panini, flat breads, French dips and hand-cut French fries.The secret is in the sauce. We spread the culinary love with our own Fresh Plate condiments",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Bistro Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ea0e69c-a188-4691-a033-7aae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BarisGo is bringing you the best freshly brewed coffee on the streets of Bloomington! This great truck offers beverages made from their hand-selected, locally roasted coffee beans that you're sure to love. With their espresso, pastries, and caffeine-free menu for the kids, BarisGo Coffee is serving up something for you, whatever your taste!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BarisGo Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f2ffb5-b8c0-49d8-b955-53c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

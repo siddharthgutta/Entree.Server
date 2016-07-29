@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rollin' Ruby's has all the comfort food and classics you need on wheels! Come try their Grilled Pimento sandwich or their Benedictine sandwich, and don't forget to check back for their daily specials. Stop by Rollin' Ruby's for a great meal on the go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin' Ruby's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562693e8-ee78-43e6-a0c8-47cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

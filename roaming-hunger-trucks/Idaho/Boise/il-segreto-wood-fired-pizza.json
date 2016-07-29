@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A pizzeria one the move is heading right to you, bringing you the wood-fired flavor you've been waiting for! il Segreto is serving up delicious pizza unlike any you've had before. Order a tasty personal pizza topped with the best ingredients and made on the spot for a taste of that old-world quality at il Segreto today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "il Segreto Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ba9352-6ca4-465e-aa83-224046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

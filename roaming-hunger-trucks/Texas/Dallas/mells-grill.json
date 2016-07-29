@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taking your traditional Texas taste and giving it a modern mobile twist, Mell's Grill is serving up just what you need! Pulled pork, fried chicken, and catfish are all just the start when it comes to this truck's menu. This is serious food that's ready to feed you, body and soul, so sink your teeth into something from Mell's Grill!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mell's Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56e9d3b5-8f84-48a8-b816-04ba46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

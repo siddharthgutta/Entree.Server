@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Gastr\u00f3nomo Vagabundo is a new take on international street food, offering Niagra Falls a continuously changing menu of globally inspired gourmet cuisine. Lovingly nicknamed \u201cEl Gastr\u00f3\u201d by its fans, the menu features gourmet tacos, tapas, southeast Asian dishes, and garden fresh salads.Globally inspired and locally driven, El Gastr\u00f3nomo is committed to being environmentally and socially responsible, using eco-friendly and biodegradable products.  Ingredients are sourced from local organic and free range farms, as well as local independent suppliers.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Gastr\u00f3nomo Vagabundo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522fbddd-e868-4b71-b27b-731446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

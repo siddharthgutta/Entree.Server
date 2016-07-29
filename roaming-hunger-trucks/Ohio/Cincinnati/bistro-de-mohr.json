@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bistro de Mohr is an eclectic Food Truck. We offer a variety of sandwiches from vegetarian selections, Hamburgers/Cheeseburgers; Pork, Lamb, Goat, Duck or Rabbit Sausages; to entrees with sustainably raised products.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bistro de Mohr",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553683df-3ce8-44e5-ba29-5f2346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

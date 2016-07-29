@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Augusta\u2019s Subs & Salads, the Billerica Restaurant that you have loved for over 25 years is taking our \u201cChicken on the Road\u201d!Come get our famous Chicken Bites and Chicken Subs, with delicious sauces ranging from honey mustard to chipotle mayo. Or go for a great chicken salad!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chicken on the Road",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50a29c71-3178-4684-8598-1bf846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

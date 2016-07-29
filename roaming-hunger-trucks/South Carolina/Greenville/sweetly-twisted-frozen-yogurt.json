@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweetly Twisted Frozen Yogurt brings the fun of a self-service yogurt shop outside! A rotating selection of classic and seasonal yogurt flavors and 20 different topping means you can have something new every visit. Get your calcium and vitamin D and have fun at the same time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweetly Twisted Frozen Yogurt",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5537d6ff-2500-4c31-90c7-0c5f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

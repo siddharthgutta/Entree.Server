@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ricewood is bringing you BBQ and bowls you won't believe! A taste of the Pacific Islands collides with American BBQ for an intense fusion of flavors you can't miss. There's nothing like expertly made BBQ with freshly cooked rice and a side of marinated cucumbers to make you really appreciate your lunchtime experience! Don't miss out, visit Ricewood today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ricewood",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ca6770-3838-4ee9-a0c4-7f5846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

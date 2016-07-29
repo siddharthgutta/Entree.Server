@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Model Chef Food Truck is serving up healthy and delicious comfort food all over the Chicago area. Their menu contains a wide variety of items from chicken crepes and beef pot roast to lettuce wraps and sweet potato fries. The truck has a new dish every week, so come prepared with an appetite for a great gourmet dish!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Model Chef Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539d3707-4958-478a-9ae7-6fd846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

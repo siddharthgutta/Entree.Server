@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Made to order burgers, hand crafted sandwiches and fried goodness all made from locally sourced ingredients in our state of the art truck.Enjoy your meal in casual comfort.  Outdoor seating,  clean public restroom with hand sink, live entertainment on occasion and a family atmosphere.  Shop the Legacy Boutiques while enjoying your meal.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Griddlez Roadside Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9443/555e0f76-baa0-45f5-bb51-374346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

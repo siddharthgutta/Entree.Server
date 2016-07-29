@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pennsylvania's premier gourmet cupcake van is baking up the best little treats to serve on the streets! Each bite from Jimmies Cupcake Company is so good, you'd swear your grandma made it herself. The homemade taste. friendly service, and good times will be sure to bring you back to Jimmies over and over again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jimmies Cupcake Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55807178-6c68-4cc2-b8e2-675a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

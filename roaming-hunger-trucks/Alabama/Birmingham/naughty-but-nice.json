@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kettle corn with a kick is just what Birmingham has been waiting for! Naughty But Nice is crafting confectionery delights out of their small kernels, and you're sure to love it. Try the cheddar, cinnamon, or any of the other delicious flavors that are ready and waiting for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Naughty But Nice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5660d858-ecc0-437d-b2b8-51ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

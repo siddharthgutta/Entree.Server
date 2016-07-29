@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving the Houston community since 2012, Nom Mi Street dishes up delicious Vietnamese sandwiches, tacos, quesadillas, gyros, and one amazing hash brown melt.  We promise you will fall in love with our food. We can't wait to see you out on the streets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nom Mi Street",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52fd4b31-44f8-4603-b9a6-38c646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

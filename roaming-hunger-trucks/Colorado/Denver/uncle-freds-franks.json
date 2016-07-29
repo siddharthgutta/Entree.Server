@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Uncle Fred's Franks are making hot dogs mobile in the Denver area. His mission is simple: Provide you with one of the best hot dogs you have ever eaten. There is quite a variety to choose from, everything from kielbasa and spicy hot links to chicken sausage and buffalo brats.  You can also add bacon to any dog, and a laundry list of condiments including sririacha, sauerkraut, and a house made honey habanero sauce.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Uncle Fred's Franks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50e79704-f18c-4bfe-81e3-07b346204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

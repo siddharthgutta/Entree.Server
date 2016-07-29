@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The NY Slice Truck serves authentic NY style Pizza from a Food Truck! You fold our Pizza. Great Salads, Chef made breadsticks, & Classic homemade NY cheesecake.WE DELIVER to Downtown 11am-1pm and 6pm-9pm....and DELIVER to Irvington/Emerson Heights 6pm-9pm",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "NY Slice Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ea9c737-6068-4704-9097-31cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

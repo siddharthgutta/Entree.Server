@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We're serving up quinoa bowls loaded with layers of tangy sauces, fresh organic veggies and free-range chicken from our mobile food cart. The menu is 100% gluten free and can be customize to suit your dietary needs. We use mostly organic and non GMO ingredients, local free range chicken, and high quality cooking oils.Energize your body with a quick and healthy lunch at Seattle's newest food cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "I Love My GFF",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50941a31-7c78-4921-87ef-042446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Charleston's number one name in organic, all natural food and drinks is making its way to you today! From their juice to their smoothies to their superb selection of snacks, this food truck is bringing you all the healthiest ways to fuel your day. Fresh, delicious, and nutritious, Blend Juice Bar is everything you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blend Juice Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b91d51-9dfc-4cdf-b19a-78a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rovey's is on a mission to serve you heart-healthy alternatives to all your favorite dishes with their ultra-lean turkey based cuisine! Take care of yourself with their delicious burgers, hot dogs, tacos, and more! Eat what you like responsibly with Rovey's! Your heart will thank you later.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rovey's Heart Healthy Turkey Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9970/56296ee4-0628-4fee-ab2e-351d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

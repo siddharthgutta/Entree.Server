@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kingsland Kitchen is cooking up an amazing menu for you to sink your teeth into! Superb sandwiches that call back to their British heritage are being made fresh every day to satisfy your hunger. Don't miss out on these amazing meals or this fantastic food cart, try Kingsland Kitchen today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kingsland Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561bde29-140c-4dbd-9b4b-6cf946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

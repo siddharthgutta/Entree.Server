@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Coffee Priest is brewing up the best beverages North Carolina's ever had! This is more than just a coffee cart, it's an amazing vendor bringing you fantastic service and all the delicious drinks you've been dreaming of. If you want gourmet coffee, tea, smoothies, and more, confess your desires to The Coffee Priest!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Coffee Priest",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55aebe47-640c-414f-a223-393646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

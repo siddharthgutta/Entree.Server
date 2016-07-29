@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dang Brother is proud to bring authentic, wood-fired pizza to all parts of San Diego via our carefully reconstructed, 1974 American La France yellow firetruck.Imported straight from Italy, our oven is built right into the back of our firetruck and cooks a perfect Neapalitano pizza in 2 minutes with its 800+ degree surface. The result is a thin crusted, bubbly pizza (full of fresh, organic ingredients) that is absolutely melt-in-your-mouth delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dang Brother Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4924/56049a2a-d664-4454-8d37-357946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

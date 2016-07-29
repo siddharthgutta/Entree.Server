@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oh Mylanta! Atlanta Seafood Company is quite the culinary catch with their fantastic cuisine from the sea. You\u2019ll be hooked on the amazing food they\u2019re cookin\u2019, like their Cajun Wings and Collard Greens. And whether you prefer your catfish, salmon, and shrimp grilled or fried, you are sure to be very satisfied.  Come catch your next delicious fish fix at Atlanta Seafood Company!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Atlanta Seafood Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f5ba9a-ed84-4eb4-8f69-28df46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

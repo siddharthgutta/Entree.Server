@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's nothing better on a sunny California day than some Real Cool Frozen Treats! If you're after ice pops, ice cream sandwiches, and good times, then this is the cart you've been waiting for. Snickerdoodle-Strawberry Ice Cream Sandwiches, Cucumber-Lime Cooler pops, and so many more amazing flavors are ready and waiting to satisfy your sweet tooth!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Real Cool Frozen Treats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562695f8-3c5c-411c-85ad-538246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

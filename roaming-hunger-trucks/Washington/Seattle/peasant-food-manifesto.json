@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Peasant Food Manifesto is a Seattle-based food truck serving globally-inspired fusion dishes. Vietnamese, Korean, Israeli, Tunisian, and American influences have all gone into this truck's fare, and whatever the choice, you're sure to have a mouth full of the world. Global fusion food: Because we're more alike than we think.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Peasant Food Manifesto",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419dbf0-1d8c-4ab0-b9bd-26c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

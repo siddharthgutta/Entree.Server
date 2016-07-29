@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a mobile food concession company selling hamburgers and hotdogs, chili cheese fries, chicken strips, nachos, corn dogs and elephant ears at events all across Washington State.Big Daddy's is now doing Corporate events and Company picnics with fair food in mind. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Daddy's Concessions",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8010/5462e3a1-132c-43fa-82a1-5aa146204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

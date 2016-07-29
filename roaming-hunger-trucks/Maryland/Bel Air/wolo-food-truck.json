@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "WOLO stands for We Only Live Once, and they consider themselves the pioneers of the food truck revolution in Harford County, MD. Most focus on a particular type of food but in WOLO's case they are not cuisine specific so the food literally has no limits. Menu items range from several different house made soups to sandwiches of all sorts, and gourmet dinner entrees including everything from meatloaf to flounder.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "WOLO Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50fdc32b-0cd4-4e8e-9f70-58e146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New York style pizza with Rocky Mountain sensibility--you'll never find anything better! Rocky Mountain Pizza is bringing your favorite cheesy meal to a street near you. Whether you're looking for a slice or a whole pie, this truck has something that is sure to perfectly satisfy your cravings! The Godfather, Caprese, and Supremo are just the beginning here, so visit this amazing truck for an eating experience you'll always remember!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rocky Mountain Slices",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f0aec3-f0f8-4a92-9e8e-269746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

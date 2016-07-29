@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Firehouse Grill is a great truck serving up hot dogs, burgers, and delicious sandwiches to the Monroe area. If you're looking for a great Cheesesteak, Chicago Fire Sub, Eggplant Parmigiana Grinder, or another hearty meal, stop by Firehouse Grill! Ready to save you from your hunger emergency today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Firehouse Grill Food Rescue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55031323-3738-443e-b2fb-325b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

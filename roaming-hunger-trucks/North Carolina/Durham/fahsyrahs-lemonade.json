@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nostalgic for the lemonade stands of the past? Well now you can travel back in time with the Fahsyrah's Lemonade stand! Maybe the lemonade doesn't cost 10 cents anymore, but the great refreshing taste hasn't changed a bit! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fahsyrah's Lemonade",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522fc784-4d40-41a9-b73f-06ee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

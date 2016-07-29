@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Portland foodies in the mood for classic Mexican love going to the Quesabrosa cart. All menu items are fresh and made to order. Fan favorites include their giant burritos (filled with rice beans, guac, cheese and your choice of meat) and their carne asada plate featuring tender chunks of juicy beef. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Que Sabrosa Mexican Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524cb683-ae44-4eaa-a122-4cb446204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We provide concession style foods in the Albuquerque area out of a mobile food trailer.  Our specialty is New Orleans Style shaved ice with a multitude of flavors.  A sugar free option is also available upon request.  Cream toppings for added flavor are also available.  The shaved ice machine is also portable and battery operated and can be transported to precise locations with minimal available space.  We also serve many other menu items, including nachos, hot dogs, popcorn, cotton candy, coffee, and much more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "TeddyLu Concessions",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8435/54d03c6c-5528-4f30-9aff-0da946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

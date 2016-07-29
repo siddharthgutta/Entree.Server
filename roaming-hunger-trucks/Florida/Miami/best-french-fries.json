@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Best French Fries serves Belgian-style french fries in a cone, with a choice of 20+ dipping sauces. The dipping sauces include such eclectic flavors as wasabi ginger, tikka masala, ancho chile lime, sriracha sour cream, tex mex and more. Plus we serve dessert fries such as funnel cake fries \u2014 Yukon Gold potatoes drudged in powdered sugar, served with your choice of chocolate, marshmallow, peanut butter or caramel apple dipping sauces.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Best French Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5058b7a3-9ae4-4a18-841b-245846204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

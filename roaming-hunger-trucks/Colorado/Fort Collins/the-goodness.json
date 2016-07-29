@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Goodness is a mobile food truck that first opened its panels June of 2013. Its operators focus on bringing you the freshest, most local ingredients prepared in unique combinations that are sure to please. All of the sauces, dressings and rubs are made from scratch and much of the  produce is picked right off the farm. Each menu item is cooked to order ensure customers the freshest experience possible. These factors come together beautifully, creating delicious Goodness for your taste buds that you can feel good about.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Goodness",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541a264c-e5e8-4ad2-8d8a-7f3b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

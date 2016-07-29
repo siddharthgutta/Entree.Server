@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bebo's American Bistro is cooking up the finest street food in all of North Carolina! This is quality comfort food, with a terrific mobile twist. Serving up Po Boys and Mac & Cheese like you've never seen before, Bebo's American Bistro has fantastic flavor to feed any need! If you love good food and good times, then this is sure to be your new favorite food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bebo's American Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562a7599-3748-423a-935b-648d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The folks of Klamath Falls have absolutely fallen for the deliciously fresh and Southern fried selection that they\u2019re serving over at the Chick \u2018N\u2019 Dish truck. This talented and passionate team uses only fresh (never frozen) locally sourced chicken to create their incredibly tasty dishes. You simply must try their Boneless Chick \u2018N\u2019 Fritter Basket, or the BBQ Chick \u2018N\u2019 Quesadilla, or Smothered Chick \u2018N\u2019 Biscuit, fresh buttermilk biscuit topped with your choice of smotherings, including Fried Chicken & Country Sausage Gravy. Oh, and for dessert? How about the local favorite and ever-so-famous Banana Puddin\u2019...If your mouth is watering (which, you know, it probably is), then you just gotta get yourself over to Chick \u2018N\u2019 Dish quick. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chick 'N' Dish",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5755f6f2-e00c-4df0-b9d1-4c5046204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

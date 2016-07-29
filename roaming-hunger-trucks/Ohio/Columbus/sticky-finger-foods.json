@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic local fare is rolling down the streets of Columbus, courtesy of Sticky Finger Foods! Bringing a love of food, coffee, and fun times, Sticky Finger Foods will never disappoint. For the best food and best time on 4 wheels, Sticky Finger Foods is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sticky Finger Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b29750-6220-4c96-b599-330e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

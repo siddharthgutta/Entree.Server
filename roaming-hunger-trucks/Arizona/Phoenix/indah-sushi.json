@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "INDAH is serving up the most amazing sushi you'll ever find! Hitting the Phoenix streets and taking them by storm, this superb street food truck is serving up all of your favorites. For Asian Tapas, Sushi Rolls, and good times, there's nobody better than INDAH Sushi!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "INDAH Sushi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13158/56785af0-1ed0-4059-b709-145746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

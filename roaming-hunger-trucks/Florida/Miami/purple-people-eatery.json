@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Purple People Eatery is a Miami-based food truck specializing in fresh, freaky street food. It was built in late 2010 in Mississippi, home of Head Chef David Shipman\u2019s father. The name comes from an old film featuring a one-eyed monster with a horn. The menu, designed by Shipman and Duncan, pays homage to the film: each item represents one facet of the beast. From buffalo burgers to Mexican Coke, they offer a take on gourmet food found nowhere else in the Miami food truck scene. The purple truck debuted on February 19, 2011, and is already well on its way towards becoming a local icon.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Purple People Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dbb0031-d994-4f19-9d8e-2d8146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

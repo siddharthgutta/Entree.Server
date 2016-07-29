@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Abe's Flavor Flave is a delightfully unique truck serving Mexican street tacos and gyros to the Dallas streets. Grab a tasty taco, quesadilla, or torta, or have yourself a yummy gyro! Don't miss out on one of these tasty bites.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Abe's Flavor Flave",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5792aa23-96e4-47fe-b806-5d0746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grill Billies is Detroit's gourmet food trailer cooking up the finest Halal barbecue and grilled cuisine this side of the Mason Dixon line! With meals that utilize turkey chorizo sausage, scrambled eggs, Halal beef bacon, veggies, tomato jam, and more, this truck will not disappoint! Check it out today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Grill Billies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546a85c3-47f0-434b-a31a-268046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

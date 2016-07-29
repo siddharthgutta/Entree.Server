@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Come on over to Aloha Fridays for a delicious taste of island life!This tropical truck is serving up authentic Hawaiian dishes like golden and crispy Chicken Katsu, plump Garlic shrimp, slow-cooked Kalua Pork, and much more. Of course your meal is not complete without the authentic sides of white rice, macaroni salad, and a fresh green salad. If you\u2019re craving beautiful food from a beautiful place, come out to this truck and say \u201cAloha!\u201d",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aloha Fridays",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578e557c-164c-4c45-8743-451d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

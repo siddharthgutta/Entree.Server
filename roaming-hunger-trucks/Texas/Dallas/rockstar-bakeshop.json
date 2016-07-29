@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rockstar Bakeshop is a mobile gourmet dessert truck specializing in whoopie pies and other delicious treats. Flavors change daily. Special orders and catering available! Find us on the streets of Dallas or book us for your next party. Turn the flavor up to eleven!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rockstar Bakeshop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5790f6d3-ddf4-40b0-8a3d-3e2c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

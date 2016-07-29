@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "I scream, you scream, we all scream for Mik Mart Ice Cream!Family-owned and operated, Mik Mart Ice Cream is bringing you the best frozen treats to delight your sweet tooth! Great for any event, Mik Mart Ice Cream is ready to make your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mik Mart Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11026/571698b1-efc4-48da-bea7-72fb46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

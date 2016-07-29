@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best Italian food in Indianapolis? Well you're in luck, Simeri's is bringing it right to you with their fantastic food truck, Simeri's On The Street! Rich flavor, fun atmosphere, and good times are all on the menu tonight, with Simeri's On The Street!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Simeri's On The Street",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f1ea1-71c8-4cdb-95f8-38c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

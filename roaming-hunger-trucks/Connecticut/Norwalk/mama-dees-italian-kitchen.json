@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mama Dee's Italian Kitchen cooks up your favorite Italian comfort foods on the go! Fresh, local and high quality ingredients and a neighborly feel is what you'll find here. Using her mother's recipes for inspiration Mama Dee serves authentic, fresh and delicious food from the heart.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama Dee's Italian Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5547df6c-1454-43d8-98c1-6fa246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

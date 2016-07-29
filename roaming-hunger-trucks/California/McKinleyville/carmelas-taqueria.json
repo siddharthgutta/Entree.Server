@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Carmela's Taqueria has taken the show on the road with their fantastic food truck. Fantastic Mexican cuisine on the streets of McKinleyville is an awesome treat when you're on the move. Tacos, tortas, and so much more: Carmela's is cooking up all the amazing food you love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carmela's Taqueria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560c3df5-8198-44a7-b716-6e9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

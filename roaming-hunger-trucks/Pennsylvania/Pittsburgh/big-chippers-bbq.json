@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Chipper's BBQ was born from the love of competitive cooking by Chip himself. Going from competitive chili cooking to competitive barbecue made Chip think he could make a successful food truck with his award winning BBQ - and he was right! Stop by for pulled pork, brisket, pulled chicken and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Chipper's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5552358a-06dc-4321-af38-0eba46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

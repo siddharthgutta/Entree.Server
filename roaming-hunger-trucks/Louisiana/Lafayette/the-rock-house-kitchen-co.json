@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Rock House Kitchen Co is here to send your taste buds into a frenzy! Taking classic American favorites and giving them a gourmet twist is what sets this truck apart. Everything from the burgers, fries, sandwiches, waffles, and more have been made with the highest quality and the greatest skill in the business. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rock House Kitchen Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d5cf3-676c-4fdd-b1ec-299d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

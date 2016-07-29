@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Top Nosh is a great truck serving tasty food inspired from cultures around the world, from tacos to banh mi, to the streets of Fort Worth and beyond. Check out the Tacos Chinos, and don't miss out on the Gourmet Sloppy Joe. Stop by and grab a meal!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Top Nosh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5474f1ea-3884-499b-aa45-519e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

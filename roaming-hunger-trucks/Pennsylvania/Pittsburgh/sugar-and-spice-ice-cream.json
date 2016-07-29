@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sugar and Spice is bringing everything nice about ice cream right to you! Taking their decades of experience to the streets so you can get the best ice cream in town on the go, this ice cream truck is here to serve you something amazing. For the best cones, sundaes, milkshakes, and all the flavors you could ask for, Sugar and Spice is the ice cream truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sugar and Spice Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e4d8a4-67a0-4e7f-8ded-116946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

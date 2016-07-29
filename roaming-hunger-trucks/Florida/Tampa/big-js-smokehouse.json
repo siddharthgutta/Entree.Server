@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big J's Smokehouse is a truck serving up delicious BBQ eats to the Tampa area. From BBQ fried rice and pulled pork sandwiches to smoked shrimp and a signature macaroni & cheese, this truck has something that fits your taste buds! Check it out today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big J's Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54873ea7-ef64-4309-8876-6e6a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

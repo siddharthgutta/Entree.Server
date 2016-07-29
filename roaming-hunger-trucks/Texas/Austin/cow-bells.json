@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cow Bells is making noise in Austin with all different kinds of burgers: beef, turkey, black bean, and sliders. Cow Bells is taking time to prepare your burger to make sure it's the best you've ever had! It starts with fresh ingredients and attention to detail to ensure a delicious, tasty meal.Specialty burgers imported from heaven served with great sides and drinks = very yummy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cow Bells",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5237b8b6-3b20-4c70-b9fa-415046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

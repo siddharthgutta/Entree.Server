@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Appalachian Smoke is a delicious BBQ trailer run by an experienced and skilled BBQ competition team, serving only the best smoked meats to the Asheville area. Try the amazing pulled pork, brisket, ribs, and delicious southern sides. Don't miss a bite of this great food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Appalachian Smoke BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f4bd4c-c6c0-4ec9-a65a-4e3f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

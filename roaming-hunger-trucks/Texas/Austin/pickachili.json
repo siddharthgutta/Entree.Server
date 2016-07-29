@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Craft chili, just how you like it! Here to make excellent chili available all year round, PickAChili is looking to make sure you can always get something you'll love! Red River Red, Seven Pepper, the vegetarian Bean Counter chili, and so many more delicious dishes are ready and waiting to satisfy your hunger!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PickAChili",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11039/55a6d31d-0cc0-43e1-a7a6-642e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

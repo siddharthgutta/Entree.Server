@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chez Flo is bringing French traditions and cuisine to the streets, taking your ordinary food truck to extraordinary by giving you a little bit of France with every bite. Our food is made with high quality ingredients and each item is as unique as possible. From our Crepes and Sandwiches, Pomme Frites (french fries) to our salads with Flo's Vinagrette recipe that her Mam made every day at home, each item on our menu will be a full flavored French experience like you have never had before.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chez Flo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5474cbc6-2dc4-4ae5-81c9-0b4546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We have gone mobile with our Mardi Gras food truck! We serve up fresh cajun and creole food, representing Louisiana with the best ingredients-from Leidenheimer French Bread and Blue Plate Mayo, to Patton's Hot Sausage and Gulf Coast Shrimp. Follow us and \"Laissez les Bons Temps Rouler!\"Just Loaf\u2019N Poboys and Snoballs Truck is a offshoot of our popular restaurants, which were named Best Cajun by Atlanta Magazine and Best Sandwich by AJC.  We are now literally \u201cLetting the Good Times Roll\u201d in our Mardi Gras food truck, serving our award winning Shrimp Poboys and more on imported New Orleans French bread with our famous Mambo sauce. Laissez les bon temps roulez!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Just Loaf'n",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1569/5631a015-c008-4cc8-bb1e-711846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mobile Mo'Joe Coffee is a fantastic mobile coffee trailer in Asheville, serving locally roasted (Bald Guy Brew) coffee and delicious all-natural New Orleans shaved ice! Stop by for a tasty and refreshing treat when you're hitting the streets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobile Mo'Joe Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f5ea27-9590-498b-bbf1-07b546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

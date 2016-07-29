@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Epic Cure is bringing Kentucky the finest in locally sourced mobile cuisine! With this chef driven menu full of fantastic food from around the world, you're sure to find an amazing meal that's just right for you. Try the BBQ Chicken Tots, Yukon Gold Hash, Buffalo Frog Legs, and so much more today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Epic Cure",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fc6132-6d6c-4cfa-acb5-122246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

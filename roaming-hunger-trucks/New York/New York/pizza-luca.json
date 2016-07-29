@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pizza Luca is a mobile wood fired Neapolitan pizza oven serving the New York area and beyond. Using efficient, aromatic hardwoods in the Napoletana-style oven to impart a unique, delicate flavor, Pizza Luca offers quality pizzas to hungry foodies. Each pizza is made to order by hand, then cooked for 90 seconds in a 900-degree oven to create the perfect raised-edge crust, thin center, and authentic texture and taste other cooking methods can\u2019t replicate.Check out the traditional Neapolitan pizzas and other available menu items!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Luca",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54345c54-e290-4107-80ca-643746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

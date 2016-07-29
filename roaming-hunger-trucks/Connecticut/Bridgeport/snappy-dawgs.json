@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Snappy Dawgs is serving up great street food to the streets of Bridgeport, from breakfast to a variety of sandwiches, dogs, and burgers, as well as tasty sides! Buying lunch doesn't have to be expensive or time-consuming, so head out to the curbside and get a tasty meal to brighten up your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Snappy Dawgs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55031d5d-6190-46f5-8fe1-5fe746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

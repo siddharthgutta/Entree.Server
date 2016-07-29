@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "C'est Tout Bon 2 Eat: It's all good to eat! This is an Atlanta gourmet food truck serving up tasty and varied New Orleans fare. Stop by and try the classic Shrimp po'boy, the delicious Bayou Burger, the crisp n juicy Garden Dog, or find something else to your liking! You won't go unsatisfied, because it's all good!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "C'est Tout Bon 2 Eat",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54861c76-de4c-4fa9-acbf-5c0246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

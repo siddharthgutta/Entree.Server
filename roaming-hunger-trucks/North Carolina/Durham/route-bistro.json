@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burgers and burritos meet on an amazing new food truck in the heart of Durham! Quality food made with a skill and passion for fantastic food, Route Bistro will satisfy your hunger like no other. Serving up some real, delicious cuisine on a curb near you, Route Bistro is bringing you the very best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Route Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11239/56901502-d9f8-4c31-8f41-316c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

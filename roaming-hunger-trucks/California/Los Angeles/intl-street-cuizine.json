@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Int\u2019l Street Cuizine is on a mission to serve LA  delicious foods found from all around this world. With their menu that offers a tasty variety of beef & seafood skewers, as well as a delectably eclectic menu that includes tortas, Korean BBQ, egg rolls, (and so much more), you get an exhilarating taste of a global adventure when you try anything from this super neat truck. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Int'l Street Cuizine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/576178ed-e178-4ce3-bb3c-5aa246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

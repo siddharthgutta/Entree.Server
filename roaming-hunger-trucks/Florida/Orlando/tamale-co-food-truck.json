@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tamale co. food truck was founded in Orlando FL by Fernando and Jennifer Tamayo. Tamale Co. provides the people of Central Florida with an original and traditional assemblage of different flavors in Gourmet MEXICAN tamales offering that fills the void between fast food and slower, sit down dining. We balance craftsmanship and convenience. To achieve thus goal, we create freshly prepared gourmet TAMALES that combine the flavors of a complete meal with the convenience of on-the-go service come join us to unwrap the original taste",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tamale Co. Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54dd0647-dc80-4aab-ab4c-3ca946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

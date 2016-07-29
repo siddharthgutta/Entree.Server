@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Hot Diggity Dog Cart has been in business over 7 years, serving Nathan's all beef hot dogs, Polish Sausage, Turkey dogs, and Veggie dogs! You have the option of 17 different condiments for these tasty dogs, and can even choose chips and a drink to complete your meal.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hot Diggity Dog Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54bedb20-0524-47f6-89d0-4db946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

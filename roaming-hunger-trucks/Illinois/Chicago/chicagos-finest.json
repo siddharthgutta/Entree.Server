@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classically delicious hot dogs in the finest traditions of the Windy City, Chicago's Finest really is bringing you the best! Their homemade sausages, hot dogs, Italian beef, and more are the most savory and delicious way to enjoy a day in Chicago. Onions, pickles, relish, mustard, how do you like your hot dog? However you take it, you know you want it to taste amazing, and Chicago's Finest does that better than anyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chicago's Finest",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5588a03e-a578-4a54-84c6-78f946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Biker Jim's Dogs brings gourmet hot dogs and to the streets of Denver! Check out the Alaska Reindeer Sausage, the German Veal Brat, or, if you're not feeling adventurous enough, stick with your standard Hebrew National Hot Dog. Whatever your choice, it's sure to be delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Biker Jim's Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e068d38-efa4-40a8-ba23-04f146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

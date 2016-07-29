@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best cheesesteaks in or out of Philly are on the prowl on the streets of Florida! Philly's Best Cheesesteaks are serving up hot and fresh cheesesteak sandwiches just for you! Real Philly Cheesesteaks, you just can't get any better than that!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly's Best Cheesesteaks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5563d9fc-d06c-4051-96c5-0ea646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

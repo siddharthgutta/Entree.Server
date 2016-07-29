@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet mobile food truck run by Chef Yayo Jim\u00e9nez & serving authentic & delicious modern Mexican cuisine to the beautiful people of Music City USA. Stop by and have a taste of these delicious tacos, quesadillas, toztadas, and more! One bite and Yayo's will have you saying \"OMG!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yayo's OMG",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7441b8-5364-4da0-9387-0fc346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

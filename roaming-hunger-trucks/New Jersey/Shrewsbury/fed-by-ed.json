@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Foodies of New Jersey just love getting Fed by Ed because they always get their fill of something fantastic. Using the freshest and finest ingredients, Ed and his team have crafted a scrumptious selection of gourmet sandwiches and crispy homemade chips. The crowd favorites include the BBQ-Glazed Meatloaf with jalape\u00f1o jelly and cider coleslaw, the Buffalo Sandwich with hand-breaded chicken with spicy Buffalo sauce and topped with bleu cheese coleslaw, and the Teriyaki Pork with toasted sesame seeds and yogurt apple slaw. For all this and even more incredible deliciousness, head on out to Fed by Ed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fed by Ed",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559ee2a0-1c48-4453-8f96-039a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

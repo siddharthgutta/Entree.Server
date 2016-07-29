@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Snipes offers classic campfire inspired food cooked in classic cast iron pie irons, featuring Mom's pizza pie, sausage & rye, and the \"Oz\" burger, which consists of ground chuck, sausage, red onions, jalapenos, BBQ, potatoes and cheese!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Snipes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53974f7a-0e68-426a-ac4b-2b6946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

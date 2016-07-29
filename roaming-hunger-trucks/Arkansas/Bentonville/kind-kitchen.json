@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Kind Kitchen has a commitment to being kind to both the planet and your taste buds! They offer a range of tasty food options, all vegetarian, and some vegan and gluten free. From using local produce to converting food waste into biofuel, Kind Kitchen is conscious of their footprint on the economy and the environment. Try out their tasty Indian Tacos or the strawberry limeade!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kind Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55035252-3e9c-4364-9a9a-64a046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

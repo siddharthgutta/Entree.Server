@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Comfort Bowl is a food truck bringing Salt Lake City some awesome Asian fusion! Don't settle for anything less than the best, make every meal amazing with this food truck. Whether you order their signature Chicken Katsu, their Thai Coconut Soup, or anything else off their menu, Comfort Bowl will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Comfort Bowl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a92fb2-ecf4-488c-bad1-5dc946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

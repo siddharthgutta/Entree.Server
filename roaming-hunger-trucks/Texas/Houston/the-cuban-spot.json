@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cuban Spot is bringing fantastic food right to you on the streets of Houston! Bringing this amazing menu from Florida to Texas, these Cuban dudes are serving up something great to sink your teeth into. Sandwiches, burgers, tostones, and more, The Cuban Spot has everything you could ever ask for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cuban Spot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b8c952-d9e0-4792-bd12-1c1c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

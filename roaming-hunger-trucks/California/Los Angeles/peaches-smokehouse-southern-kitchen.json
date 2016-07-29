@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Peaches' Smokehouse and Southern Kitchen is an L.A. food truck servin' up slow-smoked BBQ and traditional Southern cuisine made from scratch with good, honest ingredients. Winner of the 2013 Cooking Channel show, Food Truck Face Off.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Peaches' Smokehouse & Southern Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5772f3e4-f1d4-424d-b09a-646446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

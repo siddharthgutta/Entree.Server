@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best gourmet cupcakes in downtown Orlando are on their way! Caketeer is baking up the best sweet treats around, and taking them to the streets with their terrific truck. Cookie Monsta, Gimma S'more, The Big Apple and many more delicious cupcake confections are on the menu at Caketeer today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caketeer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555b8243-0638-4c4b-8d44-78f446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

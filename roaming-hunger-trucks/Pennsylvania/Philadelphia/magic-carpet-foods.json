@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Magic Carpet Foods serves whole-world vegetarian & vegan delights in University City, Philadelphia. We are family owned and operated, and have been since 1984!Magic Carpet Foods operates two street-side vending carts located in University City, Philadelphia, PA. We are located at the corner of 34th and Walnut & on Spruce between 35th and 36th. The hours vary slightly based on the weather & school schedule, but look for us anytime between 11am and 3pm, Monday thru Friday. New for 2010 - We have a special events truck, located at Great Plaza, in Penn's Landing, which is open during most concerts and festivals.Our mission is to provide unique and delicious vegetarian food to the students & staff of The University of Pennsylvania & Drexel University as well as all the residents of Philadelphia.Whole World Vegetarian Dishes -- a mixture of Middle Eastern, Greek, Indian, and our own creations. You can get baked tofu, humus w/ pita bread, falafel, veggie chili, tofu meatballs, seitan peppersteak, spinach pie, and a varying selection of soups, salads, and sweet treats. Everything is piping hot and made to order.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Magic Carpet Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d8c5157-372c-4a16-819e-732346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Squealer's Smoke Shack is serving up delicious BBQ you'll need to eat to believe! You'll find perfectly smoked pork, brisket, ribs, and more when you visit this fantastic BBQ truck. When you add in Squealer's homemade sauces and sides, this truck is bringing a delicious eating experience for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Squealer's Smoke Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cb7c36-fb04-4fc6-911f-77d546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

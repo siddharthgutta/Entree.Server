@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pull over Mr. Ice Cream Truck! Southeastern MA is about to get a new street vendor with a tasty twist, the Sweet Truck!  The new hot wheels on the block is a mobile dessert truck owned and operated by Jill Houck of Flour Girls Baking Company.  This is the first truck of it\u00e2\u0080\u0099s kind on the Southeast Coast and is available for hire at private parties and events from Cape Cod to Boston to Providence.Old Fashioned Desserts:  Cookies, bars, apple cider donuts, whoopie pies, lemon squares, etc.  All natural products made with local ingredients.  Also serving Jim's Organic Coffee",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flour Girls Sweet Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec83bbe-d34c-434a-9ac0-419b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

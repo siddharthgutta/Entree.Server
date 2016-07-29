@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Good ole South Carolina Mac 'n' Cheese is roaming the streets of Orlando on the SMAC Food Truck! Delicious, savory, packed with flavor, just like Mac 'n' Cheese should be! Get the Classic SMAC, , or SMAC the Pig with Layers of Bacon, try the Pulled Pork SMAC, or even some Lobster SMAC, and more! You can't go wrong when you give your tastebuds a SMAC!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SMAC Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10541/55840d73-26cc-41de-aaf5-452c46204482.bmp",
+  "transactionFee": 30,
+  "username": ""
+}

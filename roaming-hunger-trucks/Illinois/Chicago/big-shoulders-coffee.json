@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing Chicagoland the delicious caffeine it craves, Big Shoulders Coffee is rolling down a street near you! Hot, fresh, and exactly what you need, this is the perfect pick-me-up for you. So for the coffee-lovers of Chicago looking for that a good cup of joe on the go, keep an eye out for Big Shoulders Coffee today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Shoulders Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559ea5b0-db84-4d42-8136-3c3e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

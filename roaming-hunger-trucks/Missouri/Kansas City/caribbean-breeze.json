@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Caribbean Breeze truck is bringing the island to the midwest! With authentic Puerto Rican fare, this truck roams the streets of Kansas City, looking for hungry mouths to feed. Try the empanadas or the Cuban sandwich! Your stomach won't regret it.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caribbean Breeze",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541356bb-f794-444f-867d-4f0a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the tastiest tacos in town? Then this handsome truck has you covered! El Guapo's Tacos will serve you an incredible eating experience. Fantastic ingredients wrapped in delightful corn flour tortillas are the perfect food to eat on the move, so keep an eye out for El Guapo's Tacos today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Guapo's Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ce5937-870c-4571-9506-5df846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

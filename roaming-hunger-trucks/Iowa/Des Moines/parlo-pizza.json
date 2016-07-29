@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Parlo Pizza is bringing wood-fired deliciousness to a street near you! This pizza is made hot and fresh when you order, so each fantastic bite is better than the last. There's nothing like authentic Neopolitan-style pizza, and nobody does Neopolitan-style like Parlo Pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Parlo Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b8fa74-c1c8-4d2f-99f3-599646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

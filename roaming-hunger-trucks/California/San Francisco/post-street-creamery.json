@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "No guilt ice cream! Post Street Creamery serves their handmade and delicious ice creams to the Bay Area. Only using organic, all natural, non-GMO and locally sourced or internationally artisan ingredients creates delicious ice creams and frozen treats you don't have to feel bad about. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Post Street Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10417/56e9e8a8-25d8-4f14-abea-5f2f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

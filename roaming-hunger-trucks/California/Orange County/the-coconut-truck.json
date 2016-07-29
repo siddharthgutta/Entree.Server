@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Coconut Truck is a SoCal food truck offering Cambodian-inspired street food with a modern twist. Specializing in nom pang (Cambodian sandwiches) we craft our food to be fresh, savory and packed with delicious flavor. Our sandwiches are hand-crafted and made-to-order with high-quality produce, freshly baked artisanal bread, all natural cuts of meat and vibrant, aromatics, herbs and spices.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Coconut Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8429/54ce8468-8a68-42c9-9b2c-55f246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

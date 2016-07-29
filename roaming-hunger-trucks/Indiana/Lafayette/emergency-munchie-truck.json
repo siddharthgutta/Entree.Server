@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Emergency Munchie Truck is bringing you the best comfort food in town, to cure your hunger pangs! You'll find great food made from local and organic ingredients here. Comfort food for one and all, their vegetarian and vegan options mean that they're ready to feed your need, no matter what you're appetite. These emergency munchie technicians will make sure you get just what you need to satisfy your hunger, so keep an eye out for the Emergency Munchie Truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Emergency Munchie Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df6053-6524-45ab-a459-467646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

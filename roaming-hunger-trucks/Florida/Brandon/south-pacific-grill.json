@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The South Pacific Grill Truck is causing quite a stir in it's community of Brandon, Florida. Providing you with Asian Fusion, Hawaiian, Korean, Thai and Vietnamese food that anyone will enjoy. There are so many delicious options it may just be a hard decision, but with the help of friendly service they will dish you up something you won't regret!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "South Pacific Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5525b39c-ed2c-4f2d-858b-6d4c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

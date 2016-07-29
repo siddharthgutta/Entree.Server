@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Almost Famous. absolutely delicious! Starting out as a simple smoked meats shop, Almost Famous Smoke House & Grill is now bringing you delicious food on their fantastic food truck. Looking for a taste of BBQ? Cajun? Seafood? You can find it here with Almost Famous!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Almost Famous Smoke House & Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557877ea-0b54-45fb-b2f7-3f3946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

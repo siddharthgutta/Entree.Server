@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Garden Sushi offers some of the freshest, most delicious sushi in Seattle. Head chef and owner, Tsering (Leon) Lama has over 10 years of experience as a master chef. Combining the freshest ingredients with an artistic expression all his own, each plate is a work of art and a culinary delight. Check them out, or bring them to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Garden Sushi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419c495-4fb8-4c11-9c06-456346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

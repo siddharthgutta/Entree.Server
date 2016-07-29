@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cichy Co. is a food truck on the streets of Sacramento specializing in gourmet sandwiches and fries. From the Shrimp Po' Boy to the Parmesan Garlic Fries, whatever you order is sure to be a treat! Find the truck, or bring it to you, and try the day's specials!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cichy Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7490/55c2a5a8-cf14-4e4f-9bb0-37ab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Em's Ice Cream is bringing amazing organic ice cream to the streets of Denver! Made from scratch, from the ice cream down to the chocolate chips, this fine fare is guaranteed 100% organic and absolutely delicious. Strawberry, cookies & cream, salted caramel, and so many more amazing flavors are ready and waiting for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Em's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5592cebe-0cfc-487d-be7f-74c046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

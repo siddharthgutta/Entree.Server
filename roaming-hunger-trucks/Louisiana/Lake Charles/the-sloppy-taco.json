@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sloppy Taco is taking the tastiest street food on the Louisiana streets right to you! The Ribeye Rolls, Corn & Crab Bisque, and their signature Sloppy Tacos are just the start of the good times that this terrific truck is serving up. If you love quality food and service with great attitude, then this is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sloppy Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564f95f8-bc54-4a5b-9f09-5afb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Locally Sauced is bringing you the best burritos you could ever ask for! Locally sourced ingredients wrapped in delicious tortillas are an eating experience you're sure to love. Check out the Kickin' Chicken, Beef Party, Gringos Garden, and more when you try this fantastic food cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Locally Sauced",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564f9ee1-1a04-43ab-a27b-5d5746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

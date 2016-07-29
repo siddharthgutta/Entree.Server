@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Star is a bourbon and beer-focused, taco-slinging, late-night honky-tonk in the heart of Chicago\u2019s Wicker Park neighborhood, and now their truck can bring tacos and tostadas to you! Enjoy the great food and atmosphere of this fantastic restaurant while you're hitting the city streets, or have it liven up your next event! These tacos will blow you away!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Star",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538ce7f4-4d34-41d0-9917-351a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Naturally Sweet is a wonderful organic food truck serving coffee, smoothies, lemonade, and tasty treats to the Phoenix area. They specialize in natural and organic alternatives to everyday favorites; absolutely nothing artificial is served to their customers. If it can't be made fresh in house, they will either source locally or buy organic/natural products. Your satisfaction is their guarantee, stop by now yourself and see!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Naturally Sweet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54921037-31d0-4753-8a78-18b246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

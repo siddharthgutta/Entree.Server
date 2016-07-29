@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dog Town is serving up good food and good times from their fantastic food truck! Surfing down a street near you to serve up the greatest grub you could ever ask for, Dog Town is food on the move that'll always satisfy your hunger. So for the best gourmet hot dogs, burgers, and so much more, it's got to be Dog Town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dog Town",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bc08f3-409c-409b-ab8f-3b2846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

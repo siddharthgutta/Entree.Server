@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chilly Willy's BBQ serves up the best BBQ around - and if you're not in the mood for BBQ, try out one of their other tasty dishes! Burgers, tacos, fried chicken, and more are available at this great truck, so stop by soon! You're sure to love Chilly Willy's BBQ from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chilly Willy's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12289/56bbdba3-d858-491b-82be-3b1c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

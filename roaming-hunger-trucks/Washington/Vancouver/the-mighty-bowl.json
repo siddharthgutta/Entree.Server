@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mighty Bowl is pioneering the food cart movement in Vancouver, WA. Their mission is to serve healthy, tasty, and local food to the masses.   Might Bowl's bean & rice bowls can be customized with a number of different toppings and sauces.  Sauces are made from scratch on the truck, all from whole food ingredients. They make three sauces: a Lemon Curry (Mighty), Spicy Chipotle (Kiggins) and a Peanut (Sweet, not spicy). Try any of their bowls as a Might Wrap, and finish off your meal with a Real Fruit Smoothie.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mighty Bowl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e88be5-5848-4ee9-ab35-7d4d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Pizza Guys make their own hand-tossed dough freshly every single day, drench it in their famous \"special sauce,\" and to top it off, allow you to specialize your order with any number of toppings and their delicious cheese. Their specialty is a tasty baked potato pizza! Not in the mood for a slice? There's also a great meatball sub to whet your appetite. Find them at San Antonio's many fairs and festivals, or book them today to add a slice of fun to your event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pizza Guys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565df905-be5c-4142-873a-0e4846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

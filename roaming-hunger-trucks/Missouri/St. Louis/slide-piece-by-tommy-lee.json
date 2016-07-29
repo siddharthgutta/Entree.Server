@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The finest sliders in St. Louis are rolling up to you today, thanks to Slide Piece by Tommy Lee! These are gourmet sliders, made from the freshest ingredients around. Pork, Salmon, Caprese Sliders, and so much more are coming to you, so don't miss out on this amazing menu!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Slide Piece by Tommy Lee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5671b863-a7c8-4902-8bd9-243546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

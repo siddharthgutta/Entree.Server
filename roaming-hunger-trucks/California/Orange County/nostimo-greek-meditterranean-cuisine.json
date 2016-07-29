@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nostimo is bringing the newest in classic Greek and Mediterranean cuisine to the food truck world, and it is spectacular! These chefs are experts when it comes to Greek cooking, masters of spices, and the friendliest folks to ever make you a gyro!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nostimo Greek Meditterranean Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10855/57871422-a2a0-4098-861c-6a0846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

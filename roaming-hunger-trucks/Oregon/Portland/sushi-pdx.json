@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Enjoy delicious Japanese fare at Portland's Sushi PDX cart. Their menu includes a number of tasty rolls including the popular California roll, spicy tuna roll, and Philadelphia roll. In addition to sushi, foodies can also choose from four different types of udon that contain either kale, pork or chicken, tempura or curry. Still hungry? Try some of their edamame - yummy green soy beans, or a bowl of hot miso soup. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sushi PDX",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/520292fc-e7e0-4023-9d09-776846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

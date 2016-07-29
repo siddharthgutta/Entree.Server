@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Arizona's very first paleo-friendly taco truck, Yaya's Tacos, is making a splash in the world of street food! Spreading the knowledge of great, healthier food, Yaya's Tacos is bringing quality, care, and great service with them everywhere they go. Find out what sets Yaya's apart yourself, and have a delicious taco while you wait!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yaya's Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557219cb-2610-42d7-b733-0cc946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

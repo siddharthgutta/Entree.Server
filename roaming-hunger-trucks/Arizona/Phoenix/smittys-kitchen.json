@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Seasoned with love and served with a smile, nothing compares to the delicious dishes you'll get when you try Smitty's Kitchen! Fusion cuisine on the streets of Phoenix doesn't get any  better than this. If you're craving the finest Oxtail Soup, Beef Patties, Curried Goat Stew, and so much more, then Smitty's Kitchen is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smitty's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

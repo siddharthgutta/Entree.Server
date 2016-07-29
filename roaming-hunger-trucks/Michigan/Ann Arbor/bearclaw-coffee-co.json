@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The first cup of Bearclaw coffee was served in 2002 from a small log cabin in a cornfield in Dexter, MI by its founders Doug & Debi Scroggins. The idea, then and now, was to make customers feel like family with gourmet coffee and big smiles.Starting with the creation of our Mobile Coffee Fleet, we have been on the forefront of mobile coffee service for almost a decade. Now customers can enjoy a cup of Bearclaw signature blend at their favorite music festival, corporate party, private event, college football game, or any one of our locations.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bearclaw Coffee Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fcc5e6-75dc-4191-bc08-63e946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

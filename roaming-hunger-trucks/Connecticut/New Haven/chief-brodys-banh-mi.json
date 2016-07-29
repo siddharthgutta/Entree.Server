@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New Haven's first food truck is finally here and it's bringing your taste buds something they're sure to love! Chief Brody's Banh Mi is making what are sure to be your new favorite sandwiches, made from locally sourced and gourmet ingredients. Vietnamese flavor and amazing mobile style have met, and we're sure you'll agree that it's amazing!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chief Brody's Banh Mi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5660c18e-49cc-4d12-9b9a-3e8246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

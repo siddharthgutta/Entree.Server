@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Curiocity Catering is San Diego's freshest food truck & catering company for celebrations, corporate events and street vending.Jason McAllister (Owner/Operator, CurioCity) and Antonio Friscia (Executive Chef, Stingaree) have worked together for the last 5 years and have teamed up to create a diverse, mouth watering menu focused on locally grown and produced ingredients. The menu will change seasonally as well span different ethnicities. You may find this creative, fresh food on the rue, your next business meeting or your next celebration.CurioCity Catering supports local farms and farmers\u2019 markets and is dedicated to using seasonal, sustainable and organic ingredients.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curiocity Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ed01981-41a8-495a-982f-7dd346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

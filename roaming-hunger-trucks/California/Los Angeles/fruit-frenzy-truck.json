@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fruit Frenzy is an LA food truck that's serving up a superb menu infused with the freshest fruit in town! Blended beverages, delicious breakfasts, superb snacks, and so much more are being served up from this food truck. Great flavors fueled by healthy, delicious fruit is all you'll find when Fruit Frenzy rolls up to a curb near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fruit Frenzy Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57841a23-523c-4c62-a0ad-46c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

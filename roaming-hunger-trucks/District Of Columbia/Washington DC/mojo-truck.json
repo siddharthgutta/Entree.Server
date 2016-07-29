@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MojoTruck opened on July 12, 2011 in Washington, DC serving their famous \u201dChivito\u201d Sandwiches. They offer Steak, Chicken, Pork or vegetarian, with a choice of 3 types of toppings:  Classic, Lettuce ,Tomato, Mozzarella cheese and a Fried egg.Canadian: Same as classic, plus Saute onions and Ham.Special: Same as Canadian, plus Avocado and Bacon.The same can be done in a salad version for those who wanted to skip MojoTruck\u2019s 100% hand-made bread.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mojo Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e37733c-4100-44a7-8bd1-116546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

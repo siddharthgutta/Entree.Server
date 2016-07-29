@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Finally, a food truck that's ready to ask life's most important question: Wanna taco? Juana Taco is making an impression on the streets of Austin, with their fantastic tacos, tortas, panchos, and more. If magnificent Mexican food with a mobile twist is what you're looking for, then Juana Taco is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Juana Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569ebd9f-4fb8-477b-b2fb-7b0d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

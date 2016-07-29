@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "While Rollin' Fatties has banned red meat from its menu, that doesn't mean that it has no flavor. With a core ingredient set of jerk seasoned tofu, caramelized tilapia, chipotle cream, and Monterey Jack cheese, you're sure to get a burrito, rice bowl, taco, or nacho dish that you won't forget in a hurry. Find this truck on the streets of New Orleans and get yourself a tasty and healthy meal!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin' Fatties",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/540dd4df-7ff0-46b2-b56d-214346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

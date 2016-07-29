@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Atlanta's premier grilled cheese truck, it's The Muenster Truck! Globally inspired versions of this favorite comfort food, The Muenster Truck is adding a gourmet twist to an old classic! Cheesy goodness is just around the corner, so for the very best around look for The Muenster Truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Muenster Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55510143-1138-42a8-853e-7a1d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

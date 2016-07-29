@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An Irish Cafe, traveling right in the heart of Texas! Sharing a taste of Ireland in the South, Kieron Go Bragh provides only the most delicious of dishes. The Leprechaun, shepherd's pie slider, the Molly Malone grilled cheese, and more are all on the menu and sure to satisfy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kieron Go Bragh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554283a8-419c-4e66-910b-6db746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

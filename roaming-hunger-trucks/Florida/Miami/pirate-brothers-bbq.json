@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pirate Brothers BBQ brings Miami the BBQ it has been waiting for! With items like BBQ smoked ribs, brisket sandwiches, and BBQ mac,  this truck is bringing you finger-lickin' good meals you're sure to enjoy. Stop by Pirate Brothers BBQ today, and have a fantastic meal you'd sail the seven seas to find!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pirate Brothers BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df6514-0e74-48b7-92df-5ebb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

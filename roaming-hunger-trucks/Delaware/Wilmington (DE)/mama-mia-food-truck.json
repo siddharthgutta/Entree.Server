@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have you been craving the best Italian eats on the Delaware streets? Then you've got to try Mama Mia! Great grub, like delicious sandwiches, salads, meatballs, and more, are what you'll find when you visit this awesome truck. Sink your teeth into the most savory flavors in town, visit Mama Mia today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama Mia Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55de1401-3af0-4c9a-a4b3-4c1646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frites, wings, sliders, and good times, that's what they're serving up at Bonafried! New Orleans' newest truck is rolling around town, ready to serve you a delicious meal that you won't soon forget. Fresh eats and friendly service are what you deserve, and that's just what you'll get when you try Bonafried!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bonafried Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b27632-9810-46e8-9c05-676246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

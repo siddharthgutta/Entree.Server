@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your everyday sandwich shop with an all-new twist, Stuffed to the Grills is just what you've been looking for! Whether you're hungry for the Plain, Pittburgh, or Cannon style, you're sure to love whatever you order from this food truck. Sink your teeth into an awesome sandwich today, with Stuffed to the Grills!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stuffed to the Grills",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5660a100-67a0-4efa-a3e7-3cbb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

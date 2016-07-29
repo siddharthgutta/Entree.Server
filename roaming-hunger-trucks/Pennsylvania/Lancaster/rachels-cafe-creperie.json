@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rachel's Cafe & Creperie is taking their gourmet goodness on the go in Lancaster! These are fresh crepes, made specially for you when you order--pair them with the wonderful coffee, espresso, or tea, and you'll feel just like you're in a cozy cafe. Rachel's is bringing you delicious food, wonderful service, and an experience you'll always remember, so don't miss out when this truck rolls your way!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rachel's Cafe & Creperie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3e32a-be78-41cd-b5df-1edd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tiki Monster is bringing the best of your favorite bubbly beverages to a street near you! Whether you like your sodas retro, craft-made, or just plain weird, this cart is sure to have one you'll love. Great service, fantastic products, and over 250 varieties to choose from: Tiki Monster is serving it all to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tiki Monster",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfd26f-3f04-4614-90d9-60d446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

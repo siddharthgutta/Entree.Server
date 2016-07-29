@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sweet Hearth is a Mobile Bakery in Buffalo featuring classic baked goods, desserts and treats! Western New York's first dessert truck, The Sweet Hearth is baking up a selection of hand-crafted goodies made only from the finest of fresh and local ingredients. Show your sweet tooth an old-fashioned good time with the one and only Sweet Hearth!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sweet Hearth",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5179a400-5e48-4ed0-a4ca-480f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

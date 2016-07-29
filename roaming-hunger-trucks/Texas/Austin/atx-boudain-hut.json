@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "ATX Boudain Hut is a great Cajun trailer serving Austin with Po-Boys, baskets, and delicious southern appetizers. Try the Crawfish Boudain Balls, the Red Beans & Rice, or a Gator Po-Boy! And don't miss the Beignets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ATX Boudain Hut",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8096/57474091-edac-463e-b698-3f3546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

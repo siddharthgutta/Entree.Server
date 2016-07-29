@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Hello Arepa truck specializes in one signature dish - the Arepa. What's an Arepa? A traditionally Latin American flatbread made of corn dough or cooked flour that's grilled, then baked and stuffed with all sorts of fillings. Favorites include the domino filled with organic black beans and feta as well as the token carnivore filled with ham, cheese, and sriracha mayo. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hello Arepa",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e827c-fc80-4c02-b398-18b646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

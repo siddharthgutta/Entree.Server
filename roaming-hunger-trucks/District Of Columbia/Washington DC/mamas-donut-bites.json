@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mama's Donut Bites is a mobile food truck in Washington, DC that specializes in delicious, hot mini-donuts made fresh right before your eyes!  We experiment making various flavors of donut bites using local ingredients. You get to watch the entire process from scratch: the donut batter is made on-site, then our Donut Robot drops, flips and dispenses these mini bites of heaven. At the toppings bar, you have a wide variety of toppings to choose from.  Throughout the year, we feature seasonal donuts with local, seasonal ingredients.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama's Donut Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e83f8c-bf08-475f-a656-60f246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

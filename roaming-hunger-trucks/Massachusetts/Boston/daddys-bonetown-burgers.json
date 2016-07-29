@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bone Daddy's Burgers delivers a variety of juicy menu items. From your classic beef burgers to ground buffalo meat to a quinoa & black bean patty, this truck has something for everyone. And of course, your burger would not be complete without a side of fries (choose between bacon salt & truffle, sweet potato, or garlic & parmesan). ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Daddy's Bonetown Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1632/56fc485d-714c-4fc9-b660-5a3446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

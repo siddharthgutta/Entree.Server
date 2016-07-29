@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet eggrolls are right around the corner, thanks to Roll Revolution! Sweet, savory, and always amazing, these eggrolls are on an all-new level of fantastic cuisine. With their amazing Hawaiian Roll, Margherita Roll, Banana Jackfruit Roll, and more, this truck is ready to roll!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roll Revolution",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfcd00-a024-4fb4-aea1-68d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

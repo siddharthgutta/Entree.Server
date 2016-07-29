@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic tastes from Cambodia are roaming the streets of Tallahassee with Dany's Cambodian Cuisine! Born and raised in Cambodia, Dany has brought this amazing food truck to life to share the food she grew up with to you. Come and enjoy the taste of Cambodia, with Dany's Cambodian Cuisine!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dany's Cambodian Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558d81c1-2298-4165-b401-061c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

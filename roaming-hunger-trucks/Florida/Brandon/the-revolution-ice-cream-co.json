@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing small batch ice cream to the masses! The Revolution Ice Cream Co is here bringing gourmet, small batch ice cream to the streets of Florida! Chocolate Shock, Drunken Brownies, Banana Pudding, and more are ready and waiting to satisfy your sweet tooth! The Revolution will be mobilized!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Revolution Ice Cream Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55537a5d-08cc-48b8-89ba-0c5846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

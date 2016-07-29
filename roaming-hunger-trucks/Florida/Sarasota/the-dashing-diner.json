@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An experience you won't soon forget, The Dashing Diner is serving up something amazing! Burgers, grilled cheese, pulled pork nachos, and so much more on the menu today, and ready to satisfy your cravings. Perfect for any occasion, The Dashing Diner will put a smile on your face and a delicious meal in your stomach!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Dashing Diner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556e2ce5-f8d8-4cde-8795-474346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

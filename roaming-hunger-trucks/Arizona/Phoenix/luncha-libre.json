@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Luncha Libre is a gourmet food truck that specializes in Arizona inspired food, using local products and bringing it to the people in a fun and exciting atmosphere.We serve up quesadillas, tortas and salads, made to order and paired with our freshly made salsas and guacamole. We are committed to providing you with fast, friendly service allowing you to spend more time with friends enjoying food and company rather than fighting lunch time traffic only to wait in a line for less than average food.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luncha Libre",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ecfee11-0f60-45e2-a4d8-272b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

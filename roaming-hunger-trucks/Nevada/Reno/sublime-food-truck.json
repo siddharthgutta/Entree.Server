@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "These sandwiches are Sublime! A family operation, the Sublime Food Truck is on a mission to offer the hard-working folks of their community a new and exciting way to enjoy their breakfasts and lunches! Their soups, sandwiches, chili, and everything on their menu are made fresh, delicious, and served up with a smile!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sublime Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553199b1-9cd0-447b-9e57-207846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

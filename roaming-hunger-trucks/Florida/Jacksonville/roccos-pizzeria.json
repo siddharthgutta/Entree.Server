@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rocco's Pizzeria is here to bring Jacksonville the best pizza it's ever seen! New York style pizza is on on a street near you, and you're sure to love it. With the best ingredients and friendliest service around, Rocco's Pizzeria is sure to be your new favorite food truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rocco's Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6d850-9904-4071-9b7d-512846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

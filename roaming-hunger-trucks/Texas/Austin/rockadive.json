@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "ROCKADIVE is an Austin food truck serving Asian/Polynesian/Hawaiian/Latin/Filipino fusion cuisine. Serving delicious fare, from burgers to tacos, ROCKADIVE is simply all about good comfort food, which we ALL need from time to time. Stop by and have some free beer while you're at it! MAHALO and MABUHAY!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ROCKADIVE",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546e2d42-07cc-4999-8fe4-57de46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

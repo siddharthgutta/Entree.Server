@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hott Mess is a fun, funky truck with delish food!  Think Hott, messy sandwiches,pork tenderloin sliders,grilled cheese, tots.  Six words for you \"DEEP FRIED BACON WRAPPED HOTT DOGG!\"  You will wanna try everything! Whatever you pick, you can't go wrong!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hott Mess",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2844/5546c4d2-972c-44e0-a77b-7d8a46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

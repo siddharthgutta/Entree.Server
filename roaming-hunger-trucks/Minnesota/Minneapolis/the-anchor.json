@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Anchor Fish & Chips restaurant in Northeast Minneapolis has hit the streets & outskirts of Minneapolis with their new Fish & Chips Food Truck. Serving Fish & Chips, Battered Sausage & Meat & Veggie Pasties along with their favored sides of Curry, Gravy, Peas, Beans & Coleslaw. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Anchor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fa935c1-2704-4326-9dbc-151246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fontana's Pizzeria is packing the streets of Phoenix with the pizza you crave! Savory flavors in every perfect slice are what you can expect from this fantastic food truck. This is a pizzeria on wheels you can count on to deliver an amazing experience with their culinary creations! When you want the best, don't settle for the rest, Look for Fontana's Pizzeria today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fontana's Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c91c46-819c-4142-a9a8-21c046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

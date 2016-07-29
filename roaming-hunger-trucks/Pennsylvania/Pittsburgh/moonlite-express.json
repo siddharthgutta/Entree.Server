@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Pittsburgh, PAOriginally called \"Moonlight Restaurant,\" this establishment has become a staple for hungry Carnegie Melon students that are on the move. They serve a variety of dishes from several Asian cuisines. Their menu features food from Japan, China, Vietnam, and Thailand. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Moonlite Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5182ee78-07d4-48d3-a113-6ed346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

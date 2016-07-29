@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dogz Gone Wild is serving up some fantastically fun eats on the streets of Delaware! A family owned and operated mobile eatery, you'll find nothing but the highest quality food when you order from Dogz Gone Wild. This truck will never disappoint, so grab some great grub today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dogz Gone Wild",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55de3db9-2efc-4cce-888f-3cb946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

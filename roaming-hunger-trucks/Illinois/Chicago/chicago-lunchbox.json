@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chicago Lunchbox is a delicious Vietnamese truck bringing a mix of the old and new to the Chicago streets. Coming from a Vietnamese-American background, sandwich slanger John Nguyen has added a twist to tradition inspired by his upbringing in authentic Vietnamese kitchens and his own appreciation of the best of Asian flavors. Chicago Lunchbox offers Banh Mi sandwiches that pay tribute to all things yum,from ground Thai basil chicken, to longanisa, the savory Filipino breakfast sausage, there is no lack of creativity found in these lunchboxes. Stop by and grab yourself one today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chicago Lunchbox",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5463a57a-a09c-4e05-b2cd-690746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

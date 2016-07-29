@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This food truck speaks for itself: Eat My Empanada Babe! The best empanadas on the streets of Austin are sure to satisfy your cravings for quality cuisine when you try this food truck. Made from the finest ingredients and cooked to perfection,  these empanadas will have your mouth watering in no time when you encounter this amazing truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eat My Empanada Babe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56008706-8928-4f09-b8d1-41bc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

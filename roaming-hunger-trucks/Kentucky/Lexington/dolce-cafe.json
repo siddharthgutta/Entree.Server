@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dolce Cafe is driving down a street near you, with the greatest coffee and dessert on the streets of Lexington! A true mobile cafe experience is what you'll find when Dolce pulls up to your curb. The friendliest service fueled by a true love for baking, Dolce Cafe is the perfect food truck for you and your next event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dolce Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fc9822-ca44-439e-bfc7-09e546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

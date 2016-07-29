@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eggrollin is a mobile eatery serving up authentic Filipino street food in Olympia.  Their signature item, Lumpia, is available as Beef, Chicken, Veggie-Tofu, Shanghai Pork, and the newest addition to their Lumpia family: Bacon. Other menu items include Halo-Halo, made with sweet coconut shreds, pineapple gel, jackfruit, sweet palm gel, sweet tapioca ball, cane sugar, crushed ice and evaporated milk, Filipino Chicken BBQ Sticks,  Dynamite: made using green chilis stuffed with seasoned ground pork and pepper jack cheese covered in lumpia wrapper, BBQ Pork Siopao, and a slew of other Filipino favorites.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eggrollin",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51ed72c8-9d84-41d6-a386-30a146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

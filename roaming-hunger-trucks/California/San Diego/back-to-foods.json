@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Diego's getting the greatest Spanish-style sandwiches on Earth, thanks to Back to Food! Manchego and Serrano sandwiches, Salmon Salads, and so much more, this food truck is serving up something superb at a curb near you. Don't miss out, Back to Food is bringing great taste back to you! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Back to Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13187/57194096-1fb8-4e1f-bc33-09ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pueblo Viejo is an Austin trailer serving tasty Mexican food prepared fresh for you. Serving a wide variety of delicious tacos (including the breakfast kind), and the occasional soup and other dish, this trailer has you covered for filling, tasty, well-made Mexican food. And don't miss the hot cinnamon tea!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pueblo Viejo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546cd491-6fb4-41d0-990c-3be046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

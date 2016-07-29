@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MoeBetter BBQ and Fish is bringing you the best, most delicious food in all of Tennessee! Meat so tender, you don't even need to chew, fish cooked to perfection, and all served up with the friendliest smiles in town! MoeBetter BBQ and Fish is the truck for anyone looking for the best service and most delicious food possible!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MoeBetter BBQ and Fish",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55527ae1-06fc-4540-936f-1e6346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

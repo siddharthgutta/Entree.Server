@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "No South Florida truck serves better gourmet wraps, sandwiches, and burgers than Catered Bliss. From pesto chicken and cheese on ciabatta bread, to the spicy black-bean burger, every meal from this truck is delicious and crafted with care. Throw in some fantastic chicken wings, sweet potato wedges, and fries, and this truck has everything you could need to make your day complete!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Catered Bliss",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d8c1b85-e718-4f7f-85ab-640e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

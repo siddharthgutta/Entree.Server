@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for quality, locally sourced food on the move in Connecticut? Then you'll love Yardbird and Co. Their rotating menu consists of their signature chicken sandwich, seasonal sides, and many other delicious dishes, including a selection of allergy/special diet-friendly items (gluten free, etc..) For fantastic farm-to-truck cuisine, you heard it here first, you gotta makes sure to go to Yardbird and co. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yardbird and Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5706e42b-109c-4c44-ad42-48d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

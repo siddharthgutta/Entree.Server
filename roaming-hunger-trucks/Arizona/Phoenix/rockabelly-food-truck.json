@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "RockaBelly is a premier food truck based out of Phoenix Az. Known for their Award Winning Tacos and Outstanding Catering services. RockaBelly offers a fusion between an East Coast Diner & a West Coast Taco Shop.A Chef owned and operated truck striving to serve only the best in quality & originality, spotlighting local ingredients. With ever changing locations be sure to keep an eye out for one of the fastest growing trucks that is among the cream of the crop of the Street Food Industry.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "RockaBelly Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13887/5750df04-7890-4035-ac40-416246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

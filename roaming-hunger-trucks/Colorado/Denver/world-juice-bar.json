@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taste the flavors of the world.The World Juice Bar is a mobile beverage and food service. We specialize in smoothies, coffee, gourmet drinks and food.We are now rolling with a new food truck and can serve crowds of all sizes. From frozen pina coladas, coffee drinks and cuban sliders, we serve healthy and delicious foods from our global menu.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "World Juice Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52573242-dbf4-4add-9524-5adf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

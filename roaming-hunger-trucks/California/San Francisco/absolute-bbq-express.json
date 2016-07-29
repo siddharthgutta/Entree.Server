@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An exciting curbside dining experience you won't soon forget! The Absolute BBQ Express features a delicious quick-service menu of BBQ favorites prepared with only the finest ingredients.  Inside, you'll see a state-of-the-art stainless steel kitchen complete with ultra-modern amenities to create fresh hot delicious food service. We've even gone the extra mile and imported a wood burning pizza oven!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Absolute BBQ Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5446ba5b-62ac-4f5e-9648-09d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

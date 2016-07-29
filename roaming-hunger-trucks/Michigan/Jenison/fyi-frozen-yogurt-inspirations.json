@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Jenison, MIThis massive Frozen Yogurt truck has ingeniously allowed its customers to use self-serve devices built into the truck itself! Choose from 12 flavors, and make sure to check back because they're always changing! Top off your fro-yo with a host of yummy toppings (40 topping options available). ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "FYI (Frozen Yogurt Inspirations)",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/520bff70-78f4-47d2-89d6-1e0646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

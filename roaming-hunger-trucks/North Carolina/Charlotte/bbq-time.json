@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "From competition BBQ to the Queen City's coolest mobile pit-cooked meals, we think it's safe to say that lunch time is BBQ Time!Only the very best BBQ is worthy of the streets of Charlotte, and BBQ Time is up to the challenge of satisfying the citizens of North Carolina's favorite city. Have you been craving pulled pork? Brisket? BBQ Pork Ribs? Add in a delicious, homemade side for good measure, and you've got the authentic BBQ Time experience all on one plate.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BBQ Time",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5745e0cb-af18-4295-890a-24f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

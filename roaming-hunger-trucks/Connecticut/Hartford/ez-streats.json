@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "EZ StrEATS is your one stop shop for mobile catering! With a 25 foot mobile kitchen EZ StrEATS can serve up a variety of classic and inventive foods. Chef Les Harris is a caterer, private chef, radio and television personality here to make your event the best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "EZ StrEATS",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5547ee9a-21f8-415f-bc90-70d546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Saw's Street Kitchen is serving amazing BBQ and Southern fare to the streets of Birmingham. If you've ever been bored with the same old lunchmeat sandwiches, then you should hit the curb when Saw's comes to a street near you, and check out some of this great food. Pulled pork, fried porkchops, wings, and so much more. Your lunches will never be dull again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Saw's Street Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ff168d-9cbc-458c-bd5d-114046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

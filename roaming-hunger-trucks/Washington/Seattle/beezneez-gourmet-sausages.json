@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet sausages, hot links, and brats are traveling the streets of Seattle with BeezNeez! Taking the classic hot dog to new levels of amazing, BeezNeez sausages are made of the finest quality beef, pork, chicken, or Alaskan reindeer. Whether you're looking for the best of a classic taste, or something new and exciting, BeezNeez Gourmet Sausages are the ones for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BeezNeez Gourmet Sausages",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558af522-f424-488b-bef8-14ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

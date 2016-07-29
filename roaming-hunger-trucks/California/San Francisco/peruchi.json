@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "PeruCHI food truck derives its name from the blending of the words Peruvian and Chinese. The name captures the exotic ethnic fusion of two different worlds common to Peru. Peruvian cuisine has in fact evolved from the rich melting pot of Indigenous South American, Asian and European cultures. The Chinese cuisine influence in Peru is significant, and is evident from the many Chifas (Chinese restaurants) seen throughout Peru.These delicious dishes bring the world to your mouth!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PeruChi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542b314a-8088-4c1d-9433-401e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

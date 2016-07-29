@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing Chicago's best to the streets of Colorado, Feeney's Weenies has the classic dogs you crave! Whether you're looking for the classic Chicago-style hot dog, chili cheese, slaw dog, or even their amazing Italian Beef Sandwich, Feeney's Weenies won't let you down! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Feeney's Weenies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55918914-46a4-4a13-a8fd-1b4746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

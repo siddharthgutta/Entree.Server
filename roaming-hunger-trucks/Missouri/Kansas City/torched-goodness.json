@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Torched Goodness gourmet food truck, formerly of Phoenix, owned by a Le Cordon Bleu-trained Chef bringing fresh creme brulee to the streets & hand torching to order! Don't miss this treat now that it's come to Lawrence and the surrounding area!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Torched Goodness",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e092d05-dae8-4cdb-87fd-5ce546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

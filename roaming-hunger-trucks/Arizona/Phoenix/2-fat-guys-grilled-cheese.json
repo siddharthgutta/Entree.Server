@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "2 Fat Guys Grilled Cheese is a truck serving up the best grilled cheese available in the valley of the sun. Sandwich options include The Southwest Gobbler, the Avocado Wobble, and The Dad, with many other tasty grills to try. As the guys say, \"We cheese to please!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "2 Fat Guys Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5491da39-8cc4-4ea5-9563-4bab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "JB is a family owned and operated fully mobile and enclosed wood fired trailer, that specializes in traditional wood fired cooking. This cooking experience comes from years of being around an Italian house hold where freshness and passion is a must in order to cook the most delicious and stupendous foods. With many delicious made-to-order pizza options, you can't go wrong with JB!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JB Woodfired",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54344e21-7184-4601-8135-100d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

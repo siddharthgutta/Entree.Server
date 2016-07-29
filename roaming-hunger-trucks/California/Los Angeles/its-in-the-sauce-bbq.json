@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "It's In The Sauce BBQ is a mobile eatery in the Los Angeles area. Their food truck features recipes that are based on their parent's old Texas recipes with a California twist! It's In The Sauce BBQ is known for their Tri-Tip Sandwich, but offers many tasty items including everything from BBQ hamburgers and Pulled Pork Sandwiches to Breakfast Burritos and Cheesy Potatoes.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "It's In The Sauce BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/514cdcda-7b60-4afe-878e-04ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

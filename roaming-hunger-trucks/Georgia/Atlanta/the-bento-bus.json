@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Bento Bus is bringing healthy, locally sourced, organic Japanese cuisine to the streets of Atlanta. In addition to their yummy food, the Bento Bus also focuses on providing customers with eco-friendly wares and utensils. Check out some of these tasty dishes, from warming curry to crunchy wonton chip nachos!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Bento Bus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51549794-f2d8-436f-a4d7-059a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

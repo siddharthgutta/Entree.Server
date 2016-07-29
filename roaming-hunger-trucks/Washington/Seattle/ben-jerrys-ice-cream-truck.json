@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our catering and event service covers most of Western Washington.  No worries about what\u2019s going to happen when you choose Ben & Jerry\u2019s Catering. Our attractively uniformed and professional staff can handle the largest of events or a small gathering with the same level of service. We show up early to prepare and serve your event on time. No catering setup hassles or worrying if the caterer is going to show up! We serve over 300 events a year \u2013 We know what works and what doesn\u2019t. We don\u2019t \"guess\" when it comes to catering, and you can be certain we will make you look good when we serve at your next event.  Looking for a cost-effective way to celebrate an event? Need to reward your employees for doing a great job? Want to impress a customer/client? We are here to make YOU look good. You\u2019ll have everyone saying thank you for putting on such a fun and unique event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ben & Jerry's Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52f2c07e-f2f8-48ba-8d48-3c1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

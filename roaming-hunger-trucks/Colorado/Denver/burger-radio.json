@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "From the far flung future, aliens and robots are on the attack! Accidentally summoned by the Burger Radio crew, the only thing holding them back are the delicious, high frequency, handmade burgers and fries that brought them here! Fight for the future! Fight for the burger! Visit Burger Radio today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burger Radio",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551db85e-41ac-4ea4-a1b8-0da246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

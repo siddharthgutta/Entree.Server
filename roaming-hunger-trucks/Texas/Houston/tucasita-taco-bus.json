@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The tastiest tacos in town are headed your way, thanks to Tucasita! The taco bus is taking your taste buds on a trip to flavor country with their carne asada tacos, cubano tortas, quesadillas, and so much more. Just what you're looking for in mobile Mexican cuisine, Tucasita Taco Bus is ready and waiting to satisfy your cravings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tucasita Taco Bus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b4ed74-629c-475f-b80f-08d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

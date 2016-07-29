@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cilantro is serving up Latin fusion cuisine you have to see to believe! Latin street food on the move is the kind of eating experience that can't be missed! Are you craving empanadas? Burritos? Nachos? Cilantro has you covered! Columbus will never be the same, after tasting the amazing flavor of Cilantro!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cilantro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d50fed-a870-4819-aa3e-1d8146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Pizza Company makes wood fired goodness mobile to the Sacramento area. The pizza is made with fresh, local, and often organic ingredients. They start with dough made with a blend of \"00\" unbleached flour, a high-quality European-style flour and white whole wheat flour from Central Milling in Petaluma. The menu is ever-changing, with toppings including gorgonzola, caramelized onions, smoked mozzarella, salami, spinach, and fennel sausage. Try their weekly \"Market Pizza\" featuring produce from the farmers market.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pizza Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/513508bd-08b4-468e-adf5-76cb46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

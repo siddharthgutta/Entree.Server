@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Mess Hall is here with a menu of amazing American meals you're sure to love! Whether you're looking for The Bomber Cheesesteak, The Cavalry Burger, The Bull Dog, or anything else off their menu, you'll never forget the fantastic flavor when you visit this truck. Celebrate our military and dig into something delicious today, with The Mess Hall!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mess Hall",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12876/564ca09b-1ba8-47d2-a846-76e146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

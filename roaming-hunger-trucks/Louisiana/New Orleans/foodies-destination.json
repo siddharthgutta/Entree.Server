@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Korean kitchen on four wheels, this truck truly is a Foodie's Destination! Now, Louisiana is known for having a wide variety of fantastic cuisine, but this food truck is truly bringing something special to the streets.You'll never forget the first time you bite into their delicious Korean Dumplings, DonKatsu DupBap, Beef Bulgoki Ko-Boy, or anything else Foodies Destination cooks up for you. Try a taste of Korea with that New Orleans twist you'll be sure to love, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Foodies Destination",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56ec2ac2-a600-4cd5-af20-24f446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

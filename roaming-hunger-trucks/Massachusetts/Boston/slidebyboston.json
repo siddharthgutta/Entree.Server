@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sliders will never be the same after you've visited SlidebyBoston! Some of Boston's best food is on the move in this fantastic truck, and you'll love every bite you have from here. Their artisinal sliders, lobster sandwiches, and more are ready and waiting to show you what makes them the best in town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SlidebyBoston",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b3f20-012c-46c6-b4ef-2eab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

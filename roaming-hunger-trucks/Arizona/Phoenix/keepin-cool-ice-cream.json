@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Keepin' Cool Ice Cream is coming your way to on the streets of Arizona! Serving the ice cream your sweet tooth's been craving is their mission on this amazing frozen food truck. Perfect for any and every occasion, Keepin' Cool Ice Cream is just what you and your guests have been waiting for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Keepin' Cool Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fb3be2-bc4c-4a21-ac98-7b0046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

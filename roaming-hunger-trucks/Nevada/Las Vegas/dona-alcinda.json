@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Made to order home cooking is coming to you hot and fresh on the streets of Las Vegas, all thanks to Do\u00f1a Alcinda. This eclectic menu of artisan fare includes comfort favorites like spaghetti, hot dogs, and more!Come on down to Do\u00f1a Alcinda for a dazzlingly delicious meal!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Do\u00f1a Alcinda",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577fdaec-6e50-41de-bc61-02fb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

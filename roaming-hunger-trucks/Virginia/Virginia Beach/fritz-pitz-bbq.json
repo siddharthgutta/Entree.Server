@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best BBQ in Virginia Beach is on its way to you, thanks to Fritz Pitz BBQ! This truck is bringing you fantastic burnt ends, ribs, and so much more. If you want real stick-to-your-ribs grub that'll grab you from the very first bite, then you're looking for Fritz Pitz BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fritz Pitz BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d21eec-a128-4b4d-b9f8-19a146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

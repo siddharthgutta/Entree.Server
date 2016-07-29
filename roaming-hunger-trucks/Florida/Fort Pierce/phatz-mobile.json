@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Phatz Chick-n-Shack is taking their fantastic fried chicken to the streets of Florida! Phatz Mobile is bringing you the crispy wings you know and love, with all the flavor and amazing service you expect. Wings, tenders, chicken & waffles, and so much more are being served up hot and fresh from this terrific truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Phatz Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7b552-6f70-497b-85ee-751546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

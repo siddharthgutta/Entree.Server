@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Redbones is a well established, much loved restaurant located in Davis Square - Somerville, Massachusetts, which has now brought a food truck to the streets. Offering a variety of BBQ sandwiches, ribs, and delicious Southern sides, this truck doesn't mess around when it comes to delivering tasty, filling food. Try a bite, and you'll be coming back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red Bones",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e2de705-5f90-4fd4-b0a7-465646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

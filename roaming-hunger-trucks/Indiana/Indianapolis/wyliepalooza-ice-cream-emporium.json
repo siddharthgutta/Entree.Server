@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wyliepalooza is here to bring you everyone's favorite frozen treat! Nothing can make ice cream better like the fun and friendly attitude these folks serve every scoop with. Wyliepalooza's  award-winning ice cream, and tasty boba drinks, are certain to make any day great!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wyliepalooza Ice Cream Emporium",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5528226f-4844-4763-9c0b-169346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

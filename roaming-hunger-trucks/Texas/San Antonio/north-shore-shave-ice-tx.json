@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of Hawaii roaming the streets of Texas! North Shore Shave Ice is bringing that island feel to San Antonio with freshly made shave ice, hand-crafted just for you when you order. There's no better way to stay cool and refreshed than real Hawaiian shave ice, and the folks at North Shore Shave Ice TX know it better than anyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "North Shore Shave Ice TX",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554aa876-1a64-4f3d-8972-378246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

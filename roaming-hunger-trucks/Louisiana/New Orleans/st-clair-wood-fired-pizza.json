@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet wood fired pizza is roaming the streets of New Orleans! St Clair Wood Fired Pizza is baking up some hot, fresh, delicious pizza pies to make your stomach growl and your mouth water. With the friendliest service and the tastiest grub around, you can't go wrong with a St Clair Pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "St. Clair Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d99ee-3430-4a75-b097-73b046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

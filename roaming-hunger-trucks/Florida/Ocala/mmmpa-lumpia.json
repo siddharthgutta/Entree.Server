@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MMMPA Lumpia is serving up delicious Filipino treats from their big orange truck! Lumpia is a delicious way to feed your cravings for gourmet rolls filled with flavor! Filled with ground beef, chicken, mahi-mahi, or even delicious desserts, MMMPA Lumpia is serving up something that's perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MMMPA Lumpia",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555a33cb-a68c-448a-8f3a-44b846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

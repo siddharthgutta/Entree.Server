@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic frozen treats are rolling down a street near you! The Local Scoop is the classic ice cream truck for a modern world. When you try this truck, you'll find delicious homemade ice cream, organic frozen yogurt, soft serve, and so much more! Or, if you're in the mood for something hotter, The Local Scoop has you covered with their fresh crepes and coffee! Don't miss out--look for this stupendous food truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Local Scoop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560ae45d-acbc-405c-93a6-23c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

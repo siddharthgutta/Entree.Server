@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Amorini Panini offers hand-crafted artisan bread baked fresh daily, serving the finest quality meats & cheeses - grilling every Panini to perfection. Whether you're in the mood for a delicious, hot-off-the-grill Panini, great warming soup, or fresh and tasty salad, Amorini is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Amorini Panini",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50214ec9-204c-4aa6-92ae-496446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

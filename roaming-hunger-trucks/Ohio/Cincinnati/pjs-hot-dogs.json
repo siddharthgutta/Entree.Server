@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "PJ's Hot Dogs is bringing the best hot dogs on Earth to the streets of Ohio! America's classic street food is coming right to you from an old school cart with modern attitude. Savory, delicious, and perfect for any occasion, don't miss out on some fantastic food from PJ's Hot Dogs today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PJ's Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d3bcd6-8648-471f-be6d-521746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

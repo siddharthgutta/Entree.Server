@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Show your tummy some love today with this amazing Massachusetts truck! Tummy Luvin' Food Truck is serving up something spectacular, whether you're looking for a quick meal on the move or need to feed your next big event. Burgers, hot dogs, pasta, and so much more are here at Tummy Luvin' today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tummy Luvin' Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560b0804-f964-43f4-8b9f-24dd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

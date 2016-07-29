@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Waffle Wagon is wheeling its way to you with the best of the best in fantastic breakfast food! It's never to late for the great taste of waffles, especially when they're this delicious. Whipped cream, nutella, fresh berries, and more are ready and waiting to make your waffles magnificent! Never settle for less when it comes to satisfying your cravings--look for Waffle Wagon today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Waffle Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56218843-8e1c-4767-9e7d-1ef846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Taco is your number one stop for Montana's most amazing tacos! The greatest ingredients available are grilled up fresh and thrown on a fantastic tortilla to create a delicious dish you'll absolutely love. If you want to sink your teeth into something awesome on the move on the streets of Montana, then Fat Taco is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565f4867-5b80-456c-842d-7df446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vladi's is bringing you European street food like you've never seen before! Langosh, potato dumplings, and more are the perfect way to fuel your day with delicious flavor. Your lunch routine will never be the same after you experience this amazing menu! Satisfy your hunger with something new and delicious--visit Vladi's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vladi's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f1fa75-6bf8-4ca6-aae1-09c446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

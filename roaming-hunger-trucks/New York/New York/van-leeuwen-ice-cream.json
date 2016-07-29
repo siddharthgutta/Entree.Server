@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Van Leeuwen Artisan Ice Cream is made in upstate New York using only fresh hormone free milk and cream, cane sugar, egg yolks and the finest flavors sourced from small producers around the world. Always free of stabilizers, gums, corn syrup, milk powder and condensed milk. Van Leeuwen Artisan Ice Cream is about 30% less sweet than most super premium ice creams, which allows the true flavor to come through. The butterfat content is 19%. This is real food, made with ingredients perfected by nature, not science.Van Leeuwen Artisan Ice Cream was launch by Ben Van Leeuwen, wife Laura O'Neill and Brother Pete Van Leeuwen in spring 2008 out of beautiful creamy yellow scoop trucks. Bon Appetite Magazine named Van Leeuwen Artisan in the top 10 ice creams in the USA and number 1 in New York CityPints are currently available at Whole Foods Markets, Murray's Cheese, Blue Apron Foods and many other fine food stores.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Van Leeuwen Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4cdb41d2-85f0-4d41-a60e-4f7446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

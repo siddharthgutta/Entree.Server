@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "It\u2019s no surprise that food trucks thrive in the Motor City, and this golden Spud-mobile is no exception. Tread on over to Shredderz for gourmet sandwiches and hash browns that don\u2019t get much better. The people of Michigan savor this scrumptious shredded food and are sure to come back time and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shredderz Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13423/56f6efc9-c6cc-4d7b-86da-7ec346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

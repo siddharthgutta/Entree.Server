@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Mikes Gourmet Grub is a classic Pub Grub food truck with a southern twist. We feature gourmet burgers and hot dogs with a variety of toppings, as well as a Philly steak and cheese that is our biggest seller.  In addition to burgers and hot dogs we also serve southern fried delights which include Fried Green Beans, Fried Mac-n-Cheese, and Fried Pickles, Mozzarella Sticks, Cheddar Cheese Jalapeno Poppers, and Sweet Potato Fries. All of which is sure to have you feeling right at home!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Mike's Gourmet Grub",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6608/556e43a1-8940-4279-82dc-1d8146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

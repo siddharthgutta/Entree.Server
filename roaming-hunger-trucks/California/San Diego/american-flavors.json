@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flavors you know and love, given a modern spin! American Flavor is taking classic American cuisine to a new level, with a gourmet flair that will have you coming back for more, over and over again. Try the George Washington Burger, the Pulled Pork Grilled Cheese, the Adult Mac & Cheese, or any of their delicious creations today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "American Flavors",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9546/5553dde6-e298-40a1-a7a6-1d9a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

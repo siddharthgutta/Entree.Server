@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Comin' to a curb near you, Sokare is kickin' Colorado street food up a notch! Awesome salsa, fantastic fajitas, and incredible cake balls are just some of what you'll find on this food truck. Amazing meals are on the move in the Mile High City today, so keep an eye out for the unmistakable Sokare!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sokare",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56c4bb83-7f8c-43b5-b2ac-062346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

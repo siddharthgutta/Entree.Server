@@ -20,8 +20,8 @@ for (let index = 0; index < states.length; index++) {
         const city = cities[l];
         const cityA = city.getElementsByTagName('a')[0];
         let url = cityA.href;
-        if (url.indexOf('1') === -1) {
-          url += '1/';
+        if (url.indexOf('1') !== -1) {
+          url = url.slice(0, -2);
         }
         const cityName = cityA.text;
         stateToUrl[stateName].push({

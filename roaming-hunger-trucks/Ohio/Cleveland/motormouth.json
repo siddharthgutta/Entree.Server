@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our MotorMouth Food Truck serves up globally inspired gourmet street food in various locations in and around the greater Cleveland area. We also offer catering services for events ranging from private parties, business functions, to weddings. We tailor each globally inspired catering menu to the client and event. Interested? You won't be disappointed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MotorMouth",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4edacba4-83c8-4fb2-b0c0-7e5546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Boone Doggies is bringing the best of the best in hot dogs to North Carolina! Hot dogs are the classic American street food, and the delicious dogs from Boone Doggies are proudly keeping that tradition alive. Made with 100% beef and a selection of homemade toppings, these hot dogs are just what you're craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Boone Doggies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55aeb90f-ac94-44ad-9ae3-47f946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

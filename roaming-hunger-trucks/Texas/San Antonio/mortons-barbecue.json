@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mobile bbq Serving mesquite smoked meats The Real Deal!!!Morton's Barbecue mobile bbq truck is operated by Rashad Morton, a San Antonio native. After returning to Texas in the spring of 2010,  I decided to pursue my dream and start my own business, now known as Morton's Barbecue. I have  been cooking since I was kid and it  is my passion. I just like to see people enjoy good , slow-smoked barbecue without spending a lot of money. Currently operating as a mobile barbecue service in Northeast San Antonio. Morton's plan is to establish a permanent site located on the Northside. I am now open 6 days a week.  So if you enjoy good barbecue, then you will love Morton's Barbecue !  The Real Deal!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Morton's Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51350d79-8df0-44ca-ba74-484246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

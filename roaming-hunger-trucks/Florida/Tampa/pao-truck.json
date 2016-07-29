@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pao Truck is bringing Filipino American cuisine to sunny Tampa Florida! Pao Truck serves up Asian Fusion by topping siopao (steamed buns) with cheese burgers and bacon. Other Filipino menu items include Tocsilog sweet pork with garlic rice and egg, Lumpia, Sisig pork on rice, Shrimp Chips, and a traditional Filipino favorite, Spam Silog served with garlic fried rice, egg and the canned meat favorite. Come experience the power of Pao Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pao Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f864d0-385c-4d76-8bb1-742046204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

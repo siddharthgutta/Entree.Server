@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lady Di's Travlin Diner is bringing classic American cuisine to the Oklahoma streets! You'll find real home cooking inspired by the amazing diners of the 50's and 60's on this fantastic food truck. Dig into some real world-class dining on the road with Lady Di's Travlin Diner!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lady Di's Travlin Diner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dba00a-c898-4a55-8ac0-1def46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

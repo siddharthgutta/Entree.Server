@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Integrating a fully-loaded commercial kitchen and the experience to exploit it, Mastiff Sausage Company prepares food from the heart, and we do it all from scratch! From our signature sausage sandwiches to our customized catering menus, Mastiff Sausage Company is just as capable as any brick & mortar restaurant except\u2026we\u2019re mobile!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mastiff Sausage Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5112a03e-29d8-46e0-b1fb-2a0646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

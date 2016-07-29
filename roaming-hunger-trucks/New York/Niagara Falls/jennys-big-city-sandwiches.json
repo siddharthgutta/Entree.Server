@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of the big city is roaming Niagara Falls, thanks to Jenny's Big City Sandwiches! Bringing you the best in homemade pasta, sandwiches, and so much more, Jenny's has something delicious for everyone. Are you on the move in Niagara Falls? Then there's no better place for some fantastic food than this great truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jenny's Big City Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c266a6-1d58-4a05-ac41-7b4246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

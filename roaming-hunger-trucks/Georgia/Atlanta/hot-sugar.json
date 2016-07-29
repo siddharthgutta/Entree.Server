@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Sugar is  an artisanal dessert trailer serving delicious creme br\u00fbl\u00e9e to the Atlanta streets. Check out the array of flavors, from butterscotch to mint chocolate, and don't miss out on the toppings, including \"s'mores\" style, \"coconut dream,\" and more! It's even more delicious than it sounds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Sugar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5485fe61-4904-415f-870f-6cd446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

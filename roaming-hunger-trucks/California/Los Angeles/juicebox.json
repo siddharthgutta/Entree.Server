@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "JUICEBOX is the first premium and sustainable juice truck serving the local communities of Los Angeles. JUICEBOX provides healthy, affordable, made-to-order juice using fresh, local, and organic produce on location.To read about JUICEBOX owners Robert Connolly and Robbie Pyle's transition from corporate employees to food truckers pursuing a dream, the eye-opening power of cancer, and why juice is the way to go, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/4944/getting-the-squeeze-on-las-juicebox",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JUICEBOX",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5771a4f5-3124-412c-b057-5e5e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smok'N Cantina is serving up the tastes of the Southwest with a BBQ twist you're sure to love! You'll find delicious appetizers, sandwiches, and their fantastic \"NachOrdinary Tacos\" when you visit this food truck. If you're looking for an amazing menu full of flavor you'll never forget, then Smok'N Cantina is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smok'N Cantina",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d3c1e2-0f4c-4c3f-bb5b-4dfb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

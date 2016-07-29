@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Korean BBQ is roaming the streets of Phoenix today, thanks to the fantastic Hibachibot! Terrific tacos, rice bowls, smothered fries, and more are all on Hibachibot's superb menu. Sink your teeth into something savory and superb today, with Phoenix's amazing Hibachibot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hibachibot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56afa6e6-3c10-44ea-be21-3c5e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

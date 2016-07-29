@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Athena's specializes in delivering the freshest Grecian fare to the streets of Seattle. Their dishes range from traditional menu items such as gyros, falafels, and Greek salad, to Greek/American fusion dishes like the Athena Burger which is smothered in tzatziki sauce, and their Greek fries which are sprinkled with feta. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Athena's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/518c3522-8bc8-4bd0-9c72-0a0446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

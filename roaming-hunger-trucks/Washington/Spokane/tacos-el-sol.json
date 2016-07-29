@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best tacos in town, then there's nobody better than Tacos El Sol! Authentic Mexican flavor you'll never forget is right around the corner now, thanks to Spokane's premier taqueria on wheels. For all the best tacos, tortas, tostadas, and more, accept nothing but the best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos El Sol!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5609aba3-b2f8-486e-8382-2e6946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

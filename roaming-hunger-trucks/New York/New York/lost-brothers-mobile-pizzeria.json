@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your guests will oooh and ahhh as our Pizzeria On wheels pulls up to your event!  Hiring LostBrothers for weddings, graduation parties, bar/bat mitzvahs, and birthday parties hasincreasingly become the \"go to\" option when you want to throw an unforgettable bash!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lost Brothers Mobile Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8565/54eb59cb-8a40-4565-936f-378d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

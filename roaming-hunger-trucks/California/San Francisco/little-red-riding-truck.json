@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Little Red Riding Truck is serving up authentic and traditional German dishes. Their signature dish is the Currywurst, a bratwurst cooked until tender that is then sliced and topped with tomato based curry sauce and served with a side of fries. The Little Red Riding Truck menu also includes Bratwurst, Schnitzel and Sp\u00e4tzle, recipes coming straight from Germany to San Francisco's streets.Read about how this truck came to be, Viktoria's decision to stay in SF and bring this great truck to the streets, and why this is probably the most authentic German food you'll get outside of Germany: http://roaminghunger.com/blog/8463/the-little-truck-keeping-tradition-alive",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Little Red Riding Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e03809-11cc-48a8-b834-0c7146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

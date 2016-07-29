@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ugarit Mediterranean Meals is Portland's premiere spot for your Greek and Mediterranean cravings. Their menu includes classic dishes like Greek salad, Tabouli, Kebabs and Gyros. For dessert make sure you try the sweet and flaky Baklava! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ugarit Mediterranean Meals",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52438f5b-3170-4666-81fe-242d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

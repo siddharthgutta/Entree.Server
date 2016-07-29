@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, hot, delicious seafood has never been so easy to find! Duke's Seafood & Grill is here to bring the tastes of the Pacific Northwest and the Gulf Coast together on a street near you! Their high quality fish, clam chowder, grilled steak nachos, and more are ready and waiting to satisfy your cravings, no matter what your taste!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Duke's Seafood & Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554aa585-82e8-48f3-ac94-348e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

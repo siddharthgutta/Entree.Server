@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flatbread Bistro is exactly what the streets have been missing! A Flatbread Pizza Truck that offers both Classics & Gourmet Menu Items. Let's not forget the unbelievable Penne Pastas and Salads! Find it in the greater Atlanta area, or bring it straight to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flatbread Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548618c9-3db4-4227-a226-7f4246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nimita's Cuisine is cooking up the fantastic Indian fare that you've been craving! Vegetarian, organic, and all-around fantastic, this menu is an amazing way to brighten your day with quality food you're sure to love. Perfect for any occasion, Nimita's is ready and waiting to feed you and your next big event! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nimita's Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12608/561dc505-5b38-4d55-84ee-4ce146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

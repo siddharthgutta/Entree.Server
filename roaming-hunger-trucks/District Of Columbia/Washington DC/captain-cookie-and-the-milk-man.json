@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Captain Cookie and the Milk Man is a mobile bakery and dairy bar serving fresh-baked cookies, local milk, and made-to-order ice cream sandwiches! In addition to the greatest chocolate chip cookie in the world, Captain Cookie serves flavors like Ginger Molasses, Peanut Butter, Cardamom Snickerdoodle, Oatmeal Raisin, Cocoa Cayenne Espresso, Pumpkin Muffaroons, and more! Plus the excellent Vegan Chocolate Chip Cookie!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Captain Cookie and The Milk Man",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5026ee18-86d8-4f0e-b540-4d0246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

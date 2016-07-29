@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Big Boss Group has done away with the old-fashioned ice-cream truck of the past. Their truck boasts a fully digital menu that features customizable greetings, as well as a top-of-the-line outdoor stereo-system. If all of that doesn't catch your eye, Big Boss Group has also decked their truck out with bright LED flood lights with that they use during special events. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Boss Group",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5182ea1b-8b40-4c16-a92b-48fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

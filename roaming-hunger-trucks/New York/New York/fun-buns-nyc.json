@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fun buns is serving delicious steamed buns and rice bowls to the NYC streets! Try the Braised Pork Belly, Peking Duck, Bulgogi Beef, or Soy Teriyaki Chicken! You'll be saying \"Yum!\" in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fun Buns NYC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54d11292-5b7c-4734-9fdc-4f1146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

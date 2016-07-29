@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Handmade one at a time, Atomic's ice cream sandwiches are the stuff of legend. With flavors like pistachio and bourbon pecan, this cute cart will satisfy even the most extreme of sweet tooth cravings. Find it on the streets of Atlanta, or bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Atomic Ice Cream Sandwich",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/540623f3-99e8-43ca-ab69-414846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

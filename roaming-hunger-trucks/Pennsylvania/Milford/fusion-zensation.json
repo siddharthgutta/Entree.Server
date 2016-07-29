@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you ready for a new taste Zensation? Fusion Zensation is bringing a brand-new flavor to the food truck scene, with its unique take on some classic cuisine. Try the braised pork tacos, noodle shrimp tempura, Thai style chicken in black chili, or any of their fantastic menu items today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fusion Zensation",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559f0837-d414-4eda-a5c6-2acd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

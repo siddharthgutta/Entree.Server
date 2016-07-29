@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The taste of Australia in Charlottesville! We specialize in savory meat and vegetable pies, all wrapped up in hand-held flaky puff pastry! For all you sweet pie lovers out there, do not worry we have a freshly baked hot apple pie for you!Located on The Downtown Mall outside of The Mudhouse. Full menu is located in our album pictures. On Saturdays we will be at the Charlottesville Farmers Market till 1pm.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pie Guy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51ac0a7b-7990-4d50-8afa-0d4e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

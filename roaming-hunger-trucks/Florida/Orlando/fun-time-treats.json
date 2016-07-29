@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Orlando ice cream truck, we have over 50 items on the truck. Book us now for your birthday party or company event. Wedding, Bar-Mitzvah. Employee appreciation, customer appreciation, ice cream social. A great dessert and we come to you or your customers. Where there's ice cream there's fun. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fun time treats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52965856-4fe4-4f53-89c3-3be446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

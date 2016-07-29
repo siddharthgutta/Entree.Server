@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the tastiest tamales on the streets of Montana? Then Tias Tamales is here for you! Fresh, handmade, and always fantastic, these tamales will take your taste buds on a wild ride in fantastic flavor. Shake up your every day lunch routine today, with Tias Tamales!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tias Tamales",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564a0ebd-b410-4942-8103-7ab446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

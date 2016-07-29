@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "100% all beef hot dogs and fantastic service are what you can expect from Snyder's Hot Dogs! Slinging dogs with all your favorite toppings, from ketchup and mustard to chili and coleslaw, Snyder's has the dog that's right for you! Roaming all over LaGrange, stop by Snyder's for some great food served with a smile.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Snyder's Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551c22b6-d240-41bc-8e64-1ea346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

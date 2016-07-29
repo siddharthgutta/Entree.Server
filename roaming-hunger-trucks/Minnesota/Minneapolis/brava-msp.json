@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lots of folks in Minneapolis are quickly learning about the amazing food offered by Brava! Come try the gourmet food - pulled chicken adobo tacos, pulled steak sandwich on a pretzel roll, tilapia fish bowl, chicken curry bowl - there are just so many choices. Word on the street is the jalapeno sauce is ridiculously good too so don't be afraid to spice things up.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Brava",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52153cc1-0618-4db3-99f4-27df46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

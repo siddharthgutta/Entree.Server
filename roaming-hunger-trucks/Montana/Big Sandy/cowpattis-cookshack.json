@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Make no mistake about CowPatti\u2019s CookShack, they\u2019re serving up some of the most amazing Mexican food you can find in all of Montana. CowPatti\u2019s has quite a knack for makin\u2019 yummy flavors that everyone adores, just get a taste of their traditional tacos, burritos, and more! So come on out and mooooove on up to CowPatti\u2019s CookShack for your next \"wow\"-worthy snack!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CowPatti's CookShack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571e9fec-5f50-4dce-8770-2dd046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

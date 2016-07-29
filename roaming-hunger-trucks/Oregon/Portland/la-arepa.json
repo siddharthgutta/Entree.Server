@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for authentic Venezuelan food, you've got to try La Arepa! A real taste of Venezuela, La Arepa has all the classic flavors you're looking for. Rice and beans, avocado, fried plantains, and of course their signature arepas stuffed to the brim with the best filings you could ask for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Arepa",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5581b66d-97b0-479d-963f-2a4d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "When you're looking for delicious baked goods in the city of Anchorage, don't settle for anything less than A Slice of Heaven! Your sweet tooth will never be the same after you visit this amazing truck. For the best cupcakes, cookies, toffee, and more, A Slice of Heaven is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "A Slice of Heaven",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560f0a82-17fc-4921-9927-7dec46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

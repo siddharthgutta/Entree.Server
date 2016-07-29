@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Only Burger will be bringing the goodness to the people. Our concept is this... the best burger, plain and simple. Only Burger is the Triangle\u2019s latest dining innovation, and you don\u2019t even need a reservation. Owned by Brian Bottger, Only Burger will be bringing the goodness to the people. Does it get any better?",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Only Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/509d4192-f070-4880-9226-228946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

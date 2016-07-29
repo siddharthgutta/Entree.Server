@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The perfect grilled sandwich is finally here! After years of research, the Chico Chuckwagon has finally accomplished the dream of making the perfect grilled Sandwiches. Located in the Chico area, The Chico Chuckwagon can deliver their delicious Grilled Sandwiches directly to your next event. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chico Chuckwagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55242421-f598-41eb-9016-381346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

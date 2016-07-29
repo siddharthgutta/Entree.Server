@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stingray Sushifusion offers its Rochester customers a unique blend of Japanese and Latin cuisines. From their Bossa Nova roll (tempura shrimp, bacon, garlic mayo, and caipirinha lime zest sauce) to their Dominican roll (tempura shrimp, fried cheese, bacon, avocado and ginger mayo) their dishes combine these global flavors to perfection. Oh and did we mention they also have Yokomo Flan and Japanadas? Sold.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stingray Sushifusion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e76ec-e7a0-454e-a351-26c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

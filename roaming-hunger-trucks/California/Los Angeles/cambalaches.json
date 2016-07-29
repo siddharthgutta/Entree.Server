@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cambalache's is food truck that brings you traditional Argentinean style gourmet food in the Los Angeles County area. Check out the Skirt Steak, Argentinean Sausages, Fresh Chimichurri, Veggie Options, Chicken, and the Famous Argentinean Empanadas! Your taste buds will thank you! Buen Provecho!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cambalache's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f07977c-46b8-43e4-bbfc-13e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

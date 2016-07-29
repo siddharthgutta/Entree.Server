@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hit-N-Run Grill is bringing you the greatest grub on the go on the streets of Jacksonville! Delicious wraps, gyros, cheesesteaks, and more are all on the menu today. If you've been looking for fine food that you can really sink your teeth into, then Hit-N-Run is just what you've been waiting for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hit-N-Run Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12765/5692d39f-409c-4b86-a4fe-645946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

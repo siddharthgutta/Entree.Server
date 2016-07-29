@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious BBQ is here, Right On Que! There's nothing as good as real southern BBQ, and for that delicious taste there's no folks around that do it better than Right On Que Smokin BBQ. Ribs, chicken, southern tacos, their signature BBQ parfait, and more are ready and waiting to feed your need for delicious cuisine!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Right On Que Smokin BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55561a33-b914-4855-ba3f-571e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

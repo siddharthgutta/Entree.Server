@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This big, bold, and beautiful truck is serving up a marvelous menu that features succulent sandwiches on Cuban rolls and pressed to perfection. Their famous Cubanos are made with roasted pork shoulder that\u2019s marinated in homemade mojo for 24 hours, so prepare to savor some major flavor. You can also find Peppered Bacon BLTs, Philly Cheesesteak, and more. Their selection of stuffed burgers, including Mushroom, Bacon and Cheddar, and Cordon Bleu, are simply the stuff of legend. And you\u2019re sure to be delighted by their sides of savory soups and hand-cut fries. So come curb your cravings for some great food, and get into some Good Sammiches. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Good Sammiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571feffc-e030-40c3-84b1-1ba346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

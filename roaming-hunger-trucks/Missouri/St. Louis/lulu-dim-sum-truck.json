@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you\u2019re in the mood for flavorful authentic Chinese cuisine, you gotta meet LuLu on the streets of St. Louis! Featuring favorite items from their renowned restaurant menu, such as delicious Dumplings, tasty Steamed Buns, and so much more...this delightful dim sum is quite satisfying when you're on the move in Missouri's favorite city. For some major yum, check out LuLu Seafood & Dim Sum!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LuLu Dim Sum Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13394/57045dff-7188-42c7-b648-37d346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

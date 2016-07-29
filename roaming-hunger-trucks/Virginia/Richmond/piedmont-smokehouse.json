@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Piedmont Smokehouse is a family owned roaming business located in the heart of Virginia in the beautiful Piedmont. They are truly committed to bringing you a final product that is both delicious and artistic when it comes to traditional barbecue dishes. Track down the Piedmont Smokehouse for an authentic experience you wont forget!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Piedmont Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55722323-f420-4b92-a564-0c2e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

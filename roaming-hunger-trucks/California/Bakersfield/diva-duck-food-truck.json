@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Diva Duck Food Truck is bringing divine comfort cuisine to Bakersfield. You\u2019ll find a fine variety of candy, snacks, and cool beverages on one side. On the other, you\u2019ll discover a delectable selection of dazzling daily specials, like Biscuits & Gravy, Chorizo & Egg Burritos, or Southwestern Steak Salad.Once you waddle on over to this truck, you too will surely declare: \u201cViva Diva Duck!\u201d",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Diva Duck Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/570431e1-dce4-48e1-9644-5fcd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

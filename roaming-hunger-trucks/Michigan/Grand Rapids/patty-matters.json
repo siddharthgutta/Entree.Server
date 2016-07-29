@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Patty Matters is putting mobile gourmet grub on your plate today! These aren't your everyday burgers, these eats are freshly made with custom toppings so they're always exactly what you want. Along with their fresh fries and truck-made tater tots, you'll always get a great eating experience from Patty Matters!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Patty Matters",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5696a956-45b8-43f6-85c5-484946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

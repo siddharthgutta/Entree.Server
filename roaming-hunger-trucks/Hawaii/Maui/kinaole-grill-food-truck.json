@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Local food served with local style! The perfect food to add to your day at the beach, or any day you want something fresh and delicious! The Kina'ole Grill Food truck is here serving up some aloha. Whether you get the coconut shrimp, the crispy calamari, the pulled pork slider, or any of their other delicious dishes, you're sure to have an experience worth celebrating!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kina'ole Grill Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55246422-f788-4a42-92f4-66cf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

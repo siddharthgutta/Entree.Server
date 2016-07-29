@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Now Make Me A Sandwich is a mobile food truck in the Seattle area. This food truck specializes in \"grilled sandwiches that taste awesome.\" All sandwiches are stacked up with interesting ingredients. Try \"The Bad Lieutenant\" made with pulled pork, bacon, ham and provolone, topped with chipotle bbq sauce and an apple slaw. Now Make Me A Sandwich has something for vegetarians as well. Try their \"Budda Call, made with spinach, sweet potatoes, crimini mushrooms, roasted red peppers and manchego, and topped with a garlic tahini sauce. Awesome indeed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Now Make Me A Sandwich",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4381/53d2516b-4f14-4d31-9ea6-379446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

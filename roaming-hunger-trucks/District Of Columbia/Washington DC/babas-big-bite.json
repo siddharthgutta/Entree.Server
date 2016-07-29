@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Baba's Big Bite is a food truck serving the northern VA and DC metro area. Offering a varied menu of cheese steaks, burgers, grilled chicken, gyros, and more, Baba's is sure to suit your tastes if you're craving something delicious and filling. Check them out today, or have them make your next event even better!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Baba's Big Bite",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54385b76-e328-4977-b5ff-39d246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

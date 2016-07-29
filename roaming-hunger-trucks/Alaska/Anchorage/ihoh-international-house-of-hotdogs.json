@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "America's favorite street food is here, and it's ready to satisfy your hunger! International House of Hotdogs is serving up delicious sausages on a bun that will have your mouth watering in no time. The Chicago Dog, Texan Dog, Bombay Dog, and so much more are finally here, thanks to the International House of Hotdogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "IHOH International House of Hotdogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562679d6-c124-4a8a-a46a-652546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

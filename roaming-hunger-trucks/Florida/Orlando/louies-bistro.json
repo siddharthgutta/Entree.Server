@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving Central Florida with incredible food prepared with passion and love for the culinary arts. Come out and visit Louie's Bistro Truck today! Try the Crispy Duck Confit Sandwich, the Fried Shrimp Po'Boy, the Roasted Lamb and Beef Gyro, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Louie's Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f4fde60-a1d4-4838-92cf-3b7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

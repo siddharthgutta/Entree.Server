@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pop-A-Harrys Gourmet Popcorn is an old fashion popcorn business with a unique twist on doing business. Pop-A-Harrys Gourmet Popcorn offers their customers the best for less. By reducing operating cost, and bringing it to the customers\u2019 community. Pop-A-Harrys Gourmet Popcorn operates out of a custom designed popcorn bus and uses only the highest quality ingredients in their products. Pop-A-Harrys Gourmet Popcorn can do this because its overhead is less than many big name popcorn shops.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop-A-Harrys Gourmet Popcorn",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/531a3b3b-9088-4a12-896e-7e2946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

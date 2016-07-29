@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Portland foodies hankering for some good ol' BBQ flock to this tasty food truck. Customers seem to go nuts for their sliced brisket which is tender, juicy and smoked to perfection. Their sides are incredibly popular as well, these include baked beans, mac n cheese, potato rolls and more. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Road Runner BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524c935a-4e98-456b-9a7d-0fbb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

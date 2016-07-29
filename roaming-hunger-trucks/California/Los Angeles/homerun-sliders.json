@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Named \"THE hottest food truck to hit the L.A. scene\". Mother-Daughter owned and operated, serving up gourmet sliders curbside. Good food-done right. Thoughtfully sourced, artfully prepared. This truck hits a home run every time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "HomeRun Sliders",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9149/5526adc9-81a8-4d90-8e10-2e8e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

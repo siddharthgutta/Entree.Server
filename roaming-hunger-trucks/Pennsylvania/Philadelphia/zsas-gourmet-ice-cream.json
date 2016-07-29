@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Zsa's Gourmet Ice Cream is a small batch producer of classic and original artisanal ice cream treats. We sell our flavors by the pint and by the cup; and, sandwiched between our own gourmet cookies and baked goods. We are a mobile ice cream shop/stand, that brings delicious treats to various farmers' markets and events in the Philadelphia/Montgomery County area. CURRENT FLAVORS:Chocolate Truffle, Vanilla, Pumpkin Gingersnap, Peanut Butter, Maple Toffee Graham, Cinnamon, Rich Chocolate SorbetCURRENT ICE CREAM SANDWICHES: *Vanilla Ice Cream + Cinnamon Chocolate Chip Oatmeal Cookies*Peanut Butter Ice Cream + Double Chocolate Chip Cookies*Pumpkin Ice Cream + Gingersnap Cookies (LIMITED TIME ONLY!!)",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Zsa's Gourmet Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50a1724c-65e0-44bc-aa10-1bc146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

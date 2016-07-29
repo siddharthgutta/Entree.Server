@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Quality BBQ cooked low and slow, Pigs Eatin' Ribs takes pride in everything they do. Fresh kielbasa, pulled pork, roast chicken, and much more all cooked to perfection daily are sure to have your mouthwatering and bring you back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pigs Eatin' Ribs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526ca30-f33c-4046-9f98-567246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crazydilla Food Truck is roaming Miami and taking your typical quesadilla and turning it into a next level taste sensation! Home of \"The Cubadilla,\" a spin on a traditional cuban sandwich with pulled pork, serrano ham and the works, Crazydilla takes several of your favorite sandwiches  and pulls their signature Crazy on them. But don't worry, Miami: The Crazydilla Truck offers a traditional Mexican quesadilla for the purists, as well.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crazydilla Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/570584d1-4b38-4728-b4d6-523546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet nachos are roaming the streets of Philly, just waiting to satisfy your cravings! NachYo Truck is bringing you nachos like you've never seen before! Their unique style and variety means you're sure to find something new and fantastic when you visit this fantastic food truck. Try the Hulk Hoagie, Pizza the Hut, Greece Lightning, or anything off their spectacular menu today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "NachYo Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a03dea-1bc8-4dd8-b857-7df646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "'Kokio Republic' is a Korean Fried Chicken Food Truck in San Francisco and the Bay Area. Serving up crispy, finger-licking, Korean-style fried chicken, this truck will have you hooked in no time! Check out the chicken, fries, and fried kimchi or tofu balls! Sure to leave you satisfied. *Vegetarian option available.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kokio Republic",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7719/545a099d-b97c-4402-8ea5-642546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

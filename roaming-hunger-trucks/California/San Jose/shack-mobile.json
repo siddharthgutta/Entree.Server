@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Escape to a little piece of Maine at our casual New England style food truck where you can enjoy traditional New England seafood favorites right here in the San Francisco Bay Area.Emphasizing freshness, menu highlights include our famous Ultimate Lobster Rolls, crispy \"full-bellied\" Ipswich clams, fresh day boat scallops, haddock fish and chips, Shack's own lobster cakes, fresh east coast oysters, and steamed Maine lobster right from our own tank.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shack Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4edd6faf-4a94-4d9e-ba75-289346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

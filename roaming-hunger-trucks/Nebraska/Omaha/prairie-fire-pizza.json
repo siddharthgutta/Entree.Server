@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Baking the best wood fired cuisine in all of Nebraska is Prairie Fire Pizza! Pizzas, calzones, appetizers... this terrific trailer is serving up all that and more. Ready and waiting to cater your next event, Prairie Fire Pizza's menu is sure to make your next occasion awesome!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Prairie Fire Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564f87a9-c068-464b-b3e7-56a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

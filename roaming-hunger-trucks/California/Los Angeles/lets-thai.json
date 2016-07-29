@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our truck is called \"Let's Thai Food Truck\" which offers variety of gourmet Thai Food freshly prepared including Chicken Satay, Grill beef, Yellow chicken curry, Massaman beef curry, Chicken or Tofu Spicy basil, with options of rice bowl, tortilla wrap, egg noodle or udon. We also have many tasty appetizers and street tacos with the Thai twists. Vegetarian options are also available with fresh green salad and many tofu choices. We serve traditional Thai ice tea and coffee, green tea plus Fresh coconut water that is prepared on site. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Let's Thai",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5774504b-d14c-4140-bb54-460f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

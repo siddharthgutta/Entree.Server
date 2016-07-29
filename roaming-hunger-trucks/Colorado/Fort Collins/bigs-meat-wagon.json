@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bigs Meat Wagon is cooking up real smoked flavor with their very own signature sauces that you're sure to love! Real downhome style is what you'll find when you grab some great grub from this food truck. You'll find only the finest BBQ Wings, Tacos, Nachos, and so much more when you try Bigs Meat Wagon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bigs Meat Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56731334-f308-4ee2-a109-60d446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Denver's Baba's Falafel food truck offers innovative falafel creations such as their falafel cones and falafeldillas. The falafel cones consist of warm pita wrapped around falafel, lettuce, parsley and served with creamy tahini. The falafeldillas substitute pita bread for tortillas and hummus for cheese, and they include falafel and fresh veggies. Baba's Falafel is the perfect truck for vegans, vegetarians, and of course falafel lovers. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Baba's Falafel",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/511adbb6-4f88-4718-b6a2-3b3c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Angry Egg Roll is one angry trailer serving eggrolls to the Austin streets. Offering the \"Drunken Master\" - and the \"Grasshopper\" for the vegetarian types - Angry Egg Roll makes certain that hungry foodies in need of a crunchy treat are well served. Stop by and grab a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Angry Egg Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546292a5-4fac-4129-abec-57b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

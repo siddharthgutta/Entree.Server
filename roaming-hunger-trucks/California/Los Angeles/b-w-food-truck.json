@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "B & W Food Truck is making its way through LA and serving up a delicious Asian twist on burgers and other American comfort classics. Their menu features favorites like\u2026Fried chicken wings tossed in a variety of tasty sauces (Lemon Pepper, BBQ Sesame Seed, Honey Sriracha, etc\u2026) with a side of savory furikake coleslaw, \u201cUFO Burgers\u201d- juicy Angus beef patty with a crispy cheese ring, fresh tomato, onion, crisp lettuce, mayo, and B & W\u2019s special sauce \u201cLoco Moco\u201d- Angus double patty with rice, rich gravy, topped with an egg & green onionWith all this and much more, if you\u2019ve got big cravings for big flavors, be sure to come by B & W!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "B & W Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57759002-866c-4ba4-8e6e-3ef346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

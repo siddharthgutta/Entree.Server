@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lola's Blue Farm is bringing classic New England cuisine to the streets, with a fantastic twist! This groovy, gluten-free VW bus is serving up some superb food you can really sink your teeth into. The best fish and chips, clam chowder, and so much more are on their way right to you, thanks to Lola's Blue Farm!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lola's Blue Farm",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ce3ad7-7af8-4a0f-b404-683e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

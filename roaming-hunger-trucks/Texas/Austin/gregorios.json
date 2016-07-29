@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gregorio's serves delicious NY-style Italian out of a trailer at the Midway Food Park in West Lake, Austin. With pan-fried ravioli, a variety of tasty salads, and the ever-classic meatball marinara, this trailer's menu is sure to offer something that fills you up and warms you through with thoughts of home. And if you're bringing the little ones, don't miss the kid's menu! Stop by today, and grab a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gregorio's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8022/547b9a4c-f364-40d6-9f01-33c146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

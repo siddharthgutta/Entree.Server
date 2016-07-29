@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Falafel House is a truck serving the greater DC area with delicious falafel goodness. Acknowledging the need for a different type of food in one of the most diverse regions of the country, Falafel House's creators decided to combine fresh ingredients and age old recipes to satisfy the hungry students and workers in northern Virginia.  Want something different? Want to enjoy the healthiest fried food available? The best of both worlds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Falafel House",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543c24cd-9bf0-4ea8-9aa4-7da646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Widespread Dave's is a delicious Austen trailer serving a variety of gourmet bites. Offering Firecracker Shrimp, Hill Country Avocado Fries, \"The Waker\" BLT, and much more, this trailer's tasty and varied menu won't let you down. If you're in the mood for something a little out of the ordinary, stop by Widespread Dave's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Widespread Dave's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5463ea2a-816c-4040-bfde-167846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

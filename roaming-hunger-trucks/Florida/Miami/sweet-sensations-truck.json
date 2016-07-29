@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Sensations Truck is roaming Miami and serving up all of your fair food favorites! It all starts with Deep Fried everything from Oreo Cookies, Snickers, Twix, Kit Kat, Twinkies, etc. The treats continue at the Sweet Sensations Truck with Saratoga Chips, Bloomin' Onions, Corn Dogs, Chipstix, and Del's Lemonade, and Funnel Cakes with all of your favorite toppings and ice cream!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Sensations Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50e0cad4-7764-493a-8988-7f9146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frankie's Family Restaurant is famous for our foot long hotdogs, we also have many other options including burgers, seafood, chicken, and plenty other finger foods! Now this great fare takes to the streets! So don't miss it when it rolls by your neighborhood.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frankie's Famous Hotdogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9270/552d20d6-69ec-4ff8-821a-3ac646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

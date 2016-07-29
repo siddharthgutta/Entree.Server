@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DiSO's Italian Sandwich Society is a gourmet food truck located in New York City. Serving quality sandwiches made with imported gourmet Italian meats and cheeses, DiSO's can meet your sandwich cravings. These meals are made with love while carrying on the tradition of the DiSO's family!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DiSO's Italian Sandwich Society",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543463db-1e3c-41a4-9236-035246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

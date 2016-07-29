@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Denver's Big Country BarBQue all of their juicy cuts of meat are smoked to perfection and each side is made fresh daily with quality ingredients. Grab yourself a delicious sandwich with pulled pork, smoked chicken, beef brisket, smoked portabello mushroom caps, or another delicious option! Stop on by and see what makes this truck so great!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Country BarBQue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51bb9dea-e258-451b-87ce-181746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

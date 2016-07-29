@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Brother Almighty is a great Minneapolis food truck serving Brisket, Chicken Wings, Pulled Pork, Ribs, and so much more, all smoked right on the truck! If that's not enough, their delicious sides include Cole Slaw, Mac&Cheese;, Baked Beans, Potato Salad, French Fries, and Sweet Potato Fries! Hungry yet? Stop on by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Brother Almighty",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55085a47-4de0-4a41-b2fb-688b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

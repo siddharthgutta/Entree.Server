@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Winey Munkies is bringing the best frozen wine treats to Reno's streets! Wine sorbet and ice cream, like Merlot, Cabernet, Chardonnay, and more, are ready and waiting for you. Taking a taste of Reno on the road, Winey Munkies is rolling up to you with something you'll love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Winey Munkies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a83592-8ce4-4ab4-84e4-4b7346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

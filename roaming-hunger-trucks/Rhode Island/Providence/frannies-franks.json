@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frannie's Franks is a delicious all-beef hot dog cart based in Cranston, RI. Far from your standard dog cart, Frannie's incorporates such toppings as mac 'n' cheese, BBQ sauce, BLT, nacho cheese, and more! Stop by and try a Frannie's Frank!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frannie's Franks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7530/55831af8-42c8-4303-8111-061846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

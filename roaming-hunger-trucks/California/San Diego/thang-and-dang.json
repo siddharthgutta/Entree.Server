@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Thang and Dang is serving up some delicious traditional cuisine on a street near you! Born in Laos, Thang and Dang have always had a special place in their hearts for traditional foods of Thailand and Laos. Whether it's the Chicken Curry, Lao Sausage, Pineapple Ginger Wings, or any of their fantastic menu items, you're sure to love the tasty fare made with love at this great truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Thang and Dang",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ad292f-2204-4e98-b2d1-55c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

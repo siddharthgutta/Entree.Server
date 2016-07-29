@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Truck on the Bayou is serving up the finest Cajun cuisine in all of Houston! You've never seen gumbo, poboys, or boudin balls like they're serving up on this truck. There's nothing quite so amazing as the tastes of Louisiana, so try Houston's number one truck for that fantastic taste!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Truck on the Bayou",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b4de04-8f38-4ba1-a722-6af446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

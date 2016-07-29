@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Panini Grill serves up delicious Italian paninis, pizzas and pasta, as well as burgers and empanadas. With custom and spiced up traditional flavors, we guarantee that there is more than one fabulous treat in our midst that will make your mouth water. We put our hearts and souls into every panini and salad we serve. Nothing is better for us than seeing the smiles that follow a first bite. The only bigger compliment is hearing customers continually say \"Oh, we love this food truck!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Panini Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577c0376-54f8-4728-b1fc-38f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

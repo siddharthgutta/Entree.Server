@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "On the road and ready to serve, it's time for Spice On Curve! With curries and kabobs like you've never had, this truck is bringing you something amazing and delicious. Tastes you crave, cooked to perfection, and service that can't be beat - Spice On Curve will be your new favorite food truck from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spice On Curve",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a5a380-3850-4f29-abb2-06dc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The House of Hunger food truck features and supports local products in our truck.  Our salsas are made by The Salsa Lady, our frozen cheesecake bites are made by Chubby Girl Cheesecakes, and we're always looking for something new!  Everything on our menu is made fresh using only the highest quality ingredients.All of our food is prepared at Kitchen In The Market at Midtown Global Market, in Minneapolis.  The kitchen is an amazing venture embarked upon by two of the hippest women in the city.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "House of Hunger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/550b0acf-f904-47e0-97dc-2f8746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

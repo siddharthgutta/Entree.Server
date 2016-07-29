@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Happy Hippy is here with a whole menu of amazing vegan dishes you're sure to love! Food on the move with a mission to bring nutritious food to you, Happy Hippy is promoting healthier lives with delicious cuisine. Sweet, savory, fresh, and fantastic, Happy Hippy is bringing you the best of the best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Happy Hippy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3cb8b-b77c-421b-a7a4-520746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

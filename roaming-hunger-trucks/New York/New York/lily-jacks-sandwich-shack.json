@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lily Jack's Sandwich Shack is a mobile eatery. What is a mobile eatery you ask?It's a fancy way of saying we are an awesome food truck and caterer! We create quality homemade sandwiches, salads and more, serve them at events around the area and cater to your personal event or party!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lily Jack's Sandwich Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7522/541615fa-f000-4210-9289-166a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

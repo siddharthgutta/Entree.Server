@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Based out of Ocean County NJ, RDF offers inventive pub grub for your event. Disco Fries, Pizza Fries, Chili Cheese Fries, Sliders/Burgers, Hot Dogs/Sausage, Meatball Subs, Pulled Pork, Toasted Ravioli, Skewers, Corn Fritters, Grilled Chicken, Salads, Entrees, Coffee/Soda. Menus consist of 5 items. You select depending on event needs.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Romano's Disco Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6963/55e62e04-a8b8-4425-8138-708b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Perros Express is Miami's 100% authentic Colombian gourmet food truck. Our menu includes Burgers, Hotdogs \"Perros,\" Arepas, Chorizos and Churrasco. We look forward to seeing you soon and we hope you can enjoy a taste of Colombia in Miami.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Perros Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e94ea87-4708-45bb-917e-2bd746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An authentic Cajun and creole food truck born in the bayous of Louisiana and created in the mountains of North Carolina. We strive to bring the flavors of our culture to Asheville with all local ingredients.  We serve fresh made classics like Jambalaya and gumbo as well as fusion dishes repurposing age old flavors into lighter healthier options.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vieux Carre",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7084/53f3b5b6-ab0c-407f-b556-1e4c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

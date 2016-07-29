@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "When you're craving everyone's favorite comfort food, nobody beats Mr. C's Grilled Cheese! This is gourmet grilled cheese, made with the very best ingredients by people who love great cooking. Try the Mac Daddy, Fancy Caprese, Caliente, and so much more today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr. C's Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5604602f-48c8-4fbf-bc40-32a646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

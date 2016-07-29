@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet burgers, sandwiches, brats and more! Barbed Wire Reef is bringing wild game food to the streets of the Mile High City and fantastic flavor to the mouths of its people! For the finest food and friendliest service around, visit the Barbed Wire Reef today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Barbed Wire Reef",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9004/55d523f0-ad00-470d-b5ce-0c3746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

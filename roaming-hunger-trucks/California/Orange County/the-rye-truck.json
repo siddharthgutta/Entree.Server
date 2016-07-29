@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Make your mornings amazing every day, with a quick stop at The Rye Truck! This is a bakery on four wheels, bringing high quality eats to the community. Cookies, cinnamon rolls, berry brioche buns, and more terrific treats are being baked daily for your eating pleasure! Together with the amazing Stumptown Coffee, this truck is your one stop shop for the perfect morning!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rye Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a80077-e890-4261-943b-326546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

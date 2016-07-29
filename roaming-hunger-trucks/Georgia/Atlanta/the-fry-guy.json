@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fry Guy Atlanta brings Belgian-style street fries to Atlanta! They come in a cone with one of the many handmade incredible dipping sauces, or topped with the perfect combination of ingredients to bring you to french fry nirvana. Always hand-cut, always crispy, and always the best! Sound delicious? Check it out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Fry Guy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e150dec-f98c-4c80-80b6-672b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

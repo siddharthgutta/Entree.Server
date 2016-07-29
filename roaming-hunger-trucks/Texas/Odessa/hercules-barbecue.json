@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic West Texas barbecue rolling down a street near you! Hercules Barbecue is a family owned and operated truck, providing quality food with fast and friendly service. Brisket, chicken, sausage, and more are on the menu and  they've all been cooked low and slow, the proper barbecue way!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hercules Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554a4595-0afc-4d86-be25-775746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

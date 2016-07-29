@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have you been craving authentic Venezuelan cuisine? Then Mi Venezuela is the truck for you! A family restaurant on four wheels, Mi Venezuela is bringing you quality food made with the best ingredients. This great truck is serving the streets of LA with the best arepas, empanadas, and so much more, so stop by when it rolls down a boulevard near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mi Venezuela",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bff515-0e78-4e80-8d7c-6ba846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

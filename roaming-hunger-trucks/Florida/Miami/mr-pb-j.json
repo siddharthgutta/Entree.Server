@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You remember that feeling as a child when your mom brought you that warm delicious PB&J;? Well Mr. PB&J; is kicking it up a few levels with some mouth-watering combinations of jellies and nut butters. Offering sandwiches featuring everything from sriracha and chicken to guava spread and cream cheese, served on breads ranging from white or wheat to challah, nothing about this truck lacks imagination. If you need a sandwich to complete your day, check out Mr. PB&J;!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr. PB&J;",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5452bc1a-dc70-4e9d-89dc-5c6146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

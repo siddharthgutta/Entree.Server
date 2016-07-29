@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ice Ice Lady is bringing the old fashioned ice cream truck into the modern mobile age! Their amazing selection of frozen treats is perfect for any occasion where somebody's sweet tooth is waiting to be satisfied. Don't miss out, make your next event special with Ice Ice Lady!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ice Ice Lady",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dcdc75-f3ec-48a2-80a7-568746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

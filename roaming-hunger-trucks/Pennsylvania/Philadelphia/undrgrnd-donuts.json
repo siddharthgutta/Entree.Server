@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Start your morning off right with a sweet, tasty, American classic! That's right, we're talkin' sugary fried donuts and Philly's Undrgrnd Donuts does them like no one else. Try their Captain Kranky (strawberry frosting with Captain Crunch topping!) or for chocolate lovers their Wake Up (chocolate frosting with espresso dust and a cream swirl). ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Undrgrnd Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5233c35f-046c-49b9-915f-57c446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

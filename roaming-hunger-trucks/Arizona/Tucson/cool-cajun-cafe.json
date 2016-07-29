@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cool Cajun Cafe is all about bringing authentic Louisiana Style food to the greater Tucson Area! Our menu features Jambalaya, Gumbo, fried shrimp, fried catfish, and hot roast beef Po Boy Sandwiches. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cool Cajun Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8499/54f4ba6a-42f8-42ac-9827-3aeb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

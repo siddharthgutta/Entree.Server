@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mainly a coffee truck, they also serve baked goods and have salads/sandwiches at lunch time.R\u00e9veille Coffee Co. offers the highest quality coffee from around the world. Our beans are selected seasonally to assure that our current offerings are consistently the freshest. The most knowledgeable roasters in the industry perform a delicate roasting process that addresses the specific demands of each single origin. This process results in small batches of coffee possessing distinct, unique flavors that guarantee an offering for everyone. At R\u00e9veille Coffee Co. we have a commitment to provide coffees which are Direct Trade, assuring a fair and equitable pact with the farmers producing the beans. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Reveille Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4da758af-39dc-4e09-a469-6b1f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Lancaster, PA The Soulvaki Boys are cooking up authentic Greek food for the hungry citizens of Lancaster, PA. Though they're known for their Souvlaki (a traditional pork or grilled chicken skewer served in pita over a salad) they also offer gyros, veggie gyros, greek salad and greek fries! Their menu also offers greek desserts like pasteli, sweet sesame & honey bites. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Souvlaki Boys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b4c5f-adb4-4020-80f8-172d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

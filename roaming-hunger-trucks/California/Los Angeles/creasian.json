@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CreAsian Food is redefining the idea of Japanese/Chinese fusion on a food truck. Offering delicious small plate items such as Tobiko Fish Balls to a fancy affordable seared Ahi Tuna Salad to a mouth watering house special Spicy CreAsian Chicken, CreAsian uses only the freshest ingredients and spices. Whether you are in the mood for a snack or hungry for a full meal, you won't be disappointed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CreAsian",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b26b0-a0bc-4678-bfc4-1b1e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lucky Peach is a delicious choice of wraps and burgers for every one enjoyment. The perfect deli cuts and savory seasoned burger patties make for the perfect blend of flavors in every bite. The Lucky Peach takes pride and have change the way people perceive food trucks. Try your luck and have something delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lucky Peach",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570b381-8284-4b41-8657-21ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

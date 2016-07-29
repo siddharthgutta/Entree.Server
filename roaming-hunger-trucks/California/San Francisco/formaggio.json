@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Formaggio is a great grilled cheese truck serving the San Rafael area. Far from just your standard stovetop cheeses, the sandwiches produced by this truck can include Gruyere, Fontina, caramelized onion marmalade, sherry mushrooms, and much, much more. It's clear that Formaggio is a cut above the rest. And don't miss their rosemary chips!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Formaggio",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542c2510-3c54-4965-9650-337146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

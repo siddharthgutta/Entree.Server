@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ralph n Richie's brings Cleveland Polish Boys, Corned Beef Sandwiches, Wings, and more to Los Angeles! Each of these meals are prepped with care and expertise, and you're sure to love whatever you order! Stop by Ralph n Richie's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ralph n Richie's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12145/55e4ccb8-d5e8-40d2-9bee-778b46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

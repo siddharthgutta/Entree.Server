@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "xDelica has a simple mission: To serve the most delicious dumplings. We use only the best ingredients -- Our meat is always all-natural and from the finest cuts. We serve beef, pork, chicken as well as vegan options. xDelica offers both authentic Asian classical (Chinese, Korean, Japanese, and Tibetan/Nepal momo) as well as bold fusions inspired by A2's creativity.Welcome to xDelica, we serve only the best dumplings.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Xdelica",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fcebea-ab1c-42d3-ae11-6c2046204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

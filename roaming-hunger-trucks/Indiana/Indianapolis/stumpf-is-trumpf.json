@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nothing says street food like the classic sausage cart, and nobody does sausages like Stumpf Is Trumpf! Handmade German-style bratwurst on a bun has never been this good before. Savory and spectacular, these sausages will have you falling in love from the very first bite! Keep an eye out for this fantastic food cart today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stumpf Is Trumpf",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df7b7f-edbc-4703-8474-3f6a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

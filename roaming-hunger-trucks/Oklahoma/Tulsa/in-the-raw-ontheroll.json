@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious sushi, outstanding Asian Fusion, In The Raw \"Ontheroll\" offers the highest quality cuisine created by head chef Leo Guerra, as well as a choice selection of ITR favorites... all found in one food tuck visiting Tulsa's hottest locations.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "In The Raw \"Ontheroll\"",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53ff5c61-6e7c-4e3c-8cbb-6a4f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wandering wood-fired fare for the fine folks of Illinois! Do you want to feed the best food possible at your next party, festival, event, or any other occasion? Then The Nomad Food Company is here for you! The best wood-fired pizza, and so much more, The Nomad Food Company will make your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Nomad Food Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55885c39-5eb4-49aa-851e-53ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This beloved truck\u2019s name, menu, and theme was inspired by \u201cDoc,\u201d  the endearing protagonist of John Steinbeck\u2019s Cannery Row, who explored and experienced the coast of California through burgers, beers, and counter fare, one modest diner at a time. In order to honor the admirable character, this cool chromatic truck is serving up classic comfort cuisine all throughout the Bay Area. Their menu is perfect and pure, and offers The Doc\u2019s Classic Burger- their signature item with fresh, hand-packed Storm Hill Black Angus beef, house special sauce, Green Hollow Preserves pickles, butter lettuce, tomato, and American cheese, on their handmade potato bun. With a burger this simple and delicious, Doc would certainly approve. For this and more fantastic fare, come by Doc\u2019s Classic and savor this local favorite. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doc's Classic",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/547c9bbe-61ac-40de-a4eb-610846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "JT's Smokin' BBQ is bringing Seattle the very best of the best when it comes to delicious BBQ! Ribs, sandwiches, fully-loaded baked potatoes, and more are on this delightful menu. Perfect for any party, large or small, JT's Smokin' BBQ is the right food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JT's Smokin' BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a571b4-290c-4f75-86a0-0cde46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

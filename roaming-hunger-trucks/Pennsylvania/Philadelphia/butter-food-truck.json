@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Butter Food Truck features Brunch and lunch Sandwiches and After School snacks made form fresh homemade ingredients. Whether you are craving an egg and cheese with real cheese at 8 am or a fluffer nutter sandwich at 3pm, Butter Food Truck will always be the coolest mom on the block. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Butter Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522e8dfd-6454-4190-8ffa-306b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

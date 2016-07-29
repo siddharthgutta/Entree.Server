@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Foo Truck is Philadelphia\u2019s and Northern Liberties premier food truck.An Asian-inspired \"street food\" truck, Foo Truck mixes traditional with unconventional to create a new street - Foo's Grilled Pocket Rolls! Meat and non-meat friendly. Brown Rice Available.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Foo Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eac4911-5488-4249-8f1c-5e4246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

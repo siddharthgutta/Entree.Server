@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Silver Bullet is bringing delicious comfort cuisine straight to the foodies of Springfield, and everyone agrees that this food is especially amazing.The fact that their whole menu is made with locally sourced ingredients makes their dishes (including their loaded bacon grilled cheese on jalapeno cheese bread) even all the more delicious. Whether it\u2019s your next meal or next big party, The Silver Bullet will be there fast and will feed you the best.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Silver Bullet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/572bd4fb-cc50-4605-8c57-480346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "When you see that upcycled fire truck you know you're in for a good meal! Est Pizza Truck is all the good food of Est Est Est Pizza & Restaurant cooked fresh in a refurbished fire truck. With the classic and delicious pizza of an established restaurant in the convenience of a truck, you'll be happy happy happy you at at Est!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Est Pizza Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554bcb78-3e00-4e3e-af3d-2c0946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

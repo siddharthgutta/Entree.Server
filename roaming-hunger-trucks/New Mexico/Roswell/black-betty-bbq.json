@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roswell's getting BBQ right, thanks to the terrific food from Black Betty BBQ! This is real Texas BBQ, featuring a full line-up of the finest mesquite smoked meats and homemade sides. Satisfy your hunger today, with the fantastic taste you'll only find with Black Betty BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Black Betty BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56688dea-4288-42d6-8c68-61c946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

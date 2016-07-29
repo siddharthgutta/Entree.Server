@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tennessee's premier poutine on wheels is making its way through the streets of Knoxville and it is fantastic! Poutine Mobile is serving up fries, gravy, and cheese, all in one amazing meal on the move. Great service, the best ingredients, and a passion for good food are coming right to you from Poutine Mobile!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Poutine Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6ecb0-6844-4935-aefa-16f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

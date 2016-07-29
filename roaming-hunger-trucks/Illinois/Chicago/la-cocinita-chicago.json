@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Cocinita, literally \u201cThe Little Kitchen,\u201d serves fresh, authentic, gourmet street food from Latin America.  With locations in Chicago and New Orleans, this truck has been featured on TV shows such as Top Chef and Eat St, newspapers including the Wall Street Journal, and countless magazines, blogs, and best-of lists!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Cocinita Chicago",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5463a2c8-2728-4e02-aa15-0b0246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

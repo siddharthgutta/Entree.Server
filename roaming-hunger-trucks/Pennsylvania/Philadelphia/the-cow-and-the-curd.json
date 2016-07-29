@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Midwest Flavor Mooves to Philly:  A Wisconsin culinary staple, cheese curds are as common and indispensable in the Midwest as the cheesesteak is in Philadelphia.  Despite their ranking as one of the world's most craved regional foods, cheese curds are relatively unknown in places without cheese factories.  Until now...Our cheddar curds are made fresh and shipped weekly from a small dairy farm in Wisconsin.  We hand-batter them with our double-hopped IPA recipe and serve them to you hot and delicious with one of our 4 gourmet dipping sauces.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cow and The Curd",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51425f3a-36c4-4e21-a364-1aec46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

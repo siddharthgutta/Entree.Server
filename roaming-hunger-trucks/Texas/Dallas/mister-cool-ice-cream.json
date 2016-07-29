@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mister Cool Ice Cream is the Premium Gourmet Ice Cream Truck of Texas and they are capable of serving very large quantities of up to 500 people per hour. They specialize in corporate events, large weddings,  and parties. Mister Cool has been in business since 2001 in the Dallas area. Their menu includes Premium Dairy Ice Cream with a choice of Chocolate, Strawberry, or Caramel Swirl.  They also have 4 industrial slushie machines serving the following flavors: Lemon, Cherry, Ice Blue Lemon Raspberry, and Tangerine Orange. Amazing Ice and Frozen Coffee drinks with Ice Cream on top, and of course  IceCream Sundae's.  In the winter months Mister Cool can cater your event with Hot Chocolate, Hot Apple Cider, and Cappuccino Coffee.  All served with their amazing ice cream on top.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mister Cool Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6627/53e4312f-f040-428c-8b3e-603c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

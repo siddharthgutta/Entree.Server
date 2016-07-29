@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for something different?  Well, the Black Kettle food truck is different. However, what makes it different is the quality of food it serves.  Specializing in Grilled Flat Breads, Gourmet Burgers, and other things, the Black Kettle stands on its own mountain when it comes to serving their customers the best. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Black Kettle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55242db9-0c34-46eb-977f-528a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

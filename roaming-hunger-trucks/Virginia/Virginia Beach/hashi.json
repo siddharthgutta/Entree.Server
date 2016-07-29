@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hashi food truck is making healthy Asian fusion dishes that are perfectly executed with only fine and fresh local ingredients. Hashi followers have a different or same item up to five days a week, they are that good! With a menu that serve breakfast, lunch and dinner you just may have to stand in line and treat yourself to a delicious meal. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hashi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570dcae-f278-4e87-a630-36dd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

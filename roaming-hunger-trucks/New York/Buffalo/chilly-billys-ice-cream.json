@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If your new year's resolution is to eat more ice cream, then Chilly Billy's has just what you need! Retailer of famous ice cream brands such as Good Humor, Popsicle, Breyers and Klondike! Billy is sure to have exactly what your next fun family ice cream party is missing!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chilly Billy's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553031d2-c9bc-4b34-ae87-2d7b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

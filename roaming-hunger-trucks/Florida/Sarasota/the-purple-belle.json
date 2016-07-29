@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The ice cream truck has been an American tradition for generations, and nobody carries on the classic tradition like The Purple Belle! Serving up the best soft serve and ice cream around, The Purple Belle is sure to be a delight any day, for any occasion. Sundaes, shakes, and more, The Purple Belle has is all, and is redy and waiting to bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Purple Belle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556e3cbb-26f8-4fb5-989c-6b3a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

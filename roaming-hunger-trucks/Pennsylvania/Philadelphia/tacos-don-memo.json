@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tacos Don Memo is a fantastic truck in Philadelphia serving up burritos, tacos, tortas, and more. With your choice of asada, pollo, pastor, and carnitas, it may seem like this truck doesn't offer much variety, but the sheer flavor of each of the options is sure to blow you away. Each dish comes piled high with fillings, giving you both quality AND quantity. And, for the stout of heart, ask for the spicy option!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos Don Memo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/food_truck.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

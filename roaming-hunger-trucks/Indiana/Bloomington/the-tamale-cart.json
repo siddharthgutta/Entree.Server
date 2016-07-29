@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A food truck taking to the streets of Indiana with delicious food and good times you'll never forget, it's The Tamale Cart! You'll find amazing Mexican flavor in every bite from this terrific truck. Whether it's the tamales, tacos, tortas, or anything else off their fantastic menu, you'll always love everything you get from The Tamale Cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Tamale Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c2974f-88c0-40d5-ae45-613246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

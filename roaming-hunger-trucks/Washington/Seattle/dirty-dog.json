@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best hot dogs in Seattle then Dirty Dogs is the cart for you! They're serving up hot dogs for everyone--you can choose between the Spicy, Polish, All Beef, or Veggie dogs, and a variety of delicious dressings and condiments. Fantastic flavor for one and all is what you'll find when you visit Dirty Dog!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dirty Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ba5b46-de64-4c12-b8cf-2d3e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

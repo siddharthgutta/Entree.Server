@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for something delicious to eat on the streets of Pittsburgh? The Rolling Kitchen's menu is full of some serious eats you can really sink your teeth into! Whether you're hungry for the Italian Beef, Chicken with Mozzarella Cheese, Portabella Mushroom Philly, or anything else on this menu, you're sure to love it from the first bite to the last. Dig into the delicious flavor, when The Rolling Kitchen pulls up to a curb near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rolling Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566229cc-759c-4aec-a81e-7eaf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

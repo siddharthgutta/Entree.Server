@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Awesome eats are easy to find in Austin, but if you want something truly delicious then this food truck is the one for you! An old-school burger joint on the move, Kick Drum Burgers is cooking up a high quality menu of the best burgers you could ever ask for. Be sure to try The Moon, the Tito Puente, the Tiger Burger, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kick Drum Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56abc8ed-baa4-4e1e-8351-4b1546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

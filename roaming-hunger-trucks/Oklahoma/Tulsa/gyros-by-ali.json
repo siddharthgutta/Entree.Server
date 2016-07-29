@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gyros By Ali is a mobile eatery roaming the streets of Tulsa. Their Mediterranean inspired food is prepared with fresh made marinades and sauces daily. Gyros By Ali features signature platters including gyro meat and chicken alongside tabouli and tzatziki, in addition to their falafel sanswiches and of course, Gyros.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gyros By Ali",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e98547-712c-4c63-a834-6e3046204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

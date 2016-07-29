@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nothing satisfies your hunger like the World's Best Corn Dogs! There's nothing quite like a perfectly prepared, golden brown corn dog, packed with flavor and made just for you. Ready and waiting to cater each and every one of your most important events, World's Best Corn Dogs is the food truck you and your guests have been waiting for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "World's Best Corn Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566b5150-8cec-4af5-897e-0c8646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

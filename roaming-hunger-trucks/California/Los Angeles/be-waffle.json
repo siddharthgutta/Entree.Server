@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Be Waffle is a delicious waffle truck serving the streets of Los Angeles. These Li\u00e8ge waffles are soft inside and crunchy on the outside; the chipped sugar caramelizes during the cooking process to create a delectable surface which can then be adorned with red fruit coulis, a ball of vanilla ice cream, whipped cream, or the sweet and simple icing sugar. Find this fantastic truck on the streets of LA and get yourself a waffle today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Be Waffle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b119f-8ca0-46ef-9377-31b546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

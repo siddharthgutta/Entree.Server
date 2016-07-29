@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Truckin Good Pizza \"Truckin Good\" Pizza is the latest addition to the food truck revolution that has hit the streets of South Florida.Serving up the traditional old world style. Our pizzas are made with love using only the finest ingredients imported from Italy, in strict compliance with the Verace Pizza Napolitano\" (VPN) Association of Naples Italy. These simple ingredients are wheat flour \"Antimo Caputo Tipo 00\", fresh natural yeast, sea salt and natural spring water from New York.The heart of \"Truckin Good\" Pizza, pumps at a flaming 900 degrees thanks to our genuine imported brick oven manufactured by Pavesi Forni, S.r.l of Corlo Di Formigine, Italy. The oven is dragged around behind a Ford F350 dually named \"Zena\" and fueled on bio-diesel so eat up all the french fries you like, we could use the oil!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Truckin Good Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e9899cb-9ef4-4fc2-a699-0d2b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

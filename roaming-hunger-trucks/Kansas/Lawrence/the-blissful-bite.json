@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Good food starts in the ground, as they say here at The Blissful Bite. Their mission is to serve you the healthiest, most delicious food made with fresh, organic ingredients! Their community spirit and dedication to sourcing their ingredients locally means every bite you take will be the freshest and tastiest food you can find!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Blissful Bite",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5525647f-6a1c-494e-8cb2-415946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

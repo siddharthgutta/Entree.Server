@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Family style eating is on the streets of Denver, and it's headed to a curb near you! Crafted to bring out the goodness of every spice and cut of meat, this food truck's menu is full of delicious meals you'll never forget. Bringing you that every day amazingness you crave, Smoke is sure to be your new favorite food truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smoke BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56cdeb17-cbf4-42a9-bb0d-6bc846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

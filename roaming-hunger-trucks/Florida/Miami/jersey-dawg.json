@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jersey Dawgs is a South Florida food truck serving up all your Garden State favorites, from the ripper dog, a popular hot dog which is specially made to be deep fried until the casing 'rips,' to the homemade chili, meatballs on a stick, and more! If you're in the mood for some disco fries or a Jersey burger, head on over to Jersey Dawgs and get yourself a good meal today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jersey Dawg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545262df-6384-4b34-9cba-78b246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

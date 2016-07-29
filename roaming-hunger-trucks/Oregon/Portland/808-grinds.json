@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "808 Grinds lets hungry Portland residents sail away on a tropical Hawaiian vacation with just one bite of their delicious mobile meals! Their menu features traditional Hawaiian dishes  like Kalua Pig, Shoyu Chicken, 808 Fried Chicken and much more. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "808 Grinds",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546d27d8-7ea4-4906-b8db-4dc646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Starkey's Food Truck is bringing gourmet mobile cuisine to the streets of Nevada and beyond! If you're looking for freshly made sushi and piping hot pizza on the move, both at the same time, you'll never find a better source than Starkey's. With a menu full of so much variety, this food truck is perfect for any occasion. If you're looking for the very best to feed your hungry guests at your next big event, look no further than Starkey's Food Truck! Their amazing mobile kitchen serves Lake Tahoe, Truckee and Reno! If you want to be part of their exclusive catering list, book them now!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Starkey's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cd15f7-d59c-41b9-aeb2-5ba346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

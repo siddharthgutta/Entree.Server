@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic frozen yumminess is wheeling its way right to you! Ice Cream Bike Alaska is serving up delightfully sweet treats on the Alaska streets, bringing you just what your sweet tooth craves. This terrific little bike is here with big flavor that you'll never forget!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ice Cream Bike Alaska",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56280c00-6e08-494d-ae43-14eb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

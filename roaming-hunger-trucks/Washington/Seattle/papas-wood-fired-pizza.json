@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papa's Wood Fired Pizza is a tasty pizza cart bringing delicious wood-fired pizza to Snohomish and beyond. Made with real Italian flour, each pizza, from the Grilled Chicken, Margherita, or Sausage, to the \"create your own\" options is made with love and care, and fired in a high-temperature pizza oven. Don't miss out on this delicious pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa's Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419d9c3-4b1c-4b0c-9a7b-643f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

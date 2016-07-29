@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "NYC's favorite Asian inspired taco truck! Famous for our crispy tempura fish and kimchi infused falafel tacos! Be sure to get a side of Japanese tater tots, smothered in nacho cheese, okonomiyaki (Japanese Worcestershire sauce), and all sorts of other delicious toppings.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Domo Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538d03bc-5808-4393-b1c2-600946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

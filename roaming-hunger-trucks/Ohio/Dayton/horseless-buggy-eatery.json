@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Horseless Buggy Eatery is serving up amazing classic American dishes on the Dayton streets, from loaded steak and chicken sandwiches to hand-breaded pork tenderloins. Each dish is more delicious than the last, so don't miss out on this wonderous invention - a carriage that can move on its own to bring fantastic food to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Horseless Buggy Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551edb62-d6cc-4e0d-9873-5e3246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

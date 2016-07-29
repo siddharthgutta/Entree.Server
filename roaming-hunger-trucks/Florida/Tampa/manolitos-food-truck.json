@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ever since 1977, Manolito's has been taking the best Cuban sandwiches to the taste buds of Tampa! The Media Noche, The Reuben, and The Super Cuban are just some of the foods you have to choose from at this Florida staple. If you've been looking for a break from the every day burger and fries, then Monolito's is just what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Manolito's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56aa99c8-fb7c-4155-8dc0-5eb946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

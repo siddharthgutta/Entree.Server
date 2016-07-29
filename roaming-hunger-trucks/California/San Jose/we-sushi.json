@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We Sushi is the first and only mobile sushi truck serving the Bay Area with authentic, fresh sushi and rolls at its doorstep.Our sushi chef has extensive experience in the Japanese Cuisine/Sushi industry, and worked in fine-dining restaurants such as Ozumo and Yoshi in San Francisco. Our team shops for fish every morning from fish markets in South San Francisco and serves our customers in the peninsula and south bay area!Come and enjoy made-to-order sushi and rolls during lunch or break time just footsteps away, and you will fall in love with the quality sushi found only when you are sitting in a sushi bar!  We Sushi also offers sushi platters for meetings or parties, delivered right to your meeting room.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "We Sushi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f110220-4780-4261-a35e-39a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

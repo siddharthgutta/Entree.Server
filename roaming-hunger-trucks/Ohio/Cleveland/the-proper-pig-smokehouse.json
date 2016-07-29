@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Proper Texas BBQ has found its place in Cleveland, and it's wandering the streets to serve you! The Proper Pig Smokehouse is bringing you the best in slow-smoked BBQ that'll make your mouth water. for a satisfying eating experience you won't soon forget, it's got to be The Proper Pig Smokehouse!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Proper Pig Smokehouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5580a840-bf98-49dc-95b6-174a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

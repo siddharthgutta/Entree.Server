@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "When worlds collide with delicious traditions, you get fantastic food trucks like Carmelinas On The Go! Italian American cuisine combines with flavorful Mexican fare like long-lost brothers. Delicious pasta, tacos, wraps, and so much more! Carmelinas has something for the whole family, so be on the lookout for these fantastic folks today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carmelinas On The Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/food_truck.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

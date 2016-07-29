@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We put the same passion in food as our ancestors did back home in Italy. Using the finest ingredients our Chef Enzo creates spectacular Italian classics served to the San Diego streets. If you're looking for some delicious authentic Italian food, from tortellini to pizzaiola, no truck will serve you better than Mangia Mangia.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mangia Mangia",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551d7ec7-7eb8-4a2a-a176-0a9146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

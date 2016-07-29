@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Take everyone's favorite breakfast above and beyond, with Tucson's coolest new food truck! Wafflelicious is cooking up some gourmet waffles to go along with their fried chicken, corn dogs, and their awesome selection of waffle sandwiches. Don't miss out on the greatest meal on 4 wheels near you, grab something great from Wafflelicious today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wafflelicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b3da11-cd48-4cf6-88fe-6ada46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

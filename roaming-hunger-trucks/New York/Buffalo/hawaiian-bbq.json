@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This beautiful truck is bringing the luau vibes to Buffalo with its scene of a Hawaiian sunset that\u2019s as serene as it\u2019s delicious cuisine. Their menu features classic Hawaiian favorites, including Hawaiian BBQ Chicken, Chicken Katsu, and BBQ Short Ribs. Don\u2019t forget that they\u2019re doling out sides of white rice, Hawaiian Macaroni Salad, and a wedge of juicy pineapple with every plate. Make sure to come out to say \u201cAloha!\u201d because we\u2019re not lyin\u2019 about the quality of this tasty Hawaiian BBQ.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hawaiian BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13487/5720ab99-8e90-47c7-acab-402446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The perfect Long Beach food truck is here with the coastal cuisine you crave! Odie's Ocean Grill is serving up delicious lobster rolls, gourmet tacos, fantastic wraps, and more! Health-conscious food, fresh ingredients, great service, Odie's Ocean grill has it all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Odie's Ocean Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5579d7c9-0484-480d-9041-107846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

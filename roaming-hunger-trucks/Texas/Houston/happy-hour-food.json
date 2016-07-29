@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taking happy hour to the streets of Texas, this is a truck you're sure to love.Happy Hour Food Truck has everything you could ask for; burgers, cheese steaks, chicken wings, and more. This is just the kind of filling food you need when you're having a night out in Houston. If you're on the lookout for an awesome way to feed your need on the streets of Texas, then this is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Happy Hour Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a99910-0644-481f-a64b-082946204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

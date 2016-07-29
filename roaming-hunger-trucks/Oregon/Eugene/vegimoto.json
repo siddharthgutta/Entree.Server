@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vegimoto is bringing you the best vegetarian fare in the Northwest! Veggie dogs, falafel, and so much more, Vegimoto's menu does not disappoint. From their fantastic, solar-powered veggie-bus, Vegimoto is serving up an eating experience you'll never forget",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vegimoto",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558de175-0f28-4f9b-8285-7cf946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

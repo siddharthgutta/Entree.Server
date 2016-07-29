@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Luchador Food Truck celebrates Mexican folk culture in and out of the kitchen! With a love of lucha libre and Mexican street food Luchador Food Truck was born. Serving traditional street food such as tacos, tortas, burgers, qusadillas and hot dogs with high quality ingredients and a fun atmosphere.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luchador Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553a8444-0a50-45de-868a-765b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

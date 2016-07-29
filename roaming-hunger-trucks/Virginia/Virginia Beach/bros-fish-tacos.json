@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Virginia Beach, VABro's Fish Tacos offers a variety of signature fish tacos, from the traditional Baja style fish taco, to a succulent Ahi Tuna taco, to a grilled Cod taco doused in chipotle lime seasoning. After choosing your taco, let them know if you'd like spicy or mild pico de gallo and then pick from their four delicious white sauces... yummm sounds like fish taco heaven! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bro's Fish Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5179a802-4e6c-467a-b55a-43e846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

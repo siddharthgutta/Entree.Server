@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beulah's Bean Truck is a retired San Francisco Chronicle truck turned cafe,serving ultra premium coffee, espresso drinks and sweets! Beulah uses her local friend's Roast Co coffee for the beans. Check them out on the streets of the bay area.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beulah's Bean Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7731/547d3226-49e8-4a16-9d5a-108646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

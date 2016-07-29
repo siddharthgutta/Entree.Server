@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious donuts are on the streets of Las Vegas, thanks to the amazing Big Pink Donut! Perfect for parties, festivals, grand openings, and more, you're sure to love each and every one of their specialty donuts. Made fast, fresh, and fantastic every day, The Big Pink Donut is making just what you've been craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Pink Donut",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56c4a933-adec-4962-957b-5b2646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

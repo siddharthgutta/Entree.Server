@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The classic cheesecake with a gourmet twist! Sweet Creams Cheesecakery is taking your sweet tooth on an indulgent adventure in amazing flavor! Their one-of-a-kind cheesecakes are all made fresh daily and to order so you're always sure to have the best possible experience. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Creams Cheesecakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55358b81-b728-4c96-af9e-621246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

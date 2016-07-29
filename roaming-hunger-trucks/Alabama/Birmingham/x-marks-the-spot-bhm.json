@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hungry for some fantastic food on the streets of Birmingham? Well when you're looking for something fresh and delicious, X Marks the Spot! Sandwiches, wings, and so much more, this food truck is serving great food for any appetite. Grab some great grub today, from X Marks the Spot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "X Marks the Spot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56548dcb-41c0-4248-8a43-45c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

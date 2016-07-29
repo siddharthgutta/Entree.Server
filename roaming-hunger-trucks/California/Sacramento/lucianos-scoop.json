@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A mobile gelateria on the streets of Sacramento. Luciano's offers a great variety of flavors to beat the summer heat. Choose from Vanilla Bean, Caramel Sea Salt, Dark Chocolate, Pistachio Sicilia, Hazelnut, Mexican Chocolate, Mango Sorbet, Blackberry Cabernet Sorbet, Raspberry Sorbet, Coconut Almond Crunch, Pecan Praline, Dark Cookies and Cream, Espresso Bean, and Mocha Almond Flake!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luciano's Scoop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7473/573f490c-5548-41dd-bff3-073046204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

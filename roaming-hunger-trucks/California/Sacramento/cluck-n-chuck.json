@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Specializing in Fried Chicken, Multiple Flavored Wings, Burgers, and Amazing Sandwiches like the California Chicken Sandwiches which is two thin grilled chicken breasts, Swiss cheese, fried avocado, bacon, lettuce, tomato, and our own sauce on. Grilled bun.Sides which included Loaded Mac N Cheese, or fresh Green Beans, with bacon and onion.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cluck N Chuck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8359/54b47962-0f68-4c8e-9855-23b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

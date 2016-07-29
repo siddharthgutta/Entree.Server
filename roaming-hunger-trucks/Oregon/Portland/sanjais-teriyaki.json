@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sanjai's Teriyaki specializes in serving up delicious soft Yakisoba noodles with heaps of hot veggies and chicken (or tofu). Their menu also offers Pad Thai noodles and Fried Rice with your choice of protein. If you're in the mood for all three you can grab a combo plate, and throw in a crispy eggroll as well! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sanjai's Teriyaki",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524a0d53-0808-49a6-ab8e-15f246204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

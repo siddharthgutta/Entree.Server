@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fueling your day with fantastic food, The Brunch Box is bringing an incredible menu to a curb near you! Whether you're looking for the most important meal of the day or a lovely lunch you're sure to love, then there's nobody better than this truck. Grab yourself an awesome Egg & Cheese Muffin, Sicilian Burger, Phat Philly Sandwich, or anything else of The Brunch Box's menu today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Brunch Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569d50f1-13cc-47ec-86e5-767b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the fantastic flavor that makes America great? Then we've got the food truck for you! Taste of Home is roaming the streets of Kansas City with an astounding menu of classic American cuisine. Hot dogs, grilled cheese, PB&J;, and so many more delicious dishes are coming your way, so get ready for a Taste Of Home!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste of America Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13191/568c19b2-34f0-4c6c-83f1-55ba46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kaffe Kelly's is a coffee truck serving Los Gatos and the surrounding areas. When you're looking for that pick-me up on a long day, Kelly's has you covered! Offering high quality espresso and coffee drinks on location at events, businesses and on the go, Kelly's is the truck for you.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kaffe Kelly's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542c4cef-3430-4f15-9c31-074146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

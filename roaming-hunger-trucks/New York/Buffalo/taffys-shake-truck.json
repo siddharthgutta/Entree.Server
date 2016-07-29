@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taffy's Shake Truck is bringing you all the classic cuisine you've been craving! If you're in the mood for burgers, fries, hot dogs, and more, then Taffy's is the truck for you. Old fashioned food with modern mobile style, Taffy's is bringing your taste buds an awesome eating experience today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taffy's Shake Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5654e5d9-7370-4848-87b3-0ee946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

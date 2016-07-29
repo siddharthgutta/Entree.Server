@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The perfect pick-me-up when you're on the go is coming right to you, from The Human Bean Coffee Truck! Freshly brewed beverages for one and all are what  you'll find on this terrific truck. There's no better way to kickstart your day than with a tasty cup off coffee from your favorite coffee shop on the move!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Human Bean Coffee Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e77c54-fbcc-4881-b1cc-78ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hao about Chinese? Hao's Chinese Kitchen is bringing you the best in authentic Chinese cuisine to satisfy your cravings for something deliciously different from the regular burger and fries routine. Here to bring you the best eating experience possible, Hao's Kitchen makes everything from the best in quality ingredients to make sure it's something you'll love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hao About Chinese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11153/558d6749-0918-4030-b2a9-48b346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

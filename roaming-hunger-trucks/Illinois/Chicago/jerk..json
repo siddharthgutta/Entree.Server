@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jerk 312 is a modern Jamaican grill food truck serving on the streets of Chicago. They keep the menu simple, just Jerk done right. Their signature item is the Jerk Chicken, marinated in their Rude Boy sauce, grilled, and served up on a Jamaican hard dough bread. Also available are Jerk wings, Jerk fries, and a Jamaican cornbread fritter known as the \"Festival.\" It's the tastiest Jamaican Jerk you'll find anywhere!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jerk.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/514a3ce8-59b4-493f-a879-38ce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

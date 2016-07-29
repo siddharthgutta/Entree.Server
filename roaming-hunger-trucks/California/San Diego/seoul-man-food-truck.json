@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are San Diego's newest family-owned and operated gourmet food truck. Our cuisine is Korean BBQ with a Southern Twist, and our menu has many gluten free options. We specialize in Catering, Weddings, Wine Tours, and Live Music events. Our Chefs can also do custom menus for any event any type of gourmet cuisine. Stop by and try a bite of this great food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seoul Man Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13384/56e5b4e6-5ba8-46ca-ac8d-16b346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

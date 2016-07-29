@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grill Boys is a Gourmet Food Truck from Long island, NY serving specialty burgers, hand-cut fries,  a unique selection of grilled cheese sandwiches, and much more. You can find us at events such as Festivals, Fairs, and Car Shows, or have Grill Boys personally cater your next party!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Grill Boys Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10389/5567ebdd-c15c-40c8-911b-160646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

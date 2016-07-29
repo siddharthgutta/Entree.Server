@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lucky 13 Beer Truck is bringing you the best, most refreshing beer and wine on wheels!  Nothing hits the spot when you're enjoying your day out on the town like a cold pint, and nobody brings a better one than Lucky 13. Pilsners, IPAs, Chardonnay, and more, Lucky 13 is bringing it right to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lucky 13 Beer Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565e2226-f4e0-4faa-8eba-450546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

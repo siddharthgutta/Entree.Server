@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Doner kebab you'll never forget is on its way right to you! Crisp Doner Cafe is serving up the finest Doner kebab in Houston, always served hot and fresh for your eating pleasure. If you're looking for a break from the usual burgers and fries, or just want something delicious and new, Crisp Doner Cafe is the perfect truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crisp Doner Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a9900f-f604-4224-80ac-600946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

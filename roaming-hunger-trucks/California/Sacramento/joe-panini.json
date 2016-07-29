@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You'll never find a better sandwich than what they're serving up at Joe Panini! Hot, fresh, and always fantastic, these paninis are ready to satisfy your cravings for gourmet cuisine. Wash it all down with some of their refreshing coffee, tea, or Italian soda for the perfect end to your tasty meal. Be on the lookout for Joe Panini and grab some of the best hot-pressed sandwiches in town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Joe Panini",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfd77d-b104-4922-83c3-6c4f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

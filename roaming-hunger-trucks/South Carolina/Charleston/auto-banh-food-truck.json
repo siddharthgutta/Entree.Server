@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Auto-Banh Food Truck is slingin' delicious and creative Banh Mi all over Charleston and the surrounding areas! Along with a rotating line up of featured sandwiches which you will undoubtedly crave constantly, you can also get a \"banh mi\" salad on fresh mixed greens. Additional menu items include fresh shrimp spring rolls, sesame citrus coleslaw, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Auto-Banh Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4685/5449cd3d-2b54-47a3-980a-115746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

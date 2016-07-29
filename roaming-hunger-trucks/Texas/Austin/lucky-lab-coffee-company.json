@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a mobile espresso bar that offers an assortment of handcrafted coffee and espresso drinks, teas, pastries and sweets.  Lucky Lab loves a good party and would be perfect for your next corporate summit/conference, employee appreciation, holiday party, birthday party or wedding!  We also offer corporate delivery (like a lunch truck) to your office park-handcrafted coffee delivered right to your office door!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lucky Lab Coffee Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7796/543c0bf4-6c08-4f6c-848d-189946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

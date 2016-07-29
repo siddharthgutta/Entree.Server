@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Trek on out to the Doner Kebab Trailer for the yummiest Mediterranean cuisine you'll find on the streets. Kebabs, Shwarma, Falafel, and more! For fantastic quality and service galore, you're sure to adore you're next meal from Doner Kebab Trailer!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doner Kebab Trailer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5487522f-3c04-45de-810c-465f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

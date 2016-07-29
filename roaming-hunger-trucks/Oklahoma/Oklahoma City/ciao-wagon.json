@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The greatest gourmet meatballs you'll ever see are roaming down street near you! Ciao Wagon is serving up something special, with a variety of savory meatballs that'll have your mouth watering in no time. Have some delicious sliders, polenta, or even an amazing dessert ball! Don't miss out--visit Ciao Wagon today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ciao Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55db99a7-94c4-4339-815c-769b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

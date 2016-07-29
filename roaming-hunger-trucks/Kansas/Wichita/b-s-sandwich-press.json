@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "B.S. Sandwich Press is serving delicious gourmet panini sandwiches to the Derby area. If you're not in the mood for a toasty-warm sandwich, they also serve tasty burgers, hot dogs, and tacos depending on their daily menu, and specialize in hand-cut fries and homemade chips! The perfect lunch for your day out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "B.S. Sandwich Press",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5515bc80-3f60-45bf-878c-71f646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

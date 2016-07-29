@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Culinary Nomad, located in the DC Metro Area, is serving up amazing breakfast fare to the hungry locals. Fusing southern breakfast comfort with great home-cooked Mexican cuisine, these eats will start your day off right. Fritatas, breakfast quesadillas, home fries, and so much more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Culinary Nomad",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50614c0e-2894-45cf-83b6-0d7246204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

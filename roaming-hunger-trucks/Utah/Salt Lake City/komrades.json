@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kamrades is revolutionizing the Salt Lake City street food scene with its entirely made-from-scratch menu!Their selection features the signature Komrades creation: the \u201cHoodoo\u201d- a delicious mix between a wrap and a sandwich with fresh baked naan and fillings that include slow-roasted beef, red cabbage, roasted veggies, and garlic aioli (The Komrade) or BBQ Jackfruit, creamy avocado mousse, veggies, and cheddar cheese (Jack in the Naan). For all this and much more food for the people, come on out to Komrades and share in this communal cuisine!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Komrades",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57929aec-7558-46bf-bf03-696646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sweet and Mellow truck serves up the \u2018best of the best\u2019 from independent small batch roasters and artisan bakers. We source locally whenever possible.  Our Specialty coffee house on wheels is a fun and unique place for you and your friends to enjoy.  Whether it\u2019s at community events, company functions,  private catered parties or wherever you happen to be, we\u2019ll transport you to a very Sweet and Mellow place.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet and Mellow",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/503ec23b-7774-43e2-8117-509246204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Big Cheese Truck is a fun family run and family friendly food truck in the Orlando area. We are committed to providing quality food that is appealing to both children and parents. We provide gourmet grilled cheeses at an affordable price. We strive to make each one of our guests a part of our cheesy little family.Let's Get Cheesy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Cheese Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5695923b-8f24-4246-b1cc-611046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

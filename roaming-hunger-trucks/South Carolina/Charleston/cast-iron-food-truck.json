@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cast Iron Food Truck is serving the streets of Charleston, SC. Chef Victor prepares every dish with care to ensure that customers enjoy the best dining experience possible. Casual, comfort food made from fresh ingredients from local farms with a menu reminiscent of low country cuisine is what Cast Iron specializes in. Our menu of gourmet burgers is always changing, so stop by often. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cast Iron Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/514cf0c8-be40-4405-8be7-413446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

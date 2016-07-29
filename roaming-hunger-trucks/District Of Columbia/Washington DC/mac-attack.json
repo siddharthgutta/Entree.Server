@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Look out, it's Mac Attack! The cheesiest, meatiest mac 'n cheese you'll ever eat is waiting to ambush you on the mean streets of DC! If you love mac 'n cheese, you absolutely have to try their eponymous Mac Attack with crushed cheez-its. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mac Attack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5514970c-d470-43d5-a884-0d3c46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

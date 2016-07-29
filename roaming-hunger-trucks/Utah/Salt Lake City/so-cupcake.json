@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "So Cupcake is turning this salty city into sweet sweet heaven with their new mobile cupcake truck! Their cupcakes are made with the highest quality natural ingredients possible, including real butter, cocoa, as well as pure vanilla & almond extract. In the mood for a frozen treat? You're in luck! They offer tasty ice creams as well. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "So Cupcake",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522e9b8a-ae50-41ff-a92b-3bbe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

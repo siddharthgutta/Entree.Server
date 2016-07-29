@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Pop Stop is your one stop shop for the best ice pops in all of Pittsburgh! Small-batch frozen treats, made with real fruit and herb flavors and no artificial ingredients--your sweet tooth is sure to love these. Ice pops, raspados, and great memories, The Pop Stop is bringing it all to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pop Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6e2cb-e850-4cd0-a646-29fc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

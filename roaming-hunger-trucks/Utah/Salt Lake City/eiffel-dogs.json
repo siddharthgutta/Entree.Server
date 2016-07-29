@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eiffel Dogs is bringing you a European twist on the classic hot dog! The ultimate street food just got better, with freshly baked French baguettes and quarter pound all-beef franks for your eating pleasure. High quality food and fantastic flavor just for you are finally here, thanks to Eiffel Dogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eiffel Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5621629d-cea0-484b-8265-177b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Poly Trolley is pulling up to a curb near you! Dedicated to serving up excellent eating experiences wherever they go, The Poly Trolley is perfect for any occasion that calls for fantastic food. If you're craving sandwiches, sliders, tacos, and more, The Poly Trolley is a truck you'll always enjoy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Poly Trolley",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577ed48b-d7dc-432f-90b6-313246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

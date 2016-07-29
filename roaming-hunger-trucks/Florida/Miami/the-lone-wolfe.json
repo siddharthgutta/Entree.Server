@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Lone Wolfe is a gourmet Mexican fusion truck in Miami, FL. We offer quality meals that are truly unique in flavor, all prepared in a safe and clean environment.  Our Mexican-based menu is enhanced by Asian, Italian and French inspired cuisine. We offer many gluten free options as well as vegetarian friendly meals. Find where we are prowling today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Lone Wolfe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8061/55e8a85c-ec3c-4667-b0ef-722446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

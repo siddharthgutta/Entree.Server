@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to La Bella Torte, a dessert truck specializing in Italian Pastries. Started by Joe and AnnMarie Glaser after finding themselves out of work.  He a plumber, she a secretary, they found themselves with a love for baking, and a need to make money.  So they gathered their resources, went to culinary school and came out pastry chefs.  Once that was done they decided to take over the world one cannoli at a time, so they found a truck grabbed their cakes and took it on the road.  Now they bring to all who desire cakes a mobile pastry shop complete with cannoli, banana nutella cakes, rosemary olive oil cakes, coffee, espresso and cappuccino and a plethora of sweets to feed the world, well... at least the streets of NY.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Bella Torte",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3229/552d6b6d-a9e4-4be7-bf47-417c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

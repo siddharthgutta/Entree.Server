@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A mobile eatery you'll need to see to believe, Red Skillet is bringing their amazing menu to a curb near you! Serving up the best soup, salads, sandwiches, and more, this truck has all the amazing flavors you crave. For food you'll be sure to love from the very first bite, Red Skillet is the food trailer for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red Skillet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3b571-66fc-46fd-bef0-650f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

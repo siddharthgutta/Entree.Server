@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Diner On The Go \"Fresh Twist on traditional Diner food.Come see and taste what's cooking ,our menu changes , from a variety of flavors, fill , to light and hearty ,  from pasts, Gyros, Salads, more. Then just a wrap or Sandwich, Vegetarian's check it out you will be one of many pleased ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Diner On The Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7629/541a12bc-cce8-470a-a6c2-194a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "South Jersey's premier cupcake truck, it's Cupcakes 2 GoGo! There's nothing as fun or as tasty as a cupcake on wheels, and Cupcakes 2 GoGo is bringing the fun to your curb! Big, delicious mouthfuls of cupcakey goodness are waiting for you! Cupcakes 2 GoGo is on it's way to rescue your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cupcakes 2 GoGo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e998b-f344-4605-84ff-5cd746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

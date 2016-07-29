@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Real downhome cooking, almost makes you feel like home. Comfort Co Tasty Eats is a food truck on the move, with a real focus on American and Southern cuisine. The pulled pork biscuit sandwich, grilled chicken tacos, their signature Comfort Co Burger, and more are all available and ready to satisfy your cravings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Comfort Co Tasty Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5542b0e0-40dc-48b3-a27b-33a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

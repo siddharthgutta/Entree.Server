@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Healthy, delicious cuisine for all occasions! Kevin's Salad Station is serving up the freshest salads, smoothies, and more for your dining pleasure! With their hoomemade dressings and the freshest ingredients possible, Kevin's Salad Station will make sure you have the best experience possible every time you visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kevin's Salad Station",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e8b92-d2cc-4bed-95b8-066b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

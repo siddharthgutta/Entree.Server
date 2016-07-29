@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tasty treats on the streets of Aurora are rolling down a street near you, thanks to Taqueria Se\u00f1or Taco! Terrific tacos, tortas, burritos, and more are on the menu at this tasty truck. Authentic Mexican taste at a modern mobile eatery is an amazing eating experience that just can't be missed, so stop by today and grab a bite to eat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria Se\u00f1or Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f9e0b8-38d0-4bf9-baa8-0df246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

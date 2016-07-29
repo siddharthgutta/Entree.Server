@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Penny's Parlour Treats has taken to the streets to bring you some delicious eats! Spreading the love one scoop at a time, this is a truck you'll love any day of the year. An all-new look for the classic ice cream truck, Penny's Parlour Treats is serving up the best sweets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Penny's Parlour Treats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11454/5680483c-92a8-4fd5-8f82-3eb246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

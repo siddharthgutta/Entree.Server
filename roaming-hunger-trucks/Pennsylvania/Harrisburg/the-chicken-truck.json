@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Chicken Truck bringing delicious fried chicken with friendly service. Carrying a reputation in Harrisburg, Pennsylvania  for \"The Best Chicken Tenders Around\", living up to their reputation since May of 2012 it has perfected the mobile restaurant experience. Offering much more than just fried chicken dishes, treat your self with a side of fried pickles, fried mushroom and don't forget dessert a fried Oreo. The Chicken Truck is a to go to place when around Harrisburg!  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Chicken Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554a5ecc-778c-4e7b-9830-43a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

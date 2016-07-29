@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You just have to try the marvelously tasty Mediterranean cuisine from Halal Kitchen. Food made fresh daily, full of their passion and drive to deliver only the very best to you, this food truck is ready to take your taste buds by storm! Any delicious dish they serve is sure to be perfectly complimented by their very own white sauce. Keeping it simple and making it tasty, Halal Kitchen is cooking up some truly spectacular meals on the move.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Halal Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57360d87-a814-4fcd-9f93-6d8b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Sauced, we strive to bring unique street food to the Vegas masses.Creating and serving delicious small plates that will awaken your taste buds is our passion. Our sauces are hand crafted and specially paired to make each dish uniquely delectable. Come and satisfy your appetite for tantalizing street food, from pulled pork to bleu bacon and fig burgers. You'll fall in love at first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sauced",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5004cf91-aaa8-44e3-9d62-481b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

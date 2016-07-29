@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stop by the mobile Tuscan Wood Fired Pizza oven and enjoy any number of tasty pizzas made the authentic way. Try their classic margherita pizza, topped with basil and mozzarella. In the mood for dessert? They offer a s'mores pizza as well topped with chocolate and marshmallows! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tuscan Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e7c57-c9d8-4f0b-84dd-442646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

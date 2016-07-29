@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Albuquerque's favorite frozen treats are coming to you, straight from the fantastic Pop Fizz! Stop by and try some Mexican style ice pops and ice cream tacos you won't find anywhere else. Take your sweet tooth on an adventure you can only find here, with the amazing frozen treats from Pop Fizz!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop Fizz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564f6e17-c728-478d-8e6c-5dff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

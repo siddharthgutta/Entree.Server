@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cupcake Carnivale is a Mobile Cupcake Truck, Dessert Truck, Sweet Truck, Catering Truck that specializes in artisan, gourmet cupcakes that will tantalize the Young and \"Young at Heart.\" Their cupcakes are baked fresh daily and made with all natural and premium ingredients. Sugar, Butter, Flour and a whole lotta' LOVE is what they use - Just like how mom makes em'! Make sure to find them in the Philadelphia area and throughout New Jersey!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cupcake Carnivale",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/527ae881-6114-4cff-9922-569d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pizza Addiction's mobile pizza oven brings high-quality pizza right to you! Owners/operaters Jim and Mollie Platt used to fly private jets, but now they bring that high-flying five-star experience down to earth with a family dough recipe and a commitment to using only the freshest local ingredients. Give into your Pizza Addiction and book them today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Addiction",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56326965-d6b4-4070-a32a-025346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

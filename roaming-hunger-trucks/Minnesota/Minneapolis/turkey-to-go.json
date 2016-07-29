@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Turkey To Go - The Tastiest Bird in Town!Giant Juicy Turkey Sandwich, Marinated Turkey Drumsticks (available in various flavors) and Lemonade with fresh raspberries and lime, Turkey To Go Concession has been serving up turkey since 1959 at the Minnesota State Fair.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Turkey to Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e3ad9ee-f954-498e-bcd0-331546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

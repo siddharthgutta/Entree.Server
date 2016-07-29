@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Great Atlanta Custard Company is serving up this classic frozen treat on a street near you! A richer, creamier dessert, frozen custard is certain to satisfy your sweet tooth. When you're looking for that special something to brighten your day you absolutely cannot go wrong with the Great Atlanta Custard Company!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Great Atlanta Custard Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a04451-5a24-4838-a1f3-38d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

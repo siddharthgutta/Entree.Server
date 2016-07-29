@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Ice Queen is a mobile ice cream parlor in Greensboro. Whether you want an old-school Rocket Pop or a snazzy Elvis Ice Cream Sammich, we've got you covered! Not literally covered, but don't worry, we always have plenty of napkins just in case!Snowflake (of course the truck has a name) is always stocked with at least eight flavors of delicious Edy's Grand scoopable ice cream for your creation and a dozen types of Popsicles. Feel free to mix up flavors for a super special milkshake or Sammich. Nothing is too weird. Well, almost nothing. That Reese\u2019s Peanut Butter cup and Mint Chocolate Chip milkshake with rainbow sprinkles...that was a little too much.We go out a lot to make all sorts of folks happy. Big and small, young and old. Ice cream love knows no bounds. Have you ever seen a truck mechanic squeal in delight when the ice cream truck comes by? We have...and it's wonderful. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Ice Queen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523a01d3-961c-4612-bce6-6d0e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

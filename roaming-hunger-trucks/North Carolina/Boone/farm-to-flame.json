@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Boone's best wood fired cuisine is right around the corner, and waiting for you! Farm To Flame's menu of amazing, freshly made fare is full of fantastic flavor that you're sure to love. Stromboli, pizza, salads, and more are here to take your taste buds on a wild ride today! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farm To Flame",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562ab29a-70a0-41ea-9c88-40b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

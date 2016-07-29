@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fridas Cocina is an amazing gourmet Baja cuisine truck serving the San Diego area with delicious tacos, empanadas, burritos, and more. The truck began as a startup run by two single mothers, who wanted to create a living for themselves while bringing tasty seafood to the streets, and boy did they succeed. If you want to get a great meal while supporting two great ladies, nowhere is better than Fridas Cocina!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fridas Cocina",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551ecf3e-e178-4274-aad0-66e046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

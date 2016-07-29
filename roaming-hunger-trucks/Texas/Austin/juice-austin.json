@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Juice Austin sources raw fruits and vegetables from local, Texas-based farms and co-ops, ensuring our fresh juices and smoothies use the freshest ingredients available. We value quality AND taste so all items are prepared fresh to order. Our menu offers an eclectic, healthy, and delicious mix of juices, smoothies, and salads, and we hope you love them as much as we do!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Juice Austin",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7080/5418a27d-8568-4e23-a62f-2e9a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

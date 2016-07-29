@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Taste of Eastern Europe is a truck roaming the streets of Washington, DC. As the name suggests, this truck offers traditional fare that reflects the Eastern European food culture. Dishes include a house made Tzatziki sauce, Kufte,  a very popular Bulgarian grilled item, bean salad with a chunky relish called Lutenica, and their own European spin on burgers and sandwiches.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Taste Of Eastern Europe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5230b4ec-c044-469b-b503-6d7546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

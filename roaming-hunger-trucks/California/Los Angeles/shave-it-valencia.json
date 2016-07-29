@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Shave It is a Hawaiian Style Shaved Ice truck. Shave It Ice is like soft and fluffy fresh fallen snow that melts in your mouth. Refreshing high quality flavors like pink lemonade to exotic passionfruit as well as fat-free, sugar-free flavors.  Find them in the Los Angeles area!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shave it Valencia",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/528e66d2-b8a0-469e-a70f-6eb146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

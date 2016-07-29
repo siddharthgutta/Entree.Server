@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Wiener Shack is serving up everyone's favorite classic street cuisine! These hot dogs are out of this world, made with all-beef sausage and with a variety of gourmet toppings you won't believe. Whether you like your hot dogs spicy, savory, or covered in bacon, The Wiener Shack has you covered! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Wiener Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f3178d-2e34-405a-bc68-538446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

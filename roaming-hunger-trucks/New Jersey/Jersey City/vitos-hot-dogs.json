@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vito's Hot Dogs are the very best eats on the streets of New Jersey! Each bite is made with the best ingredients around, and all the toppings you love--you'll never forget your first dog from Vito's. If you love old school street food made amazing, then there's nobody better than Vito's Hot Dogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vito's Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/563ce8c6-87ac-4f03-b2fe-798a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

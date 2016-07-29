@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dad's Food Truck is serving the streets of Derby, CT. It all started with chef and owner Louis's love for cooking. After doing his service in the US Navy, he went on to learn the culinary arts at both The Culinary Institute of New York and The Dunwoody Institute. Over his 48 years in the food service industry, Louis founded and sold many businesses in his life; sub shops, off-premise catering, full service sit down restaurants and catering halls.  It all led to his newest adventure, Dads Food Truck.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dads Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51633882-8ee4-45a3-ad9e-14bd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

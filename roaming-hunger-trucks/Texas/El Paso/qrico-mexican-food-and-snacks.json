@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Q'Rico Mexican Food and Snacks brings authentic, delicious Mexican cuisine to Texas! If you love tacos, quesadillas, or fruit-based Mexican sweets, Q'Rico is the truck for you. Come visit soon, and see what everyone is raving about!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Q'Rico Mexican Food and Snacks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f89c08-b7f8-49d1-b9ae-02a946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

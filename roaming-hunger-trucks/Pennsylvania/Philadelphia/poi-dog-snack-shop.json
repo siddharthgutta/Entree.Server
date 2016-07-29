@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Poi Dog Snack Shop is a mobile eatery serving the streets of Philadelphia. Poi Dog treats you to an array of traditional Hawaiian foods, with a menu that includes saimin noodles, Loco Moco and Spam musubi, Hawaiian tacos, and a variety of plate lunches. Their delicious proteins include Kalua Pork, Chicken Katsu, Shoyu chicken, and Tofu Poke.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Poi Dog Snack Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51686c57-0d3c-42a7-ac84-3c0d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

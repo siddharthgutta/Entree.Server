@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bradford BBQ food truck operated in Lexington, Kentucky by Chef Matt. With 25 years of experience his cooking has to offer some of Kentucky's best smoke steakhouse favorites. Customers are more than fulfilled with great ribs, or beef, chicken and pulled pork sandwiches. Making Bradford BBQ one of Lexington's go to food truck, be sure to have the \"Big Daddy Burger!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bradford BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526f426-0778-41c5-90b2-236b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get the tastes of Europe without leaving Albuquerque! Europa Roaming Kitchen takes culinary inspiration from France, Italy, Belgium, Portugal and the rest of Europe to create a delicious menu. Don't be wary of the grumpy French stereotypes! The food will win you over.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Europa Roaming Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55383d77-d860-4dc4-99fb-24a346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

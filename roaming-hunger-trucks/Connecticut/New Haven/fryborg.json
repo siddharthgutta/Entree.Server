@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: New Haven, CT This Fry machine specializes in bringing America's favorite snack to the streets. From Dutch Fries (topped with curry ketchup, mayo and diced onion) to Italian Fries (topped with pesto mayo, tomato, and pecorino romano cheese) to the ultra decadent Assimilation Fries (topped with a fried egg, american cheese, 1000 island dressing, and onion) their menu is sure to please all fry lovers. But everyone knows nothing complements french fries as well as a good sandwich and Fryborg has plenty of those, both savory and sweet, as well.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fryborg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/517715a0-f400-4fac-922d-30a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

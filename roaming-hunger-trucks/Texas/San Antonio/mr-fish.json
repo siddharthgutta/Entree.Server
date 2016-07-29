@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mr. Fish is making all your seafood wishes come true with their succulently simple menu that includes tacos with Skirt Steak, Mahi Mahi, and Shrimp, as well as their delicious Surf & Turf Burrito. So if you\u2019re ready for some of the best tacos in Texas, Mr. Fish is the way to go. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mr.Fish",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548aa85f-a42c-4c73-bbdc-24ba46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

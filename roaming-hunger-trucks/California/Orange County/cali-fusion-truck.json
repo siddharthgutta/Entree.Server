@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are the newest gourmet food truck in Orange County. Our menu is designed by a gourmet chef that has worked at some of the trendiest restaurants in Santa Monica and Los Angeles.  Our Mission is to bring the quality and taste of gourmet food to the foodies of Orange County. We have a rotating menu offering gourmet burgers, tacos, and wraps.  We believe in using local, sustainable and natural ingredients.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cali-Fusion Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51ff2716-51a4-4627-b3b8-5b2646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get your delicious, handcrafted, locally sourced tacos from Taco Picasso! Each taco is an individual work of culinary art, using only the finest local & organic materials. Choose from the classics - chicken, pork, and steak - or try one of the grilled cactus tacos! A scrumptious San Diego must-try.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Picasso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a7f605-55dc-4454-b61a-5bf046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

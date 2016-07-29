@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jamamerican Jerk Centre serves up Jamaican food to perfection in Nashville. You're sure to love their curried chicken and you'll fall in love with their jerk pork at first bite. Stop by and grab a delicious meal at Jamamerican Jerk!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jamamerican Jerk Centre",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11964/55cec105-edcc-4b50-8fdb-0e5646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nom Nom Gourmet's bringing you the finest Southeast Asian cuisine in town! Are you looking for pad thai? Lo mein? Chicken curry? Nom Nom Gourmet is cooking up all that and more! Convenient, quality food on the move is here, so don't miss out on the amazing taste of Nom Nom Gourmet!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nom Nom Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56201f5a-f960-42ce-9dc6-460846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

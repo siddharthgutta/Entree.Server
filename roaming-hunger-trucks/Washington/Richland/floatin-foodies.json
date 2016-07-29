@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, fun, fantastic food is coming right to you from Floatin' Foodies! The first mobile kitchen on the Columbia River is bringing you all your favorite burgers, hot dogs, tacos, and good times. Summer fun on a bun is floating down the river to you, so don't miss out on Floatin' Foodies today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Floatin' Foodies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565f2c39-3020-421a-9811-029646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

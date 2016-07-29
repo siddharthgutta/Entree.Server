@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eat More Greek! Anna's Gourmet Greek is a tasty truck serving authentic, gourmet Greek food to the greater Houston and surrounding Fort Bend county areas! With delicious gyros, souvlaki, spanakopita, and more, there's little about this truck that you won't love. Check it out today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Anna's Gourmet Greek",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53c52bce-6488-499e-841c-64c246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

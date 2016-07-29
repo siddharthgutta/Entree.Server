@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Prime Dip Gourmet Sandwiches was created and developed out of the need to reinvent how sandwiches are done. After a decade of experience in the fast food industry, the founders of Prime Dip decided to start this new concept. Now, this successful restaurant takes to the streets! Find the truck around SF for a delicious sandwich today.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Prime Dip",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542b1ddd-9ee4-45da-bc99-173046204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

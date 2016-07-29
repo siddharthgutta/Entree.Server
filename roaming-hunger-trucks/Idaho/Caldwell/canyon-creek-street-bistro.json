@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Canyon Creek Street Bistro is serving up some crazy-tasty burgers and sandwiches on the roads of Idaho. Sink your teeth into their juicy Reuben, their marvelously sweet & savory Monte Cristo, or any of the other wonderful fare you\u2019ll find on their eclectic menu. For your next delicious meal, Canyon Creek Street Bistro is certainly the way to go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Canyon Creek Street Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571fe62b-84cc-4ffe-ac52-28ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

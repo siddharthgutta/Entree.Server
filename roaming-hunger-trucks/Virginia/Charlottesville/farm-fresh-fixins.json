@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Farm Fresh Fixins is bringing the best of Virginia's local fare to the food truck world! Locally owned and operated, Farm Fresh Fixins is using the freshest ingredients and showing its customers what food can be like when it comes straight from the farmers to the food truck. With sandwiches, snacks, sides, and more to satisfy your cravings, Farm Fresh Fixins will be sure to be your new favorite food truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farm Fresh Fixins",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a82432-ceac-4f13-8001-7f0946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

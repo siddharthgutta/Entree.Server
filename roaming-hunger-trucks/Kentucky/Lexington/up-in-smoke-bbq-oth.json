@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You'll be sure to notice Up In Smoke BBQ! It's the little log cabin on wheels serving up delicious slow-cooked barbecue. Fully mobile and operational all their tasty barbecue is cooked on site. Never a touch of propane in sight - this bbq is pure hickory smoked!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Up In Smoke BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554020a3-c768-49c8-9dc0-16f146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

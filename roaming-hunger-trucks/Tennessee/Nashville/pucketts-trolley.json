@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Puckett's trolley is out and roaming the Streets of Nashville. Puckett's serves a wide range of delicious Southern style made to order foods. Regular menu items will include Puckett\u2019s famous cherry wood smoked pork and chicken, burgers, fried catfish, sweet potato fries, baked beans, coleslaw, and assorted cobblers as well as other signature menu items such as the redneck burrito, brisket chimichanga and catfish tacos. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Puckett's Trolley",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5101ce37-d0b4-45d7-9b6e-6ff446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

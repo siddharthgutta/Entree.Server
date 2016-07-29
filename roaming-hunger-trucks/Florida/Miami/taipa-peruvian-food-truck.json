@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious Peruvian cuisine, Taipa's got it just for you! Taipa Peruvian Food Truck is providing you with the best, freshly-made Peruvian cuisine around. Ceviche, picarones, lomo saltado, and fantastic Peruvian sandwiches to satisfy your hunger!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taipa Peruvian Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5555313c-fda4-49dd-ae62-04df46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

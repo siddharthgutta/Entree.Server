@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bistro on Wheels is a food truck experience in Phoenix specializing in French and American style bistro cuisine. The menu for the Bistro on Wheels is comprised of dishes featuring Arizona grown produce, meats, cheeses and dairy. The staple menu consists of 12 items that rotate weekly, accompanied by additional seasonal selections. Stop by and grab yourself a delicious bistro bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Wade's Bistro on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54909b75-fd3c-47d5-a289-483446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing the best tastes in town straight to your taste buds, BeBe's Bistro is here for you! With the best burgers, sandwiches, hot dogs, and more, this is one food truck you're sure to enjoy. For fantastic flavor and service that'll have you coming back for more, be sure to look out for BeBe's Bistro!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BeBe's Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11501/55ce8887-a86c-4528-8a5f-530346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

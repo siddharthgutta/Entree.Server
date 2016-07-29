@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jakarta's Indonesian Food is here to shake up your everyday lunch routine! The fresh Chicken Satay, Curry Burrito, Indonesian Street Taco, and more you'll find when you try this terrific truck are sure to brighten your day. If unique style and flavor are just what you're looking for, then this is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jakarta's Indonesian Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ef671f-4d24-45b8-85bc-42ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "That's What Cheese Said is roaming the streets of San Diego, looking to feed your need for fantastic food! Serving up the perfect meals for professionals and pedestrians alike, That's What Cheese said has years of experience in making amazing food that's sure to keep you coming back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "That's What Cheese Said",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10856/568066a7-6480-485b-a2cc-1f8a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Perfectly pressed sandwiches are soon to be your new favorite food on the move! Pressed For Time is pulling up to a street near you, with gourmet paninis like you've never seen before. Whether it's a classic grilled cheese, savory turkeyjack, delicious brie panini, or anything else off their amazing menu, you're sure to love every bite from this food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pressed For Time",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561fdf7d-c62c-4dad-b541-597c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

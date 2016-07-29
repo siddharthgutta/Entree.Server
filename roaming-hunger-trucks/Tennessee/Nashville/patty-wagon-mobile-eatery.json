@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New to Knoxville - We offer great food and better prices! The Patty Wagon Mobile Eatery offers Great Burgers, Dogs, Homemade Chili, Steak in a Sack, Chicken and Dumplins, and a B.L.T.(Benton's Bacon) to die for. We believe in supporting our local farmers and use local items and produce as much as possible. Cruze Farm Milk, Benton's Bacon, Comb's Grainger County Produce and Tennessee Mountain Honey are just a few of the items we use every day on our outings. We specialize in Industrial Park Lunch Menus and would love to cater your next event.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Patty Wagon Mobile Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

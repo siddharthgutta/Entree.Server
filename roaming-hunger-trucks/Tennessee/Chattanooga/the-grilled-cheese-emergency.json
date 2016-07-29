@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Grilled Cheese Emergency truck is a converted ambulance that can't take you to the hospital, but it can take you back to the good old days when all your bad feelings could be cured by a delicious, hot, gooey cheese sandwich and hearty tomato soup. Planning a special event? The Grilled Cheese emergency truck can rescue you from the trials and tribulations of cooking! Keep an eye out for them on the streets of Chattanooga!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Grilled Cheese Emergency",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9614/5538e4f6-ef58-4032-b851-7b4146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

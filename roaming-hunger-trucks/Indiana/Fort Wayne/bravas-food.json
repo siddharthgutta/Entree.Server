@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bravas is a mobile food business that operates a Hot Dog Cart & Food Truck here in Fort Wayne, IN. We offer specialty wieners and use skinless all beef franks. And you don't want to miss some of our original creations, like the FRENCHdog (French toast, all beef dog, Ossian bacon, maple syrup & powdered sugar) or the ZOMBIEdog (all beef dog, havarti, chorizo, blood, green goo & crispy skins). Come by for a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bravas Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52cb4228-caa0-469d-b572-5e9346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

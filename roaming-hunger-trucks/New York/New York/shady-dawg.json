@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sometimes you just want a hotdog, classic, original, like you had as kid. Sometimes you want to see what's next for the world of hot dogs. Either way, Shady Dog is the truck for you. Try the Chicago Dawg, the Frito Dawg, the eponymous Shady Dawg, or one of the other many offerings! It's a meal you won't regret.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shady Dawg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54078006-fe88-4dcb-8fd5-087e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

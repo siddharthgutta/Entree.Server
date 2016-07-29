@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Just when you think Las Vegas livin\u2019 can\u2019t get any better, wait till you see this big 'ole Pinkberry truck roaming its way down the strip, whirling out some handcrafted frozen yogurt that\u2019s absolutely delish. Come out and twirl up all your favorite flavors: \"Original\", \"Chocolate Hazelnut\", \"Pomegranate\", \"Dairy-Free Tropical Mango\", are just a few that you\u2019ll find, and then of course the next step is to decide what fresh fruit or scrumptious treats you\u2019re going to use to top your creamy creation. So be sure to seek out the Pinkberry truck for your next sweet sensation. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pinkberry",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571f9aed-be34-4cf7-a400-59d346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

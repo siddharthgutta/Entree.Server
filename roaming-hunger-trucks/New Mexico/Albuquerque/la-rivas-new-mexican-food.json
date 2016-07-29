@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A delicious way to brighten your day is rolling down a street near you, thanks to La Rivas New Mexican Food!Morning, noon, or any time you crave tasty tacos, enchiladas, and burgers, this food truck will be there for you. On the streets of Albuquerque, you'll never find anything better then the fantastic cuisine from this truck.Perfect for catering any of your important occasions, you'll never go wrong with La Rivas New Mexican Food.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Riva's New Mexican Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5747354b-ad2c-4ebf-b879-1fee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

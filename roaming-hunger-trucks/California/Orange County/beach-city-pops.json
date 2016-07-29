@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beach City Pops is a gourmet ice pop retail cart and event catering business. BCP offers a wide variety of ice pops\u2013deliciously fruity, creamy and boozy. A unique update on a classic American dessert, these pops run the gamut from Tangerine & Basil, to Mint Lemonade, to Chocolate Sea Salt, and more!  Come try them all. There\u2019s a pop for everyone.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beach City Pops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7609/5419d288-a204-4161-97bd-577046204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Being Chicago's first Lobster Roll Eatery with 3 locations in Chicago... Da Lobsta Food Truck takes this concept on the Road serving up Authentic New England Lobster, Crab & Shrimp Rolls.  Lobster Mac & Cheese or New England Clam Chowdah are crowd favorites as well!  Da Lobsta is simply Da-Licious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Da Lobsta Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9938/5542cf28-61fc-435d-a0a1-740746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

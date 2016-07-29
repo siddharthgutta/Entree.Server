@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Long Island based Food truck specializing in Grass-fed beef burgers, artisanal grilled cheese and hand cut fries. Top your meal off with one of their great tasting sides which include truck cole slaw, fresh field greens salad, tortilla chips (freshly fried), and/or seasonal fruit of the day! The menu also features a rotating selection of desserts made fresh daily. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eat Me, Drink Me",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522e8a5e-81dc-4bdc-8f60-10a946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

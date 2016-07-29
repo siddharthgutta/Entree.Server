@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cow Tipping Creamery is an artisan soft serve ice cream truck based in Austin,TX.  From vanilla bean, aztec chocolate and balsamic strawberry to seasonal creations like eggnog, pumpkin and fig soft serve....your palate will always be delighted. Cow Tipping Creamery will be offering traditional toppings as well as an assortment of unusual toppings including peanut butter pretzel soil and toasted milk powder. Dips will include chocolate, peanut butter, cherry and salted caramel, to name a few. Are you tempted yet?",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cow Tipping Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5179dc52-4540-466a-9c14-3e1446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

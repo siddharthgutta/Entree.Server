@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Misfit Coffee is kicking off your day with delicious drinks you're sure to love! Creating a curbside experience you'll never forget, Misfit Coffee's craftsman brews are coming your way in their custom trailer to amaze and astound. It's more than just coffee, it's a delicious memory you'll always remember!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Misfit Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564bb245-f664-4fd0-905d-22cf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

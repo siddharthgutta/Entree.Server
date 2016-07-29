@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Real Southern flavor coming to you straight from Alabama, Moe's BBQ Food Truck is serving up nothing but the best! Their amazing meats are smoked fresh daily, and smothered in their very own signature sauces for your maximum enjoyment. Dig into some unforgettable dishes today, with Moe's Original BBQ Food Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Moe's Original BBQ Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566b1325-7728-44b5-bc0d-642346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Guapo serves delicious Mexican food from the streets of Detroit.  He sources local and healthy food by working with Michigan-based businesses to ensure the best possible ingredients.  By maintaining a grassroots philosophy, Guapo hopes to encourage the idea of community and strengthen the food culture in Detroit.  Some of our local partnerships include Faygo, Great Lakes Coffee Roasting Company, and Pink Elephant Cupcakes.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Guapo Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50aa8854-9934-4fb2-960b-670f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

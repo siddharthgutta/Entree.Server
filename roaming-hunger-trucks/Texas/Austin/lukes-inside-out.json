@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Luke's Inside Out, is a trailer next to Gibson Bar in South Austin Texas. Featuring pork, beef, shrimp, chicken and other sandwiches on French loaves from Phoenica. There is plenty of free parking behind Gibson Bar and also behind the business next door to the north. We are a pet freindly establishment!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Luke's Inside Out",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f77f60b-480c-4f98-861a-40ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

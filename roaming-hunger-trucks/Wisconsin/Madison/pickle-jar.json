@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you've been hungry for some of the best traditional American fare in all of Wisconsin, then there's nobody cooking it up better than the Pickle Jar! Two dorks in a cart doing what they love is how these superb chefs would describe themselves, and whether or not you agree, you'll definitely walk away knowing that they're putting their whole heart and soul in every dish. Grab yourself a plate of their fantastic brisket, a slice of their pecan pie, and of course one of their signature pickles, and see why everyone's raving about this new BBQ cart.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pickle Jar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56ec7d3c-de20-4500-a7ff-0dd446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

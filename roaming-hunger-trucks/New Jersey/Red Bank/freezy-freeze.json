@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ice cream has never been so good! Freezy Freeze ice cream is making their ice cream fast and fresh through the power of liquid nitrogen! The ice cream truck of the future is serving up everyone's favorite frozen treat, along with delicious iced coffee, lemonade, and tasty teas! The best way to beat the heat is roaming the streets, so look for Freezy Freeze today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Freezy Freeze",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55414333-a338-48ec-963c-1f3046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

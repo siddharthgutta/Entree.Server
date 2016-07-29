@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Atlanta Burger Truck is serving grilled all natural burgers & homemade sides.  All-natural, hormone-free, and antibiotic-free Angus beef, and their burgers are fully customizable, with toppings including ancho-lime mayo, balsamic pear compote, and pecan smoked bacon! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Atlanta Burger Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4766/55132cdb-63ac-46d6-9a28-705246204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

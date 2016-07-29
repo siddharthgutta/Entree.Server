@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jersey Dogs is a family operation. It's myself and my husband Scott. We are very active in the community, working a number of youth sports, camps, schools, food truck  and fundraising events.   As for our food - Jersey Dogs serves Sabrett 100% All-Beef Hot Dogs (the brand of Hot Dogs you'd find on every corner in NY). We offer some signature (Spicy, Horseradish-based Relish) and standard (Sauerkraut, Red Onion Sauce, etc) toppings. (We also offer Polish, Spicy, Vegetarian and Turkey Dog options.) We now have Soft pretzels too. Stop by and have a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jersey Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8314/54aca6fa-2dec-465d-8bc7-1f8c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

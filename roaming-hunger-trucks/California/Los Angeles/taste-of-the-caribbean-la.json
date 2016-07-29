@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taste of the Caribbean LA serves amazing Lobster Tacos, Jerk Chicken Tacos, Short Rib Tacos, Ackee and Saltfish Tacos, Portobello Mushrooms with Teriyaki Glaze on the streets of Hollywood! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste of the Caribbean LA",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ad32f6-a3f0-49cb-8d5c-575246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

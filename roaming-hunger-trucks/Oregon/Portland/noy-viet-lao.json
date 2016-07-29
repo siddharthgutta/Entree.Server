@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Noy Viet Lao is serving the most amazing Asian cuisine on the streets of Portland! Featuring a menu that was inspired by the very best Vietnamese and Laotian recipes, every bite from this food truck is full of the fantastic flavor you've been craving. Rice, noodles, Pho, and so much more are finally here, thanks to Noy Viet Lao!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Noy Viet Lao",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561c31d5-973c-4f68-b27d-5b8846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

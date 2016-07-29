@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Catbird Griddle is bringing the best in local cooking, with food that's been homemade and homegrown! Local, fresh, organic, and amazing is what you can expect when you find this mobile eatery. Community folks with a community mind, Catbird Griddle is sharing the very best of what they do with all of you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Catbird Griddle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bab419-f89c-449a-bd6d-08c246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

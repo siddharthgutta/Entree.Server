@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Globally conscious grub is on the go in the city of Tampa, bringing you an awesome adventure in eating! You'll never find anything else like The Red Line Truck's Beer Boiled Hot Dogs, Reuben Hand Pies, or Sweet Potato Croquettes. Indulge in something delicious today, with the inimitable Red Line Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Red Line Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56aa5e71-4198-4683-8018-48ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

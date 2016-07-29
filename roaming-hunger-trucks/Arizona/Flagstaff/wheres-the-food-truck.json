@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Where's the food truck? Rolling it's way onto the NAU campus, that's where! With all the delicious foods a college kid craves, Where's The Food Truck is the perfect place to get your food on campus. Wings, quesadillas, cheesesteaks, and more, WTF is ready and waiting to be you're favorite truck for lunch!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Where's the Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5576136c-0460-4b43-bb78-390046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

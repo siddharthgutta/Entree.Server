@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you craving a homemade meal unlike anything else you'll find on the streets of Boston? Then this is the food truck for you! Mediterranean Home Cooking is serving up the finest falafel, wraps, salads, and so much more. With homemade goodness and the friendliest service around, this is an eating experience you're sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mediterranean Home Cooking",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568c3261-eda4-4b21-a015-469846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

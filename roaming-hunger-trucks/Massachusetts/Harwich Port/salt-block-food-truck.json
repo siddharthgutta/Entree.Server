@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for fun food on the go? Then Salt Block Food Truck is here for you! Local ingredients made into out of this world meals are on the menu today, and they're spectacular. Tacos, sandwiches, chowders, and more are ready and waiting for you, so look for Salt Block Food Truck for food that's worth its weight in gold!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Salt Block Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560af8ee-5524-407a-85a2-5e2546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

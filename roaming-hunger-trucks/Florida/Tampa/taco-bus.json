@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taco Bus is an actual bus that traveled around serving food to the masses.  We settled down 20 years ago in Tampa, open 24/7, and recently expanded to our second location in St. Petersburg, FL.  We serve the Mexican street kind of food that the owner Rene Valenzuela has been cooking since he was kid in Mexico making some pesos at taco stands.  We have a northern Mexican approach to food but you will find tacos with recipes that are typical for places such as Yucatan, Mexico City, Sinaloa, and Puebla.  Stop by for some true \u201cMex-Mex\u201d and enjoy the experience that has made us famous through the Tampa Bay area.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Bus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec48ed5-9a2c-40d3-9922-480446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

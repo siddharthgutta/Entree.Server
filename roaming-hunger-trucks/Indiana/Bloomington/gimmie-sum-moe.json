@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This food cart will have you saying Gimmie Sum Moe! You'll find nothing but the best food made from great ingredients and served up with an amazing attitude every time you visit. To get the greatest burritos and tacos in a variety of delicious styles, you've got to try Gimmie Sum More!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gimmie Sum Moe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55de48e9-79c0-44d3-bcee-591346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

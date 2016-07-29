@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Shake Cafe' is roaming the streets of South Carolina with a menu of great food cooked up the healthy way! If you're looking for some of the best sandwiches, wings, salads, and more, then you won't find a better menu than this. Perfect for any occasion, Shake Cafe' is sure to amaze and astound your taste buds today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shake Cafe'",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565ce000-a03c-4b76-9ae6-3f1046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

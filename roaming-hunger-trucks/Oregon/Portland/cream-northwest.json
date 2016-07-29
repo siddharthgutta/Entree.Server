@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oregon's getting nothing but the cream of the crop while this terrific truck is roaming the streets! Cream Northwest has the finest in small batch ice cream, made from local ingredients with a world of flavorful inspiration. Don't miss out on Cream Northwest and its awesome selection of unforgettable frozen treats!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cream Northwest",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13224/569599d1-fb1c-4b10-88a2-327a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

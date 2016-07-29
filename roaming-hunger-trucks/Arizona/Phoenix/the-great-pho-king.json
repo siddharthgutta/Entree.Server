@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We serve fresh French-Vietnamese Cuisine.  Some of our menu items include: several kinds of Pho, Spring rolls, Banh Mi Sandwiches, Jalapeno-Ginger Chicken, Crispy Crepes, Pho King Stir Fry, and rotating specials. As a food truck, we are always on the street. We also offer catering for a wide range of events from large to small.  For each catering event, we customize the menu to meet the needs of our customers.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Great Pho King",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5212fb48-5eb0-4f3b-a614-5bbe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

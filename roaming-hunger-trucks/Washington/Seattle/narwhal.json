@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Narwhal Oyster Truck is a truck in the Seattle area providing simple yet refined cuisine inspired by the maritime location, with a focus on oysters and seafood. With such specialties as smoked trout salad, cucumber gazpacho, smoked herring butter on toast, and, of course, fried oysters, this truck can suit even the most discerning of palettes, but the simply delicious food won't go over anyone's head. Sure to make any event a smash success.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Narwhal",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419d079-4b90-4040-acc6-4ef046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

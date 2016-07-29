@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Louie B. Fresh Mobile Kitchen and Catering serves up the freshest, tastiest wraps and salads in Chicago! A family-run truck is a truck that you know is gonna have the best, most unique recipes, and L.B. Fresh is no exception. If you're out and about in the 'burbs, keep a weather eye out for the big blue truck and make sure to try the strawberry salad!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Louie B. Fresh Mobile Kitchen & Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8734/569833be-8494-46f0-820d-2eb946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

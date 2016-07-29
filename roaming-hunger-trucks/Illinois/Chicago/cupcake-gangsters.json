@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Formerly a prisoner's transport truck, this bright pink truck is serving up smiles to all of Chicago's sweet-toothed residents. From carrot cake to lemon drop to a rich triple chocolate, their flavors certainly do not disappoint. \"We're gonna make you a cupcake you can't refuse!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cupcake Gangsters",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f0d57-9780-47a2-8e28-17c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

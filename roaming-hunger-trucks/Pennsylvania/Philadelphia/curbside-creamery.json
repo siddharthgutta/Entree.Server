@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Curbside Creamery is a Philadelphia-based gourmet food truck serving premium ice cream fresh from Lancaster County! They offer delicious homemade waffle cones and waffle bowls, as well as ice cream cookie sandwiches and Belgian Waffle Sundaes.This pure homemade ice cream consists of all natural ingredients and boasts over 14% butterfat, gracing taste buds with nostalgic flavors such as Mint Chocolate Chip, Butter Pecan, and rich Chocolate, in addition to fan favorites such as Snickers and Chocolate Oreo. Choose from any of the decadent flavors and pair them with freshly baked gourmet cookies to create a customized ice cream sandwich!Don't miss out! Get yourself a fantastic ice cream treat today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54d3e814-fdc4-4c47-b8e9-405346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

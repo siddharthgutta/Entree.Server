@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You'll never find a better meal on the move when you want to get out of a Fowl Mood! Are you looking for a delicious breakfast on the go? How about some superb sandwiches you can really sink your teeth into? Fowl Mood is ready and waiting to feed your cravings! Farm fresh eggs, chicken, turkey, and great times, Fowl Mood Food Truck is bringing it all to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fowl Mood Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565cd03d-e42c-43ae-a601-35c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Dangerously Delicious Pie Truck. We're your local pie shop. We make really good pies and quiche. We love what we do and we hope you will too. Thank you DC, for welcoming us with open arms. We work really hard, the old fashioned way, and make pies from scratch, the old fashioned way. And to those who get it, to those who dig it... We salute you. In Pie We Crust!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dangerously Delicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e40ed1b-fa50-4dea-9461-6d6c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

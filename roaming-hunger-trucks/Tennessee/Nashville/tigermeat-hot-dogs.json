@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tigermeat Hot Dog is not your standard New York stand. Located in Nashville, Tigermeat strives to have the simplest set up, best product and best service! . Being from Chicago, it was a no brainer for the Tigermeat family to have their featured product be the \"Chicago Dog.\" They exclusively use Vienna Beef, who uses 100% all beef, carefully selected for the highest quality meat. Their hot dogs are served in a steamed poppy seed bun topped with fresh cut condiments prepared the same day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tigermeat Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51799841-6440-4eef-ad2c-27f446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Come try a fantastic food truck serving up cool and creative sliders with a California twist--you'll never forget your first time trying California Slider! This is soon to be your new favorite food truck, and every delicious dish is sure to amaze your taste buds with awesome flavor. If you're looking to grab something great on the go, then California Slider is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "California Slider",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56424850-5a84-4e60-8928-7c8346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

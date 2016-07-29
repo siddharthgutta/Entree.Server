@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Village Cafe Express is a food truck which operates in Washington, D.C., Arlington, and Fairfax. They serve fresh, quality food. Their menu, and abbreviated version of the Village Cafe's brick and mortar offerings, includes Philly Cheesesteaks, Chicken Gyros, Greek Salads, and Chicken Souvlaki.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Village Cafe Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/517ee815-d0e8-45e1-aef5-574d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

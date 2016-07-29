@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Meat on the Street is a Filipino food truck in Milwaukee serving - you guessed it - Filipino infused meats (and vegan options!) for the hungry food truck connoisseur. Find the truck around the streets, or order it for your own event, and experience the taste bud explosion!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Meat on the Street",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7201/54dd20a6-f664-40cb-8c9b-6e1646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

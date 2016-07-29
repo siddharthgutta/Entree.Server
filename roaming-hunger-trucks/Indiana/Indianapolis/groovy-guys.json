@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Groovy Guys Gourmet Fries, Indianapolis, serves fresh fries with awesome dipping sauces! Love, peace and fry grease.Groovy Guys Fries is a new addition to the food truck scene in Indianapolis. We serve hot, fresh and delicious gourmet fries. Enjoy sweet potato fries with our incredible cream cheese sauce or natural cut fries with your choice of toppings. Choose pizza fries with pepperoni and fresh mozzarella or steak and cheese fries. Make your own combo of toppings. Several specialty sauces to dazzle your taste buds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Groovy Guys Gourmet Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec58e00-5e04-47d0-b45d-48a546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

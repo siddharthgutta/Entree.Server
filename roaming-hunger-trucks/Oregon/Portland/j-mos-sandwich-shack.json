@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "J Mo's Sandwich Shack is serving up some of the best subs in town. Try any of their tasty sandwiches like their pulled pork, eggplant parmesan, or their infamous sinfully delicious \"Dirty Mo,\" which piles homemade meatballs, marinara, and pasta on top of garlic cheese bread. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "J Mo's Sandwich Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51f30670-3c18-406b-ac83-537746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

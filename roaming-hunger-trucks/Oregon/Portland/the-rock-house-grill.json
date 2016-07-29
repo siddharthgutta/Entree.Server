@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Rock House Grill uses fresh ingredients to create their classic diner dishes. A local favorite is their \"just a burger\" made with a big hand-made patty, grilled onions, spinach, cheese, mustard, ketchup, and mayo. They also offer a variety of other sandwiches, burritos, chili and more. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rock House Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524c9054-3834-4928-a78b-686546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The FoodGasm food truck was launched in 2013 by Houston native, Greg Clark Jr. Growing up in the food industry, Greg has taken his passion for good food, his best dishes at the family restaurant, and has created a menu that is sure to entice those novice to street food to the most distinguished foodie. He is ready to take the city by storm by serving up juicy burgers, succulent lobster rolls, zesty seafood, and wings and waffles that will have you stalking the red truck all over town. Before you leave, you can\u2019t deny yourself the experience of your first Screaming O, a deep-fried Oreo with special sauce.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "FoodGasm",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52e02481-29a0-40c1-a9ea-745746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

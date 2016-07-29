@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Melted is bringing gourmet grilled cheese sandwiches to the DC area. Whether at your office, on the street, or at your event, you'll find masterfully crafted artisan breads and high-quality cheeses, toppings, and sauces to keep you comfy and cozy all day long. In Cheese We Trust!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Melted",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543c4250-9778-4e74-b8ad-3b0546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

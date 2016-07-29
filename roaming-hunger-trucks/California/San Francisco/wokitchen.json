@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "WoKitchen is keeping true to Chinese cuisine with every fantastic meal they bring to the San Francisco street food scene! Delicious dim sum and wok cooked dishes are sure to delight you every time you visit this mobile kitchen. Authentic Chinese taste with modern mobile sensibilities, WoKitchen is sure to bring you something you'll absolutely love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "WoKitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56aaaa9b-2220-4065-bb90-2b0446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

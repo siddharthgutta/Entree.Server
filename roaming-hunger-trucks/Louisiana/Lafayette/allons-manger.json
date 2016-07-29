@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "That classic Louisiana flavor is rolling right to you, so get ready for the finest food on four wheels today! Allons Manger is serving up all your favorites, made with a modern mobile style that's all their own. If you're craving the greatest gumbo, cordon blue, spicy grilled shrimp, and so much more, then Allons Manger is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Allons Manger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568c1a2b-bf54-49f9-82c5-43d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

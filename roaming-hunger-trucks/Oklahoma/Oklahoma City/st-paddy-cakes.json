@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of the Emerald Isle in Oklahoma City--this great truck is ready to bring Irish Fusion to the food truck world! Irish-infused flavors are what sets St. Paddy Cakes apart. Whether it's the Irish Potato Cakes, the kettle chip nachos with Guinness-infused white cheddar, or anything off their amazing menu, you'll be blown away by the delicious flavors and fantastic service at St. Paddy Cakes!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "St. Paddy Cakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558c57b6-80e0-45dc-9549-22b646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

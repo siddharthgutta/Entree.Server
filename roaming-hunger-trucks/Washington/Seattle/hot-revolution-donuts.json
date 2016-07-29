@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Revolution Donuts is a Seattle based food truck serving mini-donuts with gourmet toppings. We dust our mini's with high quality spices like Scharffenberger Cocoa and Adobo chili's, or some of the  best cinnamon available. Then we top it with with great icings such as Maple, Chocolate and Caramel. Every donut is made to order and is served hot. Hot Revolution Donuts are an order of magnitude better than any cold donut you have ever tried. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Revolution Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53bdeb3d-1c1c-4e15-b80f-273846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

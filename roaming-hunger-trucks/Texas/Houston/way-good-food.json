@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Way Good Food is a straightforward, sincere and creative food truck with a dynamic menu that offers high-quality food at reasonable prices.There is something for everyone - a great cheeseburger, sandwiches like the Potato chip-crusted Fried Chicken Breast or Sirloin Steak and Provolone on Ciabatta, and small bites like Fried Mac & Cheese Balls and Brisket Nachos. To keep it interesting, there are always specials and seasonal selections, and some of the menu items, like the Grilled Cheese and the Sausage sandwich, are chef\u2019s pick and change often.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Way Good Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53150e69-01e8-45ac-8fd9-679246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

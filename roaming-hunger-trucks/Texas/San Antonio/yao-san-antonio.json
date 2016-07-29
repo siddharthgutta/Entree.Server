@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beef and broccoli, chicken fried rice, kimchi fries, and more delicious treats are ready and waiting for you! YAO is a fantastic Asian Fusion food truck, bringing together the best of Eastern and Western street food. If you're looking for something new and delicious to shake up your day, this is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "YAO San Antonio",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554d15ee-2580-4482-a6fa-7c8046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

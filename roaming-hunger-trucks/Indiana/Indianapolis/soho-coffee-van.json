@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Soho Coffee Van is not your average Starbucks. With an owner who is extremely knowledgable about coffee, we can guarantee you'll get a solid cup o' jo and maybe even learn more about the delicious drink we've all learned to love (and depend on!) In addition to our full espresso bar, Hot chocolate and smoothies also available for purchase.  If you're looking for a snack to go along with your coffee, try one of their fresh baked pastries!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Soho Coffee Van",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f52ea-bce0-46f8-aab7-65a046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

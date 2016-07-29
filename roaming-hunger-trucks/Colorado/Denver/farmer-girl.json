@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you\u2019re all about food that is fresh, locally sourced, and fantastic, then it\u2019s time to give Farmer Girl a whirl. The talented Chef Tim opened up The Tasterie Truck a while ago and immediately wowed the BoCo crowds with his amazing menu. After a change in philosophy and a decision to exclusively purchase organic, local, and sustainable ingredients, The Tasterie transformed into Famer Girl; the name has changed but the amazing menu has remained the same. You can still order up all your faves, including Da\u2019Bacon Sandwich (Tenderbelly Bacon, Sriracha Aioli, and Grape Tomato) or the Southwestern Chicken Bowl (Lightly smoked and braised Wisdom Farms Chicken, Rice, Red Cabbage, Black Beans, Chipotle Crema, and Cheese), just to name a couple.  For your next meal, be sure to find Famer Girl and feast on food that is thoroughly fulfilling. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farmer Girl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5706ca08-ea18-4a7c-876e-76fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

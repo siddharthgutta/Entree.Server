@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chalupa's is a truck serving tacos, burritos, quesadillas, tortas, shrimp scampi (diabla), enchiladas and much more to the island of Kauai. This isn't Tex-Mex, this is amazing food like abuela used to make. Stop by for a taste of authentic Mexican food today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chalupa's Mexican Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f0e630-d528-4bbd-9eab-3d5546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

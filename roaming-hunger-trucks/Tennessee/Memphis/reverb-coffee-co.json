@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Reverb Coffee Co is coming your way, with the caffeinated flavor you crave! Memphis's very own micro roasters are bringing you the best cup of Joe you can imagine. Pursuing coffee greatness on the go is what Reverb Coffee Co is all about, so don't miss this amazing truck as it brings the best brews to a curb near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Reverb Coffee Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561fd682-3360-4d64-9483-46ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Shred-A-Bowls is a Gourmet Street Food Vendor Featuring Bread Cones AKA \"The Cyclone\" & Bread Buckets AKA \"The Bucket\". Cyclones & Buckets are Hearty Knobs of a Secret Bread Dough Recipe, Hand Rolled and Laced around Custom Molds, Lightly Salted and Baked to Perfectiopn. They are Stuffed with Shredded Zesty Garlic Italian Beef, Mojo Spanish Pork, Cajun Beer Can Chicken, Braised Beef Short Ribs, or Chili. Drizzled with a Signature Sauce and topped with Hand Made Creamy Cole Slaw or Spicy Salsa.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shred A Bowls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f655b8b-d1b8-4681-a781-527546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

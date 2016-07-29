@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best in great grub on the streets of Topeka you'll find it where X-marks the Spot! Two friends taking their dream on the road--it's the American Dream serving up lunch on the go. Delicious burgers, hot dogs, wraps, and so much more are headed your way, thanks to X-marks the Spot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "X-marks the Spot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b65543-3384-46f5-97fb-735246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Vegan Noms is a fantastic all-vegan taco trailer serving the Austin streets. Offering breakfast tacos, signature tacos, bomb nachos, handmade vegan chili con queso, and signature sauces, this trailer is bound to suit your fancy. Stop by for some delicious noms!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Vegan Nom",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546cf4f1-3f04-4479-9297-1b1746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

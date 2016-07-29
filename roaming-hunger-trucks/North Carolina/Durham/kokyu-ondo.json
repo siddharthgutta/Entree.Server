@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "KoKyu Ondo is bringing the best eats to the streets of Durham! You'll find delicious street cuisine from around the world on this terrific food truck. From the Paneer Sliders to the Tandoor Chicken TaKos and more, KoKyu Ondo is bringing you nothing but the best in gourmet food on the move!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "KoKyu Ondo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3a598-8f64-470c-b934-540946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

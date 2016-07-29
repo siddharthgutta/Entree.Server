@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This is one fantastic food truck with  menu of great grub that's sure to Curb Your Appetite! Home cooking on the move is making its way  to you today, with this amazing menu. Delicious burgers, hot dogs, sandwiches, and more are what you'll find when you try this terrific truck's fantastic fare!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curb Your Appetite",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f724f1-e388-40ea-b7cc-2f5746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

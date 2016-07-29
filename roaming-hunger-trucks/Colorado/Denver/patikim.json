@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Filipino fare to feed your need for fantastic cuisine is coming to a street near you! Patikim is serving up delicious, authentic Filipino dishes. Don't settle for the same old burger and fries every day, try something new and delicious today! Amazing Adobo, Sinigang, Tokwa at Togue, and so much more are on the menu at Patikim!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Patikim",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5614023a-3ef0-46b5-a4e7-777146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

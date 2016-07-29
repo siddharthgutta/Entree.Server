@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mama juice truck is a mobile destination using only the highest and freshest quality organic non-gmo, gluten-free local produce. Their mandate is that health and well-being should be within reach for everyone, so they are making it more accessible for the people of south Florida to live a better life. These are medicinal-strength juices that are always 100% organic, super food smoothies, and other tasty treats. Mama Juice is spreading the juice love to communities with delicious, nutritious, and healthy food options that truly bring a smile to all faces.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama Juice Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5453cf9f-8f38-46c5-b6b0-32f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

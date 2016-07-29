@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sticks and Cones Ice Cream Trucks is a family owned and operated company.Dave and Karen have been together since 1989. In one way or another, they've worked together most of that time. Our two sons, Ben and Aaron, can often be found helping out at the window of the trucks. (What child wouldn't love to spend their weekends at events and fairs, working in an ice cream truck?)The business is our livelihood, and we go out of our way to make sure our customers leave our trucks with ice cream in their hands and smiles on their faces.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sticks and Cones",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/507ddadf-2158-45c0-bc3b-25e146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

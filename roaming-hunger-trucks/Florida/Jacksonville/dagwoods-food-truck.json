@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Home of the Krispy Kreme Bacon Egg Cheeseburger, it's Dagwood's Food Truck! They're bringing you the best burgers on the block, along with delicious sandwiches, hot dogs, and tacos to go! Their daily specials and rotating menu will mean you've always got a surprise waiting and something new to try, so shake things up a bit and have a delicious meal from Dagwood's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dagwood's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5554f775-50cc-4d49-8757-607e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

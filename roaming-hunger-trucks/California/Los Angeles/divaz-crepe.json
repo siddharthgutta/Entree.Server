@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Diva'z Crepe is a mobile eatery roaming the streets of Los Angeles.  This adorable cart serves up a variety of both sweet and savory crepes that feature locally grown produce and only the highest quality ingredients. Let Diva'z create you an amazing crepe for any meal of the day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Diva'z Crepe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5448/54a45808-9c2c-47fe-8f65-6cce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

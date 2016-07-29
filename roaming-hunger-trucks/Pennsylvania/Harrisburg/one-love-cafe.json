@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A handcrafted eating experience, to bring you some good food that you can feel good about, One Love Cafe is serving up something special. Classic dishes with delicious twists, as well as foods from all over the world are ready to satisfy your hunger here! looking for a kale salad? Some pot belly pig? Their signature One Love Burger? It's all here and it's all amazing!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "One Love Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589c826-0138-45ec-9305-69b946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

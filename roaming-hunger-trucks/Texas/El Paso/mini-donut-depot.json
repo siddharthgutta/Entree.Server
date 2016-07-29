@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mini Donut Depot is doing things right, with El Paso's premier mini donuts! A concession trailer on the move, they're bringing you the freshest taste and fullest flavor in a delicious mini package. Made right on the trailer, these mini donuts are always exactly what you're craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mini Donut Depot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13237/56a7b02e-45d8-43ec-9e50-5f4946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Q'Sabroso Fast Food is a trailer on the Miami streets serving Cachapas, Patacones, Pepitos, Arepas, Burgers, Hot dogs, Pernil, Lomito, Pollo, and more! If you're hungry late at night, stop by and get a sabroso bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Q'Sabroso Fast Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545bf9f4-ed2c-4a1b-b973-36bb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

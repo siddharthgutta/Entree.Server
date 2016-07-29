@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Clockwork Owl is here to serve up the finest Southern cuisine on the streets of Las Vegas! Homemade style with a modern mobile flare, this menu is sure to have something to satisfy your hunger. Street cuisine unlike you've ever seen, Clockwork Owl is ready and waiting to amaze your taste buds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Clockwork Owl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56797f05-fc2c-40a3-9de1-217146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

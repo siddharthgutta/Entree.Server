@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Unlike many restaurants that make healthy claims, Muscle Maker Grill does not sacrifice taste to serve healthy options. We pride ourselves on creating healthier versions of your favorite foods that taste great, making it easy and enjoyable to eat healthy. In addition, we cater to all different types of healthy eating lifestyles.Over the past 20 years, we have created a menu that satisfies everyone from vegetarians to the carb-free consumer to people following a gluten-free diet. We have created a friendly, relaxed, and social environment where people can enjoy great-tasting food, learn about healthy eating and engage with other customers.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Muscle Maker Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9831/5540831b-b8f0-4874-b9aa-3b6246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Can you take the heat? Taking the concept of a pizza truck to new levels, Skipping Stone Wood Fired Pizza has a mobile wood-burning oven that cooks each pizza fresh to order in a 700 degree oven for 60 seconds. You can't get fresher pizza than this!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Skipping Stone Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553adab1-bac4-4b9d-8d17-3f5c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This Portland sushi & Japanese food cart is crafting some of your favorite raw fish delights. From nigiri (simply raw fish and rice) to California's rolls (filled with crab, cucumber and avocado) to their signature Zenbu roll (featuring crab, tempura green bean, cucumber, and avocado topped with spicy tuna and scallions) you really can't go wrong with anything on the menu.  Not a fish lover? They also offer veggie and land options. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Zenbu",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52432ece-3ad4-4e30-ab70-4e3a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

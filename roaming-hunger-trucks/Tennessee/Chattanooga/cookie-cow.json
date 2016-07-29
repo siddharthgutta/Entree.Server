@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Premium ice cream between fresh baked chocolate chip cookies are an amazing treat that's headed your way! Cookie Cow is serving the sweetest frozen treats on the Chattanooga streets to keep you cool and comfy on the sunny Tennessee days. Perfect for any occasion, whether you're walking out and about or need to cater your next big event, Cookie Cow is just what you're looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cookie Cow",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f7187a-4b60-4f38-a48a-7f7446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

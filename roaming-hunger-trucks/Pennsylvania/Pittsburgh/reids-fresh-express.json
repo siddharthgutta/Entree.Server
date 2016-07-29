@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best food you can find on the streets of Pittsburgh? Then Reids Fresh Express is the truck for you! They're serving up salads, soup, and sandwiches you'll be sure to love from the very first bite. The greatest way to grab an excellent lunch when you're in a hurry, Reids Fresh Express is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Reids Fresh Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c3f505-8310-4fdf-8572-3a0346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

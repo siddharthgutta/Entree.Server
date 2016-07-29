@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Puerto Rican cuisine is roaming the streets of New Jersey! El Lechon de Negron is serving up traditional Puerto Rican treats like you've never seen before. From delicious roast pig, to asado chicken, to delicious empanadas and more! El Lechon de Negron is guaranteed to have you coming back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Lechon de Negron",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553ed3b3-2730-4e0f-8925-580e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What started as a hobby of holding pizza parties in his backyard turned into One Bro Pizza Co. With a mobile wood-burning oven One Bro Pizza Co. serves fresh wood-fired pizza on the move. Try some of these delicious pizzas made from the highest quality ingredients.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "One Bro Pizza Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554be62a-b57c-423d-a52d-08b046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

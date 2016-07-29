@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "En Place is bringing upscale, restaurant-style food to the streets of Columbus. The Owner, Chef Nic,  is dedicated to serving patrons a wide array of options utilizing the freshest, seasonal ingredients from local vendors whenever possible.  A few of the gourmet dishes En Place will be serving up are, confit pork belly sliders, tuna poke, soup du jour and waldorf salad.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "En Place",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539fa775-0ac8-4560-91d1-3d5946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

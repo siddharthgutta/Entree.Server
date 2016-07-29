@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An ever changing menu of gourmet grub has hit the streets of Dallas! Serving up a superb menu that's sure to be just right for you and your guests, Nomadic Grille is a catering crew that you can count on. Take all your most important occasions from average to extraordinary, with the help of Nomadic Grille!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nomadic Grille",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5694444b-4ec8-4aa9-8de2-5bee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

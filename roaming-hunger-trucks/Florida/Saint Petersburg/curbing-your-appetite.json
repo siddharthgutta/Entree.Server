@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Alaskan surf meets Florida turf at this fantastic food truck! Curb Your Appetite is serving up their specialty, fresh wild Alaskan salmon, along with a wide selection of other scrumptious seafood! Lobster bisque, crab cakes, beer battered shrimp, and so much more are on the menu here at Florida's favorite seafood spot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbing Your Appetite",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570cd28-3240-4106-9ed8-0e4346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Urban Eats is a community oriented Gourmet Food Truck focused on Fresh Affordable Fare! Delivering honest food using as many local ingredients as possible, this truck always has quality in mind. Try the amazing Bacon Pork Burger, Fried Green Tomatoes Grilled Cheese, or the Pork Belly Burrito - Cali Style! These eats will knock you off your feet!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "My Urban Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f837612-4800-4ee9-8549-307546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

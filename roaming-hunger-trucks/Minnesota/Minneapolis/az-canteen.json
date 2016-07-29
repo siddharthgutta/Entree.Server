@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "I love food. What I love even more is food with a story.That\u2019s why I\u2019ve created AZ Canteen. This carefully curated menu showcases some inspired versions of the best food items I\u2019ve discovered on the road. From a Nicaraguan shaved ice that I\u2019ve seen only once outside of Central America, to goat sausage grinders (one of the most delicious meats on the planet!) made with an exclusive cabrito blend from my friend Pat LaFrieda, these foods resonated with me and I\u2019m thrilled to share my culinary experiences with you.Give these dishes a try. I hope you see what I see \u2014 which is that they\u2019re all delicious\u2026 And at that point, these foods will become a part of your story, too.-Andrew Zimmern",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "AZ Canteen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ee2f09-f9bc-4bfb-b5f0-456246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

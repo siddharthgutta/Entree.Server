@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wacky Dawg is cooking up the best of the best for your eating pleasure! Homemade corn dawgs, specialty hot dawgs, fresh donuts, sandwiches, and so much more are coming right to you. Quality ingredients, friendly service, and food always cooked to perfection are what set Wacky Dawg apart, so keep an eye out for them today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wacky Dawg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b6b3c5-7fc4-4f63-8dc1-25cc46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

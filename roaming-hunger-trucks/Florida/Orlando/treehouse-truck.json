@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Treehouse Truck is out and roaming the streets of Central Florida! Fresh Hand-Pattied Burgers cooked to order each and every time. Cheesesteaks straight to you from Philadelphia, cooked by a Philadelphian. Deep Fried Goodness and the best fries around. Known for the Papa Nicks Roast Pork & the GC Luther.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Treehouse Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1722/53ecd4c1-4028-4383-94b8-297b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

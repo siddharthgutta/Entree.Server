@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "V-Grits is here with the Southern fried vegan cuisine of your dreams! Burgers, macaroni, and a rotating menu of amazing specials are just a few of the delicious dishes you'll find on the menu. This fantastic food from an ward-winning chef will have you coming back to V-Grits over and over again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "V-Grits",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55aee0bb-0684-4006-aafd-181346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Marley's Good Bites is a great trailer in Corpus Christi specializing in a fantastic variety of delicious shaved ice flavors. From cotton candy to mai tai, these tasty frozen treats will cool you on the hottest days. And if you're looking for something more substantial, check out the nachos and other great munchies!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Marley's Good Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54dbd427-e838-4a00-b435-33a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

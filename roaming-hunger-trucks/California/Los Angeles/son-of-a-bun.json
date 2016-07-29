@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Simple and familiar food, freshly made from local ingredients.Choose from 4 pre-fixed styles of gourmet toppings on top of hand-pressed patties, all-natural grilled chicken or a 100% all-beef dog. House-made chips, coleslaw and donuts round out the menu, upgrading simplicity to its finest.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Son of a Bun",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4814/55f78493-4938-472f-8541-5ccc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papos Latin/American Cafe is cooking up the best eats on the Oklahoma streets! The tastes of Cuba and Peru are coming to a curb near you, ready and waiting to satisfy your cravings. Look forward to amazing Cuban Sandwiches, Aji de Gallina, Tostones, and so much more when you visit Papos Latin/American Cafe!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papos Latin/American Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e8b26e-3130-47b0-9fa6-758546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

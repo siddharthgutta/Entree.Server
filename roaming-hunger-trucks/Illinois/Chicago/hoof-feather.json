@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hoof & Feather loves Chicago's local farmers! They're dedicated to giving you the freshest, tastiest meat and produce at an affordable price. Don't miss their delicious sandwiches, and don't forget to try out their tasty southern-style classic sour cream biscuits.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hoof & Feather",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54fa2cd5-2c78-412e-8ea5-6b1e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

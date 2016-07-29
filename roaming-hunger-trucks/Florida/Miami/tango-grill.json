@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tango Grill is bringing amazing fare to the Miami streets! Spicy chicken wraps, Vietnam steak baguettes, baby octopus skewers, and so many more delicious dishes are on this great truck's menu. If you're looking for the best in Miami's late-night street food, Tango Grill is the place to go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tango Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10481/5556ba00-2bec-44b5-aca0-697846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

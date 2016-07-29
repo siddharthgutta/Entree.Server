@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The city of Lafayette is getting the greatest BBQ on the move in the state of Louisiana! Blanchard's BBQ has some superb brisket, pulled pork, and so much more. Do you want your delicious BBQ flavor on a pair of tortillas? Between some bread? Topping some delicious nachos? Whatever your style is, Blanchard's BBQ is perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blanchard's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569941fd-1e38-4afc-a91c-639746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

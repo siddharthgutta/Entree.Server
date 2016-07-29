@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet Grillers is dedicated to serving great food prepared daily with all fresh ingredients. There are plenty of 'grilled' sandwiches and a spin on some old classics. Using only the finest available products, such as Black Forest Ham, Angus corned beef and Italian proscuitto, makes it excellent quality, great tasting food. The pork butts and beef brisket are rubbed with a secret spice mixture and slow smoked for 7-8 hours. Each burger is hand patted fresh, never frozen. The creamy mac & cheese is homemade with fresh grated cheddar and american cheeses. All of the sauces and dressings are made with fresh herbs and spices. There are delectable desserts such as creme br\u00fbl\u00e9e, \"Krispy Kreme\" bread pudding as well as fresh baked Otis Spunkmeyer cookies.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gourmet Grillers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5233a172-ca94-4e8c-8b88-0d4046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

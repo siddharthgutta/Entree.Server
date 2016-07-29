@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Karam's Grill is bringing a taste of the Mediterranean to the Midwest! You'll find amazing taste in every bite when you visit this terrific truck. Whether you're looking for a delicious gyro, kefta pocket, wrap, or anything else off their fantastic menu, Karam's Grill is sure to delight your taste buds like no other!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Karam's Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b9037c-4294-4637-85b3-73c046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

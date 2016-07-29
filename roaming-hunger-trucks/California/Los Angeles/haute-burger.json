@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Haute Burger is the newest and best gourmet burger truck to hit the streets of LA. We are so committed to providing a great meal experience, that it is our number one goal. This means that everyone enjoying the Haute Burger experience is given special attention and excellent service along with equally delicious food. We grind our meat for our burgers and make our own french fries and sauces. Our flavor combinations are impeccable; like our Rich B!@tch burger that has our special 1/3 lb. tri-blend beef patty, short rib, bleu cheese foam, truffle butter, shitake, caramelized onion, and radish sprout on a toasted brioche bun. Or our Porc Chic burger that has our fresh ground 1/3 lb. pork patty, bourbon glazed pork belly, gruyere, caramelized fennel, blackberry mustard, and pickled habanero slaw on a toasted pretzel bun. We are passionate about delivering on our promise that everything we serve is made fresh to order from fresh ingredients, sourced locally, resulting in the most awesome burger experience you can imagine.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Haute Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5772b3b2-7744-47cf-8eda-33c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

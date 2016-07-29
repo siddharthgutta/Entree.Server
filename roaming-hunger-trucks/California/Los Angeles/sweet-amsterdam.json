@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Amsterdam serves up delicious, authentic Dutch Stroopwafels! These are a sweet treat perfect for on-the-go eating, and LA loves these tasty desserts no matter what time of day. Try their classic jumbo waffle or their gelato sandwich. Stop by and try one of these great treats today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Amsterdam",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577ffb2b-7364-44b5-8699-263f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

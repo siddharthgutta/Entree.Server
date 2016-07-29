@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grilled Cheese Bandits (GCB) is mobile food kitchen delivering gourmet grilled cheese sandwiches and sides to busy patrons across the San Francisco Bay Area. Check out the Jesse James, the Butch Cassidy, the Dillinger, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Grilled Cheese Bandits",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5005dcdd-7df4-40eb-b3af-62d446204482.gif",
+  "transactionFee": 30,
+  "username": ""
+}

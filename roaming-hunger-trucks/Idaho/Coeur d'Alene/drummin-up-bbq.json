@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Drummin Up BBQ is bringing you food made with passion! Always aiming above and beyond your expectations, these fine folks are sure to satisfy all your cravings for amazing flavor. The best chili, ribs, pulled pork, and more are coming to a curb near you, thanks to Drummin Up BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Drummin Up BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5654b724-1868-4b1b-844a-250446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

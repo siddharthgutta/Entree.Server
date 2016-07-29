@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for fantastic ramen on the streets of San Francisco, Leifeng Ramen is the truck for you! With flavors fit for any appetite, Leifeng is sure to have something you'll enjoy each time you visit. Shoyu, tonkatsu, veggie ramen, and so much more are here for you at Leifeng Ramen!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Leifeng Ramen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfab8b-e454-41a9-aaed-6e2b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

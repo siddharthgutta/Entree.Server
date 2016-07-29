@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BBQ done right is rolling down the streets of the Mile High City, Rolling Smoke BBQ has the authentic smoked deliciousness you crave! Cooked the old school way, with wood and time, everything from the ribs and pulled pork to the briscuit and mac 'n' cheese is made right, just for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rolling Smoke BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551d7b08-3efc-4bb8-9520-239646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

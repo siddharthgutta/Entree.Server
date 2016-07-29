@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Late Night Slice, the Rain Man of Columbus pizza joints!The latest venture from the owner of ECT Pedicab!Located in the Short North, directly next to Bodega, LNS's mission is to enable all the happy, hungry, and/or stumbling denizens of downtown Columbus with a fun and friendly place to pizza their face off.Grab a slice of hot pizza, smother it in hot ranch, garlic sauce or any one of a couple of other toppings. Then sit down on a cheap lawn chair to watch movies or cartoons projected on the wall.Mikey's Late Night Slice reserves the right to close early, open late or remain closed on any day for any reason. This includes but is not limited to: bad weather, beautiful weather, good fishing days, bad fishing days, exhaustion, hangovers, or a good party.We do NOT recommend this establishment if you are in a hurry, sensitive, or accident prone.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Late Night Slice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb89fe1-161c-4412-b7bc-14d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

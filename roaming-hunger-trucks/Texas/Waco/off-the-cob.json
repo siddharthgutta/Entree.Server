@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Savory, sweet, and always delicious, popcorn is always the perfect treat! Off the Cob is serving up gourmet popcorn you can really sink your teeth into. Whatever you're craving they've got a popcorn for you, so look for Off the Cob Gourmet Popcorn today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Off the Cob",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5550d32c-32e0-4b53-b1a7-69cf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

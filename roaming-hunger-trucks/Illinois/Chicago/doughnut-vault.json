@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot, fresh, and hand-crafted doughnuts ready for your eating pleasure! Doughnut Vault is serving Chicago with their delicious doughnuts, ready and waiting to make your mouth water! When you really need the ultimate on-the-go food, you can't beat a doughnut, and when you want a doughnut, you can't beat Doughnut Vault!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doughnut Vault",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558855e5-6d28-4fb1-a730-19ab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Funkadelic Food Truck offers a whole new style and experience while eating from a mobile food establishment. At first glance, you can definitely predict that we are not your typical food truck. From our hand painted funky design on the truck to the sweet tunes of Funk Music playing from the mounted speakers, Funkadelic Food Truck offers a variety of food options for everyone to enjoy at an affordable price. Our menu spreads from a juicy gourmet burger to our Angus Beef Prime Rib sandwich with a twist of herb goat cheese spread and caramelized onions. All our food will be prepared fresh from scratch, every day. *Not your average food mobile ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Funkadelic Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8284/54a4019a-a5b0-4188-8411-6ec946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

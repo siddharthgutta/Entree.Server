@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Reconnecting farmer and food lover through their food truck, Good Bites is serving up something fresh and delicious to the streets of Mason and beyond! Good Bites is stepping up their food truck game, making amazing gourmet dishes cooked fresh and fantastic for your eating pleasure. Local food by local folks--Good Bites will have you hooked from your very first visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Good Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ad6bae-ff60-496c-be8c-478346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

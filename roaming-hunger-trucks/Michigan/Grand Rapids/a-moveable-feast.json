@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Moveable Feast is a Grand Rapids based food truck dedicated to providing our customers with an excellent culinary experience by serving delicious food in a fun, respectful atmosphere. We commit to crafting our food with high-quality ingredients, sourced with an emphasis on local producers and responsible production methods. We started in the summer of 2014.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "A Moveable Feast",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f483c-4510-49bc-a8ab-4ae546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

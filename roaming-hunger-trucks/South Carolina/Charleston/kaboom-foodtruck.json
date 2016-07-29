@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This food truck is bringing you fantastic flavor that'll make your taste buds go Kaboom! The tastes you've been craving are finally rolling down a street near you, with burgers, American-style kabobs, and more to make your mouth water. For the best food in town, it's got to be Kaboom Foodtruck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kaboom Foodtruck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55de048e-cb08-48b6-8036-035e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

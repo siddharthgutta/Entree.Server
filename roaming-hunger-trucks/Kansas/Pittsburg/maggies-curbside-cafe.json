@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Maggie's Curbside Cafe is bringing that classic diner feel to a street corner near you.Pittsburg is a city full of fantastic folks, and they deserve to have the most fantastic food possible, which is just what Maggie's is here to provide. Burgers, brisket sandwiches, frito pie, and more stick-to-your-ribs meals are on the menu today, and we just know you'll love them all.Get ready for the greatest eating experience you could have asked for, when you visit Maggie's Curbside Cafe!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Maggie's Curbside Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5744d665-ed68-4c76-a4df-0da846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

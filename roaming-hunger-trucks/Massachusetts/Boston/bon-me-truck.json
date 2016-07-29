@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bon Me is a gourmet food truck serving Vietnamese inspired food with a local sourcing. Bon Me started as a dream that came to fruition by winning a competition hosted by the City of Boston. We are excited to offer food that is fresh and laden with bright flavors and contrasting textures.To learn about the inception of the truck, pranks between truck operators, and why a \"twist\" on a cuisine doesn't make it less authentic, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/4487/featured-food-truck-bon-me",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bon Me Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f9aff4b-0c1c-4d95-a2ab-019646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

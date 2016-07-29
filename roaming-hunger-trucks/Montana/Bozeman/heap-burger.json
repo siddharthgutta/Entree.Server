@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best burger you've ever had, right in Bozeman Montana! Serving up a heaping big burger right out of their big red school bus, Heap Burger cooks up hot and fresh food made when you order it. With quality ingredients and a new burger special every week every visit to Heap Burger is sure to be an excellent experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Heap Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5527fadd-10d8-41a0-abb7-4eac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

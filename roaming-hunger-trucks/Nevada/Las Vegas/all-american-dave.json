@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Las Vegas-based All American Dave offers only healthy food served in macronutrient balance, meaning each meal is built to contain a specific amount of protein, carbohydrates and healthy fats, with plenty of green vegetables to properly fuel the body. All meals have been specially created by a fitness coach and dietary guru, using only the best ingredients available, featuring 100% grass finished beef, wild Alaskan salmon, free range air chilled chicken and organic fruit protein shakes. All foods are gluten free, lactose free, not processed, and cooked without butter or oil with the philosophy that we must eat better to be better!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "All American Dave",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5213bf66-1e24-45b3-a8cf-6df146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

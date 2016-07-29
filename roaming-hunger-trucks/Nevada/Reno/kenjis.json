@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kenji's is a local food truck in Reno/Sparks serving a mixture of Asian/Mexican/Hawaiian fusion. We're out at local downtown bars wednesday-saturday nights from around 9pm-1 am and later. Please don't hesitate to give us a call to see where we're posted at nights.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kenji's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ed715fd-b43c-4d3f-948b-555346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

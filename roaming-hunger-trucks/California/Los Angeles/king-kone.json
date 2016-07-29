@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "King Kone is an ice cream parlor on wheels! We are a family owned business based in Los Angeles, and serve all of L.A. County as well as surrounding areas.In a city that keeps us all so busy and at a loss for extra time, convenience is bliss. King Kone will come to you for any occasion! Our quality and creative treats will leave a smile on your face, and your family and friends will love it.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "King Kone",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e853cc0-2b5c-431b-b5db-38de46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

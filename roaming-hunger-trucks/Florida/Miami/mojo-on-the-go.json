@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mojo On The Go Food Truck. Voted #1 in South Florida. Catch Us!!!!Mojo's plays an active role in our community, helping local charities.Sample menu items :Carolina BBQ Pulled Pork Sandwich, Mojo Pork Nachos, Ceviche, Blackend Mahi Tacos,Award Winning Chili Lime Mojito Chicken Wings, Gator Tail, Frog Legs. Keep in mind our menu is ever changing...keepin' it fresh and flavorful ! WE GOT OUR MOJO WORKIN' !",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mojo on the Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5075bce4-ace4-4c45-a378-254a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wandering the streets of Vancouver, bringing you the best hot dogs in town is The Nomad! Locally sourced, gourmet, and fantastic, these hot dogs will have your mouth watering right away. Served on a ciabatta bun or delicious corn tortilla, and with toppings to satisfy any appetite. The Nomad is sure to be your new favorite hot dog cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Nomad",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5592c80a-c47c-4d5b-96a5-66a046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

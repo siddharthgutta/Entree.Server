@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cheeesy Pops' Pizza is a full service pizza place on the streets of Kansas City, bringing you the very best of everyone's favorite cheesy meal! Hearth-baked flavor and fantastic service are just the start of the good times you'll get when this terrific truck rolls up to you. Sweet treats, savory meals, and amazing memories are right around the corner, thanks to this mom & pop pizza shop!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheeesy Pops' Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56d60a06-03c0-40c1-b79a-4f3b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

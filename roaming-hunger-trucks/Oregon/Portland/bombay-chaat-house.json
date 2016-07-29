@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bombay Chaat House serves up delicious traditional Indian fare curbside to the foodies of Portland. Enjoy warm Naan to complement your flavorful curry (both vegan and non-vegan.) In addition they're cooking up (as their name suggests)  plenty of chaat dishes with chutney and yogurt sauce. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bombay Chaat House",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5202bbd2-fc04-428c-906d-0d2446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

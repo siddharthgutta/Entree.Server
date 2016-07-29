@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sausage Shack is serving up some of the greatest grub on the streets of Vermont! Hot dogs, burgers, sandwiches, and more are on their way to satisfy your eating pleasure. The Sausage Shack is bringing a fresh, delicious experience you're sure to love each and every time you visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sausage Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55afc1f6-aa88-44c4-a5a4-388d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

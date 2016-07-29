@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This great sushi truck is serving the OC curbsides with fantastic sushi pieces and rolls. All the classic nigiri and rolls you might expect, plus a few new tasty options. With hand rolls and veggie options to round out the menu, this truck can't go wrong! Stop by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rolling Sushi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/754/53eb7a74-7be4-41bc-817c-67fe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

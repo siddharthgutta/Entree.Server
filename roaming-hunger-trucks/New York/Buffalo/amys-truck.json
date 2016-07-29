@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Amy's Truck is a mobile version of her famous Buffalo eatery. Amy's Truck touts a unique menu including their famous Lentil-Berry, Margie, and Biff sandwiches which keep Amy\u2019s a household name. Thy use fresh ingredients, have plentiful and delicious vegan choices, and a comfortable diner vibe on wheels. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Amy's Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/516898d6-2c28-402a-9931-41e446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

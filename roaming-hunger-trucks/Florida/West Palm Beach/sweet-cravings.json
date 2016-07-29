@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Cravings is a delicious dessert truck serving the Wellington streets. Everything is baked fresh right on the truck, from freshly baked cupcakes, to brownies, cookies, ice cream cookie sandwiches, and much, much more. If your sweet cravings are getting the best of you, drop by this truck for some sweet relief!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Cravings",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5451453b-cb94-4753-ae7d-455446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

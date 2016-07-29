@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Austyn's is a food truck on the move, bringing you burgers you're sure to love! These burgers are made with natural, grass-fed beef for the best flavor and quality possible. Whether you're looking for something classic, a portobello burger, or even an all beef hot dog, you'll never be disappointed when you grab some grub from Austyn's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Austyn's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560c68b2-3fb0-45b3-9df7-40c046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

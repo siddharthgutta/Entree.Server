@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best fish and shrimp tacos serving the SFV. Shrimp empanadas and quesadaillas, aquachile, and Marlin style quesataco. Come get a taste of authentic Baja!Basic Menu of our food: Fish & Shrimp tacos, shrimp quesadillas, Quesatacos de Marlin, Empanadas, Shrimp Cocktails, Seafood mixed Cocktails, Fish Cevich Tostadas, Shrimp Cevich Tostadas, and Shrimp doble ceviche Tostadas, but there's more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bajamar Seafood",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e9f5dec-8e8c-47fc-b6ff-727446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

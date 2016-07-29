@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Since February 2011 we have been bringing you delicious, freshly made, home-style Mexican food for your lunchtime enjoyment. At Sol Mexican Grill, we are committed to bringing you the freshest ingredients. Our menu is designed to offer you delicious options, good sizeportions and unbeatable prices--brought right to your door/office steps. Come on out and meet our chef; our team will gladly serve you. Thank you and we will see you at lunch time! Sol Mexican Grill Team",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sol Mexican Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e60728d-a948-40e6-bfe0-248a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

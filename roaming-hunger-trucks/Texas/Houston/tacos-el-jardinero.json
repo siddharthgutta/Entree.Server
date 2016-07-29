@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Houston is a huge city, home to hearty, hungry Houstonians who are sure happy to head over to Tacos El Jardinero to satisfy their hankerings for high-quality Mexican street food. This truck made its debut in late 2015 and it has already brought much cheer in this new year with their simple yet satisfying selection of Tacos, Burritos, Sopes, Tortas, and more, all with your choice of carnes; from Barbacoa to Steak Fajita, Chorizo to Pollo, and beyond. With their speedy service, great prices, and fantastic flavors, it\u2019s no wonder this taco truck is the talk of the town.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos El Jardinero",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f43a1c-3ad4-469d-af0d-40a146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

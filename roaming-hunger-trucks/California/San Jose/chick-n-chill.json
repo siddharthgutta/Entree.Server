@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Chick-n-Chill truck is cluckin\u2019 its way through the Bay Area and serving amazingly delicious fried chicken dishes. The locals just can\u2019t get enough of Chick-n-Chill\u2019s perfectly crispy and crunchy chicken with juicy and tender meat. Whether you get the wings, sandwich, wrap, or tacos, be sure to make your order complete with your choice of wonderfully succulent dipping sauce; honey soy sauce, spicy fish sauce, or sweet n spicy. Whether you\u2019re planning your next meal or party, Chick-n-Chill is certainly the truck for you with all of its unforgettable flavor. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chick-n-Chill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57967b38-2da8-4a15-a842-053c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nosh The Truck is a fantastic truck on the streets of Seattle serving up all sorts of new and unusual food. Everything this truck does is \"all about the food\" - from hand pulled-mozzarella to hand-rolled all-butter pastry for the pies. All of the meat is also personally ground by these chefs, so they know exactly what's going in to your deliciousness. There is a little of something for everybody here, and the rabbit, bone marrow, or simple fish and chips is sure to please and impress.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nosh The Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419d66e-2e68-4233-9f76-438746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

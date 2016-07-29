@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our custom-built mobile kitchen takes Chong's great taste to the streets of San Antonio and surrounding areas. Traditional Korean food from the restaurant (Chong's mother's recipes and Korean fusion from Chong's imagination and talent!) is here on the truck, sure to make you smile! So enjoy delicious Korean food on your side of town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CKR Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/526d7ba1-79b0-4564-a47a-145c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Green Radish is a mobile destination for delicious, vegan organic food established in the New York City area by chef James Rafferty. The Green Radish\u2019s menu of healthy, mouthwatering lunch items is rapidly developing a following among hungry New Yorkers who have become devotees of The \u2018Rad\u2019s Black Bean Burger and No Lobster Roll and other delicacies.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Green Radish",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54077afc-c894-4023-92ec-665146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Spoon-N-Bowls serves up delicious acai bowls and smoothies, for you to enjoy on the go! No need to worry about finding the perfect healthy treat when you can enjoy a \"Berry Berry\" Acai Bowl or a \"Kale Yeah\" Smoothie. Stop by soon and see just how good healthy can taste!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spoon-N-Bowls",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5605ace2-67e8-473a-a98c-069c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

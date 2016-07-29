@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: El Paso, TexasTacoholics is a mobile food truck, specializing in street style tacos. We do taquizas, on site cooking throwdowns. Private parties, social events, clubs, whatever!Tacoholics now has an express kitchen to compliment its mobile food truck; we specialize in on site catering. We will feed any public event, private party, business event and anything else you can throw at us.We are a company built on integrity, great service, freshness and hiqh quality food. Our concept is ever evolving, and learning from its successes and opportunities. We take great pride on all of our events and there isnt an event too small or too big.It starts with the magical corn tortilla. Our meats are marinated with a special 21 ingredient concotion of delicousness. Our ingredients are fresh, are salsas are always home made and the flavors we put together won't be disappointing. You pick your meat; sirloin, chicken, pork or tofu. Pick you style of taco, pick you salsa and enjoy!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacoholics",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ed97f19-a820-48ae-a737-1a6846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

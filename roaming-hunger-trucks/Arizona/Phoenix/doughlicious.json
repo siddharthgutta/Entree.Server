@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Doughlicious is a wood fired pizza and specialties including salads, sausages, meatball sandwiches, quesadillas, cinnamon rolls, cookies, ice cream, frozen yogurt and more. We have a mobile foodtruck and specialize in mid-to-large special events, private parties and catering",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doughlicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54b1d8d8-461c-48c0-ad3f-72bd46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

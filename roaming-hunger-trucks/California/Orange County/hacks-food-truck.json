@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hacks Food Truck is creating amazing comfort food in the heart of Southern California! The city of Orange will never be the same after it experiences the delicious brisket sandwiches, sloppy joes, tacos, and more from this amazing menu. If you love delicious flavor with local flair, then Hacks Food Truck is just what you've been looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hacks Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5661f237-96d0-4990-92e9-7e5446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

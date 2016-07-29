@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Fat Greek Gyros is an Austin truck serving authentic Greek food prepared daily with fresh ingredients and love. The menu offers gyros, Greek salad, spanakopita, and baklava daily, and homemade specialties like moussaka, Greek meatballs, and zucchini balls upon request. Stop by for some great food, and maybe get a Greek lesson or two!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Fat Greek Gyros",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54653b81-8d3c-4062-a3ed-5ab646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

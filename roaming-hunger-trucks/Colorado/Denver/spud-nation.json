@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "As a city comprised of friendly Spud Buddies, Denver is the proud home to Spud Nation, a non-profit food truck that dishes out an education on all things potatoes, alongside their premium potato dishes. Spud Nation represents 2500 potato farmers in the U.S. and serves to teach the public about how many different types and varieties of potatoes are grown in the US, as well as showing new and innovative techniques for preparation. Their yummy menu includes fantastic potato-twists on favorite classics like their Spud\u2019Dle Cake- a potato funnel cake sprinkled with sweet purple potato sugar. Their Spunions are quite special-puffed potato rings filled with onions and chives, and served with a variety of delicious dipping sauces. And there\u2019s so much more for you to spud-pick. Operating as a non-profit, this truck partners with charitable organizations to donate any tips or profits that they receive.When you eat at Spud Nation, you\u2019re instantly a part of a spudtacular movement!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spud Nation",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13455/571e8faf-4818-4bc2-8f61-505346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Two brothers are bringing a little taste of Chicago to San Antonio! Classic Chicago dishes like deep-dish pizza, Italian beef sandwiches, and Chicago Dogs are all on the menu here! So if you're looking for a taste of the Windy City, this is definitely the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "G-Bros Chicago Style Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554b934a-5be0-4116-9b92-0f4746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

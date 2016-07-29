@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best Tex-Mex truck from Sacramento to the Bay? You must be looking for North Border Taco! Traditional Tex-Mex taste combined with more modern fare is an eating experience that you just can't miss. Get a taste of Nor Cal's Best Mex, with the fantastic food of North Border Taco!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "North Border Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a7e519-8eec-4702-b7b3-625646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Garbo's Lobster is a delicious lobster roll truck bringing a taste of the New England shore to Austin. With tasty soups, rolls, and even sweets, this truck has everything you need for a great seaside picnic, wherever you happen to be at the time! If you're craving some lobster, stop on by Garbo's Lobster today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Garbo's Lobster",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546528db-c0ec-48ae-b497-037446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

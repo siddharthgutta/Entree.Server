@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Seattle's only mobile Taiyaki shop is on the streets and serving up some fantastic fish-shaped treats! BeanFish is bringing a fun new look to the food truck scene, with their traditional Japanese fish-shaped waffles made right before your eyes from the freshest ingredients and homemade waffle batter. With a variety of fillings to satisfy your sweet and savory cravings, BeanFish has something for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BeanFish",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558aee40-719c-4fe1-973d-5a4646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

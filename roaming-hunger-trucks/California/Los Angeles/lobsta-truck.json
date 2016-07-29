@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Lobsta Truck is the premier LA provider of the ocean's most prized crustacean. Get a taste and find them to have a lobster dinner or lunch.A few weeks after a wonderful trip to the east coast, we decided that we were going to open the Lobsta Truck. With the lobster shacks in Maine similar to the taco shacks in LA, it seemed like the perfect fit. We proceeded to find a supplier that could deliver us fresh lobster and worked on developing our own lobster rolls. We tried a few types of bread, as we couldn't find the traditional split top New England rolls in LA, but it just wasn't right. As a result, like the lobster, we get our bread fresh from New England. We couldn't just have lobster rolls as our only menu item, so we decided to also add crab rolls, New England clam chowder, Cape Cod chips, and fresh squeezed lemonade. With all the pieces in place, we were ready to roll!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lobsta Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/576969f4-9afc-46b7-a623-275346204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

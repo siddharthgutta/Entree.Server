@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cowtown Creamery is a sweet dream come true for the town of Sacramento with its finest-quality ice creams and shakes served to you fast and with bright smiles.Come out and shake up your day with Cowtown\u2019s premium shakes- swirled and twirled to perfection with their signature selection of premium soft serve ice cream and eclectic toppings. Their popular menu also features refreshing Frozen Lemonade, Italian Soda, and delicious Belgian Liege Waffles.You\u2019ll be struck with good luck when you visit this highly rated dessert truck.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cowtown Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f06c7c-4018-4879-9941-768946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

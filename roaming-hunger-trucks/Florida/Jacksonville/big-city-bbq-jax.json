@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you craving the best Southern-style BBQ on the streets of Jacksonville? Then we've got the food truck for you! Seasoned and slow-cooked to perfection, this menu is full of amazing flavor you'll never forget. Ribs, sausage, pulled pork, and so much more are making their way right to you, with Big City BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big City BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12656/561d9f68-8094-49de-8761-424046204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

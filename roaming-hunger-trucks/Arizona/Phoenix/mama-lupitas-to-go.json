@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mama Lupita's brings Phoenix the best in Mexican cuisine. With authentic dishes such as Tampaque\u00f1as, Huevos Rancheros, Tacos de Pescados, and much more at your disposal, you're sure to find the perfect meal! Stop by and try Mama Lupita's To Go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama Lupita's To Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5602f7ee-c454-4298-b111-795a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

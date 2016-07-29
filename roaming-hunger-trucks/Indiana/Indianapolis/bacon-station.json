@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Is your tummy makin\u2019 that grumbling sound because it\u2019s got some major cravings for yummy bacon? Well, Bacon Station has the crispy cure for you. Their meaty menu includes quite a porky assortment, like their BLT (and if you need more of that B, order up a BBLT), Bacon Burger, Bacon-wrapped Hot Dogs, Bacon Grilled Cheese, Fully Loaded Fries with cheese, bacon shred, and ground beef, and more!So you just gotta head your way to Bacon Station for an unbelievably tasty time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bacon Station",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13868/574cb0d6-0808-473e-8146-76d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

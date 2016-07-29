@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "When this food truck rolls up to you you'll feel like the Fox in the Henhouse! Bringing gourmet cuisine to a curb near you, Fox in the Henhouse is your one stop spot for amazing flavor you'll never forget. Sink your teeth into something superb today, with the fantastic folks of Fox in the Henhouse!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fox in the Henhouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564a3bd0-55c4-4d30-9f2d-04ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

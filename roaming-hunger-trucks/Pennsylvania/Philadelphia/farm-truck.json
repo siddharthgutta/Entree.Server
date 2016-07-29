@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Farm Truck was built around knowing what is in your food and where it comes from. We spend the time to hand make all of our menu items with quality ingredients and we always go out of our way to do things right. Our produce comes from local farms, our bread from a local bakery, and our coffee is organic, fairly traded and locally roasted.  Most of our disposable items are either recyclable or biodegradable, and you will always find a recycling bin outside the truck.  We are involved with our community and have a strong commitment to the arts and to providing real, healthy food to everybody.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farm Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7507/54170d38-a088-4bd9-aeb7-47fb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

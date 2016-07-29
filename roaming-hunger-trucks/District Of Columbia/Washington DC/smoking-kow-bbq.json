@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smoking Kow BBQ is cooking up the most fantastic BBQ tacos on the streets of DC! Every delicious dish on this fantastic food truck is made from scratch, right on the truck, so you always get the freshest eating experience possible. Smoking Kow's BBQ is cooked to perfection in their signature sauce and served on their handmade tortillas, so you're guaranteed something fantastic every time you try it!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smoking Kow BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5620299b-6068-4e0c-a74b-335646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

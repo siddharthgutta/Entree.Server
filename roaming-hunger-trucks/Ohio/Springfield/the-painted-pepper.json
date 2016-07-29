@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The flavors of the Southwest are here and they're ready to spice up your life! The Painted Pepper is serving up the best in Southwestern, Mexican, and Tex-Mex cuisine! From the huevos rancheros to the savory corn cakes to the quesadillas with their signature \"Texas Caviar\" you can't go wrong with The Painted Pepper!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Painted Pepper",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553a6877-cddc-4475-81ff-1d0f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

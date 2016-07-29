@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Calacas is a great Mexican food truck offering a unique eating experience! Hungry for gourmet Mexico City style food? With tacos, tortas, postres, and more, Calacas is your number one truck for all things delicious! So don't miss out - stop by for a taste of Mexico City today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Calacas Authentic Mexican Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8932/5519cb11-b31c-4b2e-a4fd-3cda46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

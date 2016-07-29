@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pyro's is rolling down a street near you with the best artisan fired pizza in Iowa! Each pizza is made with hand-pressed dough, topped with quality ingredients, and fired up when you order to make a delicious pizza you'll be sure to love. Pyro's is bringing you their very best with each and every bite, so keep an eye out for this truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pyro's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b9308c-8838-40c2-8029-35f246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

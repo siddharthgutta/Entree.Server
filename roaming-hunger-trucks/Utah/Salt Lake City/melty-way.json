@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Melty Way is making Utah's tastiest grilled cheese on the go! Hot and cheesy comfort food you can really sink your teeth into is always sure to be an amazing treat. Are you hungry for the classic grilled cheese? The Jalape\u00f1o Popper? Chicken Parmesan? All of these and so much more are making their way to you, thanks to this fantastic food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Melty Way",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56212de1-b8c8-463b-aca2-38e046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

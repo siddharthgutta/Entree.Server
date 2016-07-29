@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Saturday's Waffle is a mobile eatery serving up gourmet liege waffles in Salt Lake City. Their menu offers exquisite combinations of fruits, handmade sauces and savory options which provide a truly unique and delicious experience. Specials change with frequency. Come see what all the fuss is about and meet the guys in bow ties as they serve up a delicious start to your weekend.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Saturday's Waffle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52168f9e-80a8-4620-ab86-11ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

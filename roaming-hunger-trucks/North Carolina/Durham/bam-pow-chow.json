@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bam Pow Chow is creating The Art of Casual Food on the streets of Raleigh and beyond! Try their amazing gourmet tacos, from the pulled pork to the catfish with cucumber kimchee and scallions, and finish it all off with a delicious cronut! Street food that packs a punch!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bam Pow Chow",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8279/54ac5852-3b04-4bb2-8477-657046204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

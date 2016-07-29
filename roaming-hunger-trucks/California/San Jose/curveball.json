@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We serve traditional ballpark fare taken up a notch. Our signature slider which is the curveball, beef, beer braised pork belly, cheese, grilled onions, housemade balsalmic BBQ sauce. Thai Cobb which is our Thai chicken basil patty with Thai sofrito. Our screwball is buttermilk brined fried chicken with a celery and carrot slaw with housemade bleu cheese and buffalo sauce. We serve garli fries in addition to salt and pepper fries. The change up is our vegan option, it is housemade falafel fritters with a cucumber salad tossed in housemade tahini and a housemade Harissa",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curveball",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552c2c2a-a674-4850-afd5-5e6c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

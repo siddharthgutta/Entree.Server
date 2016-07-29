@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Man's Mobile Kitchen is bringing that down-home cooking you love to you! From Pearl's Famous Fried Chicken to  mac 'n' cheese to their new salads and wraps, the Fat Man is putting the Soul back in your food! Fat Man, it's Soul Good!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Man's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551af6a1-ad1c-40f6-91ca-72e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

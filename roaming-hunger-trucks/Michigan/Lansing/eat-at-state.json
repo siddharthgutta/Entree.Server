@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's no finer food for a college student on the move than the fantastic fare you'll find at Eat At State! Nothing will help fuel you through the daily grind of student life like the magnificent meals from this food truck. An eclectic selection of delicious dishes are on the menu daily, so you're sure to find something to love when you order from Eat At State!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eat At State",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ca3f01-028c-4068-8104-1cf446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

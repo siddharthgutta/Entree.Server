@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hero or Villain is Metro Detroit's gourmet sandwich food truck. We believe in creating an memorable experience achieved through fresh hand crafted meals, inclusive items for individuals with dietary concerns (including, but not limited to: vegan, vegetarian and gluten free options)  and through the love for iconic characters. We strive to be super!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hero or Villain",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8426/56c253fb-54dc-4449-a7b1-1f1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

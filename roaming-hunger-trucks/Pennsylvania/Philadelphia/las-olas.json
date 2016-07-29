@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Mexican cuisine is here on the streets of Philadelphia to bring you the best food north or south of the border! Ready and waiting to cater your next big event, Las Olas will never disappoint with its amazing menu and warm, friendly service! For an eating experience you won't soon forget, Las Olas is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Las Olas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558c73ad-3f7c-4d58-8c84-470346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

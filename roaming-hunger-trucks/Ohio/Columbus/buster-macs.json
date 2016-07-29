@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Buster Mac's is breaking out only the best burgers, shakes, and sides on the streets of Columbus! The product of Chef Rocco Valentino and his daughter Clara, Buster Mac's is a family-run truck you can count on. They understand the importance of keeping it fresh, so they're always creating something new for you to sink your teeth into.There's nothing quite like their signature Buster Mac burger with a side of fries, all washed down with their double chocolate shake. If that sounds good to you, then you're sure to love the rest of their menu, too. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Buster Mac's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f1bfc2-f2c8-47b3-b7d2-3b7d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

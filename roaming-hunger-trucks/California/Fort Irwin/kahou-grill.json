@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delicious Asian fusion cuisine is coming right to you! Kahou Grill is the food truck of your dreams, serving up only the very best chow mein, teriyaki, egg rolls, and so more. If you love great food and service with a smile, then Kahou Grill is sure to be your new favorite mobile eatery!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kahou Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f6c86-bd94-480d-a8dd-0d4046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cupcakes are our passion. If you can dream it, we can make it! At Dia Doce everything is made fresh from scratch on premises, using the finest ingredients from local farmers!Special order gourmet cupcakes delivered to your door in Southwestern, PA.Look for our green mobile shop roaming around and serving delicious treats!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dia Doce",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4efd1de7-babc-47f9-b1b1-225946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

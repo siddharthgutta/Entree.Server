@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This jam-colored truck is divvying out grilled gourmet peanut butter & jelly sandwiches on the streets of Denver!Their oooey gooey menu consists of a tasty array of savory, sweet, and spicy sandwiches. They mill their own nut butters with peanuts, almonds, pecans, and cashews.  They make their own jams and preserves --like their tangy wild blueberry jam or spiced date preserves.  Come out to Hey PB & J for food that\u2019s \u201cGrilled. Gourmet. Great!\u201d",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hey PB&J;",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5772a12c-ac54-4be4-8926-74c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

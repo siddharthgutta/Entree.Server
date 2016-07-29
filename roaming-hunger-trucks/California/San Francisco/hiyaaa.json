@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hiyaaa! food truck serves hot fusion sandwiches made with fresh ingredients. We pay homage to B\u00e1nh m\u00ec, Vietnamese sandwich, as we pulled our inspiration from it. Our fusion flavors are bold and balanced. We are serving San Mateo, San Francisco and Santa Clara counties.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hiyaaa!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7fda86-1c98-4fe1-856d-6db446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The An Family first started serving Garlic Noodles 41 years ago, when we opened our first restaurant, Thanh Long, in 1971. Because the noodles have been such a big hit, we've decided to take the secret kitchen dish to the streets with the An the Go Food truck. Check out our great Lemongrass Chicken, Five-Spice Pork, Vegetable Stir-Fry and more!To learn about the secret kitchen and how even Oprah can't get a peek, check out An the Go's article on the Roaming Hunger blog here: http://roaminghunger.com/blog/8851/garlic-noodles-we-cant-get-enough-of",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "An The Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e76ee73-2dc4-470c-afd5-715446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

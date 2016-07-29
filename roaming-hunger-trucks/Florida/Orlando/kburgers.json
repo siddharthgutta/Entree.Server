@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kburgers serves breakfast & Lunch.  All of our breakfast sandwiches are served on authentic New York Bagels or Ciabatta.Bagel choices are: Plain; Poppy; French Toast; Everything; Pumpernickel; Asiago Cheese or Multi-grainAll of our premium KBurgers are 100% ground beef, cooked slow, simmered and served on a hoagie bun.What makes the KBurgers special are the ingredients used to cook them - a secret family recipe!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kburgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2547/55f186eb-b054-400a-8969-343246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

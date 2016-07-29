@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Royal Chicken and Gyro is an upscale food truck that serves authentic Greek food. For over 22 years, we continue to deliver the finest in Greek cuisine with the quality of service at par with other notable restaurants in the country.Our products are Chicken, Gyro,and Kabob, Rice, Pita bread and salad I cooked chicken and Gyro on Grilled in the Truck.Also don't forget to try our special Kabob on Friday Special.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Royal Chicken and Gyro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5c6db1-cc78-415b-ad16-67ca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

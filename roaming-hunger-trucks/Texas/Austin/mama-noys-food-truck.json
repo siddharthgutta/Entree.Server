@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The family-run Mama Noy's Food Truck is bringing delicious joy to the streets of Austin, with their authentic selection of tasty Southeast Asian fusion cuisine. Their menu offers a variety of mouthwatering fare, including their Godzilla Rolls (chicken or avocado, rice noodles, spring mix, red bell peppers, bean sprouts, cilantro, and cucumbers, served with sweet & savory peanut sauce), Kick Ass Fried Rice (scrumptious fried rice with grilled brisket, onions, garlic, mixed veggies, and special house sauce), Blazin\u2019 Tacos (Teriyaki pulled pork with sriracha cole slaw, and drizzled with even more of that succulent sriracha), and much more. This incredible food is perfect for any party or event, so you\u2019ll certainly want to call on Mama Noy\u2019s to cater your next big occasion. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mama Noy's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/575738c3-aa88-4503-9825-3ff546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

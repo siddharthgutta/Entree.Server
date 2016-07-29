@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ok, Ya'll, here it is!  Direct from Louisiana to San Diego is New Orleans Cuisine & Catering Gourmet Food Truck! We serve authentic Louisiana style Cajun food in SoCal including Gumbo, Jambalaya, New Orleans Red Beans & Rice, Crawfish \u00c9touff\u00e9e, Shrimp & Corn Bisque, Shrimp & Grits, Bread Pudding and Beignets.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "New Orleans Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5396382f-3e80-49d2-bab6-5f3d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

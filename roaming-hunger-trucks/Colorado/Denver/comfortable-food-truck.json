@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Comfort Food Truck serves exactly what it's name says-- from the Jalape\u00f1o Popper Grilled Cheese to our Super Delicious Sloppy Joe. And, the whole concept is based off of their blog! Check them out where the BUFFALOS roam in the Rocky Mountains.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Comfortable Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/537bde79-4174-4c9a-a3a2-575d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A juice bar on the move, Green Apple Juice Co is bringing you something fantastic today! Raw fruit and vegetable juice is here with all the refreshing flavor you've been looking for. If you're thirsty for the best fresh, made-to-order mobile juice, then Green Apple Juice Co is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Green Apple Juice Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5617f48e-32fc-4529-9f23-576646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

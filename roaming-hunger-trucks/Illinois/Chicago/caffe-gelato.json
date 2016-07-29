@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chicago's Caffe Gelato is proudly offering gelato, coffees, pastries and imported snacks as heavenly as the original treats from Italy. The little yellow Vespa makes its way across the city spreading the tradition of cold treats to everyone it can. Flag it down to have it stop and break out the scoop!Share a cannoli with your date while you sip from a cappucino and make small talk. Catch up with old friends with a round of coffee and lemon cookies after a night out. Morning to night, a great experience is being served.Buon Appetito!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caffe Gelato",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5238b757-5c7c-4061-9535-4f8c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

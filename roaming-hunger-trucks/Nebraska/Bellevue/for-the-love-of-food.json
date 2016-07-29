@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For the Love of Food is bringing homecooked goodness to the streets of Bellevue! Whether you're looking for just the right breakfast to start your morning with, or a delicious lunch to help you power through your day, this food truck is just what you need. Nebraska's very best is rolling down a street near you, so don't miss out on For the Love of Food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "For the Love of Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d4eaf6-5d34-4c3e-a15c-28a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

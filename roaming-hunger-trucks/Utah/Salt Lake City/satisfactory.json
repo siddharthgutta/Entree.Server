@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SatisFACTORY is a street food experience you're sure to love! Smoked beef sausage and rice bowls, quesadillas platters, and fantastic pastas are what you'll find every time you visit this food truck. If you're looking to be satisfied, then there's nobody better than SatisFACTORY!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SatisFACTORY",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13251/56cd47b7-3fa8-4eb1-bd65-346146204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

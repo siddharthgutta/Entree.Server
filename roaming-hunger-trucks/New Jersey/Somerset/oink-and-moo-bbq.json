@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oink and Moo\u2019s goal is to deliver mouth-watering BBQ to New Jersey patrons in a fun, friendly atmosphere. Our meats are smoked low and slow over distinctive hickory, cherry and apple woods right on the truck in a Cookshack commercial-grade smoker.  We serve each meat in a unique style that complements its flavors and makes our food truck not only stand out among food trucks but also as a premier BBQ joint.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oink and Moo BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fbd160-df2c-42ef-b72e-097546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mustache Mike's is now in Goldsboro! With their classic Italian Ice flavors such as Root Beer Float, Bada Bing Cherry, and Lemon Squeezy, you're sure to find something you love out of their wide selection. Stop by and try these sweet frozen treats at Mustache Mike's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mustache Mikes NC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d64659-fd5c-4dcb-8575-1c6d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

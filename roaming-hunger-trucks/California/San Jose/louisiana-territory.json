@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Louisiana Territory is a delicious Lunch truck serving Cajun food to the people of San Francisco.The LTCC food truck is bringing the spice of NOLA right to the Bay Area. With po' boys, gumbo, pasta lafitte and bread pudding, this spicy vendor will kick your afternoon up a few notches!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Louisiana Territory",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dde0eaf-65b8-4db7-88a5-17c146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

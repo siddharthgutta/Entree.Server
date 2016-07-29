@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, fantastic, locally sourced food is on its way to a curb near you, thanks to Vittles! This is a chef-driven food truck with a menu ready to feed any appetite. Serving up such delicious dishes as bacon grilled cheese, sliders, fish tacos, and more, this truck is bringing you the perfect food when you're on the move!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vittles",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c0ed05-84b8-4b6b-bc07-539a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

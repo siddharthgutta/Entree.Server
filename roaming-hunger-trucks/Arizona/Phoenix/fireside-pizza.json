@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to Fireside Pizza! FInd us on a street near you! We are a mobile, wood-fired, brick oven pizzeria! We have a 20 foot trailer which holds our oven that reaches over 800 degrees! With this extreme heat, we can cook your pizza in under two minutes! We make our own dough daily and use the freshest ingredients possible. We also have a 10 foot see through ordering window, which allows our guests to see their pizza being made right in front of them! They can see the whole process from start to finish! Have us come to your event and your guests will leave impressed with full bellies of delicious pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fireside Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1480/56746840-f71c-4083-8c82-334646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

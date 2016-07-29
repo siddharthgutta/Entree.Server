@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This truck is serving up a menu that is as satisfyingly simple as its name. Whether you\u2019re in the mood for fantastic fried fish or the best \u00bc pound burger, you just choose the right combo for you, and joyously dig into this delicious food. They\u2019re also totally crushin\u2019 it with their amazing Cherry and Raspberry Grape Slushies, they\u2019re a local fave. You must hear Raleigh\u2019s rallying cry and make Food Delicious the next truck you try!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Food Delicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

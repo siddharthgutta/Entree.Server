@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gameday Grill is a mobile food truck in the Sacramento area specializing in grilled items.  Featuring their signature Puerto Rican Plate (with Puerto Rican style yellow rice & beans),  Gameday Grill offers many grilled to order items. Meat choices include Tri-tip, grilled Chicken Breast, and gourmet Burgers, and all items can be purchased a la carte or as a combo. Only at Gameday!! \"Where we GRILL to order.\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gameday Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5135230a-137c-4b08-8d19-4c4646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

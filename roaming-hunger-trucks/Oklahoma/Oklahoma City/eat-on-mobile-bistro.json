@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best breakfast and lunch in town is on its way with Eat-On Mobile Bistro! Breakfast burritos, biscuit sandwiches, Hawaiian plate lunches, and their signature fritter/beignet fusions, freignets, are ready and waiting to become the most important meals of your day! You'll love this truck from the very first bite, so be sure to look out for them today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eat-On Mobile Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11044/5589bb82-e8a0-470d-bddc-7d1a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

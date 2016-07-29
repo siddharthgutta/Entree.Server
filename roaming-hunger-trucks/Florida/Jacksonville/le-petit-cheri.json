@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Le Petit Cheri, French for \"the little darling\", has come onto the Jacksonville food truck scene to give sweet toothed customers cupcakes to drool over. This mobile bakery offers seasonal flavors that are available throughout the year. They can also customize cupcakes to suit your Gluten-free or Vegan needs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Le Petit Cheri",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51be59e9-b05c-4338-ac2e-1dea46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

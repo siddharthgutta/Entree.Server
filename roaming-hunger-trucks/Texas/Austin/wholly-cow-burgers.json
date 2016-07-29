@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bite into a burger that'll make you say, \"Holy Cow!\" Austin's finest grass-fed burgers, reubens, cheesesteaks, and more are being made hot, fresh, and fantastic for you. Featuring locally-sourced beef and produce, you're guaranteed to get the very best taste when you order from this food truck. Get ready to taste Austin's best, when you try Wholly Cow Burgers!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wholly Cow Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56e999b5-4914-4d7e-a9c7-57a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

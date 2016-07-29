@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papa Dads is a Los Angeles & Orange County based gourmet food truck serving up wings, dings, burgers n' things! Their menu features gourmet sausages including The Pizza Dog and The Kangaroo Dog as well as signature items like The Margarita Lime Wings. Papa Dad's state of the art truck is coming to a street near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa Dads",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e86802-8848-4b5b-933e-25f246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

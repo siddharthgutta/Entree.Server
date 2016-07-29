@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hawaiian-style shaved ice is a fantastic frozen treat you'll never forget! SnoWhirl is serving up the tastiest way to cool down on those hot Houston days. Stay cool while you're on the go with the fun, frozen treat your sweet tooth craves!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SnoWhirl Shaved Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dcedfd-4aac-4eb2-9b6f-38cb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

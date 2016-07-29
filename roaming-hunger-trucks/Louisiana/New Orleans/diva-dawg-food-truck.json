@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Diva Dawg is a fantastic gourmet hot dog food truck featuring a locally-made creole hot dog called the \"Diva Dawg,\" complimented by a sweet and savory brioche bun, along with creole toppings and specialty shakes. Home to the original Red Bean Chili Dawg, Etouffee Fries, and Praline Candy Shake!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Diva Dawg Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8504/55204a00-dc28-4386-9930-178146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

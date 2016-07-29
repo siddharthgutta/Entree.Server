@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kabob Express Fusion Truck is a tasty \u201cMexi-terranean\u201d truck serving the Los Angeles streets. Offering Mexi-terranian tacos and burritos, and kabob and shawarma plates, this truck is sure to hit the spot, whether you're hungry for Latin or Greek. Try it today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kabob Express Fusion Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57769859-0d3c-4a88-9884-5b4146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lexie Lu's specializes in high quality foods made fresh to order. The menu offers a gluten and dairy free menu, sure to be please. Their endless savory selection from Smoke Turkey Ribs, BBQ Pork Belly sandwich, Pork Belly tacos. Don't pass on having the served hot Pork Rind Nachos.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lexie Lu's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526e06a-006c-40aa-a943-70e246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

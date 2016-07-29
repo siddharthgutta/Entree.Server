@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fill your belly and intrigue your taste buds with the menu being brought to you by Just In The Flavor! From their salads to their sandwiches to their doughnuts and more, this food truck has everything you could ever ask for. Don't miss out on some fast, fresh, absolutely fantastic food--get yourself something great from Just In The Flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Just In The Flavor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56c3b3c4-8918-430e-a53e-0e0946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

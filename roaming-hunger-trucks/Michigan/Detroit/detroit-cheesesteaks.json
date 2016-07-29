@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Detroit Cheesesteaks does cheesesteaks like no other! Try some of their great unique cheesesteaks, such as their \"Greektown\" and \"Hot Hammy\" sandwiches. Stop by Detroit Cheesesteaks today and grab a great meal on the go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Detroit Cheesesteaks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12527/56456e82-3f54-4a36-a664-6f4b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Shiver Shack Shaved Ice is serving up the best sweet treats in Central Arkansas! There's nothing like a delicious shaved ice on a bright and sunny day to satisfy your sweet tooth. With over 50 different flavors to choose from, Shiver Shack Shaved Ice is sure to have the perfect one for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shiver Shack Shaved Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bf9dd4-a5cc-404b-b90b-76f546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

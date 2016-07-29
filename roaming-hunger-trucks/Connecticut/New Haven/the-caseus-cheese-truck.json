@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: New Haven, CTThe Cheese Truck is a mobile kitchen that drives the streets of New Haven selling grilled cheese sandwiches, tomato soup, daily sausages, salads, and more! When combining Jason Sobocinski's love for grilling and cheese with Tom Sobocinski's love for vehicles, you get The Cheese Truck. The Cheese Truck brings Caseus to the streets, offering a mix of vegetarian soups, mouth watering sandwiches, and healthy salads.Follow us and \"Love\" the truck to find out where we're located.Having a party or corporate event?Everyone likes grilled cheese, it's a fact!The Cheese Truck is available for all types of private parties and events, we can even do more than just grilled cheese. Our truck is equipped with a full mobile kitchen, so the options are endless. As these events are planned on a per client basis",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Caseus Cheese Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec6d340-ed4c-4e42-9cb9-596546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

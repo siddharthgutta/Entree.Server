@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dogzilla Hot Dogs is \"not your typical weiner.\" Dogzilla has put an Asian twist on a American staple food. All menu items consist of a delicious medley of toppings, all wrapped up in a Hawaiian bun for a sweet, savory, and sometimes spicy combination!.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dogzilla Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/798/5418d5d9-62bc-4c7d-a933-6ade46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

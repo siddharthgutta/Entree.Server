@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What's Cook-N is a delicious, Forth Worth-based food truck serving Latin-inspired food to the hungry foodies who come by. These tasty meals use Churrasco meat with an edgy, unexpected twist that will have you craving more, or, if you're not a fan of meat, you can have a yummy veggie option. Stop by and try a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "What's Cook-N Chef",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54750736-c864-40d3-8f68-156246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

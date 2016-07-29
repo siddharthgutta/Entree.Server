@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Housewife Hot Dogs is a cart serving up delicious dogs to greater Seattle. They really bring the East Coast to the West with their authentic Sabrett brand dogs, a rare find on the Left Coast.  Housewife Hot Dogs caters both classics like the cream cheese dog, and more adventurous spins like the Hunger Husband- Cream Cheese, Bacon, Hash Browns, Grilled Onion, topped with a fried Egg.  Or how about The Nutty Housewife? Peanut Butter, Bacon and Grilled Onions. The Hormonal Housewife- Not sure what you want, a mix of whatever.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Housewife Hotdogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4301/53eb92be-64e0-4112-91be-435846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "High quality Japanese cuisine is on the move, and we just know you're gonna love it! Curbside Cuisine is serving up its specialties of teriyaki dishes, curry, and delicious sushi on the streets of Santa Clara. Variety, style, quality, and a dining adventure you won't soon forget, Curbside Cuisine is bringing you all this and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5584453c-4d28-458f-adc1-450a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

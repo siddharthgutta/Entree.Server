@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Do you like brick oven pizza? Do you like it prepared in a fire truck just for you? Who wouldn't? Wood-fired brick oven pizza brought to you in a Red Fire Truck! The sirens will be going! The wood-fired brick oven will be smoking! The smell of Verona award-winning pizzas baking in the oven will make your mouth water! Order now!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Verona on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fd12fd-d364-4cd3-836b-7bbf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

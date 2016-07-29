@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The freedom to eat amazing food is finally here, with Freedom On A Roll! FOAR is a food truck that's serving up delicious breakfast foods from around the world. The most important meal of the day shouldn't be limited to just the morning, so FOAR is cooking it up hot and fresh all day long! Grab your favorite grub today, from this fantastic food truck! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "FOAR",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5626a91d-f280-4ee3-914c-68b546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

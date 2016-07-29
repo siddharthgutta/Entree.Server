@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Stoked wood fired pizza company we source organic and local produce whenever possible, and our chicken is naturally raised. We use aged mozzarellas like those popular in the New York and New Haven areas, with their crave-inducing salty and buttery dimension. The combination of all of this is \"pizza heaven\", a perfected artisan pizza that is the best of all worlds.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stoked Pizza Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fcbe6f-e574-4606-951e-2ff646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "High Tide Gourmet is a great New Haven truck serving up lobster rolls, fantastic clam chowder, pulled pork, hot dogs, burgers, and much more! Stop by the truck for some delicious food, or just bring it to your next event! Have some fun at High Tide!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "High Tide Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f8a3ce-ccdc-48d7-85b1-2ea746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

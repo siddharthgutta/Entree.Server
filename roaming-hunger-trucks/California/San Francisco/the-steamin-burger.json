@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our Burger Truck is just what the San Francisco Bay Area has needed. We are the 1st and ONLY Stuffed Steamed Burger Truck in the United States. Our Steamed Cheeseburgers are \u201ca healthier, tastier alternative\u201d to regular burgers because they\u2019re cooked with steam, there\u2019s no oil or grease added during cooking. Most of the grease/fat from the meat is drained out after cooking. We serve Angus ground beef or ground turkey on a fresh Brioche bun or on a limited supply of gluten-free bread.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Steamin' Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7904/55f05f95-1ffc-4d20-819a-619b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

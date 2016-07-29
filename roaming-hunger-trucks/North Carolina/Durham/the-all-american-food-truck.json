@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The All American Food Truck is making all your favorite burgers and sandwiches with all the best America has to offer from top choice burger patties to the finest ingredients. Owner Bobby Fulgham and Terrance Conway are the perfect duo making their roaming kitchen a \u201cPatriotic Pleasure for your Palette!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The All American Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555141a5-2738-4b25-bdd3-1b1746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

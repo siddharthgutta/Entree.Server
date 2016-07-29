@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Se\u00f1or Blues is Las Vegas\u2019 newest Food Truck to hit the streets, specializing in the ultimate Tex Mex! Senor Blues' motto is \"Eat Organic\u2026Eat Fresh, and Eat Homemade!\"  This is not your typical fast food truck.  All of the cooking is done on site, and sauces are freshly prepared daily from scratch \u2013 making it truly gourmet mobile food. Try their Mucho Macho Nachos, the Blues Tacos, or one of their signature Burritos. Don't forget to \"Make it Messy\" with their homemade Enchilada sauce.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Senor Blues",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5147aafa-8ee4-4c83-b668-22e446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

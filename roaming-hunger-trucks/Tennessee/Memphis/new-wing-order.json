@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Great food from an award-winning team is what you'll find when you try New Wing Order! Specializing in awesome Wings, Chili, BBQ Burgers, and more, this truck's menu is packed full of flavorful food you're sure to love. An all new way to experience the best taste on Earth is headed right to you, so get yourself something amazing from New Wing Order!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "New Wing Order",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566074bc-4e88-4105-910d-490346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

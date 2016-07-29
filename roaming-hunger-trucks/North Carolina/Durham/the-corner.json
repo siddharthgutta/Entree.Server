@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for that fantastic flavor that only quality Venezuelan cuisine can provide? Then we've got a food truck that you're sure to love! North Carolina's premier Venezuelan food truck, The Corner, is cooking up something spectacular for your eating pleasure. Show your taste buds something all new and amazing today, with the delicious Venezuelan food from The Corner!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Corner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561ec0e4-b5dc-4d7a-859a-649946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

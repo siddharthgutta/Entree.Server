@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kabob Kings is bringing the prefect Persian cuisine you've been missing straight to the streets of Los Angeles! Powered by the people of Atomic Eats, Kabob Kings is taking that dedication to quality food and good times on the road. If you're looking for the best gyros, shawarma, falafel, and more, then Kabob Kings is the food truck of your dreams!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kabob Kings Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560dc32c-334c-433e-8a97-0dc546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

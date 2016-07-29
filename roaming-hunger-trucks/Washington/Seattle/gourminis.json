@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Using fresh baked bread from Macrina Bakery, Boar\u2019s Head meats & cheeses, and locally sourced produce, the Gourmini\u2019s team offers the streets of Seattle a wonderfully worldly selection of gourmet mini sandwiches. You don\u2019t have to choose between their blazing Buffalo-style chicken breast sandwich (with chipotle aioli, smoked gouda, roma tomato, and fresh organic greens) or the Caprese (with pesto, fresh mozzarella, roma tomato, balsamic vinaigrette, and a slice of avocado)...you can order both, and there are many more too, so feel free to mix and match your meal as you please. For small and healthy bites packed with huge and hearty flavor, Gourmini\u2019s is the way to go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gourmini's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57900d23-4c50-4173-8bac-0e1f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

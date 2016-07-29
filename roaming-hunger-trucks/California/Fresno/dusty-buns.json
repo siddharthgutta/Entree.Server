@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresno's Dusty Buns truck is all about using local and organic produce to deliver some of the best sandwiches around town. What's more, they also make their buns from scratch and bake them daily. A crowd favorite is the Original Eggman; smoked ham, local fried egg, aged white cheddar, piled onto a made-from-scratch dusty bun. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dusty Buns",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51140e47-5c9c-468c-840a-5cee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

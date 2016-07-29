@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Taco Gourmet is taking the streets of Los Angeles by storm with the best tacos you've ever tried! You'll find quality ingredients and a passion for great cooking in every single item off this amazing menu. Whatever your tastes, El Taco Gourmet is sure to have something you'll love, cooked to perfection and wrapped in a tortilla, so be on the lookout for this local LA truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Taco Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bfe6d0-bd08-4468-b945-298646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

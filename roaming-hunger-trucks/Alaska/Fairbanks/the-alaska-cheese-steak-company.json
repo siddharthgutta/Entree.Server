@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cheesesteaks done the Alaskan way, The Alaskan Cheese Steak Company is bringing this American classic to the North! Handmade from fresh, fantastic ingredients, these cheesesteaks are cooked to perfection right when you order! Would you like yours with mushroom? Jalape\u00f1os? Pineapples? The Alaska Cheese Steak Company has it all for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Alaska Cheese Steak Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5591aaf2-2eb4-43b3-8574-301946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Browned Butter Crepes is serving a menu of sweet and savory goodness you're sure to enjoy! Using fresh, locally sourced ingredients means that you'll always get the tastiest crepes possible. Made from scratch, made with love, made for you, Browned Butter Crepes is just perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Browned Butter Crepes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f0c47a-cd90-48f1-9cda-723546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

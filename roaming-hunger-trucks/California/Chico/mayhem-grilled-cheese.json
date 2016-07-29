@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mayhem is a delicious grilled cheese truck serving the streets of Chico and beyond. These amazing sandwich creations are filled with Italian roast beef, pesto, cheddar and fontina, or grilled ham, avocado and tomato bruchetta, or any of a number of other fantastic fillings. If you're in the mood for a tasty and filling sandwich, Mayhem might just make your day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mayhem Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551d6ac5-bf50-45c3-aa48-49b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

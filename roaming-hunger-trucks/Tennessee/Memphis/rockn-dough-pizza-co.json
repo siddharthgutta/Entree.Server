@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rockn' Dough Pizza Co. is bringing wood fired pizza all around Memphis.You won't find a fresher slice. The sauce is made the day before, and the dough is made fresh daily. Hickory wood is used to give the pizza a distinctive smoky Memphis flavor and a taste that cannot be beat.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rockn' Dough Pizza Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5236b28d-d084-4412-ac65-1d8846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

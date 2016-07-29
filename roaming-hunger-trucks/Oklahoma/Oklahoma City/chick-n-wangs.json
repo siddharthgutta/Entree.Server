@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chick N Wangs is a state-of-the-art, family owned food truck selling hot wings, fish, italian sausage & so much more to the Oklahoma City area! So when you see the Big Red Trailer with the Chicken on the side, follow your taste buds, they cannot be denied.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chick N Wangs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/529d1ce7-0c7c-4d47-9697-22bf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

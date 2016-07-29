@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "With classic frozen treats for everyone who loves sweets, it's Betty's Icebox! State of the art ice shaving technology in a classic ice cream truck, Betty's is bringing together the best of the new and the old to provide you the best experience possible. And of course there's their small batch artisan ice pops, the perfect way to beat the heat! For the coolest time around, look for Betty's Icebox today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Betty's Icebox",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554013ea-8b44-4ece-94bb-169846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

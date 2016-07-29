@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Premium Peruvian cuisine is on the move on the streets of Denver! Lomito Gourmet is cooking up some fantastic food for your on-the-go eating pleasure. The Lomo Saltado, Pan con Chicharron, Ceviche Mixto, and more are waiting for you with Lomito Gourmet!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lomito Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a82a56-b874-4865-a908-49db46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

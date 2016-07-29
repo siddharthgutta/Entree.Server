@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are Honeybee Coffee Company. We travel to you in an airstream trailer and conveniently serve you specialty coffee. We desire to serve quality coffee, that not only tastes good but ensures fair treatment to all involved in the process of producing each individual bag of coffee. We use the Hario V-60 to create excellent pour-over coffee and pull espresso shots on our La Marzocco GB/5. We are a truly relational coffee company that cares about both the product and the person. Because we strive for quality we are dedicated to serving beans that provide a balanced taste, equitable jobs for famers, and an inclusive coffee experience for you. With each cup of coffee we ensure attention to detail and know that you will taste the difference.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Honeybee Coffee Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54024744-ba70-4176-b02c-0c8a46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

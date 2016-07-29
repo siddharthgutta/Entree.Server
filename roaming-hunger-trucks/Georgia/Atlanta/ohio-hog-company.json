@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ohio Hog Company is a family owned and operated mobile BBQ restaurant in Atlanta. Our food is prepared fresh daily, from the Pork Shoulder (Pulled Pork) and Beef Brisket to the Brunswick Stew, Baked Beans, and our famous Polish Boy, just to name a few of our menu items. Remember, \"We Don't do Fast Food, We Do Good Food!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ohio Hog Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515600d1-71c4-4d9c-8e39-67ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

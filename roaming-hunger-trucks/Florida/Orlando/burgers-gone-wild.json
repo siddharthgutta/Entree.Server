@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burgers Gone Wild is a great truck serving the Orlando streets with delicious burgers and sandwiches. Check out the Classic, the Cheese Skirt, or the North Cackalacky burger! Not in the mood for delicious patty-on-bun action? Grab yourself a cheesesteak instead!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burgers Gone Wild",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54eba37b-06b8-478d-89a2-433646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Honolulu's finest fare is coming to you from Firehouse Food Truck! Real Chamorro cuisine on the street food scene, this menu is guaranteed to satisfy your hunger. The Kelaguen Plate, Smoked Pork Ribs, Waipoli Greens, and so much more are sure to blow you away, so don't miss out on this fantastic food truck when it rolls on by!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Firehouse Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cbcced-d4cc-4953-a349-404246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

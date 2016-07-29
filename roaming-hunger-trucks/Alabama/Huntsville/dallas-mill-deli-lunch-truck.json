@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're hungry and out and about in Huntsville, keep an eye out for Dallas Mill Deli's lunch truck! Whether you're in the mood for a light snack or want to chow down on a delicious heart healthy sandwich, Dallas Mill Deli Lunch Truck can feed you what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dallas Mill Deli Lunch Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55025866-afa4-4caf-87e5-383746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

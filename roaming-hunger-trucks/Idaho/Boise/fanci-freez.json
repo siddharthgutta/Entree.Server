@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Fanci Freez restaurant has been feeding generations of Boiseans their fantastic selection of burgers, shakes, and soft serve ice cream since 1947. This truck is an exciting new addition to the Fanci Freez family as it can bring their famously tasty diner favorites to festivals and events all throughout town. For classically delicious old fashioned burgers, homemade fish \u2018n chips, crunchy & savory finger steaks, double-dipped corn dogs, hand spun milkshakes, and so much more...take the fast lane straight to Fanci Freez!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fanci Freez",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ba9963-6e24-470f-82ff-7cf346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

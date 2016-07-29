@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Atlantic City grub is here and it is amazing! Tony Boloney's is bringing the real taste of Atlantic City pizza, sandwiches, and more, all over the tri-state area. For that amazing taste you just can't get anywhere else, you've gotta go with Tony Boloney's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tony Boloney's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557a0beb-a2c0-4820-8b65-422846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

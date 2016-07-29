@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yim Yam Truck is a delicious Dallas Thai fusion food truck that serves up authentic Thai cuisine with a twist. Check out the \"Nutty Chick,\" the \"Curry Porky,\" the \"Beefy Brisket,\" and more! Just be prepared - the spicy mayo has a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yim Yam Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57929e40-b96c-4011-8394-3b2646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

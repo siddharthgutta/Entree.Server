@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cathouse Pizza is bringing New York style pizza to the streets of the Pacific Northwest! There's nothing like pizza made fresh just for you when you're craving something great on the go. Ready and waiting to cater your next event, Cathouse Pizza has an amazing menu you're sure to love, so keep an eye out for this fantastic food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cathouse Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dce98a-8790-4b61-bf9e-055246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

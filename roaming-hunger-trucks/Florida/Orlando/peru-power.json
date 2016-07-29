@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Peruvian cuisine in recent years has become one of the most admired and recognized in the world. Peru Power Food Truck wants to bring some of this culinary experience to the city of Orlando by offering our customers different food with great taste, high quality and affordable prices. We specialize in sandwiches and fresh ceviches!  When you try it... you'll love it! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Peru Power",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10293/55663770-4980-4e05-82fc-301346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cleveland's finest handmade ice pops are here, courtesy of Chill Pop Shop! Sweet and always a treat, Chill Pop Shop puts a new spin on these classically cool frozen delights. Crafted right here in the heart of Ohio, from as many local ingredients as possible, these ice pops are made with real quality in mind, so you're sure to love them, from the very first taste!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chill Pop Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5580a063-52bc-4888-b052-36ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

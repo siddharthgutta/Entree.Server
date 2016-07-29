@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Philly in a truck! Serving up Italian Ice, Buffalo Wings, Fried Wings,Hot Dogs, Philly's Cheesesteaks, Chicken Tenders, Buffalo Chicken Tenders, Crinkle , Parmesan, Old Bay Fries, Veggie Burgers, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly's Italian Ice & Mobile Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54e7c688-1b50-4eac-8b34-12ef46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

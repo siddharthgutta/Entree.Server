@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lulu's Local Eatery is a food truck roaming the City of Saint Louis, Missouri. We serve fresh eats with local and organic ingredients whenever possible and we make everything from scratch! Finally, you can get food that's fast, farm-fresh, AND finger-lickin' good!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lulu's Local Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fa093c2-8708-49a2-bfcd-0e9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

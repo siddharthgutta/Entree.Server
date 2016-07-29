@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chewy's Philly is a modern American food truck serving gourmet food to all you awesome people!This is where all of the magic happens. But, it didn't always look like this. Our beloved truck was a labor of love. A whole lotta love.So come by and grab yourself a burger, sandwich, some chicken and waffles, or another tasty eat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chewy's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eab1e4a-7340-4880-9c6b-5ddc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

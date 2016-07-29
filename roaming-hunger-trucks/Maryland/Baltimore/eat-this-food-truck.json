@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you\u2019re haven\u2019t eaten yet, you just must eat this: the savory selection of succulent sliders from Eat This Food Truck. This neat purple truck is hittin\u2019 the streets of Baltimore, serving up their great eats and delighting all local foodies with their homemade sliders, like their Pit Beef; smoked beef topped with onion and homemade horseradish sauce, and their Crab Cake served on a pretzel bun, with arugula, and spicy mayo. And there's so much more!They\u2019re also slinging out fantastic sides, like beer batter fried mushrooms, french fries, onion rings, and coleslaw. So if you\u2019re craving an awesomely tasty meal, there's only one solution: Come out and Eat This!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eat This Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/573f925f-6318-437f-bd82-51e346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

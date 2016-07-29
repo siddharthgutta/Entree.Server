@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Pudding Truck is the first gourmet food truck in Los Angeles to serve decadent, old-school stove top pudding and artisan toppings. Founder Carrie Cohen first conceived of the idea during a brief stint as an entertainment industry assistant when she realized that her favorite part of the job was bringing in homemade treats for her coworkers. Made with all organic dairy and humanely harvested cage-free eggs, our pudding is hand whisked to rich and creamy perfection in small batches, utilizing the best ingredients we can find. All of our pudding is naturally gluten-free, and seasonal vegan options are a constant presence on the rotating menu. We look forward to seeing you at your upcoming events and on the streets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pudding Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5773faee-5f14-41d2-a50c-252d46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

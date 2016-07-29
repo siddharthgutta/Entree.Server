@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Born in Australia, raised in LA, this is the espresso bar you've been waiting for! Longshot Coffee is taking you a terrific cup of your favorite caffeinated beverage all over the streets of Los Angeles, making sure you always have access to the tastiest way to jumpstart your day. Perfect for any and every occasion, Longshot Coffee is brewing up their unique blend of amazing Aussie style awesomeness today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Longshot Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57841e29-1948-468d-82d9-1e7346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

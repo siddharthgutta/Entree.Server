@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Z's Wood Fired Pizza is giving the great state of Texas the gourmet pizza it's been craving! Fresh, hot, and fantastic, these pizzas are made-to-order from the very best ingredients, so you'll be sure to love every bite. There's nothing like perfectly prepared pizza made just for you, and Z's Wood Fired Pizza is doing it better than anyone else, so be on the lookout for this fantastic truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Z's Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b12526-7af4-4cba-bb58-798f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

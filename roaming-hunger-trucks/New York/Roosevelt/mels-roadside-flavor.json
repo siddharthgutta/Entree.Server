@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mel's Roadside Flavor is bringing a taste of the Caribbean to Long Island! Curry, stew, sandwiches and so much more are available to bring you the best tastes in town. If you're looking for great taste, fresh food, and the best service around, Mel's Roadside Flavor is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mel's Roadside Flavor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5579e42e-82dc-4ac6-8c09-0ccf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

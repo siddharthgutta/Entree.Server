@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For a tasty and healthy vegetarian truck, stop by Healthy 'N Fresh in Los Angeles! Hummus bowls, yogurt and granola, and various nuts, veggies, and fruits are available, and they're all guilt-free! Stop by and grab a snack that's great for you at Healthy 'N Fresh!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Healthy 'N Fresh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bbbef5-9034-4450-a601-1a1c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

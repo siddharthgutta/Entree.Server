@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flan King is a cart serving tasty flan to the Farmer's Markets and events of LA. This flan offers an incredibly delicious flan with a smooth and creamy texture (not eggy or grainy), delighting flan lovers and converting skeptics everywhere. Grab yourself a flan, or bring this delicious dessert to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flan King",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b34c3-a800-4ed8-8689-250c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

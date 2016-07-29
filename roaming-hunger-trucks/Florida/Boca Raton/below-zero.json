@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Below Zero is a charming airstream trailer serving frozen smoothies and hot dogs to the Boca Raton streets. With 100% frozen fruit smoothies, and slushies made from syrup and ice, you can sate your sweet tooth, whatever your cravings. Just make sure you don't get brain freeze!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Below Zero",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545c003e-17a8-4cd8-9ba1-77ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

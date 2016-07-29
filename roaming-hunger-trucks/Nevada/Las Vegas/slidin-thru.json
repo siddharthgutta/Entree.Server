@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Slidin' thru is Las Vegas' premiere mobile street food vendor serving up gourmet sliders made with some of the freshest ingredients. These flavorful mini-burgers are sure to knock your socks off! Try the Plain Jane, the Captain's Order, the Caprese, or another one of these delicious bites today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Slidin Thru",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e6a5137-8130-4d63-b3c5-2dc646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

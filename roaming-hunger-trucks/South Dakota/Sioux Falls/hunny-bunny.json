@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hunny & Bunny's amazing Mediterranean cuisine is rolling down a street straight to you! Mouthwatering shawarma, falafel, kofta, and more are ready to shake up your regular lunch routine with flavor you're sure to love. For great taste you'll never forget, Hunny & Bunny is a food truck that will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hunny & Bunny",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ca88f1-c9bc-4f2f-a808-294546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}
