@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Keeping up the taco truck traditions in the heart of LA, Boba ni Taco is bringing you that classic street food with modern style! Gourmet, handcrafted tacos and teas are roaming around town, to bring you those delicious flavors you crave! In the mood for a milk tea? How about a Thai tea, tiger tea, or green tea? Find this truck on our map whenever they tweet their location, and get yourself something amazing today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Boba ni Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55835209-3784-4342-b6a5-20ff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

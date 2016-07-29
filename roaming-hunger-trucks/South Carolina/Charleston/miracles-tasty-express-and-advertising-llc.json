@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Miracle's Tasty Express serves up the best hotdogs Charleston can find! From chili dogs to hot dogs, and even to BBQ sandwiches, this truck has just what you need to satisfy your cravings. Come visit Miracle's Tasty Express!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Miracle's Tasty Express and Advertising LLC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12378/55f8da0b-5b38-4eac-a8a6-4de646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

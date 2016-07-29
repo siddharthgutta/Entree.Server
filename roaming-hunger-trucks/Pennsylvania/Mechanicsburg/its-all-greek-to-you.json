@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "All your favorite Greek dishes are here for you, courtesy of It's All Greek To You! Gyros, kabobs, baklava, and so much more are on the move. Made from the best ingredients, with a talent and passion for great food that can't be beat, It's All Greek To You is bringing something special to the food truck world!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "It's all Greek to You",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589def6-cfa8-46d9-97b7-062946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

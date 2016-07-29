@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roll Patrol is serving up terrific rolls with a twist! Rolling down a street near you, this great truck is bringing their unique style and flavor right to you. Veggie stir-fry, bacon cheeseburger, chocolate cake, and so many more delicious eggrolls are ready for you to try at Roll Patrol!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roll Patrol",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a92872-f658-4015-9e59-4dcd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

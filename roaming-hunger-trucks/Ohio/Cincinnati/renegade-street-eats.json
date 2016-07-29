@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you craving good food with a renegade twist? Renegade Street Eats can bring you brutally hot wings, gyro burgers, or egg salad BLTs. Not serving your typical street food, this truck is roaming the streets of Cincinnati right now looking to bring you new and delicious food experiences. Try it... if you're cool enough.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Renegade Street Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7249/56ff364a-a568-4158-8f98-266146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

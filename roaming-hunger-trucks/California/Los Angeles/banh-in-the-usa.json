@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bahn in the USA is bringing you the best sandwiches in town! Using fresh baguettes and the best ingredients possible in every sandwich, this truck will be sure to have you hooked from the very first bite! With pork, chicken, lemongrass tofu, and more, this truck has something for everyone. And let's not forget their wonderful salads and spring rolls! So if you're looking for a satisfying meal on the streets of LA, keep an eye out for this fantastic food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Banh in the USA",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a034bf-39ac-4629-857b-510f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

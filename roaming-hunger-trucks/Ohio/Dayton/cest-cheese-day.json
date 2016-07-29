@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "C'est Cheese!  (pronounced \"Say Cheese\")  is a family owned business that started by selling simple grilled cheese sandwiches to college students at the University of Dayton, Dayton, Ohio.Grilled cheese, being a staple comfort food for American children, was a big hit as it not only brought in something different, but something from \"home\". C'est cheese will always serve the students and faculty of UD, but will also reach out to the community, businesses, and schools in the Dayton area.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "C'est Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551ee014-0f54-4c8c-abfa-692946204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

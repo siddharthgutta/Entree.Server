@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Swami's Sandwiches is serving up some serious sandwiches on the streets of LA! This gourmet grub on the go is certain to satisfy your cravings, and any of their sandwiches can be made vegetarian, making this truck the perfect lunch solution for every appetite. So if you're looking for a great meal on the streets of LA, Swami's Sandwiches is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Swami's Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a95147-2b04-4c6c-a967-334d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

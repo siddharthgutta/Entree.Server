@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Home style cooking that's on the move! The Come and Get It Chuck Wagon is bringing a revolving menu featuring burgers, fish tacos, barbecue, and more! A changing menu, attention to quality, and amazing service mean that every visit will be a unique and fantastic experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Come and Get It Chuck Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5550d8e2-5cb0-40ff-9894-032046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to Rosie\u2019s Weenie Wagon...Crazy hot dog \u2018concoctions\u2019 you\u2019ll love & crave long after your first bite....check out the new menu for mouth watering dawgz & stuff...We have potato chips, mariquitas (plantain chips)andyour favorite sodas like Materva, Ironbeer,Coke, Diet Coke, Sprite, Orange, Grape, Root Beer, Ice Tea, Gatorade, Juice and Water!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rosie's Weenie Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5240d3ca-dc04-44e1-8e81-299146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

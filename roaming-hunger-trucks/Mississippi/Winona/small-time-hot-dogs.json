@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Small Time Hot Dogs brings big time flavor! Classic hot dogs with all the fixings you could want are just the start here. Whether you grab a classic dog, the pulled pork nachos, the fresh-made tamales, or any of their delicious offerings you're sure to feel some big time love for Small Time Hot Dogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Small Time Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526b505-fc1c-4369-a79a-6be846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

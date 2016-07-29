@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frozen yogurt on the go is here, thanks to the fine folks at Wooberry Frozen Yogurt! Worcester's best yogurt has gone mobile and is bringing that delicious taste you've all been waiting for to a street near you! Strawberry, raspberry, butter pecan, and so many other wonderful flavors are ready and waiting for you with Wooberry Frozen Yogurt!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wooberry Frozen Yogurt",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5591a122-6074-4d27-8e68-6f8846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

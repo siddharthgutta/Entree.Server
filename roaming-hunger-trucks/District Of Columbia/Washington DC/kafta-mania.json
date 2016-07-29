@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kafta Mania is a Food Truck roaming the streets of Washington DC.  Daily, they will be serving three versions of the Kafta Sandwich: Beef, Turkey, and Vegetarian. Kafta Mania puts wholesome goodness in each sandwich with different spices and flavors for the sandwich variations. In addition, Kafta Mania Food Truck will be serving other Classic Lebanese Sandwiches as well as sides. Every once in a while, they will be serving a special of the day featuring Lebanese cuisine. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kafta Mania",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e87c48-edd0-4f20-a608-407846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

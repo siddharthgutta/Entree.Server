@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Eastman Egg Company provides the people of Chicago with  freshly prepared breakfast sandwiches that combine the flavor of a complete meal with the convenience of on-the-go service. Try the Doc, the Scoundrel, the Fairfax, and then wash it down with some delicious coffee or juice! Just because your mornings are rushed doesn't mean your breakfast has to be boring!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Eastman Egg Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5212a2e0-bc18-41a6-873d-697446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

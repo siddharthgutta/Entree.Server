@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pineapple Bliss is Portland's premier frozen treat cart with a fresh, tropical twist! Soft-serve flavored with fantastic fruit is sure to keep you cool and satisfy your sweet tooth while you're on the move. Lactose-free, gluten-free, soy-free, and flavor-FULL, Pineapple Bliss is the perfect treat for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pineapple Bliss",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5616cf9e-5e0c-4c51-bc45-517146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

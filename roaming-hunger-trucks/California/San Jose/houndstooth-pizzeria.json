@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Houndstooth Pizzeria has the best mobile pizza San Jose has ever seen! Fresh, local, organic ingredients go into each and every pizza on this amazing truck so that you're always getting the best meal possible. Wood-fired pizza made when you order it is too delicious to miss, so keep an eye out for Houndstooth Pizzeria today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Houndstooth Pizzeria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bc0c94-9308-420a-b2da-5c9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

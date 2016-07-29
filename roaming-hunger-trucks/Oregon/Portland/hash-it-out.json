@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Breakfast hash made right is just around the corner, thanks to the fine folks at Hash It Out! Food made fresh from organic, locally sourced ingredients is something you can really sink your teeth into. The best hash, wraps, baked eggs, and more are finally here, so don't miss out on this fantastic food cart!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hash It Out",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561c11fc-c160-49a7-b50b-098f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

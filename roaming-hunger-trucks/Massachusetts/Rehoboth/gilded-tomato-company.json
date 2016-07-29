@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Class up your next even with The Gilded Tomato's beautiful copper domed ovens! A wondrous sight to behold, and the pizza they produce is top notch, no less. Their ovens can sustain up to 1200 degrees, delivering mouthwatering pizza in under 90 seconds! That's a lot of pizza!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gilded Tomato Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5535554f-edec-4f5d-a9e0-3fbe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

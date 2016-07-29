@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Big Dipper Ice Cream Truck is serving up the sweetest treats on the streets of Missoula! Big Dipper's classic homemade ice cream has been bringing smiles to the fine folks of Montana for decades, and their awesome truck is taking that tradition of excellence right to you. Give your sweet tooth what it's been craving all this time, with Big Dipper Ice Cream!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Dipper Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564e5396-c29c-405f-87e8-167d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

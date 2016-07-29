@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We created the famous stick-o-donuts (TM). Delicious mini donuts every weekend! food cart in Courthouse Farmers Market in Arlington. Come and get some joy!Mac's Donuts is a local business born to bring joy and flavor to people that try our apple cider donuts!Contact us to bring us to your special events and parties!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mac's Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5061268c-8d94-4090-b769-723446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

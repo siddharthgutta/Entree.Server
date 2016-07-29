@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Starfruit serves frozen Lifeway kefir.  Kefir differs from yogurt because we have 12 probiotics in our frozen, it is made from all natural ingredients, and is gluten free.  We serve 2 flavors per day on the truck with a choice of 6 toppings.  We have four retail stores in Chicago along with serving frozen kefir at Wrigley Field!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Starfruit Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7c0c15-c38c-4cd5-98c5-7c1246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

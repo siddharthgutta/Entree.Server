@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "J2K's Classic Roadside Diner is bringing gourmet burgers right to you! You'll find buffalo and steak burgers, hot dogs, french fries, and so much more on this fantastic food truck. Don't miss out on this old school American cuisine--visit J2K's Classic Roadside Diner today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "J2K's Classic Roadside Diner",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f1e470-63d0-4dcb-b2aa-50f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

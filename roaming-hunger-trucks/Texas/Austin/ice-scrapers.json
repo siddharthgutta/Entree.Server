@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ice Scrapers is serving up fantastic frozen fare with some serious flair! With their very own custom ice cream and shaved ice treats from around the world, this truck is certain to bring you something you'll love. Don't miss out on the best way to stay cool on the streets of Austin, look for Ice Scrapers today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ice Scrapers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5600351b-d8b8-41f5-875d-5a8546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

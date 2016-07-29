@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wholesome goodness in a cup.The Chai Cart serves wholesome Indian tea, made with Assam tea, organic milk, organic evaporated cane sugar and organic spices, on the streets of San Francisco. Along with traditional Indian Chai flavours like Cardamom, Ginger and Masala, the Chai Cart also creates new flavours such as Chocolate Chai and Malt Chai. I also carry hand crafted Chai tea bags for those who prefer their tea with no milk.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Chai Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ea5b6b6-2840-4624-8ca4-72c446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Family Meal Truck is making the best food the streets of Missoula have ever seen! Grilled sandwiches and tacos made from the best seasonal ingredients around are what set this food truck apart. Family Meal's very own Chef Katy has taken her expert training on the move, to bring you nothing but the very best! Don't miss out on an awesome eating experience, grab something great from Family Meal Truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Family Meal Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561d64d2-93ac-4a01-bf59-1fcf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

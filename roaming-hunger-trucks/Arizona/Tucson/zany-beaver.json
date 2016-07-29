@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bonjour! Zany Beaver is the perfect place to find your favorite Canadian inspired comfort food in Tucson. A native of Quebec, Dianne serves traditional French-Canadian Poutine consisting of hand-cut french-fries, fresh local cheese curds and homemade gravy-based sauce.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Zany Beaver",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8396/54c2c2e2-22c8-4d23-8b0f-62a346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

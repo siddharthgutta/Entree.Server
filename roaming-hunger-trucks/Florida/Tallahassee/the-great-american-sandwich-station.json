@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best sandwiches in Florida are just around the corner with The Great American Sandwich Station! Burgers, Philly cheesesteaks, hot dogs, and more are on the road and ready to feed your need for good food. Great food and great service, for a fantastic dining experience it's got to be The Great American Gas Station!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Great American Sandwich Station",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557089c1-db08-4ad1-9e7c-5b9746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

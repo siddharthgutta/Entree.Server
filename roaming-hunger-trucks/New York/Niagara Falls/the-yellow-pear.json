@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Yellow Pear is Niagra Falls' first solar powered gourmet food truck. Through the menu, local businesses and farmers are given a place to showcase there products and celebrate good, hard, honest work - the work done by the hands of our neighbors! Come out and help us grow by bringing the restaurant to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Yellow Pear",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52454162-3ef8-4c63-9565-549246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Whatever Pops are handcrafted, natural, gourmet ice pops! We use local ingredients from local farmers' markets in the area, and change flavors weekly!  Ever changing flavors like Coconut Lime, Blackberry Honey Green Tea, Riesling Pear, Salty Chocolate Elvis, Strawberry Shortcake, Pumpkin Pecan Cheesecake and many more.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Whatever Pops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f7cf3d6-87f0-4f99-9ea6-643e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

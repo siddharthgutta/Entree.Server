@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Jose's finest frozen yogurt is rolling up to a curb near you, thanks to the amazing folks at GoGo Froyo! Organic frozen yogurt in all your favorite flavors is just the start of the great times with GoGo. With fantastic toppings like granola, hot fudge, Boba Balls, and more, the variety is endless! Don't miss out--try GoGo Froyo today and taste the difference!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "GoGo Froyo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561c21ad-8ca0-4585-8db1-1d7646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

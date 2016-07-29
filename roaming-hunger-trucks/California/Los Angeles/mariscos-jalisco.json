@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mariscos Jalisco is a seafood truck serving up ceviche, seafood cocktails, oysters and shrimp tacos.The truck is parked at 3040 E Olympic Blvd. everyday 9am-6pm.The shrimp tacos are made in the style of \"San Juan de Los Lagos\" with a crispy outer shell, savory shrimp inside, topped with savory salsa and avocado.This is a taco you will never forget.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mariscos Jalisco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e67f509-8478-4c93-8d2e-17b846204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

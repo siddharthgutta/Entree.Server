@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Caravan Crepes is Seattle's newest roaming eatery where you can nosh on sweet and savory crepes made with the freshest ingredients and lots of \u2665Menu:HobuckHam. Gruyere CheeseElwhaBraised Collard Greens. Ricotta/ Manchego. Currant Onion ChutneyShorty'sRoast Chicken. Maroc Sauce. Manchego. Sweet Corn. Spinach.WedgeBrie. Bacon. Peaches. Sweet Onion Chutney.CrescentLentils. Pesto. Mozzarella/Manchego. Combine any of the following:Banana. Chocolate. Roasted AlmondsStrawberries / CreamLemon Curd. CreamMaui Cane Sugar. Fresh LimeNutella",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caravan Cr\u00eapes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/501f0ebf-81f8-46e8-a56b-6d5946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

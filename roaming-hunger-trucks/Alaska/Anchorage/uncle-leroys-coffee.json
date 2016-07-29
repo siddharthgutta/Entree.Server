@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Uncle Leroy is serving up the handcrafted caffeine kick that you've been looking for! Roasting beans right on their 1968 bus ensures your made-to-order cup of coffee is as fresh as possible every single time you order. There's nothing quite like a quality cup of coffee made just for you, and nobody delivering it like Uncle Leroy's Coffee!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Uncle Leroy's Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56256c85-2048-4b08-a5e4-731346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

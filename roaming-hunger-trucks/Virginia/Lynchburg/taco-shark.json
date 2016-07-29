@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hungry for tacos? Taco Shark! Think Chorizo, BBQ Pulled Pork, Ground Beef, or Sweet Potato sound amazing in taco form? Taco Shark! Want to know that the food truck you're going to has a vegan option? Taco Shark! Seriously, just go to Taco Shark. They make good food.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Shark",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ff4fb9-5a80-462c-b90f-6b5546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

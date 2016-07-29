@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For BBQ and Seafood that always taste incredible, head on down to Doc's Q'in Pit Stop! Try their ribs, tri-tip, or their pulled pork. It's no wonder they're a BBQ truck favorite! Stop by and see what everyone's raving about!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doc's Q'in Pit Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7ea05-1c20-4be0-8210-19fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

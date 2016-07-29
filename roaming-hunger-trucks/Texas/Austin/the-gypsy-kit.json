@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Gypsy Kit is a food trailer parked up in Austin.The vision of The Gypsy Kit is to offer culinary choices that are as amazing, creative and eclectic as the people of Austin themselves.  Our menu boasts a unique approach to tried-and-true favorites that are flavored by our global nomadic adventures. The menu has tacos and fries that reflect these creative roots, like The Okie Taco with Dr. Pepper beef, and Kimichi Bacon sauce and Corn Relish to accompany fries.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Gypsy Kit",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ef2b9e-c23c-4976-ad77-228e46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

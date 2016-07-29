@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Apollo's Expresso & Shave Ice is bringing you the very best of what you've been craving! Quality espresso drinks and supremely sweet shaved ice are all on the menu of this terrific truck. From the first sip to the last, Apollo's Expresso & Shave Ice is sure to satisfy your taste buds today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Apollo's Expresso & Shave Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565df439-6044-477b-80fb-3a0246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

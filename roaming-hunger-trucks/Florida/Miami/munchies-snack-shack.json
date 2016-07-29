@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Munchie's Snack Shack is a Lake Worth-based food truck serving made-to-order hot dogs and hamburgers to hungry patrons. Tired of the plain hot dog routine? Try one with provolone, a number of tasty sauces, or even mashed potatoes! The next great meal is just around the corner...",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Munchie's Snack Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54513974-3f08-46ad-b828-40ce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

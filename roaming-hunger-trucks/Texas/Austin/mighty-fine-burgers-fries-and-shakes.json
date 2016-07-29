@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mighty Fine Burgers, Fries and Shakes serves 100% all natural beef that is ground fresh. Our classic burger is complimented by fresh-cut crinkle fries, onion rings and hand-dipped Blue-Bell milkshakes. At Mighty Fine, quality is everything!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mighty Fine Burgers, Fries and Shakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8338/55082a50-0e5c-4338-9481-771c46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Canter's Deli, LA's favorite spot to nosh for over 75 years, is taking it to the streets. Canter's Delicatessen has been a Los Angeles landmark since 1931. Canter's ... where food still tastes the way it should.Over the years Canter's has sold over:2 Million Pounds of Lox9 Million Pounds of Corned Beef10 Million Matzo Balls20 Million Bagels24 Million Bowls of Chicken SoupThe Canter's food truck is here to bring LA's famous deli fare to the street food crowd who just can't make it all the way to Canter's Deli.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Canter's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d8e8c92-7704-4786-97c2-048046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

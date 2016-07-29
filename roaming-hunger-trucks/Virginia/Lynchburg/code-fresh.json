@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Code Fresh is serving up the greatest grub on the go to the streets of Virginia! This truck is perfect for any occasion, with their menu of delicious dishes you are sure to love. Whether you're after the beef kabobs, grilled cheese, chicken salad bread bowls, or anything from this amazing truck, you can be sure that you'll always enjoy Code Fresh!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Code Fresh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d2062a-c9ac-4049-8b65-2ddf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of New York in the heart of Ohio, it's Kowalski Hots! There's nothing better than a good hot dog, and there's nothing better than getting one fresh off the grill, and that's exactly what you get at Kowalski Hots! Not to mention their fantastic burgers, and the famous meat sauce! For the best eating around, look for Kowalski Hots!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kowalski Hots",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5539236d-5924-4e8f-b18f-79ca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

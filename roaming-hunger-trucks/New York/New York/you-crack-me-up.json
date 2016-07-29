@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You Crack Me Up! is bringing out the best breakfast, brunch, and lunch through the streets of Buffalo. No matter what time of day it is, this mouthwatering menu that features amazing omelettes, breakfast burritos, quiche, and much more, is sure to perk you right up. Come on out and amuse your appetite with the incredible eats that can't be beat from You Crack Me Up!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "You Crack Me Up",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57350dfa-4180-4ffb-8d29-2c3e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

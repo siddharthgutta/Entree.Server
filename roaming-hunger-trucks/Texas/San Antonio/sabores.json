@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SAbores food truck serves up Mexican fare to the streets of San Antonio. Everything they do is home made cooking. Their specialty is Gorditas, which are available with piccadillo, chicken fajita, or carne asada, and come in pairs. Also on the SAbores menu are Chipotle Chalupas, the Sito taco with asada and avocado, and mini tacos served on hand made corn tortillas.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SAbores",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f06fb8-1264-49ff-9eee-6f5246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

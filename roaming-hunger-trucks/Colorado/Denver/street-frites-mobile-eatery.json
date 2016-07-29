@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Street Frites Mobile Eatery is a Denver based Food Truck inspired by Global Street Food. Every month we write a new menu.  Each time you visit you will be treated to some of the best street food from Latin America to India, from South East Asia to Central Europe.  Our specialty is the Belgian Style Fry accompanied with our 16 hand made Gourmet Sauces  we also  offer a 99% Gluten Free Menu!  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Street Frites Mobile Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6893/55a409ba-0464-4527-b671-796846204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

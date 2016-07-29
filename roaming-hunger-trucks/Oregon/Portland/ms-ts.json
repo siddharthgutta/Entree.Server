@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ms. T's is Portland's premier soul food truck, bringing real Southern style to your plate! Do you want that real homecooked taste and feel? Then you just can't beat this fried chicken, catfish, macaroni, or anything else on this menu. Sink your teeth into something amazing today, with this fantastic menu from Ms. T's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ms. T's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5653971e-acf8-4d33-8051-4c6346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

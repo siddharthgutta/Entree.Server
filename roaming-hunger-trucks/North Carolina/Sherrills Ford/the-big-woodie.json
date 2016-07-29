@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Let's make some space for the biggest truck in North Carolina, \"The Big Woodie\".  This food truck is nothing like you have ever seen a 1980's school bus transformed into a head turning mobile kitchen.  The largest ribs,  pulled sandwiches and hot dogs with these many delicious eating options come and have a bite to take care of your hunger!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Woodie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5556390f-9f94-4460-8862-087346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

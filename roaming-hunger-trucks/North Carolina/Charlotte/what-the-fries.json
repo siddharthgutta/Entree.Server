@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What The Fries is serving up delicious loaded fries, wings, and burgers to Charlotte! If you're looking for some great food to satisfy your cravings, What The Fries is sure to leave you smiling and content, ready to come back for seconds. Stop by today and grab some grub at What The Fries!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "What The Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dca0e6-3fd0-4227-8427-7e2646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

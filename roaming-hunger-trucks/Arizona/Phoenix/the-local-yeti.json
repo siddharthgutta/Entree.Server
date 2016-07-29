@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A socially conscious juice bar on the move, The Local Yeti is Arizona's premier organic juice truck! Locally sourced, cold-pressed, raw, and absolutely fantastic, these juices and smoothies are bringing something healthy and fantastic to the streets of Arizona. An alternative to the mass-produced juices you'll find everywhere else, The Local Yeti is a new way to experience juice!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Local Yeti",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558dea37-3a54-4768-99b9-1f0446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

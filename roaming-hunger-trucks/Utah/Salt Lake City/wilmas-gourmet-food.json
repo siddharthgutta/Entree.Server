@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "5 star food from a 4 wheeled truck! Drawing on rigorous culinary training, Wilma's is out to serve you fine French and American dishes that will tantalize your palette, without denting your wallet. A few of the heavenly items you'll find at Wilma's include the tri-tip steak sandwich with melted gouda on fresh ciabatta, the filet mignon sandwich with asiago cheese on a rosemary-parmesan bun, quinoa salad with fresh vegetables, spices, and kalamata olives, and many more.You're bound to enjoy every bit of your dining experience here, as the chef amuses you with this hilarious sense of humor while he prepares your delicious food. Make your way to this wonderful truck for an unforgettable treat on the Salt Lake City streets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wilma's Gourmet Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5542b6fe-972c-49b7-85ab-36f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

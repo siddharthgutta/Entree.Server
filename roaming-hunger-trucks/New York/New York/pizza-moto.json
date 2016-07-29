@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pizza lovers are opinionated. Do you like it chewy, crispy, charred, blistered, round, oval, square, thick, thin, floppy, East Coast, West Coast, Chicago, Brooklyn whatever...? We\u2019ve heard it all. But in our opinion, whatever pizza you like most is the best! We\u2019ll bet you\u2019ll like ours too: Neapolitan-style, thin crust pies that are in and out of the oven in around 90 seconds.  We keep the fire hot and the cooking time quick so we can get the charred and chewy crust we like to eat with plenty of big time love in every pie.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pizza Moto",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e7a3a55-2ba8-462c-9bbd-187546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

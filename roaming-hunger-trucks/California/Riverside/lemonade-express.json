@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lemonade Express is the perfect place to grab a cool, refreshing treat on the go! If you like your lemonade drinkable or frozen, Lemonade Express has both, with flavors like Strawberry Lemonade, mixed with Redbull, or their Classic Lemonade. Stop by soon for a great treat for the streets!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lemonade Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5605c120-3498-4684-af7c-5ab446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Boyz BBQ is roaming the streets of Kansas with some seriously delicious food you're sure to love! All the best smoked meats and seafoods, seasoned with their very own sauces and rubs, are available on this truck's menu. Show your taste buds new levels of flavor today, with Big Boyz BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Boyz BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12966/56cc59eb-3068-458d-b60d-650346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

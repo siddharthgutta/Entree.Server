@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best Mexican food in all of New Haven is on its way down a street near you! Tacos, tortas, quesadillas, and more are on the menu and waiting for you. Tacos Los Michoacanos is serving up the hottest, freshest, most deliciously authentic Mexican cuisine you've ever seen, so keep an eye out for them today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos Los Michoacanos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559f01f9-06d4-4662-baf1-44c646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

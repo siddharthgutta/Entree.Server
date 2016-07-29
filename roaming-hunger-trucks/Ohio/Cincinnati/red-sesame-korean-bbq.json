@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Red-Sesame is Cincy's premiere mobile destination for delicious Korean BBQ with a Mexican flare. Choose from tacos, burritos, quesadillas, dogs, or a naked bowl (a burrito with a shell). For non-meat lovers, their menu also features salad. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red-Sesame Korean BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51c4e60e-4eec-4138-9dab-166e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

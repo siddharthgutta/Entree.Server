@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "100% organic and fresh juices, salads, sandwiches, and more are on their way in Eugene from Coalesce Juicery! Completely organic, vegan, and delicious, Coalesce Juicery is perfect for any diet! With an amazing selection and fantastic service, Coalesce is the food truck you've been waiting for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Coalesce Juicery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558c978e-7e5c-4235-b424-4b5f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

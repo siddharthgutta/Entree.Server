@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "ARK Grill is dishing out aromatic meals that are made to amaze and astound your taste buds! Genuine North Indian cuisine featuring traditional ingredients is an eating experience unlike any other. The delicious flavors of turmeric, coriander, garam masala, and so much more will enhance each dish you order, and certainly have you coming back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ARK Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566607ec-5f68-4dc9-bec6-2bd146204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

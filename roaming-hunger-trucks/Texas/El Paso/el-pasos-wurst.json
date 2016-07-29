@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Paso's Wurst is giving EP the best with a twist of the wurst! Bratwurst that is. El Paso's Wurst specializes in gourmet brats simmered in beer and served up with only the finest of toppings. Their signature brat, the El Sancho, is a monster bratwurst serve up on a fresh baked bun and topped with cilantro, onion, and a menagerie of other goodness that gives this wurst a southwest spin. Also available is award winning homemade chili.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Paso's Wurst",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5542bf13-6bb4-4f17-a809-5b0146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

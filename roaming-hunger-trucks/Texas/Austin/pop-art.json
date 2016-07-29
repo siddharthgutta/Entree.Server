@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pop Art's gourmet ice pops are the sweetest frozen treats on the Austin streets! Handcrafted, all-natural ice pops are making their way to you on this cool cart. Just what your sweet tooth has been craving, Pop Art has what you need to keep cool on the streets of Austin!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop Art",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12169/55ef03d6-8010-4241-94db-039846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

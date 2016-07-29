@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Brava! Pizzeria\u2019s schtik is local ingredients with authentic Neopolitan style in a mobile wood burning oven. The mushrooms are from Hazel Dell in Windsor, the pork is from Colorado raised and cured by the artisans at Il Mondo Vecchio right here in Denver, the goat cheese is from Jumpin Good Goat Dairy in Buena Vista, Colorado... and the chef is locally grown too.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Brava!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e069035-944c-44d4-958a-7e7146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A real mobile kitchen on wheels, Blue Street Market has what it takes to deliver a real culinary experience! If you're looking for an alternative to all the usual fried, greasy, and uninspired foods you'll find out there then Blue Street Market is just what you need. Fresh, fast, and healthier meals to go, Blue Street Market is everything you could ask for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blue Street Market",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589a10e-48f0-42a1-8daf-2f6746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

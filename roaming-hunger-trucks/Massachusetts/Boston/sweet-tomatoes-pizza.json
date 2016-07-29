@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Tomatoes Pizza is a neapolitan style pizza food truck hitting the streets of Boston. Sweet Tomatoes Pizza travels to different spots throughout the city, freshly preparing and cooking their pizzas on site. The result is a unique, mouth-watering selection of fresh, bubbling hot slices. Visit Sweet Tomatoes once and we garentee you will \"Eat More Pizza\"!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Tomatoes Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5156269f-1c0c-4c3f-91a7-349c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

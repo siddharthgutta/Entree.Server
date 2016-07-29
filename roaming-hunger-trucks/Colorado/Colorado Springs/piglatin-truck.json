@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Piglatin Truck is taking pork to all new levels of flavor that you can always savor! Are you looking for an amazing burger? Sandwich? Taco? Great ingredients in every combination you can imagine are within your reach when Piglatin Truck is around! Don't miss out on this eating experience, dig into this delicious pork truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Piglatin Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f20b5f-4a80-4327-8f85-347a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

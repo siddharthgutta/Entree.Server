@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food truck serving fresh juices and smoothies to Central Florida! These beverages are made of fantastic raw ingredients that are allowed to shine on their own merits, without any tampering or hiding their true nature. So stop by for a taste of fruits and vegetables Au Naturel!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Au Naturel Juice and Smoothie Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53024906-ca9c-4cc0-aa88-31ef46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

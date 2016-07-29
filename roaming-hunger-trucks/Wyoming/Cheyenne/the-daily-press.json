@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot off the presses, gourmet sandwiches on the go! Served fresh, hot, and delicious. The Daily Press brings you the best paninis around! The classic Ruben, southwest turkey club, or even some chicken tortilla soup, whatever you order is guaranteed to be incredible and satisfying. Don't miss them out and about in Cheyenne!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Daily Press",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552fe223-c8b8-4466-a31d-33c846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grateful Roots is a healthier spin on the food truck, bringing local produce to life through hot, fresh paninis, seasonal savory soups, and Twisted salads! Try a delicious caprese panini, hearty potato leek soup, a fresh harvest salad, or another delicious meal! Feel better when you eat better at Grateful Roots!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Grateful Roots",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8663/554567e9-7b70-4afb-a541-402846204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

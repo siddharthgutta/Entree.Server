@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taste South Philly right in the heart of Nevada! The Mello Deli Wagon is serving up only the freshest, hand-made cheesesteaks, burgers, meatball subs, and much more! With a passion for excellent food, and service that just can't be beat, the Mello Deli Wagon will always be a great experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mello Deli Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5535718b-1b94-40b4-aa75-61cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

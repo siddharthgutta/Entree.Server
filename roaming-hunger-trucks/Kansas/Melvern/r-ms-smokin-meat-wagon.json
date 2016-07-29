@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "R&M;'s Smokin Meat Wagon is serving up the delicious BBQ that you crave! Sandwiches, nachos, tacos, and more, served up with their juicy and delicious pulled pork and brisket. For that genuine BBQ taste,quality, and fantastic service, you can't beat R&M;'s Smokin Meat Wagon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "R&M;'s Smokin Meat Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555b5f62-8c34-406b-95de-3fab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

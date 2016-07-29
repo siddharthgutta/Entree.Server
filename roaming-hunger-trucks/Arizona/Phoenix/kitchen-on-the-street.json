@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kitchen on the Street is a Phoenix charity organization that also runs a food truck! All proceeds from the KoS truck's sales go to feeding Arizona citizens who live below the poverty line. Kitchen on the Street is dedicated to feeding hungry people, educating kids about proper nutrition, and encouraging giving back to the community through volunteer work. When you sample Kitchen on the Street's delicious eats, each meal you purchase buys a hungry child food for the weekend. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kitchen on the Street",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55148429-8080-4d3f-a6ca-66e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

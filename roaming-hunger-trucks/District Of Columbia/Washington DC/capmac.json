@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A fresh take on some of America's favorite pasta dishes with some new twists as well as some CapMac originals. Check out the Classic Mac, delicious Buffalo Mac, amazing Al Pastor Mac, and more! Whatever your hunger dilemma, CapMac is to the rescue!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CapMac",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e40e8cb-cd18-403a-a0d5-6d8a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

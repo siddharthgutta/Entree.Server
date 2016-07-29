@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for fast, fresh, delicious pizza on the streets of DC? Then Rollin Pizza DC is just right for you! Made to order from the finest ingredients around, every bite of your spectacular pie was made with you in mind. Don't miss out on the best taste you'll find on the streets of DC, grab yourself some Rollin Pizza today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin Pizza DC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56784591-72dc-4c0d-865a-3fba46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

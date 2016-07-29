@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rhythm 'n Wraps is a delicious vegetarian food truck serving up healthy eats all over the Cambridge area. Using vegan sausage and deli slices, these wraps are as tasty and filling as any non-veggie options, and much healthier. Don't forget to try the wrap of the day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rhythm 'n Wraps",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54173d17-d7f4-47ad-aa8e-765946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

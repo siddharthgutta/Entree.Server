@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fishalicious is bringing something delicious to a street near you! The freshest Alaskan seafood you'll ever find is on the menu at this fine food cart. For the best Smoked Salmon Sliders, King Crab Cakes, and Smoked Salmon Chowder you'll ever try, it's got to be Fishalicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fishalicious",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56253369-9818-4198-b0eb-41b646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

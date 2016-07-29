@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "L.A. Taco Truck is on the roll in West Pittsburgh! What started out as a college experiment turned into an over-night sensation, and it's the local residents who have benefited with continued access to this great food. The filling dishes made here go beyond traditional tacos and burritos, bridging together authentic Mexican cuisine with a modern twist. Don't miss out - check out L.A. Taco today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "L.A. Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a3fee4-7ae0-4457-b148-04d246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

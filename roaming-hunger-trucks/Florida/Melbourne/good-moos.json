@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Good Moos serves up super premium ice cream, gelato, sorbet, soda fountain treats, homemade cookie sandwiches, smoothies, espresso, and more!  Don't miss the loaded waffles, which are our Belgian waffles with various fruit or ice cream toppings, baked goods and beverages!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Good Moos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8502/54e20ed7-3714-427c-9e46-603346204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

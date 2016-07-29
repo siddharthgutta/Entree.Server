@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kendo's Cuisine is cooking up the finest Asian street food you've ever seen! Chef Kendo's Thai and Japanese fusion menu is bringing you the fantastic flavor you've been craving. Don't miss out on the best way to feed your need on the Alaskan streets, visit Kendo's Cuisine for all your favorite dishes today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kendo's Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56255bd6-9c54-4e9a-b09d-581a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

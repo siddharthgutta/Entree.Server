@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The team behind Tippy Toez Food Truck is using their tasteful talent to serve Indianapolis a delicious selection of massively scrumptious burgers, juicy bone-in chicken wings with an assortment of savory sauces, zesty pepper bombers, and so much more!Everything is made to order, so quickly take a trip to Tippy Toez Food Truck for some terrifically tasty all-American classics!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tippy Toez Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5787ff83-aa7c-4d52-bcf2-69fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Monkey Business is bringing you all the best food you could ever ask for on four wheels! Wraps, gyros, hot dogs, doughnuts... this menu is made with every appetite in mind. Whether you're craving something savory, sweet, or maybe everything at once, Monkey Business is making amazing meals for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Monkey Business",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5626bbd0-ac30-47f8-83ca-5d5b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

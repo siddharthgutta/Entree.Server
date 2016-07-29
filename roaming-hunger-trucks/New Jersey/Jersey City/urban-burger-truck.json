@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The jaw-droppingly massive & delicious burgers that have been comforting Cranford foodies for years can now be enjoyed on the curbs of Jersey City, all thanks to the Urban Burger truck. With your choice of beef, turkey, or their veggie patty, their tremendous selection of inventive creations include the Continental (taylor ham, fried egg, american cheese, maple cream cheese between two waffles), Beets & Goats (crunchy goat cheese, roasted beets, mixed greens, ranch dressing), Calabrese (red gravy, basil pesto, fresh mozzarella, on pepperoni bread), and so much more. You can also find scrumptious salads, savory grilled cheese sandwiches, famously delectable shakes, and so much more. So come on and eat at this graffitied truck for a beautifully bold burger experience. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Urban Burger Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5734e3c9-b3ac-47c6-bca1-391b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BBQ Food Truck in Houston/Humble Texas. Our tender Texas smoked meats will leave you wanting more. From ribs, brisket, and sausage to pork chops, pulled pork, and chopped beef our BBQ is a taste you will never forget! Freddy G's offers a variety of delicious foods. Our famous tender Texas BBQ, Southern fried catfish, shrimp, poboys, chicken wings, homemade dirty rice, baked beans, potato salad, and fresh cut french fries are bursting with flavor. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Freddy G's Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8825/5508764b-c514-40f0-a321-4a7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

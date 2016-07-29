@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Seattle Wood Fired Pizza is a truck in the Seattle area serving up authentic, handmade, applewood-fired pizza using all-natural and organic ingredients. Each pizza is made to order, and cooks in 90 seconds for your eating pleasure. Check it out, and try some of the more delicious toppings available!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seattle Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541a1198-9fa8-4070-8085-587046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

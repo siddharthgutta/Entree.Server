@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Farm Girl is here on a mission: to make sure you eat the most amazing and healthy meals around! San Diego's new favorite food truck, Farm Girl is cooking up unique new dishes that are sure to amaze your taste buds. Real farm-to-truck food that's perfect for any mood, Farm Girl is bringing you just what you've been craving today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Farm Girl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/563d3fe8-c8b8-4914-aff9-55dc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

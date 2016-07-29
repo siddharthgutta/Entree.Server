@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Bay Area's first boba and dessert truck! T.epiphany is the little sister truck to the Bay Area's favorite Vietnamese truck Little Green Cyclo. T.epiphany is here to bring the delicious taste of boba, loose leaf tea, desserts and more to the San Francisco area!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "T.epiphany",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55557315-0434-494f-9ed9-378d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Crispy Cuban is committed to bringing delicious, authentic Cuban sandwiches and Cuban dishes to the Los Angeles area. With a menu including delicious slow-roasted pork sandwiches, babalu bowls, and fries and potato balls for sides, this truck is sure to please. Watch for The Crispy Cuban Trolley on the streets of LA!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crispy Cuban",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b293a-41e4-47de-a4b8-415846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

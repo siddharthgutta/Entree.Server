@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "CSB is serving delicious burritos smothered with western green chili and filled with beef, chicken, or veggies for the perfect lunchtime meal. Not a fan of the fantastic portable food known as the burrito? Check out the taco salads, nachos, tacos, quesadillas, and other great fare! Whatever your order, you're sure to get a great dish from CSB!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "California Smothered Burrito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526f76e-e638-4249-be98-74ab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: TallahasseeFood that's Fast, Not Fast Food.Comfort food made with fresh healthy ingredients makes Street Chefs a haven for nostalgic dining.  Chef Rebecca Kelly approaches classic recipes with a modern approach.  The result?  A menu of familiar, yet unique items like 'Not Your Mama's Grilled Cheese Sandwich', meatloaf your mama will be jealous of, and a black bean burger that even carnivores will devour.  Street Chefs is a mobile restaurant providing lunch and dinner to the greater Leon county area.  Established in 2011, the Street Chef Mobile Diner provides a quality dining experience that is quick and convenient.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Street Chefs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e057549-5414-4010-9a17-32c046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

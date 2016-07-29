@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Let's Get Soupy! Soups in the Loop is a mobile food truck rolling through the streets of Chicago bringing you heartwarming meals in a cup!Whether you're Strolling down the street or busy working through lunch our goal is to get you Soupy!DON'T FORGET WE CATER! Corporate Luncheons, Holiday Parties, Birthday Extravaganzas you name it we can be there to Fill You Up! No Prep, No Mess, No Problems",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Soups in the Loop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f835d12-b488-4caf-a7e6-617d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

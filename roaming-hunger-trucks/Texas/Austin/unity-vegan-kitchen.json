@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Unity Vegan Kitchen is a gourmet food trailer in Austin, offering eclectic eats made from scratch on the premises. This menu uses locally-sourced and organic ingredients whenever possible, and consists of such favorites as the house specialty lasagne, sandwiches prepared on bread that is baked daily, and a mouthwatering pineapple cobbler based on a family recipe. With all this delicious vegan food, and gluten free options as well, nobody will be bereft of delicious food when they stop by Unity!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Unity Vegan Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546be557-ba64-434e-a6f7-513746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fort Collins' premier vegan food truck is headed down a street near you! The Silver Seed is bringing you the best in vegan tacos, sandwiches, smoothies, and so much more! This is fantastic food for any mood, from the finest in local and organic ingredients. You'll never forget that first delicious bite of fine street cuisine when you  visit The Silver Seed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Silver Seed",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e787bf-82e8-45ee-bad7-228b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

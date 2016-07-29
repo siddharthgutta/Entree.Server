@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chicago-style Italian cuisine is on its way to a street near you! Muzzi's Madhouse is bringing an all-new way of looking at Italian food to Jacksonville, and it's sure to satisfy your cravings. Whether it's the Chicken Parm, Madhouse Meatball Sub, Madhouse Pizza Bread, or any of their delicious dishes, Muzzi's Madhouse is sure to have you hooked from the very first bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Muzzi's Madhouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a8158b-a620-482d-995d-32fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

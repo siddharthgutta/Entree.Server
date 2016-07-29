@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Greek Delights is serving the City of Lights some delicious Chicago-style Greek cuisine!Their menu offers a sensational selection of fresh salads, tasty gyros, and flavorful fries topped with zesty lemon, herbs, feta, juicy gyro meat, and tangy tzatziki. For all this and more, come by 1531 Western Ave and grab a quick bite from Greek Delights!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Greek Delights",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57969f7f-b334-4d25-913b-3b2e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The streets of Philadelphia are getting a fresh taste of a very classic culinary tradition. Unique Greek is making authentic Greek and Mediterranean meals unlike anything else around. If you're hungry for the finest Spanakopita, Pastitsio, Moussakas, and more, then Unique Greek is the food truck you've been waiting for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Unique Greek",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568ef11f-1eec-4f3a-a093-4dfe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

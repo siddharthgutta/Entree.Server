@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Mac's Cafe' wants you to Come Git Sum! Serving up the best ribs, sandwiches, seafood, and more! Chef Lee has been cooking for as long as he could reach the stove, and you can taste that experience and passion for delicious flavor in every dish he serves, so be sure to look for this fantastic food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Mac's Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557082c6-1fe8-4faf-a74e-5a3646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

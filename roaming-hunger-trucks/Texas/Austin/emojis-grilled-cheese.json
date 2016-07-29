@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Emojis Grilled Cheese is bringing an amazing eating experience to the Austin streets! This is gourmet grilled goodness on the go, and you'll love every bite from this truck's terrific menu. Try the Classic, Tomato & Basil, Pepperjack & Bacon, or any other of their delicious sandwiches today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Emojis Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560ec11c-5180-446a-91ed-68fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

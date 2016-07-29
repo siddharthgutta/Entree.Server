@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The freshest BBQ you could ever ask for is on its way to you, from Rollin' Smoke! Juicy and delicious ribs, pork tacos, beer brats, and more are ready and waiting to make your mouth water. You'll find quality BBQ dishes to satisfy your hunger when you order from Rollin' Smoke, so don't miss out - stop by Rollin' Smoke today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin' Smoke",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ef1537-faf0-4b1d-9bcd-5c0146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

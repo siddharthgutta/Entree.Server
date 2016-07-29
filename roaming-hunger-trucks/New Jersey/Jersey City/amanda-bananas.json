@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We love ice cream. (I mean really, who doesn\u2019t?) But sadly, ice cream \u2013 dairy in particular \u2013 doesn\u2019t love us. We also love our juicer. (I mean really, blended fruit that tastes like a delicious treat \u2013 who doesn\u2019t love that?) And thankfully juicing \u2013 bananas in particular \u2013 DOES love us.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Amanda Bananas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fbc728-49d8-4005-84dc-78d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

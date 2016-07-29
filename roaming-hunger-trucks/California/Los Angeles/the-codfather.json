@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The CodFather is making you meal you can't refuse! This is some of the finest street food you'll ever find on the streets of Los Angeles. An amazing lunch menu, a fantastic late night menu, and a crew that's ready to make your day amazing, The CodFather will never disappoint you or your taste buds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The CodFather",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56734747-a7c0-4357-87fe-5e2846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

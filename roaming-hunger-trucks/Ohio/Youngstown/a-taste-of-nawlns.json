@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A Taste of N'awlns is taking the fantastic taste of New Orleans Lowcountry cuisine to the streets of Youngstown! A style unlike anything else in Ohio, this food truck's menu is sure to make your mouth water in no time. Satisfy your cravings for gumbo, muffaletta, jambalaya, and so much more, with A Taste of N'awlns!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "A Taste of N'awlns",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569fd3ab-2ff8-4ab8-80b5-480c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

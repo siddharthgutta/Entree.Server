@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yo! Salsa is roaming the streets of St. Louis to serve you FUN, fresh, healthy, Latin food. Specializing in tacos, their menu is diverse and entirely made from scratch.  The Yo! Salsa food truck takes a spin on Latin flavor profiles and mixes them with traditional favorites.  They pride themselves on using local ingredients from local farms whenever possible. They use the farms not only for produce, but for other staples as well like, pork, chicken, beef and cheeses. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yo! Salsa",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52f2d06b-2964-4282-9af2-211846204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

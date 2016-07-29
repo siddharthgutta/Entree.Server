@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hungry for a fantastic sandwich or hot dog on the Philly streets? Philly's Own Hog Island is the place to be! Stop by for delicious roast pork or roast beef between two slices of bread, or grab a fantastic dog for the road. For the best eats around, try Philly's Own!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly's Own Hog Island",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/563fa14f-5d40-4fe7-b92e-250f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

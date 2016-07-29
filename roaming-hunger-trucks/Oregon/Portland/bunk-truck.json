@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the finest sandwiches on the streets of Portland? Then Bunk Truck has the menu for you! The Pork Belly Cubano, New Orleans Muffuletta, Grilled Tillamook Cheddar, and many other delicious sandwiches are sure to satisfy your cravings with each bite. Grab some great grub today, with the incomparable Bunk Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bunk Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568adfc4-55fc-48ce-8e44-10a646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Carolina Meat Co. is bringing Carolinian style BBQ to Los Angeles. We focus on hickory smoked pork and chicken, but what makes our meat super special is our variety of sauces. CMC has an assortment of BBQ sauces including a North Carolina (vinegar based), South Carolina (mustard based),  and Texas (tomato based). We offer many southern sides like cole slaw, bbq beans, mac & cheese, hush puppies, and seasoned fries, just to mention a few.Come out for a taste of real Southern BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carolina Meat Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/538fb407-7f70-412f-8cc2-0b7246204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

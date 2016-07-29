@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The freshest Neapolitan pizza on the streets of Buffalo is coming right to you, thanks to O.G. Wood Fire Pizza! There's nothing quite like the taste of handcrafted pizza made just for you, and now you can finally find that fantastic flavor right at the curb. Making amazing pizzas from only the best ingredients available, O.G. Wood Fire Pizza is just what you've been waiting for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "O.G. Wood Fire Pizza Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d76b76-2318-4f24-a28e-2a7446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roos Roast Free Speech Coffe, the best joe in Ann Arbor, is coming to a farmer's market near you! They say that each bag of this amazing roast is a marriage of ancient craft and modern business, and the quality and care shows in every sip. \"Coffee aficionados can't wake up without it!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roos Roast",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5543c402-5254-4928-a2b4-1e7f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Mexican food with real tradition! Tacos Maria is brought to us by third-generation \"Taqueros\", and there's real family history behind every recipe and every bite of food you have from this fantastic food truck. Quality food, great service, and real history are hard to come by, so don't pass up this chance, visit Tacos Maria today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos Maria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55522b44-642c-420d-b354-056946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

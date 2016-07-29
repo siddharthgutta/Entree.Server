@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Bitemobile is all about the hot wings, straight out of famous Nina's Restaurant in Dunmore, Pennsylvania. The wings popularity took them to the streets in the Bitemobile food truck, bringing chicken wings for everyone to enjoy. The wings are well known for their     delicious flavors setting the bar and winning local hot wing tasting competitions.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Bitemobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55492333-1890-412f-b953-466e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

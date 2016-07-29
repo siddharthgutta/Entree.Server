@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Root Down Food Cart is a mobile eatery serving the streets of Charlotte. Their version of street food is focused largely on local and regional ingredients transformed into Creole, Southern and Soul influenced comfort food. The menu is an original spin on comfort food, and includes items such as mac n' cheese, creole courtbouillion, pulled  pork, po'boys, and catfish & grits. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Root Down",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515ca9e5-a72c-4715-b61e-20c646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

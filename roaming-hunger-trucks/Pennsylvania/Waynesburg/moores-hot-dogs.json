@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Waynesburg, PAAt Moore's Hot Dogs customers go crazy for their classic dog topped with chopped onions, mustard, and moore's chili sauce. If you're feeling a little more daring try their southern dog (topped with bbq sauce and french fried onions), or the tex-mex dog (slathered in shredded cheddar cheese and jalapeno peppers). Make sure to check their menu for daily specials as well!  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Moore's Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b4fc1-f26c-4636-8dcd-2abd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

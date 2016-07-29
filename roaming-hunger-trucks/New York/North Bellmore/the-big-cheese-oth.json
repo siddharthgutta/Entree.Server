@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Big Cheese is here and it's ready to sere up the best grilled cheese you've ever had! Always hot, fresh, and made when you order it, each sandwich is made just the way you like it! Do you like grilled onions? Buffalo chicken? Bacon? These, and many more toppings, are available to customize your very own sandwich off of The Big Cheese! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5579caed-226c-4bc7-8ba6-75da46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

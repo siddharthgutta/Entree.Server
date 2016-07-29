@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Finnegans is on a mission to make the world a better place, one pint at a time! This non-profit truck is serving up the best beer in Minneapolis, and donating all of their profits to helping those in need. Find Finnegans amazing Irish beer at your next big local event, and help them turn beer into food for the community!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Finnegans",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d622f2-0384-4c7b-b76a-5bc246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

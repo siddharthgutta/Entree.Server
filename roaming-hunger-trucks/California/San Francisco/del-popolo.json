@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Del Popolo is a mobile pizzeria committed to creating rustic Neopolitan-inspired pizza using ingredients sourced from small, generational producers. Del Popolo is housed in a twenty-foot transatlantic shipping container that's been re-purposed and modified into a kitchen. A wall of glass doors exposes the interior, including the traditional Italian-made wood-fired oven.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Del Popolo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fb44296-3738-4e5f-957e-6fb646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

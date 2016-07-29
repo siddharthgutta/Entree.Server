@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Golden State Taco truck is cruising through LA and serving up some majorly tasty breakfast, sandwiches, and tacos. Juicy Al Pastor, tender BBQ Pulled Pork, savory Chorizo Breakfast Burritos, fluffy French Toast, and so much more!You gotta come by Golden State Tacos for deliciousness that\u2019s \u201cFor the people, by the people!\u201d",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Golden State Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5755ab7d-fd28-49c7-aa9d-5de746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

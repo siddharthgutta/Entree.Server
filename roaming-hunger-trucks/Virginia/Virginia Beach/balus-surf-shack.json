@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Balu\u2019s Surf Shack is serving up some high tide cuisine of the highest quality. So step on up to Balu\u2019s and choose from a savory selection that includes Chicken Chorizo Tacos with delicious cheese sauce, the fresh hot Flounders Fish Sandwich, and juicy, plump Shrimp Skewers.And of course you can't leave until you try one of their truck-made ice creams, like Bacon Coconut, Chocolate Chunk, or Pineapple Coconut, all so famously creamy and delightful. For all this and more, come on out to Balu\u2019s Surf Shack and \u201cEat Fresh, Feel Fresh!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Balu's Surf Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5755a181-381c-45d4-935e-2e4c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

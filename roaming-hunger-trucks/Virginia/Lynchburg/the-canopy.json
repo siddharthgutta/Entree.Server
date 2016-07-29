@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Canopy is a great Lynchburg truck serving up  internationally-inspired dishes made to order. Choose from many different world-inspired flavors, from Thailand to Israel to Italy, and get your meal in sandwich, flatbread, or rice bowl form. No matter what you try, it's sure to be delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Canopy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ff4c93-488c-4536-8f3e-18fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DFW is the premier ice cream provider in the area! Book them to make your next birthday, wedding, or corporate event extra sweet.We specialize in pre packaged treats.  With over 25 unique items to choose from, everyone is going to find something they love.  Our trucks have the full range of products.  While about half of the treats are adult favorites such as the classic ice cream cones with peanuts, death by chocolate, strawberry shortcake and chocolate \u00e9clair, the other half of our treats are kids favorites.  Because we serve pre packaged ice cream treats, we can serve large numbers of people in a very short period of time.Also, if you are interested, we have cold plate push carts, which do not require electricity to keep the ice cream frozen.  These carts can be stocked with your favorite treats and left onsite for all to enjoy throughout the day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DFW Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10731/556c72cc-ede4-4405-bf25-130146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

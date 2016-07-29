@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chomp Station is charging down a street near you with the tastiest tri-tip dishes in town! Sandwiches, salads, rice bowls, and beyond, Chomp Station is serving up something for any appetite. Together with their desserts and milk tea drinks, this is your one-stop-shop for all your culinary cravings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chomp Station",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56ce0cd1-d250-45e9-93cb-052746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

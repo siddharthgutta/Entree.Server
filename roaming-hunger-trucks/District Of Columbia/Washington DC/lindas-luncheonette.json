@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This colorful Washington D.C. is coming to you curbside to deliver some of the best gourmet comfort food in the city! Have Thanksgiving early this year with their Turkey Meatloaf (which comes with a side of cheesy gooey mac n cheese) but if you'd like more than a side their menu also features a full plate of Baked Mac & Cheese made with 5 cheeses! In the mood for some veggies? Their Chopped Salad is filled with beets, carrots, chickpeas, cheese, tomato, and craisins. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Linda's Luncheonette",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52312935-20a4-438b-8421-336046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

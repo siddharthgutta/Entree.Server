@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nothing will satisfy your sweet tooth like delicious ice cream and cookies combined! Hot Cookie Truck is bringing you only the best of the best, with their sugary treats that you're guaranteed to love. Warm cookies piled high with delicious ice cream and gourmet toppings: it's a flavor combination that's sure to be a sensation, so visit Hot Cookie Truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Cookie Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c916b2-d724-4271-b421-2c6046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

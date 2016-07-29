@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get your quesadilla fixilla right here with this mobilla! Serving gourmet, locally sourced, and thoroughly researched quesadillas to the local explorer or weekend warrior. Traditional ingredients are coupled with new and bold recipes to satisfy any and all adventurers!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Quesadilla Mobilla",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5541303e-0f2c-453b-aefb-7b4f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

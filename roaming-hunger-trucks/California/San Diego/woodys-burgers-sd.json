@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Woody's Burgers Food Truck features award winning gourmet burgers- Cheeseburgers, Hawaiian, Mushroom, Western, Bleu, Jalepeno & Portobello. All burgers are cooked to order! Voted Best Burger (Palm Springs Life) \"The Best Of The Best\"!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Woody's Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548b8e6f-cf90-4e5e-b08f-686d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

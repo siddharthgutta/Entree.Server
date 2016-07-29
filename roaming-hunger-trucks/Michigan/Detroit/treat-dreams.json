@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Treat Dreams is a truck serving the Detroit streets with delicious desserts from the brick-and-mortar store of the same name. Offering the most original and innovative Homemade Ice Cream in Michigan, as well as cookies and brownies, this truck can satisfy any sweet tooth. Stop by and sweeten up your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Treat Dreams",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546b86f1-229c-47e4-ad9a-7f5046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

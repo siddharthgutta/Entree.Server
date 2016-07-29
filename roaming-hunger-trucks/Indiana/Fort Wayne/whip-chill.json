@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "These frozen treats just can't be beat! Whip & Chill is serving up the best way to keep cool on the streets of Fort Wayne. Ice cream, sundaes, floats, and even shaved ice! Any day is the perfect day to satisfy your sweet tooth, so stop by Whip & Chill today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Whip & Chill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552858e7-d9d0-45b2-b03d-75f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

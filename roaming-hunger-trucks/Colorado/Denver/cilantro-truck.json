@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Local, Organic, and Artisan world inspired recipes based around our favorite herb, CILANTRO! Check out the Southwest Chipotle Bean Burrito, the Sesame Basil Rice Noodle Stir Fry, the Spiced Curry Lentils Over Bamboo Rice, and so much more! Never a dull bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cilantro Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5331ea20-3f18-4e98-af64-443e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

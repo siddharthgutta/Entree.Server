@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The \u201cRomolo\u2019s Italian Cuisine\u201d is an Italian inspired food-truck, operating in Los Angeles area that serves mostly Italian dishes and some domestic food.Chef Romolo Palermo left his homeland of Calabria, Italy in 1985 at the age of 21, and moved to Germany. The young Romolo worked in many restaurants in the Bavarian area, and for several years, including at \u201cIl Grappolo, & La Vecchia Masseria\u201d two of the most famous \u201cItalian Restaurants\u201d in Munich. He may be from the south of Italy, but his style of cooking involves the cuisine of different regions of Italy.He came to California in 2004 and his vision is to keep the cuisine simple and fresh, using Italian and local ingredients. He truly believes everything tastes better if you cook with enthusiasm, passion, and love. In addition, he thinks sharing good recipes at our tables, is crucial to leading a fulfilling life.After working on many culinary events with Chef Sebastiano Sposito over the past five years, now he is ready to his newest venture, Romolo\u2019s Italian Cuisine in January 2012, where he will serve best Italian and domestic signature dishes at fairly low prices.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Romolos Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fecace3-f9e0-4448-973d-3ed246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

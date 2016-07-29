@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Macubana is a food cart on a mission to satisfy your cravings for fantastic and original flavor! With an amazing menu including empanadas, Cubano sandwiches, the tempura mac attack, and so much more, this cart is sure to have something you'll love. If you're looking for the very best of the best when it comes to new and amazing tastes then look no further than Macubana!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Macubana",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7fbb6-f364-4252-825c-1c0246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

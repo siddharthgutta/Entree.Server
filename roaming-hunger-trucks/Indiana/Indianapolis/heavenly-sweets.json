@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This Heavenly truck is serving up some sweet tasty goodies that include cake pops, cupcakes, wedding cakes, speciality cakes, birthday cakes, special occasion cakes, and cookie dough! For all your sweet-toothed cravings, Heavenly Sweets is the perfect spot! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Heavenly Sweets",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51c4ed1c-8b40-48e2-be8b-502f46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

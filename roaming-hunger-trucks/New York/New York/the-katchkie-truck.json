@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Katch it if you can! The Katchkie Truck boasts a menu of farm fresh fare inspired by their very own organic Katchkie Farm. Located at the FDR Four Freedoms Park on Roosevelt Island and at the Caramoor Center for Music and the Arts, the truck serves seasonal lunchtime meals, snacks and beverages.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Katchkie Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/579691ec-f41c-433c-a1e2-3afd46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

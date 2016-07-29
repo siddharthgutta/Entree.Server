@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This sleek Mercedes Sprinter is San Jose\u2019s newest mobile coffee catering company and with the quality and care that they\u2019re serving in every cup, everyone will surely appreciate Thanks Coffee. This crew exclusively sources from ethical and local farmers and roasters to craft their delicious selection of hot & iced coffee beverages, lattes, cappuccinos, mochas, espresso, and so much more. They also offer a scrumptious variety of locally baked pastries. Once you try a sip of any of their freshly roasted brews, you\u2019ll certainly be feeling the gratitude. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Thanks Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/truck-placeholder.png",
+  "transactionFee": 30,
+  "username": ""
+}

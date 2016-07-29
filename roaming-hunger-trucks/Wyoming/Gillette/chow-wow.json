@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for the best kitchen on wheels in Wyoming? Look no further than Chow Wow! With an eclectic menu to suit all tastes the Chow Wow crew is ready to serve you up something hot, delicious, and perfect for you! Breakfast burritos, gyros, cinnamon rolls, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chow Wow",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552ff5ce-e834-4174-b7f9-16c446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the best in fresh, fantastic juice on the streets of Chicago, then Loop Juice is the truck for you! These are all-natural juices and smoothies with nothing but amazing fruit and vegetables in every cup. Drinks to fuel your body and soul, Loop Juice is just what you've been looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Loop Juice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f9b67c-a8cc-4aef-98dc-452646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

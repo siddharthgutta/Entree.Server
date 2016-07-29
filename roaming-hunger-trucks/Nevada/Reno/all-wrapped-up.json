@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet wraps and delicious salads are waiting for you! At All Wrapped Up it's what's on the inside that counts, so they use nothing but the freshest and best ingredients in all their food! Quick and ready-to-go, they're great for lunch, dinner, or even just to snack on! Sure to never disappoint, try All Wrapped Up today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "All Wrapped Up",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553163a0-fba4-46f4-a565-21bd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

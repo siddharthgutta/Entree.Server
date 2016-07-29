@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Parada Criolla is serving up delicious traditional Spanish cuisine in a neighborhood near you! Full of flavor and cooked to perfection, this truck's menu is sure to have you coming back for more. Empanadas, sandwiches, mofongo, and more, La Parada Criolla is sure to have the dish that's right for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Parada Criolla",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555a48f5-5d48-4e88-87cf-028346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

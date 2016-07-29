@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The All American food truck you've been looking for is finally here and it's ready to serve you! Are you looking for an amazing burger? Fresh cut fries? Fantastic good times? Piddy's Kitchen is bringing you all that and more! If you're craving something amazing on the move, Piddy's Kitchen is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Piddy's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5626d4b7-fa3c-47bd-88ed-0cbe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

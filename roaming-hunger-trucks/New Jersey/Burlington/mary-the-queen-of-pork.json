@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The BBQ Queen is holding court by a curb near you! This flaming truck is where you\u2019ll find the best tasting BBQ around. Deliciously tender ribs, juicy smoked chicken, plump pulled pork, and so much more! For food fit for a queen, come eat with Mary!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mary, The Queen of Pork",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e858f-9714-45b4-87bb-37a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

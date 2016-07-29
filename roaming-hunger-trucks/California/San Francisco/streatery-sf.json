@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Go Streatery is a Bay Area food truck dedicated to serving real food. Our made-from-scratch dishes incorporate local ingredients and are completely inspired by what\u2019s available seasonally. Using sustainably raised common cuts of meat and inventively combined with the Bay Area\u2019s bounty of fruits and vegetables, our menu is hearty, healthy, and deliciously satisfying\u2014all basic characteristics of Peasant Food.To read about the wonderful experience of eating at this truck, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/8013/sweet-day-cheat-day",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Streatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e8e99f1-9e34-4077-a5e2-14e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

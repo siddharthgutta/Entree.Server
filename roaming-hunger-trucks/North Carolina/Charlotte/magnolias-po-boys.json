@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chef Katz established an incredible culinary career in New Orleans, but when Hurricane Katrina hit home pretty hard, he had to hightail it to Virginia. He eventually made his way to Charlotte and when he acquired a new food truck, he decided to fulfill the ultimate mission: feed the foodies of Queen City with the most authentic and delicious flavors of The Big Easy.It didn\u2019t take long for Chef Katz to prove Mission: Possible and now it\u2019s absolutely understood that Magnolia\u2019s is the go-to for some good (no, great!) Cajun cuisine. Now come out and feast on this fantastic selection of perfect Po-Boys: Roast Beef & Gravy, or fresh hot Fried Gulf Shrimp, and many more. You can also find your favorite sides: robust and spicy Chicken & Andouille Gumbo, or Red Beans & Rice, etc... Be warned, Charlotteans, that once you try this truck, you\u2019ll surely crave nothing mo\u2019 than the magnificent Po-boys from Magnolia\u2019s.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Magnolia's Po-boys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/570c1ef9-ad98-4def-a55f-7e4046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

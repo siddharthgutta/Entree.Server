@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cajun and creole cooking on the roll! Sweetwater Bleu'z is cooking up the best food around and taking it to the streets of Louisiana. Everything from their signature Bleu'z Burger, to their jambalaya, gumbo, po boys, and more are cooked up with the best skill and ingredients in the business so that you're sure to love it more and more every time you visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweetwater Bleu'z",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d5520-be00-4c8a-a6bb-739c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

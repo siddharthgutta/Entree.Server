@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roaming the Metro Detroit area, Beignets 2 Go provides great tasting beignets, prepared fresh with the highest quality of ingredients. Dedicated to serving the needs of customers each and every day, Beignets 2 Go takes pride in offering the best dessert experience on wheels. This food truck features delicious, hot, French pastries called beignets (BEN-YEY), which are doughnuts dusted with powdered sugar that are popular in New Orleans.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beignets 2 Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5238e7cd-b0cc-4eb3-b2cc-030146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

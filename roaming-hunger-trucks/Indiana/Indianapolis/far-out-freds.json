@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The classic burgers you crave, infused with flavors from around the world thanks to Far-Out Fred's! Looking for a break from the regular lunch burger? Far-Out Fred's Food Truck is bringing your everyday burger to amazing place it's never been before! Wanna try the Cuban? The English? The Indian? All these and more are ready and waiting for you at Far-Out Fred's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Far-Out Fred's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11223/569a61ab-fbc0-477f-967d-1ceb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

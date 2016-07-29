@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are Heavenly Smoke because even angels like good food. We specialize in Beef Brisket which is smoked for 12 hours and served on a variety of sandwiches. We also serve Turkey Barbeque, Burgers, Hot Dogs and Beef Dogs. We take pride in our home made chili and sauces to add that extra flavor that sets us apart. Come out and visit us today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Heavenly Smoke",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55244437-90a4-4cf8-b1a1-7ca846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

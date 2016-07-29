@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Eatsie Boys mobile eatery cooking up gourmet grub in Houston's street scene.Born from late-night hunger by founders/friends Chef Matt, Ryan, and Alex, the Eatsie Boys is a mobile eatery cooking up gourmet grub. Our \u2018kitchen-on-wheels\u2019 allows us to share our good eats with Houstonians throughout the city.Eatsie Boys also specialize in catered events of all types. Whether it\u2019s a small private dinner, a rockin\u2019 house party, or a large corporate function, the Eatsie Boys will fight for your right to party.We are dedicated to using the highest-quality, locally-sourced ingredients (when possible), and we consider our relationship with local farmers and businesses a top priority. Our menu is seasonal, evolving, and chef-inspired. It will change according to what ingredients are fresh and available. The Eatsie Boys menu is influenced by our lives, travels, and cravings, which manifest in our deliciously eclectic offering of gourmet sandwiches and international street food.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Eatsie Boys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5797ba21-8e58-4037-bacd-1e3b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

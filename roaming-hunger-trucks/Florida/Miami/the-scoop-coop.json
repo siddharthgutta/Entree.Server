@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Scoop Coop is a self-contained, soft serve mobile ice cream trailer, based out of Jupiter and servicing Palm Beach, Martin, St. Lucie, Indian River, and most of Florida! Offering soft serve cones, slushies, shakes, malts, and floats, this truck is sure to delight young and old alike! Stop by and grab a scoop!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Scoop Coop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7979/545cf315-a494-4386-9de8-6d8446204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

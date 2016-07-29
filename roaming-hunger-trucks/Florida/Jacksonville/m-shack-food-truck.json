@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to MShack, a collaboration by the Medure brothers \u2013 Matthew & David \u2013 fusing the old fashioned burger joint with style and fresh ingredients. MShack burgers are made with all natural, hormone-free beef ground fresh daily. Juicy, all beef hot dogs, hand-cut fries, mouth-watering milk shakes and more help complete their unique menu. The M Shack Food Truck is available for corporate lunches, private parties, weddings and other special events. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "M Shack Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54bfe048-2d50-49d5-a945-36e946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

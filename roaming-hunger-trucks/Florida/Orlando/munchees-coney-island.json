@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "That classic Coney Island taste has hit the South, and it's sure to take your taste buds on a wild ride!Munchee's Coney Island is bringing over 20 years of culinary experience, and a menu inspired by meals made across the country, right to the heart of Florida in this groovy food truck. If you're looking to get your fix of fantastic eats, then there's absolutely nobody who can beat Munchee's Coney Island.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Munchee's Coney Island",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/570d7bcc-8318-4ace-8793-094a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rollin Zoinks is a food truck serving fabulous hand held eats that surprise & delight to the streets of Tampa. This truck takes gourmet dishes such as braised beef with mushrooms, asparagus, romaine and swiss or fried chicken with bacon gravy, green beans, roasted corn and cheddar and makes them into hand-held street food delights. Rolling Zoinks also has hand-held desserts, including their fall favorite, The Johnny Appleseed with apple pie filling, walnuts, and whipped cream.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin Zoinks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f9f1a3-241c-444f-adc3-598646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

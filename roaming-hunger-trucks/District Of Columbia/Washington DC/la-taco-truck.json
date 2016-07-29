@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At L.A. Taco they're serving up more than just delicious corn tortilla treats! Their menu also includes burritos, quesadillas, nachos, and chips with dip! You're probably already thinking nothing gets better than your favorite Mexican dishes, but there's more! At L.A. taco you can top off your tasty meal with one of their amazing homemade hot sauces! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "L.A.Taco Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52312dd6-9e4c-4531-a4b5-028846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

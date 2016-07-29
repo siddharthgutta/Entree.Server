@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Urban Lobster Shack is known for bringing lobster to the people. Our delicious variety of fresh lobster rolls is both fresh and affordable. After opening two locations, one in Midtown and the other in FiDi, we have launched our lobster red food truck, URBAN LOBSTER SHACK...ON WHEELS!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Urban Lobster Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f9ba108-cd58-4740-a879-738b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

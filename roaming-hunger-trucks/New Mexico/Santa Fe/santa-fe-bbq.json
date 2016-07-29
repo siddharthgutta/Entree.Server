@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Santa Fe's best BBQ is rolling down a street near you! This is delicious New Mexico-style BBQ that you can really sink your teeth into, and boy will you. Santa Fe BBQ is serving up nothing but the best brisket, ribs, puled pork, and more, so don't miss out - grab some today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Santa Fe BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ccf73c-c8b4-4e5d-aee4-601c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

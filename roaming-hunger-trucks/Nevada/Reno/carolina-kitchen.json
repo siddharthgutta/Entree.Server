@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We serve cajun, southern bbq and soul food. Choose from a variety of smoked meaty sandwiches, wings, bbq, pork ribs, and much more. Accompany your meal with a fixin for just $1.99 each, these include fries, coleslaw, tater tots, hushpuppies, mac n cheese, and a host of yummy veggies. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Carolina Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524319a4-1134-4100-bdd0-42f146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

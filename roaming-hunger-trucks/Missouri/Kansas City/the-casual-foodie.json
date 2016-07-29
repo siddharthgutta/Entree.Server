@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A talented team of three decided to combine their collective restaurant experience to provide the streets of Kansas City with a casual twist on gourmet cuisine.The Casual Foodie offers a delectably economical selection of tacos, sliders, nachos, wings, and sides, all made with the finest care and quality. You gotta try a bite of their Pork Bulgogi Taco (with marinated sweet Asian pork and crisp cilantro slaw), or the Fried Chicken Club (with garlic aioli and candied peppered bacon), or the Jerk Chicken Nachos (with pineapple pico de gallo and lime crema), or the Dr. Pepper BBQ Wings!For all this and much more, meander your way on over to The Casual Foodie and delight in some sensational service and flavors!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Casual Foodie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57928b68-6e88-4ab6-bd81-60f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

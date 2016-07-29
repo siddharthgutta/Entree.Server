@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Eat healthy with B-well Foods! Bringing fresh-cooked vegetables to the streets of North Carolina, B-well Foods is providing healthy alternatives to your every day lunch. With their vegetarian cheesesteaks, fried tofu sandwiches, garden salads, and more, B-well Foods is sure to have something for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "B-well Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c0e520-036c-470e-a2e5-253746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

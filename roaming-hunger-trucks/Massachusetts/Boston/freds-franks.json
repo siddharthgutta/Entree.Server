@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fred's Franks is bringing Massachusetts the best of the best in classic street food! Savory sandwiches, sausages, and hot dogs are always an awesome way to feed your hunger. Whether you're here for the superb kielbasa, andouille, linguica, or even the signature Shnurble sandwich, this is the food truck for you! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fred's Franks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561456b5-f608-4583-8a0c-75fa46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

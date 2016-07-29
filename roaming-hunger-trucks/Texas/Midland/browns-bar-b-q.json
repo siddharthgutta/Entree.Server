@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Getaroundbrown (TM) is a mobile catering company in Midland, Texas...they are putting their town on the map one stomach at a time.  They have been in the mobile dining industry 10 years with 2 food trucks, and make sure to try their signature item, the brisket burrito!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Brown's Bar-B-Q",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/527a9a17-b2ac-46aa-96d4-172c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Potato Potato Truck is bringing the wholesome taste of baked potatoes to a curb near you! Hot, fresh, stuffed baked potatoes are the name of the game with this amazing food truck. You'll find delicious spuds stuffed with cheese, bacon, sour cream, cranberries, and so much more at Potato Potato today! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Potato Potato Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7c676-b928-4972-82cd-1c2e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

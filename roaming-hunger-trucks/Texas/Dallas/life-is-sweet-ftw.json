@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Life is Sweet is a Fort Worth based food truck that specializes in different types of delicious sweets, from cookies and cupcakes to cakes and more. These handmade sweets are crafted using quality ingredients inspired by family recipes, which have been passed down for generations. Stop by to grab a delicious treat, or have them fashion something unique just for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Life is Sweet Ftw",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8131/547526cb-0e6c-4ca7-a111-17d746204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

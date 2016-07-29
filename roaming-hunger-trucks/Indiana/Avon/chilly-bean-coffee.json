@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chilly Bean Coffee is brewing up the best cup of joe on the streets of Indiana! Served up piping hot or chilled to perfection, this coffee is sure to satisfy your java cravings. Together with their delicious teas and muffins, Chilly Bean Coffee has something for everyone to start their day off right!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chilly Bean Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55df4190-4ee4-46ee-97ad-0aa746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

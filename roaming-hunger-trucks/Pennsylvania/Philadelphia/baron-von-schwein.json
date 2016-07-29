@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Baron Von Schwein serves up locally sourced pulled pork, southern BBQ Cha Siu Bao, and homemade sides. The perfect complement to their tasty comfort dishes are their freshly made signature sodas made from fresh fruits and vegetables. Try their sweet Vanilla-Bean Honey soda or Ginger Lemongrass for a tangy kick!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Baron Von Schwein",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5286648f-b8b0-4985-b51b-2c2d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

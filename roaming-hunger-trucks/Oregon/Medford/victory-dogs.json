@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot diggity dog! Victory Dogs is home of the Grilled Bacon Dog, Pastrami Dog, Pulled Pork Dog, Teriyaki Beef Dog, Grilled Ham & Cheese Dog and more. Victory Dogs isn't just a hot dog stand, it's a destination hot dog stand.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Victory Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553fe5aa-6cd4-4574-b996-258c46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

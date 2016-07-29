@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This truck is serving all the delicious pre-packaged ice cream treats you know and love, from Good Humor to ice creams to Rich's ice pops, and even good 'ol Popsicles. Whether you're looking for a cool treat, or want to make your event a big hit, look no further than Atlanta Ice Cream Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Atlanta Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7112/54f72fcc-1af4-4f0b-8d8f-5c9046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

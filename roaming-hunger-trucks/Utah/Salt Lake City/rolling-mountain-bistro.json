@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rolling Mountain Bistro proudly serves delicious gourmet burgers, sandwiches, pastas, and salads to the Northern Utah area.  Don't miss their famous Yeti Burger: a 7 oz patty, pulled pork, thick sliced bacon, cheddar and mozzarella on a grilled bun.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rolling Mountain Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8763/550074e5-bd54-4e85-9d44-426146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

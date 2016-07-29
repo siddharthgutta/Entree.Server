@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gather around for a blend of flavors from exquisite Asian Fusion to the savory spices of India in the one and only Fusion Food Truck. The place where you have a fine dining meal on the go. Proudly serving delicious food to happy customers in Jacksonville, Florida.  Just follow your nose or follow them on Facebook for your next meal!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fusion Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e661a-0694-443c-a749-797646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

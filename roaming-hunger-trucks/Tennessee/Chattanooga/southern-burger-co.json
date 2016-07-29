@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Don't just kinda take a bite.To inspire a sense of home...To infuse value and amazing flavor into a meal...To cultivate change and focus on quality...Southern Burger Co. delivers a fresh take on a favorite meal. Our favorite meal is the burger- whether beef, pork, veggie, or however you like it- and we're be making it fresh from local and regional farmers and bakers.All of our delicious items are prepared and served out of a food truck- a highly modified 20' Fed-Ex type truck with a full commercial kitchen on board. We're be taking the show on the road, so be sure to keep an eye out. Each day we're out your next Southern Burger could be right around the corner...",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Southern Burger Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f6d36a9-1ae0-4cef-b63d-708546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

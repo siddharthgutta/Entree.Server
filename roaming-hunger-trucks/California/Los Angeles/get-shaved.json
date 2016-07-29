@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Get Shaved is a mobile street food shave ice company founded in 2008 serving the San Fernando Valley and Los Angeles area.  Our mission is to provide the highest quality and best tasting Hawaiian style shave ice to the people all over the streets of Los Angeles.  We also cater private parties and events and participate in local farmers' markets and festivals.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Get Shaved",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e547172-846c-4fd4-890b-7a1f46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

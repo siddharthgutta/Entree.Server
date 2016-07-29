@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Urban Entrees is treating the curbs of Durham to the most fantastic American classics, like Cheesesteaks, Burgers, BLTs, Hot Dogs, Fries, and more!So make your way to Urban Entrees today for some tasty comfort cuisine because you know what? You\u2019ve certainly earned it.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Urban Entrees",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548741e4-f430-4cf6-9b0a-6d7b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

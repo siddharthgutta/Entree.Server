@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Griddle Me This is serving up Washington's greatest gourmet grilled cheese! Sandwiches made fresh for you when you order, along with their Tomato Basil soup and cookies are just the thing to satisfy your cravings. Enjoy the greatest eats on the Vancouver streets today, with Griddle Me This!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Griddle Me This",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56b29c61-41f8-4dc2-9dba-50ed46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

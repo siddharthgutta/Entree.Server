@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jalape\u00f1o Truck is Jacksonville's newest food truck bringing  Mexican street flavor at it's best. Fully loaded with the best mouth-watering food that will make you feel like you are having a authentic home made cooked meal in Mexico. The best from breakfast favorites like Chilaquiles, Huevos Rancheros to Enchiladas, Tortas, don't forget to enjoy your meal with a refreshing agua frescas. This Mexican food doesn't get more authentic than this!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jalape\u00f1o Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554802e2-96b4-4a68-b836-0ad846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

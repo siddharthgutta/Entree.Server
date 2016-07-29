@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Biscuits + Groovy is a great Austin-based trailer serving up delicious buttermilk biscuits and gravy, with all sorts of delights to round out the meal. Try the Donna Summer, with scrambled eggs, sausage, and colby jack cheese, The Bee Gee, with butter and jam, or choose your own toppings and fillings! One thing's sure: Everything is groovy when you've had a delicious biscuit.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Biscuits & Groovy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f76f35f-2d34-4d55-ad4d-2e8b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

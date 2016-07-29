@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BiciCocina is bringing Latin cuisine to the streets of Ithaca today! Born from a love of this amazing food and culture, BiciCocina is serving up delicious arepas, pastels, and salsas that you're sure to enjoy. Don't miss out on the best food and friendliest service around, visit BiciCocina today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BiciCocina Bicycle Food Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55faff00-5660-4af8-8fe4-5fae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

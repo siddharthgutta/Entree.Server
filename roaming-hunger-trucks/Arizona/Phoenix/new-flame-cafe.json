@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New Flame Cafe is bringing flavors from New Mexico, Sonoran flavors from Arizona, Fresco Flavors from California, and Hawaiian flavors from the Islands all to the streets of the Phoenix area. Breakfasts consist of signature corn cakes and eggs, and a daily made fresh hash, while lunches include specialty sandwiches like Norms \" Fat Boy Sandwich;\" New Mexico style braised brisket sandwiches with roasted green chilis, caramelized onions, melted cheese, and bacon; Lavash pizzas; roasted red peppers stuffed ooey gooey mac and cheese; Kalua pork tacos; fresh salads; sliders; and so much more. No matter what your craving, New Flame Cafe can find something to satisfy your needs. Stop by and check it out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "New Flame Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5490c128-b2d8-498e-97fe-4ae746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

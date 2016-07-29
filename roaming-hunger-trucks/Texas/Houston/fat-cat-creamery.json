@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Cat Creamery is bringing you the best ice cream in Texas! Handcrafted creations, small batch ice cream made with local ingredients for the best quality and freshest frozen taste is sure to have you hooked right away. Strawberry, Coffee & Cream, and the Cat's Meow are just the start of the wide array of fabulous flavors available. Enjoy a sweet treat with these cool cats today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Cat Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6b3a2-850c-4041-b1fc-6d7f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Top Dog is bringing you the best hot dogs in Houston! Top Dog Gourmet Hot Dogs is taking hot dogs to a new level of flavor that you're sure to savor. Try the Mac Daddy, El Chupacabra, Couch Potato, or any of their delicious hot dogs today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Top Dog Gourmet Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a3e3e0-acbc-4bdf-a2e7-177846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

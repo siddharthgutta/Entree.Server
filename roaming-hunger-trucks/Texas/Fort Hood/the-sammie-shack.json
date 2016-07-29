@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best sandwiches on the streets of Texas? Then this is the restaurant for you! The Sammie Shack is shaking up your idea of sandwiches, with the best Reubens, Burgers, Banh Mi, and more. Grab some delicious grub today and find out what makes The Sammie Shack the best sandwich shop in town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sammie Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56005ee1-112c-4182-89eb-5f4146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

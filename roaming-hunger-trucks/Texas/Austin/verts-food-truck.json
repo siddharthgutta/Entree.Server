@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "VERTS is a fast casual dining concept built around D\u00f6ner Kebap, Germany\u2019s most favorite street food. VERTS is one of the first to bring D\u00f6ner Kebap to the United States. Based in Austin Texas, VERTS focuses on delivering a quality dining experience that leaves you filling good and feeling great. A visionary for food trends, VERTS appeals to those who love food, value and quality.We are proud to present to you the smallest food truck in Austin -a Smart car with custom-built equipment for serving D\u00f6ner Kebap!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Verts Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb36f45-5f30-43fb-b813-47ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Moral Omnivore is a food truck in Minneapolis, serving gourmet, sustainable food while giving back to the community. food not only takes your taste-buds' needs into account, but also the needs of local farmers and producers striving to do good globally.Ethical eats from bacon to beets. Eat with your heart out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Moral Omnivore",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523fc58b-c608-48c1-b799-6a5146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

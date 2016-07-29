@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Annie's Sno Biz is a fantastic way to beat the summer heat! Roaming the streets of Roseville and the surrounding areas, Annie's offers ice shaved as fine as snow, with delicious flavors like cantaloupe, strawberry, guava, and more! With a delicious drizzle of condensed milk on top, what more could you want from your shaved ice experience?",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Annie's Sno Biz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541340c1-0fe4-4737-9521-260f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

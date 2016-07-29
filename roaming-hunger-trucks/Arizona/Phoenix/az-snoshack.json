@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "AZ Snoshack is serving delicious shaved ice treats to the greater Phoenix area. These are not snow cones, but rather the softest shaved ice around. The trailer offers over 40 delicious flavors, which you can combine in any number of ways to create your own favorite. You can even add ice cream and cream to make a true Hawaiian treat, like you might find on the North Shore of Oahu, HI! Stop by today for a delicious and refreshing dessert!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "AZ Snoshack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/549078d6-6360-4297-8126-52d646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

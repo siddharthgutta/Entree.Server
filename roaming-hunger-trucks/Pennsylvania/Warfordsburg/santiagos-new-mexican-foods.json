@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The taste of New Mexico has arrived in the east! Santiago's New Mexican Foods brings the distinctive and world renowned cuisine of the 47th state. With tacos, burritos, frito pies, Navajo tacos and more you'll be loving that green or red chile as much as native New Mexican! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Santiago's New Mexican Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55524feb-5acc-4367-ad52-17eb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

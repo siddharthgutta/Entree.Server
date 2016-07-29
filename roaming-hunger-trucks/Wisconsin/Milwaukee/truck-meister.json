@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Truck Meister trucks are providing the streets of Milwaukee with some mighty tasty gourmet burgers.These monster-sized masterpieces come in a marvelous variety, including Baconmeister, Steakmeister, Beanmeister, and Mahi-Mahi-Meister too.  They\u2019re all piled high on a delicious brioche bun, and everyone agrees that each of these meisters are an absolute must-try. For the perfect side, you can order their signature hand-cut chips or their fresh hot french fries. For all this and more, be sure to come by Truck Meister and enjoy this scrumptiousness galore. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Truck Meister",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/572bce71-9d0c-4b41-8ece-42f946204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

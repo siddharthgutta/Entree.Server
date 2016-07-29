@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Texas Fusion Food Truck is cooking up the best street cuisine on the Antonio scene to feed your need for fantastic food today! Bringing together traditional Tex-Mex with Asian inspired dishes, Texas Fusion has a menu that's sure to have some delicious surprises for your taste buds. If you've been looking for something new to try when you need to feed, then Texas Fusion is guaranteed to satisfy your hunger today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Texas Fusion Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562ffcd5-5494-4be8-88cd-344746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

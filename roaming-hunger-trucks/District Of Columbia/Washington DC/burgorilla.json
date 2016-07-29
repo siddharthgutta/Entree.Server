@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BurGorilla is Washington D.C.'s one stop shop for gourmet burgers. Opt for the traditional Classic American (with American cheese, lettuce, tomato, pickles, onion, and mayo) or spice things up with their WTP burger (topped with Bulgogi sauce glaze, kimchi slaw, grilled onions, toasted sesame seeds and wasabi mayo). Though I doubt you need much more convincing, their menu features a host of other yummy combinations as well, so stop by and get to eating!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BurGorilla",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52311ca0-b708-49e1-8f94-22a546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

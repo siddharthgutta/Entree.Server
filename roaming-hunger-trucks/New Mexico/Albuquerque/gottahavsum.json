@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This fantastic truck is serving authentic New Mexican cuisine in the Albuquerque and Rio Rancho areas. If you want to find out where to get a bite of this amazing cuisine, look no further! One bite of these tasty dishes, and you'll be hooked!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "GOTTAHAVSUM",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8627/54f27a01-29bc-4dfb-a8dc-4d0346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

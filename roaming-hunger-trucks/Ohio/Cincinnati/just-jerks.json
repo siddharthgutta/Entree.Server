@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jamaican cuisine like you've never seen is coming your way from Just Jerks! You'll find jerk chicken, pork, or brisket with your choice of their delicious sauces made just for you at this fantastic food truck. Have this delicious Caribbean taste in a sandwich, wrap, or salad for your eating pleasure! Don't miss out, try Just Jerks today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Just Jerks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f6eb67-8d00-46d1-bc85-2c5d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

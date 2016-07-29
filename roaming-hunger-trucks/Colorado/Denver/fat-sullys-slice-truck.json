@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A mobile unit of Fat Sully's New York Pizza, Sully's Slice Truck brings our goodness to more mouths.As a Colfax native, Sully knows how hard it is to find that perfect slice of New York style pizza here in the Mile High City. But after countless slices of pepperoni and untold pounds of cheese, he thinks he\u2019s done just that. So buckle up kids, you\u2019re in for a savory, thin-crust treat.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Sully's Slice Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e2902b9-dcb0-4a4c-acb3-0ba646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

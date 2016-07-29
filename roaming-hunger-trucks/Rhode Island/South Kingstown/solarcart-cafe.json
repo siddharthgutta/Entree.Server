@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A solar-powered eating experience unlike any other, SolarCart Cafe is cooking up quality cuisine with a mission to serve environmental responsibility.  Working with local non-profits, their seasonal menu offers a rotating selection of delicious international cuisine, all made with local, organic, and sustainably sourced ingredients. With a percentage of the sales going to their tree planting initiative, you\u2019re sure to love every bite of this food just as much as you\u2019ll love helping to make the world a better place. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SolarCart Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57687fcd-80d0-4b3f-9412-3da546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

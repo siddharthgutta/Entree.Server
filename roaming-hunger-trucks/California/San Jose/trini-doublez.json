@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DoublesIn a nutshell per wikipediaA common street food in Trinidad and Tobago. It is a sandwich made with two bara (flat fried bread) filled with channa (curried chick peas). Topped with mango, shadon beni, cucumber, coconut, tamarind, and extra pepper sauce (ranging from a dash \"slight\" to much more), this delicacy is the most popular fast food in Trinidad and Tobago. It is usually eaten for breakfast, and sometimes lunch, but can be a late night snack as well. Popular doubles venues are Sleepy's Doubles at St. Helena Junction, Deen's Doubles in San Juan, Ali's Doubles in San Fernando, Sauce Doubles in Curepe, Drupati's Toronto and Johnny's Doubles in La Romaine, Golconda and Sangre Grande.Also: Geera Chicken",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Trini Doublez",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6988/53e0133b-e0f0-49de-af05-36af46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

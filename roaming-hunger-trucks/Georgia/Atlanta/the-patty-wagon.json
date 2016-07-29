@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Patty Wagon is a high energy burger truck sure to bring fun times wherever it parks.  Whether it\u2019s a private event, festival, catering, or roaming the streets of the ATL, we got you covered!Our fun criminal themed burger truck features beef patties, turkey patties, and veggie patties creatively prepared with names like \u201cBacon The Law\u201d AKA Bacon Cheeseburger, finished with our signature 5-0 sauce, Hot Pursuit, and Good Behavior.  Our specially seasoned fries are sure to blow you away.  You can choose from flavors like Parmesan, Ranch, Cajun, Old Bay, and much more.  The Patty Wagon is sure to be a hit at your next event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Patty Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8369/54b80867-0744-447c-802e-183e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

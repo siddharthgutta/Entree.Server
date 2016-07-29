@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This NY mac n cheese truck is rollin' out all the stops with their gourmet menu. One favorite menu item is their pulled pork mac n cheese made with slow roasted pulled pork, house made bbq, pickled jalape\u00f1os and rosemary scented bread. Be sure to also try their lobster mac n cheese with maine lobster and sherry shallots, and of course their classic mac n cheese - a cheddar and gruyere blend. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Macarollin'",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e72a3-94b8-4049-adbf-6c6046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An amazing food truck you'll never forget, Pickle Barrel is packing your lunch with fantastic flavor! You'll find the tastiest soups, salads, and sandwiches on this food truck. Along with their delicious drinks and desserts, this food truck is bringing something great for any appetite! For great food and an awesome attitude, Pickle Barrel is the place for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Pickle Barrel",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56450a06-e074-4af3-813f-44e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

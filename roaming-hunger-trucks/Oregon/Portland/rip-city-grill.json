@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rip City Grill is serving tasty signature Tri-Tip steak sandwiches to the Portland area. Their sandwiches are made to order with fresh ingredients and perfectly toasted bread. For a dollar you can dress up your sandwich in a variety of styles, like Cali style with cheddar, avocado and bacon or Fungus style with sauteed mushrooms, onions and swiss cheese. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rip City Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524c963f-c260-4eff-9a70-3e3b46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

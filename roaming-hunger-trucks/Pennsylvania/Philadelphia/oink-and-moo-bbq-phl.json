@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Savory and delicious BBQ roaming the streets of Pennsylvania is ready and waiting to feed your need with Oink and Moo BBQ! Pulled pork tacos, baby back ribs, their award-winning oink and moo chili, and so much more! For the best BBQ on the East Coast, it's got to be Oink and Moo BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oink and Moo BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5579b5d6-7e38-4759-9301-0c6146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

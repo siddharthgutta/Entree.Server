@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taco Sisters Mobile is an extension of our original Freetown location in Lafayette, LA. We\u2019ve converted a 1957 Air Stream into a taco making machine!  We prepare our food with love, and we always use the freshest premium quality ingredients available! No frozen food, just delicious homemade specialties. Try our tacos made with smoked yellowfin tuna, smoked shrimp, slow cooked briskets and marinated chicken.  We also have veggie tacos, and salads made with garden fresh greens. We added breakfast to the menu too!  Catch us in the morning to try our fresh squeezed juices and breakfast burritos.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco Sisters Mobile Air Stream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548b2962-3d70-4814-9d62-1d8e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

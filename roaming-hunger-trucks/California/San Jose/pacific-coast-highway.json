@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pacific Coast Highway Truck in San Jose is your comfort food paradise! Based on the success of the restaurant Parsley, Sage, Rosemary, and Thyme, Pacific Coast Highway Truck makes the same gourmet goodness mobile. Their menu features favorites found at the PSRT restaurant including burgers, nachos with homemade chips, hot dogs, and fish tacos. Savory snacks like the chicken & bacon quesadillas and loaded potato skins round out a menu that is filled with something for everyone.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pacific Coast Highway",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d4e0b2-22c8-4523-9a4a-40c246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

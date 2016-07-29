@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet food on the streets of Ohio! Herb'n Food Truck is bringing you culinary creations of the highest caliber with great prices and the best service around. Whether it's the parmesan garlic fries, asian beef tacos. black & blue burger, or any of their amazing cuisine, they'll be sure to have you coming back for more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Herb'n Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5536905c-bd40-4a06-8531-1c7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

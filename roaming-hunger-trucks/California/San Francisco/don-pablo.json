@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Don Pablo makes a fusion of Peruvian/Asian food maintaining the authentic Peruvian flavors and giving costumers different choices to enjoy their food. Our menu have sandwiches and wraps inspired by classic Peruvian plates. Our sandwiches and wraps joint makes fast food fancy!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Don Pablo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10403/5554ecee-0890-4e57-968e-252a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wood Shop BBQ is bringing you the best in classic smoked BBQ dishes to fill your need for delicious feed! Texas chicken, pulled pork, smoked brisket, and more are on the menu today and they're spectacular! For some real stick-to-your-ribs grub that'll have your mouth watering in no time, Wood Shop BBQ won't let you down.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wood Shop BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b0cff-c2f0-41cc-a0f1-4fa046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

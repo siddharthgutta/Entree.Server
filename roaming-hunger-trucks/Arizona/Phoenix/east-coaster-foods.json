@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you\u2019re in the mood for your favorite East Coast cuisine, look no further than to East Coaster Foods. They\u2019re serving up a fantastic selection of all the tastiest classics: Philly Cheesesteaks, Pastrami Sandwiches, Burgers, Hot Dogs, Fries, and more!Folks of Phoenix, come enjoy your fill of this most delicious East Coaster feast. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "East Coaster Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56fd6158-94e8-4077-96d7-092b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A food truck featuring Utah's finest burgers! We have grass-fed beef, all natural turkey burgers and a one of kind veggie burger.Better Burger opts in for enlightened food choices. We believe you deserve to indulge in the classic American fast-food meal, but in such a way that you don't feel guilty about what you are eating. All Better burgers are local and totally unique. The beef burgers come from grass-fed cows (taste the difference). The turkey burgers come from a lovely turkey farm in Ogden, where the Wight family raises them in a happy, healthy environment. And the veggie burgers are made by Cali's Natural Foods. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Better Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/507dab06-3f80-4849-9155-69fb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

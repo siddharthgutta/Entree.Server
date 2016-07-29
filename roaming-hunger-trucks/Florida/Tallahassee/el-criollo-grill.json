@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "El Criollo Grill is serving delicious Puerto Rican Cuisine to the Tallahassee streets. Mofongos (chicken, pork or shrimp),Fritters stuffed with ground beef or crab, Tostones, our best selling sandwiches (cubanos, tripletas, media noche, biftec and our authentic Criollo burger! You haven't tried Puerto Rican until you've tried El Criollo!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Criollo Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9018/5523568a-79b0-4984-8371-24d246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

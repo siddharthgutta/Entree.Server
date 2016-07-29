@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "White Girl Asian Food is just what you've been looking for! Inspired by a love of Asian cuisine and the Austin street food scene, this food truck is serving up the most amazing meals you'll ever find. If you've been craving the best bulgogi, teriyaki, rice bowls, and more, then White Girl Asian Food is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "White Girl Asian Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/563d2855-36b4-41f9-845a-5bca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

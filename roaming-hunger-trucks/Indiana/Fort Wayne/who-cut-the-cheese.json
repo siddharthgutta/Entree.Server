@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everyone's favorite cheesy meal is right around the corner with Who Cut The Cheese! Grilled cheese cooked to perfection just for you, Who Cut The Cheese is taking this classic comfort food to new heights! With such gourmet sandwiches as the Oh My Gouda, Truffle Grilled Cheese, Mamma Mia, or the delightfully sweet Curd It Be Love, Who Cut The Cheese is sure to be perfect for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Who Cut The Cheese?",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5591cf9d-7b84-4c0b-abaf-367b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best brunch truck in town is here to brighten your day! off the GRIDdle is ready and waiting to make you a hot and fresh brunch, lunch, or delicious dessert! Served on a delicious Belgian waffle, everything you have at off the GRIDdle is sure to fill you up and satisfy your hunger, so stop by today for a fantastic experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "off the GRIDdle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5536d361-ae04-4f4f-b2b5-28a946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

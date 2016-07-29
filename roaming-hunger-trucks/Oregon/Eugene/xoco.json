@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mexican street food that's perfect for any mood is here for you! Xoco is cooking up the tastiest tortas, tostadas, pambazos, and more. This small food cart is bringing big flavor to the streets of Eugene! If you're looking for something superb to sink your teeth into when you're on the move in Oregon, there's nobody quite like Xoco!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Xoco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561d4937-9d6c-4ffa-8506-567f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing that feeling of those lazy summer picnics to a curb near you, it's Picnic! Bring your appetite, and your own blanket, and Picnic will handle the rest. Hearty sandwiches, seasonal soups, and so much more are on their way to you, so get ready for a great experience with Picnic!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Picnic",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a59533-6af8-4ca3-910c-1e3946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

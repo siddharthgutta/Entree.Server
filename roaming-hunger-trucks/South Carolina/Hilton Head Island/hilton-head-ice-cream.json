@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Since 1982, Hilton Head Ice Cream has been churning out award-winning homemade ice cream for the hungry Hilton Head Islanders. Using only the highest quality ingredients, this ice cream shop doesn\u2019t know how to stop when it comes to creating deliciously innovative flavors like Chocolate Cayenne, Cookie Monster, and Peach Pecan. Now they\u2019re wheeling out their new truck and hitting the streets with their incredible sweet treats, including their freshly baked cookies. At this island, it\u2019s always been said that the best ice cream you can find is at Hilton Head. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hilton Head Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13472/5797f196-8794-475f-8ab7-3e7246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

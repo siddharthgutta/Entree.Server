@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best tacos in town? Then this is the truck for you! Barrio Tacos has the best tacos made from the freshest ingredients ready to satisfy your cravings for that delicious delicacy! Filling, flavorful, meaty, vegan, there are tacos for everyone at Barrio Tacos!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Barrio Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5536cb9a-6b60-472c-b4fe-567a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

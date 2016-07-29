@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Patrizi's is an Austin-based trailer serving delicious homemade Italian fare. Offering everything from Pomodoro to Cacio E Pepe, this trailer serves pasta made with straight semolina flour and local eggs, guaranteeing great flavor as well as local support. Stop by today, and grab a delicious home-cooked meal!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Patrizi's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546d2446-d048-4469-a44c-307d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

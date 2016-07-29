@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Mad Dash mobile kitchen is serving some mean melting goodness for grilled cheese lovers in Lewisberry, PA. The family proudly run mobile kitchen has to be one of the best artisan grilled cheese makers in the nation. The perfect combination of ingredients make for the perfect comfort food dish for all ages. You can't beat a mobile restaurant that does more than grilled cheese pair up your meal with refreshing frozen beverage milkshake, frozen cappuccinos and orange cream slushies. Always ready to serve up some deliciousness!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mad Dash",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554a9f96-8278-40f1-a630-70e846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "WoodBurn Shanks is serving up the best BBQ you'll find in all of West Virginia! All your favorite BBQ dishes are ready for you at this fantastic food truck. For the best pulled pork, brisket, BBQ chicken, and so much more, it's got to be WoodBurn Shanks!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "WoodBurn Shanks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d35941-292c-49f3-927c-5a5446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Return of the Mac is making its way right to you! They're bringing you fantastic food, like the Straight Mac'N, The Fleetwood, The Mac Daddy, and more. Gourmet mac n' cheese is a gastronomic experience that can't be missed, so dig into these delicious dishes today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Return of the Mac",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d7b34e-e9d0-4656-b9db-1c1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

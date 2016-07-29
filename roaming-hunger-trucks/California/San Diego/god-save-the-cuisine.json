@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "God Save the Cuisine is San Diego's first British influenced food truck, here to change opinions on British food.Our food we create will use local and organic produce when ever possible.  This will allow us to offer you fresh hand made food that comes from a British background.  Our passion is healthy, affordable, first class food.  From our hands to your mouth, eat well.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "God Save the Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fbc2541-c270-4ceb-902e-36f746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

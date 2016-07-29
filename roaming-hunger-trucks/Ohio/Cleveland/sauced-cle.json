@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The freshest wood-fired pizza you'll ever have is on its way right to you! Sauced is serving up the kind of flavor you could only dream of before this great truck came to town. Perfect for any occasion, this mobile oven is ready and waiting to bring you the best pizza you and your guests could ask for! This pizza is made from the best ingredients and brought to you with the best service around--you'll never forget the first time you try Sauced!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sauced",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d4cb5d-47bc-4156-baf0-6dff46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

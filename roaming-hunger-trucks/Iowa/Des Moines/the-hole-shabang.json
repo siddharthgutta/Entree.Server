@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Hole Shabang is the home of the Buca-Wich. A Buca-Wich is an internally toasted hoagie that is filled with all homemade recipes including Cajun steak, Italian sausage, Meatball, Crawfish, Chicken and Tuna salad, and PB&J.; We also offer just about everything else from salads to desserts.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hole Shabang",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51b22ffb-6918-4abe-b4e9-133546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

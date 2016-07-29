@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Korean? Mexican? Can't decide? Why not both?! We are the only food truck in Indianapolis to offer authentic Korean Mexican fusion. From Gangnam style chicken tacos to drunken burritos. Our meats are marinated for 48 hours before they touch our grill, and our signature sauce will keep you coming back!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seoulrito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553582f6-7cec-4fec-a5b6-58c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

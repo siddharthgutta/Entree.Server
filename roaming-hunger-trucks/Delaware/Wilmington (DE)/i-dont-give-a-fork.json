@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "I Don\u2019t Give a Fork is a Delaware based food cart dedicated to serving delicious and easy-to-eat food to college students and faculty in Wilmington. Specializing in sandwiches for both breakfast and lunch,  I Don\u2019t Give a Fork\u2019s objective is to provide the market with food for the long term. Their goal is to serve food with not only high quality ingredients, but with personality as well.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "I Don't Give A Fork",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e83167-4d10-4e6d-bc3d-1de846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

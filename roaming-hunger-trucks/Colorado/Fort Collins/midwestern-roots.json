@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic, home cooked cuisine is on the street food scene--the kind of food that'll never forget its Midwestern Roots! From grandma's kitchen to the streets of Colorado, this menu is packed with all the comforting flavor you need. Don't miss out on this fantastic food trailer - grab the greatest grub around from Midwestern Roots!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Midwestern Roots",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e771cd-51c0-47c9-916d-48d846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

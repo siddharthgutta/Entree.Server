@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Food Dude has become a surfers favorite grub spot for a delicious entr\u00e9e after a day of catching waves. The flavorful aromas produced by this mobile kitchen has grabbed everyone attention to head over and try a creative and artistic dish. Catch the next wave when you're out in the sun and enjoy a fine meal from the Food Dude. Try a grab and go favorite the \"Cone Tacos\"!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Food Dude",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5571f662-f264-4259-893b-314a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Five-alarm flavour is on the move with this gourmet nacho truck! Bombero's Nachos is serving up crispy, crunchy chips with the freshest, most delicious toppings you've ever had. Are you here for The Rookie? The Fire Brigade? Their signature Bombero? Whatever you choose, you can't go wrong with Bombero's Nachos! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bombero's Nachos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555e4af6-87e0-4ad8-9053-651a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

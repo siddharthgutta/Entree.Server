@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vegetarian cuisine you can really sink your teeth into is coming right to you from a food truck that's really Down To Earth! Nutritious, delicious, and sure to satisfy, this menu features an amazing selection of delicious dishes. Try the Curried Eggplant Burger, Lentil Sloppy Joe, Buffalo Chik'n Nuggets, and so much more today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Down To Earth",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ef4122-5564-41cd-a68d-72e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Okay, OKC.We\u2019re pleased to introduce you to YUM PIG: the quirky trailer that\u2019s serving up porky dishes that you are sure to dig. You must try their criminally delicious \u2018Original\u2019: Fry Bread topped with Pulled Pork Butt, OJ Marinade, Apple-Garlic Coleslaw, and their World Famous BBQ Sauce. Their Rosemary Pulled Pork Butt on a Garlic Gnocchi Waffle, topped with Shoestring Potatoes is also where it's at. Mmmm, once you pig out on this pork of perfection, you too will become a major fan of this YUM!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yum Pig",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56fb0915-51c8-41ea-b272-7d2646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

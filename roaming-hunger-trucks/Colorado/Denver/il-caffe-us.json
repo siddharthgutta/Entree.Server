@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "il Caff\u00e8.US is a unique mobile experience reflecting that of the traditional European coffee and bringing it to the streets of Denver. In addition to our Caff\u00e8 Espresso, Caff\u00e8 Latte and Cappuccino we also offer a wide selection of other coffee specialties, ranging from the classics to some highly innovative recipes, created exclusively for il Caff\u00e8.US such as the Latte Macchiato, the Pumpkin Spice Latte, and the Raspberry Cream Soda.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Il Caffe US",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f08bb1-69ac-461b-bf67-4eaa46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

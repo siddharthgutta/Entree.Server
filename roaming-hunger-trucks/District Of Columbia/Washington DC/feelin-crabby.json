@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Feelin' Crabby foodtruck is the newest sensation in the D.C. area. Hungry Crabivores from all over the city have been gathering to taste our specialty, the Crabwich!Founded in 2011 by head chef Alex Tsamouras, Feelin' Crabby looks to bring the local tradition of crab seasoned with Old Bay to the D.C. lunch scene. Having already recieved high praise by reviews in local media, such as The Washingtonian and D.C. Metromix, it is no wonder this food truck is as immensely popular as it is!Our Crabwich is comprised of real jumbo lump crab, mayonaise and seasoning on a kaiser roll with lettuce and tomato. Served with a side of chips and a drink, our lunchtime treat is nearly impossible to resist. Come get one today before they all sell out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Feelin Crabby?",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5c388e-d8a4-41a7-ac5f-638046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

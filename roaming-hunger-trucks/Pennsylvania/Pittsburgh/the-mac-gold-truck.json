@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pittsburgh's premier mac n' cheese truck is on the move and coming right to you! Savory, delicious mac n' cheese is what The Mac & Gold Truck does best, and your taste buds are sure to agree. Whether it's the classic, the Lobster Mac, the BBQ Braised Pork, or any of their delicious dishes, you're sure to love The Mac & Gold Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mac & Gold Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559ec44d-82c8-4152-ac17-339946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

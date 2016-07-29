@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Garnish 44 is part of the PSRT Food Truck family roaming the streets of San Jose. Their award winning kitchen has developed this delicious menu that is unique in description and priceless in flavor. Items include gourmet Grilled Cheese, Rice Bowls, and seasonal entrees. Garnish 44 will give you a food truck experience you wont find anywhere else.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Garnish 44",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5143b13f-7624-4afd-b383-34a846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

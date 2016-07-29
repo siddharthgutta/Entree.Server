@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dirty Birds Wings on the Fly are here and ready to serve up the best wings in town! With dozens of flavors to choose from, Dirty Birds is bringing variety and high quality to the wing world. Their signature sauces are so good, you won't even need to dip these wings to love them, so look for Dirty Birds on a street near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dirty Birds",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f28bf-5be8-4b44-94cf-07a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

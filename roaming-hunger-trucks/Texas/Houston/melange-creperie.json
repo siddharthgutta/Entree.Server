@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We make great crepes! Affordable and portable food made by Buffalo Sean.Melange Creperie is a Parisienne style creperie street cart  in the Montrose neighborhood of Houston, Texas, featuring french crepes operated by \u201cBuffalo\u201d Sean Carroll with help from his wife, Tish Ochoa. Inspired by their honeymoon to Paris and the amazing crepes on every corner, Sean decided to bring the idea home.Our crepes are simple and elegant. You can order either a crepe filled with either a \u201cm\u00e9lange a deux\u201d (two ingredients) or \u201cm\u00e9lange a trois\u201d (three). Crepes are filled with both sweet and savory ingredients and are perfect for a meal on the go, post-workout pick-me-up or decadent dessert.We feature a rotating weekly menu as well as classics which are always available such as ham, egg and cheese or banana and Nutella. Or create your own! We feature seasonal, fresh, made to order food at an affordable price; we aim to feature as many local ingredients as possible.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Melange Creperie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d27960d-93a4-4dfa-af8e-6d1646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hongry Kong provides the streets of San Francisco with tasty snacks just like the ones Hong Kong is known for. The truck focuses on traditional yet simple food made fresh, representing cafe style Hong Kong cuisine. Hongry Kong's menu features signature street snacks including butter and flaky egg tarts filled with rich custard, waffles topped with taro or condensed milk, siu mai dumplings, and curry fish balls.  Try their cuisine, and find out that there is no end to the deliciousness provided by Hong Kong cooking.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hongry Kong Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d4c806-f224-4fa9-b346-717846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A cold popsicle on a hot summer day is great but a handcrafted gourmet popsicle using only the best and fresh ingredients is great anyday. Our Menu is always changing with the seasons to keep our proud support of local farmers. Having a party? We can come to you! Adults with our alcoholic pops to children with our PB&J; or S'more flavored pops.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Detroit Pop Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53939039-80a4-46b4-8d15-6a8346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

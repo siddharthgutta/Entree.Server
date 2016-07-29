@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The First Truck in Memphis, the Fuel Food Truck specializes in American food made from scratch featuring fresh, all natural ingredients. Our meats and poultry are grass/vegetarian fed, antibiotic-free and humanely raised without hormones, chemicals or additives. Our seasonal seafood is always wild caught and we offer tasty vegan and vegetarian entrees as well. Our menu changes based on availability and is always prepared with love and served with a smile.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fuel Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec6c6d8-3704-4eb7-b9c5-16ca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

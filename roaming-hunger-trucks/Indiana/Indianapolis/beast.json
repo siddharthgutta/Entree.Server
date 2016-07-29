@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beast has hit the streets of Indianapolis and it's brought the best burgers you've ever seen! This truck believes in eating local and eating well, and you can taste that in every single bite. Whether you order the Classic, the Beast Burger, the Game Changer, or anything else off their amazing menu, you'll be sure to have a meal you'll never forget!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beast",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b2a7ba-0dd8-49c0-9e8d-519d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

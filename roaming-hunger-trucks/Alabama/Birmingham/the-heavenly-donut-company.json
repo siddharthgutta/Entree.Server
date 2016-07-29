@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Heavenly Donut Truck known as \"Dough Rider\" provides donuts and coffee in Birmingham. We offer 10-12 flavors each day on the truck that include Maple Bacon, Oreo, Sour Cream Old-Fashioned, Apple Fritters and Red Velvet. Can't visit our truck?  Visit our store on Cahaba River Road for 35 flavors of donuts. We even make beignets on Saturday mornings from 7am-12noon",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Heavenly Donut Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9811/553ffb11-5628-4392-889c-35ec46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

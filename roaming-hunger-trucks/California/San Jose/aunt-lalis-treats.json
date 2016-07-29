@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You scream for ice cream! At least you will when you see Aunt LaLi's fantastic Ice Cream Truck! Serving up your favorite ice cream treats like Haagen Dazs,  Ben & Jerry's, Bomb Pops, Creamsicles, Crunch Bars, Oreos, Minions & Spiderman!  We make hand-crafted Ice Cream Sandwiches, yummy shakes and more! We create hand-crafted sodas and serve organic espresso drinks and iced coffees. Great for events, weddings and festivals.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aunt LaLi's Treats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5554de7a-9c98-44c8-8bb4-1fbe46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

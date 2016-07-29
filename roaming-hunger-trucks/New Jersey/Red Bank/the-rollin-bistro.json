@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A genuine bistro on the go, it's The Rollin' Bistro! Chef Laercio brings years of experience and a passion for cooking to this amazing truck, and it shows with each delicious bite you'll have. Perfect for any occasion, The Rollin' Bistro can make any day better and brighter with it's amazing and felxible menu!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rollin' Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e7b07-1ab8-4d43-b03a-170446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

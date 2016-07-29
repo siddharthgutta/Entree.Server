@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Coffee Trike is the first ever Mobile Coffee Cafe in the Boston Cambridge area. The trike offers a small, high quality menu featuring coffee roasted by The George Howell Coffee Company in Acton, MA and milk from Mapleline Farm in Hadley, MA. All paper goods are biodegradable and compostable and drinks are prepared using the finest equipment available. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Coffee Trike",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515623d8-7b48-42fa-a231-12e246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Kyf's Curbside Bistro is taking the best food around to the streets of Toledo! Cheeseburgers, corn beef, palermos, and more are on the menu and ready to satisfy your cravings. Great ingredients, fantastic service, and and an amazing eating experience are waiting for you at Kyf's Curbside Bistro!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kyf's Curbside Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a7d9e3-6790-4b3d-8c9f-429346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

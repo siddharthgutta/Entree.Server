@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for tasty tacos on the streets of Colorado? Then Macos Tacos is sure to satisfy you! With eats made fast, fresh, and delicious, your hunger won't know what hit it when you try this truck. Mexican meals you're sure to love are headed your way today, with Macos Tacos!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Macos Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565e27e9-43c4-4d2a-a0af-7af946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Internationally inspired organic food on the move in San Antonio is headed right to you! Fresh food made from the best ingredients around is always an eating experience you're sure to love. An ever-changing menu featuring gourmet burgers, tacos, ceviche, and more are right around the corner, thanks to Umamita!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Umamita",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561590f4-9318-49ee-92fa-7f3546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

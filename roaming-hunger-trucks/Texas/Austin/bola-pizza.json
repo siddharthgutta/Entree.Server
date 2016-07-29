@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bola Pizza is slinging pies in Austin Texas. Their pizza is fresh and local with a crunchy chewy crust. Not quite Neapolitan style and not quite New York style, they like to think of it as Austin style. Bola Pizza uses the highest quality ingredients Austin can has to offer and usually that means right from their own backyard. Bola Pizza's herbs are from their own garden and other ingredients from local Austin farms and vendors. Try all of their creations, such as the Pesto Pie, the Polka Dot, the Godmother, or the Truffle Daisy.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bola Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ef2276-e184-4fdd-8222-022d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

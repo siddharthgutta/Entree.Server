@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nature's best blends are coming right to you, from the Smoothie Operator! Smoothies from all-natural, locally sourced fruits and veggies are a refreshing way to fuel your mind and body for the day ahead. Get away from the pesticides and GMOs with smoothies chock-full of the nutrients you need and the flavor you crave. Fill up with Smoothie Operator at local events and markets, and give your system an efficiency boost with this wide range of delicious produce perfectly combined to suit your needs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smoothie Operator",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ca592b-1b00-440f-91b5-2cd446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

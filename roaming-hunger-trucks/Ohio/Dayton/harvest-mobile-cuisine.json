@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, local food made just for you! Harvest Mobile Cuisine is proud to be serving food made from ingredients grown and raised right in their community, so you get food that's healthier and more delicious! Their rotating menu means you'll get to try something new all the time! Harvest Mobile Cuisine is here and happy to serve you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Harvest Mobile Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55396d23-68dc-463b-b091-406b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

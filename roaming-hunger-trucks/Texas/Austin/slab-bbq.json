@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SLAB is a slow, low, and bangin' BBQ truck serving the streets of Austin, founded on the basis of bringing you new flavors that may be a break from your traditional Texas BBQ. This truck bridges the taste bud gap of the Dirty South from Memphis, to the Carolinas, Alabama, and Texas. The next iteration of Sugar Shack BBQ is here, with the flavor you crave. Stop by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SLAB BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5462793a-3378-491b-89ca-67e946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

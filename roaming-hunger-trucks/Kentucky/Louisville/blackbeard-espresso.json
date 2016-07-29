@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Blackbeard Espresso is bringing you your favorite pick-me-up, right on the streets of Louisville! Are you looking for a mocha? Latte? Macchiato? Blackbeard Espresso has all that and more! However you like your coffee, Blackbeard Espresso has you covered!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blackbeard Espresso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d63c28-4414-4f5e-91af-41b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Salad Man & Juice Bar is a quick service food truck in Providence, focused on providing great food and drinks that are not only healthy for you, but also taste amazing.With plans on being a major contributor to a massive health shift for our nation, the menu offers fresh create-your-own salads, rice bowls and wraps with over 20 different toppings, including roasted chicken, fresh shrimp and daily specials. In addition, refreshing juice and smoothies using super-food ingredients are a wonderful compliment to to the fresh meals.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Salad Man & Juice Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52433a2d-3400-4319-aac1-335846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

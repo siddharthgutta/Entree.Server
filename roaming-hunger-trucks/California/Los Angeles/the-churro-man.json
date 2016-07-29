@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Churro Man is a trailer serving delicious churros to the Los Angeles streets. These churros are freshly made every day, using the highest quality, all-natural ingredients. Cooked on the spot, the result is delightfully crunchy on the outside, and wonderfully soft on the inside. Find The Churro Man around LA, or bring it to you for a delicious churro treat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Churro Man",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b240b-5404-417d-8cad-3a9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

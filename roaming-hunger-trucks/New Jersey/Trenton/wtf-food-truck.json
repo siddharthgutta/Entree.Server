@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "New Jersey's taste buds will never be the same after they experience WTF Food Truck! This is comfort food that's perfect when you're on the move, made fast and fresh so you always get the best experience possible. Perfect for any occasion, WTF Food Truck is ready and waiting to satisfy your cravings today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "WTF? Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13149/56cf6d59-6d50-457b-8a70-790946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

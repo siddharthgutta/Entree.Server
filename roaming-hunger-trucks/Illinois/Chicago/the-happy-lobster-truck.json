@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Happy Lobster Truck is brought to you by Alex Robison, a passionate guy who ditched his dream job working for MLB.com (which granted him an exciting life deep within the world of baseball) to pursure a new purpose; bringing people together through blissfully delicious food. As he takes The Happy Lobster Truck through the streets of Chicago, it\u2019s very clear that his \u201ccrazy\u201d decision has paid off as each smiling customer savors every bite of his lusciously lobster-y offerings. The bread is locally baked and the lobster is freshly caught in Maine. This tasty selection of Rolls, Grilled Cheeses, Chowders, Bisques, and Whoopie Pies, will surely delight your appetite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Happy Lobster Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558057a8-6958-49ac-8416-0e9546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

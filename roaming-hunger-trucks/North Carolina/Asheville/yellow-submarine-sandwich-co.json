@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Yellow Submarine Sandwich Co. is serving up fantastic sandwiches, salads, wraps, and more! If a grilled chicken sandwich with sweet onion sauce, provolone, and bacon, all on a croissant sounds like an amazing meal to you, you should know that this is only the tip of the iceberg! So come by today, see what's on offer, and say hi to your friends all aboard the Yellow Submarine!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yellow Submarine Sandwich Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f60cdf-1ad0-4d33-a51f-0f1446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

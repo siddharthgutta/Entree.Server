@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An ice cream parlor on wheels, it's Old Betty! Nothing makes a good time better than ice cream, and nothing makes ice cream better than when it's served with a smile! Old Betty is great for any occasion, and loves helping you with your fundraiser, so don't hesitate to bring the big pink truck when you need good times for a good cause!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Old Betty Ice Cream Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552ef325-8bd4-4b78-a366-0dfa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

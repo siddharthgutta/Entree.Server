@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rockee's is serving up delicious Mexican food right to you! Made fresh and delicious, everything at Rockee's is the very best of the best. From the Sopapillas, burritos, and tacos to the hot dogs and Hawaiian shaved ice, everything you order at Rockee's is guaranteed to be the very best that it can be!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rockee's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55230e12-1b94-42dc-93e4-0b3246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

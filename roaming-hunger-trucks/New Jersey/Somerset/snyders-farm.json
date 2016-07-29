@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Farm fresh goodness on four wheels is on the roads of New Jersey! Snyder's Farm is bringing the fresh produce you crave to you, right from their very own fields. Crisp, seasonal, superb, Snyder's Farm is bringing nothing but the very best to your favorite farmer's markets and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Snyder's Farm",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569d379d-a5fc-4dbe-a2c4-154846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

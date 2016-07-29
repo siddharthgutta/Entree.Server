@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best tacos and Mexican in San Antonio, fresh from the Tin Can! Tin Can Tacos is bringing quality right to you, with their delicious tacos, empanadas, ceviche, and more! Are you looking for real flavor, great service, and a great eating experience? Then Tin Can Tacos is here for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tin Can Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f1906-f1b4-4839-9c12-3e4946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

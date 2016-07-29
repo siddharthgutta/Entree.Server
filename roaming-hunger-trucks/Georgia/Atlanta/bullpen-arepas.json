@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for a meal that's sure to hit a home run, then this is the food truck for you! Bullpen Arepas is taking their terrific Venezuelan menu, featuring the finest arepas and empanadas you've ever seen, to the streets of Atlanta. Don't miss out on Bullpen Arepas, they've found their sweet spot and they're ready to knock it out of the park!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bullpen Arepas",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569e903e-3abc-4caa-bd2a-3c7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

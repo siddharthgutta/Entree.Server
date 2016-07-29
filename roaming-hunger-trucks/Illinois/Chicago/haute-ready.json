@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our mission at Haute & Ready is to serve the streets of Chicago with high quality gourmet food on the go.  We believe you deserve unique creations using only the freshest and most delicious ingredients.  Haute & Ready was founded on the philosophy that a delicious and fresh meal should be affordable for everyone.  Our goal is to do away with fast food being the affordable standard.  To us, food is life-- demand the best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Haute & Ready",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53b1e293-3c50-429d-a91a-098b46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

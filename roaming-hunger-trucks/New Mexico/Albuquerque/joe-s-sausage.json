@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Joe S. Sausage is serving up savory craft sausages on the streets of Albuquerque! Redefining sausages for a mobile meal world, Joe S. Sausage is bringing you new and fantastic tastes with every bite. You'll find Irish Bangers, Smoked Polish sausages, Andouile sausages, and so much more today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Joe S. Sausage",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cd0d0f-6494-4c97-865d-581f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

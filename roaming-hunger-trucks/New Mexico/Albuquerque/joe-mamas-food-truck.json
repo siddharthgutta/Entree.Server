@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet dining on the move! Specializing in gourmet meatballs, Italian food and fusion cuisine, Joe Mama's Food Truck gets inspiration from owner Jason Rullo's travels around the world as a musician. Sustainability is important, with an emphasis on local ingredients and green business practices.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Joe Mama's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553ac895-8f78-4e34-a100-193f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

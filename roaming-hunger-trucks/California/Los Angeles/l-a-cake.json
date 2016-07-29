@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "LA Cake is great for cupcakes on the go! If you're looking for custom cakes for your own private event, these cakes are exquisitely hand-crafted, for a unique look every time. Try their flavors, such as red velvet, mango, and salted caramel! Stop by soon for a sweet treat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "L.A. Cake",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5605d082-7750-4268-ae4f-5f3d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

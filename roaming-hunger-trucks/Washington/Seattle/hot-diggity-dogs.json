@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Diggity Dogs (and sausages) is Seattle's mobile authority on Hot Dogs! ! Standard menu grilled to order   \u00bc lb Polish Sausage or All Beef Hot dog, bag of  chips and bottle water, ketchup, mustard, relish, onions. UPON REQUEST tons of types of mustards, pepperoncini, jalape\u00f1os, sauerkraut, SPECIALTY SAUSAGES/DOGS,  chicken sausages or vegetarian sausages. Or in spring and summer we can bring one of these specialties: Seattle Mariner Dogs and Johnsonville Bratwurst, \u00bd lb Kielbasa, UPON REQUEST BEVERAGES coffee, hot cocoa, bottle Coke, canned soda, lemonade, Gatorade.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Diggity Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51ed79ed-1a4c-4a1b-b12d-57cb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

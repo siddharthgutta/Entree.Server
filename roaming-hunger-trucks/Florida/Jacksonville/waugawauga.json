@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jacksonville will never be the same after it's experienced the magic of WaugaWauga! A gourmet fusion food truck on the streets of Florida, WaugaWauga is serving up the delicious dishes you crave. The tastiest tacos, sliders, wraps, and more are all right around the corner, thanks to WaugaWauga!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "WaugaWauga",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5631335a-7c64-4e50-9f84-44a146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

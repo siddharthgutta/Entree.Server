@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This Portland food cart is bringing you the flavors of an island all the way in the Indian Ocean. It's unique flavors are a blend of the colonies that populated the island. Inspired by African, Chinese, Indian, and French flavors, this cart sure does provide a delicious way to learn more about the culture of Mauritius. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chez Dodo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e9c8a3-bdec-4f27-bbf1-0f4246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

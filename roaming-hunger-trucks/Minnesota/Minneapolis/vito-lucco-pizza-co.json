@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Vito Lucco Pizza Co is the place to go for the finest food you'll ever find on the streets of Minneapolis! With wood-fired flavor you're sure to love, this food truck is ready to deliver the fantastic taste you've been craving. Don't settle for less, eat only the best with Vito Lucco Pizza Co!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vito Lucco Pizza Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5678662b-ce34-4406-9ffe-6a9446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

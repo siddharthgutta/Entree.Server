@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sir Pizza has been offering fresh, delicious food in a fun, family-friendly atmosphere for over 40 years. The original Sir Pizza debuted in Indiana in 1957. South Florida got its first taste in 1968, when the landmark Key Biscayne restaurant opened. The concept moved to the mainland in 2009, and today there are seven locations throughout Miami-Dade and Broward, with more being added every day. From the beginning, the ultimate goal has been to create quality pizza, subs, pasta, salads and more using the freshest ingredients. Every restaurant offers a comfortable environment that appeals to people of all ages. We look forward to serving you and providing the best possible dining experience, whether you\u2019re at one of our restaurants, ordering takeout or having your food delivered.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sir Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dbfb361-f38c-4f5d-917a-0d0e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

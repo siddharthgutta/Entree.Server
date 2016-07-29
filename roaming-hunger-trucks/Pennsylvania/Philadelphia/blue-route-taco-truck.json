@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Blue Route Taco Truck is OPEN!!! Great tacos and burritos served from a truck on - get this - a roof! Enjoy your food in the open air and watch the beautiful setting sun! Grab yourself a chicken or veggie taco, a battered fish burrito, a veggie rice bowl, or another tasty dish!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Blue Route Taco Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4db11e81-c28c-449f-9274-5b2a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

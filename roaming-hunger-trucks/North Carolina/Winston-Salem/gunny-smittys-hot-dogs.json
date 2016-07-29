@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gunny Smitty's Hot Dogs is serving signature hot dog for everyday of the week. This hot dog cart is like no other making some epic hot dog toppings like pepsi onions or bacon jam, taking your taste buds to a whole other realm in your regular hot dog in a bun experience.  Next time you're hungry, go see Gunny!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gunny Smitty's Hot Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555a37aa-3f2c-463a-8943-2e5e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

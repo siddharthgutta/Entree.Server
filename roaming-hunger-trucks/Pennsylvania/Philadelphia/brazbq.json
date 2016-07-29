@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hankering for some juicy tender Brazilian BBQ? Well, it's coming to you curbside with Philadelphia's Braz B.Q. food truck! Choose from a variety of sandwiches, burgers, wraps, and tacos filled with your choice of steak, beef, or chicken! Vegetarian? No problem, try their grilled pineapple wrap filled with lettuce, fried onions, mayo, tomato, potato sticks, and corn. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BrazBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5739/559a1188-1160-40ea-8dc5-140246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

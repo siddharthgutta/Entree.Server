@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A food truck unlike any other, G's Chili offers delicious spicy gourmet chili anywhere within the greater Oklahoma City area. G's offers pasta and sandwiches, but the real specialty is the chili, so don't miss the opportunity to try this unique recipe, formulated in 1963, with a taste you won't find anywhere else.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "G's Chili Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fe52c4-8c50-42fe-876a-4d5d46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

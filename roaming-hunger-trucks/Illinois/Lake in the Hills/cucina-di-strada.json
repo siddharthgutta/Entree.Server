@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic Italian cuisine is roaming the streets of Illinois, bringing fantastic food right to you! Cucina di Strada's food is always high quality from the best ingredients possible, so every bite you take will be fantastic. Pastas, salads, sandwiches, and more are just around the corner with Cucina di Strada!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cucina di Strada",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5588736d-9600-4d35-9d28-770446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

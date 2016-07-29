@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Street food, inspired! The Truck Stop is here to bring you the very best in delicious, organic, local food, at a good price. With an eclectic breakfast and lunch menu, with items ranging from the breakfast tacos, to arepas with ham and eggs, onigiri, and kimchi dogs, this is a truly unique food truck that you just have to try!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Truck Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f566c-d3e4-40c8-b896-700046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nomad Pizza's beautifully restored 1949 REO Speedwagon truck adds character and ambiance to your party.  Our truck is completely self contained.  It has a wood fired brick oven, a commercial refrigerator, a three bay sink, a hand wash sink, a hot water heater, a generator, a retractable awning, lights, work tables, serving tables, on board sound system.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nomad Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4dfab2e1-1e70-4db0-8c19-196b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

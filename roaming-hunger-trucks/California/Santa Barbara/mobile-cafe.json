@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Mobile Caf\u00e9 Project is a program of the Santa Barbara School Districts' Nutrition Services Department, under the direction of Nancy Weiss, Director of Food Service. We provide a delicious and nutritious option for three area schools, and will be appearing at your favorite events like Solstice, Fiesta, Earth Day etc.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobile Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e1e7c6e-b8fc-49b3-a2c3-2f3946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

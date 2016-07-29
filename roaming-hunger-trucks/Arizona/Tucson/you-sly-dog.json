@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You Sly Dog is a locally owned food truck that brings the Tucson community a new twist to some of your favorite hotdog originals. Their menu features their signature take on dogs, sausages, and brats, including The Baloney Tony, made with a premium all beef hot dog surrounded by tasty fried beef bologna placed in a super soft Mexican roll and topped with all your favorite sandwich fixings and a super secret dressing.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "You Sly Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51f022f8-3124-4eb3-9169-31f946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

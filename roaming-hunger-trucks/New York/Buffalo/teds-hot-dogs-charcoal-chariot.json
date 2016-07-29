@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you love Ted's Hot Dogs, you're in luck--Ted's has a food truck now serving in Buffalo! Try their Veggie Dog, Chili Dog, or even a Cheeseburger. Stop by soon if you want to try Ted's Hot Dogs on the go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ted's Hot Dogs Charcoal Chariot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560b1b95-32bc-426f-90b2-23b746204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Korean and Mexican cuisine have combined to bring you the best of two amazing culinary traditions in one fantastic food truck! Bomba Fusion is cooking up delicious burritos, bibimbap, tacos, and so much more for you! When cultures combine it leads to amazing things, and you can get a taste of it at Bomba Fusion!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bomba Fusion",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b0187-4a30-413c-87ed-45a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

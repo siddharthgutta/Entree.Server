@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to Roxy's Ice Cream Social, Oklahoma's premier hand dipped ice cream truck. We specialize in unique flavors and fresh baked cookie sandwiches. Come try us out I promise you will wish summer never ended.Come grab a cone from our truck! Sweetness!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roxy's Ice Cream Social",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5089cbe4-795c-4531-ac5c-4aab46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

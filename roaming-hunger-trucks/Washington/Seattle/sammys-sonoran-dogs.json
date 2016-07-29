@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic American hot dogs with a Mexican twist, Sammy's Sonoran Dogs have hit the streets! Bacon-wrapped hot dogs grilled to perfection and served on some unique hot dogs buns from south of the border! Topped with all kinds of things from onion & peppers to beans & avocado, Sammy's Sonoran Dogs are sure to liven up your day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sammy's Sonoran Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b1707-decc-4c24-abc8-65f846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

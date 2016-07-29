@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Moto-Espresso Coffee is serving up freshly brewed rich Italian and Brazilian coffee roasts from their cute little Italian-style coffee cart. Make sure to start your day off right by stopping by the Moto-Espresso coffee cart for a tasty cup of joe!  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Moto-Espresso Coffee Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/526ea408-e8d8-4898-a273-600646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

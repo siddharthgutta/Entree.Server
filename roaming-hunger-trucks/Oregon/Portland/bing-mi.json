@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A culinary delight you don't see every day, Bing Mi is bringing fantastic Chinese crepes to a street near you! Savory and delicious, from the villages of Northern China, there's nothing quite like these delicious crepes known as Jian Bing. Simple, tasty, and perfect for a meal on the go, Bing Mi is serving up something that you've just got to try!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bing Mi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558ae04a-5a58-4def-ae4c-136a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

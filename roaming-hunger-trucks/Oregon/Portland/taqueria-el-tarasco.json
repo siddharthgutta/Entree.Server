@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This burrito cart is a popular curbside spot in Portland. Their tortillas are soft and chewy and are filled to the brim with your choice of tasty meat and/or veggies. Customers love the chicken mole burrito, made with a tangy savory chocolate sauce. They also offer tacos, tamales, quesadillas, tortas, tostadas, enchiladas, sopes, and much more. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria el Tarasco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5244bba0-9ce4-4bc7-bda0-415446204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

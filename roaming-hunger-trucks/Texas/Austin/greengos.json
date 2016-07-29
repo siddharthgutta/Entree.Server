@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Greengo's is a family-owned food truck, serving burritos, sliders, and dogs to the city of Austin. Each meal is prepared from scratch with a whole lotta' love, and most feature family-grown Hatch Green Chile! If you're in the mood for some tasty home cooking with a bit of a kick, head on over to Greengo's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Greengo's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5464f410-ce60-443a-81db-13b746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet Tea Factory is a great trailer offering a variety of freshly brewed loose leaf teas, hot or iced, as well as tea ice pops, tea sorbets, and tea slushies.  The tasty artisan flavors range from Smoki Bacon Chill Sorbet - made with smoki lapsang souchong tea and bourbon-smoked sugar, layered with a caramelized bacon topping, to Tropical Bliss Sorbet - Award-winning Coconut Oolong tea with fresh pineapples and mangoes! If that sounds half as amazing to you as it does to us, check out this trailer right away!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Tea Factory",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53ccaa88-824c-4cbe-87b9-7a9646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

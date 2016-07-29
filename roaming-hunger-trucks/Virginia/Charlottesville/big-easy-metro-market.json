@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for Cajun cuisine on the street food scene? Then Big Easy Metro Market is here for you! A rotating menu of Chef's Specialties is sure to have something to satisfy your culinary cravings. For fantastic po' boys, gumbo, and so much more, Big Easy Street Market is the food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Easy Metro Market",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ea0ab3-26ac-4d04-96d0-5f1646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

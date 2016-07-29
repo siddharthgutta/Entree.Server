@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have ya heard? Burgers Ya Heard is cooking up some hot and fresh gourmet burgers just for you! From the classic burger, to the gringo topped with pico de gallo, to the burga-laya topped with their delicious jambalaya, you can't go wrong at Burgers Ya Heard!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burgers Ya Heard",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d89a7-8f18-4332-a18f-734846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

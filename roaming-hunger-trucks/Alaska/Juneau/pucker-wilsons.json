@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pucker Wilson's amazing menu of delicious and affordable eats is rolling down the Juneau streets today! You'll love getting your hands on this great grub every time it comes to a curb near you. Tacos, burgers, fish & chips, and so much more are ready and waiting for you today with Pucker Wilson's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pucker Wilson's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5628182b-450c-4496-b0bf-4a3f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

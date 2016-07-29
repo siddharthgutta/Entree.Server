@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BLUE MOO is bringing frozen treats and good times to the streets of the Twin Cities today! Your sweet tooth is sure to love these ice cream novelties whenever BLUE MOO rolls up to you. All your favorites are here, and waiting for you, so don't miss out on BLUE MOO Ice Cream!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BLUE MOO Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13304/57563492-2b84-49db-a77f-66f846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

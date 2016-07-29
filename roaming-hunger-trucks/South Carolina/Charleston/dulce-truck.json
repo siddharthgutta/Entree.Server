@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dulce Truck is Charleston's go to dessert truck.  They serve green and black sweet teas with locally sourced fruit, herbs and spices.  Dulce Truck also serves flavorful cheesecakes, delicious cookies, tarts and many other sweet treats to satisfy a craving or to accompany a celebration. Like their teas, they like to use local ingredients in the desserts as well, whenever possible. Dulce Truck also offers a variety of breakfast pastries, including muffins, coffee cakes and danishes.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dulce Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50fdd63f-ed60-4161-ad11-323346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Making the tastiest frozen treats on the streets of New Jersey, it's Kona Ice Cape May! Nothing makes a day in the sun more fun than a cool and refreshing Kona Ice! The softest ice, flavored just the way you like, and an attitude that'll make every day feel like a tropical vacation, there's just no beating Kona Ice!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kona Ice Cape May",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589ef56-bb48-47fc-bccc-114146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

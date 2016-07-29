@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Over 12 years experience in the restaurant business has hit the streets of Florida in the South Philly Cheesesteak truck! Continuing their tradition of excellence in the industry, South Philly Cheesesteak is bringing their delicious cheesesteaks, burger,s hoagies, and more, right to you! For the very best food you'll find outside of Philly, this is the truck you're looking for!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "South Philly Cheesesteaks",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55529250-d624-43a3-8d3e-49cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

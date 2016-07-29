@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "J & J Street Eats  is a Cajun food trailer in Columbus Serving up New Orleans style Breakfast and Lunch. Some of their signature items include an Awesome Po Boy Sandwich, an awesome Cajun Burger, Alligator Sausage Po Boy, Red Beans and Rice and Jambalaya !!  Also does Catering,special events and Baked goods and accepts credit cards ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "J & J Street Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539e5e88-bc98-4727-8c84-233146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

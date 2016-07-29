@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Jose\u2019s favorite panini truck is brought to you by Graziano & Vittorio, two old time friends from Southern Italy who came to this country with a dream to serve authentic Sicilian & Neapolitan family recipes.Taking their combined culinary talents, background, training, and Italian influences, they together created Speedy Panini. Their delectable menu is made up of local, homemade ingredients and you really can taste the quality in each bite. A few of their signature panini include the Salsiccia (with homemade Italian sausage, roasted bell peppers & spicy pecorino cheese), the Caprese (with tomato, fresh mozzarella, basil & extra virgin olive oil), and the Prosciutto (with savory prosciutto de parma, tomato, mozzarella & sweet figs confit), to name a few. For all these and more tasty Italian classics, you simply need to eat at Speedy Panini!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Speedy Panini",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec98d97-6638-4262-acd4-5a3846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

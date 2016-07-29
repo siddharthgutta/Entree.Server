@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Paletas Betty is a paleteria - specializing in handmade Mexican fruit and cream pops. Locally made, our paletas are crafted in small batches using the freshest and finest ingredients we can procure.Each pop is made locally in Chandler, Arizona completely from scratch.Try our arroz con leche flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Paletas Betty",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ad49e0-72ec-4e11-a2aa-351246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

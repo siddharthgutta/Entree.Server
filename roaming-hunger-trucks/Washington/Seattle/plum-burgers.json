@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "What started out as a small sandwich shop in Tacoma WA in the 70's has now grown into Plum Restaurants, a group dedicated to nourishing the community with wholesome, organic, vegan foods. The Plum Burgers truck reflects this dedication, serving delicious organic, vegan burgers to the Seattle area. Catch this truck out and about, and try the Kale Caesar Tempeh, Buffalo Portabello, Jerk + Yam, and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Plum Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5419ec0d-dc54-4544-bf73-468e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

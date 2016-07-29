@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papito Moe's is bringing you the best Puerto Rican food around! Salt Lake City's best pastelillos, plantains, and more are one the move. With quality ingredients and quality attitude, Papito Moe's Puerto Rican Grub is too good too miss!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papito Moe's Puerto Rican Grub",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a958f9-51e8-41c0-933b-71ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

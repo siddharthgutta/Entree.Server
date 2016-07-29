@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Brought to you by husband and wife duo Haley and Tony Fritz, O'Cheeze is an exciting new gourmet grilled cheese food truck that has hit the Minneapolis and St Paul area! These sandwiches are more than just two slices of bread with some cheese in between - take the Mexican grilled cheese with homemade spiced Spanish rice, and a blended cheese mixture with pepper slices, all on a Spanish influenced bread. Pair that with either a Spanish sour cream or a chicken tortilla soup, and you've got a meal you won't forget.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "O'Cheeze",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52e93cf0-ff7c-4f25-9d08-539e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

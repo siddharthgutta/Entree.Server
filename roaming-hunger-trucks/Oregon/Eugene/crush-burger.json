@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for something fresh and delicious on the streets of Eugene? Need quality food between college classes? Then CRUSH Burger has just what you need! Locally sourced ingredients, and made-to-order burgers ensure that you get the freshest food possible. With a friendly staff and food you won't soon forget, CRUSH Burger is soon to be your new favorite truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crush Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558d7b49-a99c-4c5f-8a81-11b146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

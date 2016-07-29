@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Good old fashioned hickory smoked barbecue! Slow cooked meats cooked over hickory and pecan wood with recipes passed down generation to generation. Menu features bbq pork sandwiches, smoked ribs, coleslaw, and macaroni & cheese.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Creekside Bar-be-cue Trailer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5536a031-bd50-4830-9cc9-4a7646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

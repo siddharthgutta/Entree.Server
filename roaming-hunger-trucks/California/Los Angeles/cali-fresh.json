@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This big, beautiful truck is serving up crazy-tasty Colombian fusion cuisine, complete with a California influence. You're sure to adore their Burgers, Dogs, Pisaos, and Arepas (of course)! The burgers are made fresh and the meat is locally sourced, so just you know they are SUPER juicy! To top it off, the buns are baked fresh daily from a local supplier. These golden clouds of sweet airy deliciousness soak up all the amazing juices from the meat. Pisaos are Colombia's version of a tostada, so picture a freshly fried plantain, topped with luscious beans, perfectly grilled chicken or beef, farmers cheese, farmers market pico, and fresh crema, mmmm.... And the Arepas? Oh, they're fantastic, delicate, and light with a sweetness from the corn that you cannot beat. The focus at Cali Fresh is on locally sourced ingredients, and you can tell with every bite. As they say in Colombia \"\u00a1Ponte las pilas!\" aka Come on out to Cali Fresh!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cali Fresh",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57842475-1de8-409b-847e-499046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

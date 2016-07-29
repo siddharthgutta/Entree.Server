@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Poppa\u2019s Homecookin\u2019 is serving up domestic bliss in every bite of its delicious BBQ selection. You can order your choice of juicy pulled pork, tender spare ribs, or succulent brisket on a sandwich or in a taco. Either way, it\u2019s totally tasty. For this and more, be sure to hop on by and try Big Poppa\u2019s Homecookin\u2019. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Poppa's Homecookin'",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577d4c43-3704-4766-ac13-0eef46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

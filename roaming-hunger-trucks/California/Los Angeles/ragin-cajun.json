@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Ragin Cajun is the home of authentic Cajun dining in Southern California. Since its founding, we at the Ragin Cajun Cafe have focused on friendly service combined with the best Cajun dining experience to be found outside of Bayou country.Everybody has a good time when they come here... so y'all come visit!To read about the truck's founder, Stephen Domingue, check out the Roaming Hunger blog here: http://roaminghunger.com/blog/3850/feature-food-truck-of-the-week",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ragin' Cajun",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4c69c9c6-5ae0-4150-8688-1f1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

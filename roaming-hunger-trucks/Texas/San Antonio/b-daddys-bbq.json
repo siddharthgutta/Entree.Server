@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "B Daddy's BBQ is a mobile food trailer providing real wood smoked meats to the San Antonio streets. Their diverse BBq menu includes brisket, ribs, sausage, pork and all the trimings along with some daily specials such as stuffed jalapeno's and grilled redfish on the halfshell!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "B Daddy's BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521656c6-0bfc-41d9-a630-6ea846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

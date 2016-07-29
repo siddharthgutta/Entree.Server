@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Walloon's is a great truck serving the Boston streets with delicious hand-cut fries and fried chicken sandwiches! One taste of the buttermilk fried chicken, with a selection of traditional and unique fixings, and you'll have found your new favorite lunch spot. Don't miss out on this fantastic fare!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Walloon's Fried Chicken Sandwiches & Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9230/56bcdd0f-349c-46c5-acc9-501b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

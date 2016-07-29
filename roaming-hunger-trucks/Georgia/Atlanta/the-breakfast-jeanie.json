@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Breakfast Jeanie is a truck offering fast and delicious breakfast options in the greater Atlanta area. Some signature items are the Bacon or Sausage WafflePuffs, and other delicious options include scrambled eggs, cheesy grits, and more! Stop by to make your morning complete!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Breakfast Jeanie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8163/54a3080e-f8ac-4a45-b1f1-1c2646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

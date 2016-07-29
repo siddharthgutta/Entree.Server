@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frenchy's Crepes is Orlando's most incredible crepery, and they're rolling up to a curb near you! Sweet, savory, and unforgettable, these crepes are just like what you'd find on the streets of Paris. Treat yourself to the best flavor on the streets of Florida today, with Frenchy's Crepes!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frenchy's Crepes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56677cc6-4ff0-492f-82dd-33bd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

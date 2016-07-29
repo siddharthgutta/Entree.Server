@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This school bus turned food truck is serving up Atlanta  quite a tasty education!Everything this talented team is making is smoked & grilled, never fried. With a deliciously eclectic selection of the best of Mexican cuisine (tacos, burritos, quesadillas, etc...), as well as other worldly offerings, like naan bread pizza, meatball subs, beef brisket burgers, and so much more, you\u2019re sure to find at least a few items you\u2019re sure to adore from the Tasty Bus. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "TastyBus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57509ec1-9e00-4e14-97b8-029c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

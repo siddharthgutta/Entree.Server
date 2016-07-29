@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The first Coffee Ambulance Truck in Houston has arrived to save its citizens from critical caffeine deficiency!Serving fresh coffee, hot/cold lattes, mochas, hot cocoa and smoothies. We sometimes serve Cinnamon rolls and sour cream donuts when requested ahead of time. Our coffee bean are of the finest quality and are roasted right here in Houston by Java Pura, who travel around the world buying from farmers that care the best for their products and produce the finest of the finest. This is why our espresso shots come out so smooth and sweet!So if you are ever in a caffeine emergency, Espresso Rescue will save the day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Espresso Rescue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53111e39-57d0-486d-b9bd-362346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

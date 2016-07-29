@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nothing quells the summer heat quite like a tasty ice-cold hand-crafted frozen pops from one of LocoPops three NC locations! Fan favorites include mexican chocolate, mango chile, and cookies and cream! In addition, they also offer other great tasting sweet treats like classic root-beer floats! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LocoPops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522fa16b-8104-41cd-ba97-4b4546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

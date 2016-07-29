@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Award-winning BBQ on the streets of El Paso is coming to you right Off The Grill! Serving up nothing but the most mouthwatering meals you could ever ask for, Off The Grill will never disappoint. Brisket, sausage, ribs, and more, all seasoned and cooked to perfection. If you love good food, and especially good BBQ, keep an eye out for this fantastic food truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Off The Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a00baf-d050-4379-aa7d-0da446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The ultimate comfort food is here for you, thanks to The Coop! Chicken and waffles go together like peanut butter and jelly, and we know you'll agree after you sink your teeth into an amazing meal from this fantastic eatery. Food that'll fill you up and make your day fantastic is right around the corner, with The Coop!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Coop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5604820c-5544-4afa-8544-7bfd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

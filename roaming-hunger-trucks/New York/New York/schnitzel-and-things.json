@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Schnitzel & Things is serving up incredibly tasty, authentic schnitzel; a hand pounded, lightly breaded thin cutlet (of chicken, pork, cod, or eggplant) fried to golden perfection, and served alongside a lemon wedge and and savory Austrian potato salad. And with all this deliciousness made fresh to order, it\u2019s no wonder why New Yorkers are just loving this truck. You\u2019ll also find a delightful variety of other sides, like braised sauerkraut, beet & feta salad, Yukon fries, and much more. Whether you\u2019re gearing up for your next lunch or your next get-together, Schnitzel & Things is the truck for you.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Schnitzel and Things",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e398dfc-5950-4c35-8f4d-645446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

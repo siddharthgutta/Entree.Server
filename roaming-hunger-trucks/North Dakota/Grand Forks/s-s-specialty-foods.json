@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Have you been looking for some truly gourmet grub? Then S&S; Specialty Foods is serving up the superb brats that you need!Hot, juicy, and just right for you, whenever you sink your teeth into one of these sausages your taste buds will never be the same.The Bacon & Swiss, Dill Pickle, Jalapeno Cheddar, and every other brat this truck is bringing is just perfect for any and every occasion!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "S&S; Specialty Foods",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5733aa48-c838-47b6-9a58-1d5346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

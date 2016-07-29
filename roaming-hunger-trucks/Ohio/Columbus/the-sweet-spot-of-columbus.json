@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sweet Spot is bringing delicious gelato, as well as tasty waffles and fantastic espresso and coffee drinks to the Columbus streets. You'll never find a sweeter treat than what The Sweet Spot is serving up. Come by for a great sweet treat, and then warm up after with a refreshing espresso!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Sweet Spot of Columbus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13705/572393ed-da20-4b37-a8fe-7db746204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

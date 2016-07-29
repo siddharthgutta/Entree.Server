@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Chuck Truck is a great burger truck in the Greenville area serving gourmet burgers on their signature menu using fresh, local, high quality ingredients. Check out the N'awlins Burger, the Bruschetta Burger, or grab yourself a tasty Chipotle BLT. And don't miss the sweet potato fries!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Chuck Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5452cfa1-85ec-499e-8d86-32d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

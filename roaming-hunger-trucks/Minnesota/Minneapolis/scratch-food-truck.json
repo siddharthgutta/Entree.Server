@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Scratch Food Truck is the brain-child of Minnesota-raised Chef Geoff King and wife Aimee King. The concept of Scratch is about sustainable/local food made fresh daily with a Pacific Islander/Asian influence. Growing up where food was family, celebration, tradition, and life sculpted our menu. Whether it was managing kitchens (SUBO, Jax Cafe), or bartending, we've understood that we love what we do, and hope to share that with you. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Scratch Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ea9f110-c59c-44a1-a6ce-255846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

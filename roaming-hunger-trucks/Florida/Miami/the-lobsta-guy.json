@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Lobsta Truck is a mouthwatering truck serving up delicious lobster rolls to the streets of Miami. These signature lobster rolls are made of fresh, mouth-watering lobster meat served on perfectly balanced, New England style, top-sliced toasted buns. This perfect combination maintains the ideal lobster to bun ratio, so get yourself one of these tasty bites today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Lobsta Guy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54512661-10ec-47e5-8d68-574c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Quick Bites Catering is cooking up something special for you! Combining culinary traditions from America, Mexico, and Italy, this truck is bringing a flavor explosion to your next big event. Whether you need to feed a big corporate event or that next family reunion, Quick Bites Catering is guaranteed to be the perfect food truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Quick Bites Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c8d714-ea0c-4dc0-a10a-59c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

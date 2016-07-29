@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Shuka truck is a delicious creation that sprouted from the passion of Chef Gabriel Israel and the sharp business minds of his two partners, Josh Sharon and Solomon Taraboulsi. These three guys are life long friends that grew up in the same town with the same passion for food. In 2014 Gabriel, josh and Solomon decided to follow their dreams and create their own restaurant on wheels. Try these amazing sandwiches and platters today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Shuka Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8205/548f5089-7358-447b-9939-665046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

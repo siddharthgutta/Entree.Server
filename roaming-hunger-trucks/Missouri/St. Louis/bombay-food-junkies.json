@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Being the first Indian Food Truck in St Louis, Bombay Food Junkies promises to bring you the famous Bombay street food experience. Menu items range from chaats and pizzas to curries and dosas.  Bombay street food is an amalgamation of foods from all over the world, with influences from British, Chinese and Indian cuisine.  Bombat Food Junkies prepare their dishes using spices mixed with healthy ingredients, making it exactly what street food is all about: sweet, spicy, savory and fresh.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bombay Food Junkies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e9bfa6-3c64-45e1-a6d4-10b746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

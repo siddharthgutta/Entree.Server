@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sum Yum Yum food truck's motto is a passion for food. It\u2019s a hunger for the best food. It\u2019s quick, affordable food.  It\u2019s everything made right when you order it, exactly how you like it. It\u2019s unique, fresh and \u201cyum yum\u201d worthy!Enjoy an Asian Sub with all the fixin's, it's a sub like you've never had before. Homemade Laos egg rolls like none other. You'll be back again and again for this great food!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sum Yum Yum truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f089530-8d00-45bb-819e-70de46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

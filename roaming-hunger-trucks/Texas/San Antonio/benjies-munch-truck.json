@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Benjie's Munch Truck is bringing an incredible menu of amazing foods right to you! Porchetta tacos, shrimp po boys, zucchini ribbon salad, and so much more are rolling down the streets of San Antonio on this terrific truck. They're serving up international cuisine like you've never seen, so for an eating experience that can't be beat, be sure to look for Benjie's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Benjie's Munch Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b11bb4-ad88-42f6-ae3e-0a4c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

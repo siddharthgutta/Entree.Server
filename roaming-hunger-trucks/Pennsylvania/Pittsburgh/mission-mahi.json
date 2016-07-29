@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tasty tacos are on their way, thanks to this food truck and its amazing mission! Mission.Mahi's superb Mahi tacos come in a variety of delicious flavors, like the Buffalo, the Yinzer, and so many more. For a taste sensation like no other, it's got to be Mission.Mahi!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mission.Mahi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e4b571-24a0-4331-b340-784846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

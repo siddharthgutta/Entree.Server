@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Out of the Box Food Truck Sandwich Company is bursting onto the scene with some of the best healthy, hearty sandwiches and salads that you will ever have. Their menu serving the freshest ingredients possible and hormone-free meats is sure to have something for everyone, with fresh baked ciabatta bread, sandwiches pressed to perfection and generous filled spinach wraps its sure to meet every customer's expectations. All about exploring all the possibilities when it comes to good food in Boca Raton!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Outside the Box Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552460b1-c9a0-4f15-9bbc-782846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The sea holds many delicious mysteries, and Poseidon's Kitchen is bringing them to you fresh and ready to satisfy your hunger! Poseidon's Kitchen is bringing you fish tacos, lobster rolls, crab cake burgers, and more. Along with their burgers and steak sandwiches, this fantastic surf and turf truck has something for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Poseidon's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5579eb50-837c-4662-a63d-465e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

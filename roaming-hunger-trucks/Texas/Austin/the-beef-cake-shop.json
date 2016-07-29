@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Beef Cake Shop is a trailer serving Ausin with delicious sliders, the likes of which are hitherto unseen! Each slider takes all of the ingredients and flavors of many favorite comfort foods and dishes and puts them into a single patty, called a BEEF CAKE. With beef, chicken, pork, turkey, and vegetarian choices on a weekly changing menu of flavors, this trailer doesn't lack for options. Stop by and get yourself a few of these BEEF CAKES today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Beef Cake Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5464fd89-5ce8-4d7e-93e0-4c7046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

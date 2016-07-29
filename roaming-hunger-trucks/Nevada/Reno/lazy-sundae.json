@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your sweet tooth will never be happier! The Lazy Sundae is bringing you simply the best in ice cream, banana splits, corn on the cob, and more! Build your own ice cream sandwich, have your corn on the cob made exactly how you like it, whatever your tastes are you'll be sure to find something to love at the Lazy Sundae!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lazy Sundae",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55356a8f-45f0-43a2-8b8b-1edb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

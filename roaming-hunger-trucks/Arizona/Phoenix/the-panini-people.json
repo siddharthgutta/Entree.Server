@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This great trailer based out of the Phoenix area is serving up delicious Paninis on handmade, wood-fired bread. Whether you get the Pastrami with Red Onion Chutney or the Croque Monsieur, you'll be hooked with just one bite! This is food made for the People by the People, and it shows.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Panini People",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551972b6-9cd8-4ed1-b97b-4a6b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

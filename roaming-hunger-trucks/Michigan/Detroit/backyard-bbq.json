@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Backyard BBQ is a family owned BBQ company that has a food truck to caters for functions large and small. They roast or smoke whole pigs, ribs, pulled pork, hamburgers, hotdogs, etc. Backyard BBQ serves its popular to die for apple coleslaw, smokey Mac & cheese, & smoked baked beans as sides to accompany their tender meat! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Backyard BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53975718-d6d0-4566-8b24-0d2146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taking the show on the road, Frankie's Pizza is bringing their delicious pizza to the streets! Frankie's Pizza has been a Florida institution for decades, and their food truck is taking that same quality and experience all around town for you. So if you want a taste of Miami's favorite pizza, look for the Frankie's Pizza truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frankie's Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55567974-8828-48a1-ba21-658446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

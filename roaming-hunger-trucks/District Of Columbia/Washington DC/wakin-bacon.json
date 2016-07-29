@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The most important meal of the day is now also the most delicious, thanks to Wakin' Bacon! Breakfast will never be the same after you try the amazing dishes you'll find on this food truck. Wakin' Bacon is cooking you the best biscuits, eggs, and of course bacon on the streets of DC! Try it today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wakin' Bacon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564260cc-5f8c-4ebb-8772-669046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

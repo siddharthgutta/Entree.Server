@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We serve Delta food - Meat Pies, Hot Tamales, PoBoys, Crawfish Bread, and more. Also, we will deliver to your business for groups of 10 or more in the Cool Springs & Franklin, TN area. Please contact us 72 hours in advance to find out our menu for the week. Coming soon-- online ordering",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Delta Bound",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5075c186-a314-442f-ba11-24db46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

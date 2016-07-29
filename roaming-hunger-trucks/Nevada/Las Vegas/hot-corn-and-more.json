@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aw shucks, everyone in Las Vegas just loves Hot Corn and More! This family-owned & operated truck is roasting up some sweet fresh-off-the-farm corn which you can customize with over 50 toppings, including real butter, mayo, and of course, more! You might also find roasted potatoes, squash, peppers, or apples with vanilla ice cream and caramel sauce! Mmm...you gotta pop on by Hot Corn and More for food that you too will surely adore.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Corn and More",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578d2173-0b40-4dc8-aff1-218046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

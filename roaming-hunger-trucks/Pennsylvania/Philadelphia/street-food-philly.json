@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "It's hard to classify the food served at Street Food Philly, except to describe it all as exceptionally tasty. From Vietnamese sandwiches, to Thai curry tacos, to Korean fried chicken, this food truck mixes and matches flavors from all sorts of global cuisines. The menu is also seasonal and therefore varies, but they are sure to have something for everyone. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Street Food Philly",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4759/54ab1e16-dc38-4507-bc28-074446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yumbit Food Truck is the first and only Chinese/Taiwanese Food Truck serving bentos, taptas, and drinks. Our signature dishes are Braised Pork Belly Bento, Braised Beef Shank Bento, House-made Soymilk, etc. We also have hand-made Asian fusion desserts from time to time.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yumbit Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/550c7142-c9f0-4649-91f3-54a046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

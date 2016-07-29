@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Espresso Subito is a mobile coffee truck roaming the streets of San Francisco. Espresso Subito uses USDA Organic Fair Trade beans which are roasted specifically for each event. Our Espresso drinks are made the old traditional method using the finest machines that extract the fine coffee oils necessary to produce the aromatic smell and flavor required to make the finest drinks. In addition to coffee, Espresso Subito also offers steamers, hot chocolate, and teas.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Espresso Subito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/510080a6-7f34-4e06-9d8e-027446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Sol Kitchen's sole mission is feed Fort Wayne fantastic food with lots of sol. With their attentive service and exclusive use of fine ingredients, they're always working to make sure your experience is the best it can be. Their always-fresh international fare is sure to satisfy your cravings and keep you coming back for more.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sol Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552847e1-eaf8-4ef6-bd91-37ca46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

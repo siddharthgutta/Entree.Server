@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The talented peeps at this truck have been feeding the streets of Seattle since 2010 when they were carting their yummy hot dogs all around town. Flash forward to now and you can still find them pleasing everyone with their delicious eats, but their plan has evolved ahead and they\u2019re blazin\u2019 up delicious, juicy burgers instead. Their marvelous mobile menu includes amazing burgers of all kinds: Classic, Shroom, and Jalapeno are a few that you will find. Providing quality is this truck\u2019s strongest belief, so every fry is cut fresh and every hand-forged patty is made with pasture-raised beef. For your next meal, look no further, just come on down and plow into one of these beauties, and then say with us: \u201cPower to The People\u2019s Burger!\u201d",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The People's Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/518c31a7-137c-46e9-a887-163846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

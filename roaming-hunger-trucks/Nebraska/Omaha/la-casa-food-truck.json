@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your favorite corner pizza shop is rolling up to a curb near you! La Casa Pizzaria is packing fantastic flavor into every slice, meatball sandwich, and more. Food that feels homemade is making its way to you, so don't miss out on the wonderful eating experience on the menu of La Casa Pizzaria!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Casa Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564b751a-6c64-4a5b-bbb0-1d7746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

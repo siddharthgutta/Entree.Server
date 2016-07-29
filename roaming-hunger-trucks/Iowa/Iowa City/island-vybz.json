@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A taste of the islands is in the air of Iowa City, and it's being brought to you by the fantastic folks of Island Vybz! This is an experience you can't miss, rolling down the streets of this city with a promise of delicious and exotic flavors. Island Vybz is bringing you Jerk Chicken, Yah Mon Burgers, and so much more like you've never tried before!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Island Vybz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b801ce-cd28-4041-849a-405546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rollin' down a street near you! Still Rollin is serving up the best in gourmet eggrolls with a flavorful twist! The Granny Roll, Full Monte Cristo, Buffalo Mac Roll, and more are all on the menu and ready to take your taste buds on a delicious adventure, so look for Still Rollin today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Still Rollin Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5535820e-eee4-4a58-b841-46dd46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

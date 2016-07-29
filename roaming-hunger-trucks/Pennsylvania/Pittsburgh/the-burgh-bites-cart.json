@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The little cart grew up to be a truck, but is still cooking up the sameclassic sandwiches with a gourmet twist. Their Delmonico Sandwich features grilled and sliced Delmonico steak, fresh Italian chimichurri, and jalapeno slaw on a grilled french roll. For veggie lovers, they also offer a plate of select marinated garden veggies! Don't skip out on their homemade pita chips which make a great addition to any meal! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Burgh Bites Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554a3dae-9908-4e3e-bd3d-3c9f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

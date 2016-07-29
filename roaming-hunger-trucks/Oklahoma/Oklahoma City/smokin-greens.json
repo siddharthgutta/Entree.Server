@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smokin' Greens is serving salads and kabobs that are sure to satisfy your hunger! With a variety of delicious salads to choose from, this truck is sure to have something that's perfect for you. With their Magic Mushroom, Maui Waui Pepper, and seasonal kabobs, Smokin' Greens is ready and waiting to feed your cravings today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smokin' Greens",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e8cb34-b930-475d-bf93-62a346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

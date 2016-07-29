@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cool Beans is bringing something new to the food truck scene! Greens & beans & so much more are what you'll get when you visit this big green truck. Perfect for any occasion, this truck is ready to bring some of the coolest cooking around right to your next event! Don't miss out, try the fantastic food from Cool Beans today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cool Beans Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12227/574a0d40-f588-43d7-ac0e-54c946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

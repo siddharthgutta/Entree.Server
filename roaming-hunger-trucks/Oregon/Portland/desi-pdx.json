@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Desi PDX is providing the streets of Portland with the most amazing Indian cuisine around! This is gluten-free, organic cuisine so anybody can enjoy these delicious dishes. The Pakora Waffles, Kali Eggs, Cardamom Chai Chicken, and more are sure to have you coming back to Desi PDX again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Desi PDX",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/565366f1-5b28-4a83-8dd0-398546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

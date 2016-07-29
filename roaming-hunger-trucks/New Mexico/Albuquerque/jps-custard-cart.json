@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Did you see the Scoop Bus driving by? The repurposed school bus painted to look like an old school ice cream shop houses some of the finest frozen treats you'll find in Albuquerque. Inspired by the abundant frozen custard shops in the Midwest, JP's Custard Cart brings authentic frozen custard to the Southwest. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JP's Custard Cart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55392a96-93e4-453f-933e-7e3746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

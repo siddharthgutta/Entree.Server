@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fins on the Hoof gourmet food cart brings surf and turf to the streets of San Francisco. Check out some of the great rotating options, from Chowder to Whiskey Shrimp to Fried Oyster and Irish Bacon on Texas Toast! Your taste buds will thank you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fins on the Hoof",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eda9180-2628-4cd2-be14-0cc746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Delish Kebabs is an Brazilian Barbecue mobile kitchen offering signature kebabs that range from Beef to a customer favorite the Homemade Bacon Sausage. Their specialize cooking over charcoal has lead them to win awards in Jacksonville, Florida. Book Delish Kebabs for your next major event, bringing you the best meats and vegetable all in one amazing bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Delish Kebabs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553823bf-8b28-4ec6-9a2c-1b5146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

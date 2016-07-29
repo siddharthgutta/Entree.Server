@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Austin's most mobile and amazing tea parlour is roaming the streets serving the best whole leaf tea and fresh baked goods in town! Bundrick's Traveling Tea Parlour has just what you're looking for. Hot tea? Iced? Arnold Palmers? And let's not forget some scones, tarts, and tea sandwiches to go with all of those wonderful drinks! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bundrick's Traveling Tea Parlour",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558b3b63-5b18-4ff5-8dd1-7f3146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

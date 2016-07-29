@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For a hearty, delicious Southern meal, stop by Southern Kitchen to see what Las Vegas is talking about! With items like their Ultimate Southern Mac 'n Cheese or their Bacon Marmalade, these comfort foods are sure to fill you up. You're sure to leave with a big smile on your face after eating at Southern Kitchen!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Southern Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11818/55c0d0bf-a7f4-4fd8-937b-2c3346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

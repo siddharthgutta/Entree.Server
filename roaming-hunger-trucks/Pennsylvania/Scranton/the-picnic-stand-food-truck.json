@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Scranton, PA ALL of our food is homemade and made from scratch.  We serve your picnic favorites year round: Philly Cheesesteak, BBQ Pulled Pork, Kielbasa w/ Picnic Sauce, Sausage and Peppers, Funnel Cake, Potato Pancake, Fried Dough, Double Fried French Fries, Sweet Potato Fries, Fried Oreos, Homemade Pierogies (Regular, Hot Wing, Jalapeno), Special of the Day, Dessert of the Day",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Picnic Stand Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51b22851-8dd8-4931-a0e0-7fb646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

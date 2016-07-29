@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Svante's Stuffed Burger food truck serves gourmet grass-fed, grass-finished,  hamburger made from the all-natural beef from the pastures of our historic Texas family ranch. Our truck won the 2015 Best Burger in Austin Award. Our restaurant, called Svante's, opened in Round Rock in October 2015. Besides our beef, Svante's feature organic produce, free-range chicken and other items grown by local farmers. With the restaurant we can customize a menu for any event; corporate, wedding, sports, festivals, you name it, and serve it from the truck or deliver directly to your event. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Svante's Stuffed Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546cfbe0-0930-42be-892b-3cf246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

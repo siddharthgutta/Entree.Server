@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Schnitzi is a schnitzel truck serving the New York streets. These unique dishes each stand out in their own delicious way, but the real star of the show is the array of sauces available. These sauces intensify the taste of the Schnitzel, and each other item on the menu as well. The most popular sauce is the Garlic-Mayonnaise and Chimichurri!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Schnitzi",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54346085-6aac-4b31-9288-6b5d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

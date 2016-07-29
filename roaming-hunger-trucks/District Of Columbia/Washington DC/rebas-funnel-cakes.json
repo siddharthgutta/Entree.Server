@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Reba's is a funnel cake truck serving the streets of the DC area. Offering the eponymous funnel cakes, as well as fried snacks, hot dogs, sundaes, and floats, Reba's can meet all your carnival needs. Find them out and about, or have them make your event that much tastier!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Reba's Funnel Cakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5438596d-2884-4bdd-810b-09cf46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

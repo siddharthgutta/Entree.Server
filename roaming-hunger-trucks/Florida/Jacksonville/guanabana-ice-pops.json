@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet, hand-crafted ice pops made right in Jacksonville by GuanaBana Ice Pops! Fresh fruit, all-natural ingredients, and a dedication to quality set these ice pop apart! From the traditional to the exotic, you're sure to find a flavor you'll love at GuanaBana Ice Pops!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "GuanaBana Ice Pops",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5555093e-2058-4bbe-9827-361546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

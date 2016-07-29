@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Welcome to the Bay Area's own Chicken & Waffles Truck!  We pair (a slightly spicy) traditional buttermilk fried chicken with a true Belgian waffle.  We mix and match them in all sorts of ways.  Pair that combo with some traditional Southern sides and you've been introduced to the Roost.  Come check us out!  We promise you'll never look at Chicken and Waffles the same again.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Waffle Roost",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52028576-d97c-44c4-98dc-30ff46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

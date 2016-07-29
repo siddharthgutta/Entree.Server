@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Spudnix is bringing you delicious BBQ that is out of this world! Have you been craving the best BBQ sandwiches and potatoes in town? This is just what you've been looking for! You'll find brisket, pulled pork, and ribs that'll really stick to your ribs when you visit this great truck. Don't wait, get the eating experience of a lifetime today at Spudnix!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spudnix",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55cbaab3-ad9c-4bdb-a349-796b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

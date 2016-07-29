@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bella Sorella is a delicious mobile wood-fired oven serving the Dayton area hot, fresh pizzas! They've got all your favorite pies, from the Big Fella (pepperoni) to the Greek-In-Law (pesto, artichoke, Greek olive, peppers, and feta), or they can fashion a special dish just for you! Crisp crust, warm pizza, and tasty toppings -- Bella!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "bella sorella pizza co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551ed442-28c4-47cc-846e-338f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

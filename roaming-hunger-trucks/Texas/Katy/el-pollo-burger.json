@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Authentic Texas taste in every bite is what you get when you try El Pollo Burger! There's nothing more Texan than a freshly grilled burger, and there's nobody making them better than these fine folks. Making their all beef burgers and homemade chicken breast sandwiches with all their heart and soul, El Pollo Burger is making something you're sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Pollo Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/569fe14c-1380-4879-8358-0ca146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

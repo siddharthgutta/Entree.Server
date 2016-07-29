@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking the freshest in local grub the Big Island has to offer, Poke Da Dawg has you covered! Specializing in gourmet hot dogs, delicious poke dishes, and the best sandwiches and salads you'll ever find, Poke Da Dawg will leave you happy and satisfied!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Poke Da Dawg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5524550e-bb84-4bc3-8458-2e2a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Shattuck's Paddy Wagon is a great trailer serving a variety of sandwiches, wraps, \"changas,\" and more to the Syracuse streets. Hungry for a great meal while you're out and about? Stop by Shattuck's! And don't miss the famous Sriracha Tots!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shattuck's Paddy Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54fa23cb-33f0-4eaa-b418-77d146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

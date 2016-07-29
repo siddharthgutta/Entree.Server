@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Little Imbiss is bringing authentic German cuisine right to you, today! When you try street food straight from Berlin, you'll fall in love this amazing menu of great grub on the go. Try the D\u00f6ner Kebab, Currywurst with Pommes, Rostbratwurst, and more today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Little Imbiss",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56142ba3-1518-4674-8c09-7ae846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Great White Smoke is serving up the best BBQ in Indiana! That smokey, delicious flavor has never been better than what you'll find on this fantastic food truck. The delicious pulled pork, brisket, burnt ends, and everything else off this amazing menu is sure to have you coming back again and again! For amazing food you'll never forget, keep an eye out for Great White Smoke!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Great White Smoke",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c28217-3a6c-470b-9f61-120c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

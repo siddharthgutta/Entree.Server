@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Wholly Kabob is a tasty kabob trailer serving Persian-style grilled kabob skewers to the Austin streets. The kabobs are served on wheat or white pita bread, with toppings including shallots and yogurt sauce, avocado/jalape\u00f1o sauce, spicy mustard sauce, freshly-made hummus, and much more! If your mouth's watering at the sound of these delicious bites, stop by Wholly Kabob today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wholly Kabob",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546296b6-cd68-4231-be9b-0f2846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

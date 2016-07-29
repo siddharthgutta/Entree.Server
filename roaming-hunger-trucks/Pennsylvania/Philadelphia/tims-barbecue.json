@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tim's Barbecue is a BBQ food truck located in Bucks County, PA, specializing in Texas and Carolina style BBQ. They sell brisket, pulled pork, spare ribs and more, and use only cab or prime briskets and premium all natural pork. Nearly every delicious offering is homemade!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tim's Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8495/550787ef-1868-4d22-b4c4-43a646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

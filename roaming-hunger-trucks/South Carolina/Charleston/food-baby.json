@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, local, organic, and fantastic, Charleston's very best is rolling right to you! Food Baby is serving up a menu of locally sourced, internationally inspired cuisine that's unlike anything else around. A seasonal menu of delicious soups, salads, sandwiches, and so much more is what you'll get from the fine folks at Food Baby!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Food Baby",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56900cda-1134-4a4c-a933-40a846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

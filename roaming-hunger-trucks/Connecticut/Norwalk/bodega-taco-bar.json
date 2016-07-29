@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Bodega Taco Bar has brought its delicious fare to the streets, in the form of a taco truck! From homemade chips to crispy empanadas to their fantastic tacos, these flavorful eats are sure to make you swoon! If you're hungry already, find the truck when it hits the streets or, if you just can't wait, throw a party and bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bodega Taco Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55022adc-3ff8-4c6d-898c-720546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

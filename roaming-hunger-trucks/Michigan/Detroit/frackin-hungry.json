@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you\u2019re drivin\u2019 through \u201cThe D\u201d and you see Frackin\u2019 Hungry on the streets, you must stop and meet Chefs Chris & Jess, and order up a dish of their gourmet-on-the-go cuisine, because it\u2019s indeed the best. At this delightfully designed truck, you\u2019ll find quite a few highly delicious \u201ctruck-made\u201d items, including Corned Beef Stacks (with grilled potato bread, braised cabbage, and gooey cheese sauce), Confit Yukon Gold Potatoes (the perfect mix of creamy and crispy with fresh herbs and cheese),  Veggie Burgers (with tomato pepper jam, avocado smash, and fresh greens), and more. The next time you\u2019re feeling famished, quit snackin\u2019 and head straight to Frackin\u2019 Hungry. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frackin' Hungry",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13636/5742d406-bbdc-48a4-bb97-48ce46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

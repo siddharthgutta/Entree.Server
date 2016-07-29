@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aldi Recipes is a delicious Asian Fusion truck serving the streets of Los Angeles. With everything from popcorn chicken to beef chow mein, this truck can satisfy any craving you have for tasty Asian dishes. Stop by today and try a \"dot dog\" or a wrap!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aldi Recipes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545abab9-91e8-4fa4-bab0-290e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

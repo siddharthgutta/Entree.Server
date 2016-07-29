@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Northeast style on the Northwest streets, Wicked Good Grinders is going to show Seattle how amazing a sandwich can be! The classic Eggplant Parm, Steak & Cheese, Grilled Chicken Melt, and even more superb sandwiches are all on offer at this food truck. Wicked good taste and wicked good times are rolling right to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wicked Good Grinders",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56a9470c-57e8-4257-9e27-4a6f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

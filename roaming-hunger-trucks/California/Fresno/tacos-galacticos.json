@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tacos Galacticos is an Awesome AUTHENTIC Mexican food in the small town of Visalia, CA. Tacos Galacticos serves burritos, tacos, torats and tostadas, all with your choice of meat including asada, pastor, cabeza, lengua, chorizo, carnitas and chicken. Open for lunch, dinner or late night.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tacos Galacticos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5154a0bc-1518-48be-bdaa-525046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

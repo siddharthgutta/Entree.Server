@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Whether it's seasonal vegetables, dough made with real flour from Italy, or simply a delicious wood-fired brick oven pizza made right where you are, Flying Cow Pizza has everything you could ask for and more. The crust is crispy on the outside, tender on the inside, and topped with your choice of pesto or tomato sauce, mozzarella cheese, and all your other favorite toppings! If you're looking for a fantastic custom pizza experience, this is it.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flying Cow Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55354dc0-ae04-46e7-b310-5e0946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

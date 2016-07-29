@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fleck's Curbside Grill is cooking up something great that you're sure to love! With the best burgers, brats, gyros, and so much more, Fleck's is bringing fantastic food for every appetite. If you're looking for some great grub right off the grill, nobody will satisfy your cravings like Fleck's Curbside Grill!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fleck's Curbside Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c250fc-c95c-4441-bbf1-391546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

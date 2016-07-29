@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The classic Latin American treat that's sweet to eat, brought to you by the one and only Churro Express/ ! Do you like them with cinnamon and sugar? Chocolate? Dulce de Leche? At Churro Express the choice is yours! So find out what you favorite flavor is and get it fast, fresh, and delicious from Churro Express today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Churro Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570e5fb-94e0-438c-9ee1-141246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

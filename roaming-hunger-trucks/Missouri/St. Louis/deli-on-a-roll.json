@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Deli On A Roll's concept is to try and bring a good \u201cJewish Deli Experience\u201d to as many new people as possible. \u201c Deli On A Roll is  opening up a whole new food venue for people that have never before experienced what he and many like him grew up with.\" The truck travels all around St. Louis serving freshly cooked breakfast and lunch. Deli On A Roll is 100% committed to bringing you the absolute best deli food in the St. Louis area. Our Corned Beef and Pastrami are brought in from one of the finest Kosher Style meat producers in the United States. The Salami is developed by and with the cooperation of former \u201cBest Kosher\u201d and \u201cWilno\u201d Producers. \u201cFollow us and try us. I promise you won\u2019t find a better Kosher Style experience anywhere!\u201d",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Deli On A Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d383a5-5d20-476f-8318-146946204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jay's Original Hoagies is serving up delicious sandwiches on the streets of Tulsa! The best ingredients on the freshest bread, these sandwiches are absolutely delicious. Try the Italian Special, Flying Pig, Jay's Fav, or any of these amazing subs today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jay's Original Hoagies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6f62e-81f8-4e62-b66c-31f246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Simply Greek Pitas and Pizzas serves a variety of pita sandwiches! Try our best seller, the gyro pita (juicy tender beef and lamb in a pita with lettuce tomato onions and tzatziki sauce), the buffalo chicken pita, or some of our choices for our vegetarians. Also check out our personal pizzas, including the ever-popular Chicken Parmesan!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Simply Greek Gyros",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559af992-1d64-4599-8731-4e1d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

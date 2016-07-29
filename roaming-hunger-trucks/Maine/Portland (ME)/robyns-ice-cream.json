@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you\u2019re feeling the heat in Southern Maine, you\u2019re in luck because Robyn\u2019s Ice Cream Truck is hittin\u2019 the streets and serving up an insane selection of delicious ice cream!Robyn\u2019s carries all your favorites from Popsicle, Klondike, Blue Bunny, and more, and they will happily haul this creamy goodness all the way to your door so that you can treat your friends, family, or community to a day of refreshing and tasty frozen fun. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Robyn's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571aa568-cb50-4311-a9e5-2c8646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

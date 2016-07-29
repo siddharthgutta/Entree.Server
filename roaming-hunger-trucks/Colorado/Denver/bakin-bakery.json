@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet and savory treats just like grandma used to bake, if grandma loved bacon! This bacon-infused food truck is baking up some classic desserts using only the best in locally sourced, seasonal ingredients so you know what goes into each delicious bite. The Bakin' Bakery, combining the best of the rustic bakery and the modern day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bakin' Bakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551da06f-5450-4227-8f9e-1e2146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

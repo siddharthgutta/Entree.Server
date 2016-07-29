@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Real, authentic Mexican cuisine is here and it's amazing! Mina's Mexican Home Cooking is bringing you delicious dishes and amazing service that'll make you feel as welcome as if you were having family dinner at home, on the go! Tacos, tamales, tortas, and so much more are waiting for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mina's Mexican Home Cooking",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55889978-7c50-4b4a-9352-7e3646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

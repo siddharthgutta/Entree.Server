@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "America's favorite meal is on the move in Austin, and it's being cooked up fresh for you! A farm-to-table food truck serving up magnificent burgers and ice cream, 100% Grassfed has all the fantastic taste you've been looking for. Organic, delicious, and ready to hit the spot, 100% Grassfed is sure to have you coming back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "100% Grassfed",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13320/56be6095-ab30-4b5e-989b-16e246204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

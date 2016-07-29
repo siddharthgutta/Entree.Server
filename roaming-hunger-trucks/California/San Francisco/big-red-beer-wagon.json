@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Red is a community-focused, mobile beer garden promoting sustainability. Big Red\u2019s sales of tasty, organic draft beer and other beverages support local non-profits. Our mission is to educate our community about the impact of choosing organic and GMO-free products, while having fun and socializing with delicious organic beverages in hand!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Red Beer Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9732/553ebbbc-b24c-4eb2-bf1a-260146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

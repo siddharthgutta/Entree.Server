@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "One of Albuquerque's premier food trucks. Offering fresh baked bread, soups & creative specials. Custom catering, special events.We were recently voted the #2 Food Truck in the City of Albuquerque in IQ Magazine 04/14.  We have also been featured on KASA FOX TV as well as 94 Rock Radio.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Lunch Box Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/534d6ea1-40ec-4a95-8f08-431846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

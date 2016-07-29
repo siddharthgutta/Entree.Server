@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gorilla Cheese NYC is leading the NYC food truck revolution, taking comfort food and home cooking to a new level.  We use only use fresh baked bread delivered from our local bakeries, and a wide variety of delicious cheeses. But what makes our sandwiches extra special is that they're always made with lots of love.  Relive the after-school grilled cheese your mom used to make with our \"GCNYC1 CLASSIC\" (American on buttery white bread).  Push the culinary envelope and try our \"BROOKLYN SPECIAL\" (Fresh Asiago w/Prosciutto de Parma on inside out Panini w/ aioli).  And don't forget our tasty sides such as our crispy Tater Tots, Killer Mac & Cheese, Cup of Tomato Soup & Mac & Cheese Bites.  No meal is complete w/o the \"Big S\" smores desert on homemade graham cracker bread, it's YUM. Track our progress, find our truck and join us for a meal on a street near you. It's Easy Being Cheesy.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gorilla Cheese NYC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/1448/53f67136-93d0-4377-9f0b-0ba046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Galaxy Donuts is doing it right, with Seattle's most magnificent mini-donuts! Hot, fresh, and fast, Galaxy Donuts is serving up a menu of made-to-order deliciousness we're sure you'll appreciate. Satisfy your sweet tooth with some out-of-this-world style today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Galaxy Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5679a8e0-81c0-4c29-ba3f-481d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

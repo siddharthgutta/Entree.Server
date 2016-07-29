@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BikeCaffe Denver is an earth-friendly, greener than green, fully equipped \"rolling\" caffe (spelled the Italian way). Our trained Baristas can create the same hot, made to order coffee & espresso drinks you now rely on from the plentiful, but typical brick and mortar coffee shops to serve. We work diligently to serve only coffee blends that meet our exacting requirements for taste by coffee producers who guide their operations in accordance to the ethical and environmental standards that shapes our core business philosophy.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Marley Coffee Bike Caffe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ff277e-9f44-4041-aa37-789246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

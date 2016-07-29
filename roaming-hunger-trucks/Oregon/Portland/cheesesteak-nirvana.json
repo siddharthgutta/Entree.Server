@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Philadelphia's most beloved delicacy has made its way over Portland, OR by way of the Cheesesteak Nirvana cart. You can opt for the traditional cheesesteak, called the Fundamentalist, which features thinly sliced grilled steak, caramelized onions, and cheese on a bun or you can opt for one of their other creations. Vegetarians can also rejoice as the menu features the Puritan, filled with portobello mushrooms, onions, bell peppers and tomatoes. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheesesteak Nirvana",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52437bb3-57cc-44d2-aa35-555c46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Love Hot Dog Company is Philly's one stop shop for your favorite classic dogs! Not only do they feature your favorite simple dogs with traditional condiments, but they've got crazy and gourmet dogs as well like the Reuben dog, topped with sauerkraut and duck jalepeno with bacon, alligator andouille, corned beef or their Kobe Beef dog. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Love Hot Dog Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5746/54e55bca-1f08-4337-bb27-252646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

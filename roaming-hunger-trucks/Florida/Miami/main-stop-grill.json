@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Main Stop Grill is a great food truck serving up a unique fusion of cuisines ranging from Caribbean to Southern, all with a Latin twist. The truck's specialties are its yuca bowls, each with its individual mojo sauce, and topped with grilled chicken breast w/garlic mojo, skirt steak w/chimichuri mojo, or shrimp w/lemon garlic mojo. Other offerings include battered gator bites, crab-stuffed shrimp, and much, much more. So stop by and check out the Main Stop Grill today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Main Stop Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5452a99f-7d3c-43b3-9782-3b6d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sugar was dreamed up in 2004 by mother/daughter team Carol Vollono & Brenda DePonte with a mission to combine their knowledge of baking, creative skill & passion for a decadent dessert.Taking inspiration from beloved family recipes, they added exciting flavors and twists, transforming the expected into something so much more. Soon, they were making news and winning awards and, most recently, beating the competition on Food Network's Cupcake Wars!Their truck takes these delicious cupcakes to the streets, offering just about every amazing cupcake flavor you can imagine. Stop at the truck when it comes to a curbside near you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sugar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f8be96-2c00-41bc-b566-587c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

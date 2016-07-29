@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Belgian fusion unlike anything you've had before is rolling down the streets of LA, today! This is an all-new way to enjoy street food, with Belgium Waffles Sandwiches, Fries, and so much more that you can really sink your teeth into. Never settle for less than the best, grab something great from Papa Fritz today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa Fritz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13117/568cb9b5-d1c4-478e-afce-7da746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

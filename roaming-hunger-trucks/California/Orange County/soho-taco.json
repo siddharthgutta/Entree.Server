@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Soho Taco is a critically acclaimed gourmet taco catering company providing excellent service in Orange County, Los Angeles County and throughout Southern California. We specialize in traditional Mexican tacos \u2013 but with a gourmet edge. Our tortillas are freshly made every day; we only use the highest grade meats and produce; and, our chef-prepared sauces are made using legendary heirloom recipes.We showcase our culinary delights with a clean and modern taco cart which is designed for any type of social event, from family gatherings, corporate events or anything in between! We are sure to dazzle your guests with our made-to-order tacos, incredible salsas and outstanding side dishes. Although our mobile taco carts can prepare a variety of delectable meat choices such as beef, chicken, shrimp, etc.., we also offer vegetarian, meat-free selections such as grilled vegetables. Every plate we prepare includes freshly made flour or corn tortillas, Soho Taco\u2019s legendary salsas and fresh accompaniments of shredded lettuce, diced onions, lemony cilantro, specialty cheese, citrusy limes and ripe tomatoes.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SOHO TACO",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4de13d60-0cbc-4896-b3fd-04a746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

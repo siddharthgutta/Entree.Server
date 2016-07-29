@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Worcester, MA Named after an iconic film, this food truck is serving up some of the most iconic American classics in the state of Massachusetts; most notably their creative and original hotdog inventions. From topping their dogs with hot fries to parmesan to bacon bits to some of their famous hearty chili. If you're looking for a challenge try eating their entire \"Cement Overcoat\" hotdog - essentially a massive hot dog that consist of three dogs between two flattened buns with toppings piled sky high. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Dogfather",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/511aec4c-637c-4600-9934-4a5846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Truck Tacos brings Oklahoma City the most innovative Mexican street food with a twist. We sell tacos, burritos, gorditas and other Mexican and Latino cuisine made with the freshest ingredients and spiced up with some of the most unique flavors that have ever dazzled your tastebuds!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Truck Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4c994d64-8c68-4279-bcfc-63d046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

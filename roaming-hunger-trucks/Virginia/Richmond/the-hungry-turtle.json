@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hungry Turtle is all about fresh and tasty food. This roaming kitchen has an amazing Vietnamese food menu offering Pho soups and Bah Mi sandwiches. The perfect combination of Vietnamese noodles, savory beef broth and your choice of protein to make your perfect bowl of Pho. If Pho is not your crave go with a Bah Mi sandwich a perfectly stuffed french baguette with your choice of proteins, tangy carrots and daikon radishes, cucumbers and cilantro. Don't let the Hungry Turtle pass you by without having trying something delicious!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hungry Turtle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55709489-b968-444c-9893-6b8446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

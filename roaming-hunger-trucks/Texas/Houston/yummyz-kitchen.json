@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The food truck with the biggest smile, Yummy'z Kitchen aims to serve the Houston community delicious, hearty American classics with a slight twist.Fadi, the owner and operator of Yummy'z Kitchen food truck, has worked in various capacities for many years in the restaurant industry. He started as a waiter and left as a senior manager. His vision and passion for food pushed him to start his own restaurant on wheels, presenting food in a new and exciting way where his vision can become a reality for all foodies who demanded a little more out of their meals.\"Our goal is to consistently provide great fresh food, prepared in a clean environment, at a good price with friendly and attentive customer service. We will continually strive to stay creative with our food selections to keep our customers' taste buds excited. We look forward to serving you. You can wipe the food off your face, but good luck with your smile !\" ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yummy'z kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51b25120-0728-42ac-a375-3e2d46204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

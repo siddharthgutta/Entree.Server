@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BKeD is truckin\u2019 through the streets of Charleston and serving up a choice selection of sandwiches and sweet treats. A few of the beautifully tasty items you\u2019ll find on their rotational menu include...The Eggplant Melt-with roasted peppers, goat cheese, mozzarella, and pesto herbed mayoTurkey Club- with crispy bacon, fresh greens, pickled red onions, and gouda cheeseCurry Chicken Salad Sandwich- with cranberry chutney and fresh greens...as well as fresh-baked artisan pretzels, fantastically flavorful fig pop tarts, and creamy banana pudding\u2026 just to name a few. For all this and much more, come take a brisk trip out to BKed!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BKeD",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5792732b-810c-45f9-a148-6f5846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

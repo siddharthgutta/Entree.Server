@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A food truck 16 years in the making, Smoked Out BBQ is bringing you nothing but the very best! The food speaks for itself at this terrific truck, with their delicious BBQ sandwiches and amazing sides. If you're looking for fantastic BBQ in the Bay area, then there's nobody better than Smoked Out BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smoked Out BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dcc16c-bb54-4f74-abb1-1e3446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Compliments Food Co is a locally inspired food truck based out of Somerville Massachusetts. We bring to you made-to-order  gourmet sandwiches and delicious fried sides. You can see us on the streets of Boston, at local breweries and of course farmers markets. We offer catering for all events including weddings, birthday parties, business gatherings and more! Also don\u2019t be surprised if you see us at local festivals, fairs and other festivities too. Every order comes with a smile so check out our menu to see what we have to offer and our schedule to find us!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Compliments Food Co",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3449/54f9d70e-7890-4117-8716-650e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

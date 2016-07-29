@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roaming Rotisserie is a gourmet mobile kitchen featuring fine foods cooked on a customized flame cooking rotisserie. Our menu offers rotisserie chicken, prochetta, prime rib and a selection of sides including baby roasted potatoes, garlic fries, seasoned black beans, and mixed greens with vinaigrette. You can find us at local wineries, festivals and private events. We also have a unique Food Truck Fundraiser program to help your organization raise money by feeding hungry people at your location.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roaming Rotisserie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5255fd0e-e2f4-4242-bd70-2f9446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

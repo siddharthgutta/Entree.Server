@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tulsa's own Ribville food truck is on its way to you with the best smoked meats in town! Juicy and delicious ribs, brisket, pulled pork, and so much more are what you'll find on this food truck. This locally owned mobile eatery is making its way down a road near you, so don't miss out on the amazing flavor today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ribville",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e8a33b-c10c-4133-975d-508046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

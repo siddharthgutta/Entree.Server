@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Leena\u2019s Food Truck is where you\u2019ll find some of the best Palestinian cuisine on the streets of Pittsburgh.Their selection includes wraps and platters with your choice of savory gyro meat, tender chicken, deliciously seasoned falafel, or grilled veggies. For sides, there are spinach and meat pies, hand-cut fries loaded with falafel or gyro meat and tasty yogurt or tahini sauce, to name a few. For all this and much more, you need to come check out Leena\u2019s!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Leena's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577d579d-0f68-4233-827e-244c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

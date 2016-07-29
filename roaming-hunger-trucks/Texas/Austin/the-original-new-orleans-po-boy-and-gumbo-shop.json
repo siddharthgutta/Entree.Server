@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Original New Orleans Po-Boy and Gumbo Shop is a delicious Cajun/Creole trailer serving the Austin area. Check out the po-boys, seafood platters, gumbo, and much more. These tasty dishes will bring a smile to your face and your belly!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Original New Orleans Po-Boy and Gumbo Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546f7f84-1ac8-470d-ac82-2a3246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

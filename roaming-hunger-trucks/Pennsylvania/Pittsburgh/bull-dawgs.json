@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bull Dawgs is here to show you how amazing a hot dog can be! Homemade, all beef sausages on delicious Mancini's Buns are an eating experience your taste buds will never forget. Mouthwatering sausages with all your favorite toppings are right around the corner today, with Bull Dawgs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bull Dawg's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/567321a3-340c-489c-8a07-67cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

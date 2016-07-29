@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Local Slice our goal is to provide Chattanooga with a pizza that is different than any other. Our pizza is baked at over 750 degrees using a wood fired oven, giving it a unique flavor and crispy, chewy crust. Using hand made dough, and local ingredients whenever possible, we take pride in every pizza we make. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Local Slice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f75ad4-e9a4-4116-a831-3d4746204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

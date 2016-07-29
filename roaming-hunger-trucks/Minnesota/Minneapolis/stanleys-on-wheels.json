@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stanley\u2019s Northeast Bar Room is taking to the streets with the addition of a food truck, Stanley\u2019s on Wheels.  Stanley\u2019s on Wheels will be serving-up Stanley\u2019s well known smoked BBQ beef brisket sandwich along with several other favorites including; Reuben sandwich, BBQ beef brisket nachos, soft pretzel sticks with homemade cheese sauce and Oreo brownies for dessert. Stanley\u2019s on Wheels will bring a little slice of Nordeast to downtown Minneapolis four days each week.  You will also find Stanley\u2019s on Wheels at many local parks and festivals throughout the summer!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stanley's On Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4faaf48e-daac-41a8-9130-5ef946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

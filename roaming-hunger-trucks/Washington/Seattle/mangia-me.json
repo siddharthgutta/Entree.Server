@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Alex Wong has been immersed in the culinary industry from day one, having grown up working for his parents, and mastering every aspect of running an Italian restaurant. Now with his new truck, he\u2019s ready to impress the fans of Italian fare all throughout Seattle with his gourmet and freshly made-to-order menu, with offerings like Ravioli (Italian parsley pasta with lamb, garlic, pecorino cheese, and red wine, in a rosemary butter sauce), striking Black Spaghetti (with fresh squid ink pasta with sardines, capers, garlic, chili, parmesan cheese), and much more. For an incredibly delicious experience, be sure to make your way to Mangia Me. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mangia Me",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57508f0b-6d30-4112-b11e-602b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

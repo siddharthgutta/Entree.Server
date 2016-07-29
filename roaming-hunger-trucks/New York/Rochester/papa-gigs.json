@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papa Gig's has got all of your favorite Italian dishes, including classic pastas, sandwiches, and soups! Some delicious dishes include their shrimp scampi over angel hair pasta, their chicken rigatoni topped with a spicy pink sauce, and their meatball sub with savory meatballs, sauce, and cheese. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa Gig's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e74d5-b6e8-464f-94fe-2a4346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

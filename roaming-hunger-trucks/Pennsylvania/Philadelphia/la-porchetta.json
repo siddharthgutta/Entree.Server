@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Porchetta is bringing you a delicious taste of Italian tradition! Slow-roast Italian pork sandwiches that are sure to make your mouth water are roaming down a street near you. Seasoned with only the freshest herbs and spices, this is some of the best pork you'll ever experience! Perfect whether you're on the move or need to cater your next event, La Porchetta is one food truck you'll be sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Porchetta",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bba99a-54f8-4284-b228-73da46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

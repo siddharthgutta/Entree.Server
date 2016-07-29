@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chef Rob's is a food truck serving delicious Caribbean food to the Atlanta area, born of the restaurant of the same name. If you're hungry for some fantastic Caribbean fare, from jerk chicken to curry goat, there's no better stop than Chef Rob's. And don't hesitate to have them spice up your event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Rob's Caribbean Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54860a13-b754-49ef-a03f-54fd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

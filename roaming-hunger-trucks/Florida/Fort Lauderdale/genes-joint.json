@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A New York-style deli making its way down the streets of Florida, Gene's Joint is here to bring something new to the food truck scene. Take your taste buds on a trip to the Big Apple with these classic flavors of the city's most iconic restaurants. Corn beef on rye, grilled reuben, the black and white cookie, and so many more delicious deli-style dishes are on the menu and ready for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gene's Joint",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f6c35-8aac-425d-80ca-7f0846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

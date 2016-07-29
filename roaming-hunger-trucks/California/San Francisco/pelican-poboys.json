@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pelican Poboys is serving up some of the best New Orleans inspired cuisine on the West Coast! A healthier take on the classic sandwich, Pelican Poboys does not compromise on flavor when it brings you classic Cajun cuisine with their very own style. Along with their Red Beans & Rice and delicious Jambalaya, this food truck is ready to satisfy your Southern style cravings!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pelican Poboys",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560d9dfc-3b58-4877-bd5b-70a246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

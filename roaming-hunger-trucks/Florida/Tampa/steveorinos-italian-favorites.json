@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Steveorino's Italian Favorite's is rolling down a street near you with the best Italian cuisine on the streets of Florida! With all the delicious soups, sandwiches, pizza, and more, this terrific truck is serving up everything you need. For the finest in fantastic food on the move, nobody beats Steveorino's Italian Favorites!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Steveorino's Italian Favorites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5602e661-e380-4ff6-aac6-61c346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

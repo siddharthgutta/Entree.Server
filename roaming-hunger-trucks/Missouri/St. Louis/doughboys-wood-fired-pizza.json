@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for the finest in fresh, wood fired pizza on the streets of St. Louis? Doughboy's Pizza has you covered! Never force yourself to choose between fast or delicious again, get the best of both with this new food truck. Classic pizza taste, for a modern mobile world, Doughboy's Pizza is serving up just what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doughboy's Wood Fired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56ba2344-8aa4-4d5e-8987-4e8946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

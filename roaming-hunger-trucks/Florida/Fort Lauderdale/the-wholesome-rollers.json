@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Wholesome Rollers is bringing that classic Wisconsin flavor to the streets of Fort Lauderdale! Butter Burgers, Beer Bratwurst, Wisconsin Cheese Curds, and more are on the menu today. Real stick-to-your-ribs food is coming your way, thanks to Wholesome Rollers!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Wholesome Rollers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b7abe5-abe8-4307-b5dc-29b846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

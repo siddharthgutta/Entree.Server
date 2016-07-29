@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "OMG! Cheesecakery is a delicious dessert van serving the streets of Austin with personal-sized cheesecakes. With flavors ranging from Nutella to Chai, PB&J;, Peppermint, and many more, you can be assured of a truly unique cheesecake experience. So if you're looking for a bite of heaven, head over to OMG! Cheesecakery today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "OMG! Cheesecakery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54639531-fbf8-488b-a52d-3c1a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

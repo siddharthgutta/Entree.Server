@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "THE PARLOUR is a mini school bus turned ice cream parlour in Durham, NC. Our ice cream is handcrafted in small batches, using local ingredients whenever possible and rotating seasonal flavors often. We\u2019re dedicated to using fresh local ingredients to bring you the most delicious ice cream around.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Parlour",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb1ee88-27f0-48eb-8012-570846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

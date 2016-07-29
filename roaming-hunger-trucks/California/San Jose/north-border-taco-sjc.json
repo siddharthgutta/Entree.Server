@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Jose's tastiest tacos, burritos, tortas, and more are right around the corner, thanks to the amazing North Border Taco! If you haven't tried this terrific food truck before, then you are missing out on Northern California's finest Mexican meals. Made fast, fresh, and from the greatest ingredients possible, this is an authentically awesome menu that'll have you coming back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "North Border Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56be1ac7-5d60-477c-a48e-526246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

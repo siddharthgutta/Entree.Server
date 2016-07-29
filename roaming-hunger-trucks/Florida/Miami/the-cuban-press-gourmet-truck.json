@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cuban Press Gourmet Truck is serving the finest when it comes to Cuban Sandwiches, and other signature menu items. Taking authentic Cuban kitchen experience on the road with neighborly service that doesn't fail. The menu is sure to satisfy that hunger for Cuban flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cuban Press Gourmet Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9266/56707af8-3300-437a-89b3-64d346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This meat haven boasts a variety of yummy sandwiches and slices of your favorite cuts like roast beef, pulled pork, ground meat, smoked turkey, and roasted chicken. If you're a real meat lover be sure to try their meat on a stick - chicken, beef or pork belly served on a flour tortilla. Despite their namesake however, they do have the vegetarians covered by offering a veggie burger and yummy grilled cheese. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Marty's Meats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e6fb4-512c-4c03-9f0c-325546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

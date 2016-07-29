@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grab a cup of Joe and get ready to get jumpin' when you find yourself on the Java Road! Hot and tasty brews for any appetite are just what you'll find here. From hot chocolate to tea to their wide variety of Espresso drinks, Java Road is ready for just about anything you could be craving. And let's not forget their smoothies and pumpkin bread.Once you try their Irish Cream Latte, Witches Brew, or Mike's Razzle Dazzle, you'll be sure to come back for more.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Java Road",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f9699a-429c-4608-9cd2-23b346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

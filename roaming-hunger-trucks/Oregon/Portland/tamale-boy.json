@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tamale Boy is bringing this wrapped Mexican delicacy curbside to Portland foodies. Made out of corn masa, and steamed in corn husks or banana leaves (Oaxacan style), these tasty treats can be filled with chicken, pork, veggies, or even fruit and chocolate! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tamale Boy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/520be73a-2f44-4a9d-a5b9-4e1e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

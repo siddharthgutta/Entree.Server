@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "With Latin flavor you're sure to love, Mojaita is a fantastic food truck on the move! The tastiest tacos, burritos, empanadas, and more are right around the corner with this unique mobile eatery. Dedicated to bringing our Nation's Capital the finest food possible, Mojaita Latin Flavor will never let you down!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mojaita Latin Flavor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56425519-57f8-4e3f-9b0c-02ae46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Just Jackie\u2019s Food Truck established in November 2012. JJ\u2019s is serving new age comfort food to the greater Philadelphia area.Partners Jackie Borelli and Bonnie Offit have teamed together to produce fast, fresh, and healthy meals. With everything being homemade, the secret sauces take the sandwiches from good to great. From French onion soup and spicy chicken sandwich, to sumac chicken feta wrap and pulled pork tacos with sriracha aioli, JJ serves it all.Just Jackie\u2019s has taken comfort food to the next level. When you bite into one of JJ\u2019s sandwiches, such as the melted Brie with a homemade sweet onion jam and crispy granny smith apples, you\u2019ll be transformed into another world. JJ\u2019s main goal is to provide meals that pleasure your palate without emptying your wallet.Don\u2019t be afraid to express an allergy or food concern, because JJ is here to accommodate and make your food experience friendly and satisfying.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Just Jackies Food truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51128311-91bc-482b-b6c4-452c46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stick It To Ya is bringing gourmet grub on a stick straight to you! Amazing entrees full of flavor eaten right off a skewer are an awesome meal to enjoy any time of day. These eats are always cooked fresh for your eating pleasure, made with care and dedication--you'll never forget the first time you bite into a delicious skewer from this fantastic food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Stick It To Ya",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e6185f-8958-4f15-b6b2-397e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

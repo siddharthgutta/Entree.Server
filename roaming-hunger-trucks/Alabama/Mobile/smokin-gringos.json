@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Location: Mobile County, AlabamaSmokin' Gringos food truck is a fully licensed and self-contained restaurant on wheels, provide fresh and flavorful food in numerous locations throughout Mobile County.Serving killer Ala-Mexi-Cali grub all over town, our founders were influenced by the plethora of flavors and the spirit of the people found in the triangle of Alabama, Mexico and California.Bringin' fresh & flavorful grub to the people!Tacos, Quesadillas and then some!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smokin' Gringos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d65e316-f9f8-415e-9775-3f3c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

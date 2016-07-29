@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Brick N Motor has made it their mission to feed Rochester mouths with yummy gourmet dishes. They use the best possible ingredients to create the items on their seasonal menu. Enjoy their lobster roll, pulled pork tacos, pork belly steamed buns, cantaloupe & tomato salad, among other tasty treats. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Brick N Motor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521e89cd-da04-4b05-80d4-3a9d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

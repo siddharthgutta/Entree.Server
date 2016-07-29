@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Middletown, CT Whey Station is grilling up some deliciously cheesy sandwiches. Owned and operated by culinary experts who know quite a few things about great tasting cheeses, you can't go wrong with any of the choices on their menu. From their Mongers' Mix (a special blend of 5 cheeses) to their Bellissimo (red wine poached pear, crisped prosciutto and dolce gorgonzola spread) to their Vermont (cheddar and bacon apple chutney) your taste-buds are sure to be heaven.  If you're looking for the perfect soup to complement your grilled cheese, choose from their Smoked Tomato Bisque, tomato basil,  or their Chili. They also offer Zapp's chips, locally made Avery's Sodas and to tempt your sweet tooth NoRa Cupcakes.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Whey Station",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4836/53ed7699-df14-4d6a-b98e-4dcd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

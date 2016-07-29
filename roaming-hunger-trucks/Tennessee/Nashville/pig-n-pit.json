@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pig n Pit is bringing you a creative twist in smoked meats! Pit Boss Chris Johnson got his start as a BBQ competition judge, and brings that experience in excellence to your plate. With a custom blend of woods chosen for their smooth and sweet flavors, Pig N Pit is serving up BBQ with a delicious flair!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pig N Pit",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55523b63-7474-4185-8a79-6c2146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

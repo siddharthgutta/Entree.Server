@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fusion cuisine from around the globe is roaming the streets of Phoenix! With a menu inspired by great people, world travels, and recipes passed down for generations, The Flying Pigeon is sure to have something new and amazing for you to try. An awesome eating experience you'll never forget is here, so don't miss out on The Flying Pigeon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Flying Pigeon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5654de3a-bdf8-48a7-b30b-3d3346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

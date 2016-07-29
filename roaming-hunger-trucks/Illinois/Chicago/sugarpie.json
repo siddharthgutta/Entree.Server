@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "About SugarPie Bakery & Cafe:Sugarpie Bakery & Cafe is owned and operated by Eunice Jackson.  Eunice has been baking since her grandmother told her to pass the sugar so that's about age 6.  She grew up in Chicago while spending her summers in the south.  Our best sellers tend to be the southern menu classics, but that's no surprise given Eunice's southern roots. Her passions are baking, finding that special ingredient to take a recipe to the next level and bringing a smile to your face with just one bite of her Sugarpie items!!!  Between baking, she also enjoys babysitting her one year old niece and future taste tester, Layla.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SugarPie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ebc4316-e750-4218-8172-4fe946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

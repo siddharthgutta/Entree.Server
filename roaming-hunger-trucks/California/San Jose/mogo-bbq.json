@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MoGo BBQ is a mobile food truck company serving up Korean-style BBQ in our taco truck serving the San Francisco Bay Area: San Jose, Oakland, Berkeley, Palo Alto, and more. We bring you the convenience of affordable gourmet food combined with good ol\u2019 Korean family recipes handed down to us, resulting in portable street food fare. Take your pick from our Short Rib Tacos to our Spicy Pork Quesadillas\u2014they\u2019re all up for the tastin\u2019.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MoGo BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e97caab-19f0-45d6-a3b5-3cc346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

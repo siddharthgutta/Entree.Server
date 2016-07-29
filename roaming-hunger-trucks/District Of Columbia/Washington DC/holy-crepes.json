@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This gourmet food truck is D.C.'s favorite creperie! They only use the freshest ingredients to create your made-to-order sweet or savory delight! In addition to their tasty crepes, they also serve up paninis as well! Make sure to check them out in the morning for one of their tasty breakfast sandwiches. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Holy Crepes!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5638/560f053c-9cec-49dd-a947-6b3746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

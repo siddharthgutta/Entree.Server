@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Our Family owned and operated mobile gourmet kitchen brings you a blended cuisine of german and other european dishes made with organic locally grown ingredients. Our specialty is Beef, Pork, and chicken sausages and also our delicious Skewers, but we offer an array of delectible cakes and pastries as well.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "ZSausage",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5394c29d-5d34-4d9f-800c-5a9746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

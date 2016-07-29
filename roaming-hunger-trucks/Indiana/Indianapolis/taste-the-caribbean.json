@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taste The Caribbean is serving Authentic Jamaican Cuisine to the streets of Indianapolis. Their specialty is traditional Jamaican Jerk chicken, served as a sandwich, wrap, or as a platter with sides of your choice like red beans and rice or grilled corn on the cob. Caribbean shrimp curry is also on the menu, along with goat dishes, beef patties, and traditional rice and peas. All items are great for a value lunch.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste The Caribbean",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f079e3-fab4-4c3f-ab7e-02b646204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

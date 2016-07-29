@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tulane\u2019s very own street food revolution on wheels celebrating all things waffle! Ironsides Waffles are served made-to-order with the freshest ingredients perfect for any time of day or night. The sweet and savory menu includes: hearty breakfast waffles, New Orleans hot sausage waffles, Nutella and bananas, the classic PB&J; and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ironsides Waffles",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5568ab52-cb6c-452f-a06d-769d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

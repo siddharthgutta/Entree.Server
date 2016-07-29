@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beach Bus Bistro serves gourmet coffee, hearty handmade sandwiches, naturally flavored shave ice, and ice-blended beverages to the Orange County  and San Bernadino areas ! Grab yourself a Barnacle Brat or a Pipeline Pastrami, then pair your delicious meal with a Longboard Vanilla Latte or some of the best freshly brewed coffee you have ever tasted !",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beach Bus Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6909/56d0eebf-6100-4e34-90b4-1e7f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Red Wagon Pizza has been bringing joy to pizza lovers with a family recipe developed in New Jersey in 1977 but found it's home in present day Minnesota. Pizza has never been made so good and healthier the perfect dish for everyone in the family. Make the Red Wagon Pizza part of your next big event, with three generations of traditions there is no pizza like this!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Red Wagon Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5581f081-9970-482b-9979-618546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

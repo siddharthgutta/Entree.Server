@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Green Chile Grill is a delicious Phoenix truck serving up tacos, burritos, tostadas, and more! With tasty meat and veggie options, the truck has everything you could want, with even a breakfast burrito for the bright and early! And if you want something with a bit more oomph, try out the Mini Green Chile Cheese Burgers for size.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Green Chile Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548a36be-4cac-4a8b-b478-112146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

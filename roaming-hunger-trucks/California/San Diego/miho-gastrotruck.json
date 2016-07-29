@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MIHO Gastrotruck uses fresh, local, and thoughtfully-sourced ingredients to create hand-crafted street food that is affordable, convenient, and delicious. We truly care about this kind of food, and we hope to share that love with our community.See you on the street\u2026We make it our mission to thoughtfully source ingredients that are produced by local farmers and artisans who share our love of food. It is without a doubt that an ingredient such as Point Reyes Bleu Cheese, which we are featuring on our Bloody Mary Burger, is exceptionally delicious because its producers are truly passionate about its quality and craftsmanship.A few years back, I got to visit the Giacomini\u2019s farm in Point Reyes Station, CA, and I was amazed at what a great operation it was. Their product, Point Reyes Bleu Cheese, is a farmstead cheese, meaning every step in the production process occurs on the farm\u2019s property. Milking begins in the wee hours of the morning and is then pumped into the cheese production facility next door. There, penicillium Roqueforti (the mold that creates the blue streaks) is added to the milk, along with natural enzymes and salt to create the cheese we know and love.If you ever get up to the Bay Area, I strongly urge all of you HOMI\u2019s out there to get out to the farm to visit the Giacomini\u2019s. You\u2019ll be treated to a wonderful view of Tomales Bay, but best of all, you\u2019ll get to meet a producer who truly does it for the love of the food.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "MIHO Gastrotruck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e797412-6494-4c99-8bfe-36b246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

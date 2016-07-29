@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The ever-ornate Azucar is one of the most acclaimed taco stops on the streets of Dallas!Rated in the \u201c10 Most Underrated Tacos\u201d by Dallas Observer, \u201cThe Best Under-the-Radar Tacos Around Dallas\u201d by Thrillist, and \u201cTop Ten Rookie Food Trucks of the Year\u201d by Mobile Cuisine, Azucar continues to win over foodie fans with their delicious selection of Latin American dishes. You\u2019ll find mouthwatering items on their menu like Mayan tacos on fluffy fry bread, Cuban quesadillas, chicken chorizo sandwiches with chimichurri, and so much more. If you wish to delight in Dallas\u2019 best kept secret, be sure to keep an eye out for Azucar!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Azucar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5695374e-4a98-45f8-a103-4df046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

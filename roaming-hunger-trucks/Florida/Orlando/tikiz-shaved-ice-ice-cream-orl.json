@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tikiz Shaved Ice & Ice Cream has come to Orlando! Try their great shaved ice flavors like Blue Raspberry, Tiger's Blood, Cotton Candy, and many more. You're sure to love these sweet treats, which are always perfect on a hot day.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tikiz Shaved Ice & Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fc74d4-e7fc-4d8b-9efa-03ad46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Holy Smoke BBQ is bringing the best BBQ on the move on the streets of Ohio! Delicious meats smoked to perfection and homemade sides you're sure to savor are just the start at this terrific food truck. For the best ribs, pulled pork, brisket, and so much more, Holy Smoke BBQ is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Holy Smoke BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55db5ea0-7d68-42be-a319-278446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

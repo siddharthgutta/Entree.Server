@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taco From Morocco is bringing you the most epic fusion tacos around! The freshest, best, most amazing taco tastes you've ever experienced are right around the corner with this fantastic food truck. Pink Fish, Smokey Chicken, Falafel Tacos, and more are on the menu and waiting for you at Taco From Morocco!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco From Morocco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a8460e-0b60-41a4-be88-582c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

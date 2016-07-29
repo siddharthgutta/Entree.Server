@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flying Sliders is a Southwest Florida Mobile Food Truck specializing in Gourmet Sliders! The delicious menu includes Portabello Mushroom, Jamaican Jerk Pulled Pork, Grilled Asparagus Panini, and much more! Stop on by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flying Sliders",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f3d66a3-7b98-4fd4-a76d-767a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

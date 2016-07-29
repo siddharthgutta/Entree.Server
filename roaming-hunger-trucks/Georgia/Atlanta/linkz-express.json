@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Linkz Express offers 6 different Sausages (smoke, red hot, beef, veggie, Italian, chicken) with over 30 toppings, Philly (steak & chicken), Loaded & Disco Fries, Salads,  Nachos, Chicken Melt, Angus Burger, Wings... Look for us around Atlanta for a tasty treat.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Linkz Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54b5b72d-7164-40dd-8c2f-2b5d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

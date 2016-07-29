@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Francisco Soup Company offers a unique line of catering that is unmatched by any other.  We offer a healthy, fresh, and hot lunch that will impress foodies and CEO\u2019s alike.  Our chefs prepare each order especially for you with our famous soups, custom salads, and deli-fresh sandwiches.We cater to corporate meetings, parties, and special events up to 5,000 people.  Your order will be handled in the most professional manner, with attention to detail, and will be delivered on time. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SF Soupmobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ef14b2d-118c-423c-a0a4-172846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

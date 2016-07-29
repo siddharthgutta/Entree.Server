@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gonzo Gourmet offers fresh street food with a gourmet twist. Items include a signature Hot Chicken, which is spicy fried modeled after popular Nashville joints. Menu varies but also can include Outlaw Eggs Benedict, Tacos al Pastor, Gyros, Bacon-Wrapped Hot Dogs, Avocado Tacos, Chipotle Black Bean Burgers, Hashbrown Casserole, and many more. Gonzo strives to use local ingredients and offers a fun tasty experience for all customers.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gonzo Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ba7aa8-4614-4354-8873-724746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

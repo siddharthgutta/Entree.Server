@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best empanadas in town? Then look no further than the Empanada Mama! Ground beef, turkey, chicken, even pepperoni pizza, Empanada Mams is ready for you. And don't forget the delicious cakes, churros, and other pastries. Empanada Mama is ready and waiting to serve you the very best!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Empanada Mama",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5556490b-edb0-4a70-8ebc-552046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

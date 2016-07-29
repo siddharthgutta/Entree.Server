@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Locoz Tacoz is serving up fresh and authentic Mexican food to the streets of St. Louis. Their menu includes all of your Latin American favorites, featuring tacos, tortas, and some of the freshest seafood in St. Louis. Locoz Tacoz strives to make your experience as fulfilling and authentic as it gets! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Locoz Tacoz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552ecf1d-8070-4492-bed7-6b7546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

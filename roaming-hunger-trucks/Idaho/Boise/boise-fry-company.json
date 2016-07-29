@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Boise Fry Company, we strive to serve you with the most incredible fries, burgers, and service we can offer. Why fries? Because for too long restaurants have persecuted fries, treated them like second-class citizens, stuffed them with preservatives and MSG, and forced them to share fryers with drumsticks and jalape\u00f1o poppers.And why?Have not these beautiful, slender pieces of fried potato graciously accompanied entr\u00e9es without condition or prejudice?  Have not fries comforted, satiated, and delighted us? Are fries not entr\u00e9e worthy? These are the questions that we have asked. And this is our answer: Fries should be cooked with natural and healthy peanut oil, fries should not share fryers with other foods, and fries are, indeed, entr\u00e9e worthy. At Boise Fry Company, burgers are on the side.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Boise Fry Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4df2fb14-15f0-4800-81a2-4ce246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ben & Jerry's Scoop Truck is the mobile way to get your Ben & Jerry's fix! Featuring all the classic premium and hard scooped flavors you know and love. Along with their premium ice creams, you can find delicious sorbets, frozen yogurts, waffle cones, sundaes and ice cream bars.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ben & Jerry's Scoop Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554801fa-aeb4-4c68-a12b-6fb946204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

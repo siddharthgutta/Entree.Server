@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sweet, savory, and amazing... you'll love every bite from the fantastic Crepes Plus! Made fresh just for you, these scrumptious crepes are sure to steal your heart at the first bite, no matter what your appetite. Dig into something delicious today, with the best crepe cart on the streets of Portland!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crepes Plus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560478ae-690c-4036-9cbe-1cb646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

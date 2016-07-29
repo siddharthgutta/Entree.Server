@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "MELT is a food truck currently serving the streets of Birmingham. The concept behind MELT is simple: a modern twist on a classic comfort food. The menu is approachable and the food is scrumptious. There is something about going back to basics of food that just makes sense. Grilled cheese sandwiches put smiles on faces. Whether it's a plain grilled cheese on wheat or a \"Southern Comfort\" with grilled onion, bacon, and pulled pork on sourdough, the MELT menu has something for everyone.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Melt Birmingham",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5159eaf3-e3d4-4764-9b75-347746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

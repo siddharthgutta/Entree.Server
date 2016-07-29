@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Francisco's first gourmet, mid-western style BBQ truck! The Rib Whip is the FIRST EVER BBQ truck with a smoker installed on-board! We'll be serving amazing mid-western style BBQ grub to satisfy all your lunch-time and late-night desires!The Rib Whip will also be available for private catering events such as sporting events, tailgating, company functions, birthday parties, days in the park, etc. etc. etc. You name it, if you want BBQ at your event, we can handle it!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rib Whip",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e721acb-79d4-403d-9976-528346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

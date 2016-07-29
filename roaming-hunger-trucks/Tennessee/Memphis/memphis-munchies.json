@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Memphis Munchies is a two time Great Food Truck Race, Food Network nominated mobile food truck, as well as, an Eat St. nominated food truck on the Cooking Channel. We travel around the city of Memphis serving fresh, mouth watering munchies such as, the Memphis dog (deep fried hot dog), slaw dogs, fried pies, candy apples, and much more! We specialize in serving the most flavorful munchies known to the Mid-South.Your mouth will crave our signature \"Miss Piggie\" dog, a deep fried hot dog wrapped in bacon, topped with shoulder meat, and our house made cole slaw.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Memphis Munchies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ff73a4e-900c-4432-b823-078046204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

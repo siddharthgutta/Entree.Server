@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "S & J's Woodfired Pizza is an eco-friendly catering company that uses local ingredients to serve fresh and delicious wood-fired pizza at farmer's markets and private parties in Georgia. The dough and sauce are homemade, and nearly all of the toppings are locally sourced or homegrown! Try out this delicious, great pizza today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "S & J's Woodfired Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e5ffc16-e928-4484-9a10-6eef46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Burro Cheese Kitchen is serving up artisan grilled cheese sandwiches right under a shady oak tree in the heart of Austin. Only the best and local freshly baked breads and Texas small batch cheeses are used to create these inventively delicious sandwiches. Oh and did you hear about the homemade custom blended dips? They are better than you can even imagine.Try the popular Waylon & Willie: beer bread, Redneck Cheddar, Gruyere, caramelized onions, pepperoncini with Spicy Maple Bacon Sauce. Or build your own with your choice of fresh vegetables, fruits, and cured meats that make perfect additions to any sandwich.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burro Cheese Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52266b43-cc50-493c-bc34-22d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

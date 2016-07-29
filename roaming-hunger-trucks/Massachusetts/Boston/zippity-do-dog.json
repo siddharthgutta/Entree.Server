@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Zippity-Do-Dog is doing things right with fantastic food served straight off the grill! Fantastic franks and all beef quarter pounders on grilled buns are just the start of the good times at this terrific food truck. Whether you're here for a delicious hot dog, burger, or steak & cheese, grab some great grub from Zippity-Do-Dog!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Zippity-Do-Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/560ac532-1cb4-4404-a40c-470146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

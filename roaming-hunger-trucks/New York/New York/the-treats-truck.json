@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Treats Truck is filled to the brim with boxes of your favorite freshly baked cookies, brownies and goodies galore. We offer a daily variety of baked goods made with quality, wholesome ingredients. Not too fancy, always delicious! In addition to our Treats Truck Standards, we have daily Specials, pulled from our favorite recipes - seasonal, holiday and customer-inspired creations! What makes our products so special? They are baked with absolute love and care, and from only the best ingredients. In addition, we have added our own special touches to such classics as the rice crispy square and the oatmeal cookie: the Oatmeal Jammy and the Cran Almond Crispy are customer favorites. We also feature delicious peanut butter sandwich cookies, caramel creme sandwich cookies, four kinds of chocolate brownies daily, frosted sugar cookies, chocolate chip cookies and, of course, our rotating list of specials.We believe in the importance of treats - in our daily lives and for special occasions, both big and small. The Treats Truck food truck proudly serves fresh, delicious baked goods to its customers. We hope you enjoy our treats and visit us often!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Treats Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4cdb40a6-9b78-44dc-b0fd-653546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

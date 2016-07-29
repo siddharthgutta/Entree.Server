@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Award-winning cheesesteaks in the heart of Portland, coming to you from Steaks Fifth Avenue! Cheesesteaks, burgers, staples of a hunger-satisfying diet, are being served up hot, fresh, and absolutely delicious from this street cart that you are sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Steaks Fifth Avenue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5581ae05-7130-4aa3-a008-131246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

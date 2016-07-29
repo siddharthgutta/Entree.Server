@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Piggy Grill is here to serve up some serious grub on the go! If you've been on the lookout for a mobile eatery that's serving some real meals that'll stick to your ribs, then this is the food truck for you. Sausages, ribs, and their signature pork chop sandwich are all just the start of the deliciously good times when you try The Piggy Grill!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Piggy Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5627db4e-6800-49af-9cac-0b9446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

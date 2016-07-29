@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Artisanal Street Cuisine & Catering, focusing on sustainability and zero waste, while providing GASTRO-rrifically good eats!GASTROTRUCK is all about respecting food and the environment in which it comes from. Only products from farms and companies that show the same level of commitment to your food and our environment will be used. Everything on the truck is hand-crafted, right down to the condiments. We know where your food comes from....do you?!We are out on a mission to show the Twin Cities that you can get great food and great-for-you-food in a quick manner and at a value. Come find us on the streets of Minneapolis and St Paul and all of the wonderful cities in-between. Thank you for your interest in GASTROTRUCK, and we look forward to meeting you someday!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gastrotruck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ed695f0-e338-43c5-851d-583546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

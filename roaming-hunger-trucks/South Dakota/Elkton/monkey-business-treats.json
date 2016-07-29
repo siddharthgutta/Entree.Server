@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There\u2019s no business like Monkey Business Treats because they sure make South Dakota life complete with their fun, yummy Ice Cream & Sno Cones!Whether it\u2019s for your next party or meal, satisfy your sweet tooth the spunky way and have Monkey Business come and sweeten the day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Monkey Business Treats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57154274-78f8-4b84-8df4-5ae646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

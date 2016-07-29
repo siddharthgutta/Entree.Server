@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cleveland, let your tastes come alive with Chef Grey Wolf Food Truck!With 25 years of experience in cooking and restaurant catering, Chef Somnez Bozkurt is a seasoned vet around the kitchen.By the way, for those of you who don't know Greek...Bozkurt in English means GRAY WOLF.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Grey Wolf Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5228f300-a818-48e2-bf4d-75c446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

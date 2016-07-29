@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oklahoma's got soul! The Galley Soul Food and More cooks up your favorite soul food classics. Collard greens, ham hocks, cornbread, southern fried chicken, and sweet potato pie are just a taste of what you'll find at The Galley. Come on down and grab some grub for your body and soul!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Galley Soul Food & More",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553e92ef-89d0-410d-9c72-232b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

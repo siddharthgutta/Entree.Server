@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic Filipino food is just around the corner with Music City Rice and Roll! Fresh, delicious, and always sure to satisfy, Music City Rice and Roll will be sure to have you hooked! Java Rice, Tocino Sliders, BBQ Sticks, and more are ready and waiting for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Music City Rice and Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55525352-9080-4e83-bbeb-773e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

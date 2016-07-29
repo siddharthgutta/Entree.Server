@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best ice cream in Little Rock is roaming the streets with Loblolly Creamery! It's small batch ice cream made with their very own recipes and from fresh, seasonal ingredients. Dark chocolate sorbet, salted caramel, Little Rock-y Road, and so many more flavors are ready and waiting to satisfy your sweet tooth!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Loblolly Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557867cc-eea0-4155-b5fa-14d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

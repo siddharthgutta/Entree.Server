@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best in Baja-style Mexican cuisine is coming to you on the streets of Houston from The Workshop! Tacos, quesadillas, and great times are what you'll find at this food truck. If you're looking for some real Mexican flavor and an experience you'll never forget, The Workshop is the truck you seek!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Workshop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a9954e-de08-492c-8ccd-16bb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

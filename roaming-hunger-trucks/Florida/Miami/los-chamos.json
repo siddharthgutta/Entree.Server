@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Los Champs Food Truck, Miami specializes in Fresh & Tasty Venezuelan Food!! Due to its location in the world, its diversity of industrial resources and the cultural diversity of the Venezuelan people, Venezuelan cuisine often varies greatly from one region to another. However, its cuisine, traditional as well as modern, has strong ties to its European ancestry (Italian, Spanish, Portuguese, and French) as well as a blend of African and Native American traditions.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Los Chamos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e94c844-e3cc-4b90-80c6-318146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

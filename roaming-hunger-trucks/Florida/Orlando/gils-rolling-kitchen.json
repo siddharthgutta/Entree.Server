@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The most amazing Cuban cuisine on the street food scene is right around the corner, thanks to Gil's Rolling Kitchen! If you're looking for some delicious sandwiches, enchiladas, and more, then you're sure to love Gil's. Cuban flavor and modern mobile style are coming together to create an awesome eating experience for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gil's Rolling Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56560779-b1a0-4b7e-ad04-488b46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

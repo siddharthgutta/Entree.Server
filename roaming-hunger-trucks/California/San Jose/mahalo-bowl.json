@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Acaistas at Mahalo Bowl specialize in making healthy and delicious Acai bowls and smoothies that serve as a meal replacement, post workout meal or simply an energizing snack. Their bowls are all-natural, with no added sugar and certainly no high fructose corn syrup. As a result, these delicious bowls fill you up but never slow you down. So, the next time you see Mahalo Bowl in your neighborhood stop by and say hello!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mahalo Bowl",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539e57fb-7260-49d9-9d7b-163f46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

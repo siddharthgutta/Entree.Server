@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A menu fit for all seven seas is rolling right to you, thanks to Pirates Bistro! If gourmet grub on the go is what you've been looking for, then this is the food truck for you. From sandwiches to sushi to Mediterranean cuisine, and beyond, there's no limit to the delicious dishes that Pirates Bistro can bring to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pirates Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13202/575057aa-8de0-4c5c-af2e-438e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

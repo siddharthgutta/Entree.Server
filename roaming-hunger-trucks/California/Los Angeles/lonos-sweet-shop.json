@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lono's Sweet Shop is a shaved ice cart serving up some of the most fantastic Hawaiian Shave Ice around. Using organic cane sugar in their all-natural syrups, and finely-shaved ice in every cone, Lono's makes sure every bite is a treat. Check them out on the streets of LA!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lono's Sweet Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5418b247-15a4-4120-8afd-0a8c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

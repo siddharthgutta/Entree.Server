@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Cocinita, literally \u201cThe Little Kitchen,\u201d is a food truck dedicated to serving fresh, authentic, gourmet street food from Latin America. We offer an array of delicious and inexpensive options, ranging from traditional Mexican tacos to less familiar South American fare such as arepas and patacones. The build-your-own theme of our menu allows people to customize their meals in order to suit all preferences and tastes. We are excited to bring the flavors of Latin American street food to the streets of New Orleans!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Cocinita",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f56928c-28d0-4e5d-8376-475246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

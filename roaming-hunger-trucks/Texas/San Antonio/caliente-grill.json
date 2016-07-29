@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Caliente Grill is heating things up on the San Antonio streets with their delicious grilled Mexican dishes. Scrumptiously cheesy Carne Asada Fries, crispy & spicy Bacon-Wrapped Jalape\u00f1os, tasty Cod Fish Tacos (with mango habanero salsa and creamy cilantro avocado sauce) are just a few of the amazing Caliente creations you\u2019ll find on their crazy-cool menu. For all this and much more, call on Caliente Grill to come cater your next event or just come on out and eat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Caliente Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/10104/577147f2-40cc-4496-8201-3fc946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

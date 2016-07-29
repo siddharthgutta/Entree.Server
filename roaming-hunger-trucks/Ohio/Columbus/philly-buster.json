@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Busting out that fine Philly flavor! Philly Buster is here to bring you the best sandwiches around. Brisket, pork, and chicken all smoked in truck for that fantastic flavor and a super satisfying sandwich. Put that together with their delicious sides and you've  got a meal that will keep you coming back again and again!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Philly Buster",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9630/553ee8dc-b404-4c5e-ab7b-45ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

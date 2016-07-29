@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hudson's #1 mobile pizzeria is bringing you that delicious, wood-fired flavor! Truck Pizza was inspired one night around the wood-fired oven hearth, eating pizza and thinking about ways to share it with the world. Months later, they brought Truck Pizza to the world, ready and waiting to bring the best Neapolitan-style pizza right to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Truck Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55917c25-e3fc-4a12-8a3c-0c8246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

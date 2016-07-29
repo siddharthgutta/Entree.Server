@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papa D\u2019z Pizza Fresca is a world class company providing the best pizza\u2019s using only the finest ingredients made fresh at any location. We believe in going the extra mile and not only serving the best pizza but preparing, baking and serving it at your special event making all of the difference. Papa D\u2019z understands that preparing and hosting a special event is hard enough without having to worry about cooking, cleaning up the mess and no one wants to order \u201cdelivery\u201d! Frozen pizza? Forget about it! We prepare, bake, and serve our pizza\u2019s on the spot, fresh and hot. Papa D\u2019z takes care of it all. We show up, set up, and clean up so we can leave you and your guests with a smile every time.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa D'z Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fce9dd9-23f0-4276-bebb-24c446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Oklahoma City's Crepe Brewers is bringing this Parisian delicacy curbside to the states! Got a sweet-tooth or in the mood for something salty? Either way, your curb your appetite with a sweet or savory crepe. Popular savory crepes include the smoked salmon crepe and the prosciutto pear crepe. Sweet crepes include strawberries and cream, peanut butter banana bliss, and more. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crepe Brewers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523b7ed9-8478-42bd-bd58-42e046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

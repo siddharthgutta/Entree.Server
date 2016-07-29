@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Monsta Lobsta is a lobster roll buisness that sells delicious lobster rolls that are affordable, nutritional and delectable!!!At Monsta Lobsta, we serve our tasty, secret, homemade recipe of a Maine Lobster Roll. Our ingredients are fresh and provided by licensed suppliers. Whether you are a connoisseur or new to the refreshing taste of lobster rolls you will not be disappointed. You can find us serving out of our mobile lobster shack. Simply check the map below to find us.Bring a taste of Maine to Florida. While the history of the lobster roll remains unclear, the popularity is undeniable. Unfortunately, there is very little documentation on who created the first lobster roll. One of the few theories most historians can agree on is that the lobster roll could not have been invented before 1912, which was the year hot dog rolls became mass-produced. A lobster roll is a sandwich filled with lobster meat. A traditional lobster roll contains the fresh cooked meat of a lobster, tossed with mayonnaise and served on a grilled hot dog bun or similar roll, so that the opening is on the top rather than on the side.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Monsta Lobsta Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4e69878b-1cac-4896-bf69-639b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

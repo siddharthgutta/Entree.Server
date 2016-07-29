@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Two Italians Deli & Pizzeria is the latest mobile food truck to hit Chicago. Our daily menu includes baked Italian pastries, cookies, fresh breads, rum cakes & much more.  We offer a full deli & pizzeria menu that delivers the best subs, sandwiches & salads right off our truck in the Chicago area, all with true Italian meats & cheeses.  At Two Italians food truck, we also offer a wide variety of deli meats, cheeses, olives, imported pastas & take-n-bake pizzas. Try us once & you\u2019ll love our food. We guarantee it!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Two Italians",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ebb6633-2308-423c-aa7e-735c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

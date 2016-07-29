@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "\"Where Happiness Comes in Rolls,\" a side project of Far East Nashville Reastaurant, this food truck specializing in Banh Mi, Spring Rolls, Bun aka Vietnamese Vermicelli Bowl, some desserts and beverages!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Banh Mi & Roll Factory",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8864/55118950-6138-4d6f-9cfa-5d9846204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

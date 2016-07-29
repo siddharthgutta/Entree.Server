@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Super Subs is bringing the best sandwiches, pizza, empanadas, and good times in all of Houston right to you! Super Subs is sure to satisfy your cravings with their quality ingredients and excellent service. Perfect for any occasion, this big yellow bus is ready and waiting to pull up to your next big event and feed your guests the best food around!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Super Subs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6a412-d478-4314-9c88-432846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Tia Rosa's is on the road and bringing you the best tacos in town! Offering Baja-style flavor everyone will love, Tia Rosa's food truck is sure to be a fantastic time for you and your taste buds. Shrimp & salmon, beef & chicken, burritos, chips & salsa, and so much more are waiting for you at Tia Rosa's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tia Rosa's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a3ef0c-e100-44d2-9d46-244b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

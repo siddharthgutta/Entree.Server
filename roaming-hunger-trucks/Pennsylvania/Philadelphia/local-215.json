@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Local 215, we\u2019re committed to sourcing everything we can locally, extending only the freshest, most natural and unprocessed foods to you. Buying from local farmers not only makes our dishes delicious; it also supports our neighbors\u2019 livelihoods.  We see fostering local businesses as a cooperative responsibility, not only for our community, but for our environment as well.  This dedication to great food and good business is the core of our philosophy. Local 215 is a mobile food truck committed to responsible business practices and Philadelphia food traditions.Our goal is to celebrate the Philadelphia food culture using only the most thoughtfully selected local and seasonal ingredients. We are also committed to promoting other local businesses.At Local 215 we appreciate the city of Philadelphia - We Live It, We Love It, We Feed It! We feel it is a privilege and an honor to serve this city, and are enthusiastic to reciprocate by supporting our fellow local businesses.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Local 215",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/506f21e9-7dc4-478a-a58a-694346204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

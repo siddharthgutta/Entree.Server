@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Alfred Party Grill has the best in burgers, crepes, and more! Try their Beef Fajita Crepe, or a Veggie Burger. If you're in the mood for something sweet, why not give their Banana Dulce de Leche Crepe a try? Stop by Alfred Party Grill today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Alfred Party Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12669/562fa861-2920-41d1-84b2-0c0046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

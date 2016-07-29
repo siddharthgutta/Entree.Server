@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big Ron's Bisto is roaming the streets of Indianapolis! Big Ron's Bistro serves a variety of specialty sandwiches, soups, and salads throughout Indianapolis and surrounding areas. His sandwiches have combinations of gourmet ingredients like the Basa Fish Cake with fresh spring lettuce, cajun tartar, and cheddar cheese on Texas toast with garlic butter, or the Tenderoni, made with breaded tenderloin, ham, American cheese, bacon, sriracha BQQ on Texas toast. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big Ron's Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50f74bfe-afd0-4b3f-8b49-1ac846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

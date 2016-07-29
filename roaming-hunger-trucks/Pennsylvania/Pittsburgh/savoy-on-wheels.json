@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For an exquisite gourmet dining experience, hit the streets of Pittsburgh to find the Savoy on Wheels food truck! With a wide variety of expertly prepared dishes, Savoy on Wheels is sure to leave you craving more. Stop by today and grab a fantastic meal at Savoy on Wheels!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Savoy on Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d60216-85f0-43ff-9eb4-3b3b46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

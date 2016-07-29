@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An amazing espresso cart on the streets of South Carolina is making its way down a street near you! Sassyass Coffee is brewing the best way to kickstart your day when you're on the go on the streets of Charleston. All your favorite caffeinated concoctions are coming right to you, so don't miss out on this terrific coffee cart today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sassyass Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562e6587-55dc-4d8a-9333-17b346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

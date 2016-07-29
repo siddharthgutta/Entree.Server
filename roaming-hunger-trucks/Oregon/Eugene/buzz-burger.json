@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "BUZZ Burger is a great burger trailer serving the streets of Eugene. From the burgers and dogs to the weekly specials and breakfast options, everything this truck has on offer is sure to blow you away. These burgers are locally sourced grass fed beef, with no hormones or antibiotics, 100% natural from Knee Deep Cattle Company. Stop by today for the burger that sets the town abuzz!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BUZZ Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ebc8df-b1d0-4dfc-8004-7cdf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

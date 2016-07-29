@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Duck Wagon is out, about, and doing what they do best: bringing you the tastiest Cajun cuisine on the streets of Ohio! Delicious food with real Southern style, everything from the jambalaya to the Cajun chicken on a stick is sure to have you coming back over and over again. If you're looking for something new to shake up your everyday lunch then The Duck Wagon is just what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Duck Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b28633-e880-432b-9660-5d2046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Captain Q's Cafe is serving up some classic American cuisine with a Cajun twist on a street near you! Po boys, po burgers, jambalaya, and more are on the menu, and sure to satisfy your hunger! For an amazing eating experience, you'll definitely love Captain Q's Cafe!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Captain Q's Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55707a56-fd88-4573-a371-772d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fantastic cuisine on the streets of Connecticut is coming right to you! Sandwiches, cheesesteaks, hot dogs, and good times are ready and waiting for you today. A family run food truck you're sure to love, 744 Express is bringing you the perfect meal when you're on the move in West Haven!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "744 Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561ffe74-c444-4577-a8d3-0fa546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

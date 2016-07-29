@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Chili Hut is the Queen City\u2019s latest addition to its fleet of food trucks. Specializing in Cincinnati-style chili, The Chili Hut unapologetically exudes hometown pride. With a simple menu and affordable prices, The Chili Hut is perfect for any occasion when hunger strikes. After all, it\u2019s ALWAYS Chili in Cincinnati!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Chili Hut",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6339/5771bcb1-408c-4e78-87ca-3e7d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

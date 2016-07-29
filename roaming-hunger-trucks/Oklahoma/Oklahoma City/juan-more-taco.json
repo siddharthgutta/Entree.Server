@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're in the mood for street food you're sure to love, get ready to start craving Juan More Taco! Savory flavor you can really sink your teeth into is just the start of the good times at  this great truck. Nothing says \"classic street cuisine\" like a taco, and nobody does tacos like Juan More Taco!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Juan More Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55db8dfd-5388-45fe-80aa-5ddd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

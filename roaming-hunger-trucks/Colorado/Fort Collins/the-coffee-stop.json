@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Coffee Stop is a food truck bringing you the high quality food and drinks you've been craving! You'll find the best espresso, coffee, teas, and smoothies when you stop at this mobile coffee shop. Along with their delicious bagels, breakfast burritos, and other delicious bites you've been craving, The Coffee Stop has just what you need to start your day off right!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Coffee Stop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55e60631-6cd4-4621-b38f-477546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

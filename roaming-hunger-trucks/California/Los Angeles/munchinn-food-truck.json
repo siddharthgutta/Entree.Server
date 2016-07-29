@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Munch'Inn Truck is on the streets of Los Angeles to serve up some spectacular eats! Burgers, sandwiches, and more are being cooked up hot and fresh, to astound and delight your taste buds. For some delicious food cooked just for you, there's no place better than Munch'Inn Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Munch'Inn Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/11593/55b51e85-fc04-4a50-a86b-69b646204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

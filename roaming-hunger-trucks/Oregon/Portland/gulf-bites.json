@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gulf Bites is bringing the fantastic Florida style you've been waiting for right to the streets of Oregon! Mahi-Mahi Tacos, Salmon BLT Wraps, Hushpuppies, and more are all on this amazing menu for you to sink your teeth into. A taste of the Gulf Coast is right around the corner and ready to satisfy your cravings today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gulf Bites",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56169d9e-ecbc-4f4f-b793-0a4246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

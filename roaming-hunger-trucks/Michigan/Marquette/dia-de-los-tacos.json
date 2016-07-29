@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This taco truck is serving up more than just your average delicious taco. Their tacos feature yummy ingredients like pulled pork, jicama slaw, chorizo, and spicy poblano chiles. Their menu also includes another Latin delight - the pupusa. Though similar to tacos, the pupusa utilizes masa to make a thicker tortilla. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dia de los Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/515f62b9-eb70-4d84-acf2-0d1446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

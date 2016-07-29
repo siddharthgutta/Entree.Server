@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Craving something savory and delicious? Street Kitchen LA's rich and varied menu has something for you! A Los Angeles must-try, Street Kitchen's handmade fare mixes classic American comfort food with upscale cuisine. Their lobster bacon mac-and-cheese is sure to leave you wanting more. Find them on the streets or book them for your event today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Street Kitchen LA",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d2620a-de74-4639-b264-085646204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

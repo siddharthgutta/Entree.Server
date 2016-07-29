@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The secret recipe to Joe Bury's Famous Burgers has been passed down generation to generation since the 1920s.  With the third generation of Bury's behind the grill, the same delicious and renowned burgers can be found at their truck. The classic burgers are now joined by Maryland crab soup, hot dogs, mac & cheese and more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Joe Bury's Famous Hamburgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5552854d-1614-4fd1-a13c-44cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

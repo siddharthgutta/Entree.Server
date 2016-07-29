@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Lancaster BRGR Mobile Food Trailer serving fresh burgers sourced with beef from Lancaster, PA to provide the finest burger alongside with fries and milkshakes. Taking burgers to a another level this food trailer is claiming burger lovers all over Lancaster. Check 'em out next time you get the craving for the perfect burger you won't be disappointed, go out and have a delicious bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lancaster Brgr Company",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554a7308-8cec-452a-8f0e-0c8446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

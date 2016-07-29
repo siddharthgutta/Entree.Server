@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smokin' Rock n' Roll is bringing you the best BBQ and the most rockin' tunes in all of Cleveland! Combining their love for the stage and their passion for cooking, Bill Morris and Todd Chaisson are bringing you the best time on 4 wheels! You've never experienced anything like this. Get your pulled pork, smoked chicken tacos, and so much more from the most rockin' truck around, Smokin' Rock n' Roll!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smokin' Rock n' Roll",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d60148-4c3c-4120-b434-28f146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Great  food and great times are coming to you today, thanks to the fine folks of Backyard Grub! Gourmet burgers on the go are on the menu today, made from the best ingredient around and sure to satisfy your cravings. Along with their fantastic shakes, sundaes, and other sweet treats, Backyard Grub has something great for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Backyard Grub Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56096dbf-c730-4f34-8c52-6c9046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

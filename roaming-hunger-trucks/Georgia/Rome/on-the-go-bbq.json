@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a \"Southern\" style mobile catering service. We are from Georgia bringing a taste of the south to Vegas. Although we specialize in barbeque, we can deliver ANY American cuisine you want on your menu. We have the only truck/trailer in Vegas that can smoke/ grill items on location of event! We also have bakers on hand to deliver those sweet tooth treats!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "On the Go BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54c67c4d-b540-40a9-8273-75c446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

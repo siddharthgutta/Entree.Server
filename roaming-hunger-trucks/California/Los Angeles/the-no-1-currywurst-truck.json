@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The \"Currywurst\" is a national dish across Germany and has a \u2018cult\u2019-following; it has been popular in Germany over a long time: It consists of a Bratwurst type sausage, with added curry-flavored ketchup. There are about 800 Million curry sausages served per year in Germany. The trend in Germany is to offer curry sausage as a more premium fast food experience in a wider variety, e.g. pork, veal, beef sausage as well as different sauces.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The No.1 Currywurst Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/576da120-3514-422b-b1b7-44f646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

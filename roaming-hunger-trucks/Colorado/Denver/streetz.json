@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Finding delicious and affordable gourmet eats on the go has never been easier, all thanks to Streetz!Chef Spenser Rikhoff has taken his extensive restaurant experience to bring you a savory selection of locally sourced Colorado comfort cuisine. His menu includes Thundersnout Pork Sliders with smoked pork slathered in the famous Thundersnout BBQ sauce, Hand-Cut Fries which you can top with an assortment of awesomeness, including Chef Spenser\u2019s award-winning green chili, and you\u2019ll definitely want to to get in on some Streetz S\u2019mores...two chocolate tarts with graham cracker crusts and marshmallow whipped cream, mmm...For all this and much more, head your way to Streetz and make your hunger obsolete. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Streetz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5774458a-0ea8-4a0e-84e9-53a046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

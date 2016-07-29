@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Antonio's original gourmet hot dog street vendor, we make the best hot dogs in the world.Alamo Hot Dogs locally owned and operated is a hot dog experience unlike any other.We feature the \"Original Hog Dog\" which is a quarter pound all beef kosher dog wrapped with bacon and grilled to perfection.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Alamo Hot Dog Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/505a09e2-e464-4597-b3c6-5bd346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

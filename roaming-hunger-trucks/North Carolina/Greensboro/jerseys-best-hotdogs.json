@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Calling all hot dog aficionados! Come get the best and most state of the art hot dogs in town! This cart is equipped with an instant water heater to ensure everything is prepared as healthy and fresh as possible! Not only that but using only 100% Vienna dogs, Jersey's Best Hot Dogs are named so for a reason! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jersey's Best Hotdogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554ba70b-3bf0-4974-9341-129546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

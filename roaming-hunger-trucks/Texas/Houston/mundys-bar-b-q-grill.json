@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for delicious barbecue, then look no further than Mundy's Bar-B-Q Grill! Ribs, pulled pork, burgers, and more are ready to get your mouth watering and your stomach rumbling! So if you're ready to be happy and satisfied with your barbecue, visit Mundy's today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mundy's Bar-B-Q Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554b8c30-7498-4804-ba22-530f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

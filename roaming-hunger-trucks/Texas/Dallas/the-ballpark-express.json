@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you a Texas Ranger's fan? get the ultimate ballpark experience by eating at the Ballpark Express truck.Choose from their famous Philly Steak Dog, Nolan's \"Hot\" dog, the Barbwire Sausage (and more) or customize your own ballpark meal.Go Rangers!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Ballpark Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52fa8470-7404-483e-a682-06bd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

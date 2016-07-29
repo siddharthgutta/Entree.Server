@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For some fantastic feel-good food, keep calm, and come eat at Phenomnom. With a scrumptiously eclectic selection of Tacos, Mac & Cheese, Grilled Cheese Sandwiches, and Sliders (with an option of lobster!), to enjoy anything more would just be physically impossible. All foodies in the O.C. find the Phenomnom truck to be truly phenomenal, and you certainly will too. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Phenomnom Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13697/57853e5a-8df8-4eb2-a684-28f746204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

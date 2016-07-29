@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chef George Levendis, a highly trained and experienced master chef, returns to his culinary roots with his food truck, Chef George of the Jungle. Fusing his Greek heritage with his love of homecooked American classics, Chef George serves up a delicious menu featuring items like his lauded sweet potato fries and lamb burgers. \"There is an energetic transfer from me into what I am creating. My love, my soul goes into this food. You eat and enjoy it.\" -Chef George",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef George of Da Jungle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54f62b39-4a74-4170-87a4-2a7946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

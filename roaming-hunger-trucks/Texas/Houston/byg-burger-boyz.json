@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing craft burgers to a party near you, it's the BYG Burgers Boyz! Perfect for any event, the BYG Burger Boyz will work with you to create the perfect menu for you. Their signature burgers and sandwiches will be sure to satisfy! The Killer Rojo, Down and Dirty BCB. Brewburger, and more will make your day the best it could be!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BYG Burger Boyz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55428b8c-cb60-494d-b1c8-791346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

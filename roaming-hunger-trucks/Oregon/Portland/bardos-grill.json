@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best burgers on the streets of Portland are being cooked up hot and fresh for you, by Bardo's Grill! Gourmet grub fresh off the grill is always a great way to feed your need for great cuisine. Whether you're craving the original burger, the Teriyaki burger, the Baconator, or anything else off their incredible menu, Bardo's Grill will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bardo's Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561d2f5d-8e64-4692-8dcb-1b6a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

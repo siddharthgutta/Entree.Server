@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Real Southern BBQ in the heart of Las Vegas, Rollin Smoke Barbeque is bringing that down-home flavor right to you! Ribs, pulled pork, brisket, and more, Rollin Smoke Barbeque has it all! For that real taste served up just the way you like, it's got to be Rollin Smoke Barbeque!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rollin Smoke Barbeque",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557f36fb-3f18-465d-806d-374546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

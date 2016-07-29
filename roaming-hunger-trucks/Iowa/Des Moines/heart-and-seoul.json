@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking to feed more than just your stomach? This food truck has fantastic fare for Heart and Seoul! Korean BBQ tacos and rice bowls are always an awesome meal on the move, and we're sure you'll agree after trying this truck's menu. Don't miss out, Heart and Seoul is cooking up something amazing today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Heart and Seoul",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5655f661-1830-4b1d-b905-55c046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

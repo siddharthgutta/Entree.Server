@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Papa Nick's Food Truck specializs in pizza by the slice, meatballs on the stick and calzones. Papa Nick's has been a Cleveland institution since 1976, Serving gourmet \"Cleveland\" style pizza, baked dishes and so much more. We have taken our customer favorite items on the road with Papa Nick's Food Truck.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Papa Nick's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54401b7c-5af4-4f32-b22e-533746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

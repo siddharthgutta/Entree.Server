@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sometimes you just crave a good hot dog. Hawk\u2019s serves Nathan\u2019s all-beef hot dogs to help you out when that craving strikes! From $2-$3.50, it\u2019s an inexpensive and tasty meal to grab if you don\u2019t have time to stop and eat.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hawk's Hotdogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ffb3dfd-0978-4229-b249-37de46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

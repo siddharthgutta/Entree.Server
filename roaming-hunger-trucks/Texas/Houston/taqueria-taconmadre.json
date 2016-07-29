@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for Houston's tastiest tacos? Then you can't go wrong with Taqueria Taconmadre! With tacos you can always enjoy on the go, you'll love every bite from this terrific truck. Houston's best kept secret is rolling down a street near you today, so don't miss out on Taqueria Taconmadre and their awesome menu!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taqueria Taconmadre",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5640f615-032c-4305-8110-231d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For the best Cajun cuisine on the street food scene, nobody beats The Big Easy! That real Louisiana flavor you've been looking for is finally here, and it's everything you were hoping for. Delicious Po-boys, Jambalaya, Shrimp Etouffee, and so much more is rolling down a street near you! Don't miss out, visit The Big Easy today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Big Easy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12347/56a95dbb-53b0-4ddf-95a0-43f846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

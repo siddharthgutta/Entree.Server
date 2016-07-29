@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Getting a taste of Philly's finest foods is easier than ever now, thanks to Hot Brat and a Touch of Philly! Hot dogs, bratwurst, and the best Philly Cheesesteak outside of the city of Brotherly Love are all on this food truck's menu today. Fresh, fast, and always made-to-order, Hot Brat and a Touch of Philly is taking street food to a whole new level!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Brat and a Touch of Philly",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56be4a3a-c938-48c2-a488-0c8046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

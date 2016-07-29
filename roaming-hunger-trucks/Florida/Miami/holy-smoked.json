@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The smokiest truck in Miami serves a variety of slow smoked foods. Using only hardwoods & freshest ingredients. We even bake our own breads! Whatever you desire, we can create a menu for you! Want a smoked taco, quesadilla, burger? Just ask! From smoked pork, chicken, fish & sandwiches, we will satisfy your tummy! We can also create a kid friendly menu so let us know what you desire. we do it all!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Holy Smoked",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7672/541c4a09-5518-4c32-8fd8-31bb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

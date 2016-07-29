@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Saucy Dogs is Montana\u2019s top source of the best tastes of Americana, and folks from all over The Treasure State take absolute pleasure in their scrumptious selection of handcrafted Sausages, Bratwursts, and Hot Dogs. These saucy chefs use fresh local ingredients to create their delightful menu that includes their Bison Brat with Huckleberry Habanero BBQ Sauce, Brewmaster Beer Brat, and their famous Reuben, just to name a few. So come on out for some of the best meat you can find on the street, and you\u2019ll agree that the flavors from Saucy Dogs are obviously boss.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Saucy Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571e8df0-a4b4-46bb-9ffd-657e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

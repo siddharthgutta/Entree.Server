@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Offering amazing food, WongWayVeg is spreading the word about vegan and vegetarian eating with fantastic flavor! Fresh, local ingredients and a passion for the food they do are what makes WongWayVeg the right choice for not just veg-heads, but for anybody who loves high-quality food! Soups, salads, wraps; that's the Wong way to go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "WongWayVeg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551ec6c4-08bc-4213-bb8c-192b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

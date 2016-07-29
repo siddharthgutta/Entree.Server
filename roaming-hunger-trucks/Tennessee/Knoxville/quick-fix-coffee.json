@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for that perfect pick-me-up when you're on the go? Nobody will fix you up like Knoxville's own Quick Fix Coffee! Delicious drinks like hot and iced coffee, espresso, lattes, Italian sodas, and so much more are available on this terrific truck. Don't miss out on the best quality and variety around, look for Quick Fix Coffee today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Quick Fix Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ef0338-ab4c-4d86-ac7c-272846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

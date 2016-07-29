@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taco'Queta is taking terrific tacos to the streets of Tucson! Nothing says street food like great ingredients wrapped in tortillas, and Taco'Queta is making those better than anyone. All the delicious tacos, burritos, and more that you could ever ask for are coming to you from this simple food trailer. Don't miss out, visit Taco'Queta today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taco'Queta",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c935a6-2f04-4b1b-ad82-200d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

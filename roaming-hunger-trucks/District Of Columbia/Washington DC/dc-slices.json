@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DC Slices is a mobile pizza kitchen bringing great pizza to Washingtonians, tourists, and anyone that loves a fresh, hot slice. We use fresh rolled dough, homemade sauce, hand grated cheeses, flavorful toppings: our pizza is baked right inside the truck and served to you as it comes out of the oven. Look for us at lunchtime and late night!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DC Slices",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ce768d8-b57c-4b86-9cbc-649646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

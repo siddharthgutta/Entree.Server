@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Dee's Flavors is taking some all new tastes to the streets of Connecticut!  This fantastic cuisine offers farm fresh flavor with a Latin-Caribbean twist, and each bite is so good you'll have to taste it to believe it. Don't miss out on this truck full of soul making food full of flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Dee's Flavors",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55afc9bf-1818-4117-a229-063746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

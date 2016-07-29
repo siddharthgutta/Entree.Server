@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The South Fork Food Truck has to be one of the best diverse southern eateries on the road. This mobile kitchen specializes in dishing traditional southern cooking with recipes that trace back to 400 years. The influences of  different cultures on this menu gives you the fundamental experience of great southern eats. The South Fork will take you back to a good place with every bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "South Fork Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555bb492-d36c-4275-a76d-699a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "With a rotating menu of fresh fruit and vegetable juices, Mother Juice is the perfect Boston truck for the parched. Each juice is fresh-squeezed from local, seasonal, organic produce to make products that are healthy for you and the environment! Come by for a tall refreshing glass of juice, a cool smoothie, or a tasty raw vegan treat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mother Juice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5400fee2-66e0-475f-a8b0-552346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

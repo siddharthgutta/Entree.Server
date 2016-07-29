@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Doggos Gus is cooking up hot dogs unlike anything else you'll ever find on the streets of San Diego! Classic street food with a Mexican twist, everything you order from this truck is guaranteed to be great. Wrapped in bacon, topped in pico de gallo, made just how you want, Doggos Gus is always bringing you just what you're craving!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Doggosgus",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56cce620-f5a4-4e1b-b72e-33a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

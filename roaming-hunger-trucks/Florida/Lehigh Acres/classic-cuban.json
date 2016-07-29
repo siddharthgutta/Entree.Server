@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Classic Cuban is cooking up the best cuisine in Southwest Florida! This is great food at great prices, and you can taste the quality in every bite. Perfect for any occasion, Classic Cuban can make your next event a smash hit, so be on the lookout for this fantastic Florida truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Classic Cuban",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b6c2c3-d3c8-44c0-ab52-53ac46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

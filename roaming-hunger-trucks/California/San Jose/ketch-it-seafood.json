@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "San Diego is home to one the finest seafood trucks to roam the SoCal beaches. This new gourmet seafood trailer is serving out incredibly delicious Fish \u2018n Chips (Cod, Halibut, Mahi-Mahi), Shrimp, Jumbo Prawns, Scallops and Fried Clams.Make sure you catch up to Ketch It and fetch yourself some tasty fish. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ketch-It Seafood",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f5c094-27a8-45fe-8ae6-40e346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

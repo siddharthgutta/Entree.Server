@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A local cupcakery that specializes in mini cupcakes. Prodigious quality and excellent customer service are at their foundation. Batter Co. was founded on the principle that bigger is not always better and that the best things often come in small packages. When it comes to cupcakes, the same rings true. When cupcakes are so delicious, how can you possibly choose just one? Their bite-sized cupcakes are the perfect solution. They don't believe in filling up on one flavor and missing out on all the others!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Batter Co. Cupcakes",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/525f335b-52f8-41ba-beea-721446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

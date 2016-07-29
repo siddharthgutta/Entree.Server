@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Serving up the best tacos, burritos, quesadillas, and more, it's Bobbo's Tacos & Subs! The finest Tex-Mex in town, Bobbo's is serving up their quality food, made from the best ingredients around. For that perfect combination of friendly service and fantastic food, Bobbo's Tacos & Subs is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bobbo's Tacos & Subs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555e1193-3a18-4f51-a082-5a7b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

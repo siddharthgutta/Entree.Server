@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For a meal that's good to go, there's nobody better! Good To Go Grillerz is here to bring you their charbroiled specialties, using an open charbroiler to impart that special flavor to their cuisine. With their delicious salads, charbroiled wraps, and their signature charbroiled sandwiches, Good To Go Grillerz has something for everyone!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Good To Go Grillerz",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554ba189-d240-418e-b263-45f546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

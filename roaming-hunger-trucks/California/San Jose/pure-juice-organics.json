@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pure Juice Organics provides raw, cold-pressed juices with produce from local, organic farmers. All of our products are freshly prepared with the belief that healthy living stems from not only a healthy diet, but also an active lifestyle, an awareness of the importance of sustainability, and a culture of giving back to the communities around us.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pure Juice Organics",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54873cf0-e8bc-4175-9863-369846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

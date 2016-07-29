@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yummy\u2019s is taking Brazil\u2019s best delicacies through the streets of Denver!The menu at this fun & friendly family-fun truck includes crunchy, flavorful Coxinha (large golden fried chicken dumpling stuffed with seasoned shredded chicken), robustly savory Rissoles (Brazilian empanada with your choice of tasty protein), delicious Linguica sandwiches (pork sausage with fresh salsa and shoestring potatoes on a locally baked bun), and so much more. Come on out to Yummy\u2019s for a wonderfully authentic street food experience!!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yummy's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57895a80-9524-49b6-8f17-66c746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

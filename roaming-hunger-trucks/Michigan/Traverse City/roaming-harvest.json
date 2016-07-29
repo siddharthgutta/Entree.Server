@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Roaming Harvest is a mobile restaurant on the streets of Traverse featuring local food you can feel good about buying and eating. We serve food from our truck that is grown, raised or made by local businesses and sustainable farms. Our menu is driven by what\u2019s in season in northern Michigan. Our breakfast and lunch menus feature local food you can grab on the go, including Breads, Meats, Dairy, Fruits & Veggies, Jams & Jellies.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roaming Harvest",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e99bae-1754-4155-9d90-35bc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

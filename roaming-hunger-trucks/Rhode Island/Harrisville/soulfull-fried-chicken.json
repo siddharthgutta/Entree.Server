@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A New England truck with a lot of Southern soul, Soulfull is here to serve you! Come try the finest fried chicken you'll ever have today, full of all the amazing taste you've been desiring. Fantastic bone-in fried chicken, boneless chicken strips, and the friendliest service you'll ever find are right round the corner, thanks to SoulFull!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SoulFull Fried Chicken",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/562ff406-54cc-49cf-b093-309646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

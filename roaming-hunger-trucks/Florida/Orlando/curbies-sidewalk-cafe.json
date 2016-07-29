@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Curbie's Sidewalk Cafe in Orlando has all your favorites! Ever have a Hot Dog from Chicago, New York or Seattle? How about Spaghetti served Cincinnati style in a Bread Bowl? A Green Chili Cheeseburger from the Southwest? California Fish Taco? Jumbalaya in a wrap? Now you can! We are serving America's Regional Favorites in locations all over Central Florida.We buy most of our food locally: Produce from Farmers Markets and Baggs Produce, Meat products are purchased from Hopkins Meat. Our Black Angus Beef has a born on date so we know it's fresh. Always striving to make it \"Local, Fresh, Delicious!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbie's Sidewalk Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50ef1429-6058-4c37-b518-49fc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for gourmet burgers on the go when walking the streets of Boston? Then we've got the food truck for you! RiceBurg is here with fantastic burgers you have to see to believe! Offering healthier burgers with all the flavor you're craving, RiceBurg is the food truck of your dreams. For Boston's favorite burger on the move, nobody beats RiceBurg!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "RiceBurg",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56144719-a4a8-43ad-8e3c-238d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

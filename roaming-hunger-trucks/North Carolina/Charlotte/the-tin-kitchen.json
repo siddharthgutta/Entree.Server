@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "TIN is a \"freestyle\" gourmet food truck located in the Queen City. Our food is fresh, affordable, and delicious. We are committed to supporting local purveyors whenever possible, and we are especially dedicated to the use of high quality, sustainable meats and seafood.Our specials change regularly to reflect the bounty of each season, and we prepare our fresh ingredients here in Charlotte, in a kitchen that we share with several other local chefs and food vendors. We then pack everything up into our trusty silver, slightly dented truck, and cook it up for you at various locations throughout the community!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The TIN Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f30a482-c4bc-414c-ac95-314146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Traditional Irish ice cream recipes meet the flare and style of the modern day at DaddyO's Irish Ice Cream Pub! Offering gourmet ice cream for the whole family as well as their homemade alcohol-infused ice cream creations DaddyO's is a one of a kind experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DaddyO's Irish Ice Cream Pub",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/551b1b9c-c884-4f52-845d-0f2146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

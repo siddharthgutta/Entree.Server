@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sabor De San Miguel, meaning flavors of San Miguel, is exactly that. This is a San Francisco based food truck featuring a delicious and eclectic assortment of cuisine hailing from their native San Miguel Ixtahuac\u00e1n province in Guatemala. All of this food is prepped at the brick and mortar restaurant, and made fresh to order on site. With over 20 years of great food behind it, this truck is sure to please!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sabor de San Miguel",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/542b2d81-8a60-4255-bc04-5f2046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

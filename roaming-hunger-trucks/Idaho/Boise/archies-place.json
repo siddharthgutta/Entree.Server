@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Archie's Place is a gourmet food truck bringing soups and sloppy joe sandwiches to the streets of Boise. Local meats, vegetarian, vegan, and gluten-free options are always on the menu.We can cater your event - be it a business lunch or family get together. Delivery available in the downtown area (via Northstar Cycle Courier). ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Archie's Place",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4df2f67d-467c-4067-8018-518746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

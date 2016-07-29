@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Local, organic, and (mostly) healthy is what you can expect when you visit The Organic Gypsy. Often traveling around the mid-west, this food truck has an ever-changing menu based on the freshest and best in local ingredients there are! Whatever's on the menu today, you'll always love the quality cooking and fantastic service!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Organic Gypsy",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526f827-c420-4953-bd26-661a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

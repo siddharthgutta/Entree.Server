@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "An Italian Food Truck, where everything is Home Made from the  sauce, to the pasta, their beef, pork and veal meatballs. All hand made right down to the whole darn food truck is Home Made. Valentino's Sells some of the Best & Creative Family inspired foods on 4 wheels in the North Carolina Area.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Valentino's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4c8b17c1-6dac-48e9-ab4b-4e0846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

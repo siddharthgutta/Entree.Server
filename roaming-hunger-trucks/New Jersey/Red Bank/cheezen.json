@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet grilled cheese in the heart of New Jersey! CheezeN is serving up delicious melted cheese in new and exciting ways. Do you want Swiss and Fontina melted over prime rib? How about Mozzarella and Gruyere over Prosciutto? These, and more, are all available now from CheezeN!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CheezeN",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5589e775-437c-4d49-a29f-7c0746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

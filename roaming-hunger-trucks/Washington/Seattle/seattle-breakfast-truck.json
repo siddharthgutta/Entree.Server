@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Seattle Breakfast Truck is bringing the most important meal of the day right to you! Simple, affordable, and delicious, this is the best breakfast you'll ever get on the go. This truck is serving up bagels, burritos, sandwiches, and so much more, so keep an eye out for this fantastic food truck today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seattle Breakfast Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b673f6-3dc8-4f4a-946b-766446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

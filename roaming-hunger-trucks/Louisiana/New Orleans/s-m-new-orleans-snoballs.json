@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "For the finest frozen treats on the New Orleans streets, there's nobody better than S&M; New Orleans Snoballs! The best way to keep cool and refreshed is here, with the fantastic flavors of iced coolness you'll find on this truck. Banana, blackberry, pineapple, and so many more awesome flavors are right around the corner, with S&M; New Orleans Snoballs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "S&M; New Orleans Snoballs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56d61b63-a3c8-4e4f-9eea-3c9546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

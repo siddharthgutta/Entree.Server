@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Angry Unicorn is serving up the best burgers and tastiest bites in Portland! This big green bus has real quality food from fantastic ingredients. Whether you're ordering \"The Best\", \"The Unicorn\", the \"Funguy\", or any of their fantastic foods, you'll be sure to love every bite from The Angry Unicorn!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Angry Unicorn",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5580b723-4cbc-4222-8209-543546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

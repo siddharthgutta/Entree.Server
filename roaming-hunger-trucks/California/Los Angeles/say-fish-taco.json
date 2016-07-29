@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Say Fish Taco is a food truck serving authentic Mexican styles and flavors to the LA streets. The SFT food truck menu takes the concept of his original Sayulita traditions and expands them for diverse Angeleno tastes.   Other truck offerings include saut\u00e9ed Mahi Mahi, blackened salmon, Asian-inspired fajita style and tequila infused pork shoulder (carnitas).  Everything can be crafted into tacos, burritos, quesadillas or bowls.  Sides include garlic black beans, cauli-rice, guacamole, salsa Mexicana, and mango and chipotle salsas.Check out this great truck, or bring it to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Say Fish Taco",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541c6f14-63a8-4603-8495-79f846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

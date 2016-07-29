@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cafe Jefe's Java Cruiser is providing you with a cup o' joe on the go! They specialize in providing freshly roasted coffee, and espresso as well as some tasty breakfast eats. Want to start your morning off right? Stop by the Java Cruiser to satisfy your daily coffee, tea, smoothie, and pastry needs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "JavaCruiserMoCo",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/523132bb-2d8c-4262-8f01-101046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

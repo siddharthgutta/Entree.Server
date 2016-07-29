@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mustache Mike\u2019s Italian Ice serves a frozen delicacy that\u2019s silky smooth, creamy and delicious\u2026you\u2019ll swear its ice cream!  Our Italian Ices are made from sophisticated ice cream machines that were imported directly from Italy along with using only the finest ingredients and a 100 year old secret recipe to give our customers over 150 unique flavors of the smoothest creamiest Italian ice available anywhere.  It\u2019s a tasty treat that everyone loves to enjoy!What sets us apart from a lot of other frozen treats is that we\u2019re serving a healthier frozen dessert alternative since it contains little calories and is also Dairy Free, Cholesterol Free, Gluten and Fat Free!Some of our flavors: \u2022\"Da bomb\" (Cherry, lemon, and blue raspberry)\u2022\"Big daddy\" (Orange, pineapple, and cherry)\u2022Juicy Rancher (Sour apple, watermelon, and lemon)\u2022Strawberry-banana\u2022Watermelon\u2022Mango\u2022Root Beer Float\u2022Chocolate\u2022Sour Apple\u2022Cherry\u2022Lemon\u2022Blue Raspberry \u2022And many, many more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Got Italian Ice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4fcd4a9b-f794-4615-949c-688a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

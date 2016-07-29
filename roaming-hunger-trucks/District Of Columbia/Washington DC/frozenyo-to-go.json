@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "With 16 Frozen Yogurt Flavors, 30+ Toppings, and Zombie Coffee and Pastries, FroZenYo To Go is an amazing truck for sating your sweet tooth. These treats are simple to provide, fun for guests, and healthy for everyone! Check out FroZenYo To Go at an event around DC, or bring them to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "FroZenYo To Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543db54d-d19c-4d04-bc7f-4fa946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

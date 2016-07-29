@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a unique concept Pizza Pucks , which resemble a cinnamon roll but have delicious ingredients rolled up inside like garlic chicken, or a BLT puck. We are very fast in serving large quantities on people. In addition to the pucks we serve pizza, salads, smoothies and several different sandwiches.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "What The Puck Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55788995-ba24-4f4b-99f4-5c2146204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

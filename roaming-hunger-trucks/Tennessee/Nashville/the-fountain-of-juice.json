@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Fountain of Juice is a cold-pressed juice dispensary that hand-crafts pure, raw, organic and medicinal juice potions and nut mylks that are delicious! Our cold pressed juices are made with a rainbow of unadulterated fruits and veggies we get from local farmer\u2019s markets, vegetable stands and cooperatives that source produce from small farms who follow organic growing practices. Our recipes incorporate a nourishing balance of function and flavor, with leafy-green mixes, flu-fighting concoctions and slimming & anti-aging elixirs.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Fountain of Juice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55725ec5-f848-4233-9dbe-1dd246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

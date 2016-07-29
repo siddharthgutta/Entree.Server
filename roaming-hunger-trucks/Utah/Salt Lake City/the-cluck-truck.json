@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Cluck Truck is bringing the most delicious chicken in the state of Utah to a street near you! Gourmet wraps are the perfect food on the go, and The Cluck Truck is bringing you an amazing variety of these delicious dishes. The Hawaiian, Greek, Cluck Truck Original, and more are all waiting for you today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Cluck Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/12575/5635928b-5744-4340-8272-20ca46204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

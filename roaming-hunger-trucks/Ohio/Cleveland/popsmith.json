@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hand-crafted and made with love, Popsmith popsicles are the perfect frozen treat! Made with seasonal local fruit, the rotating menu of popsicles are ready and waiting to make your sweet tooth sing with joy! If you're looking for topnotch service and amazing popsicles, then Popsmith is the perfect cart for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Popsmith",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5538204f-eff8-4257-8423-081646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

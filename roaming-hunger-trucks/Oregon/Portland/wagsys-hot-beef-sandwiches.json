@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "All of your favorite classic beef sandwiches from around the country are all available at Portland's Wagsy's Hot Beef Sandwiches cart. Their menu includes the Chi-Town Beef Dip, the Philly, the Beef n Bourbon sandwich, and even a Veggie - No Beef sandwich for vegetarians. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wagsy's Hot Beef Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52436ce2-0ab4-4df8-8330-4bfc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

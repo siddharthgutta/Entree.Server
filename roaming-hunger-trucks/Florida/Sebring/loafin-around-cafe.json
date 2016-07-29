@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cooking it up fresh and made-to-order, nobody does it like the Loafin' Around Cafe! There's no better place to go for freshly hand-pressed angus burgers, fresh chicken sandwiches, the best wraps, and so much more! The best food and the best service meet here at the Loafin' Around Cafe!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Loafin' Around Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556e4149-38cc-4d01-a7da-527946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

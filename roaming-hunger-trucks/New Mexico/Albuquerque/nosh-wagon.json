@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Looking for the tastiest cheesesteaks in town? Then you're gonna love the Nosh Wagon! Real ribeye steak that's been cooked to perfection is just the start of the deliciously good times you'll find on this truck. For the finest Philly Cheesesteaks, Junk Yard Dogs, Stuffed Burgers, and more, visit Nosh Wagon today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Nosh Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564f7efa-41b4-444c-8034-40df46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

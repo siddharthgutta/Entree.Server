@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Whether it\u2019s a party for 30 people or for 3000, the Sweet Treats Trucks can cater an event of any size! Just decide if you want to serve Ice Cream from our Ice Cream Truck or our new Ice Cream Motorcycles Sidecar, or desserts from our Dessert Truck, and we will help create a menu to stay within your budget. It\u2019s as easy as that!We roll in and wow your guests\u2026then we roll out, with nothing for you to do but enjoy your own event! Our professional servers will handle everything for you! We create a fun, unique experience that your guests will not soon forget, so contact us today to see how we can make your next event a memorable one!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Treats Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54/558afcfa-46f4-45c1-8999-490446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

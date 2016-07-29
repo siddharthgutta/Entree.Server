@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mark's BBQ & Catering is bringing you that genuine Texas flavor you crave! This great truck offers ribs, pulled pork, sandwiches, and more, slow-cooked to perfection for your eating pleasure. With food perfect for any occasion, the fine folks at Mark's will make your next big event a delicious success!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mark's BBQ & Catering",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a6c14c-3238-4d72-9891-3ac046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a Halal Food Truck that serves favorites from the Mediterranean to the Indian Subcontinent. Some of the most desired dishes include our Hummus, Lamb, Tawa Chicken, Gyro, Seekh Kebabs and ever so popular Falafel. We also offer a vast catering menu!\t ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Halal Haven",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/6709/554c08a3-099c-49f6-993c-045546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

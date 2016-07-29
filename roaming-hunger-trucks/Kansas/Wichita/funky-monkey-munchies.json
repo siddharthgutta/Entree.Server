@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for a funky good time then this is the truck for you! Funky Monkey Munchies is here to cook up fresh, organic, locally raised food that's perfect any day of the week. With a menu that's always changing to bring you something new and delicious, you're sure to have a unique experience when you visit Funky Monkey Munchies!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Funky Monkey Munchies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55259659-b1f4-41c7-906d-285446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

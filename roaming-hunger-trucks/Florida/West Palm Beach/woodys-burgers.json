@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Woody's Burgers is a delicious burger truck serving the West Palm streets with scrumptious specialty burgers and fries. Check out the Boom, the Coronary, or The Hugger if you're in the mood for a mouth-watering combination of toppings, or get your own classic burger, with as many or few toppings as you like. And don't miss out on the fresh cut fries with tasty dipping mayos!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Woody's Burgers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545283f6-c9f8-4530-9fc1-145c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

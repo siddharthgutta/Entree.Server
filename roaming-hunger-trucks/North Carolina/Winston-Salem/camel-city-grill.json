@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Camel City Grill is a great Winston-Salem's food truck, serving up craft burgers, grilled sandwiches, and wraps. Check out the PBB&J; Burger, the Sunrise Sandwich, the Pimento Breakfast Wrap, or another great option. When you're getting a meal made with quality ingredients and fresh local produce, there's no way you can go wrong!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Camel City Grill",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54fa3540-fda8-477f-b9a8-1ea346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

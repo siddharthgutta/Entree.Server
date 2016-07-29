@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A unique pizza place on the streets of Eugene is bringing you that perfect slice you've been looking for! Za Cart Pizza is cooking up your favorite cheesy meal, just for you. Made fresh every day from only the finest ingredients, each slice will have you falling in love at first bite! Don't miss out, grab some superb slices from Za Cart Pizza today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Za Cart Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/561d4106-7f38-4ea5-89c9-3d1946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Uncle Louie G's is a trailer serving fine Italian ices to the Austin area. They offer delicious ices made with the finest and freshest natural foods such as maraschino and black cherries, Chiquita bananas, and Dole pineapples as well as delicious treats like Reese's Pieces, Snickers, and Oreo to provide a rich variety of flavors. In addition, every flavor is Kosher! Stop by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Uncle Louie G's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546e7176-3668-417d-93bb-624546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

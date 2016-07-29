@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aloha! When you're looking for something FUN, something DIFFERENT, something COOL AND REFRESHING, hula on over to the TikiTreats TikiTruck. Serving Hawaiian shave ice, Nathan's hot dogs, and gourmet fresh fruit smoothies, no wonder people call us \"The Traveling Snack Shack\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tiki Treats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543ea458-98a0-4432-8315-523246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ezell's Famous Chicken has been bringing Seattle its best fried chicken for over 20 years, and now they're mobile! At Ezell's Express, nothing beats the original! This is their famous recipe, straight from their kitchen in Texas. It's a must-try, whether you like dark or white meat and is available as the original recipe or in a spicy form. Don'd for get to add their Fresh Rolls on the side, these rolls are light and soft, with a warm, homemade taste. A Seattle favorite! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ezell's Express",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51eda7a2-40ec-418a-ba1b-57b746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

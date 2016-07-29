@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Flame Brothers Pizza is the very first and only Neopolitan-style gourmet pizza truck in Los Angeles! Here are our promises:1. Fast cooking: under 2 minutes from scratch to finish!2. The best crust you'll ever have, due to the 1400 degree oven!3. The best ingredients; only fresh mozzarella cheese and caputo 00 dough, house-made sausage and meatballs!4. Healthy old dough which is easier for people to digest!Stop by Flame Brothers for the best pizza around!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Flame Pizza Brothers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578513a7-096c-4e19-815a-273946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

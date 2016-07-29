@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Beer NV is providing you with the best craft beer you could ever desire! Whether it's at a local food truck event or your next big party, Beer NV has the best brews to celebrate your best times. Ready and waiting to bring the party to you, this mobile beer unit is just what you need to take your next event from good to grand! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Beer NV",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d2318f-bc34-4cde-8474-6a1a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

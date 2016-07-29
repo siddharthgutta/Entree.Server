@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fat Daddy's Sandwiches is serving up the most fantastic street food on the streets of Cincinnati! Have you been hankering for a fantastic Reuben? Turkey Club? Bacon Burger? How about some delicious Chicken Wings to go with that? Fat Daddy's has all that and more, ready to satisfy your hunger! Keep an eye out for the best food truck in Cincinnati:  Fat Daddy's Sandwiches!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fat Daddy's Sandwiches",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d3adcd-e1c4-4f30-bd6b-5cfd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

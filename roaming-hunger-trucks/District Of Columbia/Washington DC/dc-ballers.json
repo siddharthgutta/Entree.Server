@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "DC Ballers is a food truck in Washington D.C. serving delicious Falafel balls and sandwiches all over town! If you're in the mood for some delicious gluten-free, vegetarian fare made with fresh ingredients and traditional Middle-Eastern recipes, look no further than this great truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "DC Ballers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5011a969-a2bc-40d8-9609-3c0546204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Pitabilities gourmet food truck brings Columbus, OH pitas like nothing else you've ever experienced. We serve the freshest and most flavorful pitas, wraps, gyros, sandwiches, barbecue and and sides in ColumbusWould you like to try something delicious, that has the local flair of a farmer's market and a taste that makes you wonder why you haven't tried it before? We're Pitabilities, and we're serious about giving you the chance to 'Taste the Possibilities'. We use locally-produced ingredients wherever we can, often so local and close that you could drive for a visit to our farm and market suppliers if you'd like. This lets us give you, our beloved and fellow food aficionados, better quality at an outstanding price.Your choice from our menu is grilled fresh when you order it, with your selection of toppings (your choice of peppers, tomatoes, sauces, spices, cheese) added in.We serve mostly pitas on a delicious flatbread, but plenty of gyros, sandwiches and wraps can be found on our menu too. Want to know more? Come check us out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pitabilities",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb61ecd-34a0-4d11-8bfe-507946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

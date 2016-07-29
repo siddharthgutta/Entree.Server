@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Burger Amore! we grill up great tasting turkey, chicken, veggie, and all beef burgers.You select the cheese, roll, and fresh vegetables to top it all off!We also offer a variety of fries such as crinkle cut, seasoned curly, sweet potato, and tater tots.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Burgers Amore!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3009/55404f2f-22ac-42f9-867a-6e9146204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "American Wiener is a mobile food truck designed to provide affordable classic and modern twists on wieners and sausages. We use fresh local made products,fresh vegetables and eco-friendly containers. Chef inspired toppings and truck-made condiments will excite your gourmandish desires.Check for our weekly specials.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "AmericanWiener",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f10fb73-154c-4058-b5a9-23d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "From the little cart to the big ol' truck, Oogie's Ice Cream is serving up all of the most delicious frozen treats to help you beat the summer heat. If you miss the feeling of hearing that ice cream truck ringing its way through your neighborhood on a hot summer's day, don't worry - you can relive that again, this time without the running. Just bring Oogie's out to you, and choose from all their delicious ice cream bars, popsicles, and more! You won't be disappointed.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Oogie's Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5543fa14-d8f0-427f-8c57-330646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

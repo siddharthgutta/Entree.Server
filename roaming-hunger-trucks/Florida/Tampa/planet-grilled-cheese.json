@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Planet Grilled Cheese is serving up America's favorite comfort food on the streets of Tampa today! Gourmet grub that's sure to grab you, this menu is full of a wide range of ways to enjoy grilled cheese on the go. The Chicken Club, Meat Lover, Croque Monsieur, and more are making their way to you today, thanks to Tampa's most terrific truck, Planet Grilled Cheese!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Planet Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56e84ce8-232c-4c2d-b5ad-1de846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

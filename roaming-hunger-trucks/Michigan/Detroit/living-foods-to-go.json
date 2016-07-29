@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Healthy - Fast - FoodWe serve delicious healthy smoothies, fresh juices, veggie sandwiches and energy bars to events all over the map. Fairs, festivals, farmer's markets, marathons, parties and weddings.  Anywhere people want fresh, delicious food that gives them natural energy.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Living Foods To Go",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8459/5542cb1b-1fb4-4437-ae5b-4dbf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

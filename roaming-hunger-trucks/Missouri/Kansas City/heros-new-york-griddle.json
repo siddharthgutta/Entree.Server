@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hero's New York Griddle is bringing classic American style, and much more, to the streets of Kansas City! Looking for some superb sandwiches? Hot Dogs? Empanadas? Hero's New York Griddle is here for you. So grab something great today, with Kansas City's new favorite food truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hero's New York Griddle",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5668a7ac-5f68-42d3-8a69-78aa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

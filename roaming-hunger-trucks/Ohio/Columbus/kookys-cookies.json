@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everyone in Columbus is quite keen on the delectable selection of delicious desserts from Kooky\u2019s Cookies. This fun truck is serving up ooey gooey fresh baked cookies, yummy ice cream, and the \u201cKookywich\u201d- you just choose which kind of cookie and ice cream you\u2019d like and combine them to concoct the perfect ice cream sandwich. These crunchy and creamy treats make every occasion feel complete so be sure to invite Kooky\u2019s Cookies to come cater your next event!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Kooky's Cookies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5783bbdd-de34-426d-acd2-65ee46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

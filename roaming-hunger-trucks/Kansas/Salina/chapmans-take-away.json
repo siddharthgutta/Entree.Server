@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chapman's Take Away is a food truck on the move, bringing you a great selection off homemade dishes! Have you been craving some Grilled Wraps? Sloppy Joes? How about Mom's Meatloaf? Chapman's Take Away has all that and more! Get something amazing from this terrific truck today, and take that homemade flavor on the go!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chapman's Take Away",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564e5a62-d830-42f8-b2aa-2dd446204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fine, fresh, fantastic food for the people is being brought to you by Detroit's Own! Burgers, wings, hot dogs, and more are being served up with the friendliest service and that signature Detroit style. Cooked to order, just the way you like it, Chef Watts and Detroit's Own will have you hooked!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Detroit's Own",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5584555d-9a20-464e-a9a7-2aec46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

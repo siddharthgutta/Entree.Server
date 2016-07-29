@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for both exceptional food and outstanding service, then look no further. Jackie's Food Court takes pride in bringing their customers the best in both food and service. Serving quality American food such as ribeye cheesesteak, or a delicious Angus bacon cheeseburger, along side of fresh cut fries is what Jackie's Food Court does best. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Jackie's Food Court",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5522fc37-13e4-4a8c-8d5b-42b046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

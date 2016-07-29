@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Road Soda is a cocktail bar on wheels, ready and waiting to make your next event amazing! Whenever, wherever, Road Soda believes you should have the best drinks in town when you and your guests get thirsty. Craft cocktail bar philosophy and rock 'n' roll attitude are what you'll get when you have Road Soda at your side!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Road Soda Bar",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13156/5671cf74-f0c0-4cf4-89aa-2b3446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

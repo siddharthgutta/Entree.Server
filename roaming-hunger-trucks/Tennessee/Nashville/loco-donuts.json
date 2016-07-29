@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Loco Donuts is a Nashville original food truck serving up hot, fresh mini-donuts and donut sundaes! \"We have taken inspiration from the dozens and dozens (and dozens, and\u2026well you get the idea) of donuts we have consumed along with our unique spin to create the \u201cdonut sundae\u201d that makes Loco Donuts so CRAZY good! \"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Loco Donuts",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/517b1ec3-5c04-4b4f-b293-64fa46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

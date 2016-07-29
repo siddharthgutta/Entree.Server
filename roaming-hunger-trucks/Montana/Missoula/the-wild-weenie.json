@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Are you looking for the best in classic street food? Then The Wild Weenie is the food truck for you! Downtown Missoula has the most amazing new food vendor in town, taking  tasty treats to an all new level. Sink your teeth into the best hot dogs and Polish sausages around, look for The Wild Weenie today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Wild Weenie",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564a187a-0b2c-4654-a30b-229546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

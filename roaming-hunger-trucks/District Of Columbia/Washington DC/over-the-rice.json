@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Over the Rice is an Asian Fusion truck serving the streets of DC with the best rice bowls you will ever have. Each bowl is built with the freshest ingredients to your specifications,  using your choice of meat and sauces. Toss in a side salad, and be ready for an explosion of flavors inside your mouth!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Over the Rice",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543bfd69-2a88-4de3-8821-686a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

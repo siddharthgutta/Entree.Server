@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Milk Sugar Love, we churn delicious ice cream made form organic milk and cream and all the best New Jersey produce. We craft all our ice cream and sweets by hand in our kitchen in Jersey City. We proudly work with fantastic farmers and local artisan producers to create our delicious,  chef-driven flavors.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Milk Sugar Love",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/53fbcb0b-67d4-4ff1-a50d-3d2746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

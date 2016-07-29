@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Health Nut On Wheels is a truck serving healthy, real food to the streets of Miami. This food is free of pesticides, antibiotics, steroids, cages & industrial feeding lots, and the menu is primarily based on paleo  nutrition. Just one day's offerings can include Cuban-style Boliche, homemade tuna salad with local mango salad, flattened chicken breast, and meatloaf. Don't miss out on one of these fantastic meals!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Health Nut On Wheels",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545abcf4-30a0-4b9a-9285-0a4b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

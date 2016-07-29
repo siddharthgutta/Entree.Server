@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "D's Ultimate Dogs are serving up the most delicious dogs on the streets of Ohio! Savory sausage on a bun is the classic street food we all know and love, and it's never been better than it is on this cart. The best hot dogs with all the toppings you could ask for are coming right to you from D's Ultimate Dogs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "D's Ultimate Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d4c2af-165c-4b5c-b0d0-7c8a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

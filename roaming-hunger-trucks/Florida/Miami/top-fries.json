@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Top Fries gourmet food truck is a new way to enjoy French Fries - On wheels at events, parks and streets. We do events, catering, parties and street fairs.Classic: Cannot go wrong with the traditional Heinz KetchupGarlic Mayo: topped with mayonnaise with a hint of fresh minced garlicRedHot Sweet Chili: An Asian taste experience to rememberCheesy Fries: French Fries, Cheddar Cheese, Jalapeno Sliced and Bacon Bits.Chili Fries: French Fries, Chili with meat and beans, Diced Tomato, Mexican Blend CheeseSour Cream Fries: French Fries, Sour Cream, Green Onion, Diced Tomato.Beefy Fries: French Fries, Garlic Mayo, Grilled Angus Brisket Beef, Caramelized Onions, Diced Tomato and Mexican Blend CheeseChicken Parm: French Fries, Grilled Chicken Breast, Diced Tomato, Caramelized Onions, Cheddar Cheese, Parmesan CheesePulled Pork Fries: French Fries, Pulled Pork, Carolina Tangy Barbecue Sauce, Caramelized Onions, Cheddar CheeseSweet Fries: Sweet Potato French Fries, crunchy covered with powdered sugar and swirls of caramel",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Top Fries",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4ec4825e-ac28-43fb-8a1f-602546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

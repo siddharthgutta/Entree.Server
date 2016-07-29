@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Twisted Iron truck is serving up waffle desserts and sandwiches all over the Tampa Bay area. If you're looking to satisfy your sweet and savory tooth, be sure to try out one of their BLT waffles sandwiches and then have a Nutella and banana waffle for dessert!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Twisted Iron",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/539a3d75-2ac8-49bd-adb6-160546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

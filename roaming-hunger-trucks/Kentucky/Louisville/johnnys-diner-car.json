@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Johnny's Diner Car is Louisville's premiere food truck for classic American steak sandwiches and a variety of yummy french fry dishes. Get your sandwich slathered in homemade BBQ sauce, or your fries topped with Cheez Whiz, whatever your choice you'll be in Diner food heaven! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Johnny's Diner Car",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51e4417c-ecdc-4459-9935-09e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

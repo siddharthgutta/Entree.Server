@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The culinary crew behind Spyros Gyros comes from a family that has been cooking up delicious Greek cuisine for Angelenos since way back in the 60\u2019s. Now they\u2019re taking their new truck to the curbs and are ready to serve scrumptiously authentic Athens-style street cuisine. Their succulent selection of Gyros and Souvlaki with fresh veggies and warm pita, Kebabs, Spanakopita, Baklava, and more, are sure to satisfy your greatest cravings for tasty Greek flavors. Next time you need to eat, Spyros Gyros will completely satisfy your appetite.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Spyros Gyros",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57868c16-906c-4561-8bca-77dd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

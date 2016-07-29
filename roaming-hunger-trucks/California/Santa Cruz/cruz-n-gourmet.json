@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Santa CruzCruz N Gourmet is the newest food truck to roam Santa Cruz, bringing gourmet food to a street near you. Also available for catering, private parties, functions and events.Our mission is to serve awsome gourmet world food using the freshest ingredients available. Gourmet world food and beverages and fun friendly service!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cruz N Gourmet",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eb9c273-16a8-4f96-9c6f-31f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

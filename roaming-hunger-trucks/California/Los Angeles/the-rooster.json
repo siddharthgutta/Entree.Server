@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Rooster is here to bring you the best breakfast on the streets of Santa Monica! Whether it's their Killit Skillit, Rooster Burger, Rico Suave, or anything else off their menu, this food truck is sure to satisfy your taste buds like nobody else can. On a mission to \"Make breakfast dope again\", The Rooster is ready to show you what food on the move can be!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Rooster",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56d74391-dce4-47f2-945b-6b9946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

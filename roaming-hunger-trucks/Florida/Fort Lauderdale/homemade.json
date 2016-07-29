@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Homemade is a delicious dessert truck serving the streets of Fort Lauderdale and beyond. Offering Gourmet Cupcakes, Creamy Ice Creams, Specialty Cakes, Italian Ice, and more, this truck can satisfy any sweet cravings you have. Homemade, because the best things are!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Homemade",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/545bece6-ac4c-4616-8308-4a9946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Firehouse Fare is offering an eclectic menu of amazing eats you're sure to love! This fantastic food truck is bringing real variety to the streets, with pork belly po boys, gourmet grilled cheese, fried croissants, and so much more. Firefighter-family owned and operated, this fabulous local food truck is ready and waiting to feed your need for great grub!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Firehouse Fare",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b11580-ee30-4e83-97f0-3ee846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

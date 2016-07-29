@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, fun, all-natural frozen treats! Pop Star Handcrafted Popsicles are producing delicious and organic alternatives to the desserts you usually see. Handmade in small batches from local ingredients, Pop Star provides the best treat to beat the heat on the street!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pop Star Handcrafted Popsicles",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55429433-e7e4-4e76-acba-5aa046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

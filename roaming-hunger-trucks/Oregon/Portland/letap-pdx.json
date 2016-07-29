@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "LeTap is Portland's premier beer, cider, and wine cart on the move in Portland! Always bringing you the best beverages on tap anywhere, LeTap is a fantastic way to stay refreshed when you're out and about Oregon. Don't miss out on the best drinks in town, visit LeTap today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LeTap PDX",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566f6569-0e44-411d-a7a6-2b9e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

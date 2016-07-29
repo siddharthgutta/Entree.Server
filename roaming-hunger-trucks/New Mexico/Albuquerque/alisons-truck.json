@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Alison's truck offers a variety of New Mexican food to the Albuquerque streets. They're serving mom and abuelita's recipes, from Carne Adovada to Chicharrones, red and green chile dishes, and so much more. With over 14 years of cooking experience behind them, you can be sure these dishes will hit the spot!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Alison's Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f6bd298-dcfc-4429-963d-352c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

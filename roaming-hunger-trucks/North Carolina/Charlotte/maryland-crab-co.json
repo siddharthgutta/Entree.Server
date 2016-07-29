@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The name of our truck is Maryland Crab & Co. and we are located in Charlotte, NC. Maryland Crab & Co. is Charlotte's premier all seafood truck, that specializes in MD. crab products as well as other seafood. After years of being land locked without good seafood, we decided it was time for the Carolina's to break out of  it's bbq shell. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Maryland Crab & Co.",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/521c2a81-5858-4b79-aaa0-324146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

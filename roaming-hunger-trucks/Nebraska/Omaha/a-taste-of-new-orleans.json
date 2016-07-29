@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you thought you could only find that fantastic New Orleans cuisine in the heart of Louisiana, then you'd better think again! A Taste of New Orleans is a food truck on the move through Omaha's streets, bringing you the best Cajun creations you could ever ask for. You'll find delicious Jambalaya, Po Boys, Southern Fried Catfish, and so much more when you have yourself A Taste of New Orleans!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "A Taste of New Orleans",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d27957-07ec-499c-becf-2a0d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Great food made with fresh and local ingredients is what you can expect from Mad LuAnn's. Their specialty buttermilk biscuits are homemade, and always fresh and delicious! From the breakfast biscuits to the sliders, wraps, and more, everything you order from Mad LuAnn's is sure to delight your tastebuds and leave you happy and satisfied!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mad LuAnn's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552d6689-e76c-4a15-9226-4e7f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

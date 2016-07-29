@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": " Serving  up an eclectic variety of menu items ranging from classic American dishes to traditional Cajun/Creole fare - catfish poboy, Cajun grilled chicken sandwich, boudin balls, burgers, grilled chicken salads, seafood sliders, pork chop & egg sandwich,etc... Breakfast also served - pancakes,bacon & eggs, migas, spinach omelet, bacon, egg & cheese sandwich, breakfast tacos.  Request catering menu for additional menu items",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Lunch Bag",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4725/56aecbfa-2354-4dee-b0b6-154346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

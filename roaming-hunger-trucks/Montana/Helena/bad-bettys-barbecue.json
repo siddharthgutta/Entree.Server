@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The baddest BBQ in Montana is right around the corner with Bad Betty's Barbecue! True Southern BBQ in the heart of Montana, these are ribs, burnt ends, and so much more, that you can really sink your teeth into. Bad Betty's Barbecue is an award-winning truck that you're sure to love!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bad Betty's Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b9592b-3628-4e9c-a84c-591546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

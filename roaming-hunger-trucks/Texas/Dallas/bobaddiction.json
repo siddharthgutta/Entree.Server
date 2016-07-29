@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bobaddiction is a drink/dessert food truck specializing in gourmet boba teas, fruit drinks, milk drinks, coffees and slushies, as well as shaved snow desserts with fresh fruits and ice cream. Our uniqueness comes from our focus on tea flavor, use of fresh, quality ingredients such as fresh fruit purees, and guarantee of customer satisfaction with our \"TRY it, like it THEN buy it!\" motto. Visit us and you WILL be \"Bobaddicted\"!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Bobaddiction",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57913429-eb28-4f39-98ff-312146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

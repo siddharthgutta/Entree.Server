@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Teodora's Kitchen is bringing the taste of real Panamanian comfort food to the streets of Ohio! You'll find the best empanadas, tacos, sandwiches, and so much more when you visit this food truck. Dig into that delicious Latin flavor you won't find anywhere else--visit Teodora's Kitchen today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Teodora's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d6096f-3dc8-42e1-ad92-159a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

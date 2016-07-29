@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We are a chef-driven mobile food concept, which is striving to bring high-quality, unique street food to the Raleigh/Durham area.The Gastro Dog Cart serves hot dogs and sausages with unique toppings and condiments.  The food truck will serve international street food and global fusion influenced from many cultures and techniques from around the world.  Mark Thomas is the chef/owner of CJ's Street Food. Mark is a graduate in Culinary Technology from Wake Technical College in Raleigh, NC, and recently was the Chef de Cuisine of The Bloomsbury Bistro in Raleigh before leaving to open CJ's Street Food.Come check us out soon!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "CJ's Street Food",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/509aa3dd-0968-447e-addb-1d1346204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Big City BBQ is here to serve you! Specializing in Hickory smoked deliciousness, Big City BBQ is ready to provide you and your event with their fantastic turkey legs, chicken wings, pulled pork, ribs, and more! Perfect any day or for any occasion, Big City BBQ is the best way to fill that rumbling stomach!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Big City BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555109dc-1aa8-411c-afe1-59bb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

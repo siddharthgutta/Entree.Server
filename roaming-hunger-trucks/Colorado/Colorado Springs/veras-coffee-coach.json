@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're looking for the perfect pick-me-up on the streets of Colorado, there's nobody better than Vera's Coffee Coach! You'll find the best hand-crafted coffee, espresso, lemonade, and tea at this mobile beverage bar. Quench your thirst with something stupendous today, from Vera's Coffee Coach!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Vera's Coffee Coach",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55f203d2-4a20-4c27-9d2d-47d946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

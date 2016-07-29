@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "GD BRO is serving amazing handcrafted stuffed burgers to the OC streets. From the All-American to the Juan and Only, these flavorful burgers are sure to hit the spot. Stop by today if you're in the mood not just for a burger, but for an amazing culinary experience!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "GDBROTRUCK",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4697/53ecf683-3edc-4ecf-98c5-6bc846204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

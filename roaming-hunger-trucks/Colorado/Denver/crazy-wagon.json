@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Crazy Wagon is the Vail Valley's only gourmet food truck located at the Crazy Mountain Brewery's Beer Garden. Come by and try some of this great, varied fare, from the short rib tacos to the Italian sausage sub sandwich. Great food that pairs well with great beer! Go ahead and check it out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Crazy Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54874440-b54c-4b23-8c4b-2efc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

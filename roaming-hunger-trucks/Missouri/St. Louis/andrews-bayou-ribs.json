@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Andrew's is a truck in St. Louis serving up delicious ribs. The BBQ is prepared fresh daily, with the flavoring and style of the good old southern bayou. Mouth watering meat that is smoked and running right off the bone, that is smothered in a homemade finger licking BBQ sauce. Try it today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Andrew's Bayou Ribs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54172fa2-f8c8-4c2c-b0ea-3c0446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

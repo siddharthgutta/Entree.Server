@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Deli Doctor is serving LA an authentic and tasty New York experience with every dish. If you want to start your day the scrumptious way, come on by and order up an everything bagel with lox, cream cheese, and tomatoes, or a mouthwatering stack of pancakes. For lunch or dinner, lose yourself in a delightfully juicy Reuben sandwich or Rachel (similar to the reuben but with housemade cole slaw and tangy sriracha mayo).  And there\u2019s much more to choose from. So if you\u2019ve been diagnosed with severe hunger for delicious food, one visit to The Deli Doctor oughta fix you right up. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Deli Doctor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54ebac57-6ef0-40d3-93df-4f7a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

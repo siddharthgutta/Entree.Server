@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "At Grubaholics, we specialize in Jamaican inspired grub, made with only the finest ingredients.  We throw a Jamaican twist on most of our food to make a flavor so good, it can't be imitated!  We also offer some American food too for those who want to play it safe.  We love to cook so much, our menu never stays the same.  We're usually always trying out new recipes and and new menu items to bring to the streets of Philadelphia.  \"Grubaholics, Where All Grub Addicts Are Welcome\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Grubaholics",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54b05c32-56c4-4857-afa6-210646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

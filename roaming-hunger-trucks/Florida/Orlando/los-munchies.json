@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Latin food with some Caribbean style, it's nothing but the highest quality from Los Munchies! Flavors collide in the most delicious way at Los Munchies. Cuisine from South America, Central America, and Mexico meet the flavor and passion of the Caribbean islands in delicious dishes like their mofongo, campechana, plantain sandwich, and so much more!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Los Munchies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555a638b-c4f8-4efc-be9f-749d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

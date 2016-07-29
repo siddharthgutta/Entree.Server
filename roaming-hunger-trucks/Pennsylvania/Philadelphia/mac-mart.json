@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mac Mart is Philadelphia's first & only Mac'n Cheese Food Truck. Mac Mart will be serving Philadelphian's all around the cheesy American classic in an innovative and interactive new way. Let Your Mind Go Crazy about the Endless Combos of Toppings, Mix-ins and Sides including crispy Bacon, pulled BBQ Chicken, Hot Dog , parmesan-crusted Chicken, and a plethora of veggies and sauces that will make this old classic your new favorite comfort dish!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mac Mart",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5101d875-3318-4af4-9842-361f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

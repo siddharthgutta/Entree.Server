@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Sarge's Smokehouse BBQ is bringing the flavor to the streets of Tampa! Ribs, sandwiches, mac n' cheese, and more, Sarge's Smokehouse is serving up all your favorites! BBQ made the way it's meant to be, Sarge's Smokehouse is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sarge's Smokehouse BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5570b43f-7fbc-444f-83d9-2f8046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "You'll eat well with Every-Bellies! Your spud specialists are here with the best baked potatoes you've ever seen! Fully loaded and fully delicious, Every-Bellies baked potatoes, along with their fresh salads and sweet desserts, will be sure to leave you happy and full every time you visit!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Every-Bellies",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5543f2a3-54bc-4c6d-9f9f-216f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

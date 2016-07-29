@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "There's no finer Peruvian food truck in all of Miami than Peru Sabroso! Deliciousness is right in their name, and it's a name they embody to the fullest. Every bite from this truck is packed with flavor you just can't beat, from the salchipapas and anticuchos, to the ceviche and so much more! For a truly delicious time, Peru Sabroso is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Peru Sabroso",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b6bbfa-7e18-47a4-9826-02c946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

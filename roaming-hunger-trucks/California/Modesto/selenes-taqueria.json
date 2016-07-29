@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Selene's Taqueria is taking terrific tacos on the road and they've never tasted better! There's nothing like a taco truck when it comes to mobile cuisine, and Selene's is one of the best you'll ever find. So for that authentic taqueria style in a modern mobile world, there's nobody better than Selene's Taqueria!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Selene's Taqueria",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55bbd4a5-c9a4-44df-b0e8-5ed546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

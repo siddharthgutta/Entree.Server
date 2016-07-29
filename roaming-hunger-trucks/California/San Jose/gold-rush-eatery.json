@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gold Rush Eatery roams the streets of San Jose serving up quality burgers, sandwiches, and of course, their \"Golden Nugget\" tater tots. Gold Rush Eatery's signature sandwich is the The Prospector; made with Tri Tip, mushrooms, and green onions in a sherrry wine sauce. Check in often for additions to the menu such as root beer floats and clam chowder, and definetly give their Bermuda Onion Rings a try.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gold Rush Eatery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50d4db7f-5e4c-4d91-8c25-09fc46204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

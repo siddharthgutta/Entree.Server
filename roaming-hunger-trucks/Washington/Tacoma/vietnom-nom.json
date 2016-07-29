@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Making mobile Vietnamese cuisine for a modern world, VietNom Nom is a truck you're sure to love!  If you're looking for Banh Mi, Rice Bowls, and good times, then VietNom Nom will not disappoint. Don't miss out on Washington's best Vietnamese food truck--try this amazing menu today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "VietNom Nom",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5609633d-165c-42b5-937e-37e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

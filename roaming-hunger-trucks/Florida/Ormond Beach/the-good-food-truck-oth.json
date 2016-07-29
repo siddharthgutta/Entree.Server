@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The name says it all: The Good Food Truck is here to bring you some seriously Good Food.Serving up your ordinary eats with extraordinary style and a real passion for food, this food truck's burgers and sandwiches are kicking it up a notch. Taste the experience, the expertise, the just downright goodness you can only get from The Good Food Truck!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Good Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f56869-707c-4b29-8682-57e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

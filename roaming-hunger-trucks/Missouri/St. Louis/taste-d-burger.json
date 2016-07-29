@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Taste-D-Burger makes the tastiest flippin burgers on the planet!We are a family owned and operated mobile food truck. I built the truck myself from the ground up! We serve fresh, afordable and tasty made to order meals in the St. Louis and St. Louis County area. We are known for \"The Taste-D-Burger\" which consists of chuck quality ground beef topped with coleslaw, and BBQ sauce. Pair it with our fresh cut fries and a soft drink all for an affordable price. We offer catering for your upcoming events and parties. We pull right up and serve you and your guests fresh food on the spot, unlike other caterers!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Taste D Burger",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4eeaa8ed-3cf4-4f46-9937-1dc746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

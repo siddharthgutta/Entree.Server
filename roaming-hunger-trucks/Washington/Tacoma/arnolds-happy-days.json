@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Happy days are here again, and they're bringing Tacoma's most delicious burgers with them! Arnold's Happy Days is serving you delicious burgers the old-fashioned way, with quality ingredients and friendly service. For some great food and fantastically friendly folks, you can't beat Arnold's Happy Days!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Arnold's Happy Days",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558afc07-dc90-44b9-b6ff-154246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

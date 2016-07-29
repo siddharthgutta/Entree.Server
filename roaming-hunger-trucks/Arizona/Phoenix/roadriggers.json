@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Check out the fantastic offerings of Roadriggers, Phoenix's own Pacific Northwestern-sourced seafood truck! From the King Crab Rolls to the Fish Tacos or Seafood Chowder, these tasty eats will have you dreaming of the misty shores of northern Washington. They've flown south for the winter, so catch them before they head back up the coast in the spring!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Roadriggers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54922396-6600-406a-baa0-582b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

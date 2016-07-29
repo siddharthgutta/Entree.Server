@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Catch The Food Truck is a Wilmington, North Carolina favorite. Serving your favorite seafood with a Asian Fusion/ Mexican twist to every dish. This truck is operated by a top of the line chef creating delicious meals with wild caught and local ingredients. Catch the food truck is reeling in your next meal to enjoy every single bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Catch The Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555a2a7f-5dfc-4b44-bb83-5a0046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

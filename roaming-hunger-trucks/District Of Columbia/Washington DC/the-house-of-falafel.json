@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The House of Falafel is a food truck created by a restaurant of the same name, serving the DC streets with Tunisian Mediterranean cuisine - a blend of Mediterranean and desert dwellers' culinary traditions. Its distinctive use of spices comes from the many civilizations which have ruled the land now known as Tunisia; Phoenicians, Romans, Arabs, and Turks. Each tradition lends its own distinct flavor, bringing a delicious new combination to your mouth.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The House of Falafel",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543daf22-42b4-4f0a-88ba-42cc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

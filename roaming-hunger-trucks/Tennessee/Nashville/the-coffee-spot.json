@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Stop by The Coffee Spot for all your caffeine needs. No matter the weather, you can enjoy a hot or iced latte or mocha. This spunky cart is where you\u2019ll find all your favorite coffee fixes on the go: Cold-Brew, Americanos, Mochas, and mo\u2019!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Coffee Spot",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13625/57169a14-0b1c-4ad8-852e-2d1846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

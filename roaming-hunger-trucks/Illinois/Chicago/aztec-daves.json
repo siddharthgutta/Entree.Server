@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Aztec Dave's has what you crave! Do you want delicious, authentic Mexican meal or something you can take on-the-go? Now you don't have to choose! Aztec Dave's is a family-run truck that knows what really matters to their customers. Delicious food from quality ingredients that you can really sink your teeth into!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Aztec Dave's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55898d63-408c-40fa-b5ff-35a446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

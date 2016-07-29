@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Parked in the back patio of Union Pool for hungry beer drinkers. Thereare tamales, tortas, quesadillas, roasted corn, chips with guacamoleor queso, and tacos: chicken, pork, beef and vegetarian are $3, fishand shrimp are $4. Breakfast tacos from 1pm sat & sun",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "El Diablo Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4cdb42b2-4248-48dd-b48d-66e546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

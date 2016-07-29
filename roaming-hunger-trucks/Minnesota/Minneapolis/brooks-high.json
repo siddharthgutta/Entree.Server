@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Brooks High is taking classic midwestern meals on the road to satisfy your hunger! This is beer battered goodness through and through, guaranteed to have something you'll love. Sink your teeth into the sumptuous Walleye Sandwich, Garlic White Cheddar Curds, Southside Donuts, and so much more from Brooks High!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Brooks High",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5696dc07-fd40-4665-9c98-55bf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

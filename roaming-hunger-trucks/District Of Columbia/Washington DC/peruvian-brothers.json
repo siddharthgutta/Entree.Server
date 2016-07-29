@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Peruvian Brothers Food Truck is bringing the authentic, unique tastes of \u201cComida Criolla\u201d to the streets of Washington D.C. Peruvian Brothers  specializes in sandwiches and empanadas featuring chicharron (pork tenderloin), asado (beef), chicken and butifarra (pork loin) as well as vegetarian options. All menu items are served with traditional Salsa Criolla, made with thinly sliced julienne onions marinated in lime juice and chopped Peruvian chilies. On the sweet side, Peruvian Brothers offer tasty rice pudding and traditional alfajores, which are soft, delicate cookies with dulce de leche filling. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Peruvian Brothers",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5208/55e64329-0de8-4ce4-94a9-4ba746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

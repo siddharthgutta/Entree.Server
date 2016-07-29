@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Everyone's favorite comfort food is coming your way with an amazing taste that you're sure to love! 1 Potato Two is a food truck on the move, bringing you an awesome new twist on mobile cuisine. Whether you're looking for some classic french fries or one of their signature spudwiches, 1 Potato Two is a food truck that will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "1 Potato Two",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/564125c8-b844-4663-8574-4ec646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

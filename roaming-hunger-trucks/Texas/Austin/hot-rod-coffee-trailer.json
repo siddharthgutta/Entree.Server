@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Hot Rod is a trailer serving tasty food and drink to the Austin streets. They offer a full espresso bar, tasty and unique breakfast sandwiches made to order, croissants and muffins from Quack's 43 rd St Bakery, Rockstar bagels, Umpqua Oatmeal, and a variety of hot dogs, from the traditional to the unique. Stop by today and check it out!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hot Rod Coffee Trailer",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/546ceeac-d8a0-4c9c-8186-215546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

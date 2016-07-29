@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Rock A Belly is a premier food truck based out of Phoenix, AZ offering a new take on street food with their brand new food, known as the \"Rock-O\". Rock A Belly strives to serve perfection with each item on the menu, offering a wide range of Local and Global flavors. Everything is scratch-made with premium local products & never gmo's, by-products or preservatives, offering the best in local and seasonal produce while catering to dietary and vegetarian needs.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rock A Belly",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548f210d-6b5c-4dc5-9765-0ae246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

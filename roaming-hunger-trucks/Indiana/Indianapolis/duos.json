@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Duos mobile kitchen has hit the streets of Indy with an emphasis on seasonal, locally produced and international cuisine. Catch us at our many locations and let us know what you think.Chefs Becky Hostetter and John Garnier serve at least two choices a day with the emphasis on seasonal, locally produced and international cuisine. Two chefs, two plates. Let us feed you. It's slow food fast.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Duos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4de48976-638c-41ae-99b0-4bf946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

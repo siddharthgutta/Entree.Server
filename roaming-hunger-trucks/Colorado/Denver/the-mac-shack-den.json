@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Mac Shack is making Denver's most delicious meals on the move. Whether it's their signature mac and cheese, stuffed burgers, lettuce wraps, chicken cheese bombs, or another delicious dish, you'll surely find something to love on their menu.Whether you need a tasty treat on the street, or to cater your most important events, The Mac Shack is the perfect truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Mac Shack",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f57526-2f08-4247-bf10-2e0a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Charlie Tulum's Dos Taco Truck has more flavors than you tongue can handle. When you think \"Taco Truck\" you typically think Mexican cuisine, not for Charlie Tulum's. His idea of what to serve on a tortilla was more than just Mexican, he brings various cuisine to the plate: Asian Fusion, Hawaiian, Japanese, Korean, Middle Eastern, Seafood and Vegetarian. His menu will sure send you home with a happy stomach belly!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Charlie Tulum's Dos Tacos",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/9279/553cf749-a598-4369-9a7c-7a8046204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cirlce City Coffee Company is the premier mobile coffee shop serving the greater Indianapolis, Indiana area. Opening our doors in 2007 we have not looked back always redefining ourself taking the experience to the next level. We take pride in every drink we make and the smiles and \"thank you's\" we receive in return.To say we're passionate about coffee is an understatement. We want you to sip, relax and enjoy your event so please give us a call or email for pricing and with your questions. No matter if your event is in Indianapolis, Fishers, Southport or any other greater Indianapolis area we have you covered. After all, specialty coffee is for all events, just ask the line!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Circle City Coffee",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f278dff-0678-4dd3-a61e-6fd746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

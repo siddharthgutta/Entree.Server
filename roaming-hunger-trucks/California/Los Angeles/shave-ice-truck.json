@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Los Angeles Shave Ice Truck is here to serve delicious and refreshing Hawaiian style shave ice treats all over the Los Angeles area. Our Shave Ice is made with fluffy snow, not crunchy snow cone ice. All our syrups are made with real cane sugar and never with high fructose corn syrup.  This is a real melt in your mouth, good to the last spoonful dessert.Shave Ice is a no guilt treat! Vegan, Gluten Free, Low Calorie, Lactose Free, Fat FreeIce Cream, Sweet Cream, Azuki Beans, and Li Hing Mui can be added for an additional cost. We also have a select amount of Agave based syrups per request.  Lastly, we are committed to helping the environment. We will only use compostable bowls and spoons.  ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Shave Ice Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57699313-f91c-4d51-a981-0f4546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

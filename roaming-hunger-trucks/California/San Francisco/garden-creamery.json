@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Garden Creamery's frozen treats are hand-crafted in small batches right here in Northern California with the best local ingredients available. We craft our ice cream from scratch, pasteurizing our dairy and modifying each recipe according to flavor, resulting in superior flavor and texture. Our ice cream and semifreddo novelties are crafted with Straus organic dairy and our sorbet is plant based and sweetened with agave nectar.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Garden Creamery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/3531/570f1862-b120-40e6-a7cd-235746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

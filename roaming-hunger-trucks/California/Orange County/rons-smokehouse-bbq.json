@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Ron's Smokehouse BBQ is that company.We can service any type of event - birthdays, corporate functions, baby showers, weddings, church events, grand openings, public and private schools events, and much more.......Ron's Smokehouse BBQ understands the unique needs that make an event special and memorable. Quality and service is our Priority!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ron's Smokehouse BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/556f50c5-1180-4951-8748-015b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

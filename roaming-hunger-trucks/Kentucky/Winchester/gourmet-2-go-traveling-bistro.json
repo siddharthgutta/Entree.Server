@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Gourmet 2 Go is a real Traveling Bistro, serving up the fantastic cuisine you crave! You'll find great burgers, fish tacos, chicken wings, and so much more at this great truck. For the greatest grub on the go, you can't miss Winchester's first restaurant on wheels!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Gourmet 2 Go Traveling Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d64164-7f44-431e-897f-7f1a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Bringing \"Feel Good Food\" to the streets, People's Food Truck is here on a mission! The price of every meal bought at this non-profit food truck pays for providing three meals to those in need. Rolling down a street near you with a Mississippi inspired menu and a lot of heart, People's Food Truck will be your new favorite food truck in no time!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "People's Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d393fd-ca24-4e20-b539-445346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

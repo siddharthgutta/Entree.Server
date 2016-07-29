@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The only genuine barbecued lamb in all of Boston, Wow Barbecue is bringing you the taste that nobody else can! Skewered and cooked to perfection, Wow Barbecue's amazing menu is sure to have something you'll love. Lamb, chicken, beef, shrimp, tofu, you'll find it all at Wow Barbecue!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Wow Barbecue",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/558de466-a704-4fe0-ab0c-438346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

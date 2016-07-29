@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "PBJ's Grilled is Portland's favorite PB&J; cart. Their PB&J;'s combine the classic tastes of your favorite childhood sandwich with gourmet ingredients for your grown up palate. All of their sandwiches are handcrafted and made with fresh and local vegetarian and vegan ingredients. A local favorite is the \"Hot Hood\" sandwich made with black cherry jam, roasted jalapeno, applewood bacon, and PBJ's peanut butter. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PBJ's Grilled",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524f6a75-0cc4-4870-b6e5-78b446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

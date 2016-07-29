@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Virgil's Jamaica specializes in bringing the taste of the islands to the streets of Raleigh/Durham, NC. A local favorite is their tasty jerk chicken made with Virgil's very own homemade jerk sauce! Make sure to get a side of sweet plantains with your tangy chicken for the perfect combo. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Virgil's Jamaica",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522f9436-4d80-4fa5-b7e1-6fdb46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mardi Gras is finally here on the streets of New Jersey! The Mobile Mardi Gras Food Truck is serving up the best Cajun & Creole cuisine you've ever seen. Po boys, gumbo, etoufee, and more are ready and waiting to deliver you to a new level of flavor!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mobile Mardi Gras Food Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/557a11ed-4f90-4abd-9604-5a6f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best slow-smoked BBQ in Alabama is heading right to you, thanks to Lazy Boy BBQ! This family-run business takes pride in their BBQ, seasoning and wood-smoking it to perfection so you enjoy your meal from the first bite to the last. So if you're craving the best pulled pork, brisket, chicken wings, and so much more, Lazy Boy BBQ is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lazy Boy BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55ba8c18-0d5c-40de-988f-3d4346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Springs Cupcake Truck is a vintage step van that brings delicious homemade cupcakes to the Colorado Springs area! The Springs Cupcake Truck offers home-made cupcake goodness with signature flavors and seasonal favorites. Their daily menu includes Colorful Colorado Chocolate, Snowblind Vanilla, The Peak (Chocolate with Cream Cheese), and Red Rocks Red Velvet.  Specialties include our Sunshine Lemon, Camo Coffee, S'more Please, Cookies & Cream, Mudslide, and many more. Check in often to find out the additional Flavors of the Day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Springs Cupcake Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4431/53f244a6-63a0-42e5-8f4a-0fe346204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

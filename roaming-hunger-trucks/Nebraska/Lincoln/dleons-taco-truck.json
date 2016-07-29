@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "D\u2019Leon\u2019s Taco Truck is an extension of one of Lincoln\u2019s most beloved Mexican restaurants, and it\u2019s roaming the streets and dishing out all their best eats. Their bulging Breakfast Burritos will start your day off deliciously with steak, eggs, and cheese. And if you\u2019re hungry later on, come out again for their yummy Mini Tacos, Carne Asada Burrito or the Grilled Chicken Burrito, if you please. You bring your appetite, they\u2019ll have the lime, now come on out to D\u2019Leon\u2019s Taco Truck for a terrifically tasty time.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "D'Leon's Taco Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/57100e2d-14bc-4f2f-874e-448a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

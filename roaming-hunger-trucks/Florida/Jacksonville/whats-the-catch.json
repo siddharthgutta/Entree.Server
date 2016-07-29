@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, gourmet, delicious seafood and chicken is here for the people of Jacksonville! What's the Catch is serving up the best around, with grouper, shrimp, tuna, and chicken tacos! These Jacksonville natives love their city and it's ocean, and you're sure to taste that love in every dish they serve.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "What's the Catch",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555522ca-00fc-4878-a2c9-505d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fast, hot, and yummy, that's what you'll find when you try Running Wild BBQ! On a mission to serve you the best meals in the Midwest, Running Wild is always cooking up something special that your taste buds are sure to love. BBQ Beef, Smoked burgers, and so much more are being made fresh and fantastic for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Running Wild BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5668bae7-fca8-4b93-95f1-6ae246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

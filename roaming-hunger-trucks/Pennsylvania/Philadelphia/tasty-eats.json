@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Philadelphians are sure enjoying their \u2018phil\u2019 of the wonderful meals and soft serve ice cream at Tasty Eats. When they eat here, they can\u2019t help but feel the brotherly love!This truck\u2019s incredible menu includes fresh-cut fries, homemade peach cobbler, and delish fish tacos. With a rolling kitchen brimming with a deep fryer, a flat grill, char-grill, steam table, cold station, fridge, freezer AND a soft serve machine, these folks can whip up such a versatile selection of Tasty Eats, you are in for quite a treat. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Tasty Eats",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56f2d736-6d18-405d-8042-659546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

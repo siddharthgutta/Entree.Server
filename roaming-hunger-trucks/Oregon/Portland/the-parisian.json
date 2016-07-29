@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Parisian truck is providing the people of Portland and surrounding areas with delicious French creations, and of course, everyone\u2019s appetite is pleased by their tasty assortment of sweet & savory crepes and French baguette sandwiches. You simply must try anything from their delectable selection, which includes Crepes with Ham & Asparagus Alfredo, or Goat Cheese & Arugula, and don\u2019t forget to treat yourself to their Chocolate Praline or Mascarpone Berry Crepes! For this, baguette sandwiches, crepe snacks, and more, come delight in the classic cuisine from The City of Light (you\u2019ll be feeling that foodie amour).",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Parisian",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/13795/577ed1d7-f58c-4323-acfd-0a1946204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

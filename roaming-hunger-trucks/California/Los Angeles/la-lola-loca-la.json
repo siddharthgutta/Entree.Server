@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "La Lola Loca is a truck serving delicious Latin American cuisine to the streets of Los Angeles. When you marry fresh ingredients, traditional flavors, and fun methods of cooking them up, you end up wanting to marry the result: La Lola Loca, herself. Welcome Lola to your party and let plates of marinated meats and loco salsas do the rest...or give in to her trio of fiery sauces...or her loaded quesadilla.You know... one could go loco trying to decide.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "La Lola Loca",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/541b5606-dfb0-4305-b3b8-519c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

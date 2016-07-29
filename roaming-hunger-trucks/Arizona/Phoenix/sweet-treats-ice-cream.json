@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "In the sizzling Phoenix sunshine, there\u2019s nothing quite like a delightfully refreshing scoop of Thrifty Ice Cream from this Sweet Treats truck.Jasmine & Joann Williams had a dream to share a scrumptious taste of Jasmine\u2019s childhood in LA with their children, thus Sweet Treats Ice Cream has hit the streets and they\u2019re serving this beloved summer sweet the old fashioned way. The assortment of delicious flavors range from classic, like Cookie & Cream, Mint Chip, and Rocky Road, to quirky, like green tea, blueberry cheesecake, circus animal cookies, and more! The scoops are an iconically cylindrical shape so stacking on 1, 2, or 3 of your favorite flavors has never been easier. Cool off your day the neatest way with Sweet Treats Ice Cream!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Sweet Treats Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/577d8927-d384-4cf7-9027-141246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

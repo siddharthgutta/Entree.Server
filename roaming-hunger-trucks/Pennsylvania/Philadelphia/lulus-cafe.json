@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Join Lulu's Cafe on the go for some tasty pitawiches, wraps, and salads! These healthy sandwiches and wraps can be filled with a variety of Mediterranean flavors like garlic chicken, falafel, hummus, and much more! If you're in the mood for some more greens grab one of their classic Greek or Caesar salads. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lulu's Cafe",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5233d222-9bf0-4a74-b526-101446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

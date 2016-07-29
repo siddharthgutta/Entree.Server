@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Saigon Kitchen is serving up some Vietnamese and Asian Fusion dishes to hungry Portland residents. Their entrees choices include Curry Chicken, Curry Tofu, Spicy Chicken, Tofu wraps and more. A local favorite is the peanut-based curry that includes marinated potatoes, and carrots on a bed of rice. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Saigon Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/524a17b1-1f44-4cdf-ae0a-311646204482.jpeg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mission: Healing our planet, one meal at a time. Green Truck serves an all organic menu sourced from local organic farms, and their trucks run on waste veggie oil. Yep, that\u2019s right, the all-natural vegetable oil they use to cook is recycled and fuels the Green Truck. Even their packaging and utensils are made from compostable materials. Try their signature Mother Trucker vegan veggie burger, add an heirloom beet salad and an organic fresh-squeezed lemonade and you\u2019ve got their \u201cHappy Trucker Meal\u201d. But for all you pescatarians and carnivores, don\u2019t worry they\u2019ve got you covered. The free-range chicken pesto wrap or wahoo fish tacos will sustainably satisfy your taste buds.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Green Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4f3aebd3-5de8-4282-9f35-6bcd46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "We Feature Fresh, Local Ingredients! Lil\u2019 Pop Shop's unique ice pops are hand-crafted in small batches from a seasonal assortment of fresh, natural, locally-sourced ingredients. No neon or artificial ingredients or dyes are ever used in our ice pops. Just fresh fruit, sugar, herbs, spices, milk, yogurt and cream.Who we are...Jeanne Chang grew up eating sticky fluorescent popsicles in Southern California and saw the light after she had her first Locopop in Durham, North Carolina. Trained as a pastry chef at the Culinary Institute of America, she's on a mission to make the best-tasting, better-for-you ice pops that she wouldn't hesitate giving her kiddo. Currently her favorite flavor is Creamy Sweet and Salty Summer Corn. You can find her at the shop or hanging out at Clark Park with her little one.Vince has been chasing Popsicle trucks pretty much since he started walking. He hails from California but currently lives in London, where he serves as the managing director and vp of strategy for SquareTrade Inc.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Lil Pop Shop",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/506f1d82-000c-419f-b3e7-771a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

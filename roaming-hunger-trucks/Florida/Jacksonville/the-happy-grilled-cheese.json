@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Happy Grilled Cheese is sure to deliver a smile to all Jacksonville foodies! All of the specialty grilled cheese sandwiches are always made-to-order and their menu rotates weekly so you'll always find something new for your taste-buds to enjoy! In addition they also serve quality salads and soups to accompany your delicious melt. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Happy Grilled Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51be57ba-6b78-4692-b334-748846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

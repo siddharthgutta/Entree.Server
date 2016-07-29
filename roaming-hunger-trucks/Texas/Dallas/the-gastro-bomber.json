@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Gastro Bomber is a Mansfield-based truck serving up traditional pub grub with a Texas twist and the customary pub culture\u2026good music and friendly conversation! Check out the Irish Nachos, Fish & Chips, or the Mushroom Sliders, and grab yourself a tasty bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Gastro Bomber",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/54760742-c5c8-4f55-8930-655d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

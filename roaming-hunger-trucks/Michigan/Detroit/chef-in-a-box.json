@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This dazzling truck is bringing the best cuisines of the world straight to the streets of Detroit, and everyone is finding the food from Chef in a Box to be amazingly delicious.  Their eclectic menu includes favorites from American, Mexican, and Middle Eastern fare, like their Bacon & Cheddar Burger (\u2153 lb beef patty, topped with hickory smoked bacon, yummy melted cheddar, and all the rest of the best burger fixings), the Battered Fish Tacos (batter-fried cod, shredded cabbage blend, tangy pico de gallo, cilantro- lime sauce, within a grilled flour tortilla), and Chicken Shawarma (juicy grilled chicken breast, pickle, and garlic sauce, all in a warm tortilla). For all this and much more, come on up to the Chef in a Box (or call on this truck to cater your next event), and indulge in the tastiest bang for your buck. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef In A Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/574dd8b9-d404-4269-906e-630746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

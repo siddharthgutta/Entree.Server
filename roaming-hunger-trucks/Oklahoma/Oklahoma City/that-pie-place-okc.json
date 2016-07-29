@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Your favorite dessert is right around the corner, thanks to That Pie Place! OKC's premier pie shop is on the move to better serve you, with all the amazing flavors you know and love made fresh and fantastic. Apple, pecan, coconut cream, and so many more delectable pies are being dished out today, from That Pie Place!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "That Pie Place",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5654f4ed-ce3c-4581-9616-784e46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

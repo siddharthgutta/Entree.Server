@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Jackson's premier vegetable-based mobile cafe, The Hungry Eggplant is here! Serving up delicious vegetarian cuisine like their portobello burger, nacho tots, vegan mac 'n' cheese, and more! The friendliest service and tastiest treats are sure to brighten any day, so stop on by and experience the Hungry Eggplant today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Hungry Eggplant",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5526e849-ce24-4124-8787-540246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

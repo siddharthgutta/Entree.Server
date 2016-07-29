@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Food Box is bringing an international twist to Southern cuisine on the streets of Charleston! Chef Savage and his years of culinary training are sure to satisfy your cravings for the absolutely delicious. Try the Box Burger, Roasted Poblano Sandwich, Ham & Brie, or any of these amazing menu items today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Food Box",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55a81c1c-1034-4436-95f4-3eb246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

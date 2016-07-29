@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Boba Truck! is a state of the art mobile tea and coffee brewery that will be serving Southern California.  Our exclusive process allows us to brew each drink to order one at a time. This ensures that you are drinking the freshest possible tea with all the flavors and anti-oxidants intact. Because your drink is brewed and made to order, the tea strength and sweetness is also fully adjustable. Every drink can be enjoyed hot or iced.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Boba Truck!",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/4d22a733-fddc-41cb-a485-628b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

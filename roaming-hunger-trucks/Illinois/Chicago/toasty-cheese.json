@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Toasty Cheese Mobile Eatery is serving the streets of Chicago some of the best sandwiches in town. Classics like American and Cheddar on white bread are available alongside artisan creations like Duck Bacon, Provolone, fresh Ppinach and fresh Baby Arugula with a Sicilian cherry Tomato a\u00efoli on Sourdough bread. Wow! Toasty Cheese mobile eatery also has from scratch gourmet French Fries, Soups, and vegetarian and gluten-free selections.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Toasty Cheese",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50df6c9b-5110-48d8-aef8-708946204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

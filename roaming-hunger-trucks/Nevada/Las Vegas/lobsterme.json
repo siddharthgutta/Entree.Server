@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Lobster ME prepares all of its lobster with their secret, signature take on the traditional New England fashion. Their signature Lobster Rolls are joined by a selection of all things lobster, including Lobster Mac & Cheese, Lobster Salad, Lobsticle (Fried Lobster Tail on a Stick) and amazing Lobster Ice Cream. If you're hungry just hearing about this, stop by today, and try a bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "LobsterME",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/52afac13-3198-44ac-9ba2-27b846204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

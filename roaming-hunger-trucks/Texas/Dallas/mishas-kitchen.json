@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Misha's Kitchen is the first and only Russian Fusion food truck in DFW! They travel the metroplex selling delicious food, from Pierogis and Chicken Kiev, to Caviar Crepes and Russian Dumplings. If the sound of that makes your mouth water, stop by today, or bring them to you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Misha's Kitchen",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/547620b2-1df8-4c77-9b9f-7b4a46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

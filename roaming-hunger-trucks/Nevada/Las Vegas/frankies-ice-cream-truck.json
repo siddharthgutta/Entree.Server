@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If it\u2019s feeling a little too lava-hot out in Las Vegas, Frankie\u2019s Ice Cream Truck has got just the refreshing treat for you. This family-run truck is serving up a delightful selection of sweet noshes, like novelty popsicles, handmade banana splits, brownie sundaes, waffle cones, and milkshakes too. And if you\u2019re feeling hungry for something savory, Frankie\u2019s is your one-stop-shop. Just step on up and order some ballpark nachos, hot dogs, or delicious roasted Mexican street corn (elotes). And if you\u2019re planning a birthday party or big event, Frankie\u2019s Ice Cream Truck, with all its fun and frills, is frankly the perfect choice. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frankie's Ice Cream Truck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/574df621-b754-429a-a5d2-2d3b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

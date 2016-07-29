@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Frankly Sausages is serving up artisan sausages that you can really sink your teeth into! With a chef-driven menu of delicious sausages and hand cut fries, this food truck is sure to have something to satisfy your cravings. Food that's open, honest, and absolutely amazing, Frankly Sausages is just what you need!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Frankly Sausages",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/566f2dd3-3acc-41a7-a1a0-3f5246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

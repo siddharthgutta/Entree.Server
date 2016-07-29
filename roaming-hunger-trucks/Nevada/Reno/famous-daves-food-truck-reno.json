@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Grab some 'Que on the go! Famous Dave's BBQ has added a food truck to its team and they are ready to serve you the best food around! Ribs, wings, BBQ tacos, and much more are all ready fill you up and satisfy your hunger for the finest BBQ in town!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Famous Dave's Food Truck Reno",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5531793d-a898-4ed9-b0d0-34e346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fishin' Ships is bringing you Portland's finest fish & chips, straight from the ocean to a curb near you! Locally sourced fish battered in locally brewed beer, these delicious dishes are really giving you a taste of fresh, local fare. Whether it's their signature fish & chips, fish tacos, curry-fish slider, or any of their other scrumptious seafood delights, Fishin' Ships is bringing you the very best in every single bite!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Fishin' Ships",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55aedb7e-57f8-4b86-ac1d-34f346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

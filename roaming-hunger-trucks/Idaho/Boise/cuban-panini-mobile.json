@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, delicious, authentic Cuban sandwiches and desserts! Cuban Panini is serving up the best of the best on the streets of Idaho. Big, savory, hot, and fresh are what will come to mind when you visit them. Sure to leave you happy and satisfied, Cuban Panini is the best decision you'll make all day!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cuban Panini Mobile",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/552ecc9e-6b18-4142-a466-04e646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

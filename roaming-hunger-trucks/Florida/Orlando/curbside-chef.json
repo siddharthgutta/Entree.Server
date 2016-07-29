@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "As a Culinary Institute of America (CIA), we offer a wide variety of menu selections. We don't specialize just one type of food. Our Curbside Tacos are small, but packed with flavors. Our Napa Valley Goat cheese ravioli is finished with Porcini Mushroom Powder and Basil Oil. We also offer Middle Easter Falafel, which is fried chickpeas, gluten, nut, and daily FREE item.Check us out, see you \"Curbside!\"",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Curbside Chef",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50a5a0b4-a70c-499f-b791-479146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

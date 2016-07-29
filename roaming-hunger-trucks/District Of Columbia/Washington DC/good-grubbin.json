@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A fajita food truck in NoVa, serving the Tyson's, Reston, Herndon and LoCoBased in Ashburn and serving Northern Virginia, we at Good Grubbin\u2019 are dedicated to bringing you a high-quality product at a price that is affordable. It is our intent to develop a clientele that wants us to be around and, once you know us, we want to be your \u201cgo to\u201d place.Concept designer, Doug Bowman, has over 30 years of hotel and restaurant experience to draw from and our core menu is adapted from a Tex-Mex dive in Denver, Colorado.Our highly-versatile truck allows us to be a mobile food truck and offer catering at any level of service. From back-to-school nights with burgers and dogs to fine dining featuring Veal Osso Bucco and Tuna Tartare, we can truly do it all.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Good Grubbin",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/50612c0b-9450-4b3e-93f6-07e746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

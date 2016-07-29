@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Brew & Foam is a mobile coffee truck who serve fine espresso, artisan gelato and healthy treats.  Brew & Foam can be found located between Haleiwa to Sunset Beach and everywhere in between ready to refresh your hot hawaiian day while off for a surf or just hitting the sand. ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "BREW & FOAM",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/7883/554171ad-24dc-4b39-98e5-3dd546204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "RAWR!! It's Chef Toddzilla's Mobile Cuisine here to quell your hunger! Giant burgers with choices of toppings ranging from green chile to chile rellenos to tumbleweeds. Don't forget to get fries on the side - with special Zilla spice blend on top.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chef Toddzilla's Mobile Cuisine",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/553ab7ce-aff8-480f-81a5-488b46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

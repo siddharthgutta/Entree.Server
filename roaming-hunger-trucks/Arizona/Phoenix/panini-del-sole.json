@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Panini Del Sole is an Arizona gourmet food truck serving up hot, pressed, panini sandwiches to the Mesa streets. These delicious pressed sandwiches are made to order, and if you're not hungry for something fresh off the grill, try the mac 'n' cheese bites or the mini mac muffins instead! Stop by today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Panini Del Sole",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/548f2415-7a30-444d-aa1b-451946204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

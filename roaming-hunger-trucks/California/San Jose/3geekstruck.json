@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nobody will make you a better sandwich on the streets of California than 3geeks! With fresh ingredients and a wide variety of toppings, each sandwich you order is made just the way you want. Sink your teeth into the most savory cheesesteaks, po'boys, fish & chips, and so much more, today!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "3geekstruck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55dcd631-c6a8-4b9c-b4bc-6c0446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

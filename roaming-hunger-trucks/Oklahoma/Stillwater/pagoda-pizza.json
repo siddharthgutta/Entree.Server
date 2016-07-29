@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "City: Stillwater, OK Stillwater's Pagoda Pizza specializes in Japanese comfort food, \"Okonomiayki.\" This Japanese delicacy resembled a pancake and contains a variety of ingredients. Try the Fuji, topped with veggies, noodles, shredded cheese, a layer of fresh scallions, and a fried egg on top! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Pagoda Pizza",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/522e9433-a200-44d5-a8a5-7bb746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

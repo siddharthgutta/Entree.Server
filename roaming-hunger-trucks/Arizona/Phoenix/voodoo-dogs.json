@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Look out Phoenix, you're about to have the best hot dog you've ever tasted. Voodoo Dogs serves delicious, gourmet style hot dogs. Don't miss their delicious styles such as the El Sonoran, the Hawaiian Kona Dog, the Voodoo Dog, and the Windy City Dawg, the Bohemian Dog and the BLT Dog! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Voodoo Dogs",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/8379/54bc971c-ac30-45b2-9893-2f5c46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

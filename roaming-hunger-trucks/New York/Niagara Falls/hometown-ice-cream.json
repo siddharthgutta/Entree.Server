@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "All-natural ice cream made locally in the Niagara region, Hometown Ice Cream is here for you! No preservatives or additives here, just delicious ice cream, sorbet, and sherbets to satisfy your sweet tooth. Cones, bowls, and pints are all available in a wide range of flavours to please anybody, whatever their favourite flavour is!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Hometown Ice Cream",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/555e650a-ed50-41c4-974f-0e1d46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

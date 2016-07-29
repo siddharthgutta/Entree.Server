@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Cheeseburger Baby is the oldest burger joint on South Beach. Despite the overwhelming growth of burger joints in the last few years we continue to have the best and juiciest burger for your buck. We use certified Angus beef served on our fresh baked bread that is delivered daily, topped with your choice of cheese and covered with fresh grated lettuce, sliced tomatoes and our chopped crisp kosher pickles. We have plenty of options to suit your taste buds which includes vegetarian choices. Our cheeseburgers are always tender, always juicy, always flavorful and you will always be satisfied!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Cheeseburger Baby",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/2861/5791a8e0-ebd8-4890-822b-405446204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Nashville's #1 gourmet sliders are here! Electric Sliders sauces and toppings aremade-from-scratch, and all sandwiches come on a freshly baked, miniature brioche bun. This food truck is offering beef, chicken, pulled pork, and vegetarian options, so there's something for everybody!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Electric Sliders",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56ccf050-4c90-44f5-9561-5ff146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Louisville's premier lobster truck is bringing you the best roaming rolls on the road! Longshot Lobsta's lobster rolls are made with the best ingredients, the freshest bread, and the most succulent lobster you could ever ask for. If you're looking for fantastic seafood on the move, Longshot Lobsta is the truck for you!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Longshot Lobsta",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55d38aa2-3a18-468e-a51f-5c4546204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Smoke Ring BBQ is bringing magnificent BBQ to the streets of Michigan! You'll always find something juicy and delicious when you visit this fantastic food truck. Pulled pork, chopped chicken, mac n' cheese... this is a menu that everyone can enjoy! So stop by today and grab yourself some of the best grub in town from Smoke Ring BBQ!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Smoke Ring BBQ",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55c9391c-2d90-4f6f-afd2-503146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

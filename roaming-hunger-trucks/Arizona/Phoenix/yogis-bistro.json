@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Yogi\u2019s Bistro is the best place in Phoenix to get your hot dog & sausage fix. You\u2019re always sure to find an immense selection of premium & custom sausage links, turkey dogs, veggie dogs, and more, all served to you with the friendliest of smiles. So if you could go for a delicious dog, well then you gotta head straight to Yogi\u2019s Bistro!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Yogi's Bistro",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/578d4dbc-95e4-4d96-86ce-2eb646204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

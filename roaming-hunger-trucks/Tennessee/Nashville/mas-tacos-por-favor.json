@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Mas Tacos Por Favor is a mobile eatery in Nashville. Dubbed \"the best thing since country music in Nashville\" Mas Tacos has been a local favorite since hitting the streets. Their menu of tacos features carnivore options such as pulled pork, cast-iron chicken, and spicy carne molida alongside vegetarian options including quinoa with sweet potato and fried avocado. Their daily specails have ranged from fresh made tamales and chilaquiles to Pozole verde, tortilla soup, and sopa tarasca. Stop by for lunch daily and Brunch on the weekends.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Mas Tacos Por Favor",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/51798485-e0f4-4bd4-a4b3-271246204482.png",
+  "transactionFee": 30,
+  "username": ""
+}

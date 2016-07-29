@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The Ram's Roadhouse is definitely the ultimate fast food mobile joint in Middletown, PA. They are taking fast food and swift service to the streets like no other food truck serving anywhere from breakfast, specialty burgers, to homemade dishes. The perfect truck for your special event or catch them while you can for your next meal.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Ram's Roadhouse",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/554ba351-6014-44bc-80a6-717446204482.JPG",
+  "transactionFee": 30,
+  "username": ""
+}

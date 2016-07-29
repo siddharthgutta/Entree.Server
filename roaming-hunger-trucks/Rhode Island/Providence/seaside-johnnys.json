@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Seaside Johnny's is serving up Rhode Island's best mobile seafood! The perfect food truck for your clambakes, cookouts, and more, Seaside Johnny's will make sure you and your guests love everything they have to offer. The fresh and savory flavor you've been craving is here, thanks to Seaside Johnny's!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Seaside Johnny's",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55fb4bd0-2d04-4dee-b66a-4d4f46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

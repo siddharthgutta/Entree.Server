@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Fresh, local ingredients are making a splash by the shore with a little help from The Beachcomber! The truck is run by the local brothers behind 3 Foodies Roadfood, and these folks know what you're craving. Have your choice of delicious sandwiches, wraps, bowls, and many more astounding menu items!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Beachcomber",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/559db0c2-be34-44b7-95a7-4edf46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Chefs2U is a kitchen on wheels that's ready and waiting to make your next big event into something spectacular! A true culinary experience, these are chef-driven meals made before your eyes from a menu that's been designed to be just perfect for you and your guests. Never settle for less, get the very best with Chefs2U!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Chefs2U",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/568d4fdd-592c-4edd-af65-329346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

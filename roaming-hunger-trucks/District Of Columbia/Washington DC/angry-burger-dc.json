@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "If you're mad as hell and you're not going to take it anymore, Angry Burger is the truck for you. Sample their furiously flavorful and freshly ground beef patties, with toppings you can choose yourself! Maybe you'll find yourself not so angry when you're not so hungry. Book this truck today to add some tempestuous tastiness to any event.",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Angry Burger DC",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/56df304f-e2cc-4930-8c81-56b246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

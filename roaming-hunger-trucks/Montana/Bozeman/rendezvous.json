@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "The best tastes of Montana are on the move and coming to meet you at Rendezvous! Delicious BBQ is just the start with this food truck! Follow that delicious grub with one of their amazing Montana-style crepes, stuffed with delicious local meats, veggies, and more. Perfect when you're on the go or need to feed your next big event, Rendezvous is a truck that will never disappoint!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "Rendezvous",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/55b94611-3060-4b5c-908a-0d7246204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

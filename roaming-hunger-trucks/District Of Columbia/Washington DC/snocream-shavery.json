@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "SnoCream is a new frozen confection, a cross between ice cream and shaved ice that features soft ribbons of flavored sno. Originally a storefront, SnoCream has expanded to a mobile enterprise as well, and serves the NoVa and DC area with delicious desserts. A great way to beat the heat!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "SnoCream Shavery",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/543c2f41-cb4c-4799-a7f6-79fc46204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

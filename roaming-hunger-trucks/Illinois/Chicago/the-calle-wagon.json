@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "A gourmet Mexican/Mediterranean food truck roaming the suburbs of Chicago! Have you been craving a delicious vegetarian quesadilla on flat bread? How about a flour tortilla stuffed with slow-roasted shredded beef, Habanero Hominy, and all the fillings you could ask for? Then go no further than The Calle Wagon for all your delicious needs!",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "The Calle Wagon",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5519cdd0-e370-42c4-a0f9-4f7746204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

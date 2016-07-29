@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "This lively truck is serving up quite a tasty selection of gourmet hot dogs and fries, such as their American Loaded Dog (toasted hoagie with a Hebrew national dog, topped with heaping fries, cheese, and bacon) and the El Chapo Dog (Chicago style poppy seed bun, Hebrew national dog topped with queso blanco, pico de gallo, chorizo, and cotija), to Pom Fries (fresh hot french fries topped with goat cheese, pomegranate balsamic glaze, and basil) to good ole\u2019 Canadian Poutine, and everything in between. With such delicious eats at their disposal, of course it\u2019s no surprise that Tampanians can\u2019t resist the temptation!So come on over to try any of these hot doggy dishes, and don\u2019t be shy! Just don\u2019t say \u201chi,\u201d because it\u2019s \u201cWhat up dog?\u201d and the answer will always be \u201csomething delicious!\" ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "What Up Dog",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/571e77a8-82e0-49b5-b34c-5c4146204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}

@@ -1,0 +1,55 @@
+{
+  "address": "",
+  "description": "Great Truck!! Great Service!! Great food!! Specially for You All in Los Angeles!!! Kura( Grilled Chicken), Pierogis( Polish Dumplings), Kielbasa( Polish Sausage), Golabki( Stuffed Cabbage),Bigos( Hunter Stew), with delicious Salad, or Polish Bread!!Healthy, Nutritious, Delicious, Polish Dishes!!! ",
+  "exampleOrder": "",
+  "hours": [
+    {
+      "closeTime": "",
+      "day": "Monday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Tuesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Wednesday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Thursday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Friday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Saturday",
+      "openTime": ""
+    },
+    {
+      "closeTime": "",
+      "day": "Sunday",
+      "openTime": ""
+    }
+  ],
+  "name": "PolkaPierogiTruck",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "",
+      "phoneNumber": ""
+    }
+  },
+  "password": "",
+  "percentageFee": 6,
+  "profileImage": "http://roaminghunger.com/img/trucks/original/5776f1fa-cfcc-4fae-b0bf-264346204482.jpg",
+  "transactionFee": 30,
+  "username": ""
+}
