@@ -1,0 +1,49 @@
+{
+  "name": "Rhythm Wraps",
+  "username": "rhythmicwraps",
+  "password": "bostontrucks",
+  "description": "Delicious Vegetarian Food",
+  "profileImage": "http://rhythmnwraps.com/images/background2.jpg",
+  "address": "1 Oxford St, Cambridge, MA 02138",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "1 Fire Burrito",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://rhythmnwraps.com/menu.html",
+      "phoneNumber":"8578291090"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    }]
+}

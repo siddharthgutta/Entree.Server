@@ -1,0 +1,49 @@
+{
+  "name": "BonMeTruck",
+  "username": "BonMe",
+  "password": "filipinocuisine",
+  "description": "Bold, Fresh, and Fun Asian Cuisine",
+  "profileImage": "http://roaminghunger.com/blog/wp-content/uploads/2014/10/bonme_truck-e1414439551641.jpg",
+  "address": "Blossom St & Emerson Pl, Boston, MA 02114",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Noodle Soup",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "http://www.bonmetruck.com/menu/",
+      "phoneNumber":"6179899804"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "19:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "19:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "19:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "17:00"
+    }]
+}
