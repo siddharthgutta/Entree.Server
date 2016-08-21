@@ -1,0 +1,49 @@
+{
+  "name": "Red Bones",
+  "username": "redbones",
+  "password": "foodtruck",
+  "description": "Authentic Downhome style Southern Food",
+  "profileImage": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Boston_food_truck._03.jpg",
+  "address": "Harrison Ave & E Concord St, Boston, MA 02118",
+  "percentageFee": 6,
+  "transactionFee": 30,
+  "exampleOrder": "Chopped Brisket and Slaw",
+  "optional": {
+    "producer": {
+      "enabled": true,
+      "menuLink": "https://www.redbones.com/redbones-food-truck.html",
+      "phoneNumber":"6178888106"
+    }
+  },
+  "hours":
+  [{
+    "day": "Monday",
+    "openTime": "11:00",
+    "closeTime": "15:00"
+  },
+    {
+      "day": "Tuesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Wednesday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Thursday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Friday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    },
+    {
+      "day": "Saturday",
+      "openTime": "11:00",
+      "closeTime": "15:00"
+    }]
+}
